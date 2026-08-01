@@ -8,20 +8,28 @@ Japan and, later, other countries — so human review is the exception, never th
 default.
 
 ## Project shape
-- `lib/db.ts` — data access. Seed JSON now; Postgres/PostGIS (`db/schema.sql`) in Phase B.
-- `scripts/collect-overpass.mjs` — pulls cafes from OpenStreetMap (ODbL base layer).
-- `scripts/enrich.mjs` — researches Wi-Fi/outlet data + runs the auto-approval gate.
+- `data/collected/raw/*.json` — the web-researched cafe records per ward (name, Wi-Fi/outlets, sources, confidence). This is the working dataset.
+- `scripts/build-seed.mjs` — rebuilds `data/seed/*.json` (what the site reads) from the raw files. Run this after editing any raw file.
+- `scripts/enrich.mjs` — the auto-approval **gate** logic (`decide()`): auto-publish vs. escalate.
+- `scripts/collect-overpass.mjs` / `collect-tokyo.mjs` — optional OpenStreetMap collectors; currently we use web research instead.
+- `lib/db.ts` — data access. Seed JSON now; Postgres/PostGIS (`db/schema.sql`) later.
 - Pages are static (SSG) for SEO/GEO; the sitemap regenerates on build.
 
+## How this runs (automation)
+- `.github/workflows/weekly-cafe-update.yml` — scheduled weekly refresh; Claude researches + gates, then opens a PR. Merging publishes (Vercel auto-deploys).
+- `.github/workflows/claude.yml` — on-demand: mention `@claude` in a GitHub issue/PR to build a feature; it opens a PR. The build must pass before anything can publish.
+- Global brand (`WorkingCafes`): the data model already carries `city`/area, so adding cities/countries is a data operation, not a code change.
+
 ## Weekly automated run (target: unattended)
-1. **Collect.** For each covered area, run `collect-overpass.mjs <area>` to find
-   new/removed cafes. New cafes enter as `draft`, `confidence: low`.
-2. **Research.** `enrich.mjs <area>` calls Claude to propose Wi-Fi / outlet /
-   laptop-friendly values, each with a **confidence** level and **source URLs**.
-   Rules for the research step:
-   - Write ORIGINAL summaries. Never copy source text (guardrail).
-   - Set confidence honestly; set `sourceConflict: true` when public sources disagree.
+1. **Research (web).** For each covered area, use Japanese + English web research
+   to find new work-friendly cafes and re-check existing ones. Add records to the
+   ward file in `data/collected/raw/`. Rules:
+   - Every cafe needs at least one real **source URL**. Never fabricate.
+   - Write ORIGINAL one-sentence summaries. Never copy source text (guardrail).
+   - Set **confidence** honestly (high = 2+ agreeing sources); flag conflicts.
    - Prefer official pages and recent, corroborating sources.
+2. **Rebuild.** Run `node scripts/build-seed.mjs` to regenerate `data/seed/*.json`
+   from the raw files, stamping `lastChecked` with today's date.
 3. **Gate (auto-approval).** `decide(existing, proposed)` in `enrich.mjs`:
    - **Auto-publish** when confidence is high, sources agree, it isn't a closure,
      and it isn't a surprising flip. Stamp `last_checked = today` and publish.
