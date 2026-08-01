@@ -1,0 +1,252 @@
+[
+  {
+    "slug": "tokyo-station",
+    "name": "Tokyo Station",
+    "lineNames": [
+      "JR Yamanote",
+      "Marunouchi",
+      "Tokaido Shinkansen"
+    ],
+    "areaSlug": "chiyoda",
+    "lat": 35.6812,
+    "lng": 139.7671
+  },
+  {
+    "slug": "yurakucho",
+    "name": "Yurakucho",
+    "lineNames": [
+      "JR Yamanote",
+      "Yurakucho"
+    ],
+    "areaSlug": "chiyoda",
+    "lat": 35.6749,
+    "lng": 139.763
+  },
+  {
+    "slug": "otemachi",
+    "name": "Otemachi",
+    "lineNames": [
+      "Marunouchi",
+      "Tozai",
+      "Chiyoda",
+      "Hanzomon",
+      "Toei Mita"
+    ],
+    "areaSlug": "chiyoda",
+    "lat": 35.6876,
+    "lng": 139.7665
+  },
+  {
+    "slug": "kanda",
+    "name": "Kanda",
+    "lineNames": [
+      "JR Yamanote",
+      "Ginza"
+    ],
+    "areaSlug": "chiyoda",
+    "lat": 35.6918,
+    "lng": 139.7709
+  },
+  {
+    "slug": "akihabara",
+    "name": "Akihabara",
+    "lineNames": [
+      "JR Yamanote",
+      "JR Sobu",
+      "Hibiya",
+      "Tsukuba Express"
+    ],
+    "areaSlug": "chiyoda",
+    "lat": 35.6984,
+    "lng": 139.7731
+  },
+  {
+    "slug": "jimbocho",
+    "name": "Jimbocho",
+    "lineNames": [
+      "Toei Mita",
+      "Toei Shinjuku",
+      "Hanzomon"
+    ],
+    "areaSlug": "chiyoda",
+    "lat": 35.6959,
+    "lng": 139.7576
+  },
+  {
+    "slug": "nakameguro",
+    "name": "Nakameguro",
+    "lineNames": [
+      "Tokyu Toyoko",
+      "Hibiya"
+    ],
+    "areaSlug": "meguro",
+    "lat": 35.644,
+    "lng": 139.6987
+  },
+  {
+    "slug": "jiyugaoka",
+    "name": "Jiyugaoka",
+    "lineNames": [
+      "Tokyu Toyoko",
+      "Tokyu Oimachi"
+    ],
+    "areaSlug": "meguro",
+    "lat": 35.6076,
+    "lng": 139.669
+  },
+  {
+    "slug": "meguro",
+    "name": "Meguro",
+    "lineNames": [
+      "JR Yamanote",
+      "Namboku",
+      "Toei Mita",
+      "Tokyu Meguro"
+    ],
+    "areaSlug": "meguro",
+    "lat": 35.6339,
+    "lng": 139.716
+  },
+  {
+    "slug": "roppongi",
+    "name": "Roppongi",
+    "lineNames": [
+      "Hibiya",
+      "Toei Oedo"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.6628,
+    "lng": 139.7315
+  },
+  {
+    "slug": "azabu-juban",
+    "name": "Azabu-Juban",
+    "lineNames": [
+      "Namboku",
+      "Toei Oedo"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.6556,
+    "lng": 139.7365
+  },
+  {
+    "slug": "shimbashi",
+    "name": "Shimbashi",
+    "lineNames": [
+      "JR Yamanote",
+      "Ginza",
+      "Toei Asakusa",
+      "Yurikamome"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.6664,
+    "lng": 139.7583
+  },
+  {
+    "slug": "uchisaiwaicho",
+    "name": "Uchisaiwaicho",
+    "lineNames": [
+      "Toei Mita"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.669,
+    "lng": 139.753
+  },
+  {
+    "slug": "tamachi",
+    "name": "Tamachi",
+    "lineNames": [
+      "JR Yamanote",
+      "JR Keihin-Tohoku"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.6457,
+    "lng": 139.7476
+  },
+  {
+    "slug": "omotesando",
+    "name": "Omotesando",
+    "lineNames": [
+      "Ginza",
+      "Chiyoda",
+      "Hanzomon"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.6652,
+    "lng": 139.7126
+  },
+  {
+    "slug": "shibuya-station",
+    "name": "Shibuya Station",
+    "lineNames": [
+      "JR Yamanote",
+      "Ginza",
+      "Hanzomon",
+      "Fukutoshin",
+      "Tokyu Toyoko"
+    ],
+    "areaSlug": "shibuya",
+    "lat": 35.658,
+    "lng": 139.7016
+  },
+  {
+    "slug": "shinjuku-sanchome",
+    "name": "Shinjuku-sanchome",
+    "lineNames": [
+      "Marunouchi",
+      "Fukutoshin",
+      "Toei Shinjuku"
+    ],
+    "areaSlug": "shinjuku",
+    "lat": 35.6906,
+    "lng": 139.7053
+  },
+  {
+    "slug": "shinjuku-gyoenmae",
+    "name": "Shinjuku-gyoenmae",
+    "lineNames": [
+      "Marunouchi"
+    ],
+    "areaSlug": "shinjuku",
+    "lat": 35.6879,
+    "lng": 139.7101
+  },
+  {
+    "slug": "shinjuku-station",
+    "name": "Shinjuku Station",
+    "lineNames": [
+      "JR Yamanote",
+      "JR Chuo",
+      "Marunouchi",
+      "Odakyu",
+      "Keio"
+    ],
+    "areaSlug": "shinjuku",
+    "lat": 35.6896,
+    "lng": 139.7004
+  },
+  {
+    "slug": "nishi-shinjuku",
+    "name": "Nishi-Shinjuku",
+    "lineNames": [
+      "Marunouchi"
+    ],
+    "areaSlug": "shinjuku",
+    "lat": 35.6939,
+    "lng": 139.6929
+  },
+  {
+    "slug": "iidabashi",
+    "name": "Iidabashi",
+    "lineNames": [
+      "JR Chuo-Sobu",
+      "Tozai",
+      "Yurakucho",
+      "Namboku",
+      "Toei Oedo"
+    ],
+    "areaSlug": "shinjuku",
+    "lat": 35.702,
+    "lng": 139.7449
+  }
+]

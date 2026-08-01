@@ -1,0 +1,129 @@
+:root {
+  --bg: #ffffff;
+  --fg: #1a1a1a;
+  --muted: #666;
+  --line: #e5e5e5;
+  --accent: #0b6b3a;
+  --accent-soft: #e6f2ea;
+  --yes-bg: #e6f2ea; --yes-fg: #0b6b3a;
+  --no-bg: #f3f3f3; --no-fg: #888;
+  --alt-bg: #eef2ff; --alt-fg: #3949ab;
+  --radius: 10px;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--fg); background: var(--bg); line-height: 1.55;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+.container { max-width: 880px; margin: 0 auto; padding: 24px 20px 64px; }
+
+.site-header {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; padding: 14px 20px; border-bottom: 1px solid var(--line);
+  max-width: 880px; margin: 0 auto;
+}
+.site-header .brand { font-weight: 700; font-size: 1.05rem; color: var(--fg); }
+.site-header nav { display: flex; gap: 16px; font-size: .92rem; }
+
+h1 { font-size: 1.9rem; line-height: 1.2; margin: .2em 0 .4em; }
+h2 { font-size: 1.3rem; margin: 1.6em 0 .5em; }
+h3 { font-size: 1.05rem; margin: 0 0 .2em; }
+.lede { font-size: 1.05rem; color: #333; }
+.muted { color: var(--muted); }
+
+/* Search */
+.searchbar { position: relative; display: flex; gap: 8px; margin: 18px 0; }
+.searchbar input {
+  flex: 1; padding: 13px 14px; font-size: 1rem;
+  border: 1px solid var(--line); border-radius: var(--radius); outline: none;
+}
+.searchbar input:focus { border-color: var(--accent); }
+.searchbar button[type="submit"] {
+  padding: 0 18px; font-size: 1rem; font-weight: 600; color: #fff;
+  background: var(--accent); border: 0; border-radius: var(--radius); cursor: pointer;
+}
+.suggestions {
+  position: absolute; top: 54px; left: 0; right: 84px; z-index: 20;
+  list-style: none; margin: 0; padding: 6px; background: #fff;
+  border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0,0,0,.08);
+}
+.suggestions li button {
+  width: 100%; display: flex; justify-content: space-between; align-items: center;
+  padding: 9px 10px; background: none; border: 0; cursor: pointer; font-size: .95rem; text-align: left;
+}
+.suggestions li button:hover { background: var(--accent-soft); border-radius: 6px; }
+.suggestions .tag { font-size: .7rem; text-transform: uppercase; color: var(--muted); letter-spacing: .04em; }
+
+.near-me { margin: 8px 0 24px; }
+.near-me button {
+  padding: 10px 14px; font-size: .95rem; background: #fff; color: var(--fg);
+  border: 1px solid var(--line); border-radius: var(--radius); cursor: pointer;
+}
+.near-me .err { color: #b00; font-size: .85rem; }
+
+/* Filters */
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; }
+.chip {
+  padding: 8px 14px; border: 1px solid var(--line); background: #fff; border-radius: 999px;
+  cursor: pointer; font-size: .9rem;
+}
+.chip.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+.match { display: inline-flex; align-items: center; gap: 6px; margin-left: 4px; font-size: .85rem; color: var(--muted); }
+.seg { padding: 6px 10px; border: 1px solid var(--line); background: #fff; border-radius: 6px; cursor: pointer; font-size: .82rem; }
+.seg.on { background: var(--fg); color: #fff; border-color: var(--fg); }
+.count { color: var(--muted); font-size: .85rem; margin: 4px 0 12px; }
+
+/* Cafe cards */
+.cafe-list { display: grid; gap: 14px; }
+.cafe-card { border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.cafe-card .meta { color: var(--muted); font-size: .85rem; margin: 2px 0 8px; }
+.cafe-card .desc { font-size: .92rem; margin: 8px 0; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { font-size: .78rem; padding: 3px 9px; border-radius: 999px; }
+.badge.yes { background: var(--yes-bg); color: var(--yes-fg); }
+.badge.no { background: var(--no-bg); color: var(--no-fg); }
+.badge.alt { background: var(--alt-bg); color: var(--alt-fg); }
+.freshness { display: inline-block; margin-top: 8px; font-size: .75rem; color: var(--muted); }
+.freshness.c-low { color: #b26a00; }
+
+/* Table */
+.compare { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: .88rem; }
+.compare caption { text-align: left; color: var(--muted); font-size: .82rem; margin-bottom: 6px; }
+.compare th, .compare td { border: 1px solid var(--line); padding: 8px 10px; text-align: left; }
+.compare th { background: #fafafa; }
+
+/* Cafe detail */
+.facts { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 20px; margin: 14px 0; }
+.facts div { border-bottom: 1px solid var(--line); padding: 6px 0; font-size: .92rem; }
+.facts .k { color: var(--muted); }
+.cafe-map { margin: 18px 0; }
+.map-fallback { border: 1px dashed var(--line); border-radius: var(--radius); padding: 20px; color: var(--muted); font-size: .9rem; }
+.directions-btn {
+  display: inline-block; margin-top: 10px; padding: 11px 16px; font-weight: 600;
+  background: var(--accent); color: #fff; border-radius: var(--radius);
+}
+.directions-btn:hover { text-decoration: none; opacity: .92; }
+
+.faq h2 { margin-top: 1.8em; }
+.faq details { border-bottom: 1px solid var(--line); padding: 10px 0; }
+.faq summary { cursor: pointer; font-weight: 600; }
+.faq p { margin: 8px 0 0; color: #333; }
+
+.site-footer { max-width: 880px; margin: 0 auto; padding: 24px 20px 48px; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
+.site-footer nav { display: flex; gap: 14px; margin-top: 8px; }
+.site-footer .attrib { font-size: .76rem; }
+
+.breadcrumb { font-size: .82rem; color: var(--muted); margin-bottom: 8px; }
+.breadcrumb a { color: var(--muted); }
+
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 14px 0; }
+.card-grid a { display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; color: var(--fg); }
+.card-grid a:hover { border-color: var(--accent); text-decoration: none; }
+
+/* Ad slot placeholders — reserve height to avoid layout shift (plan §9). */
+.ad-slot { min-height: 90px; display: flex; align-items: center; justify-content: center;
+  border: 1px dashed var(--line); border-radius: var(--radius); color: #bbb; font-size: .78rem; margin: 18px 0; }

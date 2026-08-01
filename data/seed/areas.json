@@ -1,0 +1,42 @@
+[
+  {
+    "slug": "shibuya",
+    "name": "Shibuya",
+    "city": "tokyo",
+    "introText": "Shibuya is one of the best places in Tokyo to work from a cafe: dense with coffee shops, open late, and walkable from the station. Wi-Fi is common here, but power outlets are the real variable — many chain branches have none, so the spots below are marked for both. Use the filters to narrow to cafes with Wi-Fi, outlets, or both.",
+    "lat": 35.6595,
+    "lng": 139.7005
+  },
+  {
+    "slug": "shinjuku",
+    "name": "Shinjuku",
+    "city": "tokyo",
+    "introText": "Shinjuku's cafes cluster around the world's busiest station and stay open late — including several 24-hour kissaten and purpose-built work cafes around Shinjuku-sanchome. Outlet availability swings widely between the big chains and the quieter independents, so filter below for the combination you need.",
+    "lat": 35.6896,
+    "lng": 139.7006
+  },
+  {
+    "slug": "minato",
+    "name": "Minato",
+    "city": "tokyo",
+    "introText": "Minato spans Roppongi, Azabu-Juban, Shimbashi and the Aoyama edge — a business-heavy set of neighborhoods with a strong crop of laptop-friendly cafes, from bookshop-cafes to pay-per-hour work spaces. Many have outlets at most seats; filter for Wi-Fi, outlets, or both.",
+    "lat": 35.658,
+    "lng": 139.7516
+  },
+  {
+    "slug": "meguro",
+    "name": "Meguro",
+    "city": "tokyo",
+    "introText": "Meguro ward — Nakameguro, Meguro and Jiyugaoka — is calmer and more design-led than the big hubs, with specialty roasters and stylish cafes that tend to be genuinely comfortable for a long session. Outlet placement is often at counters; filter below to find Wi-Fi, outlets, or both.",
+    "lat": 35.6415,
+    "lng": 139.698
+  },
+  {
+    "slug": "chiyoda",
+    "name": "Chiyoda",
+    "city": "tokyo",
+    "introText": "Chiyoda covers Marunouchi, Otemachi, Kanda, Akihabara and Jimbocho — a weekday business core where reliable chain cafes and a few work-focused independents make it easy to find Wi-Fi and outlets near Tokyo Station. Note some spots close on weekends; filter for what you need.",
+    "lat": 35.694,
+    "lng": 139.7536
+  }
+]
