@@ -1,5 +1,47 @@
 [
   {
+    "slug": "kita-senju",
+    "name": "Kita-senju",
+    "lineNames": [],
+    "areaSlug": "adachi"
+  },
+  {
+    "slug": "ayase",
+    "name": "Ayase",
+    "lineNames": [],
+    "areaSlug": "adachi"
+  },
+  {
+    "slug": "kita-ayase",
+    "name": "Kita-Ayase",
+    "lineNames": [],
+    "areaSlug": "adachi"
+  },
+  {
+    "slug": "nishiarai",
+    "name": "Nishiarai",
+    "lineNames": [],
+    "areaSlug": "adachi"
+  },
+  {
+    "slug": "nishi-nippori",
+    "name": "Nishi-Nippori",
+    "lineNames": [],
+    "areaSlug": "arakawa"
+  },
+  {
+    "slug": "nippori",
+    "name": "Nippori",
+    "lineNames": [],
+    "areaSlug": "arakawa"
+  },
+  {
+    "slug": "machiya",
+    "name": "Machiya",
+    "lineNames": [],
+    "areaSlug": "arakawa"
+  },
+  {
     "slug": "hongo-sanchome",
     "name": "Hongo-sanchome",
     "lineNames": [],
@@ -163,6 +205,144 @@
     "areaSlug": "chuo"
   },
   {
+    "slug": "hirai",
+    "name": "Hirai",
+    "lineNames": [],
+    "areaSlug": "edogawa"
+  },
+  {
+    "slug": "koiwa",
+    "name": "Koiwa",
+    "lineNames": [],
+    "areaSlug": "edogawa"
+  },
+  {
+    "slug": "kasai",
+    "name": "Kasai",
+    "lineNames": [],
+    "areaSlug": "edogawa"
+  },
+  {
+    "slug": "nishi-kasai",
+    "name": "Nishi-Kasai",
+    "lineNames": [],
+    "areaSlug": "edogawa"
+  },
+  {
+    "slug": "mizue",
+    "name": "Mizue",
+    "lineNames": [],
+    "areaSlug": "edogawa"
+  },
+  {
+    "slug": "shimura-sakaue",
+    "name": "Shimura-sakaue",
+    "lineNames": [],
+    "areaSlug": "itabashi"
+  },
+  {
+    "slug": "tobu-shimoakatsuka",
+    "name": "Tobu-Shimoakatsuka",
+    "lineNames": [],
+    "areaSlug": "itabashi"
+  },
+  {
+    "slug": "narimasu",
+    "name": "Narimasu",
+    "lineNames": [],
+    "areaSlug": "itabashi"
+  },
+  {
+    "slug": "oyama",
+    "name": "Oyama",
+    "lineNames": [],
+    "areaSlug": "itabashi"
+  },
+  {
+    "slug": "kameari",
+    "name": "Kameari",
+    "lineNames": [],
+    "areaSlug": "katsushika"
+  },
+  {
+    "slug": "shin-koiwa",
+    "name": "Shin-Koiwa",
+    "lineNames": [],
+    "areaSlug": "katsushika"
+  },
+  {
+    "slug": "aoto",
+    "name": "Aoto",
+    "lineNames": [],
+    "areaSlug": "katsushika"
+  },
+  {
+    "slug": "kanamachi",
+    "name": "Kanamachi",
+    "lineNames": [],
+    "areaSlug": "katsushika"
+  },
+  {
+    "slug": "akabane",
+    "name": "Akabane",
+    "lineNames": [],
+    "areaSlug": "kita"
+  },
+  {
+    "slug": "oji",
+    "name": "Oji",
+    "lineNames": [],
+    "areaSlug": "kita"
+  },
+  {
+    "slug": "tabata",
+    "name": "Tabata",
+    "lineNames": [],
+    "areaSlug": "kita"
+  },
+  {
+    "slug": "higashi-jujo",
+    "name": "Higashi-Jujo",
+    "lineNames": [],
+    "areaSlug": "kita"
+  },
+  {
+    "slug": "toyosu",
+    "name": "Toyosu",
+    "lineNames": [],
+    "areaSlug": "koto"
+  },
+  {
+    "slug": "kameido",
+    "name": "Kameido",
+    "lineNames": [],
+    "areaSlug": "koto"
+  },
+  {
+    "slug": "kiba",
+    "name": "Kiba",
+    "lineNames": [],
+    "areaSlug": "koto"
+  },
+  {
+    "slug": "monzen-nakacho",
+    "name": "Monzen-nakacho",
+    "lineNames": [],
+    "areaSlug": "koto"
+  },
+  {
+    "slug": "ojima",
+    "name": "Ojima",
+    "lineNames": [],
+    "areaSlug": "koto"
+  },
+  {
+    "slug": "kokusai-tenjijo",
+    "name": "Kokusai-tenjijo",
+    "lineNames": [],
+    "areaSlug": "koto"
+  },
+  {
     "slug": "nakameguro",
     "name": "Nakameguro",
     "lineNames": [
@@ -276,6 +456,60 @@
     "name": "Higashi-Nakano",
     "lineNames": [],
     "areaSlug": "nakano"
+  },
+  {
+    "slug": "oizumi-gakuen",
+    "name": "Oizumi-gakuen",
+    "lineNames": [],
+    "areaSlug": "nerima"
+  },
+  {
+    "slug": "shakujii-koen",
+    "name": "Shakujii-koen",
+    "lineNames": [],
+    "areaSlug": "nerima"
+  },
+  {
+    "slug": "hikarigaoka",
+    "name": "Hikarigaoka",
+    "lineNames": [],
+    "areaSlug": "nerima"
+  },
+  {
+    "slug": "nerima",
+    "name": "Nerima",
+    "lineNames": [],
+    "areaSlug": "nerima"
+  },
+  {
+    "slug": "keikyu-kamata",
+    "name": "Keikyu Kamata",
+    "lineNames": [],
+    "areaSlug": "ota"
+  },
+  {
+    "slug": "kamata",
+    "name": "Kamata",
+    "lineNames": [],
+    "areaSlug": "ota"
+  },
+  {
+    "slug": "omori",
+    "name": "Omori",
+    "lineNames": [],
+    "areaSlug": "ota"
+  },
+  {
+    "slug": "den-en-chofu",
+    "name": "Den-en-chofu",
+    "lineNames": [],
+    "areaSlug": "ota"
+  },
+  {
+    "slug": "haneda-airport-terminal-3",
+    "name": "Haneda Airport Terminal 3",
+    "lineNames": [],
+    "areaSlug": "ota"
   },
   {
     "slug": "sangenjaya",

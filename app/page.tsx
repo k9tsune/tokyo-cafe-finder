@@ -10,14 +10,16 @@ export default function HomePage() {
 
   return (
     <div>
-      <h1>Find a Tokyo cafe where you can sit, work, and charge</h1>
-      <p className="lede">
-        Search by station or area to see cafes with Wi-Fi, power outlets, or both —
-        each one checked and dated so you know it&apos;s current.
-      </p>
+      <section className="hero">
+        <h1>Find a Tokyo cafe where you can sit, work, and charge</h1>
+        <p className="lede">
+          Search by station or area to see cafes with Wi-Fi, power outlets, or both —
+          each one checked and dated so you know it&apos;s current.
+        </p>
 
-      <SearchBar destinations={destinations} />
-      <NearMeButton />
+        <SearchBar destinations={destinations} />
+        <NearMeButton />
+      </section>
 
       <h2>Browse areas</h2>
       <div className="card-grid">

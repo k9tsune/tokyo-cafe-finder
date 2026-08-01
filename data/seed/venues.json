@@ -1,6 +1,435 @@
 [
   {
     "id": "w-0001",
+    "slug": "pronto-equia-kita-senju",
+    "name": "Pronto EQUiA Kita-senju",
+    "nameJa": "プロント エキア北千住駅店",
+    "address": "42-1 Senju-Asahicho, Ekia Kita-senju 2F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju"
+    ],
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 1,
+    "businessHours": "Cafe 7:00-17:30 / Bar 17:30-23:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "An in-station cafe-bar where nearly every one of its brick-toned seats has an outlet, making it an easy grab-and-work spot right on the concourse.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0002",
+    "slug": "komedas-coffee-kita-senju-honcho",
+    "name": "Komeda's Coffee Kita-senju Honcho",
+    "nameJa": "コメダ珈琲店 北千住本町センター通り店",
+    "address": "2-43 Senju, Someno Bldg 2F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju"
+    ],
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 3,
+    "businessHours": "7:00-20:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A roomy second-floor branch of the Nagoya coffee chain with free Wi-Fi and outlets at a portion of its seats, well suited to a long morning-service session.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0003",
+    "slug": "slow-jet-coffee",
+    "name": "Slow Jet Coffee",
+    "nameJa": "スロージェットコーヒー",
+    "address": "1-29-12 Senju-Higashi, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju"
+    ],
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 10,
+    "businessHours": "7:00-20:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A high-ceilinged, garage-style specialty roaster where free Wi-Fi and counter-side outlets support a quieter, slower work session away from the station bustle.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0004",
+    "slug": "p-kun-cafe",
+    "name": "P-kun Cafe",
+    "nameJa": "ピーくんカフェ",
+    "address": "3-5 Senju-Asahicho, Ekimae Kaikan Bldg 2F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju"
+    ],
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 1,
+    "businessHours": "8:00-20:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A large retro Showa-style cafe steps from the east exit with free Wi-Fi and outlets concentrated at the counter seating.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0005",
+    "slug": "italian-tomato-cafe-jr-tokyo-denki-university",
+    "name": "Italian Tomato Cafe Jr. Tokyo Denki University",
+    "nameJa": "イタリアン・トマト Cafe Jr. 東京電機大学店",
+    "address": "5 Senju-Asahicho, Tokyo Denki University Bldg 1, 1F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju"
+    ],
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 2,
+    "businessHours": "Mon-Sat 8:00-21:00 / Sun/Hol 9:00-21:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A budget cafe inside Tokyo Denki University's campus building offering free Wi-Fi and a block of outlet-equipped seats, though it can fill with students.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0006",
+    "slug": "peckham",
+    "name": "Peckham",
+    "nameJa": "ペッカム",
+    "address": "22-5 Senju-Asahicho, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju"
+    ],
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 8,
+    "businessHours": "12:00-23:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A creator-oriented independent cafe that opened in 2024 with free Wi-Fi and outlets reported at every seat, plus late hours useful for evening work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0007",
+    "slug": "sunny-cafe-kita-senju",
+    "name": "Sunny Cafe Kita-senju",
+    "nameJa": "Sunny cafe 北千住",
+    "address": "4-19-11 Senju 1F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju"
+    ],
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 5,
+    "businessHours": "Tue-Fri 11:00-18:00 / Sat-Sun/Hol 10:00-18:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A small, quiet wood-toned cafe near the west exit with free Wi-Fi, available outlets, and a few terrace seats for a calm work stop.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kitasenju-workcafe/"
+  },
+  {
+    "id": "w-0008",
+    "slug": "tullys-coffee-ayase-ekimae",
+    "name": "Tully's Coffee Ayase Ekimae",
+    "nameJa": "タリーズコーヒー 綾瀬駅前店",
+    "address": "3-1-2 Ayase, Tokyu Store, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "ayase"
+    ],
+    "nearestStation": "Ayase",
+    "walkMinutes": 1,
+    "businessHours": "8:00-21:30",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A Tully's tucked into the Tokyu Store beside Ayase Station offering carrier-independent free Wi-Fi and outlets along the counter seats.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://tabelog.com/tokyo/A1324/A132404/13190580/"
+  },
+  {
+    "id": "w-0009",
+    "slug": "starbucks-lalaterrace-kita-ayase",
+    "name": "Starbucks LalaTerrace Kita-Ayase",
+    "nameJa": "スターバックス コーヒー ららテラス北綾瀬店",
+    "address": "4-8-1 Yanaka, LalaTerrace Kita-Ayase 2F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-ayase"
+    ],
+    "nearestStation": "Kita-Ayase",
+    "walkMinutes": 2,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "description": "A Starbucks in the LalaTerrace mall at Kita-Ayase with confirmed free Wi-Fi, though outlet availability at seats could not be verified.",
+    "lastChecked": "2026-08-01",
+    "confidence": "low",
+    "sourceUrl": "https://everyday-starbucks.com/2025/05/09/lalaterrace-kita-ayase/"
+  },
+  {
+    "id": "w-0010",
+    "slug": "starbucks-ario-nishiarai",
+    "name": "Starbucks Ario Nishiarai",
+    "nameJa": "スターバックス コーヒー アリオ西新井店",
+    "address": "1-20-1 Nishiarai-Sakaecho, Ario Nishiarai, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "nishiarai"
+    ],
+    "nearestStation": "Nishiarai",
+    "walkMinutes": 5,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Starbucks in the Ario Nishiarai shopping mall with confirmed free Wi-Fi and outlets noted by outlet-cafe directories, giving a reliable if busy work option.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://dwifi.mapion.co.jp/b/d_wifi/info/BA846207"
+  },
+  {
+    "id": "w-0011",
+    "slug": "renoir-nishi-nippori-daiichi",
+    "name": "Renoir Nishi-Nippori Daiichi",
+    "nameJa": "喫茶室ルノアール 西日暮里第一店",
+    "address": "5-23-6 Nishi-Nippori, White House 2F, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "nishi-nippori"
+    ],
+    "nearestStation": "Nishi-Nippori",
+    "walkMinutes": 1,
+    "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A spacious 100-plus-seat Renoir branch steps from Nishi-Nippori station with free Wi-Fi, customer power outlets, and roomy seating that suits long work sessions.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://www.ginza-renoir.co.jp/shopsearch/shops/tokyo/arakawa-ku/nishinippori-daiichi.html"
+  },
+  {
+    "id": "w-0012",
+    "slug": "renoir-nippori-east-exit",
+    "name": "Renoir Nippori East Exit",
+    "nameJa": "喫茶室ルノアール 日暮里東口店",
+    "address": "5-51-11 Higashi-Nippori, Shizuya Bldg 2F, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "nippori"
+    ],
+    "nearestStation": "Nippori",
+    "walkMinutes": 1,
+    "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "This Renoir branch right by Nippori's east exit pairs multiple free Wi-Fi networks with seat-side power outlets, making it a reliable spot for extended remote work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://www.ginza-renoir.co.jp/shopsearch/shops/tokyo/arakawa-ku/nippori-higashiguchi.html"
+  },
+  {
+    "id": "w-0013",
+    "slug": "becks-coffee-shop-nishi-nippori",
+    "name": "Beck's Coffee Shop Nishi-Nippori",
+    "nameJa": "ベックスコーヒーショップ 西日暮里店",
+    "address": "5-14-1 Nishi-Nippori, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "nishi-nippori"
+    ],
+    "nearestStation": "Nishi-Nippori",
+    "walkMinutes": 1,
+    "businessHours": "Weekdays 6:45-21:00 / Weekends 7:00-20:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "An inexpensive fully non-smoking station cafe with shared Beck's Wi-Fi and roughly nine twin-outlet spots spread across bench seating for around fifty guests.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://oasis.mogya.com/spot/becks_95"
+  },
+  {
+    "id": "w-0014",
+    "slug": "excelsior-caffe-nippori",
+    "name": "Excelsior Caffe Nippori",
+    "nameJa": "エクセルシオール カフェ 日暮里店",
+    "address": "2-19-6 Nishi-Nippori, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "nippori"
+    ],
+    "nearestStation": "Nippori",
+    "walkMinutes": 1,
+    "businessHours": "7:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A large 116-seat Excelsior close to Nippori station whose official listing confirms power outlets, with free Wi-Fi and early-to-late hours convenient for working.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000031"
+  },
+  {
+    "id": "w-0015",
+    "slug": "doutor-coffee-machiya-ekimae",
+    "name": "Doutor Coffee Machiya-Ekimae",
+    "nameJa": "ドトールコーヒーショップ 町屋駅前店",
+    "address": "7-50-9 Arakawa, Center Machiya 1F, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "machiya"
+    ],
+    "nearestStation": "Machiya",
+    "walkMinutes": 1,
+    "businessHours": "Mon-Sat 6:45-20:00 / Sun/Hol 7:00-20:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A budget-friendly Doutor at the Machiya station entrance whose official page lists both free Wi-Fi and power outlets, opening early for morning work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=1010504"
+  },
+  {
+    "id": "w-0016",
+    "slug": "tullys-coffee-nippori",
+    "name": "Tully's Coffee Nippori",
+    "nameJa": "タリーズコーヒー 日暮里店",
+    "address": "2-25-1 Nishi-Nippori, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "nippori"
+    ],
+    "nearestStation": "Nippori",
+    "walkMinutes": 2,
+    "businessHours": "8:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A compact Tully's near Nippori station offering Tully's Wi-Fi; a work-cafe roundup reports usable outlets, though one directory leaves outlet count unlisted.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
+  },
+  {
+    "id": "w-0017",
+    "slug": "bliss-coffee-nishi-nippori",
+    "name": "Bliss Coffee Nishi-Nippori",
+    "nameJa": "BLISS COFFEE 西日暮里",
+    "address": "2-52-3 Nishi-Nippori, D5 Bldg 1F, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "nippori"
+    ],
+    "nearestStation": "Nippori",
+    "walkMinutes": 2,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A small independent cafe with distinctive decor a couple of minutes from Nippori station, reported to offer free Wi-Fi and power outlets for its roughly nineteen seats.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
+  },
+  {
+    "id": "w-0018",
+    "slug": "tomoroyu-nippori",
+    "name": "Tomoroyu Nippori",
+    "nameJa": "昔ながらの喫茶店 友路有 日暮里店",
+    "address": "5-52-2 Higashi-Nippori 2F, Arakawa-ku, Tokyo",
+    "areaSlug": "arakawa",
+    "stationSlugs": [
+      "nippori"
+    ],
+    "nearestStation": "Nippori",
+    "walkMinutes": 2,
+    "businessHours": "8:30-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Showa-retro-style coffee house near Nippori's south side reported to provide free Wi-Fi and power outlets, suited to quiet solo work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
+  },
+  {
+    "id": "w-0019",
     "slug": "doutor-coffee-hongo-sanchome-higashi",
     "name": "Doutor Coffee Hongo-Sanchome Higashi",
     "nameJa": "ドトールコーヒーショップ 本郷三丁目東店",
@@ -23,7 +452,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
   },
   {
-    "id": "w-0002",
+    "id": "w-0020",
     "slug": "doutor-coffee-hongo-sanchome",
     "name": "Doutor Coffee Hongo-Sanchome",
     "nameJa": "ドトールコーヒーショップ 本郷三丁目店",
@@ -46,7 +475,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
   },
   {
-    "id": "w-0003",
+    "id": "w-0021",
     "slug": "starbucks-hongo-todai-mae",
     "name": "Starbucks Hongo Todai-mae",
     "nameJa": "スターバックス コーヒー 本郷東大前店",
@@ -70,7 +499,7 @@
     "sourceUrl": "https://everyday-starbucks.com/2023/01/26/in-front-of-hongo-university-of-tokyo/"
   },
   {
-    "id": "w-0004",
+    "id": "w-0022",
     "slug": "starbucks-university-of-tokyo-faculty-of-engineering",
     "name": "Starbucks University of Tokyo Faculty of Engineering",
     "nameJa": "スターバックス コーヒー 東京大学工学部店",
@@ -93,7 +522,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
   },
   {
-    "id": "w-0005",
+    "id": "w-0023",
     "slug": "doutor-coffee-utokyo-yasuda-auditorium",
     "name": "Doutor Coffee UTokyo Yasuda Auditorium",
     "nameJa": "ドトールコーヒーショップ 東京大学安田講堂前店",
@@ -116,7 +545,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/charge_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
   },
   {
-    "id": "w-0006",
+    "id": "w-0024",
     "slug": "starbucks-korakuen-laqua",
     "name": "Starbucks Korakuen LaQua",
     "nameJa": "スターバックス コーヒー 後楽園ラクーア店",
@@ -139,7 +568,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E5%BE%8C%E6%A5%BD%E5%9C%92/"
   },
   {
-    "id": "w-0007",
+    "id": "w-0025",
     "slug": "cafe-veloce-kasuga-station-front",
     "name": "Cafe Veloce Kasuga Station Front",
     "nameJa": "カフェ・ベローチェ 春日駅前店",
@@ -162,7 +591,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E6%98%A5%E6%97%A5/"
   },
   {
-    "id": "w-0008",
+    "id": "w-0026",
     "slug": "doutor-coffee-edogawabashi-shin-mejiro-dori",
     "name": "Doutor Coffee Edogawabashi Shin-Mejiro-dori",
     "nameJa": "ドトールコーヒーショップ 江戸川橋新目白通り店",
@@ -185,7 +614,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E8%8C%97%E8%8D%B7%E8%B0%B7/"
   },
   {
-    "id": "w-0009",
+    "id": "w-0027",
     "slug": "coffeekan-nezu-station-front",
     "name": "Coffeekan Nezu Station Front",
     "nameJa": "珈琲館 根津駅前店",
@@ -208,7 +637,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E6%A0%B9%E6%B4%A5/"
   },
   {
-    "id": "w-0010",
+    "id": "w-0028",
     "slug": "starbucks-myogadani",
     "name": "Starbucks Myogadani",
     "nameJa": "スターバックス コーヒー 茗荷谷店",
@@ -232,7 +661,7 @@
     "sourceUrl": "https://everyday-starbucks.com/2023/04/01/myogadani/"
   },
   {
-    "id": "w-0011",
+    "id": "w-0029",
     "slug": "dean-and-deluca-cafe-marunouchi",
     "name": "Dean & Deluca Cafe Marunouchi",
     "nameJa": "ディーン&デルーカ カフェ 丸の内",
@@ -258,7 +687,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-marunouchi-workcafe/"
   },
   {
-    "id": "w-0012",
+    "id": "w-0030",
     "slug": "cafe-lexcel-tokyo-international-forum",
     "name": "Cafe Lexcel Tokyo International Forum",
     "nameJa": "カフェ レクセル 東京国際フォーラム店",
@@ -284,7 +713,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-marunouchi-workcafe/"
   },
   {
-    "id": "w-0013",
+    "id": "w-0031",
     "slug": "tullys-coffee-and-tea-kitte-marunouchi",
     "name": "Tully's Coffee & TEA KITTE Marunouchi",
     "nameJa": "タリーズコーヒー&TEA KITTE丸の内店",
@@ -310,7 +739,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-marunouchi-workcafe/"
   },
   {
-    "id": "w-0014",
+    "id": "w-0032",
     "slug": "kaiteki-cafe",
     "name": "Kaiteki Cafe",
     "nameJa": "カイテキカフェ",
@@ -336,7 +765,7 @@
     "sourceUrl": "https://mailmate.jp/blog/work-friendly-cafes-with-power-and-free-wifi-in-tokyo"
   },
   {
-    "id": "w-0015",
+    "id": "w-0033",
     "slug": "doutor-coffee-kanda-kita-guchi",
     "name": "Doutor Coffee Kanda Kita-guchi",
     "nameJa": "ドトールコーヒーショップ 神田北口店",
@@ -362,7 +791,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kanda-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0016",
+    "id": "w-0034",
     "slug": "excelsior-cafe-kanda-kita-guchi",
     "name": "Excelsior Cafe Kanda Kita-guchi",
     "nameJa": "エクセルシオール カフェ 神田北口店",
@@ -388,7 +817,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kanda-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0017",
+    "id": "w-0035",
     "slug": "blossom-and-bouquet-akihabara-udx",
     "name": "Blossom & Bouquet Akihabara UDX",
     "nameJa": "ブロッサム&ブーケ 秋葉原UDX店",
@@ -414,7 +843,7 @@
     "sourceUrl": "https://goworkship.com/magazine/akihabara-nomad-cafe/"
   },
   {
-    "id": "w-0018",
+    "id": "w-0036",
     "slug": "renoir-akihabara-denki-gai-guchi",
     "name": "Renoir Akihabara Denki-gai-guchi",
     "nameJa": "喫茶室ルノアール 秋葉原電気街口店",
@@ -440,7 +869,7 @@
     "sourceUrl": "https://goworkship.com/magazine/akihabara-nomad-cafe/"
   },
   {
-    "id": "w-0019",
+    "id": "w-0037",
     "slug": "flying-scotsman-akihabara",
     "name": "Flying Scotsman Akihabara",
     "nameJa": "フライング・スコッツマン 秋葉原店",
@@ -466,7 +895,7 @@
     "sourceUrl": "https://goworkship.com/magazine/akihabara-nomad-cafe/"
   },
   {
-    "id": "w-0020",
+    "id": "w-0038",
     "slug": "tullys-coffee-jimbocho",
     "name": "Tully's Coffee Jimbocho",
     "nameJa": "タリーズコーヒー 神保町店",
@@ -492,7 +921,7 @@
     "sourceUrl": "https://shodanlab.com/jinbocho/"
   },
   {
-    "id": "w-0021",
+    "id": "w-0039",
     "slug": "doutor-coffee-jimbocho-ekimae",
     "name": "Doutor Coffee Jimbocho Ekimae",
     "nameJa": "ドトールコーヒーショップ 神保町駅前店",
@@ -518,7 +947,7 @@
     "sourceUrl": "https://shodanlab.com/jinbocho/"
   },
   {
-    "id": "w-0022",
+    "id": "w-0040",
     "slug": "sakura-cafe-jimbocho",
     "name": "Sakura Cafe Jimbocho",
     "nameJa": "サクラカフェ 神保町",
@@ -544,7 +973,7 @@
     "sourceUrl": "https://shodanlab.com/jinbocho/"
   },
   {
-    "id": "w-0023",
+    "id": "w-0041",
     "slug": "onca-coffee",
     "name": "Onca Coffee",
     "address": "Yasuda Sequence Tower 1F, Chiyoda-ku, Tokyo",
@@ -568,7 +997,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0024",
+    "id": "w-0042",
     "slug": "think-coffee-jimbocho",
     "name": "Think Coffee Jimbocho",
     "address": "Chiyoda-ku, Tokyo (near Jimbocho/Otemachi, exit A8)",
@@ -592,7 +1021,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0025",
+    "id": "w-0043",
     "slug": "brooklyn-roasting-company-tokyo-international-forum",
     "name": "Brooklyn Roasting Company Tokyo International Forum",
     "nameJa": "ブルックリン ロースティング カンパニー 東京国際フォーラム店",
@@ -617,7 +1046,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0026",
+    "id": "w-0044",
     "slug": "excelsior-cafe-ginza-chuo-dori",
     "name": "Excelsior Cafe Ginza Chuo-dori",
     "nameJa": "エクセルシオールカフェ 銀座中央通り店",
@@ -641,7 +1070,7 @@
     "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000127"
   },
   {
-    "id": "w-0027",
+    "id": "w-0045",
     "slug": "starbucks-coffee-circles-ginza",
     "name": "Starbucks Coffee CIRCLES Ginza",
     "nameJa": "スターバックスコーヒー 銀座サークルズ店",
@@ -665,7 +1094,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0028",
+    "id": "w-0046",
     "slug": "starbucks-coffee-ginza-five",
     "name": "Starbucks Coffee Ginza Five",
     "nameJa": "スターバックスコーヒー 銀座ファイブ店",
@@ -689,7 +1118,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0029",
+    "id": "w-0047",
     "slug": "metoa-cafe-and-kitchen",
     "name": "METoA Cafe & Kitchen",
     "nameJa": "METoA Cafe & Kitchen",
@@ -712,7 +1141,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0030",
+    "id": "w-0048",
     "slug": "ginza-book-cafe",
     "name": "Ginza Book Cafe",
     "nameJa": "銀座ブックカフェ",
@@ -735,7 +1164,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0031",
+    "id": "w-0049",
     "slug": "suzu-cafe-ginza",
     "name": "SUZU CAFE Ginza",
     "nameJa": "SUZU CAFE 銀座",
@@ -758,7 +1187,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0032",
+    "id": "w-0050",
     "slug": "excelsior-cafe-nihonbashi-1-chome",
     "name": "Excelsior Cafe Nihonbashi 1-chome",
     "nameJa": "エクセルシオールカフェ 日本橋一丁目店",
@@ -782,7 +1211,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0033",
+    "id": "w-0051",
     "slug": "ueshima-coffee-coredo-nihonbashi",
     "name": "Ueshima Coffee COREDO Nihonbashi",
     "nameJa": "上島珈琲店 COREDO日本橋店",
@@ -806,7 +1235,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0034",
+    "id": "w-0052",
     "slug": "tullys-coffee-oedo-nihonbashi",
     "name": "Tully's Coffee OEDO Nihonbashi",
     "nameJa": "タリーズコーヒー OEDO日本橋店",
@@ -830,7 +1259,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0035",
+    "id": "w-0053",
     "slug": "cafe-salvador",
     "name": "Cafe Salvador",
     "nameJa": "カフェ サルヴァドル",
@@ -854,7 +1283,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0036",
+    "id": "w-0054",
     "slug": "the-coffee-bean-and-tea-leaf-nihonbashi-1-chome",
     "name": "The Coffee Bean & Tea Leaf Nihonbashi 1-chome",
     "nameJa": "コーヒービーン＆ティーリーフ 日本橋一丁目店",
@@ -878,7 +1307,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0037",
+    "id": "w-0055",
     "slug": "dawn-verbeta-avatar-robot-cafe",
     "name": "DAWN ver.beta Avatar Robot Cafe",
     "nameJa": "分身ロボットカフェ DAWN ver.β",
@@ -902,7 +1331,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0038",
+    "id": "w-0056",
     "slug": "excelsior-cafe-kyobashi-1-chome",
     "name": "Excelsior Cafe Kyobashi 1-chome",
     "nameJa": "エクセルシオールカフェ 京橋一丁目店",
@@ -926,7 +1355,7 @@
     "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=5000254"
   },
   {
-    "id": "w-0039",
+    "id": "w-0057",
     "slug": "starbucks-coffee-tsukiji-ekimae",
     "name": "Starbucks Coffee Tsukiji-ekimae",
     "nameJa": "スターバックスコーヒー 築地駅前店",
@@ -950,7 +1379,7 @@
     "sourceUrl": "https://r.gnavi.co.jp/9jfuhm8s0000/"
   },
   {
-    "id": "w-0040",
+    "id": "w-0058",
     "slug": "doutor-coffee-hatchobori",
     "name": "Doutor Coffee Hatchobori",
     "nameJa": "ドトールコーヒーショップ 八丁堀店",
@@ -974,7 +1403,1116 @@
     "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=1010075"
   },
   {
-    "id": "w-0041",
+    "id": "w-0059",
+    "slug": "tullys-coffee-shapo-loco-hirai",
+    "name": "Tully's Coffee Shapo Loco Hirai",
+    "nameJa": "タリーズコーヒー シャポーロコ平井店",
+    "address": "3-30-1 Hirai, Shapo Loco Hirai 1F/2F, Edogawa-ku, Tokyo",
+    "areaSlug": "edogawa",
+    "stationSlugs": [
+      "hirai"
+    ],
+    "nearestStation": "Hirai",
+    "walkMinutes": 1,
+    "businessHours": "Mon-Fri 7:00-21:00, Sat-Sun 8:00-21:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A roomy two-floor Tully's built directly into the Shapo Loco mall at Hirai Station, noted for free Wi-Fi and USB/outlet-equipped seating that makes it comfortable for laptop work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://tabelog.com/tokyo/A1312/A131202/13219592/"
+  },
+  {
+    "id": "w-0060",
+    "slug": "doutor-coffee-koiwa-south-exit",
+    "name": "Doutor Coffee Koiwa South Exit",
+    "nameJa": "ドトールコーヒーショップ 小岩駅南口店",
+    "address": "7-24-20 Minami-Koiwa, Edogawa-ku, Tokyo",
+    "areaSlug": "edogawa",
+    "stationSlugs": [
+      "koiwa"
+    ],
+    "nearestStation": "Koiwa",
+    "walkMinutes": 2,
+    "businessHours": "7:00-21:00 daily",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A 53-seat, fully non-smoking Doutor just off the south exit of JR Koiwa that lists both free Wi-Fi and power outlets in its official amenities, a practical short-work stop.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://shop.doutor.co.jp/map/1012283"
+  },
+  {
+    "id": "w-0061",
+    "slug": "doutor-coffee-shapo-koiwa",
+    "name": "Doutor Coffee Shapo Koiwa",
+    "nameJa": "ドトールコーヒーショップ シャポー小岩店",
+    "address": "7-24-15 Minami-Koiwa, Edogawa-ku, Tokyo",
+    "areaSlug": "edogawa",
+    "stationSlugs": [
+      "koiwa"
+    ],
+    "nearestStation": "Koiwa",
+    "walkMinutes": 1,
+    "businessHours": "7:00-22:00 daily",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "paid",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "Located inside the Shapo Koiwa station complex, this Doutor is documented as having power outlets plus carrier (SoftBank) Wi-Fi, so bring your own connection for extended sessions.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/stores/16eea7197aa/"
+  },
+  {
+    "id": "w-0062",
+    "slug": "komeda-coffee-kasai-south-exit",
+    "name": "Komeda Coffee Kasai South Exit",
+    "nameJa": "コメダ珈琲店 葛西南口店",
+    "address": "6-1-13 Higashi-Kasai 1F, Edogawa-ku, Tokyo",
+    "areaSlug": "edogawa",
+    "stationSlugs": [
+      "kasai"
+    ],
+    "nearestStation": "Kasai",
+    "walkMinutes": 5,
+    "businessHours": "7:00-23:00 daily",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A spacious 71-seat Komeda about five minutes from Kasai Station with its own Komeda Wi-Fi and outlet-equipped seating, with long hours and roomy booths suited to sustained work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://tabelog.com/en/tokyo/A1313/A131305/13230082/"
+  },
+  {
+    "id": "w-0063",
+    "slug": "kohikan-ario-kasai",
+    "name": "Kohikan Ario Kasai",
+    "nameJa": "珈琲館 アリオ葛西店",
+    "address": "9-3-3 Higashi-Kasai, Ario Kasai 2F, Edogawa-ku, Tokyo",
+    "areaSlug": "edogawa",
+    "stationSlugs": [
+      "kasai"
+    ],
+    "nearestStation": "Kasai",
+    "walkMinutes": 6,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "description": "A relaxed Kohikan on the second floor of the Ario Kasai shopping mall that provides free Wi-Fi but no documented power outlets, best for shorter battery-only stints.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E8%91%9B%E8%A5%BF/"
+  },
+  {
+    "id": "w-0064",
+    "slug": "doutor-coffee-nishi-kasai-south-exit",
+    "name": "Doutor Coffee Nishi-Kasai South Exit",
+    "nameJa": "ドトールコーヒーショップ 西葛西南口店",
+    "address": "6-16-4 Nishi-Kasai, Edogawa-ku, Tokyo",
+    "areaSlug": "edogawa",
+    "stationSlugs": [
+      "nishi-kasai"
+    ],
+    "nearestStation": "Nishi-Kasai",
+    "walkMinutes": 2,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "paid",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "description": "A convenient Doutor by the south exit of Nishi-Kasai Station listed only with carrier (docomo/au) Wi-Fi and no power outlets, fine for a quick coffee-and-email break.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E8%A5%BF%E8%91%9B%E8%A5%BF/"
+  },
+  {
+    "id": "w-0065",
+    "slug": "doutor-coffee-mizue",
+    "name": "Doutor Coffee Mizue",
+    "nameJa": "ドトールコーヒーショップ 瑞江店",
+    "address": "1-26-14 Higashi-Mizue, Edogawa-ku, Tokyo",
+    "areaSlug": "edogawa",
+    "stationSlugs": [
+      "mizue"
+    ],
+    "nearestStation": "Mizue",
+    "walkMinutes": 3,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "paid",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "description": "The main documented cafe option near quiet Mizue Station, this Doutor is listed with carrier (docomo/au) Wi-Fi only and no power outlets, so it suits brief visits.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E7%91%9E%E6%B1%9F/"
+  },
+  {
+    "id": "w-0066",
+    "slug": "kohikan-shimura-sakaue",
+    "name": "Kohikan Shimura-sakaue",
+    "nameJa": "珈琲館 志村坂上店",
+    "address": "3-20-1 Maenocho, Food Square Kasumi B1F, Itabashi-ku, Tokyo",
+    "areaSlug": "itabashi",
+    "stationSlugs": [
+      "shimura-sakaue"
+    ],
+    "nearestStation": "Shimura-sakaue",
+    "walkMinutes": 3,
+    "businessHours": "9:00-20:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A relaxed full-service coffee-house branch inside a supermarket complex that provides free Wi-Fi and customer power outlets, making it a comfortable spot for focused work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://search-maps.com/charge_wifi/charge_near_station/%E5%BF%97%E6%9D%91%E5%9D%82%E4%B8%8A/"
+  },
+  {
+    "id": "w-0067",
+    "slug": "komeda-coffee-tobu-shimoakatsuka",
+    "name": "Komeda Coffee Tobu-Shimoakatsuka",
+    "nameJa": "コメダ珈琲店 東武下赤塚駅店",
+    "address": "1-23-1 Akatsuka-Shinmachi 201, Itabashi-ku, Tokyo",
+    "areaSlug": "itabashi",
+    "stationSlugs": [
+      "tobu-shimoakatsuka"
+    ],
+    "nearestStation": "Tobu-Shimoakatsuka",
+    "walkMinutes": 2,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A spacious cafe-chain branch near Narimasu offering the free Komeda Wi-Fi network and power outlets, with roomy booth seating well suited to laptop sessions.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/stores/18638a58428/"
+  },
+  {
+    "id": "w-0068",
+    "slug": "starbucks-coffee-equia-narimasu",
+    "name": "Starbucks Coffee EQUiA Narimasu",
+    "nameJa": "スターバックス コーヒー エキア成増店",
+    "address": "2-13-1 Narimasu, EQUiA Narimasu 2F, Itabashi-ku, Tokyo",
+    "areaSlug": "itabashi",
+    "stationSlugs": [
+      "narimasu"
+    ],
+    "nearestStation": "Narimasu",
+    "walkMinutes": 1,
+    "businessHours": "7:00-22:30",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "description": "A station-building Starbucks with confirmed free Wi-Fi and long opening hours, though outlet availability could not be verified so power is left unconfirmed.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://store.starbucks.co.jp/detail-1361/"
+  },
+  {
+    "id": "w-0069",
+    "slug": "cafe-di-espresso-kohikan-narimasu",
+    "name": "Cafe di Espresso Kohikan Narimasu",
+    "nameJa": "カフェ・ド・エスプレッソ 珈琲館 成増店",
+    "address": "2-20-1 Narimasu, Itabashi-ku, Tokyo",
+    "areaSlug": "itabashi",
+    "stationSlugs": [
+      "narimasu"
+    ],
+    "nearestStation": "Narimasu",
+    "walkMinutes": 2,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "paid",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A traditional-style coffee house near Narimasu station with power outlets available, though its Wi-Fi is carrier-operator (au/SoftBank) rather than a free customer network.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/charge_near_station/%E6%88%90%E5%A2%97/"
+  },
+  {
+    "id": "w-0070",
+    "slug": "doutor-coffee-shop-narimasu-2-chome",
+    "name": "Doutor Coffee Shop Narimasu 2-chome",
+    "nameJa": "ドトールコーヒーショップ 成増2丁目店",
+    "address": "2-21-3 Narimasu, Itabashi-ku, Tokyo",
+    "areaSlug": "itabashi",
+    "stationSlugs": [
+      "narimasu"
+    ],
+    "nearestStation": "Narimasu",
+    "walkMinutes": 2,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "paid",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "An inexpensive Doutor branch by Narimasu station that has usable power outlets, but its listed Wi-Fi is carrier-operator (docomo/au) so you may need your own connection.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/charge_near_station/%E6%88%90%E5%A2%97/"
+  },
+  {
+    "id": "w-0071",
+    "slug": "doutor-coffee-shop-shimura-sakaue",
+    "name": "Doutor Coffee Shop Shimura-sakaue",
+    "nameJa": "ドトールコーヒーショップ 志村坂上店",
+    "address": "2-18-7 Azusawa, Itabashi-ku, Tokyo",
+    "areaSlug": "itabashi",
+    "stationSlugs": [
+      "shimura-sakaue"
+    ],
+    "nearestStation": "Shimura-sakaue",
+    "walkMinutes": 2,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "paid",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A budget Doutor near Shimura-sakaue offering power outlets for charging, with only carrier-operator Wi-Fi (docomo/au) rather than free in-store Wi-Fi.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/charge_near_station/%E5%BF%97%E6%9D%91%E5%9D%82%E4%B8%8A/"
+  },
+  {
+    "id": "w-0072",
+    "slug": "kohikan-oyama",
+    "name": "Kohikan Oyama",
+    "nameJa": "珈琲館 大山店",
+    "address": "24-10 Oyama-Higashicho, House Itabashi Oyama 1F, Itabashi-ku, Tokyo",
+    "areaSlug": "itabashi",
+    "stationSlugs": [
+      "oyama"
+    ],
+    "nearestStation": "Oyama",
+    "walkMinutes": 2,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "description": "A coffee house by Oyama station that offers free Wi-Fi but, per the source, no customer power outlets, so it suits short sessions rather than long laptop work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E5%B1%B1/"
+  },
+  {
+    "id": "w-0073",
+    "slug": "komeda-coffee-kameari-ekimae",
+    "name": "Komeda Coffee Kameari Ekimae",
+    "nameJa": "珈琲所コメダ珈琲店 亀有駅前店",
+    "address": "3-25-1 Kameari, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "kameari"
+    ],
+    "nearestStation": "Kameari",
+    "walkMinutes": 2,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A roomy full-service Komeda branch right by Kameari station that offers free Komeda Wi-Fi and outlets at a portion of its booth seats, comfortable for a long work session.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://search-maps.com/charge_wifi/stores/186389f5ade/"
+  },
+  {
+    "id": "w-0074",
+    "slug": "starbucks-ario-kameari",
+    "name": "Starbucks Ario Kameari",
+    "nameJa": "スターバックスコーヒー アリオ亀有店",
+    "address": "3-49-3 Kameari, Ario Kameari, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "kameari"
+    ],
+    "nearestStation": "Kameari",
+    "walkMinutes": 6,
+    "businessHours": "09:30-22:30",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "description": "A Starbucks inside the Ario Kameari shopping mall with reliable free Wi-Fi, though outlet availability is not documented and mall-style seating limits its work suitability.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/stores/17d41bb2792/"
+  },
+  {
+    "id": "w-0075",
+    "slug": "becks-coffee-shop-shin-koiwa-ekimae",
+    "name": "Beck's Coffee Shop Shin-Koiwa Ekimae",
+    "nameJa": "ベックスコーヒーショップ 新小岩駅前店",
+    "address": "1-44-5 Shin-Koiwa, Serio Bldg 1-3F, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "shin-koiwa"
+    ],
+    "nearestStation": "Shin-Koiwa",
+    "walkMinutes": 2,
+    "businessHours": "6:30-22:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "An early-opening station-front Beck's about two minutes from the south exit that provides free Wi-Fi and power outlets at some seats, handy for a quick pre-work session.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://shodanlab.com/shinkoiwa/"
+  },
+  {
+    "id": "w-0076",
+    "slug": "renoir-shin-koiwa",
+    "name": "Renoir Shin-Koiwa",
+    "nameJa": "喫茶室ルノアール 新小岩店",
+    "address": "1-2-11 Nishi-Shin-Koiwa, Kikuya Bldg 2F, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "shin-koiwa"
+    ],
+    "nearestStation": "Shin-Koiwa",
+    "walkMinutes": 1,
+    "businessHours": "7:00-20:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A classic Renoir tea room by the north exit, part of a chain known for welcoming long stays with free Wi-Fi and outlets at most tables, well suited to focused laptop work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://shodanlab.com/shinkoiwa/"
+  },
+  {
+    "id": "w-0077",
+    "slug": "doutor-coffee-shin-koiwa-lumiere",
+    "name": "Doutor Coffee Shin-Koiwa Lumiere",
+    "nameJa": "ドトールコーヒーショップ 新小岩ルミエール店",
+    "address": "1-49-2 Shin-Koiwa, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "shin-koiwa"
+    ],
+    "nearestStation": "Shin-Koiwa",
+    "walkMinutes": 3,
+    "businessHours": "Mon-Fri 7:30-21:00 / Sat-Sun 8:00-20:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Doutor in the Shin-Koiwa Lumiere shopping street offering free Doutor Wi-Fi plus USB and outlet charging at some seats, a cheap and convenient spot for short work stints.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://shodanlab.com/shinkoiwa/"
+  },
+  {
+    "id": "w-0078",
+    "slug": "doutor-coffee-aoto-3-chome",
+    "name": "Doutor Coffee Aoto 3-chome",
+    "nameJa": "ドトールコーヒーショップ 青戸3丁目店",
+    "address": "3-39-11 Aoto, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "aoto"
+    ],
+    "nearestStation": "Aoto",
+    "walkMinutes": 5,
+    "businessHours": "Mon-Fri 7:00-21:00 / Sat-Sun/Hol 7:30-20:30",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "description": "A 58-seat Doutor near Keisei Aoto with free Wi-Fi, but two sources agree it has no power outlets, so it works for connectivity yet not for charging a laptop.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=1011145"
+  },
+  {
+    "id": "w-0079",
+    "slug": "doutor-coffee-kanamachi-kitaguchi",
+    "name": "Doutor Coffee Kanamachi Kitaguchi",
+    "nameJa": "ドトールコーヒーショップ 金町北口店",
+    "address": "1-24-7 Higashi-Kanamachi, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "kanamachi"
+    ],
+    "nearestStation": "Kanamachi",
+    "walkMinutes": 2,
+    "businessHours": "Mon-Sat 7:30-21:00 / Sun/Hol 8:00-20:30",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Doutor by Kanamachi station's north exit whose official listing advertises both free Wi-Fi and power outlets, making it a dependable budget option for remote work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=1011828"
+  },
+  {
+    "id": "w-0080",
+    "slug": "starbucks-kanamachi-minamiguchi",
+    "name": "Starbucks Kanamachi Minamiguchi",
+    "nameJa": "スターバックスコーヒー 金町駅南口店",
+    "address": "6-4-2 Kanamachi, Lavie Claire Kanamachi, Katsushika-ku, Tokyo",
+    "areaSlug": "katsushika",
+    "stationSlugs": [
+      "kanamachi"
+    ],
+    "nearestStation": "Kanamachi",
+    "walkMinutes": 2,
+    "businessHours": "Mon-Sat 7:00-22:00 / Sun/Hol 8:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Starbucks at Kanamachi station's south exit with standard free Starbucks Wi-Fi and, per customer reports and power-cafe directories, some seats fitted with outlets for working.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://www.hotpepper.jp/strJ000232999/"
+  },
+  {
+    "id": "w-0081",
+    "slug": "starbucks-coffee-beans-akabane",
+    "name": "Starbucks Coffee Beans Akabane",
+    "nameJa": "スターバックス コーヒー ビーンズ赤羽店",
+    "address": "1-1-1 Akabane, Beans Akabane, Kita-ku, Tokyo",
+    "areaSlug": "kita",
+    "stationSlugs": [
+      "akabane"
+    ],
+    "nearestStation": "Akabane",
+    "walkMinutes": 1,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A station-building Starbucks inside the Beans Akabane complex with public Wi-Fi and outlet-equipped seating, though it gets crowded at peak commuter times.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://dwifi.mapion.co.jp/b/d_wifi/info/BA807151"
+  },
+  {
+    "id": "w-0082",
+    "slug": "doutor-coffee-shop-beans-akabane",
+    "name": "Doutor Coffee Shop Beans Akabane",
+    "nameJa": "ドトールコーヒーショップ ビーンズ赤羽店",
+    "address": "1-1-1 Akabane, Beans Akabane, Kita-ku, Tokyo",
+    "areaSlug": "kita",
+    "stationSlugs": [
+      "akabane"
+    ],
+    "nearestStation": "Akabane",
+    "walkMinutes": 1,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A budget-friendly Doutor in the Beans Akabane station building offering Wi-Fi and some outlet seats, popular with commuters for short work sessions.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://dwifi.mapion.co.jp/b/d_wifi/info/BA842792"
+  },
+  {
+    "id": "w-0083",
+    "slug": "starbucks-coffee-aeon-style-akabane",
+    "name": "Starbucks Coffee AEON Style Akabane",
+    "nameJa": "スターバックス コーヒー イオンスタイル赤羽店",
+    "address": "3-12-1 Kamiya, AEON Style Akabane, Kita-ku, Tokyo",
+    "areaSlug": "kita",
+    "stationSlugs": [
+      "akabane"
+    ],
+    "nearestStation": "Akabane",
+    "walkMinutes": 10,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "Inside the AEON Style Akabane mall in Kamiya (a fair distance from Akabane station), this Starbucks has Wi-Fi and outlet seating in a roomier shopping-mall setting.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://dwifi.mapion.co.jp/b/d_wifi/info/BA850070"
+  },
+  {
+    "id": "w-0084",
+    "slug": "starbucks-coffee-oji-ekimae",
+    "name": "Starbucks Coffee Oji-ekimae",
+    "nameJa": "スターバックス コーヒー 王子駅前店",
+    "address": "1-9-5 Oji, Kyotoku Bldg 1F, Kita-ku, Tokyo",
+    "areaSlug": "kita",
+    "stationSlugs": [
+      "oji"
+    ],
+    "nearestStation": "Oji",
+    "walkMinutes": 2,
+    "businessHours": "Weekdays 7:00-22:00; Weekends/Hol 8:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A convenient ground-floor Starbucks right in front of Oji station with Wi-Fi and outlet seats, open long hours for early-morning or evening work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://dwifi.mapion.co.jp/b/d_wifi/info/BA849653"
+  },
+  {
+    "id": "w-0085",
+    "slug": "starbucks-coffee-atre-vie-tabata",
+    "name": "Starbucks Coffee atre vie Tabata",
+    "nameJa": "スターバックス コーヒー アトレヴィ田端店",
+    "address": "1-17-2 Higashi-Tabata, atre vie Tabata 2F, Kita-ku, Tokyo",
+    "areaSlug": "kita",
+    "stationSlugs": [
+      "tabata"
+    ],
+    "nearestStation": "Tabata",
+    "walkMinutes": 1,
+    "priceBand": "¥¥",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Starbucks in the atre vie Tabata station building that normally offers Wi-Fi and outlet seats, but as of mid-2026 its Wi-Fi is suspended due to building construction, so confirm before relying on it.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://everyday-starbucks.com/2023/08/20/atrevie-tabata/"
+  },
+  {
+    "id": "w-0086",
+    "slug": "pronto-higashi-jujo",
+    "name": "Pronto Higashi-Jujo",
+    "nameJa": "プロント 東十条店",
+    "address": "3-15-10 Higashi-Jujo, Kita-ku, Tokyo",
+    "areaSlug": "kita",
+    "stationSlugs": [
+      "higashi-jujo"
+    ],
+    "nearestStation": "Higashi-Jujo",
+    "walkMinutes": 2,
+    "businessHours": "Weekdays 7:00-23:00; Weekends/Hol 8:00-23:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A cafe-by-day, bar-by-night Pronto near Higashi-Jujo station with customer power outlets, free Wi-Fi and 68 seats, one of the area's better long-session spots.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://oasis.mogya.com/spot/epront_higashijyujyo"
+  },
+  {
+    "id": "w-0087",
+    "slug": "doutor-coffee-shop-higashi-jujo",
+    "name": "Doutor Coffee Shop Higashi-Jujo",
+    "nameJa": "ドトールコーヒーショップ 東十条店",
+    "address": "4-5-23 Higashi-Jujo, Kita-ku, Tokyo",
+    "areaSlug": "kita",
+    "stationSlugs": [
+      "higashi-jujo"
+    ],
+    "nearestStation": "Higashi-Jujo",
+    "walkMinutes": 3,
+    "businessHours": "Daily 7:00-20:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "description": "An inexpensive 61-seat Doutor near Higashi-Jujo station with confirmed free Wi-Fi that works for light laptop use, though per-seat power is not documented so bring a charged battery.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=1010935"
+  },
+  {
+    "id": "w-0088",
+    "slug": "tullys-coffee-toyosu-front",
+    "name": "Tully's Coffee Toyosu Front",
+    "nameJa": "タリーズコーヒー 豊洲フロント店",
+    "address": "3-2-20 Toyosu, Toyosu Front 1F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 1,
+    "businessHours": "Mon-Fri 7:30-20:00; Sat 9:00-19:00; Sun/Hol 9:00-18:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A station-front Tully's a minute from Toyosu with free Wi-Fi and outlets along the counter and window seats, opening early for morning work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0089",
+    "slug": "rostar-toyosu-front",
+    "name": "R.O.STAR Toyosu Front",
+    "nameJa": "アール・オー・スター 豊洲フロント店",
+    "address": "3-2-20 Toyosu, Toyosu Front 1F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 1,
+    "businessHours": "7:00-20:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "paid",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A budget self-serve coffee stand steps from the station exit with outlet-equipped window counter seating, though its Wi-Fi requires a receipt password.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0090",
+    "slug": "san-marc-cafe-lalaport-toyosu",
+    "name": "San Marc Cafe Lalaport Toyosu",
+    "nameJa": "サンマルクカフェ ららぽーと豊洲店",
+    "address": "2-4-9 Toyosu, Lalaport 2F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 3,
+    "businessHours": "10:00-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A mall-based San Marc in Lalaport Toyosu offering free Wi-Fi and power outlets at its window seating for casual laptop sessions.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0091",
+    "slug": "pronto-toyosu",
+    "name": "Pronto Toyosu",
+    "nameJa": "プロント 豊洲店",
+    "address": "3-3-3 Toyosu, Center Bldg B1F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 1,
+    "businessHours": "Cafe Mon-Fri 7:00-17:30; Bar to 22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A basement Pronto near the station with free Wi-Fi and outlets at tables and along the wall, running as a cafe by day and bar later.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0092",
+    "slug": "starbucks-toyosu-foresia",
+    "name": "Starbucks Toyosu Foresia",
+    "nameJa": "スターバックスコーヒー 豊洲フォレシア店",
+    "address": "3-2-24 Toyosu, Foresia 1F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 6,
+    "businessHours": "Mon-Fri 7:00-21:00; Sat-Sun/Hol 8:00-20:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A Starbucks in the Foresia office building offering free Wi-Fi and outlets along the window counter for focused work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0093",
+    "slug": "starbucks-lalaport-toyosu-3",
+    "name": "Starbucks Lalaport Toyosu 3",
+    "nameJa": "スターバックスコーヒー ららぽーと豊洲3店",
+    "address": "2-2-1 Toyosu, Lalaport 3 B1F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 3,
+    "businessHours": "7:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Lalaport Starbucks with free Wi-Fi and outlets at both center tables and the counter, open late for evening work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0094",
+    "slug": "komeda-coffee-lalaport-toyosu",
+    "name": "Komeda Coffee Lalaport Toyosu",
+    "nameJa": "コメダ珈琲店 ららぽーと豊洲店",
+    "address": "2-2-1 Toyosu, Lalaport 1, 2F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 5,
+    "businessHours": "7:00-23:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A spacious Komeda in Lalaport with free Wi-Fi and power outlets at nearly all seats, ideal for long stays.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0095",
+    "slug": "solotime-toyosu",
+    "name": "SoloTime Toyosu",
+    "nameJa": "ソロタイム 豊洲店",
+    "address": "5-6-36 Toyosu, Prime Square 2F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 3,
+    "businessHours": "Mon-Fri 7:00-23:30; Sat-Sun/Hol 9:00-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A work-oriented cafe designed for solo laptop users, with free Wi-Fi and power at every seat and very late weekday hours.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0096",
+    "slug": "spbs-toyosu",
+    "name": "SPBS Toyosu",
+    "nameJa": "SPBS TOYOSU",
+    "address": "2-2-1 Toyosu, Lalaport 3, 4F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 3,
+    "businessHours": "8:30-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A bookstore cafe in Lalaport with high-speed free Wi-Fi and outlets at all seats, suited to reading and laptop work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0097",
+    "slug": "story-table-lalaport-toyosu",
+    "name": "Story Table Lalaport Toyosu",
+    "nameJa": "ストーリーテーブル 有隣堂ららぽーと豊洲店",
+    "address": "2-2-1 Toyosu, Lalaport 3, 2F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "toyosu"
+    ],
+    "nearestStation": "Toyosu",
+    "walkMinutes": 2,
+    "businessHours": "10:00-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A bookstore-adjacent cafe with free Wi-Fi and outlets along a wall/window counter, directly connected to the Lalaport concourse.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
+  },
+  {
+    "id": "w-0098",
+    "slug": "starbucks-atre-kameido",
+    "name": "Starbucks Atre Kameido",
+    "nameJa": "スターバックスコーヒー アトレ亀戸店",
+    "address": "5-1-1 Kameido, Atre Kameido 1F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "kameido"
+    ],
+    "nearestStation": "Kameido",
+    "walkMinutes": 1,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A Starbucks inside the Atre building at Kameido station with free Wi-Fi and outlets at part of the counter seating.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://kameido.pro/summary/ekichika-cafe/"
+  },
+  {
+    "id": "w-0099",
+    "slug": "komeda-coffee-atre-kameido",
+    "name": "Komeda Coffee Atre Kameido",
+    "nameJa": "コメダ珈琲店 アトレ亀戸店",
+    "address": "5-1-1 Kameido, Atre Kameido 2F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "kameido"
+    ],
+    "nearestStation": "Kameido",
+    "walkMinutes": 1,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A Komeda in Atre Kameido offering free Wi-Fi and outlets at some counter seats for relaxed longer visits.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://kameido.pro/summary/ekichika-cafe/"
+  },
+  {
+    "id": "w-0100",
+    "slug": "mcdonalds-kameido",
+    "name": "McDonald's Kameido",
+    "nameJa": "マクドナルド 亀戸店",
+    "address": "5-2-1 Kameido, Kameido EX Bldg 1-3F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "kameido"
+    ],
+    "nearestStation": "Kameido",
+    "walkMinutes": 1,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A multi-floor McDonald's by Kameido station providing free Wi-Fi and power outlets, a budget option for quick work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://kameido.pro/summary/ekichika-cafe/"
+  },
+  {
+    "id": "w-0101",
+    "slug": "starbucks-kiba-ito-yokado",
+    "name": "Starbucks Kiba Ito-Yokado",
+    "nameJa": "スターバックスコーヒー 木場イトーヨーカドー店",
+    "address": "1-5-30 Kiba, Fukagawa Gathering, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "kiba"
+    ],
+    "nearestStation": "Kiba",
+    "walkMinutes": 3,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A large Starbucks in the Fukagawa Gathering complex near Kiba with free Wi-Fi and roughly twenty outlet-equipped seats.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://cafe-coffee-lab.com/27428.html"
+  },
+  {
+    "id": "w-0102",
+    "slug": "books-and-cafe-dreadnought",
+    "name": "Books & Cafe Dreadnought",
+    "nameJa": "ブックス&カフェ ドレッドノート",
+    "address": "2-3-21 Hirano, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "kiba"
+    ],
+    "nearestStation": "Kiba",
+    "walkMinutes": 8,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A book cafe near Kiba with free Wi-Fi and outlets, including a set of desk seats built for laptop work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://www.start-line.co.jp/magazine/23ku-info/7001/"
+  },
+  {
+    "id": "w-0103",
+    "slug": "kohikan-monzen-nakacho",
+    "name": "Kohikan Monzen-nakacho",
+    "nameJa": "珈琲館 門前仲町店",
+    "address": "2-9-1 Monzen-nakacho, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "monzen-nakacho"
+    ],
+    "nearestStation": "Monzen-nakacho",
+    "walkMinutes": 2,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A traditional Kohikan coffee house in Monzen-nakacho reported to offer Wi-Fi and outlets for a calm work environment.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://cafe-coffee-lab.com/27428.html"
+  },
+  {
+    "id": "w-0104",
+    "slug": "kohikan-ojima",
+    "name": "Kohikan Ojima",
+    "nameJa": "珈琲館 大島店",
+    "address": "6-8-23 Ojima, Suzuki Bldg 1F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "ojima"
+    ],
+    "nearestStation": "Ojima",
+    "walkMinutes": 2,
+    "businessHours": "7:30-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Kohikan coffee house in Ojima with free Wi-Fi and power outlets, open from early morning until night.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/stores/16eea71c5ee/"
+  },
+  {
+    "id": "w-0105",
+    "slug": "tullys-coffee-ariake-garden",
+    "name": "Tully's Coffee Ariake Garden",
+    "nameJa": "タリーズコーヒー 有明ガーデン店",
+    "address": "2-1-8 Ariake, Ariake Garden 4F, Koto-ku, Tokyo",
+    "areaSlug": "koto",
+    "stationSlugs": [
+      "kokusai-tenjijo"
+    ],
+    "nearestStation": "Kokusai-tenjijo",
+    "walkMinutes": 6,
+    "businessHours": "10:00-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Tully's on the Ariake Garden family floor with free Wi-Fi and around twenty seats offering AC and USB power.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://oasis.mogya.com/spot/tullys_1032"
+  },
+  {
+    "id": "w-0106",
     "slug": "streamer-coffee-company-nakameguro",
     "name": "Streamer Coffee Company Nakameguro",
     "nameJa": "ストリーマーコーヒーカンパニー中目黒店",
@@ -1000,7 +2538,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0042",
+    "id": "w-0107",
     "slug": "frames-nakameguro",
     "name": "FRAMES Nakameguro",
     "nameJa": "FRAMES 中目黒店",
@@ -1026,7 +2564,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0043",
+    "id": "w-0108",
     "slug": "open-nakameguro",
     "name": "Open Nakameguro",
     "nameJa": "OPEN NAKAMEGURO",
@@ -1052,7 +2590,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0044",
+    "id": "w-0109",
     "slug": "podium-cafe",
     "name": "Podium Cafe",
     "nameJa": "ポディウムカフェ",
@@ -1078,7 +2616,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0045",
+    "id": "w-0110",
     "slug": "starbucks-coffee-nakameguro-gt-tower",
     "name": "Starbucks Coffee Nakameguro GT Tower",
     "nameJa": "スターバックスコーヒー 中目黒GTタワー店",
@@ -1104,7 +2642,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0046",
+    "id": "w-0111",
     "slug": "starbucks-coffee-nakameguro-tsutaya-bookstore",
     "name": "Starbucks Coffee Nakameguro Tsutaya Bookstore",
     "nameJa": "スターバックスコーヒー 中目黒蔦屋書店",
@@ -1130,7 +2668,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0047",
+    "id": "w-0112",
     "slug": "freshness-burger-nakameguro-ekimae",
     "name": "Freshness Burger Nakameguro Ekimae",
     "nameJa": "フレッシュネスバーガー 中目黒駅前店",
@@ -1156,7 +2694,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0048",
+    "id": "w-0113",
     "slug": "roju-cafe",
     "name": "Roju Cafe",
     "nameJa": "ROJU CAFE",
@@ -1182,7 +2720,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakameguro-workcafe/"
   },
   {
-    "id": "w-0049",
+    "id": "w-0114",
     "slug": "good-sound-coffee-nakameguro",
     "name": "Good Sound Coffee Nakameguro",
     "nameJa": "GOOD SOUND COFFEE 中目黒店",
@@ -1208,7 +2746,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakameguro-workcafe/"
   },
   {
-    "id": "w-0050",
+    "id": "w-0115",
     "slug": "alpha-beta-coffee-club-jiyugaoka",
     "name": "Alpha Beta Coffee Club Jiyugaoka",
     "nameJa": "ALPHA BETA COFFEE CLUB 自由が丘駅前店",
@@ -1234,7 +2772,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-jiyuugaoka-workcafe/"
   },
   {
-    "id": "w-0051",
+    "id": "w-0116",
     "slug": "onibus-coffee-jiyugaoka",
     "name": "Onibus Coffee Jiyugaoka",
     "nameJa": "ONIBUS COFFEE 自由が丘店",
@@ -1260,7 +2798,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-jiyuugaoka-workcafe/"
   },
   {
-    "id": "w-0052",
+    "id": "w-0117",
     "slug": "latte-graphic-jiyugaoka",
     "name": "Latte Graphic Jiyugaoka",
     "nameJa": "LATTE GRAPHIC 自由が丘店",
@@ -1286,7 +2824,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-jiyuugaoka-workcafe/"
   },
   {
-    "id": "w-0053",
+    "id": "w-0118",
     "slug": "doutor-coffee-jiyugaoka-marie-claire-street",
     "name": "Doutor Coffee Jiyugaoka Marie-Claire Street",
     "nameJa": "ドトールコーヒーショップ 自由が丘マリクレール通り店",
@@ -1312,7 +2850,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-jiyuugaoka-workcafe/"
   },
   {
-    "id": "w-0054",
+    "id": "w-0119",
     "slug": "coffee-base-meguro",
     "name": "Coffee Base Meguro",
     "nameJa": "Coffee Base MEGURO",
@@ -1338,7 +2876,7 @@
     "sourceUrl": "https://goworkship.com/magazine/meguro-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0055",
+    "id": "w-0120",
     "slug": "cafe-veloce-meguro",
     "name": "Cafe Veloce Meguro",
     "nameJa": "カフェ・ベローチェ 目黒店",
@@ -1364,7 +2902,7 @@
     "sourceUrl": "https://goworkship.com/magazine/meguro-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0056",
+    "id": "w-0121",
     "slug": "bunkitsu-roppongi",
     "name": "Bunkitsu Roppongi",
     "nameJa": "文喫 六本木",
@@ -1390,7 +2928,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
   },
   {
-    "id": "w-0057",
+    "id": "w-0122",
     "slug": "verve-coffee-roasters-roppongi",
     "name": "Verve Coffee Roasters Roppongi",
     "nameJa": "ヴァーヴ コーヒー ロースターズ 六本木",
@@ -1416,7 +2954,7 @@
     "sourceUrl": "https://gonetravellingproductions.com/2024/08/23/work-friendly-cafes-in-minato-city/"
   },
   {
-    "id": "w-0058",
+    "id": "w-0123",
     "slug": "common-roppongi",
     "name": "Common Roppongi",
     "nameJa": "コモン 六本木",
@@ -1442,7 +2980,7 @@
     "sourceUrl": "https://gonetravellingproductions.com/2024/08/23/work-friendly-cafes-in-minato-city/"
   },
   {
-    "id": "w-0059",
+    "id": "w-0124",
     "slug": "renoir-roppongi-lapiros",
     "name": "Renoir Roppongi Lapiros",
     "nameJa": "喫茶室ルノアール 六本木ラピロス店",
@@ -1468,7 +3006,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
   },
   {
-    "id": "w-0060",
+    "id": "w-0125",
     "slug": "park6",
     "name": "PARK6",
     "nameJa": "PARK6 powered by bondolfi boncaffe",
@@ -1494,7 +3032,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
   },
   {
-    "id": "w-0061",
+    "id": "w-0126",
     "slug": "starbucks-roppongi-hills-west-walk",
     "name": "Starbucks Roppongi Hills West Walk",
     "nameJa": "スターバックスコーヒー 六本木ヒルズ ウエストウォーク店",
@@ -1520,7 +3058,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
   },
   {
-    "id": "w-0062",
+    "id": "w-0127",
     "slug": "streamer-coffee-company-azabu-juban",
     "name": "Streamer Coffee Company Azabu-Juban",
     "nameJa": "STREAMER COFFEE COMPANY 麻布十番",
@@ -1546,7 +3084,7 @@
     "sourceUrl": "https://gonetravellingproductions.com/2024/08/23/work-friendly-cafes-in-minato-city/"
   },
   {
-    "id": "w-0063",
+    "id": "w-0128",
     "slug": "starbucks-azabu-juban",
     "name": "Starbucks Azabu-Juban",
     "nameJa": "スターバックスコーヒー 麻布十番店",
@@ -1572,7 +3110,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-azabujuban-workcafe/"
   },
   {
-    "id": "w-0064",
+    "id": "w-0129",
     "slug": "ueshima-coffee-ten-azabu-juban",
     "name": "Ueshima Coffee Ten Azabu-Juban",
     "nameJa": "上島珈琲店 麻布十番店",
@@ -1598,7 +3136,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-azabujuban-workcafe/"
   },
   {
-    "id": "w-0065",
+    "id": "w-0130",
     "slug": "the-core-kitchenspace",
     "name": "The Core Kitchen/Space",
     "nameJa": "THE CORE KITCHEN/SPACE",
@@ -1624,7 +3162,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shinbashi-workcafe/"
   },
   {
-    "id": "w-0066",
+    "id": "w-0131",
     "slug": "logi-cafe",
     "name": "Logi Cafe",
     "nameJa": "ロジカフェ",
@@ -1650,7 +3188,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shinbashi-workcafe/"
   },
   {
-    "id": "w-0067",
+    "id": "w-0132",
     "slug": "excelsior-caffe-shimbashi-2-chome",
     "name": "Excelsior Caffe Shimbashi 2-chome",
     "nameJa": "エクセルシオールカフェ 新橋2丁目店",
@@ -1676,7 +3214,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shinbashi-workcafe/"
   },
   {
-    "id": "w-0068",
+    "id": "w-0133",
     "slug": "renoir-shimbashi-shiodome-guchi-ekimae",
     "name": "Renoir Shimbashi Shiodome-guchi Ekimae",
     "nameJa": "喫茶室ルノアール 新橋汐留口駅前店",
@@ -1702,7 +3240,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shinbashi-workcafe/"
   },
   {
-    "id": "w-0069",
+    "id": "w-0134",
     "slug": "accea-cafe-tamachi",
     "name": "Accea Cafe Tamachi",
     "nameJa": "アクセアカフェ 田町店",
@@ -1728,7 +3266,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-tamachi-workcafe/"
   },
   {
-    "id": "w-0070",
+    "id": "w-0135",
     "slug": "starbucks-tamachi-tower",
     "name": "Starbucks Tamachi Tower",
     "nameJa": "スターバックスコーヒー 田町タワー店",
@@ -1754,7 +3292,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-tamachi-workcafe/"
   },
   {
-    "id": "w-0071",
+    "id": "w-0136",
     "slug": "ueshima-coffee-ten-aoyama",
     "name": "Ueshima Coffee Ten Aoyama",
     "nameJa": "上島珈琲店 青山店",
@@ -1780,7 +3318,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
   },
   {
-    "id": "w-0072",
+    "id": "w-0137",
     "slug": "cafe-notanova-nakano",
     "name": "Cafe notanova Nakano",
     "nameJa": "カフェ ノタノヴァ 中野店",
@@ -1804,7 +3342,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0073",
+    "id": "w-0138",
     "slug": "excelsior-caffe-nakano-sunmall",
     "name": "Excelsior Caffe Nakano Sunmall",
     "nameJa": "エクセルシオールカフェ 中野サンモール店",
@@ -1828,7 +3366,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0074",
+    "id": "w-0139",
     "slug": "cafe-veloce-nakano-south-exit",
     "name": "Cafe Veloce Nakano South Exit",
     "nameJa": "カフェ・ベローチェ 中野駅南口店",
@@ -1852,7 +3390,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0075",
+    "id": "w-0140",
     "slug": "starbucks-nakano-dori",
     "name": "Starbucks Nakano-dori",
     "nameJa": "スターバックス 中野通り店",
@@ -1876,7 +3414,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0076",
+    "id": "w-0141",
     "slug": "starbucks-nakano-central-park",
     "name": "Starbucks Nakano Central Park",
     "nameJa": "スターバックス 中野セントラルパーク店",
@@ -1900,7 +3438,7 @@
     "sourceUrl": "https://tabi-zemi.com/tokyo_cafe/"
   },
   {
-    "id": "w-0077",
+    "id": "w-0142",
     "slug": "kissashitsu-renoir-nakano-north-exit",
     "name": "Kissashitsu Renoir Nakano North Exit",
     "nameJa": "喫茶室ルノアール 中野北口店",
@@ -1924,7 +3462,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0078",
+    "id": "w-0143",
     "slug": "kissashitsu-renoir-nakano-south-exit-ekimae",
     "name": "Kissashitsu Renoir Nakano South Exit Ekimae",
     "nameJa": "喫茶室ルノアール 中野南口駅前店",
@@ -1948,7 +3486,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0079",
+    "id": "w-0144",
     "slug": "komedas-coffee-marui-nakano",
     "name": "Komeda's Coffee Marui Nakano",
     "nameJa": "コメダ珈琲店 丸井中野店",
@@ -1972,7 +3510,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0080",
+    "id": "w-0145",
     "slug": "tops-keys-cafe-nakano",
     "name": "Top's Key's Cafe Nakano",
     "nameJa": "トップスキーズカフェ 中野店",
@@ -1996,7 +3534,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0081",
+    "id": "w-0146",
     "slug": "clochette-cafe",
     "name": "Clochette Cafe",
     "nameJa": "クロシェット カフェ",
@@ -2020,7 +3558,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0082",
+    "id": "w-0147",
     "slug": "cafe-dan-nakano-broadway",
     "name": "Cafe Dan Nakano Broadway",
     "nameJa": "珈琲館 談 中野ブロードウェイ店",
@@ -2044,7 +3582,7 @@
     "sourceUrl": "https://tabi-zemi.com/tokyo_cafe/"
   },
   {
-    "id": "w-0083",
+    "id": "w-0148",
     "slug": "muto-coffee-roastery",
     "name": "MUTO coffee roastery",
     "nameJa": "MUTO coffee roastery",
@@ -2068,7 +3606,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0084",
+    "id": "w-0149",
     "slug": "doutor-coffee-higashi-nakano",
     "name": "Doutor Coffee Higashi-Nakano",
     "nameJa": "ドトールコーヒーショップ 東中野店",
@@ -2091,7 +3629,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/charge_near_station/%E6%9D%B1%E4%B8%AD%E9%87%8E/"
   },
   {
-    "id": "w-0085",
+    "id": "w-0150",
     "slug": "becks-coffee-shop-higashi-nakano",
     "name": "Beck's Coffee Shop Higashi-Nakano",
     "nameJa": "ベックスコーヒーショップ 東中野店",
@@ -2114,7 +3652,383 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/charge_near_station/%E6%9D%B1%E4%B8%AD%E9%87%8E/"
   },
   {
-    "id": "w-0086",
+    "id": "w-0151",
+    "slug": "doutor-coffee-oizumi-gakuen-north-exit",
+    "name": "Doutor Coffee Oizumi-gakuen North Exit",
+    "nameJa": "ドトールコーヒーショップ 大泉学園北口店",
+    "address": "1-30-4 Higashi-Oizumi, Sanko Sangyo Bldg 1F, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "oizumi-gakuen"
+    ],
+    "nearestStation": "Oizumi-gakuen",
+    "walkMinutes": 1,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A ground-floor Doutor branch seconds from the north exit that two listings agree offers outlet-equipped seating and free Wi-Fi for casual work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/"
+  },
+  {
+    "id": "w-0152",
+    "slug": "doutor-coffee-seibu-oizumi-gakuen",
+    "name": "Doutor Coffee Seibu Oizumi-gakuen",
+    "nameJa": "ドトールコーヒーショップ 西武大泉学園駅店",
+    "address": "1-29-7 Higashi-Oizumi, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "oizumi-gakuen"
+    ],
+    "nearestStation": "Oizumi-gakuen",
+    "walkMinutes": 1,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A second Doutor essentially at the station side of Oizumi-gakuen that both a charging directory and Tabelog describe as having power outlets and free Wi-Fi.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/"
+  },
+  {
+    "id": "w-0153",
+    "slug": "komedas-coffee-oizumi-gakuen",
+    "name": "Komeda's Coffee Oizumi-gakuen",
+    "nameJa": "コメダ珈琲店 大泉学園店",
+    "address": "1-20-24 Higashi-Oizumi, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "oizumi-gakuen"
+    ],
+    "nearestStation": "Oizumi-gakuen",
+    "walkMinutes": 4,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A roomy Komeda's Coffee where select seats have outlets and the chain-wide Komeda Free Wi-Fi is available, making it a comfortable spot for longer sit-down work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
+  },
+  {
+    "id": "w-0154",
+    "slug": "ueshima-coffee-emio-shakujii-koen",
+    "name": "Ueshima Coffee Emio Shakujii-koen",
+    "nameJa": "上島珈琲店 エミオ石神井公園店",
+    "address": "4-1-17 Shakujii-machi, Emio Shakujii-koen 1F, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "shakujii-koen"
+    ],
+    "nearestStation": "Shakujii-koen",
+    "walkMinutes": 1,
+    "businessHours": "Weekdays 7:30-21:00 / Weekends 8:00-21:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A one-minute-from-the-west-exit Ueshima Coffee inside the Emio complex that Tabelog reports has ample outlets and Wi-Fi, opening early on weekdays for morning work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
+  },
+  {
+    "id": "w-0155",
+    "slug": "tullys-coffee-shakujii-koen",
+    "name": "Tully's Coffee Shakujii-koen",
+    "nameJa": "タリーズコーヒー 石神井公園店",
+    "address": "2-14-31 Shakujii-machi, Viola 1F, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "shakujii-koen"
+    ],
+    "nearestStation": "Shakujii-koen",
+    "walkMinutes": 2,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Tully's about a two-minute walk from the station that a charging directory and Tabelog agree provides free Tully's Wi-Fi plus multiple outlet-equipped seats.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92/"
+  },
+  {
+    "id": "w-0156",
+    "slug": "doutor-coffee-hikarigaoka",
+    "name": "Doutor Coffee Hikarigaoka",
+    "nameJa": "ドトールコーヒーショップ 光が丘店",
+    "address": "2-10-1 Hikarigaoka, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "hikarigaoka"
+    ],
+    "nearestStation": "Hikarigaoka",
+    "walkMinutes": 3,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Doutor branch in the Hikarigaoka area flagged as having power outlets and in-store Wi-Fi, called out as the most work-capable option near the station.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"
+  },
+  {
+    "id": "w-0157",
+    "slug": "starbucks-coffee-hikarigaoka-ima",
+    "name": "Starbucks Coffee Hikarigaoka IMA",
+    "nameJa": "スターバックスコーヒー 光が丘IMA店",
+    "address": "5-1-1 Hikarigaoka, Hikarigaoka IMA, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "hikarigaoka"
+    ],
+    "nearestStation": "Hikarigaoka",
+    "walkMinutes": 1,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "description": "A Starbucks inside the Hikarigaoka IMA mall right by the station with free Wi-Fi, though no source confirms usable power outlets at this branch.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"
+  },
+  {
+    "id": "w-0158",
+    "slug": "doutor-coffee-nerima-west-exit",
+    "name": "Doutor Coffee Nerima West Exit",
+    "nameJa": "ドトールコーヒーショップ 練馬西口店",
+    "address": "1-5-6 Nerima, Crystal Bldg 1F, Nerima-ku, Tokyo",
+    "areaSlug": "nerima",
+    "stationSlugs": [
+      "nerima"
+    ],
+    "nearestStation": "Nerima",
+    "walkMinutes": 2,
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Doutor near Nerima station's west exit listed with power outlets and free carrier Wi-Fi, though confirmation comes from a single directory.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E7%B7%B4%E9%A6%AC/"
+  },
+  {
+    "id": "w-0159",
+    "slug": "grain-coffee-roaster-kamata",
+    "name": "Grain Coffee Roaster Kamata",
+    "nameJa": "GRAIN COFFEE ROASTER 環八蒲田店",
+    "address": "4-42-8 Kamata, Olympic Kamata 1F, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "keikyu-kamata"
+    ],
+    "nearestStation": "Keikyu Kamata",
+    "walkMinutes": 9,
+    "businessHours": "10:00-18:30",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A roaster-cafe attached to an Olympic store with outlets at essentially every seat and free Wi-Fi, though one source flags its listing status as unconfirmed so check before visiting.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/"
+  },
+  {
+    "id": "w-0160",
+    "slug": "cafe-ig",
+    "name": "Cafe ig",
+    "nameJa": "カフェアイジー",
+    "address": "1-9-1 Minami-Kamata, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "keikyu-kamata"
+    ],
+    "nearestStation": "Keikyu Kamata",
+    "walkMinutes": 4,
+    "businessHours": "11:30-21:30 (closed Wed)",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "An independent cafe near the Keikyu Kamata east exit described as work-friendly with free Wi-Fi and outlets available across its seating.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/"
+  },
+  {
+    "id": "w-0161",
+    "slug": "cafe-de-crie-kamata-east-exit",
+    "name": "Cafe de Crie Kamata East Exit",
+    "nameJa": "カフェ・ド・クリエ 蒲田東口店",
+    "address": "5-38-3 Kamata 1F, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "kamata"
+    ],
+    "nearestStation": "Kamata",
+    "walkMinutes": 3,
+    "businessHours": "Weekdays 6:45-21:00, Weekends 7:00-20:00",
+    "priceBand": "¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "description": "A branch of the budget Cafe de Crie chain a few minutes from JR Kamata east exit reported to have outlets at all seats plus free Wi-Fi, opening early for morning work.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/"
+  },
+  {
+    "id": "w-0162",
+    "slug": "komedas-coffee-omori-ito-yokado",
+    "name": "Komeda's Coffee Omori Ito-Yokado",
+    "nameJa": "コメダ珈琲店 大森イトーヨーカドー店",
+    "address": "2-13-1 Omori-Kita, Ito-Yokado 1F, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "omori"
+    ],
+    "nearestStation": "Omori",
+    "walkMinutes": 5,
+    "businessHours": "7:00-23:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A spacious Komeda branch inside the Omori Ito-Yokado with free Wi-Fi and outlets at counter seating, open late for long sessions.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-omori-workcafe/"
+  },
+  {
+    "id": "w-0163",
+    "slug": "starbucks-atre-omori",
+    "name": "Starbucks Atre Omori",
+    "nameJa": "スターバックスコーヒー アトレ大森店",
+    "address": "1-6-16 Omori-Kita, Atre Omori 2F, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "omori"
+    ],
+    "nearestStation": "Omori",
+    "walkMinutes": 1,
+    "businessHours": "7:00-22:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "description": "A Starbucks directly connected to Atre Omori station with the chain's free Wi-Fi and outlets available at counter seats.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-omori-workcafe/"
+  },
+  {
+    "id": "w-0164",
+    "slug": "ueshima-coffee-omori",
+    "name": "Ueshima Coffee Omori",
+    "nameJa": "上島珈琲店 大森店",
+    "address": "2-3-3 Sanno, Noguchi Bldg 1F, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "omori"
+    ],
+    "nearestStation": "Omori",
+    "walkMinutes": 1,
+    "businessHours": "Weekdays 8:00-20:00, Weekends 8:00-19:00",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "description": "A calm Ueshima Coffee by the Omori west exit with free Wi-Fi, but outlet availability is reported inconsistently across sources so power should not be assumed.",
+    "lastChecked": "2026-08-01",
+    "confidence": "low",
+    "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-omori-workcafe/"
+  },
+  {
+    "id": "w-0165",
+    "slug": "starbucks-den-en-chofu-tokyu-square",
+    "name": "Starbucks Den-en-chofu Tokyu Square",
+    "nameJa": "スターバックスコーヒー 田園調布 東急スクエア店",
+    "address": "Den-en-chofu Tokyu Square Garden Site, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "den-en-chofu"
+    ],
+    "nearestStation": "Den-en-chofu",
+    "walkMinutes": 1,
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Starbucks in the Tokyu Square complex at Den-en-chofu station offering the chain's standard free Wi-Fi and some outlet seating, though amenity data was only lightly verifiable.",
+    "lastChecked": "2026-08-01",
+    "confidence": "low",
+    "sourceUrl": "https://store.starbucks.co.jp/detail-1139/"
+  },
+  {
+    "id": "w-0166",
+    "slug": "tullys-coffee-haneda-airport-terminal-3",
+    "name": "Tully's Coffee Haneda Airport Terminal 3",
+    "nameJa": "タリーズコーヒー 羽田空港第3ターミナル店",
+    "address": "2-6-5 Haneda Airport, Terminal 3, 2F Arrivals, Ota-ku, Tokyo",
+    "areaSlug": "ota",
+    "stationSlugs": [
+      "haneda-airport-terminal-3"
+    ],
+    "nearestStation": "Haneda Airport Terminal 3",
+    "walkMinutes": 1,
+    "businessHours": "24 hours",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "description": "A Tully's on the Terminal 3 arrivals floor that runs around the clock with power outlets and airport Wi-Fi, useful for working during odd-hour layovers.",
+    "lastChecked": "2026-08-01",
+    "confidence": "low",
+    "sourceUrl": "https://blog.nearme.jp/article/haneda/3334/"
+  },
+  {
+    "id": "w-0167",
     "slug": "komedas-coffee-sangenjaya",
     "name": "Komeda's Coffee Sangenjaya",
     "nameJa": "コメダ珈琲店 三軒茶屋店",
@@ -2138,7 +4052,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0087",
+    "id": "w-0168",
     "slug": "ueshima-coffee-sangenjaya",
     "name": "Ueshima Coffee Sangenjaya",
     "nameJa": "上島珈琲店 三軒茶屋店",
@@ -2162,7 +4076,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0088",
+    "id": "w-0169",
     "slug": "kurami-self-roast-cafe",
     "name": "Kurami Self-Roast Cafe",
     "nameJa": "自家焙煎カフェ 蔵味",
@@ -2186,7 +4100,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0089",
+    "id": "w-0170",
     "slug": "starbucks-sangenjaya",
     "name": "Starbucks Sangenjaya",
     "nameJa": "スターバックスコーヒー 三軒茶屋店",
@@ -2210,7 +4124,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0090",
+    "id": "w-0171",
     "slug": "cafe-mamehico-sangenjaya",
     "name": "Cafe Mamehico Sangenjaya",
     "nameJa": "カフェ マメヒコ 三軒茶屋本店",
@@ -2234,7 +4148,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0091",
+    "id": "w-0172",
     "slug": "komedas-coffee-shimokitazawa",
     "name": "Komeda's Coffee Shimokitazawa",
     "nameJa": "コメダ珈琲店 下北沢店",
@@ -2258,7 +4172,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shimokitazawa-workcafe/"
   },
   {
-    "id": "w-0092",
+    "id": "w-0173",
     "slug": "kohikan-shimokitazawa",
     "name": "Kohikan Shimokitazawa",
     "nameJa": "珈琲館 下北沢店",
@@ -2282,7 +4196,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shimokitazawa-workcafe/"
   },
   {
-    "id": "w-0093",
+    "id": "w-0174",
     "slug": "starbucks-shimokita-ekiue",
     "name": "Starbucks Shimokita Ekiue",
     "nameJa": "スターバックスコーヒー 下北沢駅上店",
@@ -2306,7 +4220,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shimokitazawa-workcafe/"
   },
   {
-    "id": "w-0094",
+    "id": "w-0175",
     "slug": "flux-cafe-shimokitazawa",
     "name": "FLUX CAFE Shimokitazawa",
     "nameJa": "FLUX CAFE 下北沢",
@@ -2330,7 +4244,7 @@
     "sourceUrl": "https://laptopfriendlycafe.com/cafes/tokyo/flux-cafe-shimokitazawa"
   },
   {
-    "id": "w-0095",
+    "id": "w-0176",
     "slug": "starbucks-futako-tamagawa-tsutaya-electrics",
     "name": "Starbucks Futako-Tamagawa Tsutaya Electrics",
     "nameJa": "スターバックスコーヒー 二子玉川 蔦屋家電",
@@ -2354,7 +4268,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-futakotamagawa-workcafe/"
   },
   {
-    "id": "w-0096",
+    "id": "w-0177",
     "slug": "nicotama-days-cafe",
     "name": "Nicotama Days Cafe",
     "nameJa": "NICOTAMA DAYS CAFE",
@@ -2378,7 +4292,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-futakotamagawa-workcafe/"
   },
   {
-    "id": "w-0097",
+    "id": "w-0178",
     "slug": "starbucks-kyodo-station-front",
     "name": "Starbucks Kyodo Station Front",
     "nameJa": "スターバックスコーヒー 経堂駅前店",
@@ -2402,7 +4316,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kyodo-workcafe/"
   },
   {
-    "id": "w-0098",
+    "id": "w-0179",
     "slug": "engrave-coffee-roasters",
     "name": "Engrave Coffee Roasters",
     "nameJa": "エングレーブコーヒーロースターズ",
@@ -2426,7 +4340,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kyodo-workcafe/"
   },
   {
-    "id": "w-0099",
+    "id": "w-0180",
     "slug": "freeman-cafe",
     "name": "Freeman Cafe",
     "nameJa": "フリーマンカフェ",
@@ -2452,7 +4366,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0100",
+    "id": "w-0181",
     "slug": "fabcafe-tokyo",
     "name": "FabCafe Tokyo",
     "nameJa": "ファブカフェ トーキョー",
@@ -2478,7 +4392,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0101",
+    "id": "w-0182",
     "slug": "forest-library",
     "name": "Forest Library",
     "nameJa": "森の図書室",
@@ -2504,7 +4418,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0102",
+    "id": "w-0183",
     "slug": "komeda-coffee-shibuya-miyamasuzaka",
     "name": "Komeda Coffee Shibuya Miyamasuzaka",
     "nameJa": "コメダ珈琲店 渋谷宮益坂店",
@@ -2530,7 +4444,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0103",
+    "id": "w-0184",
     "slug": "streamer-coffee-company-shibuya",
     "name": "Streamer Coffee Company Shibuya",
     "nameJa": "ストリーマーコーヒーカンパニー 渋谷店",
@@ -2556,7 +4470,7 @@
     "sourceUrl": "https://aumo.jp/articles/21926"
   },
   {
-    "id": "w-0104",
+    "id": "w-0185",
     "slug": "udagawa-cafe",
     "name": "Udagawa Cafe",
     "nameJa": "宇田川カフェ",
@@ -2582,7 +4496,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0105",
+    "id": "w-0186",
     "slug": "moja-in-the-house",
     "name": "MOJA in the House",
     "nameJa": "モジャ イン ザ ハウス",
@@ -2608,7 +4522,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0106",
+    "id": "w-0187",
     "slug": "the-theatre-table",
     "name": "The Theatre Table",
     "nameJa": "ザ・シアターテーブル",
@@ -2634,7 +4548,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0107",
+    "id": "w-0188",
     "slug": "valley-park-stand",
     "name": "Valley Park Stand",
     "nameJa": "バレーパークスタンド",
@@ -2660,7 +4574,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0108",
+    "id": "w-0189",
     "slug": "white-glass-coffee",
     "name": "White Glass Coffee",
     "nameJa": "ホワイトグラスコーヒー",
@@ -2686,7 +4600,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0109",
+    "id": "w-0190",
     "slug": "kohi-chakan-premium-grand-shibuya",
     "name": "Kohi Chakan Premium Grand Shibuya",
     "nameJa": "珈琲茶館プレミアム グランド渋谷店",
@@ -2712,7 +4626,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0110",
+    "id": "w-0191",
     "slug": "trunk-lounge",
     "name": "Trunk Lounge",
     "nameJa": "トランク ラウンジ",
@@ -2738,7 +4652,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0111",
+    "id": "w-0192",
     "slug": "marked-cafe-shibuya-cast",
     "name": "Marked Cafe Shibuya Cast",
     "nameJa": "マークトカフェ",
@@ -2764,7 +4678,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0112",
+    "id": "w-0193",
     "slug": "starbucks-coffee-shibuya-modi",
     "name": "Starbucks Coffee Shibuya Modi",
     "nameJa": "スターバックスコーヒー 渋谷モディ店",
@@ -2790,7 +4704,7 @@
     "sourceUrl": "https://everyday-starbucks.com/2022/11/18/shibuya-modi/"
   },
   {
-    "id": "w-0113",
+    "id": "w-0194",
     "slug": "dean-and-deluca-cafe-shibuya-stream",
     "name": "Dean & Deluca Cafe Shibuya Stream",
     "nameJa": "ディーン&デルーカ カフェ 渋谷ストリーム店",
@@ -2815,7 +4729,7 @@
     "sourceUrl": "https://aumo.jp/articles/21926"
   },
   {
-    "id": "w-0114",
+    "id": "w-0195",
     "slug": "tokyo-kenkyo",
     "name": "Tokyo Kenkyo",
     "address": "7-9 Nanpeidaicho, Shibuya-ku, Tokyo",
@@ -2840,7 +4754,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0115",
+    "id": "w-0196",
     "slug": "starbucks-coffee-gate-city-osaki",
     "name": "Starbucks Coffee Gate City Osaki",
     "nameJa": "スターバックスコーヒー ゲートシティ大崎店",
@@ -2864,7 +4778,7 @@
     "sourceUrl": "https://goworkship.com/magazine/osaki-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0116",
+    "id": "w-0197",
     "slug": "excelsior-cafe-osaki-new-city",
     "name": "Excelsior Cafe Osaki New City",
     "nameJa": "エクセルシオールカフェ 大崎ニューシティ店",
@@ -2888,7 +4802,7 @@
     "sourceUrl": "https://goworkship.com/magazine/osaki-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0117",
+    "id": "w-0198",
     "slug": "excelsior-cafe-osaki-think-park",
     "name": "Excelsior Cafe Osaki Think Park",
     "nameJa": "エクセルシオール カフェ 大崎シンクパーク店",
@@ -2912,7 +4826,7 @@
     "sourceUrl": "https://goworkship.com/magazine/osaki-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0118",
+    "id": "w-0199",
     "slug": "osaki-book-cafe",
     "name": "Osaki Book Cafe",
     "nameJa": "大崎ブックカフェ",
@@ -2936,7 +4850,7 @@
     "sourceUrl": "https://goworkship.com/magazine/osaki-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0119",
+    "id": "w-0200",
     "slug": "times-cafe-gotanda",
     "name": "Times Cafe Gotanda",
     "nameJa": "タイムズカフェ",
@@ -2960,7 +4874,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-gotanda-workcafe/"
   },
   {
-    "id": "w-0120",
+    "id": "w-0201",
     "slug": "mobacafe",
     "name": "MOBaCAFE",
     "nameJa": "MOBaCAFE",
@@ -2984,7 +4898,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-gotanda-workcafe/"
   },
   {
-    "id": "w-0121",
+    "id": "w-0202",
     "slug": "starbucks-coffee-nishi-gotanda",
     "name": "Starbucks Coffee Nishi-Gotanda",
     "nameJa": "スターバックスコーヒー 西五反田店",
@@ -3008,7 +4922,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-gotanda-workcafe/"
   },
   {
-    "id": "w-0122",
+    "id": "w-0203",
     "slug": "excelsior-cafe-gotanda-east-exit",
     "name": "Excelsior Cafe Gotanda East Exit",
     "nameJa": "エクセルシオールカフェ 五反田東口店",
@@ -3032,7 +4946,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-gotanda-workcafe/"
   },
   {
-    "id": "w-0123",
+    "id": "w-0204",
     "slug": "takakurachi-coffee-oimachi",
     "name": "Takakurachi Coffee Oimachi",
     "nameJa": "高倉町珈琲 大井町店",
@@ -3056,7 +4970,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oimachi-workcafe/"
   },
   {
-    "id": "w-0124",
+    "id": "w-0205",
     "slug": "starbucks-coffee-hankyu-oimachi-garden",
     "name": "Starbucks Coffee Hankyu Oimachi Garden",
     "nameJa": "スターバックスコーヒー 阪急大井町ガーデン店",
@@ -3080,7 +4994,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oimachi-workcafe/"
   },
   {
-    "id": "w-0125",
+    "id": "w-0206",
     "slug": "san-marc-cafe-hankyu-oimachi-garden",
     "name": "San Marc Cafe Hankyu Oimachi Garden",
     "nameJa": "サンマルクカフェ 阪急大井町ガーデン店",
@@ -3104,7 +5018,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oimachi-workcafe/"
   },
   {
-    "id": "w-0126",
+    "id": "w-0207",
     "slug": "park-coffee-oimachi",
     "name": "Park Coffee Oimachi",
     "nameJa": "パークコーヒー",
@@ -3128,7 +5042,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oimachi-workcafe/"
   },
   {
-    "id": "w-0127",
+    "id": "w-0208",
     "slug": "komeda-coffee-musashi-koyama",
     "name": "Komeda Coffee Musashi-Koyama",
     "nameJa": "コメダ珈琲店 武蔵小山店",
@@ -3152,7 +5066,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-musashikoyama-workcafe/"
   },
   {
-    "id": "w-0128",
+    "id": "w-0209",
     "slug": "ueshima-coffee-musashi-koyama",
     "name": "Ueshima Coffee Musashi-Koyama",
     "nameJa": "上島珈琲店 武蔵小山店",
@@ -3176,7 +5090,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-musashikoyama-workcafe/"
   },
   {
-    "id": "w-0129",
+    "id": "w-0210",
     "slug": "caffice",
     "name": "Caffice",
     "nameJa": "カフィス",
@@ -3202,7 +5116,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0130",
+    "id": "w-0211",
     "slug": "coffee-kizoku-edinburgh",
     "name": "Coffee Kizoku Edinburgh",
     "nameJa": "珈琲貴族エジンバラ",
@@ -3228,7 +5142,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0131",
+    "id": "w-0212",
     "slug": "hakadoru-shinjuku-sanchome",
     "name": "HAKADORU Shinjuku-sanchome",
     "nameJa": "HAKADORU 新宿三丁目店",
@@ -3254,7 +5168,7 @@
     "sourceUrl": "https://haka-doru.jp/store/shinjuku"
   },
   {
-    "id": "w-0132",
+    "id": "w-0213",
     "slug": "brooklyn-parlor-shinjuku",
     "name": "Brooklyn Parlor Shinjuku",
     "nameJa": "ブルックリンパーラー 新宿",
@@ -3280,7 +5194,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0133",
+    "id": "w-0214",
     "slug": "the-smokist-coffee-shinjuku-gyoenmae",
     "name": "The Smokist Coffee Shinjuku-gyoenmae",
     "nameJa": "THE SMOKIST COFFEE 新宿御苑前店",
@@ -3306,7 +5220,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0134",
+    "id": "w-0215",
     "slug": "coffee-seibu",
     "name": "Coffee Seibu",
     "nameJa": "珈琲西武",
@@ -3332,7 +5246,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shinjuku-nomado/"
   },
   {
-    "id": "w-0135",
+    "id": "w-0216",
     "slug": "tullys-coffee-nishi-shinjuku-ekimae",
     "name": "Tully's Coffee Nishi-Shinjuku Ekimae",
     "nameJa": "タリーズコーヒー 西新宿駅前店",
@@ -3358,7 +5272,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0136",
+    "id": "w-0217",
     "slug": "starbucks-shinjuku-nishiguchi",
     "name": "Starbucks Shinjuku Nishiguchi",
     "nameJa": "スターバックス 新宿西口店",
@@ -3384,7 +5298,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0137",
+    "id": "w-0218",
     "slug": "starbucks-shinjuku-nomura-building",
     "name": "Starbucks Shinjuku Nomura Building",
     "nameJa": "スターバックス 新宿野村ビル店",
@@ -3410,7 +5324,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0138",
+    "id": "w-0219",
     "slug": "cafe-hudson-shinjuku-mylord",
     "name": "Cafe Hudson Shinjuku Mylord",
     "nameJa": "CAFE HUDSON 新宿ミロード店",
@@ -3436,7 +5350,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0139",
+    "id": "w-0220",
     "slug": "the-3rd-burger-shinjuku-ohgado",
     "name": "The 3rd Burger Shinjuku Ohgado",
     "nameJa": "the 3rd Burger 新宿大ガード店",
@@ -3462,7 +5376,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0140",
+    "id": "w-0221",
     "slug": "kissaten-renoir-shinjuku-west-exit",
     "name": "Kissaten Renoir Shinjuku West Exit",
     "nameJa": "喫茶室ルノアール 新宿西口店",
@@ -3488,7 +5402,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shinjuku-nomado/"
   },
   {
-    "id": "w-0141",
+    "id": "w-0222",
     "slug": "komedas-coffee-shinjuku-sanchome",
     "name": "Komeda's Coffee Shinjuku-sanchome",
     "nameJa": "コメダ珈琲店 新宿三丁目店",
@@ -3514,7 +5428,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shinjuku-nomado/"
   },
   {
-    "id": "w-0142",
+    "id": "w-0223",
     "slug": "paul-bassett-shinjuku",
     "name": "Paul Bassett Shinjuku",
     "nameJa": "ポール・バセット 新宿店",
@@ -3540,7 +5454,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shinjuku-nomado/"
   },
   {
-    "id": "w-0143",
+    "id": "w-0224",
     "slug": "cotocafe",
     "name": "Cotocafe",
     "nameJa": "コトカフェ",
@@ -3566,7 +5480,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0144",
+    "id": "w-0225",
     "slug": "toki-cafe-kagurazaka",
     "name": "Toki Cafe Kagurazaka",
     "nameJa": "トキカフェ 神楽坂",
@@ -3592,7 +5506,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kagurazaka-workcafe/"
   },
   {
-    "id": "w-0145",
+    "id": "w-0226",
     "slug": "starbucks-kagurazaka-shita",
     "name": "Starbucks Kagurazaka-shita",
     "nameJa": "スターバックス 神楽坂下店",
@@ -3618,7 +5532,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kagurazaka-workcafe/"
   },
   {
-    "id": "w-0146",
+    "id": "w-0227",
     "slug": "ueshima-coffee-ten-kagurazaka",
     "name": "Ueshima Coffee Ten Kagurazaka",
     "nameJa": "上島珈琲店 神楽坂店",
@@ -3644,7 +5558,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kagurazaka-workcafe/"
   },
   {
-    "id": "w-0147",
+    "id": "w-0228",
     "slug": "reboot-cafe-ogikubo",
     "name": "Reboot Cafe Ogikubo",
     "nameJa": "Reboot Cafe 荻窪",
@@ -3668,7 +5582,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0148",
+    "id": "w-0229",
     "slug": "cafe-veloce-ogikubo-west-exit",
     "name": "Cafe Veloce Ogikubo West Exit",
     "nameJa": "カフェ・ベローチェ 荻窪駅西口店",
@@ -3692,7 +5606,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0149",
+    "id": "w-0230",
     "slug": "komeda-coffee-ogikubo-south-exit",
     "name": "Komeda Coffee Ogikubo South Exit",
     "nameJa": "コメダ珈琲店 荻窪南口店",
@@ -3716,7 +5630,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0150",
+    "id": "w-0231",
     "slug": "becks-coffee-shop-ogikubo",
     "name": "Beck's Coffee Shop Ogikubo",
     "nameJa": "ベックスコーヒーショップ 荻窪店",
@@ -3740,7 +5654,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0151",
+    "id": "w-0232",
     "slug": "starbucks-coffee-lumine-ogikubo",
     "name": "Starbucks Coffee Lumine Ogikubo",
     "nameJa": "スターバックス コーヒー ルミネ荻窪店",
@@ -3764,7 +5678,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0152",
+    "id": "w-0233",
     "slug": "tullys-coffee-seibu-shinkin-ogikubo",
     "name": "Tully's Coffee Seibu Shinkin Ogikubo",
     "nameJa": "タリーズコーヒー 西武しんきん荻窪店",
@@ -3788,7 +5702,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0153",
+    "id": "w-0234",
     "slug": "doutor-coffee-koenji-south-exit",
     "name": "Doutor Coffee Koenji South Exit",
     "nameJa": "ドトールコーヒーショップ 高円寺南口店",
@@ -3812,7 +5726,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0154",
+    "id": "w-0235",
     "slug": "kissashitsu-renoir-koenji-north-exit",
     "name": "Kissashitsu Renoir Koenji North Exit",
     "nameJa": "喫茶室ルノアール 高円寺北口駅前店",
@@ -3836,7 +5750,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0155",
+    "id": "w-0236",
     "slug": "pronto-koenji-south-exit",
     "name": "Pronto Koenji South Exit",
     "nameJa": "プロント 高円寺南口店",
@@ -3860,7 +5774,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0156",
+    "id": "w-0237",
     "slug": "coworking-cafe-bar-mui",
     "name": "Coworking Cafe-Bar mui",
     "nameJa": "コワーキングカフェ・バー mui",
@@ -3884,7 +5798,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0157",
+    "id": "w-0238",
     "slug": "yonchome-cafe",
     "name": "Yonchome Cafe",
     "nameJa": "四丁目カフェ",
@@ -3908,7 +5822,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0158",
+    "id": "w-0239",
     "slug": "starbucks-coffee-asagaya-ekimae",
     "name": "Starbucks Coffee Asagaya Ekimae",
     "nameJa": "スターバックス コーヒー 阿佐ヶ谷駅前店",
@@ -3932,7 +5846,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-asagaya-workcafe/"
   },
   {
-    "id": "w-0159",
+    "id": "w-0240",
     "slug": "cafe-and-bar-pronto-beans-asagaya",
     "name": "Cafe & Bar Pronto Beans Asagaya",
     "nameJa": "カフェ&バー プロント Beans阿佐ヶ谷店",
@@ -3956,7 +5870,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-asagaya-workcafe/"
   },
   {
-    "id": "w-0160",
+    "id": "w-0241",
     "slug": "coffee-and-bake-achoo",
     "name": "Coffee & Bake Achoo!",
     "nameJa": "Coffee & Bake Achoo!",
@@ -3980,7 +5894,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-asagaya-workcafe/"
   },
   {
-    "id": "w-0161",
+    "id": "w-0242",
     "slug": "penguin-cafe-asagaya",
     "name": "Penguin Cafe Asagaya",
     "nameJa": "ペンギンカフェ",
@@ -4004,7 +5918,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-asagaya-workcafe/"
   },
   {
-    "id": "w-0162",
+    "id": "w-0243",
     "slug": "lifework-cafe-nishi-ogikubo",
     "name": "LifeWork Cafe Nishi-Ogikubo",
     "nameJa": "ライフワーク（LifeWork Cafe）",
@@ -4028,7 +5942,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nishiogikubo-coworking/"
   },
   {
-    "id": "w-0163",
+    "id": "w-0244",
     "slug": "starbucks-coffee-kinshicho-termina-2",
     "name": "Starbucks Coffee Kinshicho Termina 2",
     "nameJa": "スターバックスコーヒー 錦糸町テルミナ2店",
@@ -4052,7 +5966,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0164",
+    "id": "w-0245",
     "slug": "komedas-coffee-marui-kinshicho",
     "name": "Komeda's Coffee Marui Kinshicho",
     "nameJa": "コメダ珈琲店 錦糸町マルイ店",
@@ -4076,7 +5990,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0165",
+    "id": "w-0246",
     "slug": "tullys-coffee-kinshicho-termina",
     "name": "Tully's Coffee Kinshicho Termina",
     "nameJa": "タリーズコーヒー 錦糸町テルミナ店",
@@ -4100,7 +6014,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0166",
+    "id": "w-0247",
     "slug": "join-cafe",
     "name": "JOIN Cafe",
     "nameJa": "ジョインカフェ",
@@ -4124,7 +6038,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0167",
+    "id": "w-0248",
     "slug": "moxy-bar-and-lounge-kinshicho",
     "name": "Moxy Bar & Lounge Kinshicho",
     "nameJa": "モクシー東京錦糸町 バー&ラウンジ",
@@ -4148,7 +6062,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0168",
+    "id": "w-0249",
     "slug": "cafe-de-crie-plus-marui-kinshicho",
     "name": "Cafe de Crie Plus Marui Kinshicho",
     "nameJa": "カフェ・ド・クリエ プラス 錦糸町マルイ店",
@@ -4172,7 +6086,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
   },
   {
-    "id": "w-0169",
+    "id": "w-0250",
     "slug": "cafe-le-monde-kinshicho",
     "name": "Cafe Le Monde Kinshicho",
     "nameJa": "カフェ ル・モンド",
@@ -4196,7 +6110,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0170",
+    "id": "w-0251",
     "slug": "excelsior-cafe-tokyo-skytree-east-tower",
     "name": "Excelsior Cafe Tokyo Skytree East Tower",
     "nameJa": "エクセルシオールカフェ 東京スカイツリーイーストタワー店",
@@ -4220,7 +6134,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0171",
+    "id": "w-0252",
     "slug": "starbucks-tokyo-skytree-solamachi-east-6f",
     "name": "Starbucks Tokyo Skytree Solamachi East 6F",
     "nameJa": "スターバックスコーヒー 東京スカイツリータウン・ソラマチ東6階店",
@@ -4244,7 +6158,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0172",
+    "id": "w-0253",
     "slug": "genba-kissaten",
     "name": "Genba Kissaten",
     "nameJa": "現場喫茶",
@@ -4268,7 +6182,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0173",
+    "id": "w-0254",
     "slug": "benkyo-cafe-ryogoku-studio",
     "name": "Benkyo Cafe Ryogoku Studio",
     "nameJa": "勉強カフェ 両国スタジオ",
@@ -4292,7 +6206,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
   },
   {
-    "id": "w-0174",
+    "id": "w-0255",
     "slug": "saint-marc-cafe-ryogoku-west-exit",
     "name": "Saint Marc Cafe Ryogoku West Exit",
     "nameJa": "サンマルクカフェ 両国西口店",
@@ -4316,7 +6230,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
   },
   {
-    "id": "w-0175",
+    "id": "w-0256",
     "slug": "cafe-veloce-ryogoku",
     "name": "Cafe Veloce Ryogoku",
     "nameJa": "カフェ・ベローチェ 両国店",
@@ -4340,7 +6254,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
   },
   {
-    "id": "w-0176",
+    "id": "w-0257",
     "slug": "rcafe192",
     "name": "Rcafe192",
     "nameJa": "Rcafe192",
@@ -4364,7 +6278,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
   },
   {
-    "id": "w-0177",
+    "id": "w-0258",
     "slug": "safn",
     "name": "Safn",
     "nameJa": "Safn（サフン）",
@@ -4388,7 +6302,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0178",
+    "id": "w-0259",
     "slug": "tullys-coffee-ueno-mori-sakura-terrace",
     "name": "Tully's Coffee Ueno Mori Sakura Terrace",
     "nameJa": "タリーズコーヒー 上野の森さくらテラス店",
@@ -4412,7 +6326,7 @@
     "sourceUrl": "https://autoro.io/mag/uenoeifidengencafe/"
   },
   {
-    "id": "w-0179",
+    "id": "w-0260",
     "slug": "wired-cafe-atre-ueno",
     "name": "WIRED CAFE Atre Ueno",
     "nameJa": "ワイアードカフェ アトレ上野店",
@@ -4436,7 +6350,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
   },
   {
-    "id": "w-0180",
+    "id": "w-0261",
     "slug": "chano-ma-ueno",
     "name": "chano-ma Ueno",
     "nameJa": "チャノマ 上野マルイ店",
@@ -4460,7 +6374,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
   },
   {
-    "id": "w-0181",
+    "id": "w-0262",
     "slug": "nanas-green-tea-ueno-marui",
     "name": "nana's green tea Ueno Marui",
     "nameJa": "nana's green tea 上野マルイ店",
@@ -4484,7 +6398,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
   },
   {
-    "id": "w-0182",
+    "id": "w-0263",
     "slug": "cafe-veloce-ueno-3-chome",
     "name": "Cafe Veloce Ueno 3-chome",
     "nameJa": "カフェ・ベローチェ 上野三丁目店",
@@ -4508,7 +6422,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
   },
   {
-    "id": "w-0183",
+    "id": "w-0264",
     "slug": "cafe-de-crie-jr-okachimachi",
     "name": "Cafe de Crie JR Okachimachi",
     "nameJa": "カフェ・ド・クリエ JR御徒町駅前店",
@@ -4532,7 +6446,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
   },
   {
-    "id": "w-0184",
+    "id": "w-0265",
     "slug": "sekai-cafe-asakusa",
     "name": "SEKAI CAFE Asakusa",
     "nameJa": "浅草 SEKAIカフェ",
@@ -4556,7 +6470,7 @@
     "sourceUrl": "https://growing.jp/?p=893"
   },
   {
-    "id": "w-0185",
+    "id": "w-0266",
     "slug": "starbucks-asakusa-ekimae",
     "name": "Starbucks Asakusa Ekimae",
     "nameJa": "スターバックス 浅草駅前店",
@@ -4580,7 +6494,7 @@
     "sourceUrl": "https://growing.jp/?p=893"
   },
   {
-    "id": "w-0186",
+    "id": "w-0267",
     "slug": "asakusa-cafe-dining-well",
     "name": "Asakusa Cafe Dining well",
     "nameJa": "浅草カフェダイニング well",
@@ -4604,7 +6518,7 @@
     "sourceUrl": "https://growing.jp/?p=893"
   },
   {
-    "id": "w-0187",
+    "id": "w-0268",
     "slug": "en-kuramae",
     "name": "en Kuramae",
     "nameJa": "鷰 en",
@@ -4627,7 +6541,7 @@
     "sourceUrl": "https://www.kamometomachi.com/en-cafe"
   },
   {
-    "id": "w-0188",
+    "id": "w-0269",
     "slug": "dandelion-chocolate-factory-and-cafe-kuramae",
     "name": "Dandelion Chocolate Factory & Cafe Kuramae",
     "nameJa": "ダンデライオン・チョコレート ファクトリー&カフェ蔵前",
@@ -4650,7 +6564,7 @@
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
   },
   {
-    "id": "w-0189",
+    "id": "w-0270",
     "slug": "february-cafe",
     "name": "February Cafe",
     "nameJa": "フェブラリーカフェ",
@@ -4673,7 +6587,7 @@
     "sourceUrl": "https://growing.jp/?p=893"
   },
   {
-    "id": "w-0190",
+    "id": "w-0271",
     "slug": "cafe-veloce-asakusabashi",
     "name": "Cafe Veloce Asakusabashi",
     "nameJa": "カフェ・ベローチェ 浅草橋店",
@@ -4696,7 +6610,7 @@
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
   },
   {
-    "id": "w-0191",
+    "id": "w-0272",
     "slug": "komeda-coffee-asakusabashi",
     "name": "Komeda Coffee Asakusabashi",
     "nameJa": "コメダ珈琲店 浅草橋店",
@@ -4719,7 +6633,7 @@
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
   },
   {
-    "id": "w-0192",
+    "id": "w-0273",
     "slug": "mermaid-coffee-roasters-ikebukuro",
     "name": "Mermaid Coffee Roasters Ikebukuro",
     "nameJa": "マーメイドコーヒーロースターズ 池袋",
@@ -4743,7 +6657,7 @@
     "sourceUrl": "https://rtrp.jp/articles/12554/"
   },
   {
-    "id": "w-0193",
+    "id": "w-0274",
     "slug": "coffee-valley",
     "name": "Coffee Valley",
     "nameJa": "コーヒーバレー",
@@ -4767,7 +6681,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ikebukuro-nomado/"
   },
   {
-    "id": "w-0194",
+    "id": "w-0275",
     "slug": "cafe-insquare-ikebukuro",
     "name": "Cafe Insquare Ikebukuro",
     "nameJa": "カフェ インスクエア 池袋",
@@ -4791,7 +6705,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ikebukuro-nomado/"
   },
   {
-    "id": "w-0195",
+    "id": "w-0276",
     "slug": "seattles-best-coffee-ikebukuro-sunshine-60",
     "name": "Seattle's Best Coffee Ikebukuro Sunshine 60",
     "nameJa": "シアトルズベストコーヒー 池袋サンシャイン60店",
@@ -4815,7 +6729,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ikebukuro-nomado/"
   },
   {
-    "id": "w-0196",
+    "id": "w-0277",
     "slug": "sakura-cafe-ikebukuro",
     "name": "Sakura Cafe Ikebukuro",
     "nameJa": "サクラカフェ 池袋",
@@ -4839,7 +6753,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ikebukuro-nomado/"
   },
   {
-    "id": "w-0197",
+    "id": "w-0278",
     "slug": "fukuro-book-and-coffee",
     "name": "Fukuro Book & Coffee",
     "nameJa": "本と珈琲 梟書茶房",
@@ -4862,7 +6776,7 @@
     "sourceUrl": "https://rtrp.jp/articles/12554/"
   },
   {
-    "id": "w-0198",
+    "id": "w-0279",
     "slug": "komedas-coffee-sugamo",
     "name": "Komeda's Coffee Sugamo",
     "nameJa": "コメダ珈琲店 巣鴨店",
@@ -4886,7 +6800,7 @@
     "sourceUrl": "https://blog.linkedge.jp/cafe-sugamo/"
   },
   {
-    "id": "w-0199",
+    "id": "w-0280",
     "slug": "cafe-renoir-sugamo-ekimae",
     "name": "Cafe Renoir Sugamo Ekimae",
     "nameJa": "喫茶室ルノアール 巣鴨駅前店",
@@ -4910,7 +6824,7 @@
     "sourceUrl": "https://blog.linkedge.jp/cafe-sugamo/"
   },
   {
-    "id": "w-0200",
+    "id": "w-0281",
     "slug": "becks-coffee-shop-sugamo",
     "name": "Beck's Coffee Shop Sugamo",
     "nameJa": "ベックスコーヒーショップ 巣鴨店",
@@ -4934,7 +6848,7 @@
     "sourceUrl": "https://blog.linkedge.jp/cafe-sugamo/"
   },
   {
-    "id": "w-0201",
+    "id": "w-0282",
     "slug": "hakushaku-coffee-sugamo",
     "name": "Hakushaku Coffee Sugamo",
     "nameJa": "珈琲専門館 伯爵 巣鴨店",
@@ -4958,7 +6872,7 @@
     "sourceUrl": "https://blog.linkedge.jp/cafe-sugamo/"
   },
   {
-    "id": "w-0202",
+    "id": "w-0283",
     "slug": "tullys-coffee-otsuka",
     "name": "Tully's Coffee Otsuka",
     "nameJa": "タリーズコーヒー 大塚店",
@@ -4982,7 +6896,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_37151"
   },
   {
-    "id": "w-0203",
+    "id": "w-0284",
     "slug": "selfcafe-otsuka-ekiminami",
     "name": "Selfcafe Otsuka Ekiminami",
     "nameJa": "セルフカフェ 大塚駅南口店",
@@ -5006,7 +6920,7 @@
     "sourceUrl": "https://selfcafe.jp/blog/cafe/202512051846/"
   },
   {
-    "id": "w-0204",
+    "id": "w-0285",
     "slug": "doutor-coffee-mejiro-ekimae",
     "name": "Doutor Coffee Mejiro Ekimae",
     "nameJa": "ドトールコーヒーショップ 目白駅前店",
@@ -5030,7 +6944,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/stores/16eea71a0b3/"
   },
   {
-    "id": "w-0205",
+    "id": "w-0286",
     "slug": "pronto-mejiro",
     "name": "Pronto Mejiro",
     "nameJa": "プロント 目白店",

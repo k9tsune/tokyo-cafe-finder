@@ -95,6 +95,42 @@ const AREAS = {
     name: "Bunkyo", lat: 35.7181, lng: 139.7527,
     intro: "Bunkyo is a quiet academic ward around Hongo, Korakuen and Nezu, shaped by the University of Tokyo — plenty of Wi-Fi, though campus-area outlets can be scarce. Filter for Wi-Fi, outlets, or both.",
   },
+  koto: {
+    name: "Koto", lat: 35.6717, lng: 139.8172,
+    intro: "Koto spans Toyosu, Kiba, Kameido and the Ariake waterfront — modern mall complexes and office towers with plenty of chain work cafes. Filter for Wi-Fi, outlets, or both.",
+  },
+  ota: {
+    name: "Ota", lat: 35.5614, lng: 139.7160,
+    intro: "Ota reaches from Kamata and Omori down to Haneda Airport — a workmanlike southern ward with dependable station cafes and a few independents. Filter for Wi-Fi, outlets, or both.",
+  },
+  kita: {
+    name: "Kita", lat: 35.7528, lng: 139.7336,
+    intro: "Kita centres on lively Akabane plus Oji and Tabata — commuter neighbourhoods with reliable station-building chains. Filter for Wi-Fi, outlets, or both.",
+  },
+  arakawa: {
+    name: "Arakawa", lat: 35.7361, lng: 139.7833,
+    intro: "Arakawa runs through Nippori, Nishi-Nippori and Machiya — down-to-earth streets with roomy Renoir tea rooms and budget chains good for long stays. Filter for Wi-Fi, outlets, or both.",
+  },
+  itabashi: {
+    name: "Itabashi", lat: 35.7512, lng: 139.7090,
+    intro: "Itabashi covers Narimasu, Shimura and Oyama — a residential north-west ward where cafes with outlets are more scattered, so filter carefully for Wi-Fi, outlets, or both.",
+  },
+  nerima: {
+    name: "Nerima", lat: 35.7357, lng: 139.6517,
+    intro: "Nerima — Oizumi-gakuen, Shakujii-koen and Hikarigaoka — is a leafy residential ward with dependable Doutor and Komeda branches near each station. Filter for Wi-Fi, outlets, or both.",
+  },
+  adachi: {
+    name: "Adachi", lat: 35.7750, lng: 139.8046,
+    intro: "Adachi centres on the surprisingly lively Kita-senju — a growing cafe and student hub — plus Ayase and Nishiarai. Filter for Wi-Fi, outlets, or both.",
+  },
+  katsushika: {
+    name: "Katsushika", lat: 35.7434, lng: 139.8472,
+    intro: "Katsushika takes in Kameari, Shin-Koiwa and Kanamachi — old-Tokyo neighbourhoods with steady station chains for a work stop. Filter for Wi-Fi, outlets, or both.",
+  },
+  edogawa: {
+    name: "Edogawa", lat: 35.7067, lng: 139.8683,
+    intro: "Edogawa spans Nishi-Kasai, Kasai, Koiwa and Hirai — an easygoing eastern ward where mall and station Doutor/Tully's branches are the main work options. Filter for Wi-Fi, outlets, or both.",
+  },
 };
 
 function slugify(s) {
