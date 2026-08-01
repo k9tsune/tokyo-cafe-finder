@@ -1,0 +1,40 @@
+name: Weekly cafe update
+
+# Runs on a schedule to refresh the cafe data, and can also be started manually
+# from the Actions tab ("Run workflow"). Claude does the research + the
+# auto-approval gate, then opens a Pull Request — the site only changes when the
+# PR is merged, and only if the build passed.
+
+on:
+  schedule:
+    - cron: "17 20 * * 0"   # Sundays 20:17 UTC = Mondays ~05:17 Japan time
+  workflow_dispatch: {}       # manual "Run workflow" button
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Weekly cafe data refresh
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          claude_args: "--max-turns 50"
+          prompt: |
+            Run the weekly automated cafe-data refresh for WorkingCafes. Follow CLAUDE.md in this repo.
+
+            1) For each ward file in data/collected/raw/, use web research (Japanese + English sources) to add clearly-sourced NEW work-friendly cafes and to re-verify the oldest / lowest-confidence existing entries' Wi-Fi and power-outlet status. Never fabricate — every cafe must have a real source URL, and descriptions must be your own one sentence (no copied text).
+            2) Apply the auto-approval gate described in CLAUDE.md: auto-include high-confidence, corroborated changes; KEEP but clearly FLAG low-confidence / conflicting / closure / surprising chain-flip cases for a human to review.
+            3) Update data/collected/raw/*.json, then run `node scripts/build-seed.mjs` to regenerate data/seed/*.json. Stamp lastChecked with today's date.
+            4) Verify the build: run `npm ci` then `npm run build`. If the build fails, fix the DATA (not the code) — do NOT open a PR with a failing build.
+            5) Open a pull request titled "Weekly cafe update — <today's date>" that summarizes: how many cafes were added, how many were re-verified/changed, and a clearly separated list of any FLAGGED items needing a human look. Keep it concise. Do NOT modify app code or configuration — data and content only.
