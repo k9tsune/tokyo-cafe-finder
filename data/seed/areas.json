@@ -38,5 +38,77 @@
     "introText": "Chiyoda covers Marunouchi, Otemachi, Kanda, Akihabara and Jimbocho — a weekday business core where reliable chain cafes and a few work-focused independents make it easy to find Wi-Fi and outlets near Tokyo Station. Note some spots close on weekends; filter for what you need.",
     "lat": 35.694,
     "lng": 139.7536
+  },
+  {
+    "slug": "chuo",
+    "name": "Chuo",
+    "city": "tokyo",
+    "introText": "Chuo takes in Ginza, Nihonbashi and Kyobashi — a polished business-and-shopping district where department-store cafes and chain branches offer plenty of Wi-Fi, though outlets are the thing to check. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.6707,
+    "lng": 139.772
+  },
+  {
+    "slug": "taito",
+    "name": "Taito",
+    "city": "tokyo",
+    "introText": "Taito spans Ueno, Asakusa and the craft-coffee streets of Kuramae — a sightseeing-heavy area with a surprising number of traveller-friendly work cafes. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.7128,
+    "lng": 139.78
+  },
+  {
+    "slug": "toshima",
+    "name": "Toshima",
+    "city": "tokyo",
+    "introText": "Toshima centres on the huge Ikebukuro hub plus quieter Sugamo, Otsuka and Mejiro — well stocked with study cafes and chains. Outlet availability varies, so filter for Wi-Fi, outlets, or both.",
+    "lat": 35.7326,
+    "lng": 139.715
+  },
+  {
+    "slug": "setagaya",
+    "name": "Setagaya",
+    "city": "tokyo",
+    "introText": "Setagaya — Shimokitazawa, Sangenjaya, Futako-Tamagawa and Kyodo — is residential and independent-leaning, with genuinely comfortable neighbourhood cafes for a long session. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.6466,
+    "lng": 139.653
+  },
+  {
+    "slug": "shinagawa",
+    "name": "Shinagawa",
+    "city": "tokyo",
+    "introText": "Shinagawa ward covers Osaki, Gotanda, Oimachi and Musashi-Koyama — office towers and station complexes with a solid set of work cafes. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.6092,
+    "lng": 139.7302
+  },
+  {
+    "slug": "suginami",
+    "name": "Suginami",
+    "city": "tokyo",
+    "introText": "Suginami — Ogikubo, Koenji, Asagaya and Nishi-Ogikubo — is a laid-back west-side set of neighbourhoods with dedicated work cafes and cheap chains. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.6994,
+    "lng": 139.6365
+  },
+  {
+    "slug": "nakano",
+    "name": "Nakano",
+    "city": "tokyo",
+    "introText": "Nakano is a compact subculture hub around Nakano and Higashi-Nakano stations, with bookstore cafes and reliable chains good for laptop work. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.7074,
+    "lng": 139.6638
+  },
+  {
+    "slug": "sumida",
+    "name": "Sumida",
+    "city": "tokyo",
+    "introText": "Sumida takes in Kinshicho, Ryogoku and the Skytree area of Oshiage — a mix of station malls, kissaten and a few 24-hour options. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.7107,
+    "lng": 139.8015
+  },
+  {
+    "slug": "bunkyo",
+    "name": "Bunkyo",
+    "city": "tokyo",
+    "introText": "Bunkyo is a quiet academic ward around Hongo, Korakuen and Nezu, shaped by the University of Tokyo — plenty of Wi-Fi, though campus-area outlets can be scarce. Filter for Wi-Fi, outlets, or both.",
+    "lat": 35.7181,
+    "lng": 139.7527
   }
 ]
