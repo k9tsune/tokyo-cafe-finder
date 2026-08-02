@@ -34,10 +34,19 @@ const BASEMAP_STYLE = {
 
 // Interactive map. Pins colored by amenity: green = Wi-Fi + outlets,
 // amber = outlets, blue = Wi-Fi.
-export default function MapView({ points }: { points: MapPoint[] }) {
+export default function MapView({
+  points,
+  center,
+  zoom,
+}: {
+  points: MapPoint[];
+  center?: [number, number];
+  zoom?: number;
+}) {
   const ref = useRef<HTMLDivElement>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const geoRef = useRef<any>(null);
+  const centerKey = center ? `${center[0]},${center[1]}` : "";
 
   useEffect(() => {
     let cancelled = false;
@@ -52,8 +61,8 @@ export default function MapView({ points }: { points: MapPoint[] }) {
       map = new maplibregl.Map({
         container: ref.current,
         style: BASEMAP_STYLE,
-        center: [139.7671, 35.68],
-        zoom: 10.4,
+        center: center || [139.7671, 35.68],
+        zoom: zoom ?? 10.4,
       });
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
       const geolocate = new maplibregl.GeolocateControl({
@@ -90,7 +99,8 @@ export default function MapView({ points }: { points: MapPoint[] }) {
       cancelled = true;
       if (map) map.remove();
     };
-  }, [points]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [points, centerKey, zoom]);
 
   return (
     <div className="mapview-wrap">

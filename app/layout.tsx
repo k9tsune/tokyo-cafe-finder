@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 import ThemeToggle from "@/components/ThemeToggle";
+import ExploreMap from "@/components/ExploreMap";
+import { getAllVenues, getAllAreas, getAllStations } from "@/lib/db";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -36,6 +38,24 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const points = getAllVenues()
+    .filter((v) => typeof v.lat === "number" && typeof v.lng === "number")
+    .map((v) => ({
+      slug: v.slug,
+      name: v.name,
+      lat: v.lat as number,
+      lng: v.lng as number,
+      wifi: v.hasWifi,
+      power: v.hasPower,
+      hours: v.businessHours,
+    }));
+  const areaCoords = Object.fromEntries(getAllAreas().map((a) => [a.slug, { lat: a.lat, lng: a.lng }]));
+  const stationCoords = Object.fromEntries(
+    getAllStations()
+      .filter((s) => typeof s.lat === "number" && typeof s.lng === "number")
+      .map((s) => [s.slug, { lat: s.lat as number, lng: s.lng as number }])
+  );
+
   return (
     <html lang="en">
       <body>
@@ -60,6 +80,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </nav>
         </header>
         <main className="container">{children}</main>
+        <ExploreMap points={points} areas={areaCoords} stations={stationCoords} />
         <footer className="site-footer">
           <p>
             {SITE.name} — an independent guide to working from Tokyo cafes.
