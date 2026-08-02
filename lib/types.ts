@@ -39,6 +39,7 @@ export interface Venue {
   lastChecked: string;    // ISO date -> freshness badge
   confidence: Confidence;
   sourceUrl?: string;
+  instagram?: string;     // optional official Instagram URL
 }
 
 export interface Area {

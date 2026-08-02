@@ -20,6 +20,12 @@ try {
   STATION_COORDS = JSON.parse(readFileSync(new URL("../data/station-coords.json", import.meta.url), "utf8"));
 } catch { /* file optional */ }
 
+// Optional map of exact cafe name -> verified official Instagram URL.
+let INSTAGRAM = {};
+try {
+  INSTAGRAM = JSON.parse(readFileSync(new URL("../data/collected/instagram.json", import.meta.url), "utf8"));
+} catch { /* file optional */ }
+
 const RESEARCH_DATE = "2026-08-01";
 
 // Open 24 hours: explicit flag from data, or clear "24 hours" wording.
@@ -267,6 +273,7 @@ async function main() {
       lastChecked: RESEARCH_DATE,
       confidence: r.confidence || "low",
       sourceUrl: Array.isArray(r.sources) ? r.sources[0] : undefined,
+      instagram: r.instagram || INSTAGRAM[r.name] || undefined,
     });
   });
 
