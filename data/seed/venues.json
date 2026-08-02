@@ -2007,6 +2007,8 @@
     "stationSlugs": [
       "shinagawa-seaside-station"
     ],
+    "lat": 35.6093,
+    "lng": 139.7503,
     "nearestStation": "Shinagawa Seaside Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -12372,7 +12374,8 @@
     "address": "2-1-6 Higashi-Shinagawa, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "tennozu-isle-station"
+      "tennozu-isle-station",
+      "shinagawa-seaside-station"
     ],
     "lat": 35.6222,
     "lng": 139.7503,

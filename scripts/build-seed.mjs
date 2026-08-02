@@ -66,6 +66,7 @@ const STATIONS = {
   "Akihabara":            { slug: "akihabara",            lat: 35.6984, lng: 139.7731, area: "chiyoda",  lines: ["JR Yamanote", "JR Sobu", "Hibiya", "Tsukuba Express"] },
   "Jimbocho":             { slug: "jimbocho",             lat: 35.6959, lng: 139.7576, area: "chiyoda",  lines: ["Toei Mita", "Toei Shinjuku", "Hanzomon"] },
   "Tennozu Isle":         { slug: "tennozu-isle",         lat: 35.6222, lng: 139.7503, area: "shinagawa", lines: ["Tokyo Monorail", "Rinkai"] },
+  "Shinagawa Seaside":    { slug: "shinagawa-seaside",    lat: 35.6093, lng: 139.7503, area: "shinagawa", lines: ["Rinkai"] },
 };
 
 // Look up station metadata by canonical name, so both "Shibuya" and
@@ -187,6 +188,24 @@ async function main() {
   const seenKeys = new Set();
   const venues = [];
 
+  // Register a station (by canonical "X Station" name) and return its slug, so a
+  // cafe can be attached to more than one nearby station.
+  function ensureStation(canonName, areaFallback) {
+    const slug = slugify(canonName);
+    if (!slug) return null;
+    if (!usedStations.has(slug)) {
+      const s = STATIONS_BY_CANON[canonName.toLowerCase()];
+      usedStations.set(slug, {
+        slug,
+        name: canonName,
+        lineNames: s ? s.lines : [],
+        areaSlug: s ? s.area : areaFallback,
+        ...(s ? { lat: s.lat, lng: s.lng } : {}),
+      });
+    }
+    return slug;
+  }
+
   raw.forEach((r, i) => {
     // Canonical station name ("X Station") merges "Shibuya" / "Shibuya Station".
     const stationName = canonStation(r.nearestStation);
@@ -201,16 +220,14 @@ async function main() {
     usedSlugs.add(slug);
 
     const st = STATIONS_BY_CANON[stationName.toLowerCase()];
-    const stationSlug = slugify(stationName);
-    if (stationSlug && !usedStations.has(stationSlug)) {
-      usedStations.set(stationSlug, {
-        slug: stationSlug,
-        name: stationName,
-        lineNames: st ? st.lines : [],
-        areaSlug: st ? st.area : r.areaSlug,
-        ...(st ? { lat: st.lat, lng: st.lng } : {}),
-      });
-    }
+    // A cafe shows on its nearest station plus any listed nearby stations.
+    const primarySlug = ensureStation(stationName, r.areaSlug);
+    const nearbySlugs = (Array.isArray(r.nearbyStations) ? r.nearbyStations : [])
+      .map(canonStation)
+      .filter(Boolean)
+      .map((n) => ensureStation(n, r.areaSlug))
+      .filter(Boolean);
+    const stationSlugs = [...new Set([primarySlug, ...nearbySlugs].filter(Boolean))];
 
     venues.push({
       id: `w-${String(i + 1).padStart(4, "0")}`,
@@ -219,7 +236,7 @@ async function main() {
       nameJa: r.nameJa || undefined,
       address: r.address || "",
       areaSlug: r.areaSlug,
-      stationSlugs: stationSlug ? [stationSlug] : [],
+      stationSlugs,
       ...(st ? { lat: st.lat, lng: st.lng } : {}),
       nearestStation: stationName || r.nearestStation,
       walkMinutes: typeof r.walkMinutes === "number" ? r.walkMinutes : 0,

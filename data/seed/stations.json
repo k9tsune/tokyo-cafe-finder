@@ -369,8 +369,12 @@
   {
     "slug": "shinagawa-seaside-station",
     "name": "Shinagawa Seaside Station",
-    "lineNames": [],
-    "areaSlug": "shinagawa"
+    "lineNames": [
+      "Rinkai"
+    ],
+    "areaSlug": "shinagawa",
+    "lat": 35.6093,
+    "lng": 139.7503
   },
   {
     "slug": "osaki-station",
