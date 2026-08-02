@@ -54,7 +54,7 @@ export const GUIDES: Guide[] = [
     body: [
       {
         p: [
-          "Tokyo is honestly massive, and figuring out where to sit down and work can be weirdly stressful. Over time I've tried a lot of cafes in a lot of neighbourhoods, so here are the ones I keep going back to, and what each is good for.",
+          "Tokyo is massive, and figuring out where to sit down and work can be weirdly stressful. Over time I've tried a lot of cafes in a lot of neighbourhoods, so here are the ones I keep going back to, and what each is good for.",
         ],
       },
       { h2: "Shibuya and Shinjuku: busy, but always a seat" },
@@ -78,7 +78,7 @@ export const GUIDES: Guide[] = [
       { h2: "Koenji, Kichijoji and the west side: cheaper and slower" },
       {
         p: [
-          "Out west the vibe changes completely. Places like Koenji and Kichijoji feel more like where people actually live, and the cafes are usually independent, a bit cheaper, and way less crowded on a weekday. I give up a little polish and the guaranteed outlets, but I get a lot more character, and honestly that's often the trade I want.",
+          "Out west the vibe changes completely. Places like Koenji and Kichijoji feel more like where people actually live, and the cafes are usually independent, a bit cheaper, and way less crowded on a weekday. I give up a little polish and the guaranteed outlets, but I get a lot more character, and that's often the trade I want.",
         ],
       },
       { h2: "When I just need to charge and go" },
@@ -93,7 +93,7 @@ export const GUIDES: Guide[] = [
       },
       {
         p: [
-          "Wherever you end up, my one honest tip is always the same: check the listing before you go, because Wi-Fi and outlets can be totally different between two branches of the same chain. That's the whole reason I made this, so you don't have to find out the hard way.",
+          "Wherever you end up, my one tip is always the same: check the listing before you go, because Wi-Fi and outlets can be totally different between two branches of the same chain. That's the whole reason I made this, so you don't have to find out the hard way.",
         ],
       },
     ],
@@ -104,7 +104,7 @@ export const GUIDES: Guide[] = [
       },
       {
         q: "Where do digital nomads work in Tokyo?",
-        a: "Many remote workers favour specialty independent cafes in areas like Nakameguro, Kiyosumi and the west side for a quieter atmosphere, and fall back on reliable chains near major stations when they need guaranteed Wi-Fi and outlets.",
+        a: "Many remote workers favour specialty independent cafes in areas like Nakameguro, Kiyosumi and the west side for a calmer atmosphere, and fall back on reliable chains near major stations when they need guaranteed Wi-Fi and outlets.",
       },
     ],
   },
@@ -118,7 +118,7 @@ export const GUIDES: Guide[] = [
     body: [
       {
         p: [
-          "Something that really surprised me when I first got here: a lot of Tokyo cafes just don't have outlets for customers, and the ones that do often keep them at only a few seats. It's not that anyone is being unfriendly. Space is tight, rent is high, and honestly a lot of cafes would rather you enjoy your coffee and head off. So if your phone never quite survives the day like mine, it helps to know where to look.",
+          "Something that really surprised me when I first got here: a lot of Tokyo cafes just don't have outlets for customers, and the ones that do often keep them at only a few seats. It's not that anyone is being unfriendly. Space is tight, rent is high, and a lot of cafes would rather you enjoy your coffee and head off. So if your phone never quite survives the day like mine, it helps to know where to look.",
         ],
       },
       { h2: "Chains are the safe bet" },
@@ -169,19 +169,19 @@ export const GUIDES: Guide[] = [
     slug: "cafe-work-etiquette-in-japan",
     title: "Cafe work etiquette in Japan: the unspoken rules",
     description:
-      "How long can you really stay, is it rude to work on a laptop, and other quiet rules of working from a cafe in Japan, from my own experience.",
+      "How long can you really stay, is it rude to work on a laptop, and the other unwritten rules of working from a cafe in Japan, from my own experience.",
     date: "2026-08-02",
     blurb: "Is it rude to sit for three hours with a laptop and one coffee? Here's what I've figured out (・_・;)",
     body: [
       {
         p: [
-          "Cafes here can feel wonderfully relaxed, but there's a quiet layer of etiquette running underneath, and most of it never gets written down. The good news is it's all pretty common sense once someone tells you, and getting it right means you'll feel welcome everywhere. So here's the stuff I wish someone had told me earlier.",
+          "Cafes here can feel wonderfully relaxed, but there's an unspoken layer of etiquette running underneath, and most of it never gets written down. The good news is it's all pretty common sense once someone tells you, and getting it right means you'll feel welcome everywhere. So here's the stuff I wish someone had told me earlier.",
         ],
       },
       { h2: "How long can I stay?" },
       {
         p: [
-          "This is the big one, and honestly it depends on the place and how busy it is. My rough rule: one drink buys me an hour or two, and I order something else if I'm settling in for longer. Nobody is timing you at a quiet chain on a slow afternoon. But when a small cafe fills up and people are waiting for a seat, that's my cue to wrap up, even if I was hoping for one more hour. Read the room and you'll be fine ^^",
+          "This is the big one, and it depends on the place and how busy it is. My rough rule: one drink buys me an hour or two, and I order something else if I'm settling in for longer. Nobody is timing you at a big chain on a slow afternoon. But when a small cafe fills up and people are waiting for a seat, that's my cue to wrap up, even if I was hoping for one more hour. Read the room and you'll be fine ^^",
         ],
       },
       { h2: "Is working on a laptop even okay?" },
@@ -193,9 +193,9 @@ export const GUIDES: Guide[] = [
       { h2: "The little things" },
       {
         ul: [
-          ["I keep phone calls and video calls out of the cafe. I step outside, or use a manga kissa booth. Speaking quietly is just the default indoors."],
+          ["I keep phone calls and video calls out of the cafe. I step outside, or use a manga kissa booth. Low voices are the norm indoors."],
           ["I don't spread out across a big table at peak times. One person, one seat."],
-          ["There's no tipping in Japan, so don't leave coins on the table. A quiet \"gochisousama\" (thanks for the meal) on the way out is a nice touch though."],
+          ["There's no tipping in Japan, so don't leave coins on the table. A quick \"gochisousama\" (thanks for the meal) on the way out is a nice touch though."],
           ["Lots of cafes want you to bring your own tray or cup back to the counter, so I just copy what the locals are doing."],
         ],
       },
@@ -210,7 +210,7 @@ export const GUIDES: Guide[] = [
     faq: [
       {
         q: "How long can you stay at a cafe in Japan?",
-        a: "As a rough guide, one drink is worth an hour or two, and it is polite to order again if you stay longer. When a small cafe gets busy and people are waiting, it is time to wrap up. Big chains on a quiet afternoon are much more relaxed about it.",
+        a: "As a rough guide, one drink is worth an hour or two, and it is polite to order again if you stay longer. When a small cafe gets busy and people are waiting, it is time to wrap up. Big chains on a slow afternoon are much more relaxed about it.",
       },
       {
         q: "Is it rude to work on a laptop in a Japanese cafe?",

@@ -1,0 +1,263 @@
+[
+  {
+    "name": "KFC Shinjuku West Exit",
+    "nameJa": "ケンタッキーフライドチキン 新宿西口店",
+    "areaSlug": "shinjuku",
+    "ward": "Shinjuku",
+    "nearestStation": "Shinjuku",
+    "walkMinutes": 2,
+    "address": "1-2-10 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "businessHours": "9:00-22:30",
+    "priceBand": "¥",
+    "description": "A busy KFC by the west exit of Shinjuku Station where the second-floor counter has free KFC Wi-Fi and a power outlet plus USB port at all 22 seats, making it a handy spot for laptop work.",
+    "confidence": "high",
+    "nearbyStations": [
+      "Seibu-Shinjuku"
+    ],
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_6740",
+      "https://search.kfc.co.jp/map/155"
+    ]
+  },
+  {
+    "name": "KFC Ikebukuro West Exit",
+    "nameJa": "ケンタッキーフライドチキン 池袋西口店",
+    "areaSlug": "toshima",
+    "ward": "Toshima",
+    "nearestStation": "Ikebukuro",
+    "walkMinutes": 3,
+    "address": "1-24-1 Nishi-Ikebukuro, Toshima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "9:00-22:30",
+    "priceBand": "¥",
+    "description": "A multi-floor KFC near the west exit of Ikebukuro Station with free KFC Wi-Fi and about ten third-floor counter seats that each have a power outlet and USB ports.",
+    "confidence": "high",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_6756",
+      "https://search.kfc.co.jp/map/194"
+    ]
+  },
+  {
+    "name": "KFC Takadanobaba",
+    "nameJa": "ケンタッキーフライドチキン 高田馬場店",
+    "areaSlug": "shinjuku",
+    "ward": "Shinjuku",
+    "nearestStation": "Takadanobaba",
+    "walkMinutes": 2,
+    "address": "1-28-10 Takadanobaba, Shinjuku-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "9:00-22:30",
+    "priceBand": "¥",
+    "description": "A KFC close to Takadanobaba Station with free KFC Wi-Fi and around fifteen counter seats that each have a power outlet, good for a quiet work stop.",
+    "confidence": "high",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_6695",
+      "https://search.kfc.co.jp/map/30"
+    ]
+  },
+  {
+    "name": "KFC Ebisu Station-mae",
+    "nameJa": "ケンタッキーフライドチキン 恵比寿駅前店",
+    "areaSlug": "shibuya",
+    "ward": "Shibuya",
+    "nearestStation": "Ebisu",
+    "walkMinutes": 2,
+    "address": "1-9-4 Ebisu-Nishi, Shibuya-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "9:00-22:30",
+    "priceBand": "¥",
+    "description": "A KFC right in front of Ebisu Station with free d Wi-Fi and power outlets along the second-floor counter seats, useful for laptop work.",
+    "confidence": "high",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_7506",
+      "https://search.kfc.co.jp/map/4071"
+    ]
+  },
+  {
+    "name": "KFC Shibuya Dogenzaka",
+    "nameJa": "ケンタッキーフライドチキン 渋谷道玄坂店",
+    "areaSlug": "shibuya",
+    "ward": "Shibuya",
+    "nearestStation": "Shibuya",
+    "walkMinutes": 3,
+    "address": "2-16-6 Dogenzaka, Shibuya-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Mon-Thu 10:00-23:00, Fri-Sat 9:00-late, Sun/holidays 9:00-22:00",
+    "priceBand": "¥",
+    "description": "A KFC on the Dogenzaka slope near Shibuya Station with free d Wi-Fi and power outlets at the second-floor seats, including the non-smoking area.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_7568",
+      "https://www.mapion.co.jp/phonebook/M16201/13113/0000033362_100oa/"
+    ]
+  },
+  {
+    "name": "KFC Akihabara",
+    "nameJa": "ケンタッキーフライドチキン 秋葉原店",
+    "areaSlug": "chiyoda",
+    "ward": "Chiyoda",
+    "nearestStation": "Akihabara",
+    "walkMinutes": 3,
+    "address": "1-4-11 Soto-Kanda, Chiyoda-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "9:00-22:00",
+    "priceBand": "¥",
+    "description": "A KFC near Akihabara Station with free d Wi-Fi and customer power outlets on the upper floors, though some outlets have at times been switched off, so it is worth checking on arrival.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_7596",
+      "https://search.kfc.co.jp/map/4197"
+    ]
+  },
+  {
+    "name": "KFC Shimbashi",
+    "nameJa": "ケンタッキーフライドチキン 新橋店",
+    "areaSlug": "minato",
+    "ward": "Minato",
+    "nearestStation": "Shimbashi",
+    "walkMinutes": 3,
+    "address": "3-16-24 Shimbashi, Minato-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "many",
+    "laptopFriendly": true,
+    "businessHours": "Mon-Thu 7:00-22:30, Fri 7:00-23:00, Sat/Sun/holidays 7:00-22:00",
+    "priceBand": "¥",
+    "description": "A KFC near Shimbashi Station with power outlets (two sockets per seat) across several floors; the store's own free Wi-Fi is not confirmed, so plan to use your own connection.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_7582"
+    ]
+  },
+  {
+    "name": "KFC Gotanda",
+    "nameJa": "ケンタッキーフライドチキン 五反田店",
+    "areaSlug": "shinagawa",
+    "ward": "Shinagawa",
+    "nearestStation": "Gotanda",
+    "walkMinutes": 3,
+    "address": "5-27-6 Higashi-Gotanda, Dai-ichi Gotanda Building, Shinagawa-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 7:00-23:00, weekends/holidays 7:00-22:00",
+    "priceBand": "¥",
+    "description": "A KFC close to Gotanda Station with about twelve counter seats that each have a power outlet, but no confirmed store Wi-Fi, so bring your own connection.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_7491"
+    ]
+  },
+  {
+    "name": "KFC Nihonbashi Ningyocho",
+    "nameJa": "ケンタッキーフライドチキン 日本橋人形町店",
+    "areaSlug": "chuo",
+    "ward": "Chuo",
+    "nearestStation": "Ningyocho",
+    "walkMinutes": 2,
+    "address": "2-6-2 Nihonbashi-Ningyocho, Chuo-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "10:00-22:00",
+    "priceBand": "¥",
+    "description": "A KFC near Ningyocho Station with power outlets at counter seats on both floors (about fifteen seats), though free store Wi-Fi is not confirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/kfc_4309"
+    ]
+  },
+  {
+    "name": "KFC Denenchofu",
+    "nameJa": "ケンタッキーフライドチキン 田園調布店",
+    "areaSlug": "ota",
+    "ward": "Ota",
+    "nearestStation": "Den-en-chofu",
+    "walkMinutes": 3,
+    "address": "3-25-17 Denenchofu, Ota-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "10:00-21:30",
+    "priceBand": "¥",
+    "description": "A KFC near Den-en-chofu Station with free d Wi-Fi and customer power outlets, handy for a short laptop session, though the exact number of outlets is unclear.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_6686"
+    ]
+  },
+  {
+    "name": "KFC Keio Sasazuka",
+    "nameJa": "ケンタッキーフライドチキン 京王笹塚店",
+    "areaSlug": "shibuya",
+    "ward": "Shibuya",
+    "nearestStation": "Sasazuka",
+    "walkMinutes": 1,
+    "address": "1-55-16 Sasazuka, Keio Crown-gai Sasazuka East, Shibuya-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "businessHours": "Hours vary; daytime to evening",
+    "priceBand": "¥",
+    "description": "A small KFC by Sasazuka Station with about five power outlets at the counter seats, though store Wi-Fi is not confirmed.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/kfc_4353"
+    ]
+  },
+  {
+    "name": "KFC Asakusa",
+    "nameJa": "ケンタッキーフライドチキン 浅草店",
+    "areaSlug": "taito",
+    "ward": "Taito",
+    "nearestStation": "Asakusa",
+    "walkMinutes": 2,
+    "address": "1-1-17 Asakusa, Taito-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "businessHours": "7:00-23:00",
+    "priceBand": "¥",
+    "description": "A KFC near Asakusa Station with free Wi-Fi but no usable power outlets, so it works better for a short visit than long laptop work.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/entry_6720"
+    ]
+  }
+]

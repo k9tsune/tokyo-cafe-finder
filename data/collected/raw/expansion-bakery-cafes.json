@@ -1,0 +1,332 @@
+[
+  {
+    "name": "THE CITY BAKERY Ginza",
+    "nameJa": "ザ・シティ ベーカリー 銀座",
+    "areaSlug": "chuo",
+    "ward": "Chuo",
+    "nearestStation": "Ginza",
+    "walkMinutes": 1,
+    "address": "5-2-1 Ginza, Tokyu Plaza Ginza B2F, Chuo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Around 7:30-23:00 (breakfast from 7:30)",
+    "priceBand": "¥¥",
+    "description": "A New York-style bakery cafe in the basement of Tokyu Plaza Ginza with free Ginza Wi-Fi and power outlets at the back-left seats, so it works well for laptop work over breakfast or coffee.",
+    "confidence": "high",
+    "nearbyStations": [
+      "Ginza-itchome",
+      "Yurakucho"
+    ],
+    "sources": [
+      "https://j-ferry.com/lifestyle/%E9%9B%BB%E6%BA%90-wi-fi%E5%AE%8C%E5%82%99%EF%BC%81%E9%8A%80%E5%BA%A7%E3%81%AE%E3%83%A2%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AFthe-city-bakery%E3%81%A7",
+      "https://goworkship.com/magazine/ginza-yurakucho-hibiya-nomad/"
+    ]
+  },
+  {
+    "name": "THE CITY BAKERY Atre Shinagawa",
+    "nameJa": "ザ・シティ ベーカリー アトレ品川",
+    "areaSlug": "minato",
+    "ward": "Minato",
+    "nearestStation": "Shinagawa",
+    "walkMinutes": 1,
+    "address": "2-18-1 Konan, Atre Shinagawa 2F, Minato-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "businessHours": "7:00-22:00 (bakery & cafe)",
+    "priceBand": "¥¥",
+    "description": "A branch of the New York bakery chain inside Atre Shinagawa with free Wi-Fi and about 55 seats right by the station, but one work-cafe guide reports no power outlets, so it suits a short stay rather than long laptop work.",
+    "confidence": "medium",
+    "sources": [
+      "https://office.yield-marketing.co.jp/coworking/recommended-shinagawa-workcafe/",
+      "https://www.tasru-media.com/cafe_space/1108/"
+    ]
+  },
+  {
+    "name": "DEAN & DELUCA Cafe Tokyo Midtown Hibiya",
+    "nameJa": "ディーン&デルーカ カフェ 東京ミッドタウン日比谷",
+    "areaSlug": "chiyoda",
+    "ward": "Chiyoda",
+    "nearestStation": "Hibiya",
+    "walkMinutes": 2,
+    "address": "1-1-4 Yurakucho, Tokyo Midtown Hibiya 1F, Chiyoda-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "businessHours": "8:00-20:00",
+    "priceBand": "¥¥",
+    "description": "A DEAN & DELUCA bakery-deli cafe in Tokyo Midtown Hibiya with free Wi-Fi and outlets at the 14 counter seats, quiet for solo laptop work on weekday afternoons.",
+    "confidence": "medium",
+    "nearbyStations": [
+      "Yurakucho",
+      "Ginza"
+    ],
+    "sources": [
+      "https://note.com/tokyocafe_diary/n/n708ffc58c1e3"
+    ]
+  },
+  {
+    "name": "DEAN & DELUCA Cafe Marunouchi",
+    "nameJa": "ディーン&デルーカ カフェ 丸の内",
+    "areaSlug": "chiyoda",
+    "ward": "Chiyoda",
+    "nearestStation": "Tokyo",
+    "walkMinutes": 5,
+    "address": "1-4-5 Marunouchi, Mitsubishi UFJ Trust Bank Head Office Building 1F, Chiyoda-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 7:00-21:00, weekends/holidays 10:00-19:00",
+    "priceBand": "¥¥",
+    "description": "A bright, high-ceilinged DEAN & DELUCA cafe near Tokyo Station with free Wi-Fi and power outlets, comfortable for laptop work or a light meeting.",
+    "confidence": "high",
+    "nearbyStations": [
+      "Otemachi",
+      "Nijubashimae"
+    ],
+    "sources": [
+      "https://goworkship.com/magazine/tokyo-cafe-dengen-wifi/",
+      "https://freesup.crowdworks.jp/money/542/"
+    ]
+  },
+  {
+    "name": "DEAN & DELUCA Cafe Shibuya Stream",
+    "nameJa": "ディーン&デルーカ カフェ 渋谷ストリーム",
+    "areaSlug": "shibuya",
+    "ward": "Shibuya",
+    "nearestStation": "Shibuya",
+    "walkMinutes": 2,
+    "address": "3-21-3 Shibuya, Shibuya Stream 2F, Shibuya-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "7:00-21:00",
+    "priceBand": "¥¥",
+    "description": "A large DEAN & DELUCA cafe connected to Shibuya Station with fast free Wi-Fi, but outlets reach only about one in five seats, so the window counter is the best spot for working.",
+    "confidence": "medium",
+    "sources": [
+      "https://harumari.tokyo/spot/20785/",
+      "https://www.lemon8-app.com/@loccobrown/7263642903392584198?region=us"
+    ]
+  },
+  {
+    "name": "DEAN & DELUCA Cafe Tokyo College of Music Nakameguro-Daikanyama Campus",
+    "nameJa": "ディーン&デルーカ カフェ 東京音楽大学 中目黒・代官山キャンパス",
+    "areaSlug": "meguro",
+    "ward": "Meguro",
+    "nearestStation": "Nakameguro",
+    "walkMinutes": 7,
+    "address": "1-9-1 Kamimeguro, Tokyo College of Music Nakameguro-Daikanyama Campus 3F, Meguro-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 8:00-18:00, weekends/holidays 9:00-18:00",
+    "priceBand": "¥¥",
+    "description": "A spacious DEAN & DELUCA cafe inside the Tokyo College of Music campus with its own free Wi-Fi and power outlets at the window counter seats, open in the daytime for laptop work.",
+    "confidence": "medium",
+    "nearbyStations": [
+      "Daikanyama"
+    ],
+    "sources": [
+      "https://oasis.mogya.com/spot/deandeluca_50051"
+    ]
+  },
+  {
+    "name": "Sarutahiko Coffee Marunouchi",
+    "nameJa": "猿田彦珈琲 丸の内",
+    "areaSlug": "chiyoda",
+    "ward": "Chiyoda",
+    "nearestStation": "Nijubashimae",
+    "walkMinutes": 3,
+    "address": "2-1-1 Marunouchi, Meiji Yasuda Seimei Building B2F, Chiyoda-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 7:00-20:00, Saturdays 11:00-18:00 (closed Sundays and holidays)",
+    "priceBand": "¥¥",
+    "description": "A Sarutahiko coffee shop with an in-house bakery counter in a Marunouchi food hall, offering shared Wi-Fi and some power outlets for daytime work.",
+    "confidence": "medium",
+    "nearbyStations": [
+      "Tokyo",
+      "Otemachi"
+    ],
+    "sources": [
+      "https://office.yield-marketing.co.jp/coworking/recommended-marunouchi-workcafe/"
+    ]
+  },
+  {
+    "name": "365 nichi to COFFEE Tamagawa Takashimaya",
+    "nameJa": "365日とCOFFEE 玉川髙島屋S・C店",
+    "areaSlug": "setagaya",
+    "ward": "Setagaya",
+    "nearestStation": "Futako-Tamagawa",
+    "walkMinutes": 4,
+    "address": "Tamagawa, Tamagawa Takashimaya S.C., Setagaya-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Daytime (roughly 9:00-19:00)",
+    "priceBand": "¥¥",
+    "description": "A cafe run by the popular 365日 (365 Days) bakery inside Tamagawa Takashimaya with free Wi-Fi and outlets at the big wooden tables, comfortable for longer laptop sessions.",
+    "confidence": "medium",
+    "sources": [
+      "https://note.com/blue_lantern/n/n8767fb586fbd"
+    ]
+  },
+  {
+    "name": "&COFFEE MAISON KAYSER Tamachi",
+    "nameJa": "&COFFEE MAISON KAYSER 田町店",
+    "areaSlug": "minato",
+    "ward": "Minato",
+    "nearestStation": "Tamachi",
+    "walkMinutes": 1,
+    "address": "3-1-21 Shibaura, msb Tamachi 1F, Minato-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "10:00-21:00",
+    "priceBand": "¥¥",
+    "description": "A French bakery cafe (Maison Kayser) directly linked to the msb Tamachi mall with free Wi-Fi and power outlets across its 28 calm seats, one minute from Tamachi Station.",
+    "confidence": "medium",
+    "nearbyStations": [
+      "Mita"
+    ],
+    "sources": [
+      "https://goworkship.com/magazine/tamachi-cafe-dengen-wifi/"
+    ]
+  },
+  {
+    "name": "&COFFEE MAISON KAYSER Otemachi One",
+    "nameJa": "&COFFEE MAISON KAYSER Otemachi One店",
+    "areaSlug": "chiyoda",
+    "ward": "Chiyoda",
+    "nearestStation": "Otemachi",
+    "walkMinutes": 2,
+    "address": "1-2-1 Otemachi, Otemachi One Avenue B1F, Chiyoda-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "businessHours": "Mon-Fri 8:00-18:00 (closed weekends and holidays)",
+    "priceBand": "¥¥",
+    "description": "A small Maison Kayser bakery cafe in the Otemachi One basement with free Wi-Fi and 31 seats, open weekday daytime, though power outlet availability is not confirmed.",
+    "confidence": "medium",
+    "nearbyStations": [
+      "Tokyo"
+    ],
+    "sources": [
+      "https://otemachi-one.com/shopandrestaurant/s_000068.html"
+    ]
+  },
+  {
+    "name": "bricolage bread & co.",
+    "nameJa": "ブリコラージュ ブレッド アンド カンパニー",
+    "areaSlug": "minato",
+    "ward": "Minato",
+    "nearestStation": "Roppongi",
+    "walkMinutes": 4,
+    "address": "6-15-1 Roppongi, Roppongi Hills Keyakizaka Terrace 1F, Minato-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "9:00-20:00 (L.O. 19:30)",
+    "priceBand": "¥¥",
+    "description": "A bakery cafe in Roppongi Hills run with a Michelin restaurant and Norwegian roaster Fuglen, with power outlets at its sofa and terrace seats, though Wi-Fi is not confirmed.",
+    "confidence": "medium",
+    "nearbyStations": [
+      "Azabu-Juban"
+    ],
+    "sources": [
+      "https://goodcoffee.me/coffeeshop/bricolage-bread-%EF%BC%86-co/"
+    ]
+  },
+  {
+    "name": "Le Pain Quotidien Shibakoen",
+    "nameJa": "ル・パン・コティディアン 芝公園店",
+    "areaSlug": "minato",
+    "ward": "Minato",
+    "nearestStation": "Onarimon",
+    "walkMinutes": 1,
+    "address": "Shibakoen, Minato-ku, Tokyo (near Tokyo Prince Hotel)",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": false,
+    "businessHours": "Morning to evening (hours vary; opens around 7:00-8:00)",
+    "priceBand": "¥¥",
+    "description": "A big, airy Le Pain Quotidien bakery cafe near Onarimon with free Wi-Fi and lots of terrace seating but no power outlets, so it is better for a short visit.",
+    "confidence": "medium",
+    "nearbyStations": [
+      "Shibakoen",
+      "Akabanebashi"
+    ],
+    "sources": [
+      "https://morning.aroundfifty.top/2021/07/23/lepainquotidien2shibapark/"
+    ]
+  },
+  {
+    "name": "Saint Marc Cafe Ebisu West Exit",
+    "nameJa": "サンマルクカフェ 恵比寿西口店",
+    "areaSlug": "shibuya",
+    "ward": "Shibuya",
+    "nearestStation": "Ebisu",
+    "walkMinutes": 3,
+    "address": "1-8-8 Ebisu-Nishi, Shibuya-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "7:00-23:30",
+    "priceBand": "¥",
+    "description": "A Saint Marc Cafe (a bakery cafe chain known for its choco cro, a chocolate-filled croissant) near Ebisu's west exit with free Wi-Fi, outlets at some of its 107 seats, and long hours until late.",
+    "confidence": "medium",
+    "sources": [
+      "https://office.yield-marketing.co.jp/coworking/recommended-ebisu-workcafe/"
+    ]
+  },
+  {
+    "name": "Saint Marc Cafe Ebisu East Exit",
+    "nameJa": "サンマルクカフェ 恵比寿東口店",
+    "areaSlug": "shibuya",
+    "ward": "Shibuya",
+    "nearestStation": "Ebisu",
+    "walkMinutes": 1,
+    "address": "1-8-1 Ebisu, Sun-ei Building, Shibuya-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "7:00-23:00",
+    "priceBand": "¥",
+    "description": "A bright, glass-walled Saint Marc Cafe by Ebisu station with free Wi-Fi and outlets at some of its 91 seats, open from early morning until late.",
+    "confidence": "medium",
+    "sources": [
+      "https://office.yield-marketing.co.jp/coworking/recommended-ebisu-workcafe/"
+    ]
+  }
+]
