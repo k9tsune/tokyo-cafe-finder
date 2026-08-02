@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import type { Venue } from "@/lib/types";
-import LocationHelp from "./LocationHelp";
 
 const KEY = process.env.NEXT_PUBLIC_GMAPS_EMBED_KEY || "";
 
@@ -98,20 +97,6 @@ export default function CafeMap({ v }: { v: Venue }) {
       </div>
 
       {err && <p className="map-err">{err}</p>}
-
-      {denied && (
-        <LocationHelp
-          fallback={
-            <>
-              Don&rsquo;t want to change settings?{" "}
-              <a href={externalDir} target="_blank" rel="noopener noreferrer">
-                Open in Google Maps
-              </a>{" "}
-              instead — it will use your location there.
-            </>
-          }
-        />
-      )}
     </div>
   );
 }

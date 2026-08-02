@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import LocationHelp from "./LocationHelp";
 
 // Geolocation entry point. In `charge` mode it routes to the outlet-first,
 // short-radius "nearest places to charge" view for the dying-phone tourist.
@@ -34,9 +33,9 @@ export default function NearMeButton({
       (geoErr) => {
         setBusy(false);
         if (geoErr && geoErr.code === 1) {
-          // PERMISSION_DENIED — the browser won't re-prompt; show enable steps.
+          // PERMISSION_DENIED — the browser won't re-prompt.
           setDenied(true);
-          setErr("Location is blocked, so we can’t find you. Turn it on below, or type your station.");
+          setErr("Location is blocked for this site, so we can’t find you. Type your station instead.");
         } else {
           setErr("Can't find you — no worries. Type your station and we'll show the closest.");
         }
@@ -49,14 +48,11 @@ export default function NearMeButton({
   const text = denied ? "I turned it on — try again" : base;
 
   return (
-    <div className="near-me">
+    <span className="near-me">
       <button type="button" className={charge ? "charge-cta" : ""} onClick={locate} disabled={busy}>
         {busy ? "Locating…" : text}
       </button>
       {err && <span className="err">{err}</span>}
-      {denied && (
-        <LocationHelp fallback={<>Or just type your station in the search box above.</>} />
-      )}
-    </div>
+    </span>
   );
 }
