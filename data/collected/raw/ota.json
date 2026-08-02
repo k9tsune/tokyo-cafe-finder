@@ -125,7 +125,8 @@
     "confidence": "low",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omori-workcafe/",
-      "https://search-maps.com/charge_wifi/stores/16eea71ed64/"
+      "https://search-maps.com/charge_wifi/stores/16eea71ed64/",
+      "https://travel.navitime.com/ja/area/jp/spot/07005-0000000093/"
     ]
   },
   {
@@ -143,10 +144,11 @@
     "laptopFriendly": true,
     "businessHours": "",
     "priceBand": "¥¥",
-    "description": "A Starbucks in the Tokyu Square complex at Den-en-chofu station offering the chain's standard free Wi-Fi and some outlet seating, though feature data was only lightly verifiable.",
-    "confidence": "low",
+    "description": "A bright Starbucks in the Tokyu Square complex at Den-en-chofu station with the chain's free Wi-Fi and power outlets reported at the counter and some other seats.",
+    "confidence": "medium",
     "sources": [
-      "https://store.starbucks.co.jp/detail-1139/"
+      "https://store.starbucks.co.jp/detail-1139/",
+      "https://ay-style.net/?p=83311"
     ]
   },
   {
@@ -164,10 +166,11 @@
     "laptopFriendly": true,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
-    "description": "A Tully's on the Terminal 3 arrivals floor that runs around the clock with power outlets and airport Wi-Fi, useful for working during odd-hour layovers.",
-    "confidence": "low",
+    "description": "A Tully's on the Terminal 3 arrivals floor at Haneda that runs 24 hours with power outlets at some seats, useful for working during odd-hour layovers.",
+    "confidence": "medium",
     "sources": [
-      "https://blog.nearme.jp/article/haneda/3334/"
+      "https://r.gnavi.co.jp/9nr71mje0000/",
+      "https://ameblo.jp/travelbread/entry-12867250522.html"
     ]
   }
 ]

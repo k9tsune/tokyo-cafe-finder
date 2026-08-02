@@ -279,9 +279,10 @@
     "businessHours": "9:00-1:00 daily",
     "priceBand": "¥",
     "description": "A roadside Mos Burger near Nakano-fujimicho with free Wi-Fi and a few power outlets by the single non-smoking seats, open late into the night.",
-    "confidence": "low",
+    "confidence": "medium",
     "sources": [
-      "https://oasis.mogya.com/spot/entry_3877"
+      "https://oasis.mogya.com/spot/entry_3877",
+      "https://dwifi.mapion.co.jp/b/d_wifi/info/BA746781"
     ]
   },
   {

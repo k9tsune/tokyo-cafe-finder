@@ -187,9 +187,11 @@
     "laptopFriendly": true,
     "businessHours": "",
     "priceBand": "¥",
-    "description": "A Starbucks in the LalaTerrace mall at Kita-Ayase with confirmed free Wi-Fi, though outlet availability at seats could not be verified.",
-    "confidence": "low",
+    "description": "A Starbucks in the LalaTerrace mall at Kita-Ayase (first stop on the Chiyoda line) with free Wi-Fi confirmed by the mall and store listings; outlet seating is not listed, so do not count on power.",
+    "confidence": "medium",
     "sources": [
+      "https://mitsui-shopping-park.com/lalat-kitaayase/shopguide/3046546.html",
+      "https://tabelog.com/tokyo/A1324/A132404/13310972/",
       "https://everyday-starbucks.com/2025/05/09/lalaterrace-kita-ayase/"
     ]
   },
@@ -212,6 +214,98 @@
     "confidence": "medium",
     "sources": [
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA846207"
+    ]
+  },
+  {
+    "name": "San Marc Cafe Equia Kita-senju",
+    "nameJa": "サンマルクカフェ エキア北千住店",
+    "areaSlug": "adachi",
+    "ward": "Adachi",
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 1,
+    "address": "42-1 Senju-Asahicho, Equia Kita-Senju B1F, Adachi-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 7:00-22:00 / Sun/Hol 8:00-21:00",
+    "chainName": "San Marc Cafe",
+    "priceBand": "¥",
+    "description": "A bakery cafe inside the Equia complex right at Kita-Senju station with power outlets at several of its 65 seats; it opens early for morning work but has no in-store Wi-Fi.",
+    "confidence": "high",
+    "sources": [
+      "https://www.saint-marc-hd.com/saintmarccafe/shop/590/",
+      "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+    ]
+  },
+  {
+    "name": "Tully's Coffee Lumine Kita-senju",
+    "nameJa": "タリーズコーヒー ルミネ北千住店",
+    "areaSlug": "adachi",
+    "ward": "Adachi",
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 3,
+    "address": "42-2 Senju-Asahicho, Lumine Kita-Senju 6F, Adachi-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "11:00-20:30",
+    "chainName": "Tully's Coffee",
+    "priceBand": "¥¥",
+    "description": "A Tully's on the sixth floor of Lumine above Kita-Senju station with free Tully's Wi-Fi and power outlets at the counter, handy for a work stop while shopping.",
+    "confidence": "high",
+    "sources": [
+      "https://shop.tullys.co.jp/detail/1000952",
+      "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
+      "https://www.lumine.ne.jp/kitasenju/floorguide/detail/?scd=001975"
+    ]
+  },
+  {
+    "name": "Tsubaki Cafe Kita-senju Marui",
+    "nameJa": "椿屋カフェ 北千住マルイ店",
+    "areaSlug": "adachi",
+    "ward": "Adachi",
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 3,
+    "address": "3-92 Senju, Kita-Senju Marui 3F, Adachi-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "chainName": "Tsubaki Cafe",
+    "priceBand": "¥¥¥",
+    "description": "A plush Showa-styled siphon-coffee cafe on the third floor of Kita-Senju Marui with power outlets at some seats; there is no Wi-Fi, so bring your own connection.",
+    "confidence": "medium",
+    "sources": [
+      "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
+      "https://4travel.jp/dm_shisetsu/11672686"
+    ]
+  },
+  {
+    "name": "Sd Coffee Kita-senju",
+    "nameJa": "エスディコーヒー 北千住",
+    "areaSlug": "adachi",
+    "ward": "Adachi",
+    "nearestStation": "Kita-senju",
+    "walkMinutes": 5,
+    "address": "Senju, Adachi-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "11:30-18:00 (closed Tue)",
+    "priceBand": "¥¥",
+    "description": "A quirky bathhouse-themed independent cafe a few minutes from Kita-Senju station, reported to offer free Wi-Fi and power outlets; it keeps daytime hours and closes on Tuesdays.",
+    "confidence": "medium",
+    "sources": [
+      "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
+      "https://tabelog.com/tokyo/A1324/A132402/13210884/"
     ]
   }
 ]

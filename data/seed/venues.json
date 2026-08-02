@@ -248,10 +248,10 @@
     "laptopFriendly": true,
     "open24h": false,
     "openLate": false,
-    "description": "A Starbucks in the LalaTerrace mall at Kita-Ayase with confirmed free Wi-Fi, though outlet availability at seats could not be verified.",
+    "description": "A Starbucks in the LalaTerrace mall at Kita-Ayase (first stop on the Chiyoda line) with free Wi-Fi confirmed by the mall and store listings; outlet seating is not listed, so do not count on power.",
     "lastChecked": "2026-08-01",
-    "confidence": "low",
-    "sourceUrl": "https://everyday-starbucks.com/2025/05/09/lalaterrace-kita-ayase/",
+    "confidence": "medium",
+    "sourceUrl": "https://mitsui-shopping-park.com/lalat-kitaayase/shopguide/3046546.html",
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
@@ -284,6 +284,120 @@
   },
   {
     "id": "w-0011",
+    "slug": "san-marc-cafe-equia-kita-senju",
+    "name": "San Marc Cafe Equia Kita-senju",
+    "nameJa": "サンマルクカフェ エキア北千住店",
+    "address": "42-1 Senju-Asahicho, Equia Kita-Senju B1F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju-station"
+    ],
+    "lat": 35.749677,
+    "lng": 139.804872,
+    "nearestStation": "Kita-senju Station",
+    "walkMinutes": 1,
+    "businessHours": "Weekdays 7:00-22:00 / Sun/Hol 8:00-21:00",
+    "chainName": "San Marc Cafe",
+    "priceBand": "¥",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "open24h": false,
+    "openLate": false,
+    "description": "A bakery cafe inside the Equia complex right at Kita-Senju station with power outlets at several of its 65 seats; it opens early for morning work but has no in-store Wi-Fi.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://www.saint-marc-hd.com/saintmarccafe/shop/590/"
+  },
+  {
+    "id": "w-0012",
+    "slug": "tullys-coffee-lumine-kita-senju",
+    "name": "Tully's Coffee Lumine Kita-senju",
+    "nameJa": "タリーズコーヒー ルミネ北千住店",
+    "address": "42-2 Senju-Asahicho, Lumine Kita-Senju 6F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju-station"
+    ],
+    "lat": 35.749677,
+    "lng": 139.804872,
+    "nearestStation": "Kita-senju Station",
+    "walkMinutes": 3,
+    "businessHours": "11:00-20:30",
+    "chainName": "Tully's Coffee",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "open24h": false,
+    "openLate": false,
+    "description": "A Tully's on the sixth floor of Lumine above Kita-Senju station with free Tully's Wi-Fi and power outlets at the counter, handy for a work stop while shopping.",
+    "lastChecked": "2026-08-01",
+    "confidence": "high",
+    "sourceUrl": "https://shop.tullys.co.jp/detail/1000952"
+  },
+  {
+    "id": "w-0013",
+    "slug": "tsubaki-cafe-kita-senju-marui",
+    "name": "Tsubaki Cafe Kita-senju Marui",
+    "nameJa": "椿屋カフェ 北千住マルイ店",
+    "address": "3-92 Senju, Kita-Senju Marui 3F, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju-station"
+    ],
+    "lat": 35.749677,
+    "lng": 139.804872,
+    "nearestStation": "Kita-senju Station",
+    "walkMinutes": 3,
+    "chainName": "Tsubaki Cafe",
+    "priceBand": "¥¥¥",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "open24h": false,
+    "openLate": false,
+    "description": "A plush Showa-styled siphon-coffee cafe on the third floor of Kita-Senju Marui with power outlets at some seats; there is no Wi-Fi, so bring your own connection.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0014",
+    "slug": "sd-coffee-kita-senju",
+    "name": "Sd Coffee Kita-senju",
+    "nameJa": "エスディコーヒー 北千住",
+    "address": "Senju, Adachi-ku, Tokyo",
+    "areaSlug": "adachi",
+    "stationSlugs": [
+      "kita-senju-station"
+    ],
+    "lat": 35.749677,
+    "lng": 139.804872,
+    "nearestStation": "Kita-senju Station",
+    "walkMinutes": 5,
+    "businessHours": "11:30-18:00 (closed Tue)",
+    "priceBand": "¥¥",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "open24h": false,
+    "openLate": false,
+    "description": "A quirky bathhouse-themed independent cafe a few minutes from Kita-Senju station, reported to offer free Wi-Fi and power outlets; it keeps daytime hours and closes on Tuesdays.",
+    "lastChecked": "2026-08-01",
+    "confidence": "medium",
+    "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
+  },
+  {
+    "id": "w-0015",
     "slug": "renoir-nishi-nippori-daiichi",
     "name": "Renoir Nishi-Nippori Daiichi",
     "nameJa": "喫茶室ルノアール 西日暮里第一店",
@@ -312,7 +426,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0012",
+    "id": "w-0016",
     "slug": "renoir-nippori-east-exit",
     "name": "Renoir Nippori East Exit",
     "nameJa": "喫茶室ルノアール 日暮里東口店",
@@ -341,7 +455,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0013",
+    "id": "w-0017",
     "slug": "becks-coffee-shop-nishi-nippori",
     "name": "Beck's Coffee Shop Nishi-Nippori",
     "nameJa": "ベックスコーヒーショップ 西日暮里店",
@@ -370,7 +484,7 @@
     "instagram": "https://www.instagram.com/becks_coffee_shop/"
   },
   {
-    "id": "w-0014",
+    "id": "w-0018",
     "slug": "excelsior-caffe-nippori",
     "name": "Excelsior Caffe Nippori",
     "nameJa": "エクセルシオール カフェ 日暮里店",
@@ -399,7 +513,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0015",
+    "id": "w-0019",
     "slug": "doutor-coffee-machiya-ekimae",
     "name": "Doutor Coffee Machiya-Ekimae",
     "nameJa": "ドトールコーヒーショップ 町屋駅前店",
@@ -428,7 +542,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0016",
+    "id": "w-0020",
     "slug": "tullys-coffee-nippori",
     "name": "Tully's Coffee Nippori",
     "nameJa": "タリーズコーヒー 日暮里店",
@@ -457,7 +571,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0017",
+    "id": "w-0021",
     "slug": "bliss-coffee-nishi-nippori",
     "name": "Bliss Coffee Nishi-Nippori",
     "nameJa": "BLISS COFFEE 西日暮里",
@@ -484,7 +598,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0018",
+    "id": "w-0022",
     "slug": "tomoroyu-nippori",
     "name": "Tomoroyu Nippori",
     "nameJa": "昔ながらの喫茶店 友路有 日暮里店",
@@ -512,7 +626,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0019",
+    "id": "w-0023",
     "slug": "cafe-veloce-tokyo-station-yaesu",
     "name": "Cafe Veloce Tokyo Station Yaesu",
     "nameJa": "カフェ・ベローチェ 東京駅八重洲口店",
@@ -541,7 +655,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0020",
+    "id": "w-0024",
     "slug": "cafe-veloce-chitose-karasuyama",
     "name": "Cafe Veloce Chitose-Karasuyama",
     "nameJa": "カフェ・ベローチェ 千歳烏山店",
@@ -570,7 +684,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0021",
+    "id": "w-0025",
     "slug": "cafe-veloce-komazawa",
     "name": "Cafe Veloce Komazawa",
     "nameJa": "カフェ・ベローチェ 駒沢店",
@@ -599,7 +713,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0022",
+    "id": "w-0026",
     "slug": "cafe-veloce-shin-nakano",
     "name": "Cafe Veloce Shin-Nakano",
     "nameJa": "カフェ・ベローチェ 新中野店",
@@ -628,7 +742,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0023",
+    "id": "w-0027",
     "slug": "cafe-veloce-naka-okachimachi",
     "name": "Cafe Veloce Naka-Okachimachi",
     "nameJa": "カフェ・ベローチェ 仲御徒町店",
@@ -657,7 +771,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0024",
+    "id": "w-0028",
     "slug": "cafe-veloce-meguro",
     "name": "Cafe Veloce Meguro",
     "nameJa": "カフェ・ベローチェ 目黒店",
@@ -686,7 +800,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0025",
+    "id": "w-0029",
     "slug": "cafe-veloce-ogikubo-west-exit",
     "name": "Cafe Veloce Ogikubo West Exit",
     "nameJa": "カフェ・ベローチェ 荻窪駅西口店",
@@ -715,7 +829,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0026",
+    "id": "w-0030",
     "slug": "cafe-veloce-gaienmae",
     "name": "Cafe Veloce Gaienmae",
     "nameJa": "カフェ・ベローチェ 外苑前店",
@@ -744,7 +858,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0027",
+    "id": "w-0031",
     "slug": "cafe-veloce-toyocho",
     "name": "Cafe Veloce Toyocho",
     "nameJa": "カフェ・ベローチェ 東陽町店",
@@ -773,7 +887,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0028",
+    "id": "w-0032",
     "slug": "cafe-veloce-nishi-shinjuku",
     "name": "Cafe Veloce Nishi-Shinjuku",
     "nameJa": "カフェ・ベローチェ 西新宿店",
@@ -802,7 +916,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0029",
+    "id": "w-0033",
     "slug": "cafe-veloce-nakajuku",
     "name": "Cafe Veloce Nakajuku",
     "nameJa": "カフェ・ベローチェ 仲宿店",
@@ -831,7 +945,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0030",
+    "id": "w-0034",
     "slug": "cafe-de-crie-bunkyo-civic-center",
     "name": "Cafe de Crie Bunkyo Civic Center",
     "nameJa": "カフェ・ド・クリエ 文京シビックセンター店",
@@ -860,7 +974,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0031",
+    "id": "w-0035",
     "slug": "cafe-de-crie-kamata-east-exit",
     "name": "Cafe de Crie Kamata East Exit",
     "nameJa": "カフェ・ド・クリエ 蒲田東口店",
@@ -889,7 +1003,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0032",
+    "id": "w-0036",
     "slug": "cafe-de-crie-minami-ikebukuro",
     "name": "Cafe de Crie Minami-Ikebukuro",
     "nameJa": "カフェ・ド・クリエ 南池袋店",
@@ -918,7 +1032,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0033",
+    "id": "w-0037",
     "slug": "cafe-de-crie-akebonobashi",
     "name": "Cafe de Crie Akebonobashi",
     "nameJa": "カフェ・ド・クリエ 曙橋店",
@@ -947,7 +1061,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0034",
+    "id": "w-0038",
     "slug": "cafe-de-crie-plus-marui-kinshicho",
     "name": "Cafe de Crie Plus Marui Kinshicho",
     "nameJa": "カフェ・ド・クリエ プラス丸井錦糸町店",
@@ -976,7 +1090,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0035",
+    "id": "w-0039",
     "slug": "cafe-de-crie-ichigaya-station",
     "name": "Cafe de Crie Ichigaya Station",
     "nameJa": "カフェ・ド・クリエ 市ヶ谷駅前店",
@@ -1005,7 +1119,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0036",
+    "id": "w-0040",
     "slug": "cafe-de-crie-beans-akabane",
     "name": "Cafe de Crie Beans Akabane",
     "nameJa": "カフェ・ド・クリエ ビーンズ赤羽店",
@@ -1034,7 +1148,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0037",
+    "id": "w-0041",
     "slug": "saint-marc-cafe-okachimachi-south-exit",
     "name": "Saint Marc Cafe Okachimachi South Exit",
     "nameJa": "サンマルクカフェ 御徒町南口店",
@@ -1063,7 +1177,7 @@
     "instagram": "https://www.instagram.com/saint_marc_cafe_official/"
   },
   {
-    "id": "w-0038",
+    "id": "w-0042",
     "slug": "saint-marc-cafe-ebisu-east-exit",
     "name": "Saint Marc Cafe Ebisu East Exit",
     "nameJa": "サンマルクカフェ 恵比寿東口店",
@@ -1092,7 +1206,7 @@
     "instagram": "https://www.instagram.com/saint_marc_cafe_official/"
   },
   {
-    "id": "w-0039",
+    "id": "w-0043",
     "slug": "saint-marc-cafe-shinjuku-shinnan-exit",
     "name": "Saint Marc Cafe Shinjuku Shinnan Exit",
     "nameJa": "サンマルクカフェ 新宿新南口店",
@@ -1121,7 +1235,7 @@
     "instagram": "https://www.instagram.com/saint_marc_cafe_official/"
   },
   {
-    "id": "w-0040",
+    "id": "w-0044",
     "slug": "kissashitsu-renoir-shibuya-south-exit",
     "name": "Kissashitsu Renoir Shibuya South Exit",
     "nameJa": "喫茶室ルノアール 渋谷南口店",
@@ -1150,7 +1264,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0041",
+    "id": "w-0045",
     "slug": "kissashitsu-renoir-keisei-ueno-station",
     "name": "Kissashitsu Renoir Keisei-Ueno Station",
     "nameJa": "喫茶室ルノアール 京成上野駅前店",
@@ -1179,7 +1293,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0042",
+    "id": "w-0046",
     "slug": "kissashitsu-renoir-tamachi-mitaguchi-station",
     "name": "Kissashitsu Renoir Tamachi Mitaguchi Station",
     "nameJa": "喫茶室ルノアール 田町三田口駅前店",
@@ -1208,7 +1322,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0043",
+    "id": "w-0047",
     "slug": "kissashitsu-renoir-kamata-west-exit",
     "name": "Kissashitsu Renoir Kamata West Exit",
     "nameJa": "喫茶室ルノアール 蒲田西口店",
@@ -1237,7 +1351,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0044",
+    "id": "w-0048",
     "slug": "pronto-gotanda-west-exit",
     "name": "Pronto Gotanda West Exit",
     "nameJa": "PRONTO プロント 五反田西口店",
@@ -1266,7 +1380,7 @@
     "instagram": "https://www.instagram.com/pronto___official/"
   },
   {
-    "id": "w-0045",
+    "id": "w-0049",
     "slug": "becks-coffee-shop-shinagawa",
     "name": "Beck's Coffee Shop Shinagawa",
     "nameJa": "ベックスコーヒーショップ 品川店",
@@ -1294,7 +1408,7 @@
     "instagram": "https://www.instagram.com/becks_coffee_shop/"
   },
   {
-    "id": "w-0046",
+    "id": "w-0050",
     "slug": "becks-coffee-shop-ueno-central-gate",
     "name": "Beck's Coffee Shop Ueno Central Gate",
     "nameJa": "BECK'S COFFEE SHOP 上野中央口",
@@ -1323,7 +1437,7 @@
     "instagram": "https://www.instagram.com/becks_coffee_shop/"
   },
   {
-    "id": "w-0047",
+    "id": "w-0051",
     "slug": "doutor-coffee-hongo-sanchome-higashi",
     "name": "Doutor Coffee Hongo-Sanchome Higashi",
     "nameJa": "ドトールコーヒーショップ 本郷三丁目東店",
@@ -1351,7 +1465,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0048",
+    "id": "w-0052",
     "slug": "doutor-coffee-hongo-sanchome",
     "name": "Doutor Coffee Hongo-Sanchome",
     "nameJa": "ドトールコーヒーショップ 本郷三丁目店",
@@ -1379,7 +1493,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0049",
+    "id": "w-0053",
     "slug": "starbucks-hongo-todai-mae",
     "name": "Starbucks Hongo Todai-mae",
     "nameJa": "スターバックス コーヒー 本郷東大前店",
@@ -1408,7 +1522,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0050",
+    "id": "w-0054",
     "slug": "starbucks-university-of-tokyo-faculty-of-engineering",
     "name": "Starbucks University of Tokyo Faculty of Engineering",
     "nameJa": "スターバックス コーヒー 東京大学工学部店",
@@ -1436,7 +1550,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0051",
+    "id": "w-0055",
     "slug": "doutor-coffee-utokyo-yasuda-auditorium",
     "name": "Doutor Coffee UTokyo Yasuda Auditorium",
     "nameJa": "ドトールコーヒーショップ 東京大学安田講堂前店",
@@ -1464,7 +1578,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0052",
+    "id": "w-0056",
     "slug": "starbucks-korakuen-laqua",
     "name": "Starbucks Korakuen LaQua",
     "nameJa": "スターバックス コーヒー 後楽園ラクーア店",
@@ -1492,7 +1606,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0053",
+    "id": "w-0057",
     "slug": "cafe-veloce-kasuga-station-front",
     "name": "Cafe Veloce Kasuga Station Front",
     "nameJa": "カフェ・ベローチェ 春日駅前店",
@@ -1520,7 +1634,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0054",
+    "id": "w-0058",
     "slug": "doutor-coffee-edogawabashi-shin-mejiro-dori",
     "name": "Doutor Coffee Edogawabashi Shin-Mejiro-dori",
     "nameJa": "ドトールコーヒーショップ 江戸川橋新目白通り店",
@@ -1548,7 +1662,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0055",
+    "id": "w-0059",
     "slug": "coffeekan-nezu-station-front",
     "name": "Coffeekan Nezu Station Front",
     "nameJa": "珈琲館 根津駅前店",
@@ -1575,7 +1689,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E6%A0%B9%E6%B4%A5/"
   },
   {
-    "id": "w-0056",
+    "id": "w-0060",
     "slug": "starbucks-myogadani",
     "name": "Starbucks Myogadani",
     "nameJa": "スターバックス コーヒー 茗荷谷店",
@@ -1604,7 +1718,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0057",
+    "id": "w-0061",
     "slug": "excelsior-caffe-kanda-kitaguchi",
     "name": "Excelsior Caffe Kanda Kitaguchi",
     "nameJa": "エクセルシオール カフェ 神田北口店",
@@ -1633,7 +1747,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0058",
+    "id": "w-0062",
     "slug": "excelsior-caffe-ochanomizu",
     "name": "Excelsior Caffe Ochanomizu",
     "nameJa": "エクセルシオール カフェ お茶の水店",
@@ -1662,7 +1776,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0059",
+    "id": "w-0063",
     "slug": "excelsior-caffe-akihabara-chuo-dori",
     "name": "Excelsior Caffe Akihabara Chuo-dori",
     "nameJa": "エクセルシオールカフェ 秋葉原中央通り店",
@@ -1690,7 +1804,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0060",
+    "id": "w-0064",
     "slug": "doutor-coffee-ningyocho-1-chome",
     "name": "Doutor Coffee Ningyocho 1-chome",
     "nameJa": "ドトールコーヒーショップ 人形町一丁目店",
@@ -1718,7 +1832,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0061",
+    "id": "w-0065",
     "slug": "excelsior-caffe-nihonbashi-1-chome",
     "name": "Excelsior Caffe Nihonbashi 1-chome",
     "nameJa": "エクセルシオール カフェ 日本橋一丁目店",
@@ -1746,7 +1860,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0062",
+    "id": "w-0066",
     "slug": "tullys-coffee-roppongi-1-chome",
     "name": "Tully's Coffee Roppongi 1-chome",
     "nameJa": "タリーズコーヒー 六本木一丁目店",
@@ -1775,7 +1889,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0063",
+    "id": "w-0067",
     "slug": "excelsior-caffe-shinjuku-island",
     "name": "Excelsior Caffe Shinjuku Island",
     "nameJa": "エクセルシオール カフェ 新宿アイランド店",
@@ -1804,7 +1918,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0064",
+    "id": "w-0068",
     "slug": "excelsior-caffe-tokyo-opera-city",
     "name": "Excelsior Caffe Tokyo Opera City",
     "nameJa": "エクセルシオール カフェ 東京オペラシティ店",
@@ -1833,7 +1947,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0065",
+    "id": "w-0069",
     "slug": "excelsior-caffe-barista-shibuya-mark-city",
     "name": "Excelsior Caffe Barista Shibuya Mark City",
     "nameJa": "エクセルシオール カフェ バリスタ 渋谷マークシティ店",
@@ -1862,7 +1976,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0066",
+    "id": "w-0070",
     "slug": "excelsior-caffe-jiyugaoka-ekimae",
     "name": "Excelsior Caffe Jiyugaoka Ekimae",
     "nameJa": "エクセルシオール カフェ 自由が丘駅前店",
@@ -1891,7 +2005,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0067",
+    "id": "w-0071",
     "slug": "tullys-coffee-atre-meguro",
     "name": "Tully's Coffee Atre Meguro",
     "nameJa": "タリーズコーヒー アトレ目黒店",
@@ -1919,7 +2033,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0068",
+    "id": "w-0072",
     "slug": "doutor-coffee-higashi-koenji",
     "name": "Doutor Coffee Higashi-Koenji",
     "nameJa": "ドトールコーヒーショップ 東高円寺店",
@@ -1948,7 +2062,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0069",
+    "id": "w-0073",
     "slug": "doutor-coffee-higashi-nakano",
     "name": "Doutor Coffee Higashi-Nakano",
     "nameJa": "ドトールコーヒーショップ 東中野店",
@@ -1977,7 +2091,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0070",
+    "id": "w-0074",
     "slug": "doutor-coffee-setagaya-carrot-tower",
     "name": "Doutor Coffee Setagaya Carrot Tower",
     "nameJa": "ドトールコーヒーショップ 世田谷キャロットタワー店",
@@ -2005,7 +2119,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0071",
+    "id": "w-0075",
     "slug": "doutor-coffee-komazawa-daigaku-station",
     "name": "Doutor Coffee Komazawa-daigaku Station",
     "nameJa": "ドトールコーヒーショップ 駒沢大学駅前店",
@@ -2033,7 +2147,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0072",
+    "id": "w-0076",
     "slug": "tullys-coffee-ikejiri-ohashi",
     "name": "Tully's Coffee Ikejiri-Ohashi",
     "nameJa": "タリーズコーヒー 池尻大橋店",
@@ -2061,7 +2175,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0073",
+    "id": "w-0077",
     "slug": "doutor-coffee-kinshicho-kinshi-koen-mae",
     "name": "Doutor Coffee Kinshicho Kinshi-Koen-mae",
     "nameJa": "ドトールコーヒーショップ 錦糸町錦糸公園前店",
@@ -2090,7 +2204,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0074",
+    "id": "w-0078",
     "slug": "excelsior-caffe-arcakit-kinshicho",
     "name": "Excelsior Caffe Arcakit Kinshicho",
     "nameJa": "エクセルシオール カフェ アルカキット錦糸町店",
@@ -2119,7 +2233,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0075",
+    "id": "w-0079",
     "slug": "doutor-coffee-oshima-ekimae",
     "name": "Doutor Coffee Oshima Ekimae",
     "nameJa": "ドトールコーヒーショップ 大島駅前店",
@@ -2148,7 +2262,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0076",
+    "id": "w-0080",
     "slug": "excelsior-caffe-kameido",
     "name": "Excelsior Caffe Kameido",
     "nameJa": "エクセルシオール カフェ 亀戸店",
@@ -2177,7 +2291,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0077",
+    "id": "w-0081",
     "slug": "doutor-coffee-aomono-yokocho",
     "name": "Doutor Coffee Aomono-Yokocho",
     "nameJa": "ドトールコーヒーショップ 青物横丁店",
@@ -2205,7 +2319,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0078",
+    "id": "w-0082",
     "slug": "excelsior-caffe-shinagawa-seaside-forest",
     "name": "Excelsior Caffe Shinagawa Seaside Forest",
     "nameJa": "エクセルシオール カフェ 品川シーサイドフォレスト店",
@@ -2233,7 +2347,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0079",
+    "id": "w-0083",
     "slug": "excelsior-caffe-osaki-think-park",
     "name": "Excelsior Caffe Osaki Think Park",
     "nameJa": "エクセルシオール カフェ 大崎シンクパーク店",
@@ -2261,7 +2375,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0080",
+    "id": "w-0084",
     "slug": "doutor-coffee-atre-ueno",
     "name": "Doutor Coffee Atre Ueno",
     "nameJa": "ドトールコーヒーショップ アトレ上野店",
@@ -2289,7 +2403,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0081",
+    "id": "w-0085",
     "slug": "doutor-coffee-ueno-asakusa-dori",
     "name": "Doutor Coffee Ueno Asakusa-dori",
     "nameJa": "ドトールコーヒーショップ 上野浅草通り店",
@@ -2317,7 +2431,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0082",
+    "id": "w-0086",
     "slug": "doutor-coffee-kamata-aroma-square",
     "name": "Doutor Coffee Kamata Aroma Square",
     "nameJa": "ドトールコーヒーショップ 蒲田アロマスクエア店",
@@ -2345,7 +2459,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0083",
+    "id": "w-0087",
     "slug": "doutor-coffee-lumine-ikebukuro",
     "name": "Doutor Coffee Lumine Ikebukuro",
     "nameJa": "ドトールコーヒーショップ ルミネ池袋店",
@@ -2373,7 +2487,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0084",
+    "id": "w-0088",
     "slug": "excelsior-caffe-ikebukuro-2-chome",
     "name": "Excelsior Caffe Ikebukuro 2-chome",
     "nameJa": "エクセルシオール カフェ 池袋二丁目店",
@@ -2401,7 +2515,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0086",
+    "id": "w-0090",
     "slug": "doutor-coffee-nerima-west-exit",
     "name": "Doutor Coffee Nerima West Exit",
     "nameJa": "ドトールコーヒーショップ 練馬西口店",
@@ -2429,7 +2543,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0087",
+    "id": "w-0091",
     "slug": "doutor-coffee-toshimaen-station-front",
     "name": "Doutor Coffee Toshimaen Station Front",
     "nameJa": "ドトールコーヒーショップ 豊島園駅前店",
@@ -2457,7 +2571,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0088",
+    "id": "w-0092",
     "slug": "doutor-coffee-kasai-ekimae",
     "name": "Doutor Coffee Kasai Ekimae",
     "nameJa": "ドトールコーヒーショップ 葛西駅前店",
@@ -2485,7 +2599,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0089",
+    "id": "w-0093",
     "slug": "doutor-coffee-ito-yokado-ayase",
     "name": "Doutor Coffee Ito-Yokado Ayase",
     "nameJa": "ドトールコーヒーショップ イトーヨーカドー綾瀬店",
@@ -2513,7 +2627,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0091",
+    "id": "w-0095",
     "slug": "doutor-coffee-beans-akabane",
     "name": "Doutor Coffee Beans Akabane",
     "nameJa": "ドトールコーヒーショップ ビーンズ赤羽店",
@@ -2541,7 +2655,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0092",
+    "id": "w-0096",
     "slug": "doutor-coffee-kanamachi-kitaguchi",
     "name": "Doutor Coffee Kanamachi Kitaguchi",
     "nameJa": "ドトールコーヒーショップ 金町北口店",
@@ -2569,7 +2683,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0093",
+    "id": "w-0097",
     "slug": "dean-and-deluca-cafe-marunouchi",
     "name": "Dean & Deluca Cafe Marunouchi",
     "nameJa": "ディーン&デルーカ カフェ 丸の内",
@@ -2598,7 +2712,7 @@
     "instagram": "https://www.instagram.com/deandeluca_jp/"
   },
   {
-    "id": "w-0094",
+    "id": "w-0098",
     "slug": "cafe-lexcel-tokyo-international-forum",
     "name": "Cafe Lexcel Tokyo International Forum",
     "nameJa": "カフェ レクセル 東京国際フォーラム店",
@@ -2626,7 +2740,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-marunouchi-workcafe/"
   },
   {
-    "id": "w-0095",
+    "id": "w-0099",
     "slug": "tullys-coffee-and-tea-kitte-marunouchi",
     "name": "Tully's Coffee & TEA KITTE Marunouchi",
     "nameJa": "タリーズコーヒー&TEA KITTE丸の内店",
@@ -2655,7 +2769,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0096",
+    "id": "w-0100",
     "slug": "kaiteki-cafe",
     "name": "Kaiteki Cafe",
     "nameJa": "カイテキカフェ",
@@ -2683,7 +2797,7 @@
     "sourceUrl": "https://mailmate.jp/blog/work-friendly-cafes-with-power-and-free-wifi-in-tokyo"
   },
   {
-    "id": "w-0097",
+    "id": "w-0101",
     "slug": "doutor-coffee-kanda-kita-guchi",
     "name": "Doutor Coffee Kanda Kita-guchi",
     "nameJa": "ドトールコーヒーショップ 神田北口店",
@@ -2712,7 +2826,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0098",
+    "id": "w-0102",
     "slug": "excelsior-cafe-kanda-kita-guchi",
     "name": "Excelsior Cafe Kanda Kita-guchi",
     "nameJa": "エクセルシオール カフェ 神田北口店",
@@ -2741,7 +2855,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0099",
+    "id": "w-0103",
     "slug": "blossom-and-bouquet-akihabara-udx",
     "name": "Blossom & Bouquet Akihabara UDX",
     "nameJa": "ブロッサム&ブーケ 秋葉原UDX店",
@@ -2769,7 +2883,7 @@
     "sourceUrl": "https://goworkship.com/magazine/akihabara-nomad-cafe/"
   },
   {
-    "id": "w-0100",
+    "id": "w-0104",
     "slug": "renoir-akihabara-denki-gai-guchi",
     "name": "Renoir Akihabara Denki-gai-guchi",
     "nameJa": "喫茶室ルノアール 秋葉原電気街口店",
@@ -2798,7 +2912,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0101",
+    "id": "w-0105",
     "slug": "flying-scotsman-akihabara",
     "name": "Flying Scotsman Akihabara",
     "nameJa": "フライング・スコッツマン 秋葉原店",
@@ -2826,7 +2940,7 @@
     "sourceUrl": "https://goworkship.com/magazine/akihabara-nomad-cafe/"
   },
   {
-    "id": "w-0102",
+    "id": "w-0106",
     "slug": "tullys-coffee-jimbocho",
     "name": "Tully's Coffee Jimbocho",
     "nameJa": "タリーズコーヒー 神保町店",
@@ -2855,7 +2969,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0103",
+    "id": "w-0107",
     "slug": "doutor-coffee-jimbocho-ekimae",
     "name": "Doutor Coffee Jimbocho Ekimae",
     "nameJa": "ドトールコーヒーショップ 神保町駅前店",
@@ -2884,7 +2998,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0104",
+    "id": "w-0108",
     "slug": "sakura-cafe-jimbocho",
     "name": "Sakura Cafe Jimbocho",
     "nameJa": "サクラカフェ 神保町",
@@ -2912,7 +3026,7 @@
     "sourceUrl": "https://shodanlab.com/jinbocho/"
   },
   {
-    "id": "w-0105",
+    "id": "w-0109",
     "slug": "onca-coffee",
     "name": "Onca Coffee",
     "address": "Yasuda Sequence Tower 1F, Chiyoda-ku, Tokyo",
@@ -2938,7 +3052,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0106",
+    "id": "w-0110",
     "slug": "think-coffee-jimbocho",
     "name": "Think Coffee Jimbocho",
     "address": "Chiyoda-ku, Tokyo (near Jimbocho/Otemachi, exit A8)",
@@ -2964,7 +3078,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0107",
+    "id": "w-0111",
     "slug": "brooklyn-roasting-company-tokyo-international-forum",
     "name": "Brooklyn Roasting Company Tokyo International Forum",
     "nameJa": "ブルックリン ロースティング カンパニー 東京国際フォーラム店",
@@ -2992,7 +3106,7 @@
     "instagram": "https://www.instagram.com/brooklynroastingjapan/"
   },
   {
-    "id": "w-0108",
+    "id": "w-0112",
     "slug": "excelsior-cafe-ginza-chuo-dori",
     "name": "Excelsior Cafe Ginza Chuo-dori",
     "nameJa": "エクセルシオールカフェ 銀座中央通り店",
@@ -3021,7 +3135,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0109",
+    "id": "w-0113",
     "slug": "starbucks-coffee-circles-ginza",
     "name": "Starbucks Coffee CIRCLES Ginza",
     "nameJa": "スターバックスコーヒー 銀座サークルズ店",
@@ -3050,7 +3164,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0110",
+    "id": "w-0114",
     "slug": "starbucks-coffee-ginza-five",
     "name": "Starbucks Coffee Ginza Five",
     "nameJa": "スターバックスコーヒー 銀座ファイブ店",
@@ -3079,7 +3193,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0111",
+    "id": "w-0115",
     "slug": "metoa-cafe-and-kitchen",
     "name": "METoA Cafe & Kitchen",
     "nameJa": "METoA Cafe & Kitchen",
@@ -3106,7 +3220,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0112",
+    "id": "w-0116",
     "slug": "ginza-book-cafe",
     "name": "Ginza Book Cafe",
     "nameJa": "銀座ブックカフェ",
@@ -3133,7 +3247,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0113",
+    "id": "w-0117",
     "slug": "suzu-cafe-ginza",
     "name": "SUZU CAFE Ginza",
     "nameJa": "SUZU CAFE 銀座",
@@ -3160,7 +3274,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0114",
+    "id": "w-0118",
     "slug": "excelsior-cafe-nihonbashi-1-chome",
     "name": "Excelsior Cafe Nihonbashi 1-chome",
     "nameJa": "エクセルシオールカフェ 日本橋一丁目店",
@@ -3189,7 +3303,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0115",
+    "id": "w-0119",
     "slug": "ueshima-coffee-coredo-nihonbashi",
     "name": "Ueshima Coffee COREDO Nihonbashi",
     "nameJa": "上島珈琲店 COREDO日本橋店",
@@ -3218,7 +3332,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0116",
+    "id": "w-0120",
     "slug": "tullys-coffee-oedo-nihonbashi",
     "name": "Tully's Coffee OEDO Nihonbashi",
     "nameJa": "タリーズコーヒー OEDO日本橋店",
@@ -3247,7 +3361,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0117",
+    "id": "w-0121",
     "slug": "cafe-salvador",
     "name": "Cafe Salvador",
     "nameJa": "カフェ サルヴァドル",
@@ -3275,7 +3389,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0118",
+    "id": "w-0122",
     "slug": "the-coffee-bean-and-tea-leaf-nihonbashi-1-chome",
     "name": "The Coffee Bean & Tea Leaf Nihonbashi 1-chome",
     "nameJa": "コーヒービーン＆ティーリーフ 日本橋一丁目店",
@@ -3303,7 +3417,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0119",
+    "id": "w-0123",
     "slug": "dawn-verbeta-avatar-robot-cafe",
     "name": "DAWN ver.beta Avatar Robot Cafe",
     "nameJa": "分身ロボットカフェ DAWN ver.β",
@@ -3331,7 +3445,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0120",
+    "id": "w-0124",
     "slug": "excelsior-cafe-kyobashi-1-chome",
     "name": "Excelsior Cafe Kyobashi 1-chome",
     "nameJa": "エクセルシオールカフェ 京橋一丁目店",
@@ -3360,7 +3474,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0121",
+    "id": "w-0125",
     "slug": "starbucks-coffee-tsukiji-ekimae",
     "name": "Starbucks Coffee Tsukiji-ekimae",
     "nameJa": "スターバックスコーヒー 築地駅前店",
@@ -3389,7 +3503,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0122",
+    "id": "w-0126",
     "slug": "doutor-coffee-hatchobori",
     "name": "Doutor Coffee Hatchobori",
     "nameJa": "ドトールコーヒーショップ 八丁堀店",
@@ -3418,7 +3532,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0123",
+    "id": "w-0127",
     "slug": "caffice",
     "name": "Caffice",
     "nameJa": "カフィス",
@@ -3446,7 +3560,7 @@
     "sourceUrl": "http://caffice.jp/"
   },
   {
-    "id": "w-0124",
+    "id": "w-0128",
     "slug": "hakadoru-shinjuku-sanchome",
     "name": "HAKADORU Shinjuku-sanchome",
     "nameJa": "HAKADORU 新宿三丁目店",
@@ -3474,7 +3588,7 @@
     "sourceUrl": "https://haka-doru.jp/store/shinjuku"
   },
   {
-    "id": "w-0125",
+    "id": "w-0129",
     "slug": "hakadoru-shibuya-miyamasuzaka",
     "name": "HAKADORU Shibuya Miyamasuzaka",
     "nameJa": "HAKADORU 渋谷宮益坂店",
@@ -3502,7 +3616,7 @@
     "sourceUrl": "https://haka-doru.jp/store/shibuya-miyamasuzaka"
   },
   {
-    "id": "w-0126",
+    "id": "w-0130",
     "slug": "hakadoru-atre-omori",
     "name": "HAKADORU Atre Omori",
     "nameJa": "HAKADORU アトレ大森店",
@@ -3530,7 +3644,7 @@
     "sourceUrl": "https://haka-doru.jp/store/atreomori"
   },
   {
-    "id": "w-0127",
+    "id": "w-0131",
     "slug": "self-cafe-otsuka-ekiminami",
     "name": "Self Cafe Otsuka Ekiminami",
     "nameJa": "セルフカフェ 大塚駅南口店",
@@ -3558,7 +3672,7 @@
     "sourceUrl": "https://selfcafe.jp/"
   },
   {
-    "id": "w-0128",
+    "id": "w-0132",
     "slug": "self-cafe-sugamo-ekiminami",
     "name": "Self Cafe Sugamo Ekiminami",
     "nameJa": "セルフカフェ 巣鴨駅南口店",
@@ -3586,7 +3700,7 @@
     "sourceUrl": "https://selfcafe.jp/"
   },
   {
-    "id": "w-0129",
+    "id": "w-0133",
     "slug": "self-cafe-shibuya-jinnan",
     "name": "Self Cafe Shibuya Jinnan",
     "nameJa": "セルフカフェ 渋谷神南店",
@@ -3614,7 +3728,7 @@
     "sourceUrl": "https://selfcafe.jp/"
   },
   {
-    "id": "w-0130",
+    "id": "w-0134",
     "slug": "self-cafe-shinjuku-nishiguchi",
     "name": "Self Cafe Shinjuku Nishiguchi",
     "nameJa": "セルフカフェ 新宿西口店",
@@ -3642,7 +3756,7 @@
     "sourceUrl": "https://selfcafe.jp/"
   },
   {
-    "id": "w-0131",
+    "id": "w-0135",
     "slug": "self-cafe-waseda",
     "name": "Self Cafe Waseda",
     "nameJa": "セルフカフェ 早稲田店",
@@ -3670,7 +3784,7 @@
     "sourceUrl": "https://selfcafe.jp/"
   },
   {
-    "id": "w-0132",
+    "id": "w-0136",
     "slug": "self-cafe-chitose-karasuyama",
     "name": "Self Cafe Chitose-Karasuyama",
     "nameJa": "セルフカフェ 千歳烏山店",
@@ -3698,7 +3812,7 @@
     "sourceUrl": "https://selfcafe.jp/"
   },
   {
-    "id": "w-0133",
+    "id": "w-0137",
     "slug": "self-cafe-umejima",
     "name": "Self Cafe Umejima",
     "nameJa": "セルフカフェ 梅島店",
@@ -3726,7 +3840,7 @@
     "sourceUrl": "https://selfcafe.jp/"
   },
   {
-    "id": "w-0134",
+    "id": "w-0138",
     "slug": "benkyo-cafe-nihonbashi-kayabacho-studio",
     "name": "Benkyo Cafe Nihonbashi Kayabacho Studio",
     "nameJa": "勉強カフェ 日本橋茅場町スタジオ",
@@ -3754,7 +3868,7 @@
     "sourceUrl": "https://www.benkyo-cafe.net/studio/kayabacho/"
   },
   {
-    "id": "w-0135",
+    "id": "w-0139",
     "slug": "benkyo-cafe-ikebukuro-studio",
     "name": "Benkyo Cafe Ikebukuro Studio",
     "nameJa": "勉強カフェ 池袋スタジオ",
@@ -3782,7 +3896,7 @@
     "sourceUrl": "https://www.benkyo-cafe.net/studio/ikebukuro/"
   },
   {
-    "id": "w-0136",
+    "id": "w-0140",
     "slug": "benkyo-cafe-toranomon-studio",
     "name": "Benkyo Cafe Toranomon Studio",
     "nameJa": "勉強カフェ 虎ノ門スタジオ",
@@ -3810,7 +3924,7 @@
     "sourceUrl": "https://www.benkyo-cafe.net/studio/toranomon/"
   },
   {
-    "id": "w-0137",
+    "id": "w-0141",
     "slug": "ryozan-park-otsuka",
     "name": "RYOZAN PARK Otsuka",
     "nameJa": "リョウザンパーク大塚",
@@ -3838,7 +3952,7 @@
     "sourceUrl": "https://workspace-japan.com/en/detail/ryozanpark/"
   },
   {
-    "id": "w-0138",
+    "id": "w-0142",
     "slug": "tomosuba-tokyo",
     "name": "TOMOSUBA TOKYO",
     "nameJa": "TOMOSUBA TOKYO",
@@ -3866,7 +3980,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-tokyo-workcafe/"
   },
   {
-    "id": "w-0139",
+    "id": "w-0143",
     "slug": "toki-cafe",
     "name": "TOKI CAFE",
     "nameJa": "TOKI CAFE",
@@ -3894,7 +4008,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-tokyo-workcafe/"
   },
   {
-    "id": "w-0140",
+    "id": "w-0144",
     "slug": "grinspace",
     "name": "GrinSpace",
     "nameJa": "グリンスペース",
@@ -3922,7 +4036,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-tokyo-workcafe/"
   },
   {
-    "id": "w-0141",
+    "id": "w-0145",
     "slug": "reboot-cafe-ogikubo",
     "name": "Reboot Cafe Ogikubo",
     "nameJa": "REBOOT CAFE 荻窪",
@@ -3950,7 +4064,7 @@
     "sourceUrl": "https://tabelog.com/en/tokyo/A1319/A131906/13291649/"
   },
   {
-    "id": "w-0142",
+    "id": "w-0146",
     "slug": "share-lounge-ginza-tsutaya-books-ginza-six",
     "name": "SHARE LOUNGE Ginza Tsutaya Books (GINZA SIX)",
     "nameJa": "シェアラウンジ 銀座 蔦屋書店",
@@ -3978,7 +4092,7 @@
     "sourceUrl": "https://www.sharelounge.jp/store/2033"
   },
   {
-    "id": "w-0143",
+    "id": "w-0147",
     "slug": "tullys-coffee-shapo-loco-hirai",
     "name": "Tully's Coffee Shapo Loco Hirai",
     "nameJa": "タリーズコーヒー シャポーロコ平井店",
@@ -4007,7 +4121,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0144",
+    "id": "w-0148",
     "slug": "doutor-coffee-koiwa-south-exit",
     "name": "Doutor Coffee Koiwa South Exit",
     "nameJa": "ドトールコーヒーショップ 小岩駅南口店",
@@ -4036,7 +4150,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0145",
+    "id": "w-0149",
     "slug": "doutor-coffee-shapo-koiwa",
     "name": "Doutor Coffee Shapo Koiwa",
     "nameJa": "ドトールコーヒーショップ シャポー小岩店",
@@ -4065,7 +4179,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0146",
+    "id": "w-0150",
     "slug": "komeda-coffee-kasai-south-exit",
     "name": "Komeda Coffee Kasai South Exit",
     "nameJa": "コメダ珈琲店 葛西南口店",
@@ -4094,7 +4208,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0147",
+    "id": "w-0151",
     "slug": "kohikan-ario-kasai",
     "name": "Kohikan Ario Kasai",
     "nameJa": "珈琲館 アリオ葛西店",
@@ -4122,7 +4236,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0148",
+    "id": "w-0152",
     "slug": "doutor-coffee-nishi-kasai-south-exit",
     "name": "Doutor Coffee Nishi-Kasai South Exit",
     "nameJa": "ドトールコーヒーショップ 西葛西南口店",
@@ -4150,7 +4264,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0149",
+    "id": "w-0153",
     "slug": "doutor-coffee-mizue",
     "name": "Doutor Coffee Mizue",
     "nameJa": "ドトールコーヒーショップ 瑞江店",
@@ -4178,7 +4292,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0150",
+    "id": "w-0154",
     "slug": "the-city-bakery-ginza",
     "name": "THE CITY BAKERY Ginza",
     "nameJa": "ザ・シティ ベーカリー 銀座",
@@ -4209,7 +4323,7 @@
     "instagram": "https://www.instagram.com/citybakery_ginza/"
   },
   {
-    "id": "w-0151",
+    "id": "w-0155",
     "slug": "the-city-bakery-atre-shinagawa",
     "name": "THE CITY BAKERY Atre Shinagawa",
     "nameJa": "ザ・シティ ベーカリー アトレ品川",
@@ -4238,7 +4352,7 @@
     "instagram": "https://www.instagram.com/citybakery_shinagawa/"
   },
   {
-    "id": "w-0152",
+    "id": "w-0156",
     "slug": "dean-and-deluca-cafe-tokyo-midtown-hibiya",
     "name": "DEAN & DELUCA Cafe Tokyo Midtown Hibiya",
     "nameJa": "ディーン&デルーカ カフェ 東京ミッドタウン日比谷",
@@ -4267,7 +4381,7 @@
     "instagram": "https://www.instagram.com/deandeluca_jp/"
   },
   {
-    "id": "w-0154",
+    "id": "w-0158",
     "slug": "dean-and-deluca-cafe-shibuya-stream",
     "name": "DEAN & DELUCA Cafe Shibuya Stream",
     "nameJa": "ディーン&デルーカ カフェ 渋谷ストリーム",
@@ -4296,7 +4410,7 @@
     "instagram": "https://www.instagram.com/deandeluca_jp/"
   },
   {
-    "id": "w-0155",
+    "id": "w-0159",
     "slug": "dean-and-deluca-cafe-tokyo-college-of-music-nakameguro-daikanyama-camp",
     "name": "DEAN & DELUCA Cafe Tokyo College of Music Nakameguro-Daikanyama Campus",
     "nameJa": "ディーン&デルーカ カフェ 東京音楽大学 中目黒・代官山キャンパス",
@@ -4326,7 +4440,7 @@
     "instagram": "https://www.instagram.com/deandeluca_jp/"
   },
   {
-    "id": "w-0156",
+    "id": "w-0160",
     "slug": "sarutahiko-coffee-marunouchi",
     "name": "Sarutahiko Coffee Marunouchi",
     "nameJa": "猿田彦珈琲 丸の内",
@@ -4355,7 +4469,7 @@
     "instagram": "https://www.instagram.com/sarutahikocoffee/"
   },
   {
-    "id": "w-0157",
+    "id": "w-0161",
     "slug": "365-nichi-to-coffee-tamagawa-takashimaya",
     "name": "365 nichi to COFFEE Tamagawa Takashimaya",
     "nameJa": "365日とCOFFEE 玉川髙島屋S・C店",
@@ -4383,7 +4497,7 @@
     "sourceUrl": "https://note.com/blue_lantern/n/n8767fb586fbd"
   },
   {
-    "id": "w-0158",
+    "id": "w-0162",
     "slug": "andcoffee-maison-kayser-tamachi",
     "name": "&COFFEE MAISON KAYSER Tamachi",
     "nameJa": "&COFFEE MAISON KAYSER 田町店",
@@ -4412,7 +4526,7 @@
     "sourceUrl": "https://goworkship.com/magazine/tamachi-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0159",
+    "id": "w-0163",
     "slug": "andcoffee-maison-kayser-otemachi-one",
     "name": "&COFFEE MAISON KAYSER Otemachi One",
     "nameJa": "&COFFEE MAISON KAYSER Otemachi One店",
@@ -4441,7 +4555,7 @@
     "sourceUrl": "https://otemachi-one.com/shopandrestaurant/s_000068.html"
   },
   {
-    "id": "w-0160",
+    "id": "w-0164",
     "slug": "bricolage-bread-and-co",
     "name": "bricolage bread & co.",
     "nameJa": "ブリコラージュ ブレッド アンド カンパニー",
@@ -4471,7 +4585,7 @@
     "instagram": "https://www.instagram.com/bricolage_bread_and_company/"
   },
   {
-    "id": "w-0161",
+    "id": "w-0165",
     "slug": "le-pain-quotidien-shibakoen",
     "name": "Le Pain Quotidien Shibakoen",
     "nameJa": "ル・パン・コティディアン 芝公園店",
@@ -4500,7 +4614,7 @@
     "instagram": "https://www.instagram.com/lpq_japan/"
   },
   {
-    "id": "w-0162",
+    "id": "w-0166",
     "slug": "saint-marc-cafe-ebisu-west-exit",
     "name": "Saint Marc Cafe Ebisu West Exit",
     "nameJa": "サンマルクカフェ 恵比寿西口店",
@@ -4529,7 +4643,7 @@
     "instagram": "https://www.instagram.com/saint_marc_cafe_official/"
   },
   {
-    "id": "w-0164",
+    "id": "w-0168",
     "slug": "kfc-shinjuku-west-exit",
     "name": "KFC Shinjuku West Exit",
     "nameJa": "ケンタッキーフライドチキン 新宿西口店",
@@ -4558,7 +4672,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_6740"
   },
   {
-    "id": "w-0165",
+    "id": "w-0169",
     "slug": "kfc-ikebukuro-west-exit",
     "name": "KFC Ikebukuro West Exit",
     "nameJa": "ケンタッキーフライドチキン 池袋西口店",
@@ -4586,7 +4700,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_6756"
   },
   {
-    "id": "w-0166",
+    "id": "w-0170",
     "slug": "kfc-takadanobaba",
     "name": "KFC Takadanobaba",
     "nameJa": "ケンタッキーフライドチキン 高田馬場店",
@@ -4612,7 +4726,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_6695"
   },
   {
-    "id": "w-0167",
+    "id": "w-0171",
     "slug": "kfc-ebisu-station-mae",
     "name": "KFC Ebisu Station-mae",
     "nameJa": "ケンタッキーフライドチキン 恵比寿駅前店",
@@ -4640,7 +4754,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_7506"
   },
   {
-    "id": "w-0168",
+    "id": "w-0172",
     "slug": "kfc-shibuya-dogenzaka",
     "name": "KFC Shibuya Dogenzaka",
     "nameJa": "ケンタッキーフライドチキン 渋谷道玄坂店",
@@ -4668,7 +4782,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_7568"
   },
   {
-    "id": "w-0169",
+    "id": "w-0173",
     "slug": "kfc-akihabara",
     "name": "KFC Akihabara",
     "nameJa": "ケンタッキーフライドチキン 秋葉原店",
@@ -4696,7 +4810,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_7596"
   },
   {
-    "id": "w-0170",
+    "id": "w-0174",
     "slug": "kfc-shimbashi",
     "name": "KFC Shimbashi",
     "nameJa": "ケンタッキーフライドチキン 新橋店",
@@ -4724,7 +4838,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_7582"
   },
   {
-    "id": "w-0171",
+    "id": "w-0175",
     "slug": "kfc-gotanda",
     "name": "KFC Gotanda",
     "nameJa": "ケンタッキーフライドチキン 五反田店",
@@ -4752,7 +4866,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_7491"
   },
   {
-    "id": "w-0172",
+    "id": "w-0176",
     "slug": "kfc-nihonbashi-ningyocho",
     "name": "KFC Nihonbashi Ningyocho",
     "nameJa": "ケンタッキーフライドチキン 日本橋人形町店",
@@ -4780,7 +4894,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/kfc_4309"
   },
   {
-    "id": "w-0173",
+    "id": "w-0177",
     "slug": "kfc-denenchofu",
     "name": "KFC Denenchofu",
     "nameJa": "ケンタッキーフライドチキン 田園調布店",
@@ -4808,7 +4922,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_6686"
   },
   {
-    "id": "w-0174",
+    "id": "w-0178",
     "slug": "kfc-keio-sasazuka",
     "name": "KFC Keio Sasazuka",
     "nameJa": "ケンタッキーフライドチキン 京王笹塚店",
@@ -4834,7 +4948,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/kfc_4353"
   },
   {
-    "id": "w-0175",
+    "id": "w-0179",
     "slug": "kfc-asakusa",
     "name": "KFC Asakusa",
     "nameJa": "ケンタッキーフライドチキン 浅草店",
@@ -4862,7 +4976,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_6720"
   },
   {
-    "id": "w-0176",
+    "id": "w-0180",
     "slug": "jonathans-shinjuku-nishiguchi-ogado",
     "name": "Jonathan's Shinjuku Nishiguchi Ogado",
     "nameJa": "ジョナサン 新宿西口大ガード店",
@@ -4890,7 +5004,7 @@
     "sourceUrl": "https://store-info.skylark.co.jp/jonathan/map/020500/"
   },
   {
-    "id": "w-0177",
+    "id": "w-0181",
     "slug": "gusto-shinjuku-yasukuni-dori",
     "name": "Gusto Shinjuku Yasukuni-dori",
     "nameJa": "ガスト 新宿靖国通店",
@@ -4918,7 +5032,7 @@
     "sourceUrl": "https://store-info.skylark.co.jp/gusto/map/018933/"
   },
   {
-    "id": "w-0178",
+    "id": "w-0182",
     "slug": "coffee-kizoku-edinburgh",
     "name": "Coffee Kizoku Edinburgh",
     "nameJa": "珈琲貴族エジンバラ",
@@ -4946,7 +5060,7 @@
     "sourceUrl": "https://edinburgh.jp/"
   },
   {
-    "id": "w-0179",
+    "id": "w-0183",
     "slug": "dennys-shinjuku-chuo-koen",
     "name": "Denny's Shinjuku Chuo Koen",
     "nameJa": "デニーズ 新宿中央公園店",
@@ -4974,7 +5088,7 @@
     "sourceUrl": "https://shop.dennys.jp/map/2669/"
   },
   {
-    "id": "w-0180",
+    "id": "w-0184",
     "slug": "mcdonalds-higashi-shinjuku-station",
     "name": "McDonald's Higashi-Shinjuku Station",
     "nameJa": "マクドナルド 東新宿駅前店",
@@ -5002,7 +5116,7 @@
     "sourceUrl": "https://www.mapple.net/original/466918/"
   },
   {
-    "id": "w-0181",
+    "id": "w-0185",
     "slug": "jonathans-shibuya-shin-minamiguchi",
     "name": "Jonathan's Shibuya Shin-Minamiguchi",
     "nameJa": "ジョナサン 渋谷駅新南口店",
@@ -5030,7 +5144,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/skylark_020389"
   },
   {
-    "id": "w-0182",
+    "id": "w-0186",
     "slug": "gusto-shibuya-udagawacho",
     "name": "Gusto Shibuya Udagawacho",
     "nameJa": "ガスト 渋谷宇田川町店",
@@ -5058,7 +5172,7 @@
     "sourceUrl": "https://store-info.skylark.co.jp/gusto/map/017883/"
   },
   {
-    "id": "w-0183",
+    "id": "w-0187",
     "slug": "hailey5-cafe-shibuya",
     "name": "Hailey'5 Cafe Shibuya",
     "nameJa": "Hailey'5 Cafe 渋谷店",
@@ -5086,7 +5200,7 @@
     "sourceUrl": "https://blog.gaijinpot.com/the-best-24-hour-coffee-shops-and-internet-cafes-in-tokyo/"
   },
   {
-    "id": "w-0184",
+    "id": "w-0188",
     "slug": "saizeriya-shibuya-tokyu-hands-mae",
     "name": "Saizeriya Shibuya Tokyu Hands-mae",
     "nameJa": "サイゼリヤ 渋谷東急ハンズ前店",
@@ -5114,7 +5228,7 @@
     "sourceUrl": "https://local-street.tokyo/shibuya-24-hour-cafe-family-restaurant/"
   },
   {
-    "id": "w-0185",
+    "id": "w-0189",
     "slug": "bamiyan-jingumae",
     "name": "Bamiyan Jingumae",
     "nameJa": "バーミヤン 神宮前店",
@@ -5142,7 +5256,7 @@
     "sourceUrl": "https://local-street.tokyo/shibuya-24-hour-cafe-family-restaurant/"
   },
   {
-    "id": "w-0187",
+    "id": "w-0191",
     "slug": "dennys-higashi-ginza",
     "name": "Denny's Higashi-Ginza",
     "nameJa": "デニーズ 東銀座店",
@@ -5170,7 +5284,7 @@
     "sourceUrl": "https://machishiru.jp/ginza-famiresu/"
   },
   {
-    "id": "w-0188",
+    "id": "w-0192",
     "slug": "gusto-ikebukuro-nishiguchi",
     "name": "Gusto Ikebukuro Nishiguchi",
     "nameJa": "ガスト 池袋西口店",
@@ -5198,7 +5312,7 @@
     "sourceUrl": "https://store-info.skylark.co.jp/gusto/map/017885/"
   },
   {
-    "id": "w-0189",
+    "id": "w-0193",
     "slug": "tsubakiya-coffee-ikebukuro-charyo",
     "name": "Tsubakiya Coffee Ikebukuro Charyo",
     "nameJa": "椿屋珈琲 池袋茶寮",
@@ -5226,7 +5340,7 @@
     "sourceUrl": "https://local-street.tokyo/open-24-hours-in-ikebukuro/"
   },
   {
-    "id": "w-0190",
+    "id": "w-0194",
     "slug": "saizeriya-ikebukuro-60-kaidori",
     "name": "Saizeriya Ikebukuro 60-kaidori",
     "nameJa": "サイゼリヤ 池袋東口60階通り店",
@@ -5254,7 +5368,7 @@
     "sourceUrl": "https://local-street.tokyo/open-24-hours-in-ikebukuro/"
   },
   {
-    "id": "w-0191",
+    "id": "w-0195",
     "slug": "gusto-mita-keio-daigakumae",
     "name": "Gusto Mita Keio Daigakumae",
     "nameJa": "ガスト 三田慶応大学前店",
@@ -5282,7 +5396,7 @@
     "sourceUrl": "https://store-info.skylark.co.jp/gusto/map/017886/"
   },
   {
-    "id": "w-0192",
+    "id": "w-0196",
     "slug": "kaikatsu-club-shinjuku-kabukicho",
     "name": "Kaikatsu Club Shinjuku Kabukicho",
     "nameJa": "快活CLUB 新宿歌舞伎町店",
@@ -5310,7 +5424,7 @@
     "sourceUrl": "https://ekimaemap.com/shinjuku/%E5%BF%AB%E6%B4%BBclub-%E6%96%B0%E5%AE%BF%E6%AD%8C%E8%88%9E%E4%BC%8E%E7%94%BA%E5%BA%97/"
   },
   {
-    "id": "w-0193",
+    "id": "w-0197",
     "slug": "kaikatsu-club-shibuya-center-gai",
     "name": "Kaikatsu Club Shibuya Center-gai",
     "nameJa": "快活CLUB 渋谷センター街店",
@@ -5338,7 +5452,7 @@
     "sourceUrl": "https://www.kaikatsu.jp/shop/detail/20949.html"
   },
   {
-    "id": "w-0194",
+    "id": "w-0198",
     "slug": "kaikatsu-club-ikebukuro-east-exit-ekimae",
     "name": "Kaikatsu Club Ikebukuro East Exit Ekimae",
     "nameJa": "快活CLUB 池袋東口駅前店",
@@ -5366,7 +5480,7 @@
     "sourceUrl": "https://www.kaikatsu.jp/shop/detail/20312.html"
   },
   {
-    "id": "w-0195",
+    "id": "w-0199",
     "slug": "kaikatsu-club-akihabara-ekimae",
     "name": "Kaikatsu Club Akihabara Ekimae",
     "nameJa": "快活CLUB 秋葉原駅前店",
@@ -5394,7 +5508,7 @@
     "sourceUrl": "https://www.kaikatsu.jp/shop/detail/20315.html"
   },
   {
-    "id": "w-0196",
+    "id": "w-0200",
     "slug": "gran-cyber-cafe-bagus-shinjuku",
     "name": "Gran Cyber Cafe Bagus Shinjuku",
     "nameJa": "グランサイバーカフェ バグース 新宿店",
@@ -5422,7 +5536,7 @@
     "sourceUrl": "https://japan-dev.com/blog/internet-cafe-tokyo-for-work-remotely"
   },
   {
-    "id": "w-0197",
+    "id": "w-0201",
     "slug": "gran-cyber-cafe-bagus-shibuya-bunkamura-dori",
     "name": "Gran Cyber Cafe Bagus Shibuya Bunkamura-dori",
     "nameJa": "グランサイバーカフェ バグース 渋谷文化村通り店",
@@ -5450,7 +5564,7 @@
     "sourceUrl": "https://www.tablecheck.com/en/grancybercafe-bagus-shibuyabunkamura"
   },
   {
-    "id": "w-0198",
+    "id": "w-0202",
     "slug": "jiyu-kukan-next-ikebukuro-west-exit-rosa",
     "name": "Jiyu Kukan NEXT Ikebukuro West Exit ROSA",
     "nameJa": "自遊空間 NEXT池袋西口ROSA店",
@@ -5478,7 +5592,7 @@
     "sourceUrl": "https://www.hotpepper.jp/strJ001100539/"
   },
   {
-    "id": "w-0199",
+    "id": "w-0203",
     "slug": "manboo-plus-shibuya-center-gai",
     "name": "Manboo Plus Shibuya Center-gai",
     "nameJa": "マンボープラス 渋谷センター街店",
@@ -5506,7 +5620,7 @@
     "sourceUrl": "https://manboo.co.jp/stores/plus_shibuya.php"
   },
   {
-    "id": "w-0200",
+    "id": "w-0204",
     "slug": "manboo-net-room-shinjuku-main-store",
     "name": "Manboo Net Room Shinjuku Main Store",
     "nameJa": "ネットルーム マンボー 新宿総本店",
@@ -5534,7 +5648,7 @@
     "sourceUrl": "https://manboo.co.jp/stores/nr_sohon.php"
   },
   {
-    "id": "w-0201",
+    "id": "w-0205",
     "slug": "customa-cafe-kabukicho",
     "name": "Customa Cafe Kabukicho",
     "nameJa": "カスタマカフェ 歌舞伎町店",
@@ -5562,7 +5676,7 @@
     "sourceUrl": "https://rakutama.com/shop/kabukicho.html"
   },
   {
-    "id": "w-0202",
+    "id": "w-0206",
     "slug": "customa-cafe-ueno",
     "name": "Customa Cafe Ueno",
     "nameJa": "カスタマカフェ 上野店",
@@ -5590,7 +5704,7 @@
     "sourceUrl": "https://rakutama.com/shop/ueno.html"
   },
   {
-    "id": "w-0203",
+    "id": "w-0207",
     "slug": "dice-shibuya-chitose-kaikan",
     "name": "DiCE Shibuya Chitose Kaikan",
     "nameJa": "DiCE 渋谷ちとせ会館店",
@@ -5618,7 +5732,7 @@
     "sourceUrl": "https://www.diskcity.co.jp/shop/shibuya/equipment.php"
   },
   {
-    "id": "w-0204",
+    "id": "w-0208",
     "slug": "dice-ikebukuro",
     "name": "DiCE Ikebukuro",
     "nameJa": "DiCE 池袋店",
@@ -5646,7 +5760,7 @@
     "sourceUrl": "https://www.hotpepper.jp/strJ000765406/"
   },
   {
-    "id": "w-0206",
+    "id": "w-0210",
     "slug": "aprecio-shinjuku-hygeia",
     "name": "Aprecio Shinjuku Hygeia",
     "nameJa": "アプレシオ 新宿ハイジア店",
@@ -5674,7 +5788,7 @@
     "sourceUrl": "https://aprecio.co.jp/shop/shinjuku/serviceguide"
   },
   {
-    "id": "w-0207",
+    "id": "w-0211",
     "slug": "mcdonalds-roppongi-hills",
     "name": "McDonald's Roppongi Hills",
     "nameJa": "マクドナルド 六本木ヒルズ店",
@@ -5702,7 +5816,7 @@
     "sourceUrl": "https://map.mcdonalds.co.jp/map/13922"
   },
   {
-    "id": "w-0208",
+    "id": "w-0212",
     "slug": "mcdonalds-ueno-okachimachi",
     "name": "McDonald's Ueno-Okachimachi",
     "nameJa": "マクドナルド 上野御徒町店",
@@ -5730,7 +5844,7 @@
     "sourceUrl": "https://map.mcdonalds.co.jp/map/13958"
   },
   {
-    "id": "w-0209",
+    "id": "w-0213",
     "slug": "mcdonalds-ikebukuro-east-exit",
     "name": "McDonald's Ikebukuro East Exit",
     "nameJa": "マクドナルド 池袋東口店",
@@ -5758,7 +5872,7 @@
     "sourceUrl": "https://map.mcdonalds.co.jp/map/13101"
   },
   {
-    "id": "w-0210",
+    "id": "w-0214",
     "slug": "coffee-aristocrat-edinburgh",
     "name": "Coffee Aristocrat Edinburgh",
     "nameJa": "珈琲貴族エジンバラ",
@@ -5786,7 +5900,7 @@
     "sourceUrl": "https://edinburgh.jp/shop/"
   },
   {
-    "id": "w-0211",
+    "id": "w-0215",
     "slug": "share-lounge-marunouchi-tsutaya-books",
     "name": "SHARE LOUNGE Marunouchi Tsutaya Books",
     "nameJa": "SHARE LOUNGE 丸の内 蔦屋書店",
@@ -5814,7 +5928,7 @@
     "sourceUrl": "https://foodsaketokyo.com/2023/02/25/marunouchi-tsutaya-share-lounge/"
   },
   {
-    "id": "w-0212",
+    "id": "w-0216",
     "slug": "jimbocho-book-center",
     "name": "Jimbocho Book Center",
     "nameJa": "神保町ブックセンター",
@@ -5842,7 +5956,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/jimbochobook"
   },
   {
-    "id": "w-0213",
+    "id": "w-0217",
     "slug": "5-crossties-coffee-gransta-tokyo",
     "name": "5 Crossties Coffee Gransta Tokyo",
     "nameJa": "5 クロスティーズコーヒー グランスタ東京",
@@ -5870,7 +5984,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/CROSSTIES_COFFEE_GRANSTA"
   },
   {
-    "id": "w-0214",
+    "id": "w-0218",
     "slug": "bottos-ochanomizu",
     "name": "Bottos Ochanomizu",
     "nameJa": "没頭作業カフェ BOTTOS 御茶ノ水駅前店",
@@ -5898,7 +6012,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ochanomizu-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0215",
+    "id": "w-0219",
     "slug": "awajizaka-coffee-ochanomizu",
     "name": "Awajizaka Coffee Ochanomizu",
     "nameJa": "淡路坂珈琲 お茶の水店",
@@ -5926,7 +6040,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ochanomizu-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0216",
+    "id": "w-0220",
     "slug": "cafe-ohana",
     "name": "Cafe Ohana",
     "nameJa": "カフェ オハナ",
@@ -5954,7 +6068,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0217",
+    "id": "w-0221",
     "slug": "knag",
     "name": "KNAG",
     "nameJa": "KNAG",
@@ -5982,7 +6096,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
   },
   {
-    "id": "w-0218",
+    "id": "w-0222",
     "slug": "cafe-and-bar-moutiers",
     "name": "Cafe & Bar Moutiers",
     "nameJa": "カフェ&バー ムーティエ",
@@ -6010,7 +6124,7 @@
     "sourceUrl": "https://tabelog.com/matome/21109/"
   },
   {
-    "id": "w-0219",
+    "id": "w-0223",
     "slug": "share-lounge-roppongi-tsutaya-books",
     "name": "SHARE LOUNGE Roppongi Tsutaya Books",
     "nameJa": "SHARE LOUNGE 六本木 蔦屋書店",
@@ -6038,7 +6152,7 @@
     "sourceUrl": "https://prtimes.jp/main/html/rd/p/000001412.000018760.html"
   },
   {
-    "id": "w-0220",
+    "id": "w-0224",
     "slug": "cafeteria-s-omotesando",
     "name": "Cafeteria S Omotesando",
     "nameJa": "カフェテリア S 表参道",
@@ -6066,7 +6180,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
   },
   {
-    "id": "w-0221",
+    "id": "w-0225",
     "slug": "eric-rose",
     "name": "Eric Rose",
     "nameJa": "エリックローズ",
@@ -6094,7 +6208,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
   },
   {
-    "id": "w-0222",
+    "id": "w-0226",
     "slug": "kohii-chakan-shu-roppongi",
     "name": "Kohii Chakan Shu Roppongi",
     "nameJa": "珈琲茶館 集 六本木店",
@@ -6122,7 +6236,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
   },
   {
-    "id": "w-0223",
+    "id": "w-0227",
     "slug": "share-lounge-shibuya-scramble-square",
     "name": "SHARE LOUNGE Shibuya Scramble Square",
     "nameJa": "SHARE LOUNGE 渋谷スクランブルスクエア",
@@ -6150,7 +6264,7 @@
     "sourceUrl": "https://tripmate.news/posts/shibuya-tsutaya-share-lounge-guide/"
   },
   {
-    "id": "w-0224",
+    "id": "w-0228",
     "slug": "share-lounge-daikanyama-tsutaya-books",
     "name": "SHARE LOUNGE Daikanyama Tsutaya Books",
     "nameJa": "SHARE LOUNGE 代官山 蔦屋書店",
@@ -6178,7 +6292,7 @@
     "sourceUrl": "https://tabelog.com/en/tokyo/A1303/A130303/13268113/"
   },
   {
-    "id": "w-0225",
+    "id": "w-0229",
     "slug": "cha-cafe-do",
     "name": "Cha Cafe Do",
     "nameJa": "茶珈堂",
@@ -6206,7 +6320,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
   },
   {
-    "id": "w-0226",
+    "id": "w-0230",
     "slug": "niko-and-tokyo",
     "name": "niko and ... TOKYO",
     "nameJa": "niko and ... TOKYO",
@@ -6235,7 +6349,7 @@
     "instagram": "https://www.instagram.com/nikoandtokyo/"
   },
   {
-    "id": "w-0227",
+    "id": "w-0231",
     "slug": "cozy-style-coffee",
     "name": "Cozy Style Coffee",
     "nameJa": "コージースタイルコーヒー",
@@ -6263,7 +6377,7 @@
     "sourceUrl": "https://cotoacademy.com/best-study-cafes-shinjuku/"
   },
   {
-    "id": "w-0228",
+    "id": "w-0232",
     "slug": "medicafe-ochanomizu",
     "name": "Medicafe Ochanomizu",
     "nameJa": "メディカフェ",
@@ -6291,7 +6405,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ochanomizu-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0229",
+    "id": "w-0233",
     "slug": "share-lounge-ikebukuro-it-tower-tokyo",
     "name": "SHARE LOUNGE Ikebukuro IT tower TOKYO",
     "nameJa": "SHARE LOUNGE 池袋 IT tower TOKYO",
@@ -6319,7 +6433,7 @@
     "sourceUrl": "https://www.ccc.co.jp/news/press/20260313_008579.html"
   },
   {
-    "id": "w-0230",
+    "id": "w-0234",
     "slug": "jikabaisen-coffee-kurami",
     "name": "Jikabaisen Coffee Kurami",
     "nameJa": "自家焙煎珈琲 蔵味",
@@ -6347,7 +6461,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0231",
+    "id": "w-0235",
     "slug": "a-bridge-sangenjaya",
     "name": "a-bridge Sangenjaya",
     "nameJa": "エーブリッジ 三軒茶屋店",
@@ -6375,7 +6489,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0232",
+    "id": "w-0236",
     "slug": "jam-cafe",
     "name": "jam cafe",
     "nameJa": "ジャムカフェ",
@@ -6403,7 +6517,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0233",
+    "id": "w-0237",
     "slug": "portland-cafe-and-market",
     "name": "PORTLAND CAFE and MARKET",
     "nameJa": "ポートランドカフェアンドマーケット",
@@ -6431,7 +6545,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0234",
+    "id": "w-0238",
     "slug": "ojizo-coffee",
     "name": "OJIZO COFFEE",
     "nameJa": "オジゾコーヒー",
@@ -6459,7 +6573,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0235",
+    "id": "w-0239",
     "slug": "mano-a-mano-coffee",
     "name": "Mano A Mano Coffee",
     "nameJa": "マノアマノコーヒー",
@@ -6487,7 +6601,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0236",
+    "id": "w-0240",
     "slug": "cafe-and-bar-poco",
     "name": "CAFE and BAR poco",
     "nameJa": "カフェアンドバー ポコ",
@@ -6515,7 +6629,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0237",
+    "id": "w-0241",
     "slug": "cross-point",
     "name": "CROSS POINT",
     "nameJa": "クロスポイント",
@@ -6543,7 +6657,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0238",
+    "id": "w-0242",
     "slug": "cafe-nota-nova-nakano",
     "name": "Cafe nota nova Nakano",
     "nameJa": "カフェ ノタ ノヴァ 中野店",
@@ -6571,7 +6685,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0239",
+    "id": "w-0243",
     "slug": "crochet-cafe",
     "name": "Crochet Cafe",
     "nameJa": "クロシェットカフェ",
@@ -6599,7 +6713,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0240",
+    "id": "w-0244",
     "slug": "a-license",
     "name": "A License",
     "nameJa": "Aライセンス",
@@ -6627,7 +6741,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0241",
+    "id": "w-0245",
     "slug": "cafe-radio-plant",
     "name": "CAFE RADIO PLANT",
     "nameJa": "カフェ レディオプラント",
@@ -6655,7 +6769,7 @@
     "sourceUrl": "https://yutolog.com/radio-plant-cafe"
   },
   {
-    "id": "w-0242",
+    "id": "w-0246",
     "slug": "factory-and-labo-kanno-coffee",
     "name": "Factory & Labo Kanno Coffee",
     "nameJa": "Factory & Labo 神乃珈琲",
@@ -6683,7 +6797,7 @@
     "sourceUrl": "https://number333.org/2018/11/03/kanno-coffee/"
   },
   {
-    "id": "w-0243",
+    "id": "w-0247",
     "slug": "the-workers-coffeebar",
     "name": "The Workers Coffee/Bar",
     "nameJa": "ザ ワーカーズ コーヒー/バー",
@@ -6711,7 +6825,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0244",
+    "id": "w-0248",
     "slug": "streamer-coffee-company-nakameguro",
     "name": "Streamer Coffee Company Nakameguro",
     "nameJa": "ストリーマーコーヒーカンパニー 中目黒",
@@ -6740,7 +6854,7 @@
     "instagram": "https://www.instagram.com/streamercoffeecompany/"
   },
   {
-    "id": "w-0245",
+    "id": "w-0249",
     "slug": "cafe-and-dining-ichi-no-saka",
     "name": "Cafe & Dining ICHI no SAKA",
     "nameJa": "カフェ&ダイニング イチノサカ",
@@ -6768,7 +6882,7 @@
     "sourceUrl": "https://rtrp.jp/articles/112157/"
   },
   {
-    "id": "w-0246",
+    "id": "w-0250",
     "slug": "cafe-ig",
     "name": "cafe ig",
     "nameJa": "カフェ アイジー",
@@ -6796,7 +6910,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/"
   },
   {
-    "id": "w-0247",
+    "id": "w-0251",
     "slug": "grain-coffee-roaster-kanhachi-kamata",
     "name": "GRAIN COFFEE ROASTER Kanhachi Kamata",
     "nameJa": "グレインコーヒーロースター 環八蒲田店",
@@ -6824,7 +6938,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kamata-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0248",
+    "id": "w-0252",
     "slug": "kamata-cafe",
     "name": "Kamata Cafe",
     "nameJa": "蒲田カフェ",
@@ -6852,7 +6966,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/"
   },
   {
-    "id": "w-0249",
+    "id": "w-0253",
     "slug": "gusto-shibuya-ekimae",
     "name": "Gusto Shibuya Ekimae",
     "nameJa": "ガスト 渋谷駅前店",
@@ -6880,7 +6994,7 @@
     "sourceUrl": "https://chisou-media.jp/posts/9042"
   },
   {
-    "id": "w-0250",
+    "id": "w-0254",
     "slug": "gusto-shibuya-dogenzaka",
     "name": "Gusto Shibuya Dogenzaka",
     "nameJa": "ガスト 渋谷道玄坂店",
@@ -6908,7 +7022,7 @@
     "sourceUrl": "https://chisou-media.jp/posts/9042"
   },
   {
-    "id": "w-0251",
+    "id": "w-0255",
     "slug": "gusto-shibuya-koendori",
     "name": "Gusto Shibuya Koendori",
     "nameJa": "ガスト 渋谷公園通店",
@@ -6936,7 +7050,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/gusto_017889"
   },
   {
-    "id": "w-0252",
+    "id": "w-0256",
     "slug": "gusto-meguro-ekimae-higashiguchi",
     "name": "Gusto Meguro Ekimae Higashiguchi",
     "nameJa": "ガスト 目黒駅東口店",
@@ -6964,7 +7078,7 @@
     "sourceUrl": "https://chisou-media.jp/posts/9042"
   },
   {
-    "id": "w-0253",
+    "id": "w-0257",
     "slug": "gusto-akihabara-ekimae",
     "name": "Gusto Akihabara Ekimae",
     "nameJa": "ガスト 秋葉原駅前店",
@@ -6992,7 +7106,7 @@
     "sourceUrl": "https://chisou-media.jp/posts/9042"
   },
   {
-    "id": "w-0254",
+    "id": "w-0258",
     "slug": "gusto-kayabacho-ekimae",
     "name": "Gusto Kayabacho Ekimae",
     "nameJa": "ガスト 茅場町駅前店",
@@ -7020,7 +7134,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/skylark_017729"
   },
   {
-    "id": "w-0255",
+    "id": "w-0259",
     "slug": "gusto-ogikubo-minamiguchi",
     "name": "Gusto Ogikubo Minamiguchi",
     "nameJa": "ガスト 荻窪南口店",
@@ -7048,7 +7162,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/skylark_017954"
   },
   {
-    "id": "w-0256",
+    "id": "w-0260",
     "slug": "gusto-meguro-fudomae",
     "name": "Gusto Meguro Fudomae",
     "nameJa": "ガスト 目黒不動前店",
@@ -7076,7 +7190,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/jonathan_020261"
   },
   {
-    "id": "w-0257",
+    "id": "w-0261",
     "slug": "gusto-tobu-nerima-ekimae",
     "name": "Gusto Tobu-Nerima Ekimae",
     "nameJa": "ガスト 東武練馬駅前店",
@@ -7104,7 +7218,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/skylark_017881"
   },
   {
-    "id": "w-0258",
+    "id": "w-0262",
     "slug": "gusto-setagaya-daita",
     "name": "Gusto Setagaya-Daita",
     "nameJa": "ガスト 世田谷代田店",
@@ -7132,7 +7246,7 @@
     "sourceUrl": "https://www.mapion.co.jp/phonebook/M16201/13112/0000085513_100oa/"
   },
   {
-    "id": "w-0259",
+    "id": "w-0263",
     "slug": "jonathans-akihabara-ekimae",
     "name": "Jonathan's Akihabara Ekimae",
     "nameJa": "ジョナサン 秋葉原駅前店",
@@ -7160,7 +7274,7 @@
     "sourceUrl": "https://store-info.skylark.co.jp/jonathan/map/020522/"
   },
   {
-    "id": "w-0260",
+    "id": "w-0264",
     "slug": "jonathans-shibuya-shinnan-guchi",
     "name": "Jonathan's Shibuya Shinnan-guchi",
     "nameJa": "ジョナサン 渋谷駅新南口店",
@@ -7188,7 +7302,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/skylark_020389"
   },
   {
-    "id": "w-0261",
+    "id": "w-0265",
     "slug": "jonathans-nishi-shinjuku",
     "name": "Jonathan's Nishi-Shinjuku",
     "nameJa": "ジョナサン 西新宿店",
@@ -7216,7 +7330,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/skylark_020280"
   },
   {
-    "id": "w-0262",
+    "id": "w-0266",
     "slug": "jonathans-sangenjaya",
     "name": "Jonathan's Sangenjaya",
     "nameJa": "ジョナサン 三軒茶屋店",
@@ -7244,7 +7358,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/skylark_020502"
   },
   {
-    "id": "w-0263",
+    "id": "w-0267",
     "slug": "dennys-koenji-ekimae",
     "name": "Denny's Koenji Ekimae",
     "nameJa": "デニーズ 高円寺駅前店",
@@ -7272,7 +7386,7 @@
     "sourceUrl": "https://www.dennys.jp/service/charge/"
   },
   {
-    "id": "w-0264",
+    "id": "w-0268",
     "slug": "dennys-sangenjaya",
     "name": "Denny's Sangenjaya",
     "nameJa": "デニーズ 三軒茶屋店",
@@ -7300,7 +7414,7 @@
     "sourceUrl": "https://sanchaba.tokyo/life/wifi-dengen-matome/"
   },
   {
-    "id": "w-0265",
+    "id": "w-0269",
     "slug": "bamiyan-higashi-nakano",
     "name": "Bamiyan Higashi-Nakano",
     "nameJa": "バーミヤン 東中野店",
@@ -7328,7 +7442,7 @@
     "sourceUrl": "https://store-info.skylark.co.jp/bamiyan/map/171604/"
   },
   {
-    "id": "w-0266",
+    "id": "w-0270",
     "slug": "lotteria-ikebukuro-east-exit",
     "name": "Lotteria Ikebukuro East Exit",
     "nameJa": "ロッテリア 池袋東口店",
@@ -7356,7 +7470,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_8450"
   },
   {
-    "id": "w-0267",
+    "id": "w-0271",
     "slug": "freshness-burger-seijo-gakuen-mae",
     "name": "Freshness Burger Seijo Gakuen-mae",
     "nameJa": "フレッシュネスバーガー成城学園前店",
@@ -7384,7 +7498,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/Freshnessburger_196"
   },
   {
-    "id": "w-0268",
+    "id": "w-0272",
     "slug": "freshness-burger-oizumi-gakuen",
     "name": "Freshness Burger Oizumi Gakuen",
     "nameJa": "フレッシュネスバーガー大泉学園店",
@@ -7412,7 +7526,7 @@
     "sourceUrl": "https://oharadesu.com/freshnessburger"
   },
   {
-    "id": "w-0269",
+    "id": "w-0273",
     "slug": "burger-king-asakusabashi-east-exit",
     "name": "Burger King Asakusabashi East Exit",
     "nameJa": "バーガーキング 浅草橋東口駅前店",
@@ -7440,7 +7554,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/BurgerKinginAsakusabasiHigashi"
   },
   {
-    "id": "w-0270",
+    "id": "w-0274",
     "slug": "burger-king-kinshicho-north-exit",
     "name": "Burger King Kinshicho North Exit",
     "nameJa": "バーガーキング 錦糸町北口店",
@@ -7468,7 +7582,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_40790"
   },
   {
-    "id": "w-0273",
+    "id": "w-0277",
     "slug": "mos-burger-iidabashi-east",
     "name": "Mos Burger Iidabashi East",
     "nameJa": "モスバーガー飯田橋東店",
@@ -7496,7 +7610,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_4722"
   },
   {
-    "id": "w-0274",
+    "id": "w-0278",
     "slug": "mos-burger-osaki",
     "name": "Mos Burger Osaki",
     "nameJa": "モスバーガー大崎店",
@@ -7524,7 +7638,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_4410"
   },
   {
-    "id": "w-0275",
+    "id": "w-0279",
     "slug": "mos-burger-yotsuya-4-chome",
     "name": "Mos Burger Yotsuya 4-chome",
     "nameJa": "モスバーガー四谷四丁目店",
@@ -7552,7 +7666,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_4816"
   },
   {
-    "id": "w-0276",
+    "id": "w-0280",
     "slug": "mos-burger-monzen-nakacho",
     "name": "Mos Burger Monzen-Nakacho",
     "nameJa": "モスバーガー門前仲町店",
@@ -7580,7 +7694,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_4597"
   },
   {
-    "id": "w-0277",
+    "id": "w-0281",
     "slug": "mos-burger-shibuya-maruyamacho",
     "name": "Mos Burger Shibuya Maruyamacho",
     "nameJa": "モスバーガー渋谷円山町店",
@@ -7608,7 +7722,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/spot_mos_shibuya_maruyamacho"
   },
   {
-    "id": "w-0278",
+    "id": "w-0282",
     "slug": "mos-burger-nakano-fujimicho",
     "name": "Mos Burger Nakano Fujimicho",
     "nameJa": "モスバーガー中野富士見町店",
@@ -7632,11 +7746,11 @@
     "openLate": true,
     "description": "A roadside Mos Burger near Nakano-fujimicho with free Wi-Fi and a few power outlets by the single non-smoking seats, open late into the night.",
     "lastChecked": "2026-08-01",
-    "confidence": "low",
+    "confidence": "medium",
     "sourceUrl": "https://oasis.mogya.com/spot/entry_3877"
   },
   {
-    "id": "w-0279",
+    "id": "w-0283",
     "slug": "burger-king-ochanomizu-sunclair",
     "name": "Burger King Ochanomizu Sunclair",
     "nameJa": "バーガーキング お茶の水サンクレール店",
@@ -7664,7 +7778,7 @@
     "sourceUrl": "https://search-maps.com/charge_wifi/stores/16eea717c24/"
   },
   {
-    "id": "w-0280",
+    "id": "w-0284",
     "slug": "wendys-first-kitchen-shibuya-miyamasuzaka",
     "name": "Wendy's First Kitchen Shibuya Miyamasuzaka",
     "nameJa": "ファーストキッチン・ウェンディーズ 渋谷宮益坂店",
@@ -7692,7 +7806,7 @@
     "sourceUrl": "https://oasis.mogya.com/spot/entry_7998"
   },
   {
-    "id": "w-0281",
+    "id": "w-0285",
     "slug": "tokyo-marriott-hotel-lounge-and-dining-g",
     "name": "Tokyo Marriott Hotel - Lounge & Dining G",
     "nameJa": "東京マリオットホテル ラウンジ&ダイニング G",
@@ -7720,7 +7834,7 @@
     "sourceUrl": "https://www.leon.jp/staytravel/5949"
   },
   {
-    "id": "w-0282",
+    "id": "w-0286",
     "slug": "grand-hyatt-tokyo-french-kitchen",
     "name": "Grand Hyatt Tokyo - French Kitchen",
     "nameJa": "グランド ハイアット 東京 フレンチ キッチン",
@@ -7748,7 +7862,7 @@
     "sourceUrl": "https://www.leon.jp/staytravel/5949"
   },
   {
-    "id": "w-0283",
+    "id": "w-0287",
     "slug": "andaz-tokyo-tavern-lounge-and-bar",
     "name": "Andaz Tokyo - Tavern Lounge & Bar",
     "nameJa": "アンダーズ 東京 ザ タヴァン ラウンジ&バー",
@@ -7776,7 +7890,7 @@
     "sourceUrl": "https://www.leon.jp/staytravel/5949"
   },
   {
-    "id": "w-0284",
+    "id": "w-0288",
     "slug": "yamanoue-hotel-coffee-parlor-hilltop",
     "name": "Yamanoue Hotel - Coffee Parlor Hilltop",
     "nameJa": "山の上ホテル コーヒーパーラー ヒルトップ",
@@ -7804,7 +7918,7 @@
     "sourceUrl": "https://www.leon.jp/staytravel/5949"
   },
   {
-    "id": "w-0285",
+    "id": "w-0289",
     "slug": "onibus-coffee-nakameguro",
     "name": "Onibus Coffee Nakameguro",
     "nameJa": "オニバスコーヒー 中目黒",
@@ -7833,7 +7947,7 @@
     "instagram": "https://www.instagram.com/onibuscoffee/"
   },
   {
-    "id": "w-0286",
+    "id": "w-0290",
     "slug": "good-sound-coffee",
     "name": "Good Sound Coffee",
     "nameJa": "グッドサウンドコーヒー",
@@ -7862,7 +7976,7 @@
     "instagram": "https://www.instagram.com/goodsoundcoffee.official/"
   },
   {
-    "id": "w-0287",
+    "id": "w-0291",
     "slug": "coffee-base-meguro",
     "name": "Coffee Base MEGURO",
     "nameJa": "コーヒーベース目黒",
@@ -7890,7 +8004,7 @@
     "sourceUrl": "https://goworkship.com/magazine/meguro-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0288",
+    "id": "w-0292",
     "slug": "alpha-beta-coffee-club",
     "name": "Alpha Beta Coffee Club",
     "nameJa": "アルファベータコーヒークラブ",
@@ -7919,7 +8033,7 @@
     "instagram": "https://www.instagram.com/abccoffeeclub/"
   },
   {
-    "id": "w-0289",
+    "id": "w-0293",
     "slug": "amber",
     "name": "amber",
     "nameJa": "アンバー",
@@ -7947,7 +8061,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0290",
+    "id": "w-0294",
     "slug": "brooklyn-roasting-company-shimokitazawa",
     "name": "Brooklyn Roasting Company Shimokitazawa",
     "nameJa": "ブルックリンロースティングカンパニー 下北沢",
@@ -7976,7 +8090,7 @@
     "instagram": "https://www.instagram.com/brooklynroasting_shimokitazawa/"
   },
   {
-    "id": "w-0291",
+    "id": "w-0295",
     "slug": "et-the-cultural-coffeehouse",
     "name": "Et - The Cultural Coffeehouse",
     "nameJa": "エト カルチュラル コーヒーハウス",
@@ -8004,7 +8118,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0292",
+    "id": "w-0296",
     "slug": "streamer-coffee-company-setagayadaita",
     "name": "Streamer Coffee Company Setagayadaita",
     "nameJa": "ストリーマーコーヒーカンパニー 世田谷代田",
@@ -8033,7 +8147,7 @@
     "instagram": "https://www.instagram.com/streamercoffeecompany/"
   },
   {
-    "id": "w-0293",
+    "id": "w-0297",
     "slug": "cafe-soul-tree",
     "name": "Cafe Soul Tree",
     "nameJa": "カフェ ソウルツリー",
@@ -8061,7 +8175,7 @@
     "sourceUrl": "https://local-media.heteml.net/archives/4124"
   },
   {
-    "id": "w-0294",
+    "id": "w-0298",
     "slug": "cafe-henri-fabre",
     "name": "Cafe Henri Fabre",
     "nameJa": "カフェ アンリ・ファーブル",
@@ -8089,7 +8203,7 @@
     "sourceUrl": "https://enolog.jp/kouenji-nomad-dengen-cafe/"
   },
   {
-    "id": "w-0295",
+    "id": "w-0299",
     "slug": "yonchome-cafe",
     "name": "Yonchome Cafe",
     "nameJa": "四丁目カフェ",
@@ -8117,7 +8231,7 @@
     "sourceUrl": "https://enolog.jp/kouenji-nomad-dengen-cafe/"
   },
   {
-    "id": "w-0296",
+    "id": "w-0300",
     "slug": "muto-coffee-roastery",
     "name": "MUTO coffee roastery",
     "nameJa": "MUTO coffee roastery",
@@ -8145,7 +8259,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0297",
+    "id": "w-0301",
     "slug": "blue-cafe-oz",
     "name": "Blue Cafe Oz",
     "nameJa": "青色喫茶 Oz",
@@ -8173,7 +8287,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakano-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0298",
+    "id": "w-0302",
     "slug": "en",
     "name": "en",
     "nameJa": "鷰 en",
@@ -8201,7 +8315,7 @@
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
   },
   {
-    "id": "w-0299",
+    "id": "w-0303",
     "slug": "splendor-coffee",
     "name": "Splendor Coffee",
     "nameJa": "スプレンダーコーヒー",
@@ -8229,7 +8343,7 @@
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
   },
   {
-    "id": "w-0300",
+    "id": "w-0304",
     "slug": "february-cafe",
     "name": "February Cafe",
     "nameJa": "フェブラリーカフェ",
@@ -8257,7 +8371,7 @@
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
   },
   {
-    "id": "w-0301",
+    "id": "w-0305",
     "slug": "bliss-coffee",
     "name": "BLISS COFFEE",
     "nameJa": "ブリスコーヒー",
@@ -8285,7 +8399,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0302",
+    "id": "w-0306",
     "slug": "yurouyu-nippori",
     "name": "Yurouyu Nippori",
     "nameJa": "友路有 日暮里店",
@@ -8313,7 +8427,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0305",
+    "id": "w-0309",
     "slug": "sd-coffee",
     "name": "SD Coffee",
     "nameJa": "エスディコーヒー 北千住",
@@ -8341,7 +8455,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0306",
+    "id": "w-0310",
     "slug": "mobacafe",
     "name": "MOBaCAFE",
     "nameJa": "モバカフェ",
@@ -8369,7 +8483,7 @@
     "sourceUrl": "https://www.timesclub.jp/sp/tanomachi_ex/tokyo/gotanda/003.html"
   },
   {
-    "id": "w-0307",
+    "id": "w-0311",
     "slug": "toner",
     "name": "TONER",
     "nameJa": "トナー",
@@ -8397,7 +8511,7 @@
     "sourceUrl": "https://www.timesclub.jp/sp/tanomachi_ex/tokyo/gotanda/003.html"
   },
   {
-    "id": "w-0308",
+    "id": "w-0312",
     "slug": "little-darling-coffee-roasters",
     "name": "Little Darling Coffee Roasters",
     "nameJa": "リトルダーリンコーヒーロースターズ",
@@ -8426,7 +8540,7 @@
     "instagram": "https://www.instagram.com/littledarling_coffeeroasters/"
   },
   {
-    "id": "w-0309",
+    "id": "w-0313",
     "slug": "garden-house-crafts",
     "name": "Garden House Crafts",
     "nameJa": "ガーデンハウスクラフツ",
@@ -8455,7 +8569,7 @@
     "instagram": "https://www.instagram.com/garden_house_crafts/"
   },
   {
-    "id": "w-0310",
+    "id": "w-0314",
     "slug": "cafe-suu",
     "name": "cafe SUU",
     "nameJa": "カフェ スー",
@@ -8483,7 +8597,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0311",
+    "id": "w-0315",
     "slug": "lattest-sports",
     "name": "lattest sports",
     "nameJa": "ラテスト スポーツ",
@@ -8511,7 +8625,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0312",
+    "id": "w-0316",
     "slug": "safn",
     "name": "Safn",
     "nameJa": "サフン",
@@ -8539,7 +8653,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0313",
+    "id": "w-0317",
     "slug": "coffee-valley",
     "name": "COFFEE VALLEY",
     "nameJa": "コーヒーバレー",
@@ -8567,7 +8681,7 @@
     "sourceUrl": "https://rtrp.jp/articles/12554/"
   },
   {
-    "id": "w-0314",
+    "id": "w-0318",
     "slug": "kohikan-shimura-sakaue",
     "name": "Kohikan Shimura-sakaue",
     "nameJa": "珈琲館 志村坂上店",
@@ -8596,7 +8710,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0315",
+    "id": "w-0319",
     "slug": "komeda-coffee-tobu-shimoakatsuka",
     "name": "Komeda Coffee Tobu-Shimoakatsuka",
     "nameJa": "コメダ珈琲店 東武下赤塚駅店",
@@ -8624,7 +8738,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0316",
+    "id": "w-0320",
     "slug": "starbucks-coffee-equia-narimasu",
     "name": "Starbucks Coffee EQUiA Narimasu",
     "nameJa": "スターバックス コーヒー エキア成増店",
@@ -8653,7 +8767,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0317",
+    "id": "w-0321",
     "slug": "cafe-di-espresso-kohikan-narimasu",
     "name": "Cafe di Espresso Kohikan Narimasu",
     "nameJa": "カフェ・ド・エスプレッソ 珈琲館 成増店",
@@ -8681,7 +8795,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0318",
+    "id": "w-0322",
     "slug": "doutor-coffee-shop-narimasu-2-chome",
     "name": "Doutor Coffee Shop Narimasu 2-chome",
     "nameJa": "ドトールコーヒーショップ 成増2丁目店",
@@ -8709,7 +8823,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0319",
+    "id": "w-0323",
     "slug": "doutor-coffee-shop-shimura-sakaue",
     "name": "Doutor Coffee Shop Shimura-sakaue",
     "nameJa": "ドトールコーヒーショップ 志村坂上店",
@@ -8737,7 +8851,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0320",
+    "id": "w-0324",
     "slug": "kohikan-oyama",
     "name": "Kohikan Oyama",
     "nameJa": "珈琲館 大山店",
@@ -8765,7 +8879,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0321",
+    "id": "w-0325",
     "slug": "komeda-coffee-kameari-ekimae",
     "name": "Komeda Coffee Kameari Ekimae",
     "nameJa": "珈琲所コメダ珈琲店 亀有駅前店",
@@ -8793,7 +8907,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0322",
+    "id": "w-0326",
     "slug": "starbucks-ario-kameari",
     "name": "Starbucks Ario Kameari",
     "nameJa": "スターバックスコーヒー アリオ亀有店",
@@ -8822,7 +8936,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0323",
+    "id": "w-0327",
     "slug": "becks-coffee-shop-shin-koiwa-ekimae",
     "name": "Beck's Coffee Shop Shin-Koiwa Ekimae",
     "nameJa": "ベックスコーヒーショップ 新小岩駅前店",
@@ -8851,7 +8965,7 @@
     "instagram": "https://www.instagram.com/becks_coffee_shop/"
   },
   {
-    "id": "w-0324",
+    "id": "w-0328",
     "slug": "renoir-shin-koiwa",
     "name": "Renoir Shin-Koiwa",
     "nameJa": "喫茶室ルノアール 新小岩店",
@@ -8880,7 +8994,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0325",
+    "id": "w-0329",
     "slug": "doutor-coffee-shin-koiwa-lumiere",
     "name": "Doutor Coffee Shin-Koiwa Lumiere",
     "nameJa": "ドトールコーヒーショップ 新小岩ルミエール店",
@@ -8909,7 +9023,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0326",
+    "id": "w-0330",
     "slug": "doutor-coffee-aoto-3-chome",
     "name": "Doutor Coffee Aoto 3-chome",
     "nameJa": "ドトールコーヒーショップ 青戸3丁目店",
@@ -8938,7 +9052,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0328",
+    "id": "w-0332",
     "slug": "starbucks-kanamachi-minamiguchi",
     "name": "Starbucks Kanamachi Minamiguchi",
     "nameJa": "スターバックスコーヒー 金町駅南口店",
@@ -8967,7 +9081,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0329",
+    "id": "w-0333",
     "slug": "starbucks-coffee-beans-akabane",
     "name": "Starbucks Coffee Beans Akabane",
     "nameJa": "スターバックス コーヒー ビーンズ赤羽店",
@@ -8995,7 +9109,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0330",
+    "id": "w-0334",
     "slug": "doutor-coffee-shop-beans-akabane",
     "name": "Doutor Coffee Shop Beans Akabane",
     "nameJa": "ドトールコーヒーショップ ビーンズ赤羽店",
@@ -9023,7 +9137,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0331",
+    "id": "w-0335",
     "slug": "starbucks-coffee-aeon-style-akabane",
     "name": "Starbucks Coffee AEON Style Akabane",
     "nameJa": "スターバックス コーヒー イオンスタイル赤羽店",
@@ -9051,7 +9165,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0332",
+    "id": "w-0336",
     "slug": "starbucks-coffee-oji-ekimae",
     "name": "Starbucks Coffee Oji-ekimae",
     "nameJa": "スターバックス コーヒー 王子駅前店",
@@ -9080,7 +9194,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0333",
+    "id": "w-0337",
     "slug": "starbucks-coffee-atre-vie-tabata",
     "name": "Starbucks Coffee atre vie Tabata",
     "nameJa": "スターバックス コーヒー アトレヴィ田端店",
@@ -9108,7 +9222,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0334",
+    "id": "w-0338",
     "slug": "pronto-higashi-jujo",
     "name": "Pronto Higashi-Jujo",
     "nameJa": "プロント 東十条店",
@@ -9137,7 +9251,7 @@
     "instagram": "https://www.instagram.com/pronto___official/"
   },
   {
-    "id": "w-0335",
+    "id": "w-0339",
     "slug": "doutor-coffee-shop-higashi-jujo",
     "name": "Doutor Coffee Shop Higashi-Jujo",
     "nameJa": "ドトールコーヒーショップ 東十条店",
@@ -9166,7 +9280,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0336",
+    "id": "w-0340",
     "slug": "komedas-coffee-shinjuku-3-chome",
     "name": "Komeda's Coffee Shinjuku 3-chome",
     "nameJa": "コメダ珈琲店 新宿三丁目店",
@@ -9195,7 +9309,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0337",
+    "id": "w-0341",
     "slug": "komedas-coffee-shinjuku-first-west",
     "name": "Komeda's Coffee Shinjuku First West",
     "nameJa": "コメダ珈琲店 新宿ファーストウエスト店",
@@ -9223,7 +9337,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0338",
+    "id": "w-0342",
     "slug": "komedas-coffee-ikebukuro-west-exit",
     "name": "Komeda's Coffee Ikebukuro West Exit",
     "nameJa": "コメダ珈琲店 池袋西口店",
@@ -9251,7 +9365,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0339",
+    "id": "w-0343",
     "slug": "komedas-coffee-sugamo",
     "name": "Komeda's Coffee Sugamo",
     "nameJa": "コメダ珈琲店 巣鴨店",
@@ -9279,7 +9393,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0340",
+    "id": "w-0344",
     "slug": "komedas-coffee-daiwa-roynet-hotel-tokyo-kyobashi",
     "name": "Komeda's Coffee Daiwa Roynet Hotel Tokyo Kyobashi",
     "nameJa": "コメダ珈琲店 ダイワロイネットホテル東京京橋店",
@@ -9308,7 +9422,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0341",
+    "id": "w-0345",
     "slug": "komedas-coffee-kitasenju-honcho-center-dori",
     "name": "Komeda's Coffee Kitasenju Honcho Center Dori",
     "nameJa": "コメダ珈琲店 北千住本町センター通り店",
@@ -9336,7 +9450,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0342",
+    "id": "w-0346",
     "slug": "komedas-coffee-ueno-hirokoji",
     "name": "Komeda's Coffee Ueno Hirokoji",
     "nameJa": "コメダ珈琲店 上野広小路店",
@@ -9364,7 +9478,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0343",
+    "id": "w-0347",
     "slug": "ueshima-coffee-kamiyacho-ekimae",
     "name": "Ueshima Coffee Kamiyacho Ekimae",
     "nameJa": "上島珈琲店 神谷町駅前店",
@@ -9393,7 +9507,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0344",
+    "id": "w-0348",
     "slug": "ueshima-coffee-kyobashi-2-chome",
     "name": "Ueshima Coffee Kyobashi 2-chome",
     "nameJa": "上島珈琲店 京橋2丁目店",
@@ -9422,7 +9536,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0345",
+    "id": "w-0349",
     "slug": "ueshima-coffee-nakameguro",
     "name": "Ueshima Coffee Nakameguro",
     "nameJa": "上島珈琲店 中目黒店",
@@ -9451,7 +9565,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0346",
+    "id": "w-0350",
     "slug": "ueshima-coffee-aoyama",
     "name": "Ueshima Coffee Aoyama",
     "nameJa": "上島珈琲店 青山店",
@@ -9480,7 +9594,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0347",
+    "id": "w-0351",
     "slug": "ueshima-coffee-koenji-kita-guchi",
     "name": "Ueshima Coffee Koenji Kita-guchi",
     "nameJa": "上島珈琲店 高円寺北口店",
@@ -9509,7 +9623,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0348",
+    "id": "w-0352",
     "slug": "ueshima-coffee-asagaya",
     "name": "Ueshima Coffee Asagaya",
     "nameJa": "上島珈琲店 阿佐ヶ谷店",
@@ -9538,7 +9652,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0349",
+    "id": "w-0353",
     "slug": "ueshima-coffee-musashi-koyama",
     "name": "Ueshima Coffee Musashi-Koyama",
     "nameJa": "上島珈琲店 武蔵小山店",
@@ -9567,7 +9681,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0350",
+    "id": "w-0354",
     "slug": "ueshima-coffee-gokokuji",
     "name": "Ueshima Coffee Gokokuji",
     "nameJa": "上島珈琲店 護国寺店",
@@ -9596,7 +9710,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0351",
+    "id": "w-0355",
     "slug": "ueshima-coffee-hiroo",
     "name": "Ueshima Coffee Hiroo",
     "nameJa": "上島珈琲店 広尾店",
@@ -9625,7 +9739,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0352",
+    "id": "w-0356",
     "slug": "ueshima-coffee-emio-shakujii-koen",
     "name": "Ueshima Coffee Emio Shakujii-koen",
     "nameJa": "上島珈琲店 エミオ石神井公園店",
@@ -9654,7 +9768,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0353",
+    "id": "w-0357",
     "slug": "ueshima-coffee-omori",
     "name": "Ueshima Coffee Omori",
     "nameJa": "上島珈琲店 大森店",
@@ -9683,7 +9797,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0354",
+    "id": "w-0358",
     "slug": "kohikan-hatanodai",
     "name": "Kohikan Hatanodai",
     "nameJa": "珈琲館 旗の台店",
@@ -9712,7 +9826,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0355",
+    "id": "w-0359",
     "slug": "kohikan-shin-itabashi",
     "name": "Kohikan Shin-Itabashi",
     "nameJa": "珈琲館 新板橋店",
@@ -9741,7 +9855,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0356",
+    "id": "w-0360",
     "slug": "kohikan-kagurazaka",
     "name": "Kohikan Kagurazaka",
     "nameJa": "珈琲館 神楽坂店",
@@ -9770,7 +9884,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0357",
+    "id": "w-0361",
     "slug": "kohikan-hamadayama",
     "name": "Kohikan Hamadayama",
     "nameJa": "珈琲館 浜田山店",
@@ -9799,7 +9913,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0358",
+    "id": "w-0362",
     "slug": "kohikan-yoga-station-building",
     "name": "Kohikan Yoga Station Building",
     "nameJa": "珈琲館 用賀駅ビル店",
@@ -9828,7 +9942,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0359",
+    "id": "w-0363",
     "slug": "kohikan-sendaimae-honten",
     "name": "Kohikan Sendaimae Honten",
     "nameJa": "珈琲館 専大前本店",
@@ -9857,7 +9971,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0360",
+    "id": "w-0364",
     "slug": "kohikan-ojima",
     "name": "Kohikan Ojima",
     "nameJa": "珈琲館 大島店",
@@ -9886,7 +10000,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0361",
+    "id": "w-0365",
     "slug": "kohikan-atre-takeshiba",
     "name": "Kohikan Atre Takeshiba",
     "nameJa": "珈琲館 アトレ竹芝店",
@@ -9915,7 +10029,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0362",
+    "id": "w-0366",
     "slug": "tullys-coffee-toyosu-front",
     "name": "Tully's Coffee Toyosu Front",
     "nameJa": "タリーズコーヒー 豊洲フロント店",
@@ -9944,7 +10058,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0363",
+    "id": "w-0367",
     "slug": "rostar-toyosu-front",
     "name": "R.O.STAR Toyosu Front",
     "nameJa": "アール・オー・スター 豊洲フロント店",
@@ -9972,7 +10086,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
   },
   {
-    "id": "w-0364",
+    "id": "w-0368",
     "slug": "san-marc-cafe-lalaport-toyosu",
     "name": "San Marc Cafe Lalaport Toyosu",
     "nameJa": "サンマルクカフェ ららぽーと豊洲店",
@@ -10001,7 +10115,7 @@
     "instagram": "https://www.instagram.com/saint_marc_cafe_official/"
   },
   {
-    "id": "w-0365",
+    "id": "w-0369",
     "slug": "pronto-toyosu",
     "name": "Pronto Toyosu",
     "nameJa": "プロント 豊洲店",
@@ -10030,7 +10144,7 @@
     "instagram": "https://www.instagram.com/pronto___official/"
   },
   {
-    "id": "w-0366",
+    "id": "w-0370",
     "slug": "starbucks-toyosu-foresia",
     "name": "Starbucks Toyosu Foresia",
     "nameJa": "スターバックスコーヒー 豊洲フォレシア店",
@@ -10059,7 +10173,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0367",
+    "id": "w-0371",
     "slug": "starbucks-lalaport-toyosu-3",
     "name": "Starbucks Lalaport Toyosu 3",
     "nameJa": "スターバックスコーヒー ららぽーと豊洲3店",
@@ -10088,7 +10202,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0368",
+    "id": "w-0372",
     "slug": "komeda-coffee-lalaport-toyosu",
     "name": "Komeda Coffee Lalaport Toyosu",
     "nameJa": "コメダ珈琲店 ららぽーと豊洲店",
@@ -10117,7 +10231,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0369",
+    "id": "w-0373",
     "slug": "solotime-toyosu",
     "name": "SoloTime Toyosu",
     "nameJa": "ソロタイム 豊洲店",
@@ -10145,7 +10259,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
   },
   {
-    "id": "w-0370",
+    "id": "w-0374",
     "slug": "spbs-toyosu",
     "name": "SPBS Toyosu",
     "nameJa": "SPBS TOYOSU",
@@ -10173,7 +10287,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
   },
   {
-    "id": "w-0371",
+    "id": "w-0375",
     "slug": "story-table-lalaport-toyosu",
     "name": "Story Table Lalaport Toyosu",
     "nameJa": "ストーリーテーブル 有隣堂ららぽーと豊洲店",
@@ -10201,7 +10315,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
   },
   {
-    "id": "w-0372",
+    "id": "w-0376",
     "slug": "starbucks-atre-kameido",
     "name": "Starbucks Atre Kameido",
     "nameJa": "スターバックスコーヒー アトレ亀戸店",
@@ -10229,7 +10343,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0373",
+    "id": "w-0377",
     "slug": "komeda-coffee-atre-kameido",
     "name": "Komeda Coffee Atre Kameido",
     "nameJa": "コメダ珈琲店 アトレ亀戸店",
@@ -10257,7 +10371,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0374",
+    "id": "w-0378",
     "slug": "mcdonalds-kameido",
     "name": "McDonald's Kameido",
     "nameJa": "マクドナルド 亀戸店",
@@ -10284,7 +10398,7 @@
     "sourceUrl": "https://kameido.pro/summary/ekichika-cafe/"
   },
   {
-    "id": "w-0375",
+    "id": "w-0379",
     "slug": "starbucks-kiba-ito-yokado",
     "name": "Starbucks Kiba Ito-Yokado",
     "nameJa": "スターバックスコーヒー 木場イトーヨーカドー店",
@@ -10312,7 +10426,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0376",
+    "id": "w-0380",
     "slug": "books-and-cafe-dreadnought",
     "name": "Books & Cafe Dreadnought",
     "nameJa": "ブックス&カフェ ドレッドノート",
@@ -10339,7 +10453,7 @@
     "sourceUrl": "https://www.start-line.co.jp/magazine/23ku-info/7001/"
   },
   {
-    "id": "w-0377",
+    "id": "w-0381",
     "slug": "kohikan-monzen-nakacho",
     "name": "Kohikan Monzen-nakacho",
     "nameJa": "珈琲館 門前仲町店",
@@ -10367,7 +10481,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0378",
+    "id": "w-0382",
     "slug": "kohikan-ojima-2",
     "name": "Kohikan Ojima",
     "nameJa": "珈琲館 大島店",
@@ -10396,7 +10510,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0379",
+    "id": "w-0383",
     "slug": "tullys-coffee-ariake-garden",
     "name": "Tully's Coffee Ariake Garden",
     "nameJa": "タリーズコーヒー 有明ガーデン店",
@@ -10425,7 +10539,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0380",
+    "id": "w-0384",
     "slug": "mcdonalds-ochanomizu-sola-city",
     "name": "McDonald's Ochanomizu Sola City",
     "nameJa": "マクドナルド御茶ノ水ソラシティ店",
@@ -10453,7 +10567,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0381",
+    "id": "w-0385",
     "slug": "mcdonalds-kanda-ogawamachi",
     "name": "McDonald's Kanda Ogawamachi",
     "nameJa": "マクドナルド神田小川町店",
@@ -10481,7 +10595,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0382",
+    "id": "w-0386",
     "slug": "mcdonalds-bic-camera-akiba",
     "name": "McDonald's Bic Camera AKIBA",
     "nameJa": "マクドナルド ビックカメラAKIBA店",
@@ -10509,7 +10623,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0383",
+    "id": "w-0387",
     "slug": "mcdonalds-akasaka-mitsuke",
     "name": "McDonald's Akasaka-mitsuke",
     "nameJa": "マクドナルド赤坂見附店",
@@ -10537,7 +10651,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0384",
+    "id": "w-0388",
     "slug": "mcdonalds-roppongi-station",
     "name": "McDonald's Roppongi Station",
     "nameJa": "マクドナルド六本木駅店",
@@ -10565,7 +10679,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0385",
+    "id": "w-0389",
     "slug": "mcdonalds-odaiba-decks",
     "name": "McDonald's Odaiba Decks",
     "nameJa": "マクドナルドお台場デックス店",
@@ -10593,7 +10707,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0386",
+    "id": "w-0390",
     "slug": "mcdonalds-hiroo",
     "name": "McDonald's Hiroo",
     "nameJa": "マクドナルド広尾店",
@@ -10621,7 +10735,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0387",
+    "id": "w-0391",
     "slug": "mcdonalds-shibuya-miyashita-park",
     "name": "McDonald's Shibuya MIYASHITA PARK",
     "nameJa": "マクドナルド渋谷MIYASHITAPARK店",
@@ -10649,7 +10763,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0388",
+    "id": "w-0392",
     "slug": "mcdonalds-seibu-shinjuku-ekimae",
     "name": "McDonald's Seibu-Shinjuku Ekimae",
     "nameJa": "マクドナルド西武新宿駅前店",
@@ -10677,7 +10791,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0389",
+    "id": "w-0393",
     "slug": "mcdonalds-higashi-shinjuku-ekimae",
     "name": "McDonald's Higashi-Shinjuku Ekimae",
     "nameJa": "マクドナルド東新宿駅前店",
@@ -10705,7 +10819,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0390",
+    "id": "w-0394",
     "slug": "mcdonalds-jr-shinjuku-south-exit",
     "name": "McDonald's JR Shinjuku South Exit",
     "nameJa": "マクドナルドJR新宿南口店",
@@ -10733,7 +10847,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0391",
+    "id": "w-0395",
     "slug": "mcdonalds-shin-okubo",
     "name": "McDonald's Shin-Okubo",
     "nameJa": "マクドナルド新大久保店",
@@ -10761,7 +10875,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0392",
+    "id": "w-0396",
     "slug": "mcdonalds-hatanodai",
     "name": "McDonald's Hatanodai",
     "nameJa": "マクドナルド旗の台店",
@@ -10789,7 +10903,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0393",
+    "id": "w-0397",
     "slug": "mcdonalds-daiichi-keihin-samezu",
     "name": "McDonald's Daiichi-Keihin Samezu",
     "nameJa": "マクドナルド第一京浜鮫洲店",
@@ -10817,7 +10931,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0394",
+    "id": "w-0398",
     "slug": "mcdonalds-kamata-east-exit",
     "name": "McDonald's Kamata East Exit",
     "nameJa": "マクドナルド蒲田東口店",
@@ -10845,7 +10959,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0395",
+    "id": "w-0399",
     "slug": "mcdonalds-kojiya-ekimae",
     "name": "McDonald's Kojiya Ekimae",
     "nameJa": "マクドナルド糀谷駅前店",
@@ -10873,7 +10987,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0396",
+    "id": "w-0400",
     "slug": "mcdonalds-shimokitazawa",
     "name": "McDonald's Shimokitazawa",
     "nameJa": "マクドナルド下北沢店",
@@ -10901,7 +11015,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0397",
+    "id": "w-0401",
     "slug": "mcdonalds-kyodo-ekimae",
     "name": "McDonald's Kyodo Ekimae",
     "nameJa": "マクドナルド経堂駅前店",
@@ -10929,7 +11043,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0398",
+    "id": "w-0402",
     "slug": "mcdonalds-asagaya",
     "name": "McDonald's Asagaya",
     "nameJa": "マクドナルド阿佐ヶ谷店",
@@ -10957,7 +11071,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0399",
+    "id": "w-0403",
     "slug": "mcdonalds-ogikubo-west-exit",
     "name": "McDonald's Ogikubo West Exit",
     "nameJa": "マクドナルド荻窪西口店",
@@ -10985,7 +11099,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0400",
+    "id": "w-0404",
     "slug": "mcdonalds-nogata",
     "name": "McDonald's Nogata",
     "nameJa": "マクドナルド野方店",
@@ -11013,7 +11127,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0401",
+    "id": "w-0405",
     "slug": "mcdonalds-ekoda-ekimae",
     "name": "McDonald's Ekoda Ekimae",
     "nameJa": "マクドナルド江古田駅前店",
@@ -11041,7 +11155,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0402",
+    "id": "w-0406",
     "slug": "mcdonalds-oizumi-gakuen",
     "name": "McDonald's Oizumi-Gakuen",
     "nameJa": "マクドナルド大泉学園店",
@@ -11069,7 +11183,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0404",
+    "id": "w-0408",
     "slug": "mcdonalds-sunshine-city-alta",
     "name": "McDonald's Sunshine City ALTA",
     "nameJa": "マクドナルドサンシャインシティALTA店",
@@ -11097,7 +11211,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0405",
+    "id": "w-0409",
     "slug": "mcdonalds-uguisudani-north-exit",
     "name": "McDonald's Uguisudani North Exit",
     "nameJa": "マクドナルド鶯谷北口店",
@@ -11125,7 +11239,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0406",
+    "id": "w-0410",
     "slug": "mcdonalds-inaricho-ekimae",
     "name": "McDonald's Inaricho Ekimae",
     "nameJa": "マクドナルド稲荷町駅前店",
@@ -11153,7 +11267,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0407",
+    "id": "w-0411",
     "slug": "mcdonalds-minamisunamachi",
     "name": "McDonald's Minamisunamachi",
     "nameJa": "マクドナルド南砂町店",
@@ -11181,7 +11295,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0408",
+    "id": "w-0412",
     "slug": "mcdonalds-toyosu-ekimae",
     "name": "McDonald's Toyosu Ekimae",
     "nameJa": "マクドナルド豊洲駅前店",
@@ -11209,7 +11323,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0409",
+    "id": "w-0413",
     "slug": "mcdonalds-takashimadaira-ekimae",
     "name": "McDonald's Takashimadaira Ekimae",
     "nameJa": "マクドナルド高島平駅前店",
@@ -11237,7 +11351,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0410",
+    "id": "w-0414",
     "slug": "mcdonalds-shin-koiwa-south-exit",
     "name": "McDonald's Shin-Koiwa South Exit",
     "nameJa": "マクドナルド新小岩南口店",
@@ -11265,7 +11379,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0411",
+    "id": "w-0415",
     "slug": "mcdonalds-komagome-south-exit",
     "name": "McDonald's Komagome South Exit",
     "nameJa": "マクドナルド駒込駅南口店",
@@ -11293,7 +11407,7 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0413",
+    "id": "w-0417",
     "slug": "frames-nakameguro",
     "name": "FRAMES Nakameguro",
     "nameJa": "FRAMES 中目黒店",
@@ -11321,7 +11435,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0414",
+    "id": "w-0418",
     "slug": "open-nakameguro",
     "name": "Open Nakameguro",
     "nameJa": "OPEN NAKAMEGURO",
@@ -11349,7 +11463,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0415",
+    "id": "w-0419",
     "slug": "podium-cafe",
     "name": "Podium Cafe",
     "nameJa": "ポディウムカフェ",
@@ -11377,7 +11491,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0416",
+    "id": "w-0420",
     "slug": "starbucks-coffee-nakameguro-gt-tower",
     "name": "Starbucks Coffee Nakameguro GT Tower",
     "nameJa": "スターバックスコーヒー 中目黒GTタワー店",
@@ -11406,7 +11520,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0417",
+    "id": "w-0421",
     "slug": "starbucks-coffee-nakameguro-tsutaya-bookstore",
     "name": "Starbucks Coffee Nakameguro Tsutaya Bookstore",
     "nameJa": "スターバックスコーヒー 中目黒蔦屋書店",
@@ -11435,7 +11549,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0418",
+    "id": "w-0422",
     "slug": "freshness-burger-nakameguro-ekimae",
     "name": "Freshness Burger Nakameguro Ekimae",
     "nameJa": "フレッシュネスバーガー 中目黒駅前店",
@@ -11463,7 +11577,7 @@
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0419",
+    "id": "w-0423",
     "slug": "roju-cafe",
     "name": "Roju Cafe",
     "nameJa": "ROJU CAFE",
@@ -11491,7 +11605,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakameguro-workcafe/"
   },
   {
-    "id": "w-0420",
+    "id": "w-0424",
     "slug": "good-sound-coffee-nakameguro",
     "name": "Good Sound Coffee Nakameguro",
     "nameJa": "GOOD SOUND COFFEE 中目黒店",
@@ -11520,7 +11634,7 @@
     "instagram": "https://www.instagram.com/goodsoundcoffee_nakameguro/"
   },
   {
-    "id": "w-0421",
+    "id": "w-0425",
     "slug": "alpha-beta-coffee-club-jiyugaoka",
     "name": "Alpha Beta Coffee Club Jiyugaoka",
     "nameJa": "ALPHA BETA COFFEE CLUB 自由が丘駅前店",
@@ -11549,7 +11663,7 @@
     "instagram": "https://www.instagram.com/abccoffeeclubjiyugaoka/"
   },
   {
-    "id": "w-0422",
+    "id": "w-0426",
     "slug": "onibus-coffee-jiyugaoka",
     "name": "Onibus Coffee Jiyugaoka",
     "nameJa": "ONIBUS COFFEE 自由が丘店",
@@ -11578,7 +11692,7 @@
     "instagram": "https://www.instagram.com/onibuscoffee_jiyugaoka/"
   },
   {
-    "id": "w-0423",
+    "id": "w-0427",
     "slug": "latte-graphic-jiyugaoka",
     "name": "Latte Graphic Jiyugaoka",
     "nameJa": "LATTE GRAPHIC 自由が丘店",
@@ -11606,7 +11720,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-jiyuugaoka-workcafe/"
   },
   {
-    "id": "w-0424",
+    "id": "w-0428",
     "slug": "doutor-coffee-jiyugaoka-marie-claire-street",
     "name": "Doutor Coffee Jiyugaoka Marie-Claire Street",
     "nameJa": "ドトールコーヒーショップ 自由が丘マリクレール通り店",
@@ -11635,7 +11749,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0427",
+    "id": "w-0431",
     "slug": "bunkitsu-roppongi",
     "name": "Bunkitsu Roppongi",
     "nameJa": "文喫 六本木",
@@ -11664,7 +11778,7 @@
     "instagram": "https://www.instagram.com/bunkitsu_roppongi/"
   },
   {
-    "id": "w-0428",
+    "id": "w-0432",
     "slug": "verve-coffee-roasters-roppongi",
     "name": "Verve Coffee Roasters Roppongi",
     "nameJa": "ヴァーヴ コーヒー ロースターズ 六本木",
@@ -11693,7 +11807,7 @@
     "instagram": "https://www.instagram.com/vervecoffeeroastersjapan/"
   },
   {
-    "id": "w-0429",
+    "id": "w-0433",
     "slug": "common-roppongi",
     "name": "Common Roppongi",
     "nameJa": "コモン 六本木",
@@ -11721,7 +11835,7 @@
     "sourceUrl": "https://gonetravellingproductions.com/2024/08/23/work-friendly-cafes-in-minato-city/"
   },
   {
-    "id": "w-0430",
+    "id": "w-0434",
     "slug": "renoir-roppongi-lapiros",
     "name": "Renoir Roppongi Lapiros",
     "nameJa": "喫茶室ルノアール 六本木ラピロス店",
@@ -11750,7 +11864,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0431",
+    "id": "w-0435",
     "slug": "park6",
     "name": "PARK6",
     "nameJa": "PARK6 powered by bondolfi boncaffe",
@@ -11778,7 +11892,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
   },
   {
-    "id": "w-0432",
+    "id": "w-0436",
     "slug": "starbucks-roppongi-hills-west-walk",
     "name": "Starbucks Roppongi Hills West Walk",
     "nameJa": "スターバックスコーヒー 六本木ヒルズ ウエストウォーク店",
@@ -11807,7 +11921,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0433",
+    "id": "w-0437",
     "slug": "streamer-coffee-company-azabu-juban",
     "name": "Streamer Coffee Company Azabu-Juban",
     "nameJa": "STREAMER COFFEE COMPANY 麻布十番",
@@ -11836,7 +11950,7 @@
     "instagram": "https://www.instagram.com/streamercoffeecompany/"
   },
   {
-    "id": "w-0434",
+    "id": "w-0438",
     "slug": "starbucks-azabu-juban",
     "name": "Starbucks Azabu-Juban",
     "nameJa": "スターバックスコーヒー 麻布十番店",
@@ -11865,7 +11979,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0435",
+    "id": "w-0439",
     "slug": "ueshima-coffee-ten-azabu-juban",
     "name": "Ueshima Coffee Ten Azabu-Juban",
     "nameJa": "上島珈琲店 麻布十番店",
@@ -11894,7 +12008,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0436",
+    "id": "w-0440",
     "slug": "the-core-kitchenspace",
     "name": "The Core Kitchen/Space",
     "nameJa": "THE CORE KITCHEN/SPACE",
@@ -11922,7 +12036,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shinbashi-workcafe/"
   },
   {
-    "id": "w-0437",
+    "id": "w-0441",
     "slug": "logi-cafe",
     "name": "Logi Cafe",
     "nameJa": "ロジカフェ",
@@ -11950,7 +12064,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shinbashi-workcafe/"
   },
   {
-    "id": "w-0438",
+    "id": "w-0442",
     "slug": "excelsior-caffe-shimbashi-2-chome",
     "name": "Excelsior Caffe Shimbashi 2-chome",
     "nameJa": "エクセルシオールカフェ 新橋2丁目店",
@@ -11979,7 +12093,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0439",
+    "id": "w-0443",
     "slug": "renoir-shimbashi-shiodome-guchi-ekimae",
     "name": "Renoir Shimbashi Shiodome-guchi Ekimae",
     "nameJa": "喫茶室ルノアール 新橋汐留口駅前店",
@@ -12008,7 +12122,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0440",
+    "id": "w-0444",
     "slug": "accea-cafe-tamachi",
     "name": "Accea Cafe Tamachi",
     "nameJa": "アクセアカフェ 田町店",
@@ -12036,7 +12150,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-tamachi-workcafe/"
   },
   {
-    "id": "w-0441",
+    "id": "w-0445",
     "slug": "starbucks-tamachi-tower",
     "name": "Starbucks Tamachi Tower",
     "nameJa": "スターバックスコーヒー 田町タワー店",
@@ -12065,7 +12179,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0442",
+    "id": "w-0446",
     "slug": "ueshima-coffee-ten-aoyama",
     "name": "Ueshima Coffee Ten Aoyama",
     "nameJa": "上島珈琲店 青山店",
@@ -12094,7 +12208,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0443",
+    "id": "w-0447",
     "slug": "cafe-notanova-nakano",
     "name": "Cafe notanova Nakano",
     "nameJa": "カフェ ノタノヴァ 中野店",
@@ -12122,7 +12236,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0444",
+    "id": "w-0448",
     "slug": "excelsior-caffe-nakano-sunmall",
     "name": "Excelsior Caffe Nakano Sunmall",
     "nameJa": "エクセルシオールカフェ 中野サンモール店",
@@ -12151,7 +12265,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0445",
+    "id": "w-0449",
     "slug": "cafe-veloce-nakano-south-exit",
     "name": "Cafe Veloce Nakano South Exit",
     "nameJa": "カフェ・ベローチェ 中野駅南口店",
@@ -12180,7 +12294,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0446",
+    "id": "w-0450",
     "slug": "starbucks-nakano-dori",
     "name": "Starbucks Nakano-dori",
     "nameJa": "スターバックス 中野通り店",
@@ -12209,7 +12323,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0447",
+    "id": "w-0451",
     "slug": "starbucks-nakano-central-park",
     "name": "Starbucks Nakano Central Park",
     "nameJa": "スターバックス 中野セントラルパーク店",
@@ -12238,7 +12352,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0448",
+    "id": "w-0452",
     "slug": "kissashitsu-renoir-nakano-north-exit",
     "name": "Kissashitsu Renoir Nakano North Exit",
     "nameJa": "喫茶室ルノアール 中野北口店",
@@ -12267,7 +12381,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0449",
+    "id": "w-0453",
     "slug": "kissashitsu-renoir-nakano-south-exit-ekimae",
     "name": "Kissashitsu Renoir Nakano South Exit Ekimae",
     "nameJa": "喫茶室ルノアール 中野南口駅前店",
@@ -12296,7 +12410,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0450",
+    "id": "w-0454",
     "slug": "komedas-coffee-marui-nakano",
     "name": "Komeda's Coffee Marui Nakano",
     "nameJa": "コメダ珈琲店 丸井中野店",
@@ -12325,7 +12439,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0451",
+    "id": "w-0455",
     "slug": "tops-keys-cafe-nakano",
     "name": "Top's Key's Cafe Nakano",
     "nameJa": "トップスキーズカフェ 中野店",
@@ -12353,7 +12467,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0452",
+    "id": "w-0456",
     "slug": "clochette-cafe",
     "name": "Clochette Cafe",
     "nameJa": "クロシェット カフェ",
@@ -12381,7 +12495,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
   },
   {
-    "id": "w-0453",
+    "id": "w-0457",
     "slug": "cafe-dan-nakano-broadway",
     "name": "Cafe Dan Nakano Broadway",
     "nameJa": "珈琲館 談 中野ブロードウェイ店",
@@ -12409,7 +12523,7 @@
     "sourceUrl": "https://tabi-zemi.com/tokyo_cafe/"
   },
   {
-    "id": "w-0456",
+    "id": "w-0460",
     "slug": "becks-coffee-shop-higashi-nakano",
     "name": "Beck's Coffee Shop Higashi-Nakano",
     "nameJa": "ベックスコーヒーショップ 東中野店",
@@ -12437,7 +12551,7 @@
     "instagram": "https://www.instagram.com/becks_coffee_shop/"
   },
   {
-    "id": "w-0457",
+    "id": "w-0461",
     "slug": "doutor-coffee-oizumi-gakuen-north-exit",
     "name": "Doutor Coffee Oizumi-gakuen North Exit",
     "nameJa": "ドトールコーヒーショップ 大泉学園北口店",
@@ -12465,7 +12579,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0458",
+    "id": "w-0462",
     "slug": "doutor-coffee-seibu-oizumi-gakuen",
     "name": "Doutor Coffee Seibu Oizumi-gakuen",
     "nameJa": "ドトールコーヒーショップ 西武大泉学園駅店",
@@ -12493,7 +12607,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0459",
+    "id": "w-0463",
     "slug": "komedas-coffee-oizumi-gakuen",
     "name": "Komeda's Coffee Oizumi-gakuen",
     "nameJa": "コメダ珈琲店 大泉学園店",
@@ -12521,7 +12635,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0461",
+    "id": "w-0465",
     "slug": "tullys-coffee-shakujii-koen",
     "name": "Tully's Coffee Shakujii-koen",
     "nameJa": "タリーズコーヒー 石神井公園店",
@@ -12549,7 +12663,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0462",
+    "id": "w-0466",
     "slug": "doutor-coffee-hikarigaoka",
     "name": "Doutor Coffee Hikarigaoka",
     "nameJa": "ドトールコーヒーショップ 光が丘店",
@@ -12577,7 +12691,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0463",
+    "id": "w-0467",
     "slug": "starbucks-coffee-hikarigaoka-ima",
     "name": "Starbucks Coffee Hikarigaoka IMA",
     "nameJa": "スターバックスコーヒー 光が丘IMA店",
@@ -12605,7 +12719,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0465",
+    "id": "w-0469",
     "slug": "grain-coffee-roaster-kamata",
     "name": "Grain Coffee Roaster Kamata",
     "nameJa": "GRAIN COFFEE ROASTER 環八蒲田店",
@@ -12633,7 +12747,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/"
   },
   {
-    "id": "w-0468",
+    "id": "w-0472",
     "slug": "komedas-coffee-omori-ito-yokado",
     "name": "Komeda's Coffee Omori Ito-Yokado",
     "nameJa": "コメダ珈琲店 大森イトーヨーカドー店",
@@ -12662,7 +12776,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0469",
+    "id": "w-0473",
     "slug": "starbucks-atre-omori",
     "name": "Starbucks Atre Omori",
     "nameJa": "スターバックスコーヒー アトレ大森店",
@@ -12691,7 +12805,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0471",
+    "id": "w-0475",
     "slug": "starbucks-den-en-chofu-tokyu-square",
     "name": "Starbucks Den-en-chofu Tokyu Square",
     "nameJa": "スターバックスコーヒー 田園調布 東急スクエア店",
@@ -12712,14 +12826,14 @@
     "laptopFriendly": true,
     "open24h": false,
     "openLate": false,
-    "description": "A Starbucks in the Tokyu Square complex at Den-en-chofu station offering the chain's standard free Wi-Fi and some outlet seating, though feature data was only lightly verifiable.",
+    "description": "A bright Starbucks in the Tokyu Square complex at Den-en-chofu station with the chain's free Wi-Fi and power outlets reported at the counter and some other seats.",
     "lastChecked": "2026-08-01",
-    "confidence": "low",
+    "confidence": "medium",
     "sourceUrl": "https://store.starbucks.co.jp/detail-1139/",
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0472",
+    "id": "w-0476",
     "slug": "tullys-coffee-haneda-airport-terminal-3",
     "name": "Tully's Coffee Haneda Airport Terminal 3",
     "nameJa": "タリーズコーヒー 羽田空港第3ターミナル店",
@@ -12741,14 +12855,14 @@
     "laptopFriendly": true,
     "open24h": true,
     "openLate": true,
-    "description": "A Tully's on the Terminal 3 arrivals floor that runs around the clock with power outlets and airport Wi-Fi, useful for working during odd-hour layovers.",
+    "description": "A Tully's on the Terminal 3 arrivals floor at Haneda that runs 24 hours with power outlets at some seats, useful for working during odd-hour layovers.",
     "lastChecked": "2026-08-01",
-    "confidence": "low",
-    "sourceUrl": "https://blog.nearme.jp/article/haneda/3334/",
+    "confidence": "medium",
+    "sourceUrl": "https://r.gnavi.co.jp/9nr71mje0000/",
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0473",
+    "id": "w-0477",
     "slug": "komedas-coffee-sangenjaya",
     "name": "Komeda's Coffee Sangenjaya",
     "nameJa": "コメダ珈琲店 三軒茶屋店",
@@ -12777,7 +12891,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0474",
+    "id": "w-0478",
     "slug": "ueshima-coffee-sangenjaya",
     "name": "Ueshima Coffee Sangenjaya",
     "nameJa": "上島珈琲店 三軒茶屋店",
@@ -12806,7 +12920,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0475",
+    "id": "w-0479",
     "slug": "kurami-self-roast-cafe",
     "name": "Kurami Self-Roast Cafe",
     "nameJa": "自家焙煎カフェ 蔵味",
@@ -12834,7 +12948,7 @@
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0476",
+    "id": "w-0480",
     "slug": "starbucks-sangenjaya",
     "name": "Starbucks Sangenjaya",
     "nameJa": "スターバックスコーヒー 三軒茶屋店",
@@ -12863,7 +12977,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0477",
+    "id": "w-0481",
     "slug": "cafe-mamehico-sangenjaya",
     "name": "Cafe Mamehico Sangenjaya",
     "nameJa": "カフェ マメヒコ 三軒茶屋本店",
@@ -12892,7 +13006,7 @@
     "instagram": "https://www.instagram.com/cafe_mamehico/"
   },
   {
-    "id": "w-0478",
+    "id": "w-0482",
     "slug": "komedas-coffee-shimokitazawa",
     "name": "Komeda's Coffee Shimokitazawa",
     "nameJa": "コメダ珈琲店 下北沢店",
@@ -12921,7 +13035,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0479",
+    "id": "w-0483",
     "slug": "kohikan-shimokitazawa",
     "name": "Kohikan Shimokitazawa",
     "nameJa": "珈琲館 下北沢店",
@@ -12950,7 +13064,7 @@
     "instagram": "https://www.instagram.com/coffeekan_official/"
   },
   {
-    "id": "w-0480",
+    "id": "w-0484",
     "slug": "starbucks-shimokita-ekiue",
     "name": "Starbucks Shimokita Ekiue",
     "nameJa": "スターバックスコーヒー 下北沢駅上店",
@@ -12979,7 +13093,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0481",
+    "id": "w-0485",
     "slug": "flux-cafe-shimokitazawa",
     "name": "FLUX CAFE Shimokitazawa",
     "nameJa": "FLUX CAFE 下北沢",
@@ -13007,7 +13121,7 @@
     "sourceUrl": "https://laptopfriendlycafe.com/cafes/tokyo/flux-cafe-shimokitazawa"
   },
   {
-    "id": "w-0482",
+    "id": "w-0486",
     "slug": "starbucks-futako-tamagawa-tsutaya-electrics",
     "name": "Starbucks Futako-Tamagawa Tsutaya Electrics",
     "nameJa": "スターバックスコーヒー 二子玉川 蔦屋家電",
@@ -13036,7 +13150,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0483",
+    "id": "w-0487",
     "slug": "nicotama-days-cafe",
     "name": "Nicotama Days Cafe",
     "nameJa": "NICOTAMA DAYS CAFE",
@@ -13064,7 +13178,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-futakotamagawa-workcafe/"
   },
   {
-    "id": "w-0484",
+    "id": "w-0488",
     "slug": "starbucks-kyodo-station-front",
     "name": "Starbucks Kyodo Station Front",
     "nameJa": "スターバックスコーヒー 経堂駅前店",
@@ -13093,7 +13207,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0485",
+    "id": "w-0489",
     "slug": "engrave-coffee-roasters",
     "name": "Engrave Coffee Roasters",
     "nameJa": "エングレーブコーヒーロースターズ",
@@ -13121,7 +13235,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kyodo-workcafe/"
   },
   {
-    "id": "w-0486",
+    "id": "w-0490",
     "slug": "freeman-cafe",
     "name": "Freeman Cafe",
     "nameJa": "フリーマンカフェ",
@@ -13149,7 +13263,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0487",
+    "id": "w-0491",
     "slug": "fabcafe-tokyo",
     "name": "FabCafe Tokyo",
     "nameJa": "ファブカフェ トーキョー",
@@ -13178,7 +13292,7 @@
     "instagram": "https://www.instagram.com/fabcafe_tokyo/"
   },
   {
-    "id": "w-0488",
+    "id": "w-0492",
     "slug": "forest-library",
     "name": "Forest Library",
     "nameJa": "森の図書室",
@@ -13206,7 +13320,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0489",
+    "id": "w-0493",
     "slug": "komeda-coffee-shibuya-miyamasuzaka",
     "name": "Komeda Coffee Shibuya Miyamasuzaka",
     "nameJa": "コメダ珈琲店 渋谷宮益坂店",
@@ -13235,7 +13349,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0490",
+    "id": "w-0494",
     "slug": "streamer-coffee-company-shibuya",
     "name": "Streamer Coffee Company Shibuya",
     "nameJa": "ストリーマーコーヒーカンパニー 渋谷店",
@@ -13264,7 +13378,7 @@
     "instagram": "https://www.instagram.com/streamer_shibuya/"
   },
   {
-    "id": "w-0491",
+    "id": "w-0495",
     "slug": "udagawa-cafe",
     "name": "Udagawa Cafe",
     "nameJa": "宇田川カフェ",
@@ -13292,7 +13406,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0492",
+    "id": "w-0496",
     "slug": "moja-in-the-house",
     "name": "MOJA in the House",
     "nameJa": "モジャ イン ザ ハウス",
@@ -13320,7 +13434,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0493",
+    "id": "w-0497",
     "slug": "the-theatre-table",
     "name": "The Theatre Table",
     "nameJa": "ザ・シアターテーブル",
@@ -13348,7 +13462,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
   },
   {
-    "id": "w-0494",
+    "id": "w-0498",
     "slug": "valley-park-stand",
     "name": "Valley Park Stand",
     "nameJa": "バレーパークスタンド",
@@ -13376,7 +13490,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0495",
+    "id": "w-0499",
     "slug": "white-glass-coffee",
     "name": "White Glass Coffee",
     "nameJa": "ホワイトグラスコーヒー",
@@ -13404,7 +13518,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0496",
+    "id": "w-0500",
     "slug": "kohi-chakan-premium-grand-shibuya",
     "name": "Kohi Chakan Premium Grand Shibuya",
     "nameJa": "珈琲茶館プレミアム グランド渋谷店",
@@ -13432,7 +13546,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0497",
+    "id": "w-0501",
     "slug": "trunk-lounge",
     "name": "Trunk Lounge",
     "nameJa": "トランク ラウンジ",
@@ -13460,7 +13574,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0498",
+    "id": "w-0502",
     "slug": "marked-cafe-shibuya-cast",
     "name": "Marked Cafe Shibuya Cast",
     "nameJa": "マークトカフェ",
@@ -13488,7 +13602,7 @@
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
   },
   {
-    "id": "w-0499",
+    "id": "w-0503",
     "slug": "starbucks-coffee-shibuya-modi",
     "name": "Starbucks Coffee Shibuya Modi",
     "nameJa": "スターバックスコーヒー 渋谷モディ店",
@@ -13517,7 +13631,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0501",
+    "id": "w-0505",
     "slug": "tokyo-kenkyo",
     "name": "Tokyo Kenkyo",
     "address": "7-9 Nanpeidaicho, Shibuya-ku, Tokyo",
@@ -13544,7 +13658,7 @@
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
   },
   {
-    "id": "w-0502",
+    "id": "w-0506",
     "slug": "starbucks-coffee-gate-city-osaki",
     "name": "Starbucks Coffee Gate City Osaki",
     "nameJa": "スターバックスコーヒー ゲートシティ大崎店",
@@ -13573,7 +13687,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0503",
+    "id": "w-0507",
     "slug": "excelsior-cafe-osaki-new-city",
     "name": "Excelsior Cafe Osaki New City",
     "nameJa": "エクセルシオールカフェ 大崎ニューシティ店",
@@ -13602,7 +13716,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0504",
+    "id": "w-0508",
     "slug": "excelsior-cafe-osaki-think-park",
     "name": "Excelsior Cafe Osaki Think Park",
     "nameJa": "エクセルシオール カフェ 大崎シンクパーク店",
@@ -13631,7 +13745,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0505",
+    "id": "w-0509",
     "slug": "osaki-book-cafe",
     "name": "Osaki Book Cafe",
     "nameJa": "大崎ブックカフェ",
@@ -13659,7 +13773,7 @@
     "sourceUrl": "https://goworkship.com/magazine/osaki-cafe-dengen-wifi/"
   },
   {
-    "id": "w-0506",
+    "id": "w-0510",
     "slug": "times-cafe-gotanda",
     "name": "Times Cafe Gotanda",
     "nameJa": "タイムズカフェ",
@@ -13687,7 +13801,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-gotanda-workcafe/"
   },
   {
-    "id": "w-0508",
+    "id": "w-0512",
     "slug": "starbucks-coffee-nishi-gotanda",
     "name": "Starbucks Coffee Nishi-Gotanda",
     "nameJa": "スターバックスコーヒー 西五反田店",
@@ -13716,7 +13830,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0509",
+    "id": "w-0513",
     "slug": "excelsior-cafe-gotanda-east-exit",
     "name": "Excelsior Cafe Gotanda East Exit",
     "nameJa": "エクセルシオールカフェ 五反田東口店",
@@ -13745,7 +13859,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0510",
+    "id": "w-0514",
     "slug": "takakurachi-coffee-oimachi",
     "name": "Takakurachi Coffee Oimachi",
     "nameJa": "高倉町珈琲 大井町店",
@@ -13773,7 +13887,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oimachi-workcafe/"
   },
   {
-    "id": "w-0511",
+    "id": "w-0515",
     "slug": "starbucks-coffee-hankyu-oimachi-garden",
     "name": "Starbucks Coffee Hankyu Oimachi Garden",
     "nameJa": "スターバックスコーヒー 阪急大井町ガーデン店",
@@ -13802,7 +13916,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0512",
+    "id": "w-0516",
     "slug": "san-marc-cafe-hankyu-oimachi-garden",
     "name": "San Marc Cafe Hankyu Oimachi Garden",
     "nameJa": "サンマルクカフェ 阪急大井町ガーデン店",
@@ -13831,7 +13945,7 @@
     "instagram": "https://www.instagram.com/saint_marc_cafe_official/"
   },
   {
-    "id": "w-0513",
+    "id": "w-0517",
     "slug": "park-coffee-oimachi",
     "name": "Park Coffee Oimachi",
     "nameJa": "パークコーヒー",
@@ -13859,7 +13973,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oimachi-workcafe/"
   },
   {
-    "id": "w-0514",
+    "id": "w-0518",
     "slug": "komeda-coffee-musashi-koyama",
     "name": "Komeda Coffee Musashi-Koyama",
     "nameJa": "コメダ珈琲店 武蔵小山店",
@@ -13888,7 +14002,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0516",
+    "id": "w-0520",
     "slug": "breadworks-tennoz",
     "name": "breadworks Tennoz",
     "nameJa": "breadworks 天王洲",
@@ -13918,7 +14032,7 @@
     "instagram": "https://www.instagram.com/breadworks_lilycakes/"
   },
   {
-    "id": "w-0520",
+    "id": "w-0524",
     "slug": "brooklyn-parlor-shinjuku",
     "name": "Brooklyn Parlor Shinjuku",
     "nameJa": "ブルックリンパーラー 新宿",
@@ -13946,7 +14060,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0521",
+    "id": "w-0525",
     "slug": "the-smokist-coffee-shinjuku-gyoenmae",
     "name": "The Smokist Coffee Shinjuku-gyoenmae",
     "nameJa": "THE SMOKIST COFFEE 新宿御苑前店",
@@ -13974,7 +14088,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0522",
+    "id": "w-0526",
     "slug": "coffee-seibu",
     "name": "Coffee Seibu",
     "nameJa": "珈琲西武",
@@ -14002,7 +14116,7 @@
     "sourceUrl": "https://goworkship.com/magazine/shinjuku-nomado/"
   },
   {
-    "id": "w-0523",
+    "id": "w-0527",
     "slug": "tullys-coffee-nishi-shinjuku-ekimae",
     "name": "Tully's Coffee Nishi-Shinjuku Ekimae",
     "nameJa": "タリーズコーヒー 西新宿駅前店",
@@ -14031,7 +14145,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0524",
+    "id": "w-0528",
     "slug": "starbucks-shinjuku-nishiguchi",
     "name": "Starbucks Shinjuku Nishiguchi",
     "nameJa": "スターバックス 新宿西口店",
@@ -14060,7 +14174,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0525",
+    "id": "w-0529",
     "slug": "starbucks-shinjuku-nomura-building",
     "name": "Starbucks Shinjuku Nomura Building",
     "nameJa": "スターバックス 新宿野村ビル店",
@@ -14089,7 +14203,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0526",
+    "id": "w-0530",
     "slug": "cafe-hudson-shinjuku-mylord",
     "name": "Cafe Hudson Shinjuku Mylord",
     "nameJa": "CAFE HUDSON 新宿ミロード店",
@@ -14117,7 +14231,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0527",
+    "id": "w-0531",
     "slug": "the-3rd-burger-shinjuku-ohgado",
     "name": "The 3rd Burger Shinjuku Ohgado",
     "nameJa": "the 3rd Burger 新宿大ガード店",
@@ -14145,7 +14259,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0528",
+    "id": "w-0532",
     "slug": "kissaten-renoir-shinjuku-west-exit",
     "name": "Kissaten Renoir Shinjuku West Exit",
     "nameJa": "喫茶室ルノアール 新宿西口店",
@@ -14174,7 +14288,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0529",
+    "id": "w-0533",
     "slug": "komedas-coffee-shinjuku-sanchome",
     "name": "Komeda's Coffee Shinjuku-sanchome",
     "nameJa": "コメダ珈琲店 新宿三丁目店",
@@ -14203,7 +14317,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0530",
+    "id": "w-0534",
     "slug": "paul-bassett-shinjuku",
     "name": "Paul Bassett Shinjuku",
     "nameJa": "ポール・バセット 新宿店",
@@ -14232,7 +14346,7 @@
     "instagram": "https://www.instagram.com/paulbassett_jp/"
   },
   {
-    "id": "w-0531",
+    "id": "w-0535",
     "slug": "cotocafe",
     "name": "Cotocafe",
     "nameJa": "コトカフェ",
@@ -14260,7 +14374,7 @@
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
   },
   {
-    "id": "w-0532",
+    "id": "w-0536",
     "slug": "toki-cafe-kagurazaka",
     "name": "Toki Cafe Kagurazaka",
     "nameJa": "トキカフェ 神楽坂",
@@ -14288,7 +14402,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kagurazaka-workcafe/"
   },
   {
-    "id": "w-0533",
+    "id": "w-0537",
     "slug": "starbucks-kagurazaka-shita",
     "name": "Starbucks Kagurazaka-shita",
     "nameJa": "スターバックス 神楽坂下店",
@@ -14317,7 +14431,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0534",
+    "id": "w-0538",
     "slug": "ueshima-coffee-ten-kagurazaka",
     "name": "Ueshima Coffee Ten Kagurazaka",
     "nameJa": "上島珈琲店 神楽坂店",
@@ -14346,7 +14460,7 @@
     "instagram": "https://www.instagram.com/uccueshimacoffee/"
   },
   {
-    "id": "w-0535",
+    "id": "w-0539",
     "slug": "starbucks-shibuya-modi",
     "name": "Starbucks Shibuya MODI",
     "nameJa": "スターバックス コーヒー 渋谷モディ店",
@@ -14375,7 +14489,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0536",
+    "id": "w-0540",
     "slug": "starbucks-shinjuku-mitsui-building",
     "name": "Starbucks Shinjuku Mitsui Building",
     "nameJa": "スターバックス コーヒー 新宿三井ビル店",
@@ -14404,7 +14518,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0537",
+    "id": "w-0541",
     "slug": "starbucks-takanawa-gateway-station",
     "name": "Starbucks Takanawa Gateway Station",
     "nameJa": "スターバックス コーヒー 高輪ゲートウェイ駅店",
@@ -14433,7 +14547,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0538",
+    "id": "w-0542",
     "slug": "starbucks-jr-tokyo-station-nihombashi-guchi",
     "name": "Starbucks JR Tokyo Station Nihombashi-guchi",
     "nameJa": "スターバックス コーヒー JR東京駅日本橋口店",
@@ -14462,7 +14576,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0539",
+    "id": "w-0543",
     "slug": "starbucks-ginza-exitmelsa",
     "name": "Starbucks Ginza EXITMELSA",
     "nameJa": "スターバックス コーヒー 銀座EXITMELSA店",
@@ -14491,7 +14605,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0540",
+    "id": "w-0544",
     "slug": "starbucks-atre-ueno",
     "name": "Starbucks Atre Ueno",
     "nameJa": "スターバックス コーヒー アトレ上野店",
@@ -14520,7 +14634,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0541",
+    "id": "w-0545",
     "slug": "starbucks-ikebukuro-sunshine-dori",
     "name": "Starbucks Ikebukuro Sunshine-dori",
     "nameJa": "スターバックス コーヒー 池袋サンシャイン通り店",
@@ -14549,7 +14663,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0542",
+    "id": "w-0546",
     "slug": "starbucks-sanno-park-tower",
     "name": "Starbucks Sanno Park Tower",
     "nameJa": "スターバックス コーヒー 山王パークタワー店",
@@ -14578,7 +14692,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0543",
+    "id": "w-0547",
     "slug": "starbucks-gate-city-osaki",
     "name": "Starbucks Gate City Osaki",
     "nameJa": "スターバックス コーヒー ゲートシティ大崎店",
@@ -14607,7 +14721,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0544",
+    "id": "w-0548",
     "slug": "starbucks-gransta-tokyo-b1",
     "name": "Starbucks Gransta Tokyo B1",
     "nameJa": "スターバックス コーヒー グランスタ東京B1店",
@@ -14636,7 +14750,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0545",
+    "id": "w-0549",
     "slug": "starbucks-circles-ginza",
     "name": "Starbucks CIRCLES Ginza",
     "nameJa": "スターバックス コーヒー CIRCLES 銀座店",
@@ -14665,7 +14779,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0546",
+    "id": "w-0550",
     "slug": "starbucks-toyosu-center-building",
     "name": "Starbucks Toyosu Center Building",
     "nameJa": "スターバックス コーヒー 豊洲センタービル店",
@@ -14694,7 +14808,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0547",
+    "id": "w-0551",
     "slug": "starbucks-tokyo-skytree-town-solamachi-east-6f",
     "name": "Starbucks Tokyo Skytree Town Solamachi East 6F",
     "nameJa": "スターバックス コーヒー 東京スカイツリータウン・ソラマチ東6階店",
@@ -14723,7 +14837,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0549",
+    "id": "w-0553",
     "slug": "starbucks-tokyo-dome-city-laqua",
     "name": "Starbucks Tokyo Dome City LaQua",
     "nameJa": "スターバックス コーヒー 東京ドームシティ ラクーア店",
@@ -14752,7 +14866,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0550",
+    "id": "w-0554",
     "slug": "starbucks-ekia-kitasenju",
     "name": "Starbucks Ekia Kitasenju",
     "nameJa": "スターバックス コーヒー エキア北千住店",
@@ -14781,7 +14895,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0551",
+    "id": "w-0555",
     "slug": "starbucks-granduo-kamata",
     "name": "Starbucks Granduo Kamata",
     "nameJa": "スターバックス コーヒー グランデュオ蒲田店",
@@ -14810,7 +14924,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0552",
+    "id": "w-0556",
     "slug": "starbucks-shimokitazawa",
     "name": "Starbucks Shimokitazawa",
     "nameJa": "スターバックス コーヒー 下北沢店",
@@ -14839,7 +14953,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0553",
+    "id": "w-0557",
     "slug": "starbucks-ogikubo-town-seven",
     "name": "Starbucks Ogikubo Town Seven",
     "nameJa": "スターバックス コーヒー 荻窪タウンセブン店",
@@ -14868,7 +14982,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0554",
+    "id": "w-0558",
     "slug": "starbucks-beans-akabane",
     "name": "Starbucks Beans Akabane",
     "nameJa": "スターバックス コーヒー ビーンズ赤羽店",
@@ -14897,7 +15011,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0555",
+    "id": "w-0559",
     "slug": "starbucks-jiyugaoka-ekimae",
     "name": "Starbucks Jiyugaoka Ekimae",
     "nameJa": "スターバックス コーヒー 自由が丘駅前店",
@@ -14926,7 +15040,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0557",
+    "id": "w-0561",
     "slug": "starbucks-lala-terrace-minami-senju",
     "name": "Starbucks LaLa Terrace Minami-Senju",
     "nameJa": "スターバックス コーヒー LaLaテラス南千住店",
@@ -14955,7 +15069,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0558",
+    "id": "w-0562",
     "slug": "starbucks-kasai-rinkai-koen-station",
     "name": "Starbucks Kasai-Rinkai-Koen Station",
     "nameJa": "スターバックス コーヒー 葛西臨海公園駅店",
@@ -14984,7 +15098,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0559",
+    "id": "w-0563",
     "slug": "starbucks-emio-nerima",
     "name": "Starbucks Emio Nerima",
     "nameJa": "スターバックス コーヒー エミオ練馬店",
@@ -15013,7 +15127,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0560",
+    "id": "w-0564",
     "slug": "starbucks-tobu-narimasu-station",
     "name": "Starbucks Tobu Narimasu Station",
     "nameJa": "スターバックス コーヒー 東武成増駅店",
@@ -15042,7 +15156,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0561",
+    "id": "w-0565",
     "slug": "reboot-cafe-ogikubo-2",
     "name": "Reboot Cafe Ogikubo",
     "nameJa": "Reboot Cafe 荻窪",
@@ -15070,7 +15184,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ogikubo-workcafe/"
   },
   {
-    "id": "w-0563",
+    "id": "w-0567",
     "slug": "komeda-coffee-ogikubo-south-exit",
     "name": "Komeda Coffee Ogikubo South Exit",
     "nameJa": "コメダ珈琲店 荻窪南口店",
@@ -15099,7 +15213,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0564",
+    "id": "w-0568",
     "slug": "becks-coffee-shop-ogikubo",
     "name": "Beck's Coffee Shop Ogikubo",
     "nameJa": "ベックスコーヒーショップ 荻窪店",
@@ -15128,7 +15242,7 @@
     "instagram": "https://www.instagram.com/becks_coffee_shop/"
   },
   {
-    "id": "w-0565",
+    "id": "w-0569",
     "slug": "starbucks-coffee-lumine-ogikubo",
     "name": "Starbucks Coffee Lumine Ogikubo",
     "nameJa": "スターバックス コーヒー ルミネ荻窪店",
@@ -15157,7 +15271,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0566",
+    "id": "w-0570",
     "slug": "tullys-coffee-seibu-shinkin-ogikubo",
     "name": "Tully's Coffee Seibu Shinkin Ogikubo",
     "nameJa": "タリーズコーヒー 西武しんきん荻窪店",
@@ -15186,7 +15300,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0567",
+    "id": "w-0571",
     "slug": "doutor-coffee-koenji-south-exit",
     "name": "Doutor Coffee Koenji South Exit",
     "nameJa": "ドトールコーヒーショップ 高円寺南口店",
@@ -15215,7 +15329,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0568",
+    "id": "w-0572",
     "slug": "kissashitsu-renoir-koenji-north-exit",
     "name": "Kissashitsu Renoir Koenji North Exit",
     "nameJa": "喫茶室ルノアール 高円寺北口駅前店",
@@ -15244,7 +15358,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0569",
+    "id": "w-0573",
     "slug": "pronto-koenji-south-exit",
     "name": "Pronto Koenji South Exit",
     "nameJa": "プロント 高円寺南口店",
@@ -15273,7 +15387,7 @@
     "instagram": "https://www.instagram.com/pronto___official/"
   },
   {
-    "id": "w-0570",
+    "id": "w-0574",
     "slug": "coworking-cafe-bar-mui",
     "name": "Coworking Cafe-Bar mui",
     "nameJa": "コワーキングカフェ・バー mui",
@@ -15301,7 +15415,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kouenji-workcafe/"
   },
   {
-    "id": "w-0572",
+    "id": "w-0576",
     "slug": "starbucks-coffee-asagaya-ekimae",
     "name": "Starbucks Coffee Asagaya Ekimae",
     "nameJa": "スターバックス コーヒー 阿佐ヶ谷駅前店",
@@ -15330,7 +15444,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0573",
+    "id": "w-0577",
     "slug": "cafe-and-bar-pronto-beans-asagaya",
     "name": "Cafe & Bar Pronto Beans Asagaya",
     "nameJa": "カフェ&バー プロント Beans阿佐ヶ谷店",
@@ -15359,7 +15473,7 @@
     "instagram": "https://www.instagram.com/pronto___official/"
   },
   {
-    "id": "w-0574",
+    "id": "w-0578",
     "slug": "coffee-and-bake-achoo",
     "name": "Coffee & Bake Achoo!",
     "nameJa": "Coffee & Bake Achoo!",
@@ -15387,7 +15501,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-asagaya-workcafe/"
   },
   {
-    "id": "w-0575",
+    "id": "w-0579",
     "slug": "penguin-cafe-asagaya",
     "name": "Penguin Cafe Asagaya",
     "nameJa": "ペンギンカフェ",
@@ -15415,7 +15529,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-asagaya-workcafe/"
   },
   {
-    "id": "w-0576",
+    "id": "w-0580",
     "slug": "lifework-cafe-nishi-ogikubo",
     "name": "LifeWork Cafe Nishi-Ogikubo",
     "nameJa": "ライフワーク（LifeWork Cafe）",
@@ -15443,7 +15557,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nishiogikubo-coworking/"
   },
   {
-    "id": "w-0577",
+    "id": "w-0581",
     "slug": "starbucks-coffee-kinshicho-termina-2",
     "name": "Starbucks Coffee Kinshicho Termina 2",
     "nameJa": "スターバックスコーヒー 錦糸町テルミナ2店",
@@ -15472,7 +15586,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0578",
+    "id": "w-0582",
     "slug": "komedas-coffee-marui-kinshicho",
     "name": "Komeda's Coffee Marui Kinshicho",
     "nameJa": "コメダ珈琲店 錦糸町マルイ店",
@@ -15501,7 +15615,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0579",
+    "id": "w-0583",
     "slug": "tullys-coffee-kinshicho-termina",
     "name": "Tully's Coffee Kinshicho Termina",
     "nameJa": "タリーズコーヒー 錦糸町テルミナ店",
@@ -15530,7 +15644,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0580",
+    "id": "w-0584",
     "slug": "join-cafe",
     "name": "JOIN Cafe",
     "nameJa": "ジョインカフェ",
@@ -15558,7 +15672,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0581",
+    "id": "w-0585",
     "slug": "moxy-bar-and-lounge-kinshicho",
     "name": "Moxy Bar & Lounge Kinshicho",
     "nameJa": "モクシー東京錦糸町 バー&ラウンジ",
@@ -15586,7 +15700,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0583",
+    "id": "w-0587",
     "slug": "cafe-le-monde-kinshicho",
     "name": "Cafe Le Monde Kinshicho",
     "nameJa": "カフェ ル・モンド",
@@ -15614,7 +15728,7 @@
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
   },
   {
-    "id": "w-0584",
+    "id": "w-0588",
     "slug": "excelsior-cafe-tokyo-skytree-east-tower",
     "name": "Excelsior Cafe Tokyo Skytree East Tower",
     "nameJa": "エクセルシオールカフェ 東京スカイツリーイーストタワー店",
@@ -15643,7 +15757,7 @@
     "instagram": "https://www.instagram.com/excelsiorcaffe_official/"
   },
   {
-    "id": "w-0585",
+    "id": "w-0589",
     "slug": "starbucks-tokyo-skytree-solamachi-east-6f",
     "name": "Starbucks Tokyo Skytree Solamachi East 6F",
     "nameJa": "スターバックスコーヒー 東京スカイツリータウン・ソラマチ東6階店",
@@ -15672,7 +15786,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0586",
+    "id": "w-0590",
     "slug": "genba-kissaten",
     "name": "Genba Kissaten",
     "nameJa": "現場喫茶",
@@ -15700,7 +15814,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
   },
   {
-    "id": "w-0587",
+    "id": "w-0591",
     "slug": "benkyo-cafe-ryogoku-studio",
     "name": "Benkyo Cafe Ryogoku Studio",
     "nameJa": "勉強カフェ 両国スタジオ",
@@ -15728,7 +15842,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
   },
   {
-    "id": "w-0588",
+    "id": "w-0592",
     "slug": "saint-marc-cafe-ryogoku-west-exit",
     "name": "Saint Marc Cafe Ryogoku West Exit",
     "nameJa": "サンマルクカフェ 両国西口店",
@@ -15757,7 +15871,7 @@
     "instagram": "https://www.instagram.com/saint_marc_cafe_official/"
   },
   {
-    "id": "w-0589",
+    "id": "w-0593",
     "slug": "cafe-veloce-ryogoku",
     "name": "Cafe Veloce Ryogoku",
     "nameJa": "カフェ・ベローチェ 両国店",
@@ -15786,7 +15900,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0590",
+    "id": "w-0594",
     "slug": "rcafe192",
     "name": "Rcafe192",
     "nameJa": "Rcafe192",
@@ -15814,7 +15928,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
   },
   {
-    "id": "w-0592",
+    "id": "w-0596",
     "slug": "tullys-coffee-ueno-mori-sakura-terrace",
     "name": "Tully's Coffee Ueno Mori Sakura Terrace",
     "nameJa": "タリーズコーヒー 上野の森さくらテラス店",
@@ -15843,7 +15957,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0593",
+    "id": "w-0597",
     "slug": "wired-cafe-atre-ueno",
     "name": "WIRED CAFE Atre Ueno",
     "nameJa": "ワイアードカフェ アトレ上野店",
@@ -15872,7 +15986,7 @@
     "instagram": "https://www.instagram.com/wiredcafe__ueno/"
   },
   {
-    "id": "w-0594",
+    "id": "w-0598",
     "slug": "chano-ma-ueno",
     "name": "chano-ma Ueno",
     "nameJa": "チャノマ 上野マルイ店",
@@ -15900,7 +16014,7 @@
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
   },
   {
-    "id": "w-0595",
+    "id": "w-0599",
     "slug": "nanas-green-tea-ueno-marui",
     "name": "nana's green tea Ueno Marui",
     "nameJa": "nana's green tea 上野マルイ店",
@@ -15929,7 +16043,7 @@
     "instagram": "https://www.instagram.com/nanasgreentea_official/"
   },
   {
-    "id": "w-0596",
+    "id": "w-0600",
     "slug": "cafe-veloce-ueno-3-chome",
     "name": "Cafe Veloce Ueno 3-chome",
     "nameJa": "カフェ・ベローチェ 上野三丁目店",
@@ -15958,7 +16072,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0597",
+    "id": "w-0601",
     "slug": "cafe-de-crie-jr-okachimachi",
     "name": "Cafe de Crie JR Okachimachi",
     "nameJa": "カフェ・ド・クリエ JR御徒町駅前店",
@@ -15987,7 +16101,7 @@
     "instagram": "https://www.instagram.com/cafedecrie/"
   },
   {
-    "id": "w-0598",
+    "id": "w-0602",
     "slug": "sekai-cafe-asakusa",
     "name": "SEKAI CAFE Asakusa",
     "nameJa": "浅草 SEKAIカフェ",
@@ -16016,7 +16130,7 @@
     "instagram": "https://www.instagram.com/sekai_cafe/"
   },
   {
-    "id": "w-0599",
+    "id": "w-0603",
     "slug": "starbucks-asakusa-ekimae",
     "name": "Starbucks Asakusa Ekimae",
     "nameJa": "スターバックス 浅草駅前店",
@@ -16045,7 +16159,7 @@
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
   {
-    "id": "w-0600",
+    "id": "w-0604",
     "slug": "asakusa-cafe-dining-well",
     "name": "Asakusa Cafe Dining well",
     "nameJa": "浅草カフェダイニング well",
@@ -16073,7 +16187,7 @@
     "sourceUrl": "https://growing.jp/?p=893"
   },
   {
-    "id": "w-0601",
+    "id": "w-0605",
     "slug": "en-kuramae",
     "name": "en Kuramae",
     "nameJa": "鷰 en",
@@ -16100,7 +16214,7 @@
     "sourceUrl": "https://www.kamometomachi.com/en-cafe"
   },
   {
-    "id": "w-0602",
+    "id": "w-0606",
     "slug": "dandelion-chocolate-factory-and-cafe-kuramae",
     "name": "Dandelion Chocolate Factory & Cafe Kuramae",
     "nameJa": "ダンデライオン・チョコレート ファクトリー&カフェ蔵前",
@@ -16128,7 +16242,7 @@
     "instagram": "https://www.instagram.com/dandelion_chocolate_japan/"
   },
   {
-    "id": "w-0604",
+    "id": "w-0608",
     "slug": "cafe-veloce-asakusabashi",
     "name": "Cafe Veloce Asakusabashi",
     "nameJa": "カフェ・ベローチェ 浅草橋店",
@@ -16156,7 +16270,7 @@
     "instagram": "https://www.instagram.com/cafe.veloce/"
   },
   {
-    "id": "w-0605",
+    "id": "w-0609",
     "slug": "komeda-coffee-asakusabashi",
     "name": "Komeda Coffee Asakusabashi",
     "nameJa": "コメダ珈琲店 浅草橋店",
@@ -16184,7 +16298,7 @@
     "instagram": "https://www.instagram.com/komeda_coffee_official/"
   },
   {
-    "id": "w-0606",
+    "id": "w-0610",
     "slug": "mermaid-coffee-roasters-ikebukuro",
     "name": "Mermaid Coffee Roasters Ikebukuro",
     "nameJa": "マーメイドコーヒーロースターズ 池袋",
@@ -16212,7 +16326,7 @@
     "sourceUrl": "https://rtrp.jp/articles/12554/"
   },
   {
-    "id": "w-0608",
+    "id": "w-0612",
     "slug": "cafe-insquare-ikebukuro",
     "name": "Cafe Insquare Ikebukuro",
     "nameJa": "カフェ インスクエア 池袋",
@@ -16240,7 +16354,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ikebukuro-nomado/"
   },
   {
-    "id": "w-0609",
+    "id": "w-0613",
     "slug": "seattles-best-coffee-ikebukuro-sunshine-60",
     "name": "Seattle's Best Coffee Ikebukuro Sunshine 60",
     "nameJa": "シアトルズベストコーヒー 池袋サンシャイン60店",
@@ -16269,7 +16383,7 @@
     "instagram": "https://www.instagram.com/seattlesbest_japan/"
   },
   {
-    "id": "w-0610",
+    "id": "w-0614",
     "slug": "sakura-cafe-ikebukuro",
     "name": "Sakura Cafe Ikebukuro",
     "nameJa": "サクラカフェ 池袋",
@@ -16297,7 +16411,7 @@
     "sourceUrl": "https://goworkship.com/magazine/ikebukuro-nomado/"
   },
   {
-    "id": "w-0611",
+    "id": "w-0615",
     "slug": "fukuro-book-and-coffee",
     "name": "Fukuro Book & Coffee",
     "nameJa": "本と珈琲 梟書茶房",
@@ -16324,7 +16438,7 @@
     "sourceUrl": "https://rtrp.jp/articles/12554/"
   },
   {
-    "id": "w-0613",
+    "id": "w-0617",
     "slug": "cafe-renoir-sugamo-ekimae",
     "name": "Cafe Renoir Sugamo Ekimae",
     "nameJa": "喫茶室ルノアール 巣鴨駅前店",
@@ -16353,7 +16467,7 @@
     "instagram": "https://www.instagram.com/ginza_renoir_official/"
   },
   {
-    "id": "w-0614",
+    "id": "w-0618",
     "slug": "becks-coffee-shop-sugamo",
     "name": "Beck's Coffee Shop Sugamo",
     "nameJa": "ベックスコーヒーショップ 巣鴨店",
@@ -16382,7 +16496,7 @@
     "instagram": "https://www.instagram.com/becks_coffee_shop/"
   },
   {
-    "id": "w-0615",
+    "id": "w-0619",
     "slug": "hakushaku-coffee-sugamo",
     "name": "Hakushaku Coffee Sugamo",
     "nameJa": "珈琲専門館 伯爵 巣鴨店",
@@ -16410,7 +16524,7 @@
     "sourceUrl": "https://blog.linkedge.jp/cafe-sugamo/"
   },
   {
-    "id": "w-0616",
+    "id": "w-0620",
     "slug": "tullys-coffee-otsuka",
     "name": "Tully's Coffee Otsuka",
     "nameJa": "タリーズコーヒー 大塚店",
@@ -16439,7 +16553,7 @@
     "instagram": "https://www.instagram.com/tullyscoffeejapan/"
   },
   {
-    "id": "w-0617",
+    "id": "w-0621",
     "slug": "selfcafe-otsuka-ekiminami",
     "name": "Selfcafe Otsuka Ekiminami",
     "nameJa": "セルフカフェ 大塚駅南口店",
@@ -16467,7 +16581,7 @@
     "sourceUrl": "https://selfcafe.jp/blog/cafe/202512051846/"
   },
   {
-    "id": "w-0618",
+    "id": "w-0622",
     "slug": "doutor-coffee-mejiro-ekimae",
     "name": "Doutor Coffee Mejiro Ekimae",
     "nameJa": "ドトールコーヒーショップ 目白駅前店",
@@ -16496,7 +16610,7 @@
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
   },
   {
-    "id": "w-0619",
+    "id": "w-0623",
     "slug": "pronto-mejiro",
     "name": "Pronto Mejiro",
     "nameJa": "プロント 目白店",
@@ -16517,10 +16631,10 @@
     "laptopFriendly": true,
     "open24h": false,
     "openLate": false,
-    "description": "A cafe-bar by the station listed as having power outlets for study, but no source consulted confirmed its Wi-Fi status.",
+    "description": "LIKELY CLOSED: a Pronto cafe-bar by Mejiro station previously listed with power outlets, but Tabelog now marks it closed and the official store page is gone. Pending human confirmation before removal.",
     "lastChecked": "2026-08-01",
     "confidence": "low",
-    "sourceUrl": "https://cafe-coffee-lab.com/17739.html",
+    "sourceUrl": "https://tabelog.com/tokyo/A1305/A130502/13220188/",
     "instagram": "https://www.instagram.com/pronto___official/"
   }
 ]

@@ -298,10 +298,10 @@
     "laptopFriendly": true,
     "businessHours": "",
     "priceBand": "¥¥",
-    "description": "A cafe-bar by the station listed as having power outlets for study, but no source consulted confirmed its Wi-Fi status.",
+    "description": "LIKELY CLOSED: a Pronto cafe-bar by Mejiro station previously listed with power outlets, but Tabelog now marks it closed and the official store page is gone. Pending human confirmation before removal.",
     "confidence": "low",
     "sources": [
-      "https://cafe-coffee-lab.com/17739.html"
+      "https://tabelog.com/tokyo/A1305/A130502/13220188/"
     ]
   }
 ]
