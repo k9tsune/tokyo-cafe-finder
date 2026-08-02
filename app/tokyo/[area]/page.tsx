@@ -3,7 +3,9 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import FilterableCafeList from "@/components/FilterableCafeList";
 import ComparisonTable from "@/components/ComparisonTable";
+import AreaCover from "@/components/AreaCover";
 import { getAllAreas, getArea, getVenuesByArea } from "@/lib/db";
+import { areaPhotoSrc, areaPhotoMeta } from "@/lib/media";
 import { areaListJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
 
 export const dynamicParams = false;
@@ -57,6 +59,17 @@ export default function AreaPage({ params }: { params: { area: string } }) {
       <JsonLd data={faqJsonLd(faq)} />
 
       <p className="breadcrumb"><Link href="/">Home</Link> / <Link href="/tokyo">Tokyo</Link> / {area.name}</p>
+      {(areaPhotoSrc(area.slug) || area.photoRef) && (
+        <>
+          <AreaCover slug={area.slug} name={area.name} photo={areaPhotoSrc(area.slug)} photoRef={area.photoRef} banner />
+          {(() => {
+            const m = areaPhotoMeta(area.slug);
+            if (m) return <p className="page-photo-credit">Photo: {m.title} by {m.author}, {m.license}</p>;
+            if (area.photoAttr) return <p className="page-photo-credit">Photo: {area.photoAttr} · via Google</p>;
+            return null;
+          })()}
+        </>
+      )}
       <h1>Cafes with Wi-Fi &amp; power outlets in {area.name}</h1>
       <p className="lede">{area.introText}</p>
 

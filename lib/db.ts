@@ -28,8 +28,18 @@ const venues = (venuesData as unknown as Venue[]).map((v) => {
     ...(typeof p.lng === "number" ? { lng: p.lng } : {}),
   };
 });
-const areas = areasData as unknown as Area[];
-const stations = stationsData as unknown as Station[];
+// Merge Google Places photos onto areas/stations (keyed "area:<slug>" /
+// "station:<slug>" in places.json). Only the photo is taken — curated coords win.
+const areas = (areasData as unknown as Area[]).map((a) => {
+  const p = places[`area:${a.slug}`];
+  if (!p?.ref) return a;
+  return { ...a, photoRef: p.ref, ...(p.attr ? { photoAttr: p.attr } : {}) };
+});
+const stations = (stationsData as unknown as Station[]).map((s) => {
+  const p = places[`station:${s.slug}`];
+  if (!p?.ref) return s;
+  return { ...s, photoRef: p.ref, ...(p.attr ? { photoAttr: p.attr } : {}) };
+});
 
 export function getAllAreas(): Area[] {
   return areas;

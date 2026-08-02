@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import FilterableCafeList from "@/components/FilterableCafeList";
 import ComparisonTable from "@/components/ComparisonTable";
+import AreaCover from "@/components/AreaCover";
 import { getAllStations, getStation, getVenuesByStation } from "@/lib/db";
 import { stationListJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 
@@ -37,6 +38,12 @@ export default function StationPage({ params }: { params: { station: string } })
       <JsonLd data={stationListJsonLd(s, venues)} />
 
       <p className="breadcrumb"><Link href="/">Home</Link> / <Link href="/tokyo">Tokyo</Link> / {s.name}</p>
+      {s.photoRef && (
+        <>
+          <AreaCover slug={s.slug} name={s.name} photoRef={s.photoRef} banner />
+          {s.photoAttr && <p className="page-photo-credit">Photo: {s.photoAttr} · via Google</p>}
+        </>
+      )}
       <h1>Laptop-friendly cafes near {s.name}</h1>
       <p className="lede">
         Cafes within a short walk of {s.name} ({s.lineNames.join(", ")}), sorted by distance.

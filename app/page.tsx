@@ -1,7 +1,6 @@
 import Link from "next/link";
 import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
-import HeroScene from "@/components/HeroScene";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
@@ -14,21 +13,16 @@ export default function HomePage() {
   return (
     <div>
       <section className="hero">
-        <div className="hero-copy">
-          <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
-          <p className="lede">
-            Every cafe checked and dated, across all 23 wards. Search a station, or find what&apos;s
-            nearest right now.
-          </p>
+        <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
+        <p className="lede">
+          Every cafe checked and dated, across all 23 wards. Search a station, or find what&apos;s
+          nearest right now.
+        </p>
 
-          <HomeSearch destinations={destinations} />
-          <div className="hero-actions">
-            <NearMeButton charge label="🔋 Phone dying? Nearest outlet →" />
-            <NearMeButton />
-          </div>
-        </div>
-        <div className="hero-art" aria-hidden="true">
-          <HeroScene />
+        <HomeSearch destinations={destinations} />
+        <div className="hero-actions">
+          <NearMeButton charge label="🔋 Phone dying? Nearest outlet →" />
+          <NearMeButton />
         </div>
       </section>
 
@@ -36,7 +30,7 @@ export default function HomePage() {
       <div className="card-grid">
         {areas.map((a) => (
           <Link key={a.slug} href={`/tokyo/${a.slug}`} className="has-cover">
-            <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} />
+            <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} photoRef={a.photoRef} />
             <div className="cover-text">
               <strong>{a.name}</strong>
               <div className="muted" style={{ fontSize: ".82rem" }}>Cafes with Wi-Fi &amp; outlets</div>

@@ -15,13 +15,28 @@ function blossom(x: number, y: number, r: number): string {
   return `<g transform="translate(${x},${y}) scale(${r})" fill="#f4b8cd"><circle cx="0" cy="-2.4" r="1.9"/><circle cx="2.3" cy="-0.7" r="1.9"/><circle cx="1.4" cy="2" r="1.9"/><circle cx="-1.4" cy="2" r="1.9"/><circle cx="-2.3" cy="-0.7" r="1.9"/><circle cx="0" cy="0" r="0.9" fill="#e98bad"/></g>`;
 }
 
-export default function AreaCover({ slug, photo, name }: { slug: string; photo?: string; name?: string }) {
-  // A real photo (when provided) replaces the generated tile.
-  if (photo) {
+export default function AreaCover({
+  slug,
+  photo,
+  photoRef,
+  name,
+  banner = false,
+}: {
+  slug: string;
+  photo?: string;
+  photoRef?: string; // Google Places photo resource name (fallback when no curated photo)
+  name?: string;
+  banner?: boolean;  // wide, short page-header variant
+}) {
+  const wrapClass = `area-cover${banner ? " area-cover-banner" : ""}`;
+  // Photo priority: a curated URL (e.g. Wikimedia) first, then a Google Places
+  // photo, then the generated skyline tile so every area/station has a visual.
+  const src = photo || (photoRef ? `/api/place-photo?ref=${encodeURIComponent(photoRef)}&w=${banner ? 1000 : 640}` : "");
+  if (src) {
     return (
-      <div className="area-cover">
+      <div className={wrapClass}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={photo} alt={name ? `${name}, Tokyo` : ""} loading="lazy" className="area-cover-img" />
+        <img src={src} alt={name ? `${name}, Tokyo` : ""} loading="lazy" className="area-cover-img" />
       </div>
     );
   }
@@ -54,5 +69,5 @@ export default function AreaCover({ slug, photo, name }: { slug: string; photo?:
     blossom(11, 11, 1) + blossom(108, 16, 0.8) +
     `</svg>`;
 
-  return <div className="area-cover" aria-hidden="true" dangerouslySetInnerHTML={{ __html: svg }} />;
+  return <div className={wrapClass} aria-hidden="true" dangerouslySetInnerHTML={{ __html: svg }} />;
 }

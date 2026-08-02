@@ -49,6 +49,8 @@ export interface Area {
   introText: string;
   lat: number;
   lng: number;
+  photoRef?: string;   // optional: Google Places photo resource name -> /api/place-photo
+  photoAttr?: string;  // optional: photo attribution (shown when a Places photo is used)
 }
 
 export interface Station {
@@ -58,6 +60,8 @@ export interface Station {
   lat?: number;
   lng?: number;
   areaSlug: string;
+  photoRef?: string;   // optional: Google Places photo resource name -> /api/place-photo
+  photoAttr?: string;  // optional: photo attribution (shown when a Places photo is used)
 }
 
 // AND/OR filter model (plan §2.2)

@@ -281,7 +281,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   position: relative;
   overflow: hidden;
   margin: 8px 0 28px;
-  padding: 36px 32px 38px;
+  padding: 40px 32px 56px;
   border-radius: calc(var(--radius) + 6px);
   border: 1px solid var(--line);
   background:
@@ -289,22 +289,11 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
     radial-gradient(120% 120% at 0% 100%, color-mix(in srgb, var(--yes-bg) 60%, transparent) 0%, transparent 55%),
     var(--surface);
   box-shadow: var(--shadow);
-  display: flex;
-  align-items: center;
-  gap: 34px;
-}
-.hero-copy { flex: 1 1 440px; min-width: 0; }
-.hero-art { flex: 1 1 380px; min-width: 0; max-width: 540px; margin-left: auto; }
-.hero-art-inner { display: block; width: 100%; }
-.hero-scene { display: block; width: 100%; height: auto; }
-@media (max-width: 780px) {
-  .hero { flex-direction: column; align-items: stretch; gap: 20px; padding: 28px 22px 30px; }
-  .hero-art { order: 2; max-width: 100%; margin: 0 auto; width: 100%; }
-  .hero-copy { flex: 1 1 auto; }
 }
 
-/* Hero scene (Tokyo skyline in a browser window) — themed via variables so it
-   matches both light and dark mode. */
+/* Hero scene (Tokyo skyline in a browser window) — kept for later; not currently
+   rendered on the homepage. Themed via variables so it matches light/dark. */
+.hero-scene { display: block; width: 100%; height: auto; }
 .hs-window { fill: var(--hs-window); }
 .hs-frame { stroke: var(--hs-frame); stroke-width: 2.2; }
 .hs-dot { fill: var(--hs-dot); }
@@ -322,6 +311,9 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .area-cover { display: block; width: 100%; aspect-ratio: 120 / 56; overflow: hidden; }
 .area-cover svg { display: block; width: 100%; height: 100%; }
 .area-cover-img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.area-cover-banner { aspect-ratio: auto; height: clamp(130px, 22vw, 196px); border-radius: var(--radius); margin: 2px 0 16px; box-shadow: var(--shadow-sm); border: 1px solid var(--line); }
+.area-cover-banner svg, .area-cover-banner .area-cover-img { width: 100%; height: 100%; }
+.page-photo-credit { font-size: .76rem; color: var(--muted); margin: -10px 0 16px; }
 .card-grid a.has-cover { padding: 0; overflow: hidden; }
 .card-grid a.has-cover .cover-text { padding: 12px 16px 14px; }
 .explore-map { margin: 8px auto 32px; }
