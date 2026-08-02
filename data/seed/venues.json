@@ -9,6 +9,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 1,
     "businessHours": "Cafe 7:00-17:30 / Bar 17:30-23:00",
@@ -35,6 +37,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 3,
     "businessHours": "7:00-20:00",
@@ -61,6 +65,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 10,
     "businessHours": "7:00-20:00",
@@ -87,6 +93,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 1,
     "businessHours": "8:00-20:00",
@@ -113,6 +121,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Sat 8:00-21:00 / Sun/Hol 9:00-21:00",
@@ -139,6 +149,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 8,
     "businessHours": "12:00-23:00",
@@ -165,6 +177,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 5,
     "businessHours": "Tue-Fri 11:00-18:00 / Sat-Sun/Hol 10:00-18:00",
@@ -191,6 +205,8 @@
     "stationSlugs": [
       "ayase-station"
     ],
+    "lat": 35.762222,
+    "lng": 139.825019,
     "nearestStation": "Ayase Station",
     "walkMinutes": 1,
     "businessHours": "8:00-21:30",
@@ -217,6 +233,8 @@
     "stationSlugs": [
       "kita-ayase-station"
     ],
+    "lat": 35.777117,
+    "lng": 139.832035,
     "nearestStation": "Kita-Ayase Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -242,6 +260,8 @@
     "stationSlugs": [
       "nishiarai-station"
     ],
+    "lat": 35.777323,
+    "lng": 139.790372,
     "nearestStation": "Nishiarai Station",
     "walkMinutes": 5,
     "priceBand": "¥",
@@ -267,6 +287,8 @@
     "stationSlugs": [
       "nishi-nippori-station"
     ],
+    "lat": 35.731954,
+    "lng": 139.766857,
     "nearestStation": "Nishi-Nippori Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
@@ -293,6 +315,8 @@
     "stationSlugs": [
       "nippori-station"
     ],
+    "lat": 35.727908,
+    "lng": 139.771287,
     "nearestStation": "Nippori Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
@@ -319,6 +343,8 @@
     "stationSlugs": [
       "nishi-nippori-station"
     ],
+    "lat": 35.731954,
+    "lng": 139.766857,
     "nearestStation": "Nishi-Nippori Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-21:00 / Weekends 7:00-20:00",
@@ -345,6 +371,8 @@
     "stationSlugs": [
       "nippori-station"
     ],
+    "lat": 35.727908,
+    "lng": 139.771287,
     "nearestStation": "Nippori Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -371,6 +399,8 @@
     "stationSlugs": [
       "machiya-station"
     ],
+    "lat": 35.742354,
+    "lng": 139.781499,
     "nearestStation": "Machiya Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Sat 6:45-20:00 / Sun/Hol 7:00-20:00",
@@ -397,6 +427,8 @@
     "stationSlugs": [
       "nippori-station"
     ],
+    "lat": 35.727908,
+    "lng": 139.771287,
     "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "8:00-22:00",
@@ -423,6 +455,8 @@
     "stationSlugs": [
       "nippori-station"
     ],
+    "lat": 35.727908,
+    "lng": 139.771287,
     "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -448,6 +482,8 @@
     "stationSlugs": [
       "nippori-station"
     ],
+    "lat": 35.727908,
+    "lng": 139.771287,
     "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "8:30-21:00",
@@ -474,6 +510,8 @@
     "stationSlugs": [
       "nihonbashi-station"
     ],
+    "lat": 35.682078,
+    "lng": 139.773516,
     "nearestStation": "Nihonbashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-21:30, Sat/Sun/Hol 7:00-21:00",
@@ -500,6 +538,8 @@
     "stationSlugs": [
       "chitose-karasuyama-station"
     ],
+    "lat": 35.667921,
+    "lng": 139.60067,
     "nearestStation": "Chitose-Karasuyama Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -526,6 +566,8 @@
     "stationSlugs": [
       "komazawa-daigaku-station"
     ],
+    "lat": 35.6266,
+    "lng": 139.6621,
     "nearestStation": "Komazawa-daigaku Station",
     "walkMinutes": 3,
     "businessHours": "7:00-21:00",
@@ -552,6 +594,8 @@
     "stationSlugs": [
       "shin-nakano-station"
     ],
+    "lat": 35.697491,
+    "lng": 139.66903,
     "nearestStation": "Shin-Nakano Station",
     "walkMinutes": 1,
     "businessHours": "7:00-21:00",
@@ -578,6 +622,8 @@
     "stationSlugs": [
       "naka-okachimachi-station"
     ],
+    "lat": 35.706649,
+    "lng": 139.776138,
     "nearestStation": "Naka-Okachimachi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays/Sat 7:00-21:00, Sun/Hol 7:00-20:00",
@@ -604,8 +650,8 @@
     "stationSlugs": [
       "meguro-station"
     ],
-    "lat": 35.6339,
-    "lng": 139.716,
+    "lat": 35.633923,
+    "lng": 139.715775,
     "nearestStation": "Meguro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
@@ -632,6 +678,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
@@ -658,6 +706,8 @@
     "stationSlugs": [
       "gaienmae-station"
     ],
+    "lat": 35.6705,
+    "lng": 139.7178,
     "nearestStation": "Gaienmae Station",
     "walkMinutes": 1,
     "businessHours": "7:00-21:00",
@@ -684,6 +734,8 @@
     "stationSlugs": [
       "toyocho-station"
     ],
+    "lat": 35.669629,
+    "lng": 139.817596,
     "nearestStation": "Toyocho Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:30-22:00, Sat/Sun/Hol 7:00-22:00",
@@ -710,6 +762,8 @@
     "stationSlugs": [
       "shinjuku-nishiguchi-station"
     ],
+    "lat": 35.693315,
+    "lng": 139.699155,
     "nearestStation": "Shinjuku-nishiguchi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-22:00, Sat/Sun/Hol 7:00-22:00",
@@ -736,6 +790,8 @@
     "stationSlugs": [
       "itabashi-kuyakusho-mae-station"
     ],
+    "lat": 35.751284,
+    "lng": 139.710102,
     "nearestStation": "Itabashi-kuyakusho-mae Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 6:45-21:00, Sat/Sun/Hol 7:00-21:00",
@@ -762,6 +818,8 @@
     "stationSlugs": [
       "korakuen-station"
     ],
+    "lat": 35.707898,
+    "lng": 139.751864,
     "nearestStation": "Korakuen Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-21:30, Sat/Sun/Hol 7:30-21:00",
@@ -788,6 +846,8 @@
     "stationSlugs": [
       "kamata-station"
     ],
+    "lat": 35.562517,
+    "lng": 139.716032,
     "nearestStation": "Kamata Station",
     "walkMinutes": 3,
     "businessHours": "Weekdays 6:45-21:00, Sat/Sun/Hol 7:00-20:00",
@@ -814,6 +874,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Sat 7:00-22:00, Sun/Hol 7:00-21:00",
@@ -840,6 +902,8 @@
     "stationSlugs": [
       "akebonobashi-station"
     ],
+    "lat": 35.692402,
+    "lng": 139.722881,
     "nearestStation": "Akebonobashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 9:00-19:00",
@@ -866,6 +930,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 3,
     "businessHours": "9:00-20:00",
@@ -892,6 +958,8 @@
     "stationSlugs": [
       "ichigaya-station"
     ],
+    "lat": 35.691105,
+    "lng": 139.735241,
     "nearestStation": "Ichigaya Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:30-21:00, Sat/Sun/Hol 7:00-20:00",
@@ -918,6 +986,8 @@
     "stationSlugs": [
       "akabane-station"
     ],
+    "lat": 35.778026,
+    "lng": 139.720928,
     "nearestStation": "Akabane Station",
     "walkMinutes": 3,
     "businessHours": "8:00-21:00",
@@ -944,6 +1014,8 @@
     "stationSlugs": [
       "okachimachi-station"
     ],
+    "lat": 35.707282,
+    "lng": 139.774727,
     "nearestStation": "Okachimachi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
@@ -970,6 +1042,8 @@
     "stationSlugs": [
       "ebisu-station"
     ],
+    "lat": 35.646685,
+    "lng": 139.71007,
     "nearestStation": "Ebisu Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00 (L.O. 22:30)",
@@ -996,8 +1070,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 3,
     "businessHours": "Weekdays 7:00-22:00, Sat/Sun/Hol 7:00-21:00",
@@ -1024,8 +1098,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 6,
     "businessHours": "Mon-Sat 7:30-22:00, Sun/Hol 8:00-21:00",
@@ -1052,6 +1126,8 @@
     "stationSlugs": [
       "keisei-ueno-station"
     ],
+    "lat": 35.711232,
+    "lng": 139.773571,
     "nearestStation": "Keisei-Ueno Station",
     "walkMinutes": 1,
     "businessHours": "Daily 8:00-22:00",
@@ -1078,8 +1154,8 @@
     "stationSlugs": [
       "tamachi-station"
     ],
-    "lat": 35.6457,
-    "lng": 139.7476,
+    "lat": 35.645736,
+    "lng": 139.747575,
     "nearestStation": "Tamachi Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-22:00, Sat 8:00-22:00, Sun/Hol 9:00-21:00",
@@ -1106,6 +1182,8 @@
     "stationSlugs": [
       "kamata-station"
     ],
+    "lat": 35.562517,
+    "lng": 139.716032,
     "nearestStation": "Kamata Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-22:00, Sat/Sun/Hol 8:00-22:00",
@@ -1132,6 +1210,8 @@
     "stationSlugs": [
       "gotanda-station"
     ],
+    "lat": 35.625974,
+    "lng": 139.723822,
     "nearestStation": "Gotanda Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-23:00, Sat/Sun 8:00-21:30",
@@ -1158,6 +1238,8 @@
     "stationSlugs": [
       "shinagawa-station"
     ],
+    "lat": 35.62876,
+    "lng": 139.738999,
     "nearestStation": "Shinagawa Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -1183,6 +1265,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-20:00, Sat 7:00-20:00, Sun/Hol 7:00-19:00",
@@ -1209,6 +1293,8 @@
     "stationSlugs": [
       "hongo-sanchome-station"
     ],
+    "lat": 35.706671,
+    "lng": 139.759914,
     "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -1234,6 +1320,8 @@
     "stationSlugs": [
       "hongo-sanchome-station"
     ],
+    "lat": 35.706671,
+    "lng": 139.759914,
     "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -1259,6 +1347,8 @@
     "stationSlugs": [
       "hongo-sanchome-station"
     ],
+    "lat": 35.706671,
+    "lng": 139.759914,
     "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Sat 7:00-22:00, Sun/Hol 8:00-21:00",
@@ -1285,6 +1375,8 @@
     "stationSlugs": [
       "todai-mae-station"
     ],
+    "lat": 35.717633,
+    "lng": 139.758025,
     "nearestStation": "Todai-mae Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
@@ -1310,6 +1402,8 @@
     "stationSlugs": [
       "hongo-sanchome-station"
     ],
+    "lat": 35.706671,
+    "lng": 139.759914,
     "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 5,
     "priceBand": "¥",
@@ -1335,6 +1429,8 @@
     "stationSlugs": [
       "korakuen-station"
     ],
+    "lat": 35.707898,
+    "lng": 139.751864,
     "nearestStation": "Korakuen Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -1360,6 +1456,8 @@
     "stationSlugs": [
       "kasuga-station"
     ],
+    "lat": 35.709598,
+    "lng": 139.75325,
     "nearestStation": "Kasuga Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -1385,6 +1483,8 @@
     "stationSlugs": [
       "edogawabashi-station"
     ],
+    "lat": 35.709495,
+    "lng": 139.733538,
     "nearestStation": "Edogawabashi Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -1410,6 +1510,8 @@
     "stationSlugs": [
       "nezu-station"
     ],
+    "lat": 35.7174,
+    "lng": 139.765655,
     "nearestStation": "Nezu Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -1435,6 +1537,8 @@
     "stationSlugs": [
       "myogadani-station"
     ],
+    "lat": 35.716989,
+    "lng": 139.737184,
     "nearestStation": "Myogadani Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
@@ -1461,6 +1565,8 @@
     "stationSlugs": [
       "awajicho-station"
     ],
+    "lat": 35.695434,
+    "lng": 139.767575,
     "nearestStation": "Awajicho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:30-21:00, Sat/Sun/Hol 7:20-20:00",
@@ -1487,6 +1593,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-22:00, Sat/Sun/Hol 7:00-21:00",
@@ -1513,6 +1621,8 @@
     "stationSlugs": [
       "suehirocho-station"
     ],
+    "lat": 35.702972,
+    "lng": 139.771713,
     "nearestStation": "Suehirocho Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -1538,6 +1648,8 @@
     "stationSlugs": [
       "ningyocho-station"
     ],
+    "lat": 35.686307,
+    "lng": 139.782285,
     "nearestStation": "Ningyocho Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -1563,6 +1675,8 @@
     "stationSlugs": [
       "nihonbashi-station"
     ],
+    "lat": 35.682078,
+    "lng": 139.773516,
     "nearestStation": "Nihonbashi Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -1588,6 +1702,8 @@
     "stationSlugs": [
       "roppongi-itchome-station"
     ],
+    "lat": 35.665595,
+    "lng": 139.739,
     "nearestStation": "Roppongi-itchome Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:00, Sat/Sun 8:00-18:00",
@@ -1614,8 +1730,8 @@
     "stationSlugs": [
       "nishi-shinjuku-station"
     ],
-    "lat": 35.6939,
-    "lng": 139.6929,
+    "lat": 35.694298,
+    "lng": 139.692778,
     "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-22:00, Sat/Sun/Hol 8:00-21:00",
@@ -1642,6 +1758,8 @@
     "stationSlugs": [
       "hatsudai-station"
     ],
+    "lat": 35.68123,
+    "lng": 139.686354,
     "nearestStation": "Hatsudai Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-21:00, Sat/Sun/Hol 8:00-21:00",
@@ -1668,8 +1786,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 1,
     "businessHours": "Daily 7:00-23:00",
@@ -1724,8 +1842,8 @@
     "stationSlugs": [
       "meguro-station"
     ],
-    "lat": 35.6339,
-    "lng": 139.716,
+    "lat": 35.633923,
+    "lng": 139.715775,
     "nearestStation": "Meguro Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -1751,6 +1869,8 @@
     "stationSlugs": [
       "higashi-koenji-station"
     ],
+    "lat": 35.697802,
+    "lng": 139.657822,
     "nearestStation": "Higashi-Koenji Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 8:00-20:00",
@@ -1777,6 +1897,8 @@
     "stationSlugs": [
       "higashi-nakano-station"
     ],
+    "lat": 35.706529,
+    "lng": 139.684436,
     "nearestStation": "Higashi-Nakano Station",
     "walkMinutes": 0,
     "businessHours": "Daily 7:30-20:30",
@@ -1803,6 +1925,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -1828,6 +1952,8 @@
     "stationSlugs": [
       "komazawa-daigaku-station"
     ],
+    "lat": 35.6266,
+    "lng": 139.6621,
     "nearestStation": "Komazawa-daigaku Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -1853,6 +1979,8 @@
     "stationSlugs": [
       "ikejiri-ohashi-station"
     ],
+    "lat": 35.6503,
+    "lng": 139.6856,
     "nearestStation": "Ikejiri-Ohashi Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -1878,6 +2006,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-21:00, Sat 7:00-20:00, Sun/Hol 8:00-20:00",
@@ -1904,6 +2034,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "Daily 7:00-23:00",
@@ -1930,6 +2062,8 @@
     "stationSlugs": [
       "oshima-station"
     ],
+    "lat": 35.6866,
+    "lng": 139.8306,
     "nearestStation": "Oshima Station",
     "walkMinutes": 1,
     "businessHours": "Daily 6:45-20:00",
@@ -1956,6 +2090,8 @@
     "stationSlugs": [
       "kameido-station"
     ],
+    "lat": 35.697345,
+    "lng": 139.826262,
     "nearestStation": "Kameido Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-22:30, Sat/Sun/Hol 7:00-22:30",
@@ -1982,6 +2118,8 @@
     "stationSlugs": [
       "aomono-yokocho-station"
     ],
+    "lat": 35.609351,
+    "lng": 139.742958,
     "nearestStation": "Aomono-Yokocho Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -2007,8 +2145,8 @@
     "stationSlugs": [
       "shinagawa-seaside-station"
     ],
-    "lat": 35.6093,
-    "lng": 139.7503,
+    "lat": 35.608524,
+    "lng": 139.749549,
     "nearestStation": "Shinagawa Seaside Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -2034,6 +2172,8 @@
     "stationSlugs": [
       "osaki-station"
     ],
+    "lat": 35.619772,
+    "lng": 139.728439,
     "nearestStation": "Osaki Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -2059,6 +2199,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -2084,6 +2226,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -2109,6 +2253,8 @@
     "stationSlugs": [
       "kamata-station"
     ],
+    "lat": 35.562517,
+    "lng": 139.716032,
     "nearestStation": "Kamata Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -2134,6 +2280,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -2159,6 +2307,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -2184,6 +2334,8 @@
     "stationSlugs": [
       "nerima-station"
     ],
+    "lat": 35.737893,
+    "lng": 139.654368,
     "nearestStation": "Nerima Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -2209,6 +2361,8 @@
     "stationSlugs": [
       "toshimaen-station"
     ],
+    "lat": 35.742054,
+    "lng": 139.647979,
     "nearestStation": "Toshimaen Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -2234,6 +2388,8 @@
     "stationSlugs": [
       "kasai-station"
     ],
+    "lat": 35.663554,
+    "lng": 139.872458,
     "nearestStation": "Kasai Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -2259,6 +2415,8 @@
     "stationSlugs": [
       "ayase-station"
     ],
+    "lat": 35.762222,
+    "lng": 139.825019,
     "nearestStation": "Ayase Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -2284,6 +2442,8 @@
     "stationSlugs": [
       "akabane-station"
     ],
+    "lat": 35.778026,
+    "lng": 139.720928,
     "nearestStation": "Akabane Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -2309,6 +2469,8 @@
     "stationSlugs": [
       "kanamachi-station"
     ],
+    "lat": 35.769582,
+    "lng": 139.870482,
     "nearestStation": "Kanamachi Station",
     "walkMinutes": 0,
     "priceBand": "¥",
@@ -2334,8 +2496,8 @@
     "stationSlugs": [
       "tokyo-station"
     ],
-    "lat": 35.6812,
-    "lng": 139.7671,
+    "lat": 35.681391,
+    "lng": 139.766103,
     "nearestStation": "Tokyo Station",
     "walkMinutes": 5,
     "businessHours": "Weekday 7:00-21:00, Weekend 10:00-19:00",
@@ -2362,8 +2524,8 @@
     "stationSlugs": [
       "yurakucho-station"
     ],
-    "lat": 35.6749,
-    "lng": 139.763,
+    "lat": 35.675441,
+    "lng": 139.763806,
     "nearestStation": "Yurakucho Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri from 7:30 (closing varies), Sat-Sun 8:00-19:00",
@@ -2390,8 +2552,8 @@
     "stationSlugs": [
       "tokyo-station"
     ],
-    "lat": 35.6812,
-    "lng": 139.7671,
+    "lat": 35.681391,
+    "lng": 139.766103,
     "nearestStation": "Tokyo Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 8:00-21:00",
@@ -2418,8 +2580,8 @@
     "stationSlugs": [
       "otemachi-station"
     ],
-    "lat": 35.6876,
-    "lng": 139.7665,
+    "lat": 35.686564,
+    "lng": 139.7662,
     "nearestStation": "Otemachi Station",
     "walkMinutes": 1,
     "businessHours": "Weekday 11:00-20:00, closed weekends/holidays",
@@ -2446,8 +2608,8 @@
     "stationSlugs": [
       "kanda-station"
     ],
-    "lat": 35.6918,
-    "lng": 139.7709,
+    "lat": 35.691173,
+    "lng": 139.770641,
     "nearestStation": "Kanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:30-20:30, Sat-Sun 8:00-19:00",
@@ -2474,8 +2636,8 @@
     "stationSlugs": [
       "kanda-station"
     ],
-    "lat": 35.6918,
-    "lng": 139.7709,
+    "lat": 35.691173,
+    "lng": 139.770641,
     "nearestStation": "Kanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:30-21:00, Sat-Sun 8:00-20:00",
@@ -2502,8 +2664,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
-    "lat": 35.6984,
-    "lng": 139.7731,
+    "lat": 35.698619,
+    "lng": 139.773288,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:00-20:00, Sat 11:00-18:00, closed Sun/Hol",
@@ -2530,8 +2692,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
-    "lat": 35.6984,
-    "lng": 139.7731,
+    "lat": 35.698619,
+    "lng": 139.773288,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00",
@@ -2558,8 +2720,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
-    "lat": 35.6984,
-    "lng": 139.7731,
+    "lat": 35.698619,
+    "lng": 139.773288,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 4,
     "businessHours": "Weekday 11:00-22:00, Weekend 10:30-20:00",
@@ -2586,8 +2748,8 @@
     "stationSlugs": [
       "jimbocho-station"
     ],
-    "lat": 35.6959,
-    "lng": 139.7576,
+    "lat": 35.695966,
+    "lng": 139.757606,
     "nearestStation": "Jimbocho Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:00-20:00, Sat 8:00-20:00, Sun 9:00-19:00",
@@ -2614,8 +2776,8 @@
     "stationSlugs": [
       "jimbocho-station"
     ],
-    "lat": 35.6959,
-    "lng": 139.7576,
+    "lat": 35.695966,
+    "lng": 139.757606,
     "nearestStation": "Jimbocho Station",
     "walkMinutes": 1,
     "businessHours": "Weekday 6:45-21:00, Sat-Sun 7:45-20:00",
@@ -2642,8 +2804,8 @@
     "stationSlugs": [
       "jimbocho-station"
     ],
-    "lat": 35.6959,
-    "lng": 139.7576,
+    "lat": 35.695966,
+    "lng": 139.757606,
     "nearestStation": "Jimbocho Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
@@ -2669,8 +2831,8 @@
     "stationSlugs": [
       "jimbocho-station"
     ],
-    "lat": 35.6959,
-    "lng": 139.7576,
+    "lat": 35.695966,
+    "lng": 139.757606,
     "nearestStation": "Jimbocho Station",
     "walkMinutes": 8,
     "priceBand": "¥",
@@ -2695,8 +2857,8 @@
     "stationSlugs": [
       "jimbocho-station"
     ],
-    "lat": 35.6959,
-    "lng": 139.7576,
+    "lat": 35.695966,
+    "lng": 139.757606,
     "nearestStation": "Jimbocho Station",
     "walkMinutes": 9,
     "priceBand": "¥¥",
@@ -2722,8 +2884,8 @@
     "stationSlugs": [
       "yurakucho-station"
     ],
-    "lat": 35.6749,
-    "lng": 139.763,
+    "lat": 35.675441,
+    "lng": 139.763806,
     "nearestStation": "Yurakucho Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
@@ -2749,6 +2911,8 @@
     "stationSlugs": [
       "ginza-station"
     ],
+    "lat": 35.671989,
+    "lng": 139.763965,
     "nearestStation": "Ginza Station",
     "walkMinutes": 5,
     "businessHours": "Mon-Sat 8:00-22:00, Sun/Hol 8:00-21:00",
@@ -2775,6 +2939,8 @@
     "stationSlugs": [
       "ginza-station"
     ],
+    "lat": 35.671989,
+    "lng": 139.763965,
     "nearestStation": "Ginza Station",
     "walkMinutes": 4,
     "businessHours": "Daily 7:00-22:30",
@@ -2801,6 +2967,8 @@
     "stationSlugs": [
       "ginza-station"
     ],
+    "lat": 35.671989,
+    "lng": 139.763965,
     "nearestStation": "Ginza Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Sat 7:00-22:30, Sun/Hol 10:00-22:00",
@@ -2827,6 +2995,8 @@
     "stationSlugs": [
       "ginza-station"
     ],
+    "lat": 35.671989,
+    "lng": 139.763965,
     "nearestStation": "Ginza Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -2852,6 +3022,8 @@
     "stationSlugs": [
       "ginza-itchome-station"
     ],
+    "lat": 35.67435,
+    "lng": 139.767045,
     "nearestStation": "Ginza-itchome Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -2877,6 +3049,8 @@
     "stationSlugs": [
       "ginza-itchome-station"
     ],
+    "lat": 35.67435,
+    "lng": 139.767045,
     "nearestStation": "Ginza-itchome Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -2902,6 +3076,8 @@
     "stationSlugs": [
       "nihonbashi-station"
     ],
+    "lat": 35.682078,
+    "lng": 139.773516,
     "nearestStation": "Nihonbashi Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 7:00-22:00, Sat/Sun/Hol 8:00-21:00",
@@ -2928,6 +3104,8 @@
     "stationSlugs": [
       "nihonbashi-station"
     ],
+    "lat": 35.682078,
+    "lng": 139.773516,
     "nearestStation": "Nihonbashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-22:00, Sat/Sun/Hol 7:00-21:00",
@@ -2954,6 +3132,8 @@
     "stationSlugs": [
       "nihonbashi-station"
     ],
+    "lat": 35.682078,
+    "lng": 139.773516,
     "nearestStation": "Nihonbashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-21:00, Sat/Sun/Hol 8:00-20:00",
@@ -2980,6 +3160,8 @@
     "stationSlugs": [
       "kayabacho-station"
     ],
+    "lat": 35.679752,
+    "lng": 139.780005,
     "nearestStation": "Kayabacho Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-22:00, Weekends 9:00-20:00",
@@ -3006,6 +3188,8 @@
     "stationSlugs": [
       "nihonbashi-station"
     ],
+    "lat": 35.682078,
+    "lng": 139.773516,
     "nearestStation": "Nihonbashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays/Sat 7:00-22:00, Sun/Hol 8:00-21:00",
@@ -3032,6 +3216,8 @@
     "stationSlugs": [
       "kodenmacho-station"
     ],
+    "lat": 35.6907,
+    "lng": 139.7826,
     "nearestStation": "Kodenmacho Station",
     "walkMinutes": 4,
     "businessHours": "11:00-19:00 (LO 18:30)",
@@ -3058,6 +3244,8 @@
     "stationSlugs": [
       "kyobashi-station"
     ],
+    "lat": 35.676856,
+    "lng": 139.770126,
     "nearestStation": "Kyobashi Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 6:45-21:00, Sat/Sun/Hol 7:00-20:00",
@@ -3084,6 +3272,8 @@
     "stationSlugs": [
       "tsukiji-station"
     ],
+    "lat": 35.668115,
+    "lng": 139.772603,
     "nearestStation": "Tsukiji Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:30-22:00, Sat 7:00-20:00, Sun/Hol 8:00-20:00",
@@ -3110,6 +3300,8 @@
     "stationSlugs": [
       "hatchobori-station"
     ],
+    "lat": 35.674617,
+    "lng": 139.777705,
     "nearestStation": "Hatchobori Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-19:30, Sat 7:30-16:00",
@@ -3136,8 +3328,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "10:00-23:00",
@@ -3164,8 +3356,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-21:30, Sat/Sun/holidays 9:00-21:30",
@@ -3192,8 +3384,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-21:30, Sat/Sun/holidays 9:00-21:30",
@@ -3220,6 +3412,8 @@
     "stationSlugs": [
       "omori-station"
     ],
+    "lat": 35.588903,
+    "lng": 139.728079,
     "nearestStation": "Omori Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-21:30, Sat/Sun/holidays 9:00-21:30",
@@ -3246,6 +3440,8 @@
     "stationSlugs": [
       "otsuka-station"
     ],
+    "lat": 35.731412,
+    "lng": 139.728584,
     "nearestStation": "Otsuka Station",
     "walkMinutes": 2,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
@@ -3272,6 +3468,8 @@
     "stationSlugs": [
       "sugamo-station"
     ],
+    "lat": 35.733445,
+    "lng": 139.739303,
     "nearestStation": "Sugamo Station",
     "walkMinutes": 2,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
@@ -3298,8 +3496,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
@@ -3326,6 +3524,8 @@
     "stationSlugs": [
       "shinjuku-west-exit-station"
     ],
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku (West Exit) Station",
     "walkMinutes": 5,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
@@ -3352,6 +3552,8 @@
     "stationSlugs": [
       "waseda-station"
     ],
+    "lat": 35.705723,
+    "lng": 139.721319,
     "nearestStation": "Waseda Station",
     "walkMinutes": 3,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
@@ -3378,6 +3580,8 @@
     "stationSlugs": [
       "chitose-karasuyama-station"
     ],
+    "lat": 35.667921,
+    "lng": 139.60067,
     "nearestStation": "Chitose-Karasuyama Station",
     "walkMinutes": 3,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
@@ -3404,6 +3608,8 @@
     "stationSlugs": [
       "umejima-station"
     ],
+    "lat": 35.772437,
+    "lng": 139.797916,
     "nearestStation": "Umejima Station",
     "walkMinutes": 3,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
@@ -3430,6 +3636,8 @@
     "stationSlugs": [
       "kayabacho-station"
     ],
+    "lat": 35.679752,
+    "lng": 139.780005,
     "nearestStation": "Kayabacho Station",
     "walkMinutes": 2,
     "businessHours": "Roughly early morning to late night (member/drop-in study cafe)",
@@ -3456,6 +3664,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "Roughly early morning to late night (member/drop-in study cafe)",
@@ -3482,6 +3692,8 @@
     "stationSlugs": [
       "toranomon-station"
     ],
+    "lat": 35.670236,
+    "lng": 139.749832,
     "nearestStation": "Toranomon Station",
     "walkMinutes": 4,
     "businessHours": "Roughly early morning to late night (member/drop-in study cafe)",
@@ -3508,6 +3720,8 @@
     "stationSlugs": [
       "otsuka-station"
     ],
+    "lat": 35.731412,
+    "lng": 139.728584,
     "nearestStation": "Otsuka Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
@@ -3534,6 +3748,8 @@
     "stationSlugs": [
       "yotsuya-station"
     ],
+    "lat": 35.686041,
+    "lng": 139.730644,
     "nearestStation": "Yotsuya Station",
     "walkMinutes": 3,
     "businessHours": "10:00-20:00",
@@ -3560,8 +3776,8 @@
     "stationSlugs": [
       "iidabashi-station"
     ],
-    "lat": 35.702,
-    "lng": 139.7449,
+    "lat": 35.701835,
+    "lng": 139.745143,
     "nearestStation": "Iidabashi Station",
     "walkMinutes": 3,
     "businessHours": "9:00-22:30",
@@ -3588,6 +3804,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 5,
     "businessHours": "Mon-Fri 10:00-21:00, Sat/Sun 10:00-18:00",
@@ -3614,6 +3832,8 @@
     "stationSlugs": [
       "ogikubo-south-exit-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo (South Exit) Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 13:00-24:00, Sat/Sun/holidays 10:00-24:00 (hours vary by source)",
@@ -3640,6 +3860,8 @@
     "stationSlugs": [
       "ginza-station"
     ],
+    "lat": 35.671989,
+    "lng": 139.763965,
     "nearestStation": "Ginza Station",
     "walkMinutes": 3,
     "businessHours": "10:30-21:00",
@@ -3666,6 +3888,8 @@
     "stationSlugs": [
       "hirai-station"
     ],
+    "lat": 35.70643,
+    "lng": 139.842181,
     "nearestStation": "Hirai Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:00, Sat-Sun 8:00-21:00",
@@ -3692,6 +3916,8 @@
     "stationSlugs": [
       "koiwa-station"
     ],
+    "lat": 35.733207,
+    "lng": 139.881755,
     "nearestStation": "Koiwa Station",
     "walkMinutes": 2,
     "businessHours": "7:00-21:00 daily",
@@ -3718,6 +3944,8 @@
     "stationSlugs": [
       "koiwa-station"
     ],
+    "lat": 35.733207,
+    "lng": 139.881755,
     "nearestStation": "Koiwa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00 daily",
@@ -3744,6 +3972,8 @@
     "stationSlugs": [
       "kasai-station"
     ],
+    "lat": 35.663554,
+    "lng": 139.872458,
     "nearestStation": "Kasai Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00 daily",
@@ -3770,6 +4000,8 @@
     "stationSlugs": [
       "kasai-station"
     ],
+    "lat": 35.663554,
+    "lng": 139.872458,
     "nearestStation": "Kasai Station",
     "walkMinutes": 6,
     "priceBand": "¥",
@@ -3795,6 +4027,8 @@
     "stationSlugs": [
       "nishi-kasai-station"
     ],
+    "lat": 35.664631,
+    "lng": 139.859259,
     "nearestStation": "Nishi-Kasai Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -3820,6 +4054,8 @@
     "stationSlugs": [
       "mizue-station"
     ],
+    "lat": 35.693318,
+    "lng": 139.89761,
     "nearestStation": "Mizue Station",
     "walkMinutes": 3,
     "priceBand": "¥",
@@ -3845,6 +4081,8 @@
     "stationSlugs": [
       "shinjuku-nishiguchi-station"
     ],
+    "lat": 35.693315,
+    "lng": 139.699155,
     "nearestStation": "Shinjuku-nishiguchi Station",
     "walkMinutes": 3,
     "businessHours": "7:00-5:00",
@@ -3871,8 +4109,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 3,
     "businessHours": "6:00-5:00",
@@ -3899,8 +4137,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
@@ -3927,8 +4165,8 @@
     "stationSlugs": [
       "nishi-shinjuku-station"
     ],
-    "lat": 35.6939,
-    "lng": 139.6929,
+    "lat": 35.694298,
+    "lng": 139.692778,
     "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 3,
     "businessHours": "6:30-24:00",
@@ -3955,6 +4193,8 @@
     "stationSlugs": [
       "higashi-shinjuku-station"
     ],
+    "lat": 35.698915,
+    "lng": 139.707593,
     "nearestStation": "Higashi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "24 hours (closed Sun-Mon 22:00-6:00 for cleaning)",
@@ -3981,8 +4221,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "6:00-5:00",
@@ -4009,8 +4249,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 7,
     "businessHours": "6:00-5:00",
@@ -4037,8 +4277,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
@@ -4065,8 +4305,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 6,
     "businessHours": "10:00-7:00",
@@ -4093,6 +4333,8 @@
     "stationSlugs": [
       "meiji-jingumae-station"
     ],
+    "lat": 35.669071,
+    "lng": 139.703995,
     "nearestStation": "Meiji-jingumae Station",
     "walkMinutes": 6,
     "businessHours": "10:00-5:00",
@@ -4119,6 +4361,8 @@
     "stationSlugs": [
       "higashi-ginza-station"
     ],
+    "lat": 35.669464,
+    "lng": 139.767253,
     "nearestStation": "Higashi-Ginza Station",
     "walkMinutes": 4,
     "businessHours": "24 hours",
@@ -4145,6 +4389,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 4,
     "businessHours": "6:00-5:00",
@@ -4171,6 +4417,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "9:00-5:00",
@@ -4197,6 +4445,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 4,
     "businessHours": "10:00-7:00",
@@ -4223,6 +4473,8 @@
     "stationSlugs": [
       "mita-station"
     ],
+    "lat": 35.64818,
+    "lng": 139.748775,
     "nearestStation": "Mita Station",
     "walkMinutes": 5,
     "businessHours": "6:00-23:00",
@@ -4249,8 +4501,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
@@ -4277,8 +4529,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 4,
     "businessHours": "24 hours",
@@ -4305,6 +4557,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
@@ -4331,8 +4585,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
-    "lat": 35.6984,
-    "lng": 139.7731,
+    "lat": 35.698619,
+    "lng": 139.773288,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
@@ -4359,8 +4613,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
@@ -4387,8 +4641,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 7,
     "businessHours": "24 hours",
@@ -4415,6 +4669,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
@@ -4441,8 +4697,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
@@ -4469,6 +4725,8 @@
     "stationSlugs": [
       "shinjuku-gyoemmae-station"
     ],
+    "lat": 35.688588,
+    "lng": 139.71069,
     "nearestStation": "Shinjuku-Gyoemmae Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
@@ -4495,6 +4753,8 @@
     "stationSlugs": [
       "seibu-shinjuku-station"
     ],
+    "lat": 35.696254,
+    "lng": 139.7,
     "nearestStation": "Seibu-Shinjuku Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
@@ -4521,6 +4781,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
@@ -4547,8 +4809,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
@@ -4575,6 +4837,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
@@ -4601,6 +4865,8 @@
     "stationSlugs": [
       "seibu-shinjuku-station"
     ],
+    "lat": 35.696254,
+    "lng": 139.7,
     "nearestStation": "Seibu-Shinjuku Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
@@ -4627,8 +4893,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
@@ -4655,6 +4921,8 @@
     "stationSlugs": [
       "okachimachi-station"
     ],
+    "lat": 35.707282,
+    "lng": 139.774727,
     "nearestStation": "Okachimachi Station",
     "walkMinutes": 2,
     "businessHours": "24 hours (takeout only 0:00-5:00)",
@@ -4681,6 +4949,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
@@ -4707,8 +4977,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
@@ -4735,8 +5005,8 @@
     "stationSlugs": [
       "tokyo-station"
     ],
-    "lat": 35.6812,
-    "lng": 139.7671,
+    "lat": 35.681391,
+    "lng": 139.766103,
     "nearestStation": "Tokyo Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary by day; check official site (roughly daytime to night)",
@@ -4763,8 +5033,8 @@
     "stationSlugs": [
       "jimbocho-station"
     ],
-    "lat": 35.6959,
-    "lng": 139.7576,
+    "lat": 35.695966,
+    "lng": 139.757606,
     "nearestStation": "Jimbocho Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 9:00-20:00, Sat/Sun/holidays 10:00-19:00",
@@ -4791,8 +5061,8 @@
     "stationSlugs": [
       "tokyo-station"
     ],
-    "lat": 35.6812,
-    "lng": 139.7671,
+    "lat": 35.681391,
+    "lng": 139.766103,
     "nearestStation": "Tokyo Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Sat 7:00-22:00, Sun/holidays 7:00-21:00",
@@ -4819,6 +5089,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 1,
     "businessHours": "8:00-22:00",
@@ -4845,6 +5117,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 2,
     "businessHours": "7:30-19:00",
@@ -4871,6 +5145,8 @@
     "stationSlugs": [
       "ginza-itchome-station"
     ],
+    "lat": 35.67435,
+    "lng": 139.767045,
     "nearestStation": "Ginza-itchome Station",
     "walkMinutes": 2,
     "businessHours": "Tue-Sat 11:30-22:30, Sun/holidays 11:30-21:00",
@@ -4897,6 +5173,8 @@
     "stationSlugs": [
       "kayabacho-station"
     ],
+    "lat": 35.679752,
+    "lng": 139.780005,
     "nearestStation": "Kayabacho Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 8:00-22:00, Sat/Sun 10:00-17:00",
@@ -4923,6 +5201,8 @@
     "stationSlugs": [
       "ginza-itchome-station"
     ],
+    "lat": 35.67435,
+    "lng": 139.767045,
     "nearestStation": "Ginza-itchome Station",
     "walkMinutes": 1,
     "businessHours": "15:00-24:00",
@@ -4949,8 +5229,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 3,
     "businessHours": "8:00-23:00",
@@ -4977,8 +5257,8 @@
     "stationSlugs": [
       "omotesando-station"
     ],
-    "lat": 35.6652,
-    "lng": 139.7126,
+    "lat": 35.665247,
+    "lng": 139.712314,
     "nearestStation": "Omotesando Station",
     "walkMinutes": 2,
     "businessHours": "Mon, Wed-Sat 11:00-23:00, Sun/holidays 11:00-21:00 (closed Tue)",
@@ -5005,8 +5285,8 @@
     "stationSlugs": [
       "omotesando-station"
     ],
-    "lat": 35.6652,
-    "lng": 139.7126,
+    "lat": 35.665247,
+    "lng": 139.712314,
     "nearestStation": "Omotesando Station",
     "walkMinutes": 5,
     "businessHours": "9:00-19:00",
@@ -5033,8 +5313,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "11:00-22:00 (closed Mondays)",
@@ -5061,8 +5341,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 1,
     "businessHours": "10:00-23:00",
@@ -5089,6 +5369,8 @@
     "stationSlugs": [
       "daikanyama-station"
     ],
+    "lat": 35.6485,
+    "lng": 139.703,
     "nearestStation": "Daikanyama Station",
     "walkMinutes": 5,
     "businessHours": "7:00-22:00",
@@ -5115,8 +5397,8 @@
     "stationSlugs": [
       "omotesando-station"
     ],
-    "lat": 35.6652,
-    "lng": 139.7126,
+    "lat": 35.665247,
+    "lng": 139.712314,
     "nearestStation": "Omotesando Station",
     "walkMinutes": 4,
     "businessHours": "9:00-19:00 (L.O. 18:30)",
@@ -5143,6 +5425,8 @@
     "stationSlugs": [
       "meiji-jingumae-station"
     ],
+    "lat": 35.669071,
+    "lng": 139.703995,
     "nearestStation": "Meiji-Jingumae Station",
     "walkMinutes": 3,
     "businessHours": "11:00-22:00 (cafe L.O. 21:30)",
@@ -5169,6 +5453,8 @@
     "stationSlugs": [
       "ochiai-station"
     ],
+    "lat": 35.710976,
+    "lng": 139.687284,
     "nearestStation": "Ochiai Station",
     "walkMinutes": 3,
     "businessHours": "Tue-Sun 11:30-21:00 (closed Mondays)",
@@ -5195,6 +5481,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Sat 10:00-18:00 (closed Sun/holidays)",
@@ -5221,6 +5509,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "8:00-22:00",
@@ -5247,6 +5537,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 3,
     "businessHours": "7:30-22:00 (last order 21:00)",
@@ -5273,6 +5565,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Sat 12:00-01:30 (next day), Sun/holidays 12:00-24:00 (closed Wednesdays)",
@@ -5299,6 +5593,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 3,
     "businessHours": "Tue-Thu 11:30-24:00, Fri-Sat 12:00-24:00, Sun 12:00-19:00 (closed Mondays)",
@@ -5325,6 +5621,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 9,
     "businessHours": "Tue-Fri 14:00-24:00, Sat/holidays 12:00-24:00, Sun 12:00-21:00 (closed Mondays and 4th Tuesday)",
@@ -5351,6 +5649,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 3,
     "businessHours": "12:00-20:00 (closed Mondays)",
@@ -5377,6 +5677,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 2,
     "businessHours": "10:00-20:00 (closed Tuesdays)",
@@ -5403,6 +5705,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 5,
     "businessHours": "Weekdays 12:00-24:00, weekends/holidays 11:30-24:00 (closed 1st and 3rd Mondays and Tuesdays)",
@@ -5429,6 +5733,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 5,
     "businessHours": "Tue-Sun 9:00-18:00 (closed Mondays)",
@@ -5455,6 +5761,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-21:00 (last order 20:30)",
@@ -5481,6 +5789,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-19:30 (closed Saturdays)",
@@ -5507,6 +5817,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:30-18:30 (last order 18:00; closed Tuesdays and Wednesdays)",
@@ -5561,6 +5873,8 @@
     "stationSlugs": [
       "gakugei-daigaku-station"
     ],
+    "lat": 35.6274,
+    "lng": 139.6853,
     "nearestStation": "Gakugei-Daigaku Station",
     "walkMinutes": 10,
     "businessHours": "9:00-20:00",
@@ -5587,6 +5901,8 @@
     "stationSlugs": [
       "ikejiri-ohashi-station"
     ],
+    "lat": 35.6503,
+    "lng": 139.6856,
     "nearestStation": "Ikejiri-Ohashi Station",
     "walkMinutes": 8,
     "businessHours": "8:00-23:00 (last order 22:30)",
@@ -5613,8 +5929,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 9,
     "businessHours": "9:00-17:00",
@@ -5641,6 +5957,8 @@
     "stationSlugs": [
       "toritsu-daigaku-station"
     ],
+    "lat": 35.6169,
+    "lng": 139.6852,
     "nearestStation": "Toritsu-Daigaku Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; daytime",
@@ -5667,6 +5985,8 @@
     "stationSlugs": [
       "keikyu-kamata-station"
     ],
+    "lat": 35.560796,
+    "lng": 139.723681,
     "nearestStation": "Keikyu Kamata Station",
     "walkMinutes": 5,
     "businessHours": "11:30-21:30 (closed Wednesdays)",
@@ -5693,6 +6013,8 @@
     "stationSlugs": [
       "keikyu-kamata-station"
     ],
+    "lat": 35.560796,
+    "lng": 139.723681,
     "nearestStation": "Keikyu Kamata Station",
     "walkMinutes": 9,
     "businessHours": "10:00-18:30",
@@ -5719,6 +6041,8 @@
     "stationSlugs": [
       "kamata-station"
     ],
+    "lat": 35.562517,
+    "lng": 139.716032,
     "nearestStation": "Kamata Station",
     "walkMinutes": 5,
     "businessHours": "Cafe 10:00-18:00, Bar 18:00-23:00",
@@ -5745,8 +6069,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "7:30-23:00 daily",
@@ -5773,8 +6097,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -5801,8 +6125,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -5829,8 +6153,8 @@
     "stationSlugs": [
       "meguro-station"
     ],
-    "lat": 35.6339,
-    "lng": 139.716,
+    "lat": 35.633923,
+    "lng": 139.715775,
     "nearestStation": "Meguro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-23:00 daily",
@@ -5857,8 +6181,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
-    "lat": 35.6984,
-    "lng": 139.7731,
+    "lat": 35.698619,
+    "lng": 139.773288,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 4,
     "businessHours": "6:30-22:30 daily",
@@ -5885,6 +6209,8 @@
     "stationSlugs": [
       "kayabacho-station"
     ],
+    "lat": 35.679752,
+    "lng": 139.780005,
     "nearestStation": "Kayabacho Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -5911,6 +6237,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -5937,6 +6265,8 @@
     "stationSlugs": [
       "fudo-mae-station"
     ],
+    "lat": 35.6236,
+    "lng": 139.7163,
     "nearestStation": "Fudo-mae Station",
     "walkMinutes": 0,
     "businessHours": "Open 24 hours",
@@ -5963,6 +6293,8 @@
     "stationSlugs": [
       "tobu-nerima-station"
     ],
+    "lat": 35.768698,
+    "lng": 139.661964,
     "nearestStation": "Tobu-Nerima Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -5989,6 +6321,8 @@
     "stationSlugs": [
       "setagaya-daita-station"
     ],
+    "lat": 35.65834,
+    "lng": 139.661557,
     "nearestStation": "Setagaya-Daita Station",
     "walkMinutes": 0,
     "businessHours": "7:00-24:00 daily",
@@ -6015,8 +6349,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
-    "lat": 35.6984,
-    "lng": 139.7731,
+    "lat": 35.698619,
+    "lng": 139.773288,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 0,
     "businessHours": "6:30-3:00 daily",
@@ -6043,8 +6377,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -6071,6 +6405,8 @@
     "stationSlugs": [
       "nishi-shinjuku-gochome-station"
     ],
+    "lat": 35.689798,
+    "lng": 139.684304,
     "nearestStation": "Nishi-Shinjuku-gochome Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -6097,6 +6433,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -6123,6 +6461,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; see official store page",
@@ -6149,6 +6489,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -6175,6 +6517,8 @@
     "stationSlugs": [
       "higashi-nakano-station"
     ],
+    "lat": 35.706529,
+    "lng": 139.684436,
     "nearestStation": "Higashi-Nakano Station",
     "walkMinutes": 0,
     "businessHours": "10:00-23:30 daily",
@@ -6201,6 +6545,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-23:00 daily",
@@ -6227,6 +6573,8 @@
     "stationSlugs": [
       "seijogakuen-mae-station"
     ],
+    "lat": 35.640114,
+    "lng": 139.598958,
     "nearestStation": "Seijogakuen-mae Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -6253,6 +6601,8 @@
     "stationSlugs": [
       "oizumi-gakuen-station"
     ],
+    "lat": 35.749406,
+    "lng": 139.586732,
     "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; see official store page",
@@ -6279,6 +6629,8 @@
     "stationSlugs": [
       "asakusabashi-station"
     ],
+    "lat": 35.697403,
+    "lng": 139.784427,
     "nearestStation": "Asakusabashi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00 daily",
@@ -6305,6 +6657,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 0,
     "businessHours": "7:00-22:00 daily",
@@ -6331,8 +6685,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 0,
     "businessHours": "10:00-21:00 daily",
@@ -6359,6 +6713,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 0,
     "businessHours": "7:00-22:30 (Fri-Sat to 2:00)",
@@ -6385,8 +6741,8 @@
     "stationSlugs": [
       "iidabashi-station"
     ],
-    "lat": 35.702,
-    "lng": 139.7449,
+    "lat": 35.701835,
+    "lng": 139.745143,
     "nearestStation": "Iidabashi Station",
     "walkMinutes": 0,
     "businessHours": "7:00-23:00 daily",
@@ -6413,6 +6769,8 @@
     "stationSlugs": [
       "osaki-station"
     ],
+    "lat": 35.619772,
+    "lng": 139.728439,
     "nearestStation": "Osaki Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:00 daily",
@@ -6439,6 +6797,8 @@
     "stationSlugs": [
       "yotsuya-sanchome-station"
     ],
+    "lat": 35.687958,
+    "lng": 139.720103,
     "nearestStation": "Yotsuya-sanchome Station",
     "walkMinutes": 0,
     "businessHours": "7:00-22:00 daily",
@@ -6465,6 +6825,8 @@
     "stationSlugs": [
       "monzen-nakacho-station"
     ],
+    "lat": 35.671851,
+    "lng": 139.796209,
     "nearestStation": "Monzen-Nakacho Station",
     "walkMinutes": 0,
     "businessHours": "7:00-2:00 daily",
@@ -6491,6 +6853,8 @@
     "stationSlugs": [
       "shinsen-station"
     ],
+    "lat": 35.657244,
+    "lng": 139.693579,
     "nearestStation": "Shinsen Station",
     "walkMinutes": 3,
     "businessHours": "9:00-21:00 daily",
@@ -6517,6 +6881,8 @@
     "stationSlugs": [
       "nakano-fujimicho-station"
     ],
+    "lat": 35.690514,
+    "lng": 139.666933,
     "nearestStation": "Nakano-fujimicho Station",
     "walkMinutes": 0,
     "businessHours": "9:00-1:00 daily",
@@ -6543,6 +6909,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:30 (weekends to 21:00)",
@@ -6569,8 +6937,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 0,
     "businessHours": "7:00-22:00 daily",
@@ -6597,6 +6965,8 @@
     "stationSlugs": [
       "gotanda-station"
     ],
+    "lat": 35.625974,
+    "lng": 139.723822,
     "nearestStation": "Gotanda Station",
     "walkMinutes": 0,
     "businessHours": "6:30-24:00 daily",
@@ -6623,8 +6993,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 0,
     "businessHours": "6:30-21:30 daily",
@@ -6651,6 +7021,8 @@
     "stationSlugs": [
       "toranomon-hills-station"
     ],
+    "lat": 35.6672,
+    "lng": 139.7495,
     "nearestStation": "Toranomon Hills Station",
     "walkMinutes": 0,
     "businessHours": "10:30-23:00 daily",
@@ -6677,6 +7049,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 0,
     "businessHours": "10:30-21:00 daily",
@@ -6703,8 +7077,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 7,
     "businessHours": "9:00-18:00",
@@ -6731,8 +7105,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; roughly daytime (100-minute limit)",
@@ -6759,8 +7133,8 @@
     "stationSlugs": [
       "meguro-station"
     ],
-    "lat": 35.6339,
-    "lng": 139.716,
+    "lat": 35.633923,
+    "lng": 139.715775,
     "nearestStation": "Meguro Station",
     "walkMinutes": 7,
     "businessHours": "7:00-18:00",
@@ -6843,6 +7217,8 @@
     "stationSlugs": [
       "shimokitazawa-station"
     ],
+    "lat": 35.661539,
+    "lng": 139.66691,
     "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 4,
     "businessHours": "From 8:00 (2-hour limit)",
@@ -6869,6 +7245,8 @@
     "stationSlugs": [
       "shimokitazawa-station"
     ],
+    "lat": 35.661539,
+    "lng": 139.66691,
     "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 2,
     "businessHours": "From 7:30 (no time limit)",
@@ -6895,6 +7273,8 @@
     "stationSlugs": [
       "setagaya-daita-station"
     ],
+    "lat": 35.65834,
+    "lng": 139.661557,
     "nearestStation": "Setagaya-Daita Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; daytime",
@@ -6921,6 +7301,8 @@
     "stationSlugs": [
       "futako-tamagawa-station"
     ],
+    "lat": 35.6118,
+    "lng": 139.6262,
     "nearestStation": "Futako-Tamagawa Station",
     "walkMinutes": 12,
     "businessHours": "Hours vary; daytime",
@@ -6947,6 +7329,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 3,
     "businessHours": "11:30-19:00 (closed Tuesdays)",
@@ -6973,6 +7357,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "11:30-24:00",
@@ -6999,6 +7385,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "11:30-19:00 (closed Wed/Thu)",
@@ -7025,6 +7413,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 14:00-22:00, Sat-Sun 11:00-22:00",
@@ -7051,6 +7441,8 @@
     "stationSlugs": [
       "kuramae-station"
     ],
+    "lat": 35.703236,
+    "lng": 139.790931,
     "nearestStation": "Kuramae Station",
     "walkMinutes": 3,
     "businessHours": "Morning to evening (hours vary)",
@@ -7077,6 +7469,8 @@
     "stationSlugs": [
       "kuramae-station"
     ],
+    "lat": 35.703236,
+    "lng": 139.790931,
     "nearestStation": "Kuramae Station",
     "walkMinutes": 7,
     "businessHours": "Hours vary; daytime",
@@ -7103,6 +7497,8 @@
     "stationSlugs": [
       "tawaramachi-station"
     ],
+    "lat": 35.709897,
+    "lng": 139.790897,
     "nearestStation": "Tawaramachi Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; daytime",
@@ -7129,6 +7525,8 @@
     "stationSlugs": [
       "nippori-station"
     ],
+    "lat": 35.727908,
+    "lng": 139.771287,
     "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; daytime",
@@ -7155,6 +7553,8 @@
     "stationSlugs": [
       "nippori-station"
     ],
+    "lat": 35.727908,
+    "lng": 139.771287,
     "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "8:30-21:00",
@@ -7181,6 +7581,8 @@
     "stationSlugs": [
       "kita-senju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kita-senju Station",
     "walkMinutes": 3,
     "businessHours": "11:30-18:00 (closed Tuesdays)",
@@ -7207,6 +7609,8 @@
     "stationSlugs": [
       "gotanda-station"
     ],
+    "lat": 35.625974,
+    "lng": 139.723822,
     "nearestStation": "Gotanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 8:00-20:00, Sat-Sun 8:30-20:00",
@@ -7233,6 +7637,8 @@
     "stationSlugs": [
       "fudomae-station"
     ],
+    "lat": 35.6236,
+    "lng": 139.7163,
     "nearestStation": "Fudomae Station",
     "walkMinutes": 0,
     "businessHours": "10:00-18:00 (cafe), bar in the evening",
@@ -7259,6 +7665,8 @@
     "stationSlugs": [
       "nogizaka-station"
     ],
+    "lat": 35.666572,
+    "lng": 139.726215,
     "nearestStation": "Nogizaka Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; daytime (no time limit)",
@@ -7285,6 +7693,8 @@
     "stationSlugs": [
       "daikanyama-station"
     ],
+    "lat": 35.6485,
+    "lng": 139.703,
     "nearestStation": "Daikanyama Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; daytime (no time limit)",
@@ -7311,6 +7721,8 @@
     "stationSlugs": [
       "oshiage-station"
     ],
+    "lat": 35.710702,
+    "lng": 139.812935,
     "nearestStation": "Oshiage Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 10:00-17:00 and 20:00-23:00, Sat-Sun 10:00-18:00 and 20:00-23:00",
@@ -7337,6 +7749,8 @@
     "stationSlugs": [
       "honjo-azumabashi-station"
     ],
+    "lat": 35.70858,
+    "lng": 139.804624,
     "nearestStation": "Honjo-Azumabashi Station",
     "walkMinutes": 5,
     "businessHours": "10:00-23:00 (cafe until 20:00)",
@@ -7363,6 +7777,8 @@
     "stationSlugs": [
       "honjo-azumabashi-station"
     ],
+    "lat": 35.70858,
+    "lng": 139.804624,
     "nearestStation": "Honjo-Azumabashi Station",
     "walkMinutes": 8,
     "businessHours": "Mon-Fri 7:00-19:00, Sat-Sun 10:00-19:00",
@@ -7389,6 +7805,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "Hours vary; daytime",
@@ -7415,6 +7833,8 @@
     "stationSlugs": [
       "shimura-sakaue-station"
     ],
+    "lat": 35.775725,
+    "lng": 139.69538,
     "nearestStation": "Shimura-sakaue Station",
     "walkMinutes": 3,
     "businessHours": "9:00-20:00",
@@ -7441,6 +7861,8 @@
     "stationSlugs": [
       "tobu-shimoakatsuka-station"
     ],
+    "lat": 35.7899,
+    "lng": 139.6349,
     "nearestStation": "Tobu-Shimoakatsuka Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -7466,6 +7888,8 @@
     "stationSlugs": [
       "narimasu-station"
     ],
+    "lat": 35.777723,
+    "lng": 139.632708,
     "nearestStation": "Narimasu Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
@@ -7492,6 +7916,8 @@
     "stationSlugs": [
       "narimasu-station"
     ],
+    "lat": 35.777723,
+    "lng": 139.632708,
     "nearestStation": "Narimasu Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -7517,6 +7943,8 @@
     "stationSlugs": [
       "narimasu-station"
     ],
+    "lat": 35.777723,
+    "lng": 139.632708,
     "nearestStation": "Narimasu Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -7542,6 +7970,8 @@
     "stationSlugs": [
       "shimura-sakaue-station"
     ],
+    "lat": 35.775725,
+    "lng": 139.69538,
     "nearestStation": "Shimura-sakaue Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -7567,6 +7997,8 @@
     "stationSlugs": [
       "oyama-station"
     ],
+    "lat": 35.748398,
+    "lng": 139.702589,
     "nearestStation": "Oyama Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -7592,6 +8024,8 @@
     "stationSlugs": [
       "kameari-station"
     ],
+    "lat": 35.766527,
+    "lng": 139.847573,
     "nearestStation": "Kameari Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -7617,6 +8051,8 @@
     "stationSlugs": [
       "kameari-station"
     ],
+    "lat": 35.766527,
+    "lng": 139.847573,
     "nearestStation": "Kameari Station",
     "walkMinutes": 6,
     "businessHours": "09:30-22:30",
@@ -7643,6 +8079,8 @@
     "stationSlugs": [
       "shin-koiwa-station"
     ],
+    "lat": 35.716903,
+    "lng": 139.857777,
     "nearestStation": "Shin-Koiwa Station",
     "walkMinutes": 2,
     "businessHours": "6:30-22:00",
@@ -7669,6 +8107,8 @@
     "stationSlugs": [
       "shin-koiwa-station"
     ],
+    "lat": 35.716903,
+    "lng": 139.857777,
     "nearestStation": "Shin-Koiwa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-20:00",
@@ -7695,6 +8135,8 @@
     "stationSlugs": [
       "shin-koiwa-station"
     ],
+    "lat": 35.716903,
+    "lng": 139.857777,
     "nearestStation": "Shin-Koiwa Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 7:30-21:00 / Sat-Sun 8:00-20:00",
@@ -7721,6 +8163,8 @@
     "stationSlugs": [
       "aoto-station"
     ],
+    "lat": 35.745883,
+    "lng": 139.856292,
     "nearestStation": "Aoto Station",
     "walkMinutes": 5,
     "businessHours": "Mon-Fri 7:00-21:00 / Sat-Sun/Hol 7:30-20:30",
@@ -7747,6 +8191,8 @@
     "stationSlugs": [
       "kanamachi-station"
     ],
+    "lat": 35.769582,
+    "lng": 139.870482,
     "nearestStation": "Kanamachi Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Sat 7:00-22:00 / Sun/Hol 8:00-22:00",
@@ -7773,6 +8219,8 @@
     "stationSlugs": [
       "akabane-station"
     ],
+    "lat": 35.778026,
+    "lng": 139.720928,
     "nearestStation": "Akabane Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -7798,6 +8246,8 @@
     "stationSlugs": [
       "akabane-station"
     ],
+    "lat": 35.778026,
+    "lng": 139.720928,
     "nearestStation": "Akabane Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -7823,6 +8273,8 @@
     "stationSlugs": [
       "akabane-station"
     ],
+    "lat": 35.778026,
+    "lng": 139.720928,
     "nearestStation": "Akabane Station",
     "walkMinutes": 10,
     "priceBand": "¥¥",
@@ -7848,6 +8300,8 @@
     "stationSlugs": [
       "oji-station"
     ],
+    "lat": 35.752538,
+    "lng": 139.73809,
     "nearestStation": "Oji Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 7:00-22:00; Weekends/Hol 8:00-22:00",
@@ -7874,6 +8328,8 @@
     "stationSlugs": [
       "tabata-station"
     ],
+    "lat": 35.737781,
+    "lng": 139.761229,
     "nearestStation": "Tabata Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -7899,6 +8355,8 @@
     "stationSlugs": [
       "higashi-jujo-station"
     ],
+    "lat": 35.763803,
+    "lng": 139.726858,
     "nearestStation": "Higashi-Jujo Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 7:00-23:00; Weekends/Hol 8:00-23:00",
@@ -7925,6 +8383,8 @@
     "stationSlugs": [
       "higashi-jujo-station"
     ],
+    "lat": 35.763803,
+    "lng": 139.726858,
     "nearestStation": "Higashi-Jujo Station",
     "walkMinutes": 3,
     "businessHours": "Daily 7:00-20:00",
@@ -7951,8 +8411,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-Sanchome Station",
     "walkMinutes": 0,
     "businessHours": "7:00-23:00",
@@ -7979,6 +8439,8 @@
     "stationSlugs": [
       "tochomae-station"
     ],
+    "lat": 35.690551,
+    "lng": 139.69257,
     "nearestStation": "Tochomae Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
@@ -8004,6 +8466,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
@@ -8029,6 +8493,8 @@
     "stationSlugs": [
       "sugamo-station"
     ],
+    "lat": 35.733445,
+    "lng": 139.739303,
     "nearestStation": "Sugamo Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
@@ -8054,6 +8520,8 @@
     "stationSlugs": [
       "ginza-itchome-station"
     ],
+    "lat": 35.67435,
+    "lng": 139.767045,
     "nearestStation": "Ginza-Itchome Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:30",
@@ -8080,6 +8548,8 @@
     "stationSlugs": [
       "kitasenju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kitasenju Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
@@ -8105,6 +8575,8 @@
     "stationSlugs": [
       "ueno-hirokoji-station"
     ],
+    "lat": 35.70768,
+    "lng": 139.772877,
     "nearestStation": "Ueno-Hirokoji Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
@@ -8130,6 +8602,8 @@
     "stationSlugs": [
       "kamiyacho-station"
     ],
+    "lat": 35.662978,
+    "lng": 139.745069,
     "nearestStation": "Kamiyacho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 9:00-18:00",
@@ -8156,6 +8630,8 @@
     "stationSlugs": [
       "kyobashi-station"
     ],
+    "lat": 35.676856,
+    "lng": 139.770126,
     "nearestStation": "Kyobashi Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-19:00, Sat/Sun/Hol 8:00-18:00",
@@ -8182,8 +8658,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 0,
     "businessHours": "7:00-20:00",
@@ -8210,8 +8686,8 @@
     "stationSlugs": [
       "omotesando-station"
     ],
-    "lat": 35.6652,
-    "lng": 139.7126,
+    "lat": 35.665247,
+    "lng": 139.712314,
     "nearestStation": "Omotesando Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-21:00, Sat/Sun/Hol 8:00-21:00",
@@ -8238,6 +8714,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:00",
@@ -8264,6 +8742,8 @@
     "stationSlugs": [
       "asagaya-station"
     ],
+    "lat": 35.704818,
+    "lng": 139.635868,
     "nearestStation": "Asagaya Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:00",
@@ -8290,6 +8770,8 @@
     "stationSlugs": [
       "musashi-koyama-station"
     ],
+    "lat": 35.611,
+    "lng": 139.705,
     "nearestStation": "Musashi-Koyama Station",
     "walkMinutes": 0,
     "businessHours": "8:00-20:00",
@@ -8316,6 +8798,8 @@
     "stationSlugs": [
       "gokokuji-station"
     ],
+    "lat": 35.719044,
+    "lng": 139.72754,
     "nearestStation": "Gokokuji Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 8:00-20:00",
@@ -8342,6 +8826,8 @@
     "stationSlugs": [
       "hiroo-station"
     ],
+    "lat": 35.652279,
+    "lng": 139.722202,
     "nearestStation": "Hiroo Station",
     "walkMinutes": 0,
     "businessHours": "7:00-20:00",
@@ -8368,6 +8854,8 @@
     "stationSlugs": [
       "shakujii-koen-station"
     ],
+    "lat": 35.743563,
+    "lng": 139.606981,
     "nearestStation": "Shakujii-koen Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-22:00, Sat 8:00-22:00, Sun/Hol 8:00-21:00",
@@ -8394,6 +8882,8 @@
     "stationSlugs": [
       "omori-station"
     ],
+    "lat": 35.588903,
+    "lng": 139.728079,
     "nearestStation": "Omori Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 8:00-20:00, Sat/Sun/Hol 8:00-19:00",
@@ -8420,6 +8910,8 @@
     "stationSlugs": [
       "hatagatadai-station"
     ],
+    "lat": 35.6013,
+    "lng": 139.7031,
     "nearestStation": "Hatagatadai Station",
     "walkMinutes": 0,
     "businessHours": "9:00-19:00, closed Thursdays",
@@ -8446,6 +8938,8 @@
     "stationSlugs": [
       "shin-itabashi-station"
     ],
+    "lat": 35.748785,
+    "lng": 139.720101,
     "nearestStation": "Shin-Itabashi Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:30",
@@ -8472,6 +8966,8 @@
     "stationSlugs": [
       "ushigome-kagurazaka-station"
     ],
+    "lat": 35.700851,
+    "lng": 139.735802,
     "nearestStation": "Ushigome-Kagurazaka Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-22:00, Sat/Sun/Hol 8:00-22:00",
@@ -8498,6 +8994,8 @@
     "stationSlugs": [
       "hamadayama-station"
     ],
+    "lat": 35.681603,
+    "lng": 139.627528,
     "nearestStation": "Hamadayama Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 9:00-20:00, Sat/Sun/Hol 9:00-19:00",
@@ -8524,6 +9022,8 @@
     "stationSlugs": [
       "yoga-station"
     ],
+    "lat": 35.6265,
+    "lng": 139.636,
     "nearestStation": "Yoga Station",
     "walkMinutes": 0,
     "businessHours": "7:30-21:00",
@@ -8550,8 +9050,8 @@
     "stationSlugs": [
       "jimbocho-station"
     ],
-    "lat": 35.6959,
-    "lng": 139.7576,
+    "lat": 35.695966,
+    "lng": 139.757606,
     "nearestStation": "Jimbocho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-22:00, Sat/Sun/Hol 8:00-20:00",
@@ -8578,6 +9078,8 @@
     "stationSlugs": [
       "higashi-ojima-station"
     ],
+    "lat": 35.690355,
+    "lng": 139.845963,
     "nearestStation": "Higashi-Ojima Station",
     "walkMinutes": 0,
     "businessHours": "7:30-21:00",
@@ -8604,6 +9106,8 @@
     "stationSlugs": [
       "takeshiba-station"
     ],
+    "lat": 35.654099,
+    "lng": 139.762037,
     "nearestStation": "Takeshiba Station",
     "walkMinutes": 0,
     "businessHours": "10:00-22:00",
@@ -8630,6 +9134,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-20:00; Sat 9:00-19:00; Sun/Hol 9:00-18:00",
@@ -8656,6 +9162,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "7:00-20:00",
@@ -8682,6 +9190,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "10:00-21:00",
@@ -8708,6 +9218,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "Cafe Mon-Fri 7:00-17:30; Bar to 22:00",
@@ -8734,6 +9246,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 6,
     "businessHours": "Mon-Fri 7:00-21:00; Sat-Sun/Hol 8:00-20:00",
@@ -8760,6 +9274,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
@@ -8786,6 +9302,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00",
@@ -8812,6 +9330,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 7:00-23:30; Sat-Sun/Hol 9:00-21:00",
@@ -8838,6 +9358,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "8:30-21:00",
@@ -8864,6 +9386,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 2,
     "businessHours": "10:00-21:00",
@@ -8890,6 +9414,8 @@
     "stationSlugs": [
       "kameido-station"
     ],
+    "lat": 35.697345,
+    "lng": 139.826262,
     "nearestStation": "Kameido Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -8915,6 +9441,8 @@
     "stationSlugs": [
       "kameido-station"
     ],
+    "lat": 35.697345,
+    "lng": 139.826262,
     "nearestStation": "Kameido Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -8940,6 +9468,8 @@
     "stationSlugs": [
       "kameido-station"
     ],
+    "lat": 35.697345,
+    "lng": 139.826262,
     "nearestStation": "Kameido Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -8965,6 +9495,8 @@
     "stationSlugs": [
       "kiba-station"
     ],
+    "lat": 35.669351,
+    "lng": 139.807042,
     "nearestStation": "Kiba Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
@@ -8990,6 +9522,8 @@
     "stationSlugs": [
       "kiba-station"
     ],
+    "lat": 35.669351,
+    "lng": 139.807042,
     "nearestStation": "Kiba Station",
     "walkMinutes": 8,
     "priceBand": "¥¥",
@@ -9015,6 +9549,8 @@
     "stationSlugs": [
       "monzen-nakacho-station"
     ],
+    "lat": 35.671851,
+    "lng": 139.796209,
     "nearestStation": "Monzen-nakacho Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -9040,6 +9576,8 @@
     "stationSlugs": [
       "ojima-station"
     ],
+    "lat": 35.689905,
+    "lng": 139.83565,
     "nearestStation": "Ojima Station",
     "walkMinutes": 2,
     "businessHours": "7:30-21:00",
@@ -9066,6 +9604,8 @@
     "stationSlugs": [
       "kokusai-tenjijo-station"
     ],
+    "lat": 35.63441,
+    "lng": 139.791617,
     "nearestStation": "Kokusai-tenjijo Station",
     "walkMinutes": 6,
     "businessHours": "10:00-21:00",
@@ -9092,6 +9632,8 @@
     "stationSlugs": [
       "ochanomizu-station"
     ],
+    "lat": 35.699605,
+    "lng": 139.764955,
     "nearestStation": "Ochanomizu Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; check official site",
@@ -9118,6 +9660,8 @@
     "stationSlugs": [
       "ogawamachi-station"
     ],
+    "lat": 35.695487,
+    "lng": 139.767551,
     "nearestStation": "Ogawamachi Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9144,8 +9688,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
-    "lat": 35.6984,
-    "lng": 139.7731,
+    "lat": 35.698619,
+    "lng": 139.773288,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9172,6 +9716,8 @@
     "stationSlugs": [
       "akasaka-mitsuke-station"
     ],
+    "lat": 35.677021,
+    "lng": 139.737047,
     "nearestStation": "Akasaka-mitsuke Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9198,8 +9744,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9226,6 +9772,8 @@
     "stationSlugs": [
       "tokyo-teleport-station"
     ],
+    "lat": 35.62753,
+    "lng": 139.778896,
     "nearestStation": "Tokyo Teleport Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9252,6 +9800,8 @@
     "stationSlugs": [
       "hiroo-station"
     ],
+    "lat": 35.652279,
+    "lng": 139.722202,
     "nearestStation": "Hiroo Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9278,8 +9828,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9306,6 +9856,8 @@
     "stationSlugs": [
       "seibu-shinjuku-station"
     ],
+    "lat": 35.696254,
+    "lng": 139.7,
     "nearestStation": "Seibu-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9332,6 +9884,8 @@
     "stationSlugs": [
       "higashi-shinjuku-station"
     ],
+    "lat": 35.698915,
+    "lng": 139.707593,
     "nearestStation": "Higashi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9358,8 +9912,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9386,6 +9940,8 @@
     "stationSlugs": [
       "shin-okubo-station"
     ],
+    "lat": 35.700875,
+    "lng": 139.700261,
     "nearestStation": "Shin-Okubo Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9412,6 +9968,8 @@
     "stationSlugs": [
       "hatanodai-station"
     ],
+    "lat": 35.6013,
+    "lng": 139.7031,
     "nearestStation": "Hatanodai Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9438,6 +9996,8 @@
     "stationSlugs": [
       "samezu-station"
     ],
+    "lat": 35.604977,
+    "lng": 139.742227,
     "nearestStation": "Samezu Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9464,6 +10024,8 @@
     "stationSlugs": [
       "kamata-station"
     ],
+    "lat": 35.562517,
+    "lng": 139.716032,
     "nearestStation": "Kamata Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9490,6 +10052,8 @@
     "stationSlugs": [
       "kojiya-station"
     ],
+    "lat": 35.5545,
+    "lng": 139.72962,
     "nearestStation": "Kojiya Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9516,6 +10080,8 @@
     "stationSlugs": [
       "shimokitazawa-station"
     ],
+    "lat": 35.661539,
+    "lng": 139.66691,
     "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9542,6 +10108,8 @@
     "stationSlugs": [
       "kyodo-station"
     ],
+    "lat": 35.650991,
+    "lng": 139.635993,
     "nearestStation": "Kyodo Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9568,6 +10136,8 @@
     "stationSlugs": [
       "asagaya-station"
     ],
+    "lat": 35.704818,
+    "lng": 139.635868,
     "nearestStation": "Asagaya Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9594,6 +10164,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9620,6 +10192,8 @@
     "stationSlugs": [
       "nogata-station"
     ],
+    "lat": 35.719658,
+    "lng": 139.652733,
     "nearestStation": "Nogata Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9646,6 +10220,8 @@
     "stationSlugs": [
       "ekoda-station"
     ],
+    "lat": 35.737557,
+    "lng": 139.672814,
     "nearestStation": "Ekoda Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9672,6 +10248,8 @@
     "stationSlugs": [
       "oizumi-gakuen-station"
     ],
+    "lat": 35.749406,
+    "lng": 139.586732,
     "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9698,6 +10276,8 @@
     "stationSlugs": [
       "higashi-ikebukuro-station"
     ],
+    "lat": 35.725732,
+    "lng": 139.719546,
     "nearestStation": "Higashi-Ikebukuro Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9724,6 +10304,8 @@
     "stationSlugs": [
       "uguisudani-station"
     ],
+    "lat": 35.721484,
+    "lng": 139.778015,
     "nearestStation": "Uguisudani Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9750,6 +10332,8 @@
     "stationSlugs": [
       "inaricho-station"
     ],
+    "lat": 35.711273,
+    "lng": 139.782593,
     "nearestStation": "Inaricho Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9776,6 +10360,8 @@
     "stationSlugs": [
       "minamisunamachi-station"
     ],
+    "lat": 35.668796,
+    "lng": 139.83065,
     "nearestStation": "Minamisunamachi Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; check official site",
@@ -9802,6 +10388,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9828,6 +10416,8 @@
     "stationSlugs": [
       "takashimadaira-station"
     ],
+    "lat": 35.789056,
+    "lng": 139.661216,
     "nearestStation": "Takashimadaira Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9854,6 +10444,8 @@
     "stationSlugs": [
       "shin-koiwa-station"
     ],
+    "lat": 35.716903,
+    "lng": 139.857777,
     "nearestStation": "Shin-Koiwa Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9880,6 +10472,8 @@
     "stationSlugs": [
       "komagome-station"
     ],
+    "lat": 35.736825,
+    "lng": 139.748053,
     "nearestStation": "Komagome Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9906,8 +10500,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 2,
     "businessHours": "11:30-23:00 (later on weekends)",
@@ -9934,8 +10528,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 5,
     "businessHours": "11:00-18:00",
@@ -9962,8 +10556,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 5,
     "businessHours": "10:00-20:00",
@@ -9990,8 +10584,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:30",
@@ -10018,8 +10612,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:00",
@@ -10046,8 +10640,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 2,
     "businessHours": "8:00-23:00",
@@ -10074,8 +10668,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 6,
     "businessHours": "10:00-20:00",
@@ -10102,8 +10696,8 @@
     "stationSlugs": [
       "nakameguro-station"
     ],
-    "lat": 35.644,
-    "lng": 139.6987,
+    "lat": 35.643854,
+    "lng": 139.698621,
     "nearestStation": "Nakameguro Station",
     "walkMinutes": 3,
     "businessHours": "8:00-23:00",
@@ -10242,8 +10836,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "9:00-23:00",
@@ -10270,8 +10864,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 6,
     "businessHours": "7:00-21:00",
@@ -10298,8 +10892,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "8:00-23:00",
@@ -10326,8 +10920,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "8:00-22:00",
@@ -10354,8 +10948,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 2,
     "businessHours": "7:00-21:00 (weekday)",
@@ -10382,8 +10976,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
-    "lat": 35.6628,
-    "lng": 139.7315,
+    "lat": 35.662836,
+    "lng": 139.731443,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 5,
     "businessHours": "7:00-22:30",
@@ -10410,8 +11004,8 @@
     "stationSlugs": [
       "azabu-juban-station"
     ],
-    "lat": 35.6556,
-    "lng": 139.7365,
+    "lat": 35.654682,
+    "lng": 139.737051,
     "nearestStation": "Azabu-Juban Station",
     "walkMinutes": 5,
     "businessHours": "8:00-19:00 (varies)",
@@ -10438,8 +11032,8 @@
     "stationSlugs": [
       "azabu-juban-station"
     ],
-    "lat": 35.6556,
-    "lng": 139.7365,
+    "lat": 35.654682,
+    "lng": 139.737051,
     "nearestStation": "Azabu-Juban Station",
     "walkMinutes": 2,
     "businessHours": "6:30-22:00 (varies by day)",
@@ -10466,8 +11060,8 @@
     "stationSlugs": [
       "azabu-juban-station"
     ],
-    "lat": 35.6556,
-    "lng": 139.7365,
+    "lat": 35.654682,
+    "lng": 139.737051,
     "nearestStation": "Azabu-Juban Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -10494,8 +11088,8 @@
     "stationSlugs": [
       "shimbashi-station"
     ],
-    "lat": 35.6664,
-    "lng": 139.7583,
+    "lat": 35.666195,
+    "lng": 139.758587,
     "nearestStation": "Shimbashi Station",
     "walkMinutes": 6,
     "businessHours": "11:00-23:00",
@@ -10522,8 +11116,8 @@
     "stationSlugs": [
       "uchisaiwaicho-station"
     ],
-    "lat": 35.669,
-    "lng": 139.753,
+    "lat": 35.66975,
+    "lng": 139.75561,
     "nearestStation": "Uchisaiwaicho Station",
     "walkMinutes": 1,
     "businessHours": "10:00-19:00 (weekdays)",
@@ -10550,8 +11144,8 @@
     "stationSlugs": [
       "shimbashi-station"
     ],
-    "lat": 35.6664,
-    "lng": 139.7583,
+    "lat": 35.666195,
+    "lng": 139.758587,
     "nearestStation": "Shimbashi Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:00-21:00, Weekend/Hol 8:00-20:00",
@@ -10578,8 +11172,8 @@
     "stationSlugs": [
       "shimbashi-station"
     ],
-    "lat": 35.6664,
-    "lng": 139.7583,
+    "lat": 35.666195,
+    "lng": 139.758587,
     "nearestStation": "Shimbashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekday 7:00-23:00, Sun/Hol 8:00-21:00",
@@ -10606,8 +11200,8 @@
     "stationSlugs": [
       "tamachi-station"
     ],
-    "lat": 35.6457,
-    "lng": 139.7476,
+    "lat": 35.645736,
+    "lng": 139.747575,
     "nearestStation": "Tamachi Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
@@ -10634,8 +11228,8 @@
     "stationSlugs": [
       "tamachi-station"
     ],
-    "lat": 35.6457,
-    "lng": 139.7476,
+    "lat": 35.645736,
+    "lng": 139.747575,
     "nearestStation": "Tamachi Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:00-22:00, Weekend/Hol 8:00-21:00",
@@ -10662,8 +11256,8 @@
     "stationSlugs": [
       "omotesando-station"
     ],
-    "lat": 35.6652,
-    "lng": 139.7126,
+    "lat": 35.665247,
+    "lng": 139.712314,
     "nearestStation": "Omotesando Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:30-21:00, Weekend 8:00-21:00",
@@ -10690,6 +11284,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-21:00",
@@ -10716,6 +11312,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "6:45-22:00",
@@ -10742,6 +11340,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "7:00-23:00",
@@ -10768,6 +11368,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:30",
@@ -10794,6 +11396,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 10,
     "businessHours": "Weekdays 7:00-22:00, Weekends 8:00-21:00",
@@ -10820,6 +11424,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00",
@@ -10846,6 +11452,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 1,
     "businessHours": "7:30-23:00",
@@ -10872,6 +11480,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00",
@@ -10898,6 +11508,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "10:30-21:00",
@@ -10924,6 +11536,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-19:30",
@@ -10950,6 +11564,8 @@
     "stationSlugs": [
       "nakano-station"
     ],
+    "lat": 35.705765,
+    "lng": 139.665835,
     "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "7:30-22:00",
@@ -10976,6 +11592,8 @@
     "stationSlugs": [
       "higashi-nakano-station"
     ],
+    "lat": 35.706529,
+    "lng": 139.684436,
     "nearestStation": "Higashi-Nakano Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -11001,6 +11619,8 @@
     "stationSlugs": [
       "oizumi-gakuen-station"
     ],
+    "lat": 35.749406,
+    "lng": 139.586732,
     "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -11026,6 +11646,8 @@
     "stationSlugs": [
       "oizumi-gakuen-station"
     ],
+    "lat": 35.749406,
+    "lng": 139.586732,
     "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 1,
     "priceBand": "¥",
@@ -11051,6 +11673,8 @@
     "stationSlugs": [
       "oizumi-gakuen-station"
     ],
+    "lat": 35.749406,
+    "lng": 139.586732,
     "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 4,
     "priceBand": "¥¥",
@@ -11076,6 +11700,8 @@
     "stationSlugs": [
       "shakujii-koen-station"
     ],
+    "lat": 35.743563,
+    "lng": 139.606981,
     "nearestStation": "Shakujii-koen Station",
     "walkMinutes": 2,
     "priceBand": "¥",
@@ -11101,6 +11727,8 @@
     "stationSlugs": [
       "hikarigaoka-station"
     ],
+    "lat": 35.758526,
+    "lng": 139.628603,
     "nearestStation": "Hikarigaoka Station",
     "walkMinutes": 3,
     "priceBand": "¥",
@@ -11126,6 +11754,8 @@
     "stationSlugs": [
       "hikarigaoka-station"
     ],
+    "lat": 35.758526,
+    "lng": 139.628603,
     "nearestStation": "Hikarigaoka Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -11151,6 +11781,8 @@
     "stationSlugs": [
       "keikyu-kamata-station"
     ],
+    "lat": 35.560796,
+    "lng": 139.723681,
     "nearestStation": "Keikyu Kamata Station",
     "walkMinutes": 9,
     "businessHours": "10:00-18:30",
@@ -11177,6 +11809,8 @@
     "stationSlugs": [
       "omori-station"
     ],
+    "lat": 35.588903,
+    "lng": 139.728079,
     "nearestStation": "Omori Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00",
@@ -11203,6 +11837,8 @@
     "stationSlugs": [
       "omori-station"
     ],
+    "lat": 35.588903,
+    "lng": 139.728079,
     "nearestStation": "Omori Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -11229,6 +11865,8 @@
     "stationSlugs": [
       "den-en-chofu-station"
     ],
+    "lat": 35.5966,
+    "lng": 139.6685,
     "nearestStation": "Den-en-chofu Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -11254,6 +11892,8 @@
     "stationSlugs": [
       "haneda-airport-terminal-3-station"
     ],
+    "lat": 35.5449,
+    "lng": 139.7876,
     "nearestStation": "Haneda Airport Terminal 3 Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
@@ -11280,6 +11920,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:00",
@@ -11306,6 +11948,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00 (Mon-Sat)",
@@ -11332,6 +11976,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 3,
     "businessHours": "7:30-22:00",
@@ -11358,6 +12004,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:30 (Mon-Fri)",
@@ -11384,6 +12032,8 @@
     "stationSlugs": [
       "sangenjaya-station"
     ],
+    "lat": 35.6435,
+    "lng": 139.6716,
     "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "businessHours": "8:00-21:00 (Mon-Fri)",
@@ -11410,6 +12060,8 @@
     "stationSlugs": [
       "shimokitazawa-station"
     ],
+    "lat": 35.661539,
+    "lng": 139.66691,
     "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:00",
@@ -11436,6 +12088,8 @@
     "stationSlugs": [
       "shimokitazawa-station"
     ],
+    "lat": 35.661539,
+    "lng": 139.66691,
     "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:30",
@@ -11462,6 +12116,8 @@
     "stationSlugs": [
       "shimokitazawa-station"
     ],
+    "lat": 35.661539,
+    "lng": 139.66691,
     "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
@@ -11488,6 +12144,8 @@
     "stationSlugs": [
       "higashi-kitazawa-station"
     ],
+    "lat": 35.665379,
+    "lng": 139.673014,
     "nearestStation": "Higashi-Kitazawa Station",
     "walkMinutes": 5,
     "businessHours": "11:30-18:30",
@@ -11514,6 +12172,8 @@
     "stationSlugs": [
       "futako-tamagawa-station"
     ],
+    "lat": 35.6118,
+    "lng": 139.6262,
     "nearestStation": "Futako-Tamagawa Station",
     "walkMinutes": 4,
     "businessHours": "7:00-22:30",
@@ -11540,6 +12200,8 @@
     "stationSlugs": [
       "futako-tamagawa-station"
     ],
+    "lat": 35.6118,
+    "lng": 139.6262,
     "nearestStation": "Futako-Tamagawa Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-23:00; Weekends 7:30-23:00",
@@ -11566,6 +12228,8 @@
     "stationSlugs": [
       "kyodo-station"
     ],
+    "lat": 35.650991,
+    "lng": 139.635993,
     "nearestStation": "Kyodo Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:00",
@@ -11592,6 +12256,8 @@
     "stationSlugs": [
       "kyodo-station"
     ],
+    "lat": 35.650991,
+    "lng": 139.635993,
     "nearestStation": "Kyodo Station",
     "walkMinutes": 6,
     "businessHours": "11:00-21:00",
@@ -11618,8 +12284,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 4,
     "businessHours": "9:00-23:00 daily",
@@ -11646,8 +12312,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 7,
     "businessHours": "Weekday 9:00-20:00, weekend hours vary",
@@ -11674,8 +12340,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 1,
     "businessHours": "Approx. 9:00-22:45 (varies)",
@@ -11702,8 +12368,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "7:00-22:30",
@@ -11730,8 +12396,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "8:00-20:00",
@@ -11758,8 +12424,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "Late; open into early morning (sources vary)",
@@ -11786,8 +12452,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 6,
     "businessHours": "11:00-23:00",
@@ -11814,8 +12480,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "Approx. 11:00-23:00 (sources vary)",
@@ -11842,8 +12508,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 4,
     "businessHours": "8:00-22:00 daily",
@@ -11870,8 +12536,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 6,
     "businessHours": "8:00-20:00 daily",
@@ -11898,8 +12564,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "10:00-22:00 daily",
@@ -11926,8 +12592,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "8:00-23:00 daily",
@@ -11954,8 +12620,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "9:00-18:30 daily",
@@ -11982,8 +12648,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "Roughly matches Shibuya Modi building hours",
@@ -12010,8 +12676,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
@@ -12036,8 +12702,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 10,
     "businessHours": "8:00-17:30, Tue-Sun (closed Monday)",
@@ -12064,6 +12730,8 @@
     "stationSlugs": [
       "osaki-station"
     ],
+    "lat": 35.619772,
+    "lng": 139.728439,
     "nearestStation": "Osaki Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:00-22:00, Sat-Sun 7:30-21:30",
@@ -12090,6 +12758,8 @@
     "stationSlugs": [
       "osaki-station"
     ],
+    "lat": 35.619772,
+    "lng": 139.728439,
     "nearestStation": "Osaki Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:00, Sat-Sun 8:00-20:00",
@@ -12116,6 +12786,8 @@
     "stationSlugs": [
       "osaki-station"
     ],
+    "lat": 35.619772,
+    "lng": 139.728439,
     "nearestStation": "Osaki Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:00-22:00, Sat-Sun 8:00-20:00",
@@ -12142,6 +12814,8 @@
     "stationSlugs": [
       "osaki-station"
     ],
+    "lat": 35.619772,
+    "lng": 139.728439,
     "nearestStation": "Osaki Station",
     "walkMinutes": 5,
     "businessHours": "10:00-20:00 daily",
@@ -12168,6 +12842,8 @@
     "stationSlugs": [
       "gotanda-station"
     ],
+    "lat": 35.625974,
+    "lng": 139.723822,
     "nearestStation": "Gotanda Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 8:00-19:00, Sat-Sun/Hol 11:00-18:00",
@@ -12194,6 +12870,8 @@
     "stationSlugs": [
       "gotanda-station"
     ],
+    "lat": 35.625974,
+    "lng": 139.723822,
     "nearestStation": "Gotanda Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
@@ -12220,6 +12898,8 @@
     "stationSlugs": [
       "gotanda-station"
     ],
+    "lat": 35.625974,
+    "lng": 139.723822,
     "nearestStation": "Gotanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:30-22:00, Sat 7:00-22:00, Sun/Hol 7:00-21:00",
@@ -12246,6 +12926,8 @@
     "stationSlugs": [
       "oimachi-station"
     ],
+    "lat": 35.606257,
+    "lng": 139.73485,
     "nearestStation": "Oimachi Station",
     "walkMinutes": 4,
     "businessHours": "7:00-22:30",
@@ -12272,6 +12954,8 @@
     "stationSlugs": [
       "oimachi-station"
     ],
+    "lat": 35.606257,
+    "lng": 139.73485,
     "nearestStation": "Oimachi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -12298,6 +12982,8 @@
     "stationSlugs": [
       "oimachi-station"
     ],
+    "lat": 35.606257,
+    "lng": 139.73485,
     "nearestStation": "Oimachi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:00",
@@ -12324,6 +13010,8 @@
     "stationSlugs": [
       "oimachi-station"
     ],
+    "lat": 35.606257,
+    "lng": 139.73485,
     "nearestStation": "Oimachi Station",
     "walkMinutes": 2,
     "businessHours": "Mon/Tue/Thu 8:00-18:00, Wed/Fri 8:00-20:00, Sat-Sun 10:00-18:00",
@@ -12350,6 +13038,8 @@
     "stationSlugs": [
       "musashi-koyama-station"
     ],
+    "lat": 35.611,
+    "lng": 139.705,
     "nearestStation": "Musashi-Koyama Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00",
@@ -12377,8 +13067,8 @@
       "tennozu-isle-station",
       "shinagawa-seaside-station"
     ],
-    "lat": 35.6222,
-    "lng": 139.7503,
+    "lat": 35.620562,
+    "lng": 139.750793,
     "nearestStation": "Tennozu Isle Station",
     "walkMinutes": 4,
     "businessHours": "08:00-21:00",
@@ -12405,8 +13095,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "11:30-23:30 (Sun/Hol to 23:00)",
@@ -12461,8 +13151,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 3,
     "businessHours": "Approx. 7:30-23:30 (varies by floor)",
@@ -12489,8 +13179,8 @@
     "stationSlugs": [
       "nishi-shinjuku-station"
     ],
-    "lat": 35.6939,
-    "lng": 139.6929,
+    "lat": 35.694298,
+    "lng": 139.692778,
     "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:15, Sat 7:30-20:15, Sun/Hol 8:30-20:15",
@@ -12517,8 +13207,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00 daily",
@@ -12545,8 +13235,8 @@
     "stationSlugs": [
       "nishi-shinjuku-station"
     ],
-    "lat": 35.6939,
-    "lng": 139.6929,
+    "lat": 35.694298,
+    "lng": 139.692778,
     "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 6,
     "businessHours": "Mon-Fri 7:00-21:00, Sat 8:00-20:00, Sun/Hol 9:00-20:00",
@@ -12573,8 +13263,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "11:00-22:00 daily",
@@ -12601,8 +13291,8 @@
     "stationSlugs": [
       "nishi-shinjuku-station"
     ],
-    "lat": 35.6939,
-    "lng": 139.6929,
+    "lat": 35.694298,
+    "lng": 139.692778,
     "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "9:00-22:00 daily",
@@ -12629,8 +13319,8 @@
     "stationSlugs": [
       "shinjuku-station"
     ],
-    "lat": 35.6896,
-    "lng": 139.7004,
+    "lat": 35.689729,
+    "lng": 139.700464,
     "nearestStation": "Shinjuku Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Sat 7:30-22:00, Sun/Hol 8:00-22:00",
@@ -12657,8 +13347,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00 daily",
@@ -12685,8 +13375,8 @@
     "stationSlugs": [
       "nishi-shinjuku-station"
     ],
-    "lat": 35.6939,
-    "lng": 139.6929,
+    "lat": 35.694298,
+    "lng": 139.692778,
     "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Fri 7:30-20:30, Sat 9:00-20:00, Sun/Hol 9:00-19:00",
@@ -12713,8 +13403,8 @@
     "stationSlugs": [
       "shinjuku-sanchome-station"
     ],
-    "lat": 35.6906,
-    "lng": 139.7053,
+    "lat": 35.690847,
+    "lng": 139.704895,
     "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 2,
     "businessHours": "Sun-Thu 11:00-20:00, Fri-Sat 11:00-21:00",
@@ -12741,8 +13431,8 @@
     "stationSlugs": [
       "iidabashi-station"
     ],
-    "lat": 35.702,
-    "lng": 139.7449,
+    "lat": 35.701835,
+    "lng": 139.745143,
     "nearestStation": "Iidabashi Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 9:00-23:00, Sat/Sun 10:00-23:00",
@@ -12769,8 +13459,8 @@
     "stationSlugs": [
       "iidabashi-station"
     ],
-    "lat": 35.702,
-    "lng": 139.7449,
+    "lat": 35.701835,
+    "lng": 139.745143,
     "nearestStation": "Iidabashi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -12797,8 +13487,8 @@
     "stationSlugs": [
       "iidabashi-station"
     ],
-    "lat": 35.702,
-    "lng": 139.7449,
+    "lat": 35.701835,
+    "lng": 139.745143,
     "nearestStation": "Iidabashi Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Fri 7:30-22:00, Sat/Sun 8:00-21:00",
@@ -12825,8 +13515,8 @@
     "stationSlugs": [
       "shibuya-station"
     ],
-    "lat": 35.658,
-    "lng": 139.7016,
+    "lat": 35.658871,
+    "lng": 139.701238,
     "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "8:00-23:00 daily",
@@ -12853,6 +13543,8 @@
     "stationSlugs": [
       "tochomae-station"
     ],
+    "lat": 35.690551,
+    "lng": 139.69257,
     "nearestStation": "Tochomae Station",
     "walkMinutes": 1,
     "businessHours": "7:00-21:00 daily",
@@ -12879,6 +13571,8 @@
     "stationSlugs": [
       "takanawa-gateway-station"
     ],
+    "lat": 35.6357,
+    "lng": 139.7407,
     "nearestStation": "Takanawa Gateway Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00 daily",
@@ -12905,8 +13599,8 @@
     "stationSlugs": [
       "tokyo-station"
     ],
-    "lat": 35.6812,
-    "lng": 139.7671,
+    "lat": 35.681391,
+    "lng": 139.766103,
     "nearestStation": "Tokyo Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -12933,6 +13627,8 @@
     "stationSlugs": [
       "ginza-station"
     ],
+    "lat": 35.671989,
+    "lng": 139.763965,
     "nearestStation": "Ginza Station",
     "walkMinutes": 1,
     "businessHours": "8:00-22:30 daily",
@@ -12959,6 +13655,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00 daily",
@@ -12985,6 +13683,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:30 daily",
@@ -13011,6 +13711,8 @@
     "stationSlugs": [
       "tameike-sanno-station"
     ],
+    "lat": 35.673621,
+    "lng": 139.741419,
     "nearestStation": "Tameike-Sanno Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-22:00, weekends 8:00-18:00",
@@ -13037,6 +13739,8 @@
     "stationSlugs": [
       "osaki-station"
     ],
+    "lat": 35.619772,
+    "lng": 139.728439,
     "nearestStation": "Osaki Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -13063,8 +13767,8 @@
     "stationSlugs": [
       "tokyo-station"
     ],
-    "lat": 35.6812,
-    "lng": 139.7671,
+    "lat": 35.681391,
+    "lng": 139.766103,
     "nearestStation": "Tokyo Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00 daily",
@@ -13091,6 +13795,8 @@
     "stationSlugs": [
       "ginza-station"
     ],
+    "lat": 35.671989,
+    "lng": 139.763965,
     "nearestStation": "Ginza Station",
     "walkMinutes": 0,
     "businessHours": "7:00-22:30 daily",
@@ -13117,6 +13823,8 @@
     "stationSlugs": [
       "toyosu-station"
     ],
+    "lat": 35.654908,
+    "lng": 139.79621,
     "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-21:00, weekends 8:00-20:00",
@@ -13143,6 +13851,8 @@
     "stationSlugs": [
       "oshiage-skytree-station"
     ],
+    "lat": 35.710702,
+    "lng": 139.812935,
     "nearestStation": "Oshiage (Skytree) Station",
     "walkMinutes": 3,
     "businessHours": "10:00-23:00 daily",
@@ -13169,6 +13879,8 @@
     "stationSlugs": [
       "korakuen-station"
     ],
+    "lat": 35.707898,
+    "lng": 139.751864,
     "nearestStation": "Korakuen Station",
     "walkMinutes": 2,
     "businessHours": "8:00-22:00 daily",
@@ -13195,6 +13907,8 @@
     "stationSlugs": [
       "kitasenju-station"
     ],
+    "lat": 35.749677,
+    "lng": 139.804872,
     "nearestStation": "Kitasenju Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -13221,6 +13935,8 @@
     "stationSlugs": [
       "kamata-station"
     ],
+    "lat": 35.562517,
+    "lng": 139.716032,
     "nearestStation": "Kamata Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -13247,6 +13963,8 @@
     "stationSlugs": [
       "shimokitazawa-station"
     ],
+    "lat": 35.661539,
+    "lng": 139.66691,
     "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 2,
     "businessHours": "8:00-22:00 daily",
@@ -13273,6 +13991,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 2,
     "businessHours": "10:00-21:00 daily",
@@ -13299,6 +14019,8 @@
     "stationSlugs": [
       "akabane-station"
     ],
+    "lat": 35.778026,
+    "lng": 139.720928,
     "nearestStation": "Akabane Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-22:30, weekends and holidays 8:00-22:30",
@@ -13353,6 +14075,8 @@
     "stationSlugs": [
       "minami-senju-station"
     ],
+    "lat": 35.734033,
+    "lng": 139.7994,
     "nearestStation": "Minami-Senju Station",
     "walkMinutes": 5,
     "businessHours": "8:00-22:00 daily",
@@ -13379,6 +14103,8 @@
     "stationSlugs": [
       "kasai-rinkai-koen-station"
     ],
+    "lat": 35.644392,
+    "lng": 139.861529,
     "nearestStation": "Kasai-Rinkai-Koen Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -13405,6 +14131,8 @@
     "stationSlugs": [
       "nerima-station"
     ],
+    "lat": 35.737893,
+    "lng": 139.654368,
     "nearestStation": "Nerima Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-22:30, weekends and holidays 8:00-22:00",
@@ -13431,6 +14159,8 @@
     "stationSlugs": [
       "narimasu-station"
     ],
+    "lat": 35.777723,
+    "lng": 139.632708,
     "nearestStation": "Narimasu Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -13457,6 +14187,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 13:00-24:00; Sat/Sun/Hol 10:00-24:00",
@@ -13483,6 +14215,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00",
@@ -13509,6 +14243,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "6:45-22:00",
@@ -13535,6 +14271,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -13561,6 +14299,8 @@
     "stationSlugs": [
       "ogikubo-station"
     ],
+    "lat": 35.704523,
+    "lng": 139.620109,
     "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "7:30-21:30",
@@ -13587,6 +14327,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "8:00-21:00",
@@ -13613,6 +14355,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-22:00; Sat/Sun 8:00-22:00",
@@ -13639,6 +14383,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Thu 7:30-22:00; Fri/Sat 7:30-23:00; Sun/Hol 9:00-22:00",
@@ -13665,6 +14411,8 @@
     "stationSlugs": [
       "koenji-station"
     ],
+    "lat": 35.705326,
+    "lng": 139.649664,
     "nearestStation": "Koenji Station",
     "walkMinutes": 3,
     "businessHours": "8:00-24:00",
@@ -13691,6 +14439,8 @@
     "stationSlugs": [
       "asagaya-station"
     ],
+    "lat": 35.704818,
+    "lng": 139.635868,
     "nearestStation": "Asagaya Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
@@ -13717,6 +14467,8 @@
     "stationSlugs": [
       "asagaya-station"
     ],
+    "lat": 35.704818,
+    "lng": 139.635868,
     "nearestStation": "Asagaya Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-23:00; Sat/Sun/Hol 8:00-22:00",
@@ -13743,6 +14495,8 @@
     "stationSlugs": [
       "asagaya-station"
     ],
+    "lat": 35.704818,
+    "lng": 139.635868,
     "nearestStation": "Asagaya Station",
     "walkMinutes": 1,
     "businessHours": "8:00-19:00",
@@ -13769,6 +14523,8 @@
     "stationSlugs": [
       "asagaya-station"
     ],
+    "lat": 35.704818,
+    "lng": 139.635868,
     "nearestStation": "Asagaya Station",
     "walkMinutes": 10,
     "businessHours": "11:00-21:00 (Sun 10:00-21:00); closed Tue",
@@ -13795,6 +14551,8 @@
     "stationSlugs": [
       "nishi-ogikubo-station"
     ],
+    "lat": 35.703842,
+    "lng": 139.599361,
     "nearestStation": "Nishi-Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "8:00-23:00",
@@ -13821,6 +14579,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:30-23:00, Weekends 7:00-23:00",
@@ -13847,6 +14607,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 4,
     "businessHours": "8:30-21:00 daily",
@@ -13873,6 +14635,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "10:00-21:00",
@@ -13899,6 +14663,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 12,
     "businessHours": "10:00-20:00 (closed Thu)",
@@ -13925,6 +14691,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
@@ -13951,6 +14719,8 @@
     "stationSlugs": [
       "kinshicho-station"
     ],
+    "lat": 35.696802,
+    "lng": 139.814136,
     "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "9:00-20:30 (closed Mon)",
@@ -13977,6 +14747,8 @@
     "stationSlugs": [
       "oshiage-station"
     ],
+    "lat": 35.710702,
+    "lng": 139.812935,
     "nearestStation": "Oshiage Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-20:00 (closed weekends)",
@@ -14003,6 +14775,8 @@
     "stationSlugs": [
       "oshiage-station"
     ],
+    "lat": 35.710702,
+    "lng": 139.812935,
     "nearestStation": "Oshiage Station",
     "walkMinutes": 5,
     "businessHours": "10:00-23:00 (LO 22:30)",
@@ -14029,6 +14803,8 @@
     "stationSlugs": [
       "oshiage-station"
     ],
+    "lat": 35.710702,
+    "lng": 139.812935,
     "nearestStation": "Oshiage Station",
     "walkMinutes": 5,
     "businessHours": "Wed-Fri 11:00-19:00, Sat/Sun/Hol 11:00-18:00 (closed Mon-Tue)",
@@ -14055,6 +14831,8 @@
     "stationSlugs": [
       "ryogoku-station"
     ],
+    "lat": 35.69579,
+    "lng": 139.793334,
     "nearestStation": "Ryogoku Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:00-23:00, Sat 6:00-21:00, Sun/Hol 6:00-20:00",
@@ -14081,6 +14859,8 @@
     "stationSlugs": [
       "ryogoku-station"
     ],
+    "lat": 35.69579,
+    "lng": 139.793334,
     "nearestStation": "Ryogoku Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:30",
@@ -14107,6 +14887,8 @@
     "stationSlugs": [
       "ryogoku-station"
     ],
+    "lat": 35.69579,
+    "lng": 139.793334,
     "nearestStation": "Ryogoku Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -14133,6 +14915,8 @@
     "stationSlugs": [
       "ryogoku-station"
     ],
+    "lat": 35.69579,
+    "lng": 139.793334,
     "nearestStation": "Ryogoku Station",
     "walkMinutes": 6,
     "businessHours": "Weekdays 11:00-18:00 (break 14:00-15:00), Weekends 10:00-18:00",
@@ -14159,6 +14943,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00",
@@ -14185,6 +14971,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 1,
     "businessHours": "8:00-23:00",
@@ -14211,6 +14999,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 3,
     "businessHours": "11:00-23:00",
@@ -14237,6 +15027,8 @@
     "stationSlugs": [
       "ueno-station"
     ],
+    "lat": 35.71379,
+    "lng": 139.777043,
     "nearestStation": "Ueno Station",
     "walkMinutes": 1,
     "businessHours": "11:00-21:00",
@@ -14263,6 +15055,8 @@
     "stationSlugs": [
       "okachimachi-station"
     ],
+    "lat": 35.707282,
+    "lng": 139.774727,
     "nearestStation": "Okachimachi Station",
     "walkMinutes": 3,
     "businessHours": "7:00-23:00",
@@ -14289,6 +15083,8 @@
     "stationSlugs": [
       "okachimachi-station"
     ],
+    "lat": 35.707282,
+    "lng": 139.774727,
     "nearestStation": "Okachimachi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-21:00",
@@ -14315,6 +15111,8 @@
     "stationSlugs": [
       "asakusa-station"
     ],
+    "lat": 35.711883,
+    "lng": 139.798214,
     "nearestStation": "Asakusa Station",
     "walkMinutes": 5,
     "businessHours": "10:00-22:00",
@@ -14341,6 +15139,8 @@
     "stationSlugs": [
       "asakusa-station"
     ],
+    "lat": 35.711883,
+    "lng": 139.798214,
     "nearestStation": "Asakusa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
@@ -14367,6 +15167,8 @@
     "stationSlugs": [
       "asakusa-station"
     ],
+    "lat": 35.711883,
+    "lng": 139.798214,
     "nearestStation": "Asakusa Station",
     "walkMinutes": 2,
     "businessHours": "7:00-24:00",
@@ -14393,6 +15195,8 @@
     "stationSlugs": [
       "kuramae-station"
     ],
+    "lat": 35.703236,
+    "lng": 139.790931,
     "nearestStation": "Kuramae Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
@@ -14418,6 +15222,8 @@
     "stationSlugs": [
       "kuramae-station"
     ],
+    "lat": 35.703236,
+    "lng": 139.790931,
     "nearestStation": "Kuramae Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
@@ -14443,6 +15249,8 @@
     "stationSlugs": [
       "asakusabashi-station"
     ],
+    "lat": 35.697403,
+    "lng": 139.784427,
     "nearestStation": "Asakusabashi Station",
     "walkMinutes": 3,
     "priceBand": "¥",
@@ -14468,6 +15276,8 @@
     "stationSlugs": [
       "asakusabashi-station"
     ],
+    "lat": 35.697403,
+    "lng": 139.784427,
     "nearestStation": "Asakusabashi Station",
     "walkMinutes": 5,
     "priceBand": "¥¥",
@@ -14493,6 +15303,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "9:00-18:00 (closed Tue)",
@@ -14519,6 +15331,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "10:00-19:00",
@@ -14545,6 +15359,8 @@
     "stationSlugs": [
       "higashi-ikebukuro-station"
     ],
+    "lat": 35.725732,
+    "lng": 139.719546,
     "nearestStation": "Higashi-Ikebukuro Station",
     "walkMinutes": 7,
     "businessHours": "Mon-Fri 7:30-21:00, Sat-Sun 8:30-20:00",
@@ -14571,6 +15387,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 7,
     "businessHours": "7:00-21:00",
@@ -14597,6 +15415,8 @@
     "stationSlugs": [
       "ikebukuro-station"
     ],
+    "lat": 35.730256,
+    "lng": 139.711086,
     "nearestStation": "Ikebukuro Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
@@ -14622,6 +15442,8 @@
     "stationSlugs": [
       "sugamo-station"
     ],
+    "lat": 35.733445,
+    "lng": 139.739303,
     "nearestStation": "Sugamo Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00",
@@ -14648,6 +15470,8 @@
     "stationSlugs": [
       "sugamo-station"
     ],
+    "lat": 35.733445,
+    "lng": 139.739303,
     "nearestStation": "Sugamo Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:45-21:00, Sat-Sun 7:00-21:00",
@@ -14674,6 +15498,8 @@
     "stationSlugs": [
       "sugamo-station"
     ],
+    "lat": 35.733445,
+    "lng": 139.739303,
     "nearestStation": "Sugamo Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:30",
@@ -14700,6 +15526,8 @@
     "stationSlugs": [
       "otsuka-station"
     ],
+    "lat": 35.731412,
+    "lng": 139.728584,
     "nearestStation": "Otsuka Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:30-21:00, Sat 8:00-21:00, Sun 8:00-20:00",
@@ -14726,6 +15554,8 @@
     "stationSlugs": [
       "otsuka-station"
     ],
+    "lat": 35.731412,
+    "lng": 139.728584,
     "nearestStation": "Otsuka Station",
     "walkMinutes": 1,
     "businessHours": "6:00-24:00",
@@ -14752,6 +15582,8 @@
     "stationSlugs": [
       "mejiro-station"
     ],
+    "lat": 35.720476,
+    "lng": 139.706228,
     "nearestStation": "Mejiro Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:45-21:00, Sat-Sun 7:00-21:00",
@@ -14778,6 +15610,8 @@
     "stationSlugs": [
       "mejiro-station"
     ],
+    "lat": 35.720476,
+    "lng": 139.706228,
     "nearestStation": "Mejiro Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",

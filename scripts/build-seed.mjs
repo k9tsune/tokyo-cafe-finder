@@ -10,6 +10,15 @@
 //   from the researchers (high = 2+ agreeing sources).
 
 import { readFile, writeFile, readdir } from "node:fs/promises";
+import { readFileSync } from "node:fs";
+
+// Precise station coordinates (generated from an open railway-station dataset,
+// see data/station-coords.json), keyed by station slug. Used as a fallback for
+// stations not in the hand-curated STATIONS lookup below.
+let STATION_COORDS = {};
+try {
+  STATION_COORDS = JSON.parse(readFileSync(new URL("../data/station-coords.json", import.meta.url), "utf8"));
+} catch { /* file optional */ }
 
 const RESEARCH_DATE = "2026-08-01";
 
@@ -195,12 +204,14 @@ async function main() {
     if (!slug) return null;
     if (!usedStations.has(slug)) {
       const s = STATIONS_BY_CANON[canonName.toLowerCase()];
+      // Prefer the precise dataset coordinates; fall back to the curated lookup.
+      const coords = STATION_COORDS[slug] || (s ? { lat: s.lat, lng: s.lng } : undefined);
       usedStations.set(slug, {
         slug,
         name: canonName,
         lineNames: s ? s.lines : [],
         areaSlug: s ? s.area : areaFallback,
-        ...(s ? { lat: s.lat, lng: s.lng } : {}),
+        ...(coords ? { lat: coords.lat, lng: coords.lng } : {}),
       });
     }
     return slug;
@@ -228,6 +239,8 @@ async function main() {
       .map((n) => ensureStation(n, r.areaSlug))
       .filter(Boolean);
     const stationSlugs = [...new Set([primarySlug, ...nearbySlugs].filter(Boolean))];
+    // Coordinates for the cafe's primary station (precise dataset, else curated).
+    const primaryCoords = STATION_COORDS[primarySlug] || (st ? { lat: st.lat, lng: st.lng } : undefined);
 
     venues.push({
       id: `w-${String(i + 1).padStart(4, "0")}`,
@@ -237,7 +250,7 @@ async function main() {
       address: r.address || "",
       areaSlug: r.areaSlug,
       stationSlugs,
-      ...(st ? { lat: st.lat, lng: st.lng } : {}),
+      ...(primaryCoords ? { lat: primaryCoords.lat, lng: primaryCoords.lng } : {}),
       nearestStation: stationName || r.nearestStation,
       walkMinutes: typeof r.walkMinutes === "number" ? r.walkMinutes : 0,
       businessHours: r.businessHours || undefined,

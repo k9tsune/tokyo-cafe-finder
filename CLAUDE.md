@@ -49,6 +49,16 @@ default.
 - If the queue grows, tighten the research prompt or the gate — do NOT lower the
   bar by auto-approving low-confidence changes.
 
+## Listing / proximity rules
+- A cafe is listed for a station only when it is within **~15 minutes' walk**
+  (`walkMinutes` ≤ 15). Do not attach cafes that are further than that.
+- A cafe may show for **multiple stations**: set `nearestStation` (primary) plus
+  an optional `nearbyStations: [...]` array, listing only other stations that are
+  ALSO within ~15 minutes. `stationSlugs` in the seed is built from both.
+- Station coordinates: precise values live in `data/station-coords.json` (keyed by
+  station slug) and take precedence over the curated `STATIONS` lookup in
+  `build-seed.mjs`. Add new stations there (or to the lookup for lines/area).
+
 ## Freshness & trust rules
 - Every utility record must carry `last_checked` + `confidence`; the UI shows the date.
 - Store only `google_place_id` from Google; never store other Google fields.
