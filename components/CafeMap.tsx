@@ -1,31 +1,64 @@
-import type { Venue } from "@/lib/types";
-import { GMAPS_EMBED_KEY } from "@/lib/site";
+"use client";
 
-// Small embedded map + directions. The Maps Embed API is FREE with unlimited
-// requests (plan §2 / §4). The "Get directions" link uses Google Maps' universal
-// URL, which starts routing from the user's own location — no API key needed.
+import { useEffect, useState } from "react";
+import type { Venue } from "@/lib/types";
+
+const KEY = process.env.NEXT_PUBLIC_GMAPS_EMBED_KEY || "";
+
+// Map + on-page directions. Clicking "Get directions" gets the user's location
+// and swaps the embed into walking-directions mode *inside this box* — so people
+// stay on the site. An "Open in Google Maps" link is kept for live turn-by-turn.
 export default function CafeMap({ v }: { v: Venue }) {
-  // Precise place query — name + address geocodes to the actual cafe (better
-  // than our station-level coordinates). Works for both the embed and directions.
-  const query = encodeURIComponent(
+  const [origin, setOrigin] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState("");
+
+  const dest = encodeURIComponent(
     [v.name, v.address || v.nearestStation, "Tokyo, Japan"].filter(Boolean).join(", ")
   );
-  const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${query}${
-    v.googlePlaceId ? `&destination_place_id=${v.googlePlaceId}` : ""
-  }`;
+  const externalDir = `https://www.google.com/maps/dir/?api=1&destination=${dest}`;
 
-  const embedSrc = GMAPS_EMBED_KEY
-    ? `https://www.google.com/maps/embed/v1/place?key=${GMAPS_EMBED_KEY}&q=${query}&zoom=16`
-    : "";
+  const placeSrc = KEY ? `https://www.google.com/maps/embed/v1/place?key=${KEY}&q=${dest}&zoom=16` : "";
+  const dirSrc =
+    KEY && origin
+      ? `https://www.google.com/maps/embed/v1/directions?key=${KEY}&origin=${origin}&destination=${dest}&mode=walking`
+      : "";
+  const src = origin ? dirSrc : placeSrc;
+
+  function getDirections() {
+    setErr("");
+    if (!("geolocation" in navigator)) {
+      window.open(externalDir, "_blank", "noopener");
+      return;
+    }
+    setBusy(true);
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setOrigin(`${pos.coords.latitude},${pos.coords.longitude}`);
+        setBusy(false);
+      },
+      () => {
+        setBusy(false);
+        setErr("Couldn't get your location. Try “Open in Google Maps” below.");
+      },
+      { enableHighAccuracy: true, timeout: 9000, maximumAge: 30000 }
+    );
+  }
+
+  // If arrived via a "Directions" link (?dir=1), start directions automatically.
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get("dir") === "1") getDirections();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
-    <div className="cafe-map">
-      {embedSrc ? (
+    <div className="cafe-map" id="map">
+      {src ? (
         <iframe
-          title={`Map showing ${v.name}`}
-          src={embedSrc}
+          title={origin ? `Walking directions to ${v.name}` : `Map showing ${v.name}`}
+          src={src}
           width="100%"
-          height="260"
+          height="320"
           style={{ border: 0 }}
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
@@ -33,12 +66,19 @@ export default function CafeMap({ v }: { v: Venue }) {
         />
       ) : (
         <div className="map-fallback">
-          <p>Map preview needs a Google Maps Embed API key (set <code>NEXT_PUBLIC_GMAPS_EMBED_KEY</code>).</p>
+          <p>Map preview needs a Google Maps Embed API key (<code>NEXT_PUBLIC_GMAPS_EMBED_KEY</code>).</p>
         </div>
       )}
-      <a className="directions-btn" href={directionsUrl} target="_blank" rel="noopener noreferrer">
-        Get directions from your location →
-      </a>
+
+      <div className="map-actions">
+        <button type="button" className="directions-btn" onClick={getDirections} disabled={busy}>
+          {busy ? "Locating…" : origin ? "↻ Update directions" : "Get directions from your location →"}
+        </button>
+        <a className="map-open" href={externalDir} target="_blank" rel="noopener noreferrer">
+          Open in Google Maps ↗
+        </a>
+      </div>
+      {err && <p className="map-err">{err}</p>}
     </div>
   );
 }
