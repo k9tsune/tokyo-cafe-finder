@@ -15,6 +15,7 @@ const OPTIONS = [
 // carried into the results page as ?need=, which pre-applies the filter.
 export default function HomeSearch({ destinations }: { destinations: Destination[] }) {
   const [need, setNeed] = useState("both");
+  const [late, setLate] = useState(false);
   return (
     <div className="home-search">
       <div className="need-selector" role="group" aria-label="What do you need?">
@@ -30,9 +31,13 @@ export default function HomeSearch({ destinations }: { destinations: Destination
             {o.label}
           </button>
         ))}
+        <label className={`late-toggle${late ? " on" : ""}`}>
+          <input type="checkbox" checked={late} onChange={(e) => setLate(e.target.checked)} />
+          Open late / 24h
+        </label>
       </div>
       <p className="need-hint">2. Then search a station or area below to see matching cafes:</p>
-      <SearchBar destinations={destinations} need={need} />
+      <SearchBar destinations={destinations} need={need} late={late} />
     </div>
   );
 }

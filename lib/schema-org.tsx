@@ -106,6 +106,20 @@ export function breadcrumbJsonLd(items: { name: string; url: string }[]) {
   };
 }
 
+export function articleJsonLd(a: { title: string; description: string; url: string; date: string }) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: a.title,
+    description: a.description,
+    datePublished: a.date,
+    dateModified: a.date,
+    mainEntityOfPage: `${SITE.url}${a.url}`,
+    author: { "@type": "Organization", name: SITE.name },
+    publisher: { "@type": "Organization", name: SITE.name },
+  };
+}
+
 export function JsonLd({ data }: { data: object }) {
   return (
     <script

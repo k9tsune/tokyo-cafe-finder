@@ -9,24 +9,29 @@ import CafeCard from "./CafeCard";
 export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
   const [wifi, setWifi] = useState(false);
   const [power, setPower] = useState(false);
+  const [late, setLate] = useState(false);
   const [match, setMatch] = useState<MatchMode>("all");
 
-  // Pre-apply the choice made in the home search (?need=both|power|wifi).
+  // Pre-apply the choices made in the home search (?need=both|power|wifi, ?late=1).
   useEffect(() => {
-    const need = new URLSearchParams(window.location.search).get("need");
+    const params = new URLSearchParams(window.location.search);
+    const need = params.get("need");
     if (need === "both") { setWifi(true); setPower(true); setMatch("all"); }
     else if (need === "power") { setPower(true); }
     else if (need === "wifi") { setWifi(true); }
+    if (params.get("late") === "1") setLate(true);
   }, []);
 
   const filtered = useMemo(() => {
-    if (!wifi && !power) return venues;
-    return venues.filter((v) => {
+    let list = venues;
+    if (late) list = list.filter((v) => v.openLate);
+    if (!wifi && !power) return list;
+    return list.filter((v) => {
       if (wifi && !power) return v.hasWifi;
       if (power && !wifi) return v.hasPower;
       return match === "any" ? v.hasWifi || v.hasPower : v.hasWifi && v.hasPower;
     });
-  }, [venues, wifi, power, match]);
+  }, [venues, wifi, power, late, match]);
 
   const bothOn = wifi && power;
 
@@ -48,6 +53,14 @@ export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
           onClick={() => setPower((x) => !x)}
         >
           Power outlets
+        </button>
+        <button
+          type="button"
+          className={`chip ${late ? "on" : ""}`}
+          aria-pressed={late}
+          onClick={() => setLate((x) => !x)}
+        >
+          Open late / 24h
         </button>
 
         {bothOn && (

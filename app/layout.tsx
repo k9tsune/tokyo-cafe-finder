@@ -46,7 +46,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/tokyo">Areas</Link>
             <Link href="/tokyo/free-wifi-cafes">Free Wi-Fi</Link>
             <Link href="/tokyo/cafes-with-power-outlets">Power outlets</Link>
-            <Link href="/tokyo/open-late-cafes">Open late</Link>
           </nav>
         </header>
         <main className="container">{children}</main>
@@ -59,6 +58,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             Base location data © OpenStreetMap contributors (ODbL). Maps, directions &amp; cafe photos via Google. Map tiles © OpenFreeMap / OpenMapTiles.
           </p>
           <nav>
+            <Link href="/guides">Guides</Link>
             <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
             <Link href="/privacy">Privacy</Link>

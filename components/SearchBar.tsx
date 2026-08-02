@@ -7,7 +7,15 @@ import type { Destination } from "@/lib/db";
 // Search bar: type a station or area, pick a suggestion, and NAVIGATE to that
 // real landing page (never a JS-only in-page filter). This is what makes the
 // Dengen-style search flow also SEO/GEO-friendly — every result is a URL.
-export default function SearchBar({ destinations, need }: { destinations: Destination[]; need?: string }) {
+export default function SearchBar({
+  destinations,
+  need,
+  late,
+}: {
+  destinations: Destination[];
+  need?: string;
+  late?: boolean;
+}) {
   const router = useRouter();
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
@@ -19,8 +27,11 @@ export default function SearchBar({ destinations, need }: { destinations: Destin
   }, [q, destinations]);
 
   function go(href: string) {
-    // carry the chosen amenity need through to the results page's filter
-    router.push(need && need !== "both" ? `${href}?need=${need}` : need === "both" ? `${href}?need=both` : href);
+    // carry the search add-ons through to the results page's filter
+    const params = new URLSearchParams();
+    params.set("need", need || "both");
+    if (late) params.set("late", "1");
+    router.push(`${href}?${params.toString()}`);
   }
 
   function onSubmit(e: React.FormEvent) {
