@@ -15,7 +15,17 @@ function blossom(x: number, y: number, r: number): string {
   return `<g transform="translate(${x},${y}) scale(${r})" fill="#f4b8cd"><circle cx="0" cy="-2.4" r="1.9"/><circle cx="2.3" cy="-0.7" r="1.9"/><circle cx="1.4" cy="2" r="1.9"/><circle cx="-1.4" cy="2" r="1.9"/><circle cx="-2.3" cy="-0.7" r="1.9"/><circle cx="0" cy="0" r="0.9" fill="#e98bad"/></g>`;
 }
 
-export default function AreaCover({ slug }: { slug: string }) {
+export default function AreaCover({ slug, photo, name }: { slug: string; photo?: string; name?: string }) {
+  // A real photo (when provided) replaces the generated tile.
+  if (photo) {
+    return (
+      <div className="area-cover">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={photo} alt={name ? `${name}, Tokyo` : ""} loading="lazy" className="area-cover-img" />
+      </div>
+    );
+  }
+
   const h = hash(slug);
   const hue = h % 360;
   const sky1 = `hsl(${hue} 60% 82%)`;
