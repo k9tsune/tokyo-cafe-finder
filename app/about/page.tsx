@@ -3,7 +3,7 @@ import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `About ${SITE.name} — how we check cafe Wi-Fi and power-outlet information in Tokyo.`,
+  description: `About ${SITE.name}, an independent guide to working from cafes in Tokyo, with Wi-Fi, outlets and laptop-friendliness checked.`,
   alternates: { canonical: "/about" },
 };
 
@@ -11,30 +11,26 @@ export default function About() {
   return (
     <div>
       <h1>About {SITE.name}</h1>
-      <p className="lede">
-        {SITE.name} is an independent, English-first guide to finding a Tokyo cafe where you can
-        actually sit, work, and charge.
+      <p className="lede">An independent guide to working from cafes in Tokyo.</p>
+      <p>
+        As a freelance worker in Tokyo, I always found it frustrating to find places to work, so I
+        made this site to help myself and anyone with the same problem.
       </p>
       <p>
-        For each cafe we track the things that decide whether it works for you: is there Wi-Fi,
-        are there power outlets, and can you comfortably open a laptop. Outlet information is
-        verified at the individual branch level, because it varies even within the same chain —
-        most Starbucks in Japan have Wi-Fi but no outlets, while a few do.
-      </p>
-      <p>
-        Every listing carries a &ldquo;last checked&rdquo; date so you can see how current it is.
-        We re-check listings on a regular cycle and update them when things change.
+        I made sure each listing checks three things: is there Wi-Fi, are there outlets, and can you
+        use a laptop there. The site also re-checks listings regularly to make sure the information
+        stays right.
       </p>
       <h2>Sources &amp; credits</h2>
       <p className="muted">
         Base location data comes from OpenStreetMap contributors (ODbL). Maps and directions are
-        provided by Google Maps. Wi-Fi, outlet and laptop-friendliness assessments are our own.
+        provided by Google Maps. The Wi-Fi, outlet and laptop-friendliness notes are my own.
       </p>
       <h2>Get in touch</h2>
       <p>
-        {SITE.name} is run independently. Spotted something out of date, or know a great cafe
-        we&rsquo;re missing? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or see our{" "}
-        <a href="/contact">contact page</a>.
+        Spotted something out of date, or know a great cafe I&rsquo;m missing? Email{" "}
+        <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or see the{" "}
+        <a href="/contact">contact page</a>. I read every message.
       </p>
     </div>
   );
