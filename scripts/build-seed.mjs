@@ -57,6 +57,7 @@ const STATIONS = {
   "Kanda":                { slug: "kanda",                lat: 35.6918, lng: 139.7709, area: "chiyoda",  lines: ["JR Yamanote", "Ginza"] },
   "Akihabara":            { slug: "akihabara",            lat: 35.6984, lng: 139.7731, area: "chiyoda",  lines: ["JR Yamanote", "JR Sobu", "Hibiya", "Tsukuba Express"] },
   "Jimbocho":             { slug: "jimbocho",             lat: 35.6959, lng: 139.7576, area: "chiyoda",  lines: ["Toei Mita", "Toei Shinjuku", "Hanzomon"] },
+  "Tennozu Isle":         { slug: "tennozu-isle",         lat: 35.6222, lng: 139.7503, area: "shinagawa", lines: ["Tokyo Monorail", "Rinkai"] },
 };
 
 const AREAS = {

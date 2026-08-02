@@ -1392,6 +1392,17 @@
     "areaSlug": "shinagawa"
   },
   {
+    "slug": "tennozu-isle",
+    "name": "Tennozu Isle",
+    "lineNames": [
+      "Tokyo Monorail",
+      "Rinkai"
+    ],
+    "areaSlug": "shinagawa",
+    "lat": 35.6222,
+    "lng": 139.7503
+  },
+  {
     "slug": "shinjuku-gyoenmae",
     "name": "Shinjuku-gyoenmae",
     "lineNames": [

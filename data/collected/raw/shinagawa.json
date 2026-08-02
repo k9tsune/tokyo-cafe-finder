@@ -294,5 +294,28 @@
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-musashikoyama-workcafe/"
     ]
+  },
+  {
+    "name": "breadworks Tennoz",
+    "nameJa": "breadworks 天王洲",
+    "areaSlug": "shinagawa",
+    "ward": "Shinagawa",
+    "nearestStation": "Tennozu Isle",
+    "walkMinutes": 4,
+    "address": "2-1-6 Higashi-Shinagawa, Shinagawa-ku, Tokyo",
+    "hasWifi": false,
+    "wifiType": "none",
+    "hasPower": true,
+    "powerDensity": "counter",
+    "laptopFriendly": true,
+    "businessHours": "08:00-21:00",
+    "priceBand": "¥¥",
+    "description": "A relaxed bakery cafe on the Tennozu Isle waterfront with terrace seating by the canal and high ceilings, with power outlets at the window and inside counter seats but no Wi-Fi, so bring a mobile hotspot if you need internet. Personal note from us: super delicious deli plates and a pretty view of the water, one of our favourite cafes.",
+    "confidence": "medium",
+    "sources": [
+      "https://oasis.mogya.com/spot/breadworks",
+      "https://chanomee.com/shops/tennouzu-breadworks/",
+      "http://nomad-cloud.blogspot.com/2016/02/wi-fi-breadworks.html"
+    ]
   }
 ]
