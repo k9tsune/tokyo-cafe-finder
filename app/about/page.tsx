@@ -30,6 +30,12 @@ export default function About() {
         Base location data comes from OpenStreetMap contributors (ODbL). Maps and directions are
         provided by Google Maps. Wi-Fi, outlet and laptop-friendliness assessments are our own.
       </p>
+      <h2>Get in touch</h2>
+      <p>
+        {SITE.name} is run independently. Spotted something out of date, or know a great cafe
+        we&rsquo;re missing? Email <a href={`mailto:${SITE.email}`}>{SITE.email}</a> or see our{" "}
+        <a href="/contact">contact page</a>.
+      </p>
     </div>
   );
 }

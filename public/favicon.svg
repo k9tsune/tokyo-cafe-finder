@@ -7,8 +7,8 @@
     .fill { fill: var(--m); }
     .line { fill: none; stroke: var(--m); stroke-linecap: round; }
   </style>
-  <!-- Rounded coffee cup (emoji-style) with a bold lightning bolt inside -->
+  <!-- Wide coffee cup with a bold lightning bolt inside -->
   <path class="fill" fill-rule="evenodd" clip-rule="evenodd"
-    d="M4.4 7.2C4.4 6.7 4.8 6.5 5.2 6.5H13.8C14.2 6.5 14.6 6.7 14.6 7.2V11.5C14.6 15.3 12.3 17.8 9.5 17.8C6.7 17.8 4.4 15.3 4.4 11.5V7.2ZM11.3 7.9 6.9 13.2H9.6L8.4 16.6 12.7 10.9H10L11.3 7.9Z"/>
-  <path class="line" stroke-width="2" d="M14.9 8.7H16.4A2.9 2.9 0 0 1 16.4 14.5H14.9"/>
+    d="M3.0 7.2H13.8C13.6 12 12.6 16.0 8.4 16.0C4.2 16.0 3.2 12 3.0 7.2ZM9.6 8.0 5.9 13.0H8.3L7.2 15.4 11.1 10.5H8.6L9.6 8.0Z"/>
+  <path class="line" stroke-width="1.9" d="M13.7 8.9C16.4 8.7 16.4 12.6 13.7 12.5"/>
 </svg>
