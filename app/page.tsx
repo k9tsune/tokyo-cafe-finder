@@ -1,6 +1,7 @@
 import Link from "next/link";
 import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
+import SakuraDecor from "@/components/SakuraDecor";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
@@ -11,6 +12,7 @@ export default function HomePage() {
   return (
     <div>
       <section className="hero">
+        <SakuraDecor full />
         <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
         <p className="lede">
           Every cafe checked and dated, across all 23 wards. Search a station, or find what&apos;s
