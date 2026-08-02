@@ -14,9 +14,10 @@ export function PowerBadge({ v }: { v: Venue }) {
 }
 
 export function FreshnessBadge({ date, confidence }: { date: string; confidence: Venue["confidence"] }) {
+  const verified = confidence === "high";
   return (
     <span className={`freshness c-${confidence}`} title={`Confidence: ${confidence}`}>
-      Last checked {date}
+      {verified ? "✓ Verified · " : "Checked · "}{date}
     </span>
   );
 }

@@ -62,8 +62,6 @@ export default function AreaPage({ params }: { params: { area: string } }) {
 
       <FilterableCafeList venues={venues} />
 
-      <div className="ad-slot">ad slot (enabled after indexing — see plan §9)</div>
-
       <h2>{area.name} cafes at a glance</h2>
       <ComparisonTable venues={venues} caption={`Wi-Fi and power outlets at cafes in ${area.name}, Tokyo (last checked dates shown)`} />
 

@@ -52,6 +52,7 @@ export default function CafePage({ params }: { params: { slug: string } }) {
       {v.photoAttr && <p className="photo-credit">Photo: {v.photoAttr} · via Google</p>}
 
       <h1>{v.name}</h1>
+      {v.nameJa && <p className="name-ja" lang="ja">{v.nameJa}</p>}
       <div className="badges">
         <WifiBadge v={v} />
         <PowerBadge v={v} />

@@ -286,9 +286,10 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   background: var(--surface-2);
 }
 
-.near-me { margin: 10px 0 8px; }
+.hero-actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: flex-start; margin-top: 10px; }
+.near-me { display: inline-flex; flex-direction: column; gap: 4px; }
 .near-me button {
-  padding: 11px 16px;
+  padding: 12px 18px;
   font-size: .95rem;
   font-weight: 600;
   background: var(--surface);
@@ -299,13 +300,41 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   box-shadow: var(--shadow-sm);
   transition: border-color .15s ease, background .15s ease;
 }
-.near-me button:hover:not(:disabled) {
-  border-color: var(--accent);
-  background: var(--accent-soft);
-}
+.near-me button:hover:not(:disabled) { border-color: var(--accent); background: var(--accent-soft); }
 .near-me button:disabled { opacity: .6; cursor: progress; }
-.near-me .err { color: #b3261e; font-size: .85rem; margin: 8px 0 0; }
+.near-me button.charge-cta {
+  background: var(--cta-bg); color: var(--cta-fg); border-color: var(--cta-bg); font-weight: 700;
+}
+.near-me button.charge-cta:hover:not(:disabled) { background: var(--accent-strong); border-color: var(--accent-strong); }
+.near-me .err { color: #b3261e; font-size: .82rem; max-width: 260px; }
 @media (prefers-color-scheme: dark) { .near-me .err { color: #f2907f; } }
+
+/* Cafe card actions */
+.card-actions { display: flex; gap: 10px; align-items: center; margin: 10px 0 2px; }
+.dir-link {
+  display: inline-block; padding: 7px 14px; font-size: .85rem; font-weight: 700;
+  background: var(--cta-bg); color: var(--cta-fg); border-radius: var(--radius-pill);
+}
+.dir-link:hover { text-decoration: none; background: var(--accent-strong); }
+.dir-link.ghost { background: transparent; color: var(--accent-strong); border: 1.5px solid var(--line-strong); }
+.dir-link.ghost:hover { background: var(--accent-soft); border-color: var(--accent); }
+
+.near-dist { font-size: .8rem; font-weight: 700; color: var(--accent-strong); margin: 0 0 6px 2px; }
+.name-ja { color: var(--muted); font-size: 1rem; margin: -2px 0 10px; }
+.pop-status { color: #6f6259; font-size: .85rem; }
+
+/* Larger, easier-to-tap map markers (visual dot centered in a 40px hit area) */
+.map-marker { width: 40px; height: 40px; position: relative; cursor: pointer; }
+.map-marker::before {
+  content: ""; position: absolute; top: 50%; left: 50%;
+  width: 16px; height: 16px; border-radius: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+.map-marker.both::before  { background: #1e9e57; }
+.map-marker.power::before { background: #d98a1f; }
+.map-marker.wifi::before  { background: #3a6ad9; }
+.map-marker.none::before  { background: #9a8f83; }
 
 .filters {
   display: flex;

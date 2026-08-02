@@ -11,14 +11,17 @@ export default function HomePage() {
   return (
     <div>
       <section className="hero">
-        <h1>Find a Tokyo cafe where you can sit, work, and charge</h1>
+        <h1>Charge up or get work done — Tokyo cafes with Wi-Fi &amp; power outlets</h1>
         <p className="lede">
-          Search by station or area to see cafes with Wi-Fi, power outlets, or both —
-          each one checked and dated so you know it&apos;s current.
+          Every cafe checked and dated, across all 23 wards. Search a station, or find what&apos;s
+          nearest right now.
         </p>
 
         <HomeSearch destinations={destinations} />
-        <NearMeButton />
+        <div className="hero-actions">
+          <NearMeButton charge label="🔋 Phone dying? Nearest outlet →" />
+          <NearMeButton />
+        </div>
       </section>
 
       <h2>Browse areas</h2>
@@ -37,8 +40,6 @@ export default function HomePage() {
         <Link href="/tokyo/cafes-with-power-outlets"><strong>Cafes with power outlets</strong></Link>
         <Link href="/tokyo/cafes-with-wifi-and-power"><strong>Wi-Fi + outlets (work cafes)</strong></Link>
       </div>
-
-      <div className="ad-slot">ad slot (enabled after indexing — see plan §9)</div>
 
       <h2>About {SITE.name}</h2>
       <p className="muted">

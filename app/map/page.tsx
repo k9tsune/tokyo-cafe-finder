@@ -32,10 +32,10 @@ export default function MapPage() {
         button to find what&apos;s near you.
       </p>
 
-      <div className="map-legend" aria-hidden="true">
-        <span><i className="map-pin both" /> Wi-Fi + outlets</span>
-        <span><i className="map-pin power" /> Outlets</span>
-        <span><i className="map-pin wifi" /> Wi-Fi</span>
+      <div className="map-legend">
+        <span><i className="map-pin both" aria-hidden="true" /> Wi-Fi + outlets</span>
+        <span><i className="map-pin power" aria-hidden="true" /> Outlets</span>
+        <span><i className="map-pin wifi" aria-hidden="true" /> Wi-Fi</span>
       </div>
 
       <MapView points={points} />

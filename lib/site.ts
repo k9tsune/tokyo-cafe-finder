@@ -1,7 +1,7 @@
 export const SITE = {
   name: "WorkingCafes",
-  tagline: "Find a cafe where you can sit, work, and charge — with Wi-Fi and power outlets, checked and mapped.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://workingcafes.com",
+  tagline: "Tokyo cafes with Wi-Fi and power outlets — nearby, checked, and dated. Charge your phone or get work done.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.workingcafes.com",
   // Active locales. English only for v1; add "zh-tw", "ko" later (plan §5.1).
   defaultLocale: "en",
   locales: ["en"],

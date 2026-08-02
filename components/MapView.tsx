@@ -36,10 +36,13 @@ export default function MapView({ points }: { points: MapPoint[] }) {
       for (const p of points) {
         const el = document.createElement("div");
         const kind = p.wifi && p.power ? "both" : p.power ? "power" : p.wifi ? "wifi" : "none";
-        el.className = `map-pin ${kind}`;
+        el.className = `map-marker ${kind}`;
         const safeName = p.name.replace(/[<>&]/g, "");
-        const popup = new maplibregl.Popup({ offset: 14, closeButton: false }).setHTML(
-          `<strong>${safeName}</strong><br><a href="/cafe/${p.slug}">View cafe →</a>`
+        const status = p.wifi && p.power ? "Wi-Fi + outlets" : p.power ? "Outlets" : p.wifi ? "Wi-Fi" : "—";
+        const dir = `https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`;
+        const popup = new maplibregl.Popup({ offset: 16, closeButton: false }).setHTML(
+          `<strong>${safeName}</strong><br><span class="pop-status">${status}</span><br>` +
+            `<a href="/cafe/${p.slug}">Details</a> · <a href="${dir}" target="_blank" rel="noopener">Directions →</a>`
         );
         new maplibregl.Marker({ element: el }).setLngLat([p.lng, p.lat]).setPopup(popup).addTo(map);
       }

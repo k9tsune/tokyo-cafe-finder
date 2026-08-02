@@ -34,8 +34,6 @@ export default function FeatureHubPage({
         {venues.map((v) => <CafeCard key={v.id} v={v} />)}
       </div>
 
-      <div className="ad-slot">ad slot (enabled after indexing — see plan §9)</div>
-
       <h2>At a glance</h2>
       <ComparisonTable venues={venues} caption={h1} />
 
