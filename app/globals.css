@@ -264,6 +264,10 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .ig-link { align-self: center; font-size: .84rem; font-weight: 700; color: #cf3f92; }
 .ig-link:hover { text-decoration: underline; }
 @media (prefers-color-scheme: dark) { .ig-link { color: #e879bd; } }
+.area-cover { display: block; width: 100%; aspect-ratio: 120 / 56; overflow: hidden; }
+.area-cover svg { display: block; width: 100%; height: 100%; }
+.card-grid a.has-cover { padding: 0; overflow: hidden; }
+.card-grid a.has-cover .cover-text { padding: 12px 16px 14px; }
 .explore-map { margin: 8px auto 32px; }
 .explore-map h2 { margin: 0 0 2px; }
 .hero h1 { margin-top: 0; }

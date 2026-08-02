@@ -2,6 +2,7 @@ import Link from "next/link";
 import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import SakuraDecor from "@/components/SakuraDecor";
+import AreaCover from "@/components/AreaCover";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
@@ -29,9 +30,12 @@ export default function HomePage() {
       <h2>Browse areas</h2>
       <div className="card-grid">
         {areas.map((a) => (
-          <Link key={a.slug} href={`/tokyo/${a.slug}`}>
-            <strong>{a.name}</strong>
-            <div className="muted" style={{ fontSize: ".82rem" }}>Cafes with Wi-Fi &amp; outlets</div>
+          <Link key={a.slug} href={`/tokyo/${a.slug}`} className="has-cover">
+            <AreaCover slug={a.slug} />
+            <div className="cover-text">
+              <strong>{a.name}</strong>
+              <div className="muted" style={{ fontSize: ".82rem" }}>Cafes with Wi-Fi &amp; outlets</div>
+            </div>
           </Link>
         ))}
       </div>
