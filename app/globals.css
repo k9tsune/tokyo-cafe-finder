@@ -320,6 +320,8 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .dir-link.ghost:hover { background: var(--accent-soft); border-color: var(--accent); }
 
 .near-dist { font-size: .8rem; font-weight: 700; color: var(--accent-strong); margin: 0 0 6px 2px; }
+.near-search { max-width: 560px; margin: 6px 0 8px; }
+.near-search-label { font-size: .9rem; font-weight: 600; color: var(--muted); margin: 0 0 2px; }
 .name-ja { color: var(--muted); font-size: 1rem; margin: -2px 0 10px; }
 .pop-status { color: #55534f; font-size: .85rem; }
 

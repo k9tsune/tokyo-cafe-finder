@@ -1,8 +1,9 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import CafeCard from "@/components/CafeCard";
+import SearchBar from "@/components/SearchBar";
 import { formatDistance } from "@/lib/geo";
-import { nearestVenues } from "@/lib/db";
+import { nearestVenues, getAllDestinations } from "@/lib/db";
 
 // Personalized results — not an SEO target, so noindex.
 export const metadata: Metadata = { robots: { index: false, follow: true } };
@@ -16,13 +17,14 @@ export default function NearPage({
   const lng = parseFloat(searchParams.lng ?? "");
   const charge = searchParams.charge === "1";
   const valid = Number.isFinite(lat) && Number.isFinite(lng);
+  const destinations = getAllDestinations();
 
   let results = valid ? nearestVenues(lat, lng, 60) : [];
-  // Charge mode: only places that actually have outlets, and only genuinely
-  // nearby ones (≤ 2 km) — never send a dying-phone user across the city.
   results = charge
     ? results.filter((v) => v.hasPower && v.distanceMeters <= 2000).slice(0, 20)
     : results.slice(0, 20);
+
+  const empty = !valid || results.length === 0;
 
   return (
     <div>
@@ -32,32 +34,37 @@ export default function NearPage({
       <h1>{charge ? "Nearest places to charge" : "Cafes near you"}</h1>
 
       {!valid ? (
-        <p className="lede">
-          We lost your location. <Link href="/">Go back</Link> and try again, or search your
-          station — same result, no GPS needed.
-        </p>
+        <p className="lede">We lost your location — search a station or area below instead.</p>
       ) : results.length === 0 ? (
         <p className="lede">
           {charge
-            ? "No cafes with outlets within about 2 km. Try searching a nearby station."
-            : "Nothing found nearby — try searching a station instead."}
+            ? "No cafes with outlets within about 2 km. Search a nearby station below."
+            : "Nothing found nearby. Search a station or area below."}
         </p>
       ) : (
-        <>
-          <p className="lede">
-            {charge
-              ? "Closest first — every one of these has a power outlet. Tap Directions and go."
-              : "Closest first. Tap Directions to go, or a cafe for full details."}
-          </p>
-          <div className="cafe-list">
-            {results.map((v) => (
-              <div key={v.id}>
-                <p className="near-dist">{formatDistance(v.distanceMeters)} away</p>
-                <CafeCard v={v} />
-              </div>
-            ))}
-          </div>
-        </>
+        <p className="lede">
+          {charge
+            ? "Closest first — every one of these has a power outlet. Tap Directions and go."
+            : "Closest first. Tap Directions to go, or a cafe for full details."}
+        </p>
+      )}
+
+      {empty && (
+        <div className="near-search">
+          <p className="near-search-label">Search a station or area</p>
+          <SearchBar destinations={destinations} need={charge ? "power" : undefined} />
+        </div>
+      )}
+
+      {results.length > 0 && (
+        <div className="cafe-list">
+          {results.map((v) => (
+            <div key={v.id}>
+              <p className="near-dist">{formatDistance(v.distanceMeters)} away</p>
+              <CafeCard v={v} />
+            </div>
+          ))}
+        </div>
       )}
     </div>
   );
