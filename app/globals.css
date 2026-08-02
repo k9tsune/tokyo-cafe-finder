@@ -651,6 +651,19 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .map-err { color: #b3261e; font-size: .85rem; margin: 8px 0 0; }
 @media (prefers-color-scheme: dark) { .map-err { color: #f2907f; } }
 
+/* How-to-enable-location help, shown when the browser has blocked location. */
+.loc-help {
+  margin-top: 12px;
+  padding: 14px 16px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+}
+.loc-help-title { margin: 0 0 8px; font-weight: 800; font-size: .95rem; }
+.loc-help ol { margin: 0; padding-left: 1.2em; }
+.loc-help li { margin: 4px 0; font-size: .9rem; line-height: 1.5; }
+.loc-help-alt { margin: 10px 0 0; font-size: .88rem; }
+
 .faq h2 { margin-top: 1.9em; }
 .faq details {
   border: 1px solid var(--line);
