@@ -31,10 +31,14 @@ export default function HomeSearch({ destinations }: { destinations: Destination
             {o.label}
           </button>
         ))}
-        <label className={`late-toggle${late ? " on" : ""}`}>
-          <input type="checkbox" checked={late} onChange={(e) => setLate(e.target.checked)} />
+        <button
+          type="button"
+          className={`need-chip${late ? " on" : ""}`}
+          aria-pressed={late}
+          onClick={() => setLate((x) => !x)}
+        >
           Open late / 24h
-        </label>
+        </button>
       </div>
       <p className="need-hint">2. Then search a station or area below to see matching cafes:</p>
       <SearchBar destinations={destinations} need={need} late={late} />
