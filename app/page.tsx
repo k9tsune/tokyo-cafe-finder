@@ -1,5 +1,5 @@
 import Link from "next/link";
-import SearchBar from "@/components/SearchBar";
+import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
 import { SITE } from "@/lib/site";
@@ -17,7 +17,7 @@ export default function HomePage() {
           each one checked and dated so you know it&apos;s current.
         </p>
 
-        <SearchBar destinations={destinations} />
+        <HomeSearch destinations={destinations} />
         <NearMeButton />
       </section>
 

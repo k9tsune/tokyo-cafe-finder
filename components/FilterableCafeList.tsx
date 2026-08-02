@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Venue, MatchMode } from "@/lib/types";
 import CafeCard from "./CafeCard";
 
@@ -10,6 +10,14 @@ export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
   const [wifi, setWifi] = useState(false);
   const [power, setPower] = useState(false);
   const [match, setMatch] = useState<MatchMode>("all");
+
+  // Pre-apply the choice made in the home search (?need=both|power|wifi).
+  useEffect(() => {
+    const need = new URLSearchParams(window.location.search).get("need");
+    if (need === "both") { setWifi(true); setPower(true); setMatch("all"); }
+    else if (need === "power") { setPower(true); }
+    else if (need === "wifi") { setWifi(true); }
+  }, []);
 
   const filtered = useMemo(() => {
     if (!wifi && !power) return venues;
