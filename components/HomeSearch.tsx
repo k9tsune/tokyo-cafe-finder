@@ -18,7 +18,7 @@ export default function HomeSearch({ destinations }: { destinations: Destination
   return (
     <div className="home-search">
       <div className="need-selector" role="group" aria-label="What do you need?">
-        <span className="need-label">I need:</span>
+        <span className="need-label">1. I need:</span>
         {OPTIONS.map((o) => (
           <button
             key={o.key}
@@ -31,6 +31,7 @@ export default function HomeSearch({ destinations }: { destinations: Destination
           </button>
         ))}
       </div>
+      <p className="need-hint">2. Then search a station or area below to see matching cafes ↓</p>
       <SearchBar destinations={destinations} need={need} />
     </div>
   );
