@@ -147,9 +147,15 @@ async function main() {
 
   const usedSlugs = new Set();
   const usedStations = new Map();
+  const seenKeys = new Set();
   const venues = [];
 
   raw.forEach((r, i) => {
+    // De-duplicate: same cafe name at the same station = same place, keep first.
+    const dupKey = `${slugify(r.name)}|${slugify(r.nearestStation || "")}`;
+    if (seenKeys.has(dupKey)) return;
+    seenKeys.add(dupKey);
+
     let slug = slugify(r.name);
     while (usedSlugs.has(slug)) slug = `${slug}-2`;
     usedSlugs.add(slug);
