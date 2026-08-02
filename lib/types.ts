@@ -28,6 +28,8 @@ export interface Venue {
   hasPower: boolean;
   powerDensity: PowerDensity;
   laptopFriendly: boolean;
+  open24h?: boolean;    // open 24 hours (from data)
+  openLate?: boolean;   // open past ~23:00 / overnight (incl. 24h)
   typicalBusyness?: "low" | "medium" | "high";
 
   description: string;    // original prose — never copied from a source

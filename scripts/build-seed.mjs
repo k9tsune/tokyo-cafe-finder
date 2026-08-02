@@ -13,6 +13,27 @@ import { readFile, writeFile, readdir } from "node:fs/promises";
 
 const RESEARCH_DATE = "2026-08-01";
 
+// Open 24 hours: explicit flag from data, or clear "24 hours" wording.
+function isOpen24h(r) {
+  if (r && r.open24h === true) return true;
+  return /24\s*h(ou)?rs?|24\s*時間|24\/7/i.test(String((r && r.businessHours) || ""));
+}
+
+// Open late: closes at/after ~23:00, or overnight (past midnight / "翌"), or 24h.
+function isLateNight(bh) {
+  if (!bh) return false;
+  const s = String(bh);
+  if (isOpen24h({ businessHours: s })) return true;
+  if (/翌|midnight|深夜|overnight|late/i.test(s)) return true;
+  // Look at the closing time after a dash/tilde, e.g. "11:00-23:00" or "17:00-5:00".
+  const m = s.match(/[-–—~〜]\s*(翌)?\s*(\d{1,2})(?::\d{2})?/);
+  if (m) {
+    const h = parseInt(m[2], 10);
+    if (!Number.isNaN(h) && (h >= 23 || h <= 6)) return true;
+  }
+  return false;
+}
+
 // Approximate station coordinates + lines + home area (station-level accuracy).
 const STATIONS = {
   "Shibuya Station":      { slug: "shibuya-station",      lat: 35.6580, lng: 139.7016, area: "shibuya",  lines: ["JR Yamanote", "Ginza", "Hanzomon", "Fukutoshin", "Tokyu Toyoko"] },
@@ -191,6 +212,8 @@ async function main() {
       hasPower: !!r.hasPower,
       powerDensity: r.powerDensity || "none",
       laptopFriendly: !!r.laptopFriendly,
+      open24h: isOpen24h(r),
+      openLate: isOpen24h(r) || isLateNight(r.businessHours),
       description: r.description || "",
       lastChecked: RESEARCH_DATE,
       confidence: r.confidence || "low",

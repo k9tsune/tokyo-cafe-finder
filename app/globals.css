@@ -126,8 +126,8 @@ img, iframe { max-width: 100%; }
   letter-spacing: -0.02em;
   color: var(--fg);
 }
-/* Cup sized to the wordmark's cap height and cropped tight so it sits inline. */
-.site-header .brand-mark { color: var(--accent); flex: none; width: auto; height: 0.82em; }
+/* Cup cropped tight and sized so its height matches the wordmark's "W". */
+.site-header .brand-mark { color: var(--accent); flex: none; width: auto; height: 1.1em; }
 .site-header .brand-accent { color: var(--accent); }
 .site-header .brand:hover { text-decoration: none; }
 .site-header .brand:hover .brand-accent { color: var(--accent-strong); }

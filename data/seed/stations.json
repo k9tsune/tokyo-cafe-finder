@@ -624,6 +624,130 @@
     "areaSlug": "edogawa"
   },
   {
+    "slug": "higashi-shinjuku",
+    "name": "Higashi-Shinjuku",
+    "lineNames": [],
+    "areaSlug": "shinjuku"
+  },
+  {
+    "slug": "meiji-jingumae",
+    "name": "Meiji-jingumae",
+    "lineNames": [],
+    "areaSlug": "shibuya"
+  },
+  {
+    "slug": "higashi-ginza",
+    "name": "Higashi-Ginza",
+    "lineNames": [],
+    "areaSlug": "chuo"
+  },
+  {
+    "slug": "mita",
+    "name": "Mita",
+    "lineNames": [],
+    "areaSlug": "minato"
+  },
+  {
+    "slug": "shinjuku-gyoemmae",
+    "name": "Shinjuku-Gyoemmae",
+    "lineNames": [],
+    "areaSlug": "shinjuku"
+  },
+  {
+    "slug": "seibu-shinjuku",
+    "name": "Seibu-Shinjuku",
+    "lineNames": [],
+    "areaSlug": "shinjuku"
+  },
+  {
+    "slug": "roppongi",
+    "name": "Roppongi",
+    "lineNames": [
+      "Hibiya",
+      "Toei Oedo"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.6628,
+    "lng": 139.7315
+  },
+  {
+    "slug": "tokyo",
+    "name": "Tokyo",
+    "lineNames": [],
+    "areaSlug": "chiyoda"
+  },
+  {
+    "slug": "ginza-itchome",
+    "name": "Ginza-itchome",
+    "lineNames": [],
+    "areaSlug": "chuo"
+  },
+  {
+    "slug": "omotesando",
+    "name": "Omotesando",
+    "lineNames": [
+      "Ginza",
+      "Chiyoda",
+      "Hanzomon"
+    ],
+    "areaSlug": "minato",
+    "lat": 35.6652,
+    "lng": 139.7126
+  },
+  {
+    "slug": "daikanyama",
+    "name": "Daikanyama",
+    "lineNames": [],
+    "areaSlug": "shibuya"
+  },
+  {
+    "slug": "ochiai",
+    "name": "Ochiai",
+    "lineNames": [],
+    "areaSlug": "shinjuku"
+  },
+  {
+    "slug": "koenji",
+    "name": "Koenji",
+    "lineNames": [],
+    "areaSlug": "suginami"
+  },
+  {
+    "slug": "nakano",
+    "name": "Nakano",
+    "lineNames": [],
+    "areaSlug": "nakano"
+  },
+  {
+    "slug": "gakugei-daigaku",
+    "name": "Gakugei-Daigaku",
+    "lineNames": [],
+    "areaSlug": "meguro"
+  },
+  {
+    "slug": "nakameguro",
+    "name": "Nakameguro",
+    "lineNames": [
+      "Tokyu Toyoko",
+      "Hibiya"
+    ],
+    "areaSlug": "meguro",
+    "lat": 35.644,
+    "lng": 139.6987
+  },
+  {
+    "slug": "toritsu-daigaku",
+    "name": "Toritsu-Daigaku",
+    "lineNames": [],
+    "areaSlug": "meguro"
+  },
+  {
+    "slug": "keikyu-kamata",
+    "name": "Keikyu Kamata",
+    "lineNames": [],
+    "areaSlug": "ota"
+  },
+  {
     "slug": "shibuya-station",
     "name": "Shibuya Station",
     "lineNames": [
@@ -802,17 +926,6 @@
     "areaSlug": "minato"
   },
   {
-    "slug": "nakameguro",
-    "name": "Nakameguro",
-    "lineNames": [
-      "Tokyu Toyoko",
-      "Hibiya"
-    ],
-    "areaSlug": "meguro",
-    "lat": 35.644,
-    "lng": 139.6987
-  },
-  {
     "slug": "shimokitazawa",
     "name": "Shimokitazawa",
     "lineNames": [],
@@ -829,18 +942,6 @@
     "name": "Futako-Tamagawa",
     "lineNames": [],
     "areaSlug": "setagaya"
-  },
-  {
-    "slug": "koenji",
-    "name": "Koenji",
-    "lineNames": [],
-    "areaSlug": "suginami"
-  },
-  {
-    "slug": "nakano",
-    "name": "Nakano",
-    "lineNames": [],
-    "areaSlug": "nakano"
   },
   {
     "slug": "kuramae",
@@ -865,12 +966,6 @@
     "name": "Nogizaka",
     "lineNames": [],
     "areaSlug": "minato"
-  },
-  {
-    "slug": "daikanyama",
-    "name": "Daikanyama",
-    "lineNames": [],
-    "areaSlug": "shibuya"
   },
   {
     "slug": "oshiage",
@@ -951,12 +1046,6 @@
     "areaSlug": "shinjuku"
   },
   {
-    "slug": "ginza-itchome",
-    "name": "Ginza-Itchome",
-    "lineNames": [],
-    "areaSlug": "chuo"
-  },
-  {
     "slug": "kitasenju",
     "name": "Kitasenju",
     "lineNames": [],
@@ -979,18 +1068,6 @@
     "name": "Kyobashi",
     "lineNames": [],
     "areaSlug": "chuo"
-  },
-  {
-    "slug": "omotesando",
-    "name": "Omotesando",
-    "lineNames": [
-      "Ginza",
-      "Chiyoda",
-      "Hanzomon"
-    ],
-    "areaSlug": "minato",
-    "lat": 35.6652,
-    "lng": 139.7126
   },
   {
     "slug": "asagaya",
@@ -1239,17 +1316,6 @@
     "areaSlug": "kita"
   },
   {
-    "slug": "roppongi",
-    "name": "Roppongi",
-    "lineNames": [
-      "Hibiya",
-      "Toei Oedo"
-    ],
-    "areaSlug": "minato",
-    "lat": 35.6628,
-    "lng": 139.7315
-  },
-  {
     "slug": "azabu-juban",
     "name": "Azabu-Juban",
     "lineNames": [
@@ -1294,12 +1360,6 @@
     "name": "Hikarigaoka",
     "lineNames": [],
     "areaSlug": "nerima"
-  },
-  {
-    "slug": "keikyu-kamata",
-    "name": "Keikyu Kamata",
-    "lineNames": [],
-    "areaSlug": "ota"
   },
   {
     "slug": "den-en-chofu",

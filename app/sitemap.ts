@@ -9,6 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = [
     "", "/tokyo", "/tokyo/free-wifi-cafes",
     "/tokyo/cafes-with-power-outlets", "/tokyo/cafes-with-wifi-and-power",
+    "/tokyo/open-late-cafes",
     "/about", "/privacy",
   ].map((p) => ({ url: `${base}${p}`, changeFrequency: "weekly" as const, priority: p === "" ? 1 : 0.7 }));
 
