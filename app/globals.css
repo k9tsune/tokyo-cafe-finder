@@ -20,9 +20,6 @@
   --cta-fg: #ffffff;
   --accent-soft: #f6e8db;
   --focus: #c96a2c;
-  /* Brand caramel — matches the logo cup color (#d4965d); nudged slightly deeper
-     in light mode so the wordmark stays readable on the cream background. */
-  --brand: #c07f42;
 
   --yes-bg: #e3f1e8; --yes-fg: #1e6b41;
   --no-bg:  #efe9e2; --no-fg:  #6f6259;
@@ -59,7 +56,6 @@
     --cta-fg: #1a120b;
     --accent-soft: #2c2117;
     --focus: #f0a468;
-    --brand: #e2ac74;
 
     --yes-bg: #16301f; --yes-fg: #86d3a3;
     --no-bg:  #2a231b; --no-fg:  #b4a698;
@@ -130,8 +126,8 @@ img, iframe { max-width: 100%; }
   letter-spacing: -0.02em;
   color: var(--fg);
 }
-.site-header .brand-mark { color: var(--brand); flex: none; width: 32px; height: 32px; }
-.site-header .brand-accent { color: var(--brand); }
+.site-header .brand-mark { color: var(--accent); flex: none; width: 32px; height: 32px; }
+.site-header .brand-accent { color: var(--accent); }
 .site-header .brand:hover { text-decoration: none; }
 .site-header .brand:hover .brand-accent { color: var(--accent-strong); }
 .site-header nav {
