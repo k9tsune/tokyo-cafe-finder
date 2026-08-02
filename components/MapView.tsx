@@ -35,6 +35,8 @@ const BASEMAP_STYLE = {
 // amber = outlets, blue = Wi-Fi.
 export default function MapView({ points }: { points: MapPoint[] }) {
   const ref = useRef<HTMLDivElement>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const geoRef = useRef<any>(null);
 
   useEffect(() => {
     let cancelled = false;
@@ -53,7 +55,12 @@ export default function MapView({ points }: { points: MapPoint[] }) {
         zoom: 10.4,
       });
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
-      map.addControl(new maplibregl.GeolocateControl({ trackUserLocation: false }), "top-right");
+      const geolocate = new maplibregl.GeolocateControl({
+        trackUserLocation: false,
+        positionOptions: { enableHighAccuracy: true },
+      });
+      map.addControl(geolocate, "top-right");
+      geoRef.current = geolocate;
 
       for (const p of points) {
         const el = document.createElement("div");
@@ -83,5 +90,16 @@ export default function MapView({ points }: { points: MapPoint[] }) {
     };
   }, [points]);
 
-  return <div ref={ref} className="mapview" aria-label="Map of Tokyo cafes with Wi-Fi and power outlets" />;
+  return (
+    <div className="mapview-wrap">
+      <button
+        type="button"
+        className="map-nearme"
+        onClick={() => geoRef.current && geoRef.current.trigger()}
+      >
+        📍 Near me
+      </button>
+      <div ref={ref} className="mapview" aria-label="Map of Tokyo cafes with Wi-Fi and power outlets" />
+    </div>
+  );
 }
