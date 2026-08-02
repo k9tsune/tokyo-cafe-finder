@@ -7,9 +7,9 @@
     "address": "42-1 Senju-Asahicho, Ekia Kita-senju 2F, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 1,
     "businessHours": "Cafe 7:00-17:30 / Bar 17:30-23:00",
     "priceBand": "¥",
@@ -33,9 +33,9 @@
     "address": "2-43 Senju, Someno Bldg 2F, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 3,
     "businessHours": "7:00-20:00",
     "priceBand": "¥¥",
@@ -59,9 +59,9 @@
     "address": "1-29-12 Senju-Higashi, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 10,
     "businessHours": "7:00-20:00",
     "priceBand": "¥¥",
@@ -85,9 +85,9 @@
     "address": "3-5 Senju-Asahicho, Ekimae Kaikan Bldg 2F, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 1,
     "businessHours": "8:00-20:00",
     "priceBand": "¥¥",
@@ -111,9 +111,9 @@
     "address": "5 Senju-Asahicho, Tokyo Denki University Bldg 1, 1F, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Sat 8:00-21:00 / Sun/Hol 9:00-21:00",
     "priceBand": "¥",
@@ -137,9 +137,9 @@
     "address": "22-5 Senju-Asahicho, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 8,
     "businessHours": "12:00-23:00",
     "priceBand": "¥¥",
@@ -163,9 +163,9 @@
     "address": "4-19-11 Senju 1F, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 5,
     "businessHours": "Tue-Fri 11:00-18:00 / Sat-Sun/Hol 10:00-18:00",
     "priceBand": "¥¥",
@@ -189,9 +189,9 @@
     "address": "3-1-2 Ayase, Tokyu Store, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "ayase"
+      "ayase-station"
     ],
-    "nearestStation": "Ayase",
+    "nearestStation": "Ayase Station",
     "walkMinutes": 1,
     "businessHours": "8:00-21:30",
     "priceBand": "¥",
@@ -215,9 +215,9 @@
     "address": "4-8-1 Yanaka, LalaTerrace Kita-Ayase 2F, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-ayase"
+      "kita-ayase-station"
     ],
-    "nearestStation": "Kita-Ayase",
+    "nearestStation": "Kita-Ayase Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -240,9 +240,9 @@
     "address": "1-20-1 Nishiarai-Sakaecho, Ario Nishiarai, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "nishiarai"
+      "nishiarai-station"
     ],
-    "nearestStation": "Nishiarai",
+    "nearestStation": "Nishiarai Station",
     "walkMinutes": 5,
     "priceBand": "¥",
     "hasWifi": true,
@@ -265,9 +265,9 @@
     "address": "5-23-6 Nishi-Nippori, White House 2F, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nishi-nippori"
+      "nishi-nippori-station"
     ],
-    "nearestStation": "Nishi-Nippori",
+    "nearestStation": "Nishi-Nippori Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
     "priceBand": "¥¥",
@@ -291,9 +291,9 @@
     "address": "5-51-11 Higashi-Nippori, Shizuya Bldg 2F, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nippori"
+      "nippori-station"
     ],
-    "nearestStation": "Nippori",
+    "nearestStation": "Nippori Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
     "priceBand": "¥¥",
@@ -317,9 +317,9 @@
     "address": "5-14-1 Nishi-Nippori, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nishi-nippori"
+      "nishi-nippori-station"
     ],
-    "nearestStation": "Nishi-Nippori",
+    "nearestStation": "Nishi-Nippori Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-21:00 / Weekends 7:00-20:00",
     "priceBand": "¥",
@@ -343,9 +343,9 @@
     "address": "2-19-6 Nishi-Nippori, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nippori"
+      "nippori-station"
     ],
-    "nearestStation": "Nippori",
+    "nearestStation": "Nippori Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -369,9 +369,9 @@
     "address": "7-50-9 Arakawa, Center Machiya 1F, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "machiya"
+      "machiya-station"
     ],
-    "nearestStation": "Machiya",
+    "nearestStation": "Machiya Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Sat 6:45-20:00 / Sun/Hol 7:00-20:00",
     "priceBand": "¥",
@@ -395,9 +395,9 @@
     "address": "2-25-1 Nishi-Nippori, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nippori"
+      "nippori-station"
     ],
-    "nearestStation": "Nippori",
+    "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "8:00-22:00",
     "priceBand": "¥¥",
@@ -421,9 +421,9 @@
     "address": "2-52-3 Nishi-Nippori, D5 Bldg 1F, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nippori"
+      "nippori-station"
     ],
-    "nearestStation": "Nippori",
+    "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -446,9 +446,9 @@
     "address": "5-52-2 Higashi-Nippori 2F, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nippori"
+      "nippori-station"
     ],
-    "nearestStation": "Nippori",
+    "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "8:30-21:00",
     "priceBand": "¥¥",
@@ -472,9 +472,9 @@
     "address": "2-3-21 Nihonbashi, Gunma Building 1F, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "nihonbashi"
+      "nihonbashi-station"
     ],
-    "nearestStation": "Nihonbashi",
+    "nearestStation": "Nihonbashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-21:30, Sat/Sun/Hol 7:00-21:00",
     "priceBand": "¥",
@@ -498,9 +498,9 @@
     "address": "4-12-10 Minami-Karasuyama, Frontier Building 1F, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "chitose-karasuyama"
+      "chitose-karasuyama-station"
     ],
-    "nearestStation": "Chitose-Karasuyama",
+    "nearestStation": "Chitose-Karasuyama Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
     "priceBand": "¥",
@@ -524,9 +524,9 @@
     "address": "2-7-1 Komazawa, HF Komazawa Koen Residence Tower 1F, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "komazawa-daigaku"
+      "komazawa-daigaku-station"
     ],
-    "nearestStation": "Komazawa-daigaku",
+    "nearestStation": "Komazawa-daigaku Station",
     "walkMinutes": 3,
     "businessHours": "7:00-21:00",
     "priceBand": "¥",
@@ -550,9 +550,9 @@
     "address": "4-48-17 Honcho, Shin-Nakano Ekiue Plaza 1F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "shin-nakano"
+      "shin-nakano-station"
     ],
-    "nearestStation": "Shin-Nakano",
+    "nearestStation": "Shin-Nakano Station",
     "walkMinutes": 1,
     "businessHours": "7:00-21:00",
     "priceBand": "¥",
@@ -576,9 +576,9 @@
     "address": "4-8-5 Taito, T&T Okachimachi Building 1F, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "naka-okachimachi"
+      "naka-okachimachi-station"
     ],
-    "nearestStation": "Naka-Okachimachi",
+    "nearestStation": "Naka-Okachimachi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays/Sat 7:00-21:00, Sun/Hol 7:00-20:00",
     "priceBand": "¥",
@@ -602,11 +602,11 @@
     "address": "1-2-21 Shimo-Meguro, Taizando Building 1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "meguro"
+      "meguro-station"
     ],
     "lat": 35.6339,
     "lng": 139.716,
-    "nearestStation": "Meguro",
+    "nearestStation": "Meguro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
     "priceBand": "¥",
@@ -630,9 +630,9 @@
     "address": "1-18-15 Kami-Ogi, Ogikubo Shogyo Building 1F, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
     "priceBand": "¥",
@@ -656,9 +656,9 @@
     "address": "2-7-26 Kita-Aoyama, Landwork Aoyama Building 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "gaienmae"
+      "gaienmae-station"
     ],
-    "nearestStation": "Gaienmae",
+    "nearestStation": "Gaienmae Station",
     "walkMinutes": 1,
     "businessHours": "7:00-21:00",
     "priceBand": "¥",
@@ -682,9 +682,9 @@
     "address": "4-1-13 Toyo, Toyo Central Building 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyocho"
+      "toyocho-station"
     ],
-    "nearestStation": "Toyocho",
+    "nearestStation": "Toyocho Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:30-22:00, Sat/Sun/Hol 7:00-22:00",
     "priceBand": "¥",
@@ -708,9 +708,9 @@
     "address": "7-10-7 Nishi-Shinjuku, Kagaya Building 1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-nishiguchi"
+      "shinjuku-nishiguchi-station"
     ],
-    "nearestStation": "Shinjuku-nishiguchi",
+    "nearestStation": "Shinjuku-nishiguchi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-22:00, Sat/Sun/Hol 7:00-22:00",
     "priceBand": "¥",
@@ -734,9 +734,9 @@
     "address": "63-7 Nakajuku, Kanemo Building 1F, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "itabashi-kuyakusho-mae"
+      "itabashi-kuyakusho-mae-station"
     ],
-    "nearestStation": "Itabashi-kuyakusho-mae",
+    "nearestStation": "Itabashi-kuyakusho-mae Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 6:45-21:00, Sat/Sun/Hol 7:00-21:00",
     "priceBand": "¥",
@@ -760,9 +760,9 @@
     "address": "1-16-21 Kasuga, Bunkyo Civic Center 1F, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "korakuen"
+      "korakuen-station"
     ],
-    "nearestStation": "Korakuen",
+    "nearestStation": "Korakuen Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-21:30, Sat/Sun/Hol 7:30-21:00",
     "priceBand": "¥",
@@ -786,9 +786,9 @@
     "address": "5-38-3 Kamata, Kamata Asahi Building 1F, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "kamata"
+      "kamata-station"
     ],
-    "nearestStation": "Kamata",
+    "nearestStation": "Kamata Station",
     "walkMinutes": 3,
     "businessHours": "Weekdays 6:45-21:00, Sat/Sun/Hol 7:00-20:00",
     "priceBand": "¥",
@@ -812,9 +812,9 @@
     "address": "1-16-18 Minami-Ikebukuro, Face Ikebukuro 1F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Sat 7:00-22:00, Sun/Hol 7:00-21:00",
     "priceBand": "¥",
@@ -838,9 +838,9 @@
     "address": "1-20 Sumiyoshicho, Kakubari Building 1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "akebonobashi"
+      "akebonobashi-station"
     ],
-    "nearestStation": "Akebonobashi",
+    "nearestStation": "Akebonobashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 9:00-19:00",
     "priceBand": "¥",
@@ -864,9 +864,9 @@
     "address": "3-9-10 Kotobashi, Marui Kinshicho 3F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 3,
     "businessHours": "9:00-20:00",
     "priceBand": "¥",
@@ -890,9 +890,9 @@
     "address": "1-10 Gobancho, Ichigaya Daigo Building 1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "ichigaya"
+      "ichigaya-station"
     ],
-    "nearestStation": "Ichigaya",
+    "nearestStation": "Ichigaya Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:30-21:00, Sat/Sun/Hol 7:00-20:00",
     "priceBand": "¥",
@@ -916,9 +916,9 @@
     "address": "1-1-1 Akabane, Beans Akabane, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "akabane"
+      "akabane-station"
     ],
-    "nearestStation": "Akabane",
+    "nearestStation": "Akabane Station",
     "walkMinutes": 3,
     "businessHours": "8:00-21:00",
     "priceBand": "¥",
@@ -942,9 +942,9 @@
     "address": "3-27-3 Ueno, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "okachimachi"
+      "okachimachi-station"
     ],
-    "nearestStation": "Okachimachi",
+    "nearestStation": "Okachimachi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
     "priceBand": "¥",
@@ -968,9 +968,9 @@
     "address": "1-8-1 Ebisu, San-ei Building, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "ebisu"
+      "ebisu-station"
     ],
-    "nearestStation": "Ebisu",
+    "nearestStation": "Ebisu Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00 (L.O. 22:30)",
     "priceBand": "¥",
@@ -994,9 +994,11 @@
     "address": "4-1-1 Shinjuku, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku"
+      "shinjuku-station"
     ],
-    "nearestStation": "Shinjuku",
+    "lat": 35.6896,
+    "lng": 139.7004,
+    "nearestStation": "Shinjuku Station",
     "walkMinutes": 3,
     "businessHours": "Weekdays 7:00-22:00, Sat/Sun/Hol 7:00-21:00",
     "priceBand": "¥",
@@ -1020,9 +1022,11 @@
     "address": "15-15 Sakuragaoka-cho, NKG Tokyo Dai-2 Building 2F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 6,
     "businessHours": "Mon-Sat 7:30-22:00, Sun/Hol 8:00-21:00",
     "priceBand": "¥¥",
@@ -1046,9 +1050,9 @@
     "address": "2-14-31 Ueno, Ueno Lakeside Building 2F, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "keisei-ueno"
+      "keisei-ueno-station"
     ],
-    "nearestStation": "Keisei-Ueno",
+    "nearestStation": "Keisei-Ueno Station",
     "walkMinutes": 1,
     "businessHours": "Daily 8:00-22:00",
     "priceBand": "¥¥",
@@ -1072,11 +1076,11 @@
     "address": "5-34-7 Shiba, Tamachi Center Building 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "tamachi"
+      "tamachi-station"
     ],
     "lat": 35.6457,
     "lng": 139.7476,
-    "nearestStation": "Tamachi",
+    "nearestStation": "Tamachi Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-22:00, Sat 8:00-22:00, Sun/Hol 9:00-21:00",
     "priceBand": "¥¥",
@@ -1100,9 +1104,9 @@
     "address": "8-1-7 Nishi-Kamata, Grand Town Building 2F, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "kamata"
+      "kamata-station"
     ],
-    "nearestStation": "Kamata",
+    "nearestStation": "Kamata Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-22:00, Sat/Sun/Hol 8:00-22:00",
     "priceBand": "¥¥",
@@ -1126,9 +1130,9 @@
     "address": "1-7-1 Nishi-Gotanda, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "gotanda"
+      "gotanda-station"
     ],
-    "nearestStation": "Gotanda",
+    "nearestStation": "Gotanda Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-23:00, Sat/Sun 8:00-21:30",
     "priceBand": "¥",
@@ -1152,9 +1156,9 @@
     "address": "3-26 Takanawa, inside JR Shinagawa Station north gate, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "shinagawa"
+      "shinagawa-station"
     ],
-    "nearestStation": "Shinagawa",
+    "nearestStation": "Shinagawa Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1177,9 +1181,9 @@
     "address": "7-1-1 Ueno, inside JR Ueno Station central gate, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "ueno"
+      "ueno-station"
     ],
-    "nearestStation": "Ueno",
+    "nearestStation": "Ueno Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-20:00, Sat 7:00-20:00, Sun/Hol 7:00-19:00",
     "priceBand": "¥",
@@ -1203,9 +1207,9 @@
     "address": "2-40-17 Hongo, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "hongo-sanchome"
+      "hongo-sanchome-station"
     ],
-    "nearestStation": "Hongo-sanchome",
+    "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1228,9 +1232,9 @@
     "address": "2-40-18 Hongo, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "hongo-sanchome"
+      "hongo-sanchome-station"
     ],
-    "nearestStation": "Hongo-sanchome",
+    "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1253,9 +1257,9 @@
     "address": "4-1-4 Hongo, Design Place Alpha 1F, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "hongo-sanchome"
+      "hongo-sanchome-station"
     ],
-    "nearestStation": "Hongo-sanchome",
+    "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Sat 7:00-22:00, Sun/Hol 8:00-21:00",
     "priceBand": "¥¥",
@@ -1279,9 +1283,9 @@
     "address": "7-3-1 Hongo, UTokyo Engineering Bldg 11, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "todai-mae"
+      "todai-mae-station"
     ],
-    "nearestStation": "Todai-mae",
+    "nearestStation": "Todai-mae Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -1304,9 +1308,9 @@
     "address": "7-3-1 Hongo, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "hongo-sanchome"
+      "hongo-sanchome-station"
     ],
-    "nearestStation": "Hongo-sanchome",
+    "nearestStation": "Hongo-sanchome Station",
     "walkMinutes": 5,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1329,9 +1333,9 @@
     "address": "1-1-1 Kasuga, LaQua, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "korakuen"
+      "korakuen-station"
     ],
-    "nearestStation": "Korakuen",
+    "nearestStation": "Korakuen Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -1354,9 +1358,9 @@
     "address": "1-3-21 Koishikawa, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "kasuga"
+      "kasuga-station"
     ],
-    "nearestStation": "Kasuga",
+    "nearestStation": "Kasuga Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1379,9 +1383,9 @@
     "address": "1-47 Sekiguchi, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "edogawabashi"
+      "edogawabashi-station"
     ],
-    "nearestStation": "Edogawabashi",
+    "nearestStation": "Edogawabashi Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1404,9 +1408,9 @@
     "address": "1-1-22 Nezu, Azalea Nezu 1F, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "nezu"
+      "nezu-station"
     ],
-    "nearestStation": "Nezu",
+    "nearestStation": "Nezu Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1429,9 +1433,9 @@
     "address": "1-4-1 Otsuka, Chuo University Myogadani Campus, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "myogadani"
+      "myogadani-station"
     ],
-    "nearestStation": "Myogadani",
+    "nearestStation": "Myogadani Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -1455,9 +1459,9 @@
     "address": "3-19-8 Uchikanda, Sakurai Building 2F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "awajicho"
+      "awajicho-station"
     ],
-    "nearestStation": "Awajicho",
+    "nearestStation": "Awajicho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:30-21:00, Sat/Sun/Hol 7:20-20:00",
     "priceBand": "¥",
@@ -1481,9 +1485,9 @@
     "address": "2-1 Kanda-Surugadai, Ochanomizu Yasuda Building 1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "ochanomizu"
+      "ochanomizu-station"
     ],
-    "nearestStation": "Ochanomizu",
+    "nearestStation": "Ochanomizu Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-22:00, Sat/Sun/Hol 7:00-21:00",
     "priceBand": "¥",
@@ -1507,9 +1511,9 @@
     "address": "3-15-1 Sotokanda, Akihabara Place 1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "suehirocho"
+      "suehirocho-station"
     ],
-    "nearestStation": "Suehirocho",
+    "nearestStation": "Suehirocho Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1532,9 +1536,9 @@
     "address": "1-17-6 Nihonbashi-Ningyocho, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "ningyocho"
+      "ningyocho-station"
     ],
-    "nearestStation": "Ningyocho",
+    "nearestStation": "Ningyocho Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1557,9 +1561,9 @@
     "address": "1-2-6 Nihonbashi, Kuroekoya Kokubun Building 1F, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "nihonbashi"
+      "nihonbashi-station"
     ],
-    "nearestStation": "Nihonbashi",
+    "nearestStation": "Nihonbashi Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": false,
@@ -1582,9 +1586,9 @@
     "address": "1-6-1 Roppongi, Izumi Garden Tower 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi-itchome"
+      "roppongi-itchome-station"
     ],
-    "nearestStation": "Roppongi-itchome",
+    "nearestStation": "Roppongi-itchome Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:00, Sat/Sun 8:00-18:00",
     "priceBand": "¥",
@@ -1608,11 +1612,11 @@
     "address": "6-5-1 Nishi-Shinjuku, Shinjuku Island Tower 1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "nishi-shinjuku"
+      "nishi-shinjuku-station"
     ],
     "lat": 35.6939,
     "lng": 139.6929,
-    "nearestStation": "Nishi-Shinjuku",
+    "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-22:00, Sat/Sun/Hol 8:00-21:00",
     "priceBand": "¥",
@@ -1636,9 +1640,9 @@
     "address": "3-20-2 Nishi-Shinjuku, Tokyo Opera City 1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "hatsudai"
+      "hatsudai-station"
     ],
-    "nearestStation": "Hatsudai",
+    "nearestStation": "Hatsudai Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:30-21:00, Sat/Sun/Hol 8:00-21:00",
     "priceBand": "¥",
@@ -1662,9 +1666,11 @@
     "address": "1-12-5 Dogenzaka, Shibuya Mark City West 4F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 1,
     "businessHours": "Daily 7:00-23:00",
     "priceBand": "¥",
@@ -1688,11 +1694,11 @@
     "address": "2-11-1 Jiyugaoka, J-Face Kuriyama Building 1F/2F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:45-22:00, Sat/Sun/Hol 7:00-22:00",
     "priceBand": "¥",
@@ -1716,11 +1722,11 @@
     "address": "Atre Meguro, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "meguro"
+      "meguro-station"
     ],
     "lat": 35.6339,
     "lng": 139.716,
-    "nearestStation": "Meguro",
+    "nearestStation": "Meguro Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1743,9 +1749,9 @@
     "address": "1-7-1 Koenji-Minami, B1F, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "higashi-koenji"
+      "higashi-koenji-station"
     ],
-    "nearestStation": "Higashi-Koenji",
+    "nearestStation": "Higashi-Koenji Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 8:00-20:00",
     "priceBand": "¥",
@@ -1769,9 +1775,9 @@
     "address": "3-8-2 Higashi-Nakano, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "higashi-nakano"
+      "higashi-nakano-station"
     ],
-    "nearestStation": "Higashi-Nakano",
+    "nearestStation": "Higashi-Nakano Station",
     "walkMinutes": 0,
     "businessHours": "Daily 7:30-20:30",
     "priceBand": "¥",
@@ -1795,9 +1801,9 @@
     "address": "4-1-1 Taishido, Carrot Tower, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1820,9 +1826,9 @@
     "address": "3-18-12 Kamiuma, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "komazawa-daigaku"
+      "komazawa-daigaku-station"
     ],
-    "nearestStation": "Komazawa-daigaku",
+    "nearestStation": "Komazawa-daigaku Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1845,9 +1851,9 @@
     "address": "3-2-3 Ikejiri, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "ikejiri-ohashi"
+      "ikejiri-ohashi-station"
     ],
-    "nearestStation": "Ikejiri-Ohashi",
+    "nearestStation": "Ikejiri-Ohashi Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1870,9 +1876,9 @@
     "address": "3-4-9 Kinshi, Kinshi Tsumura 3 Building, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-21:00, Sat 7:00-20:00, Sun/Hol 8:00-20:00",
     "priceBand": "¥",
@@ -1896,9 +1902,9 @@
     "address": "2-2-1 Kinshi, Arcakit Kinshicho 1F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "Daily 7:00-23:00",
     "priceBand": "¥",
@@ -1922,9 +1928,9 @@
     "address": "5-34-3 Ojima, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "oshima"
+      "oshima-station"
     ],
-    "nearestStation": "Oshima",
+    "nearestStation": "Oshima Station",
     "walkMinutes": 1,
     "businessHours": "Daily 6:45-20:00",
     "priceBand": "¥",
@@ -1948,9 +1954,9 @@
     "address": "5-1-2 Kameido, LIV Kameido 2 Building 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "kameido"
+      "kameido-station"
     ],
-    "nearestStation": "Kameido",
+    "nearestStation": "Kameido Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-22:30, Sat/Sun/Hol 7:00-22:30",
     "priceBand": "¥",
@@ -1974,9 +1980,9 @@
     "address": "2-5-9 Minami-Shinagawa, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "aomono-yokocho"
+      "aomono-yokocho-station"
     ],
-    "nearestStation": "Aomono-Yokocho",
+    "nearestStation": "Aomono-Yokocho Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -1999,9 +2005,9 @@
     "address": "4-12-6 Higashi-Shinagawa, Shinagawa Seaside Forest B1F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "shinagawa-seaside"
+      "shinagawa-seaside-station"
     ],
-    "nearestStation": "Shinagawa Seaside",
+    "nearestStation": "Shinagawa Seaside Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2024,9 +2030,9 @@
     "address": "2-1-1 Osaki, Think Park Tower 2F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "osaki"
+      "osaki-station"
     ],
-    "nearestStation": "Osaki",
+    "nearestStation": "Osaki Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2049,9 +2055,9 @@
     "address": "7-1-1 Ueno, Atre Ueno, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "ueno"
+      "ueno-station"
     ],
-    "nearestStation": "Ueno",
+    "nearestStation": "Ueno Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": false,
@@ -2074,9 +2080,9 @@
     "address": "4-2-3 Higashi-Ueno, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "ueno"
+      "ueno-station"
     ],
-    "nearestStation": "Ueno",
+    "nearestStation": "Ueno Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2099,9 +2105,9 @@
     "address": "5-37-1 Kamata, Aroma Square, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "kamata"
+      "kamata-station"
     ],
-    "nearestStation": "Kamata",
+    "nearestStation": "Kamata Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2124,9 +2130,9 @@
     "address": "1-11-1 Nishi-Ikebukuro, Lumine Ikebukuro B1F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2149,9 +2155,9 @@
     "address": "2-1-1 Ikebukuro, Sugiyama Building 1F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2174,9 +2180,9 @@
     "address": "1-5-6 Nerima, Crystal Building 1F, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "nerima"
+      "nerima-station"
     ],
-    "nearestStation": "Nerima",
+    "nearestStation": "Nerima Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2199,9 +2205,9 @@
     "address": "4-15-11 Nerima, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "toshimaen"
+      "toshimaen-station"
     ],
-    "nearestStation": "Toshimaen",
+    "nearestStation": "Toshimaen Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2224,9 +2230,9 @@
     "address": "5-34-11 Naka-Kasai, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "kasai"
+      "kasai-station"
     ],
-    "nearestStation": "Kasai",
+    "nearestStation": "Kasai Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2249,9 +2255,9 @@
     "address": "3-4-25 Ayase, Ito-Yokado Ayase, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "ayase"
+      "ayase-station"
     ],
-    "nearestStation": "Ayase",
+    "nearestStation": "Ayase Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": false,
@@ -2274,9 +2280,9 @@
     "address": "1-1-1 Akabane, Beans Akabane, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "akabane"
+      "akabane-station"
     ],
-    "nearestStation": "Akabane",
+    "nearestStation": "Akabane Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2299,9 +2305,9 @@
     "address": "1-24-7 Higashi-Kanamachi, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "kanamachi"
+      "kanamachi-station"
     ],
-    "nearestStation": "Kanamachi",
+    "nearestStation": "Kanamachi Station",
     "walkMinutes": 0,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2352,11 +2358,11 @@
     "address": "3-5-1 Marunouchi, Tokyo International Forum B1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "yurakucho"
+      "yurakucho-station"
     ],
     "lat": 35.6749,
     "lng": 139.763,
-    "nearestStation": "Yurakucho",
+    "nearestStation": "Yurakucho Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri from 7:30 (closing varies), Sat-Sun 8:00-19:00",
     "priceBand": "¥¥",
@@ -2408,11 +2414,11 @@
     "address": "1-6-1 Otemachi, Otemachi Bldg 1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "otemachi"
+      "otemachi-station"
     ],
     "lat": 35.6876,
     "lng": 139.7665,
-    "nearestStation": "Otemachi",
+    "nearestStation": "Otemachi Station",
     "walkMinutes": 1,
     "businessHours": "Weekday 11:00-20:00, closed weekends/holidays",
     "priceBand": "¥¥",
@@ -2436,11 +2442,11 @@
     "address": "3-20-3 Uchikanda, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "kanda"
+      "kanda-station"
     ],
     "lat": 35.6918,
     "lng": 139.7709,
-    "nearestStation": "Kanda",
+    "nearestStation": "Kanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:30-20:30, Sat-Sun 8:00-19:00",
     "priceBand": "¥",
@@ -2464,11 +2470,11 @@
     "address": "3-19-8 Uchikanda, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "kanda"
+      "kanda-station"
     ],
     "lat": 35.6918,
     "lng": 139.7709,
-    "nearestStation": "Kanda",
+    "nearestStation": "Kanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:30-21:00, Sat-Sun 8:00-20:00",
     "priceBand": "¥",
@@ -2492,11 +2498,11 @@
     "address": "Akihabara UDX Bldg 5F, Sotokanda, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "akihabara"
+      "akihabara-station"
     ],
     "lat": 35.6984,
     "lng": 139.7731,
-    "nearestStation": "Akihabara",
+    "nearestStation": "Akihabara Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:00-20:00, Sat 11:00-18:00, closed Sun/Hol",
     "priceBand": "¥¥",
@@ -2520,11 +2526,11 @@
     "address": "Shin-Akihabara Bldg B1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "akihabara"
+      "akihabara-station"
     ],
     "lat": 35.6984,
     "lng": 139.7731,
-    "nearestStation": "Akihabara",
+    "nearestStation": "Akihabara Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00",
     "priceBand": "¥¥",
@@ -2548,11 +2554,11 @@
     "address": "AKIBA426 Bldg 3F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "akihabara"
+      "akihabara-station"
     ],
     "lat": 35.6984,
     "lng": 139.7731,
-    "nearestStation": "Akihabara",
+    "nearestStation": "Akihabara Station",
     "walkMinutes": 4,
     "businessHours": "Weekday 11:00-22:00, Weekend 10:30-20:00",
     "priceBand": "¥¥",
@@ -2576,11 +2582,11 @@
     "address": "2-7 Kanda Jimbocho, Jimbocho NK Bldg 1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "jimbocho"
+      "jimbocho-station"
     ],
     "lat": 35.6959,
     "lng": 139.7576,
-    "nearestStation": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:00-20:00, Sat 8:00-20:00, Sun 9:00-19:00",
     "priceBand": "¥¥",
@@ -2604,11 +2610,11 @@
     "address": "1-10-1 Kanda Jimbocho, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "jimbocho"
+      "jimbocho-station"
     ],
     "lat": 35.6959,
     "lng": 139.7576,
-    "nearestStation": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
     "walkMinutes": 1,
     "businessHours": "Weekday 6:45-21:00, Sat-Sun 7:45-20:00",
     "priceBand": "¥",
@@ -2632,11 +2638,11 @@
     "address": "2-21-4 Kanda Jimbocho, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "jimbocho"
+      "jimbocho-station"
     ],
     "lat": 35.6959,
     "lng": 139.7576,
-    "nearestStation": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -2659,11 +2665,11 @@
     "address": "Yasuda Sequence Tower 1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "jimbocho"
+      "jimbocho-station"
     ],
     "lat": 35.6959,
     "lng": 139.7576,
-    "nearestStation": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
     "walkMinutes": 8,
     "priceBand": "¥",
     "hasWifi": true,
@@ -2685,11 +2691,11 @@
     "address": "Chiyoda-ku, Tokyo (near Jimbocho/Otemachi, exit A8)",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "jimbocho"
+      "jimbocho-station"
     ],
     "lat": 35.6959,
     "lng": 139.7576,
-    "nearestStation": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
     "walkMinutes": 9,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -2712,11 +2718,11 @@
     "address": "3-5-1 Marunouchi, Tokyo International Forum, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "yurakucho"
+      "yurakucho-station"
     ],
     "lat": 35.6749,
     "lng": 139.763,
-    "nearestStation": "Yurakucho",
+    "nearestStation": "Yurakucho Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -3126,11 +3132,11 @@
     "address": "4-2-23 Shinjuku, Shinjuku-ku, Tokyo (2F/3F)",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "10:00-23:00",
     "priceBand": "¥¥",
@@ -3154,11 +3160,11 @@
     "address": "3-1-24 Shinjuku, Shinjuku-ku, Tokyo (Keio Shinjuku 3-chome Bldg 1F)",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-21:30, Sat/Sun/holidays 9:00-21:30",
     "priceBand": "¥¥",
@@ -3182,9 +3188,11 @@
     "address": "Miyamasuzaka area, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-21:30, Sat/Sun/holidays 9:00-21:30",
     "priceBand": "¥¥",
@@ -3208,9 +3216,9 @@
     "address": "Atre Omori 5F, Omori-kita, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "omori"
+      "omori-station"
     ],
-    "nearestStation": "Omori",
+    "nearestStation": "Omori Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-21:30, Sat/Sun/holidays 9:00-21:30",
     "priceBand": "¥¥",
@@ -3234,9 +3242,9 @@
     "address": "2-46-3 Minami-Otsuka, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "otsuka"
+      "otsuka-station"
     ],
-    "nearestStation": "Otsuka",
+    "nearestStation": "Otsuka Station",
     "walkMinutes": 2,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
     "priceBand": "¥",
@@ -3260,9 +3268,9 @@
     "address": "1-17-8 Sugamo, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "sugamo"
+      "sugamo-station"
     ],
-    "nearestStation": "Sugamo",
+    "nearestStation": "Sugamo Station",
     "walkMinutes": 2,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
     "priceBand": "¥",
@@ -3286,9 +3294,11 @@
     "address": "1-19-14 Jinnan, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
     "priceBand": "¥",
@@ -3312,9 +3322,9 @@
     "address": "1-5-11 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-west-exit"
+      "shinjuku-west-exit-station"
     ],
-    "nearestStation": "Shinjuku (West Exit)",
+    "nearestStation": "Shinjuku (West Exit) Station",
     "walkMinutes": 5,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
     "priceBand": "¥",
@@ -3338,9 +3348,9 @@
     "address": "61-6 Bababashitacho, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "waseda"
+      "waseda-station"
     ],
-    "nearestStation": "Waseda",
+    "nearestStation": "Waseda Station",
     "walkMinutes": 3,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
     "priceBand": "¥",
@@ -3364,9 +3374,9 @@
     "address": "6-3-14 Minami-Karasuyama, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "chitose-karasuyama"
+      "chitose-karasuyama-station"
     ],
-    "nearestStation": "Chitose-Karasuyama",
+    "nearestStation": "Chitose-Karasuyama Station",
     "walkMinutes": 3,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
     "priceBand": "¥",
@@ -3390,9 +3400,9 @@
     "address": "8-3-9 Umeda, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "umejima"
+      "umejima-station"
     ],
-    "nearestStation": "Umejima",
+    "nearestStation": "Umejima Station",
     "walkMinutes": 3,
     "businessHours": "Unmanned self-service; open long hours (varies by store)",
     "priceBand": "¥",
@@ -3416,9 +3426,9 @@
     "address": "2-17-9 Nihonbashi-Kayabacho, Chuo-ku, Tokyo (Nihonbashi Izumi Bldg 5F)",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "kayabacho"
+      "kayabacho-station"
     ],
-    "nearestStation": "Kayabacho",
+    "nearestStation": "Kayabacho Station",
     "walkMinutes": 2,
     "businessHours": "Roughly early morning to late night (member/drop-in study cafe)",
     "priceBand": "¥¥",
@@ -3442,9 +3452,9 @@
     "address": "Ikebukuro area, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "Roughly early morning to late night (member/drop-in study cafe)",
     "priceBand": "¥¥",
@@ -3468,9 +3478,9 @@
     "address": "Toranomon area, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "toranomon"
+      "toranomon-station"
     ],
-    "nearestStation": "Toranomon",
+    "nearestStation": "Toranomon Station",
     "walkMinutes": 4,
     "businessHours": "Roughly early morning to late night (member/drop-in study cafe)",
     "priceBand": "¥¥",
@@ -3494,9 +3504,9 @@
     "address": "3-36-7 Minami-Otsuka, Toshima-ku, Tokyo (T&T Bldg 5F)",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "otsuka"
+      "otsuka-station"
     ],
-    "nearestStation": "Otsuka",
+    "nearestStation": "Otsuka Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -3520,9 +3530,9 @@
     "address": "5-3 Kojimachi, Chiyoda-ku, Tokyo (Dai-7 Akiyama Bldg B1F)",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "yotsuya"
+      "yotsuya-station"
     ],
-    "nearestStation": "Yotsuya",
+    "nearestStation": "Yotsuya Station",
     "walkMinutes": 3,
     "businessHours": "10:00-20:00",
     "priceBand": "¥¥",
@@ -3546,11 +3556,11 @@
     "address": "2-12 Kagurazaka, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "iidabashi"
+      "iidabashi-station"
     ],
     "lat": 35.702,
     "lng": 139.7449,
-    "nearestStation": "Iidabashi",
+    "nearestStation": "Iidabashi Station",
     "walkMinutes": 3,
     "businessHours": "9:00-22:30",
     "priceBand": "¥¥",
@@ -3574,9 +3584,9 @@
     "address": "2-2-18 Sotokanda, Chiyoda-ku, Tokyo (Toshin Ochanomizu Bldg 1F)",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "ochanomizu"
+      "ochanomizu-station"
     ],
-    "nearestStation": "Ochanomizu",
+    "nearestStation": "Ochanomizu Station",
     "walkMinutes": 5,
     "businessHours": "Mon-Fri 10:00-21:00, Sat/Sun 10:00-18:00",
     "priceBand": "¥¥",
@@ -3600,9 +3610,9 @@
     "address": "5-30-12 Ogikubo, Suginami-ku, Tokyo (Gloria Bldg Ogikubo B1F)",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo-south-exit"
+      "ogikubo-south-exit-station"
     ],
-    "nearestStation": "Ogikubo (South Exit)",
+    "nearestStation": "Ogikubo (South Exit) Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 13:00-24:00, Sat/Sun/holidays 10:00-24:00 (hours vary by source)",
     "priceBand": "¥¥",
@@ -3626,9 +3636,9 @@
     "address": "6-10-1 Ginza, Chuo-ku, Tokyo (GINZA SIX 6F)",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "ginza"
+      "ginza-station"
     ],
-    "nearestStation": "Ginza",
+    "nearestStation": "Ginza Station",
     "walkMinutes": 3,
     "businessHours": "10:30-21:00",
     "priceBand": "¥¥¥",
@@ -3652,9 +3662,9 @@
     "address": "3-30-1 Hirai, Shapo Loco Hirai 1F/2F, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "hirai"
+      "hirai-station"
     ],
-    "nearestStation": "Hirai",
+    "nearestStation": "Hirai Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:00, Sat-Sun 8:00-21:00",
     "priceBand": "¥",
@@ -3678,9 +3688,9 @@
     "address": "7-24-20 Minami-Koiwa, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "koiwa"
+      "koiwa-station"
     ],
-    "nearestStation": "Koiwa",
+    "nearestStation": "Koiwa Station",
     "walkMinutes": 2,
     "businessHours": "7:00-21:00 daily",
     "priceBand": "¥",
@@ -3704,9 +3714,9 @@
     "address": "7-24-15 Minami-Koiwa, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "koiwa"
+      "koiwa-station"
     ],
-    "nearestStation": "Koiwa",
+    "nearestStation": "Koiwa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00 daily",
     "priceBand": "¥",
@@ -3730,9 +3740,9 @@
     "address": "6-1-13 Higashi-Kasai 1F, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "kasai"
+      "kasai-station"
     ],
-    "nearestStation": "Kasai",
+    "nearestStation": "Kasai Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00 daily",
     "priceBand": "¥¥",
@@ -3756,9 +3766,9 @@
     "address": "9-3-3 Higashi-Kasai, Ario Kasai 2F, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "kasai"
+      "kasai-station"
     ],
-    "nearestStation": "Kasai",
+    "nearestStation": "Kasai Station",
     "walkMinutes": 6,
     "priceBand": "¥",
     "hasWifi": true,
@@ -3781,9 +3791,9 @@
     "address": "6-16-4 Nishi-Kasai, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "nishi-kasai"
+      "nishi-kasai-station"
     ],
-    "nearestStation": "Nishi-Kasai",
+    "nearestStation": "Nishi-Kasai Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -3806,9 +3816,9 @@
     "address": "1-26-14 Higashi-Mizue, Edogawa-ku, Tokyo",
     "areaSlug": "edogawa",
     "stationSlugs": [
-      "mizue"
+      "mizue-station"
     ],
-    "nearestStation": "Mizue",
+    "nearestStation": "Mizue Station",
     "walkMinutes": 3,
     "priceBand": "¥",
     "hasWifi": true,
@@ -3831,9 +3841,9 @@
     "address": "7-1-1 Nishi-Shinjuku, Shinjuku Kaleido Building 3F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-nishiguchi"
+      "shinjuku-nishiguchi-station"
     ],
-    "nearestStation": "Shinjuku-nishiguchi",
+    "nearestStation": "Shinjuku-nishiguchi Station",
     "walkMinutes": 3,
     "businessHours": "7:00-5:00",
     "priceBand": "¥",
@@ -3857,11 +3867,11 @@
     "address": "1-1-17 Kabukicho, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 3,
     "businessHours": "6:00-5:00",
     "priceBand": "¥",
@@ -3885,11 +3895,11 @@
     "address": "3-2-4 Shinjuku, 2F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -3913,11 +3923,11 @@
     "address": "6-14-1 Nishi-Shinjuku, Shinjuku Green Tower Building 2F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "nishi-shinjuku"
+      "nishi-shinjuku-station"
     ],
     "lat": 35.6939,
     "lng": 139.6929,
-    "nearestStation": "Nishi-Shinjuku",
+    "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 3,
     "businessHours": "6:30-24:00",
     "priceBand": "¥",
@@ -3941,9 +3951,9 @@
     "address": "Shinjuku-ku, Tokyo (Higashi-Shinjuku Station A3 exit)",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "higashi-shinjuku"
+      "higashi-shinjuku-station"
     ],
-    "nearestStation": "Higashi-Shinjuku",
+    "nearestStation": "Higashi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "24 hours (closed Sun-Mon 22:00-6:00 for cleaning)",
     "priceBand": "¥",
@@ -3967,9 +3977,11 @@
     "address": "3-26-21 Shibuya, Tokyu Stay Shibuya Shin-Minamiguchi 1F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "6:00-5:00",
     "priceBand": "¥",
@@ -3993,9 +4005,11 @@
     "address": "34-5 Udagawacho, Site Building 3, 2F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 7,
     "businessHours": "6:00-5:00",
     "priceBand": "¥",
@@ -4019,9 +4033,11 @@
     "address": "13-11 Udagawacho, KN Shibuya Building 7F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4045,9 +4061,11 @@
     "address": "Udagawacho, Shibuya-ku, Tokyo (near Tokyu Hands, 2F)",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 6,
     "businessHours": "10:00-7:00",
     "priceBand": "¥",
@@ -4071,9 +4089,9 @@
     "address": "Jingumae, Shibuya-ku, Tokyo (on Meiji-dori toward Harajuku)",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "meiji-jingumae"
+      "meiji-jingumae-station"
     ],
-    "nearestStation": "Meiji-jingumae",
+    "nearestStation": "Meiji-jingumae Station",
     "walkMinutes": 6,
     "businessHours": "10:00-5:00",
     "priceBand": "¥",
@@ -4097,9 +4115,9 @@
     "address": "6-16-12 Ginza, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "higashi-ginza"
+      "higashi-ginza-station"
     ],
-    "nearestStation": "Higashi-Ginza",
+    "nearestStation": "Higashi-Ginza Station",
     "walkMinutes": 4,
     "businessHours": "24 hours",
     "priceBand": "¥",
@@ -4123,9 +4141,9 @@
     "address": "2-7-3 Ikebukuro, Oasis Building 1F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 4,
     "businessHours": "6:00-5:00",
     "priceBand": "¥",
@@ -4149,9 +4167,9 @@
     "address": "1-6-4 Higashi-Ikebukuro, Ito Building B1F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "9:00-5:00",
     "priceBand": "¥¥¥",
@@ -4175,9 +4193,9 @@
     "address": "1-14-1 Higashi-Ikebukuro, Ikebukuro Square B2F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 4,
     "businessHours": "10:00-7:00",
     "priceBand": "¥",
@@ -4201,9 +4219,9 @@
     "address": "5-14-10 Shiba, Premier Stage Mita Keidaimae 2F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "mita"
+      "mita-station"
     ],
-    "nearestStation": "Mita",
+    "nearestStation": "Mita Station",
     "walkMinutes": 5,
     "businessHours": "6:00-23:00",
     "priceBand": "¥",
@@ -4227,9 +4245,11 @@
     "address": "1-5-2 Kabukicho, KU Building 2F-9F (reception 2F), Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku"
+      "shinjuku-station"
     ],
-    "nearestStation": "Shinjuku",
+    "lat": 35.6896,
+    "lng": 139.7004,
+    "nearestStation": "Shinjuku Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4253,9 +4273,11 @@
     "address": "24-10 Udagawacho, Yokota Building 2F-4F (reception 2F), Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 4,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4279,9 +4301,9 @@
     "address": "1-24-2 Minami-Ikebukuro, Akimoto Building 4F-6F (reception 5F), Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4305,11 +4327,11 @@
     "address": "1-13-3 Sotokanda, above AOKI 3F-6F (reception 4F), Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "akihabara"
+      "akihabara-station"
     ],
     "lat": 35.6984,
     "lng": 139.7731,
-    "nearestStation": "Akihabara",
+    "nearestStation": "Akihabara Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4333,9 +4355,11 @@
     "address": "Kabukicho, Shinjuku-ku, Tokyo (near Yasukuni-dori)",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku"
+      "shinjuku-station"
     ],
-    "nearestStation": "Shinjuku",
+    "lat": 35.6896,
+    "lng": 139.7004,
+    "nearestStation": "Shinjuku Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4359,9 +4383,11 @@
     "address": "2-23-12 Dogenzaka, Fhontis Building 4F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 7,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4385,9 +4411,9 @@
     "address": "1-37-12 Nishi-Ikebukuro, Rosa Kaikan 4F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4411,9 +4437,11 @@
     "address": "24-8 Udagawacho, Leisure Plaza Building (reception 2F), Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4437,9 +4465,9 @@
     "address": "2-6-12 Shinjuku, Hakuho Shinjuku Dai-15 Building, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-gyoemmae"
+      "shinjuku-gyoemmae-station"
     ],
-    "nearestStation": "Shinjuku-Gyoemmae",
+    "nearestStation": "Shinjuku-Gyoemmae Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4463,9 +4491,9 @@
     "address": "1-21-1 Kabukicho, Dai-2 Toa Kaikan Building 7F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "seibu-shinjuku"
+      "seibu-shinjuku-station"
     ],
-    "nearestStation": "Seibu-Shinjuku",
+    "nearestStation": "Seibu-Shinjuku Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4489,9 +4517,9 @@
     "address": "6-7-9 Ueno, AS Dai-1 Building, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "ueno"
+      "ueno-station"
     ],
-    "nearestStation": "Ueno",
+    "nearestStation": "Ueno Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4515,9 +4543,11 @@
     "address": "13-8 Udagawacho, Chitose Kaikan 3F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4541,9 +4571,9 @@
     "address": "1-11-11 Higashi-Ikebukuro, White City Building 2F-10F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4567,9 +4597,9 @@
     "address": "2-44-1 Kabukicho, Hygeia Building B1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "seibu-shinjuku"
+      "seibu-shinjuku-station"
     ],
-    "nearestStation": "Seibu-Shinjuku",
+    "nearestStation": "Seibu-Shinjuku Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4593,11 +4623,11 @@
     "address": "6-3-1 Roppongi, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 2,
     "businessHours": "24 hours",
     "priceBand": "¥",
@@ -4621,9 +4651,9 @@
     "address": "4-4 Ueno, B and V Building, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "okachimachi"
+      "okachimachi-station"
     ],
-    "nearestStation": "Okachimachi",
+    "nearestStation": "Okachimachi Station",
     "walkMinutes": 2,
     "businessHours": "24 hours (takeout only 0:00-5:00)",
     "priceBand": "¥",
@@ -4647,9 +4677,9 @@
     "address": "1-27-8 Minami-Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "24 hours",
     "priceBand": "¥",
@@ -4673,11 +4703,11 @@
     "address": "3-2-4 Shinjuku, Shinjuku M&E Square Building 2F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -4701,9 +4731,11 @@
     "address": "2-4-1 Marunouchi, Marunouchi Building 3F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "tokyo"
+      "tokyo-station"
     ],
-    "nearestStation": "Tokyo",
+    "lat": 35.6812,
+    "lng": 139.7671,
+    "nearestStation": "Tokyo Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary by day; check official site (roughly daytime to night)",
     "priceBand": "¥¥¥",
@@ -4727,11 +4759,11 @@
     "address": "2-3-1 Kanda-Jimbocho, Iwanami Shoten Annex, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "jimbocho"
+      "jimbocho-station"
     ],
     "lat": 35.6959,
     "lng": 139.7576,
-    "nearestStation": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 9:00-20:00, Sat/Sun/holidays 10:00-19:00",
     "priceBand": "¥¥",
@@ -4755,9 +4787,11 @@
     "address": "1-9-1 Marunouchi, Gransta Tokyo B1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "tokyo"
+      "tokyo-station"
     ],
-    "nearestStation": "Tokyo",
+    "lat": 35.6812,
+    "lng": 139.7671,
+    "nearestStation": "Tokyo Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Sat 7:00-22:00, Sun/holidays 7:00-21:00",
     "priceBand": "¥¥",
@@ -4781,9 +4815,9 @@
     "address": "2-6-10 Kanda-Surugadai, Tanaka Building 2-4F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "ochanomizu"
+      "ochanomizu-station"
     ],
-    "nearestStation": "Ochanomizu",
+    "nearestStation": "Ochanomizu Station",
     "walkMinutes": 1,
     "businessHours": "8:00-22:00",
     "priceBand": "¥¥¥",
@@ -4807,9 +4841,9 @@
     "address": "2-9 Kanda-Awajicho, Under the JR Kobaibashi elevated tracks No.4, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "ochanomizu"
+      "ochanomizu-station"
     ],
-    "nearestStation": "Ochanomizu",
+    "nearestStation": "Ochanomizu Station",
     "walkMinutes": 2,
     "businessHours": "7:30-19:00",
     "priceBand": "¥¥",
@@ -4833,9 +4867,9 @@
     "address": "3-3-12 Ginza, Ginza Building 4F, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "ginza-itchome"
+      "ginza-itchome-station"
     ],
-    "nearestStation": "Ginza-itchome",
+    "nearestStation": "Ginza-itchome Station",
     "walkMinutes": 2,
     "businessHours": "Tue-Sat 11:30-22:30, Sun/holidays 11:30-21:00",
     "priceBand": "¥¥",
@@ -4859,9 +4893,9 @@
     "address": "7-1 Nihonbashi-Kabutocho, KABUTO ONE 1F, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "kayabacho"
+      "kayabacho-station"
     ],
-    "nearestStation": "Kayabacho",
+    "nearestStation": "Kayabacho Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 8:00-22:00, Sat/Sun 10:00-17:00",
     "priceBand": "¥¥",
@@ -4885,9 +4919,9 @@
     "address": "2-5-5 Ginza, B1F, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "ginza-itchome"
+      "ginza-itchome-station"
     ],
-    "nearestStation": "Ginza-itchome",
+    "nearestStation": "Ginza-itchome Station",
     "walkMinutes": 1,
     "businessHours": "15:00-24:00",
     "priceBand": "¥¥",
@@ -4911,11 +4945,11 @@
     "address": "6-11-1 Roppongi, Roppongi Hills Keyakizaka-dori 2F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 3,
     "businessHours": "8:00-23:00",
     "priceBand": "¥¥¥",
@@ -4939,11 +4973,11 @@
     "address": "3-5-40 Kita-Aoyama, PRYME CUBE Omotesando 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "omotesando"
+      "omotesando-station"
     ],
     "lat": 35.6652,
     "lng": 139.7126,
-    "nearestStation": "Omotesando",
+    "nearestStation": "Omotesando Station",
     "walkMinutes": 2,
     "businessHours": "Mon, Wed-Sat 11:00-23:00, Sun/holidays 11:00-21:00 (closed Tue)",
     "priceBand": "¥¥",
@@ -4967,11 +5001,11 @@
     "address": "3-4-3 Kita-Aoyama, Nonoaoyama 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "omotesando"
+      "omotesando-station"
     ],
     "lat": 35.6652,
     "lng": 139.7126,
-    "nearestStation": "Omotesando",
+    "nearestStation": "Omotesando Station",
     "walkMinutes": 5,
     "businessHours": "9:00-19:00",
     "priceBand": "¥¥",
@@ -4995,11 +5029,11 @@
     "address": "5-1-1 Roppongi, Miami Building 7F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "11:00-22:00 (closed Mondays)",
     "priceBand": "¥¥",
@@ -5023,9 +5057,11 @@
     "address": "2-24-12 Shibuya, Shibuya Scramble Square 11F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "shibuya"
+      "shibuya-station"
     ],
-    "nearestStation": "Shibuya",
+    "lat": 35.658,
+    "lng": 139.7016,
+    "nearestStation": "Shibuya Station",
     "walkMinutes": 1,
     "businessHours": "10:00-23:00",
     "priceBand": "¥¥¥",
@@ -5049,9 +5085,9 @@
     "address": "17-5 Sarugakucho, Daikanyama T-SITE Building 3, 2F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "daikanyama"
+      "daikanyama-station"
     ],
-    "nearestStation": "Daikanyama",
+    "nearestStation": "Daikanyama Station",
     "walkMinutes": 5,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥¥",
@@ -5075,11 +5111,11 @@
     "address": "4-4-25 Shibuya, Ivy Hall 1F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "omotesando"
+      "omotesando-station"
     ],
     "lat": 35.6652,
     "lng": 139.7126,
-    "nearestStation": "Omotesando",
+    "nearestStation": "Omotesando Station",
     "walkMinutes": 4,
     "businessHours": "9:00-19:00 (L.O. 18:30)",
     "priceBand": "¥¥",
@@ -5103,9 +5139,9 @@
     "address": "6-12-20 Jingumae, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "meiji-jingumae"
+      "meiji-jingumae-station"
     ],
-    "nearestStation": "Meiji-Jingumae",
+    "nearestStation": "Meiji-Jingumae Station",
     "walkMinutes": 3,
     "businessHours": "11:00-22:00 (cafe L.O. 21:30)",
     "priceBand": "¥¥",
@@ -5129,9 +5165,9 @@
     "address": "3-10-3 Kamiochiai, Maruyama Building 1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "ochiai"
+      "ochiai-station"
     ],
-    "nearestStation": "Ochiai",
+    "nearestStation": "Ochiai Station",
     "walkMinutes": 3,
     "businessHours": "Tue-Sun 11:30-21:00 (closed Mondays)",
     "priceBand": "¥¥",
@@ -5155,9 +5191,9 @@
     "address": "1-5-34 Yushima, Ochanomizu Igaku Kaikan 1F, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "ochanomizu"
+      "ochanomizu-station"
     ],
-    "nearestStation": "Ochanomizu",
+    "nearestStation": "Ochanomizu Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Sat 10:00-18:00 (closed Sun/holidays)",
     "priceBand": "¥¥",
@@ -5181,9 +5217,9 @@
     "address": "3-28-13 Nishi-Ikebukuro, IT tower TOKYO 5F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "8:00-22:00",
     "priceBand": "¥¥¥",
@@ -5207,9 +5243,9 @@
     "address": "2-13-19 Sangenjaya, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 3,
     "businessHours": "7:30-22:00 (last order 21:00)",
     "priceBand": "¥¥",
@@ -5233,9 +5269,9 @@
     "address": "2-14-12 Sangenjaya, Setagaya-ku, Tokyo (Moto Building RF)",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Sat 12:00-01:30 (next day), Sun/holidays 12:00-24:00 (closed Wednesdays)",
     "priceBand": "¥¥",
@@ -5259,9 +5295,9 @@
     "address": "2-9-15 Sangenjaya, TCK Sangenjaya Building 3F, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 3,
     "businessHours": "Tue-Thu 11:30-24:00, Fri-Sat 12:00-24:00, Sun 12:00-19:00 (closed Mondays)",
     "priceBand": "¥¥",
@@ -5285,9 +5321,9 @@
     "address": "5-17-17 Taishido, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 9,
     "businessHours": "Tue-Fri 14:00-24:00, Sat/holidays 12:00-24:00, Sun 12:00-21:00 (closed Mondays and 4th Tuesday)",
     "priceBand": "¥¥",
@@ -5311,9 +5347,9 @@
     "address": "2-37-8 Koenji-kita, Suginami-ku, Tokyo (north exit)",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 3,
     "businessHours": "12:00-20:00 (closed Mondays)",
     "priceBand": "¥¥",
@@ -5337,9 +5373,9 @@
     "address": "4-44-5 Koenji-minami, Suginami-ku, Tokyo (south exit)",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 2,
     "businessHours": "10:00-20:00 (closed Tuesdays)",
     "priceBand": "¥¥",
@@ -5363,9 +5399,9 @@
     "address": "3-12-1 Amanuma, Suginami-ku, Tokyo (north exit)",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 5,
     "businessHours": "Weekdays 12:00-24:00, weekends/holidays 11:30-24:00 (closed 1st and 3rd Mondays and Tuesdays)",
     "priceBand": "¥¥",
@@ -5389,9 +5425,9 @@
     "address": "1-19-11 Kami-Ogikubo, Suginami-ku, Tokyo (north exit)",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 5,
     "businessHours": "Tue-Sun 9:00-18:00 (closed Mondays)",
     "priceBand": "¥¥",
@@ -5415,9 +5451,9 @@
     "address": "4-3-1 Nakano, Book First Nakano 2F, Nakano-ku, Tokyo (north exit)",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-21:00 (last order 20:30)",
     "priceBand": "¥¥",
@@ -5441,9 +5477,9 @@
     "address": "4-3-1 Nakano, Nakano Sunquore 1F, Nakano-ku, Tokyo (north exit)",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-19:30 (closed Saturdays)",
     "priceBand": "¥¥",
@@ -5467,9 +5503,9 @@
     "address": "5-52-15 Nakano, Nakano Broadway 2F, Nakano-ku, Tokyo (north exit)",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:30-18:30 (last order 18:00; closed Tuesdays and Wednesdays)",
     "priceBand": "¥",
@@ -5493,11 +5529,11 @@
     "address": "Jiyugaoka, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 5,
     "businessHours": "Hours vary; daytime to evening (long stays welcome)",
     "priceBand": "¥¥",
@@ -5521,9 +5557,9 @@
     "address": "1-4-14 Chuocho, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "gakugei-daigaku"
+      "gakugei-daigaku-station"
     ],
-    "nearestStation": "Gakugei-Daigaku",
+    "nearestStation": "Gakugei-Daigaku Station",
     "walkMinutes": 10,
     "businessHours": "9:00-20:00",
     "priceBand": "¥¥",
@@ -5547,9 +5583,9 @@
     "address": "3-18-3 Aobadai, THE WORKS 1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "ikejiri-ohashi"
+      "ikejiri-ohashi-station"
     ],
-    "nearestStation": "Ikejiri-Ohashi",
+    "nearestStation": "Ikejiri-Ohashi Station",
     "walkMinutes": 8,
     "businessHours": "8:00-23:00 (last order 22:30)",
     "priceBand": "¥¥",
@@ -5573,11 +5609,11 @@
     "address": "2-16-6 Aobadai, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 9,
     "businessHours": "9:00-17:00",
     "priceBand": "¥¥",
@@ -5601,9 +5637,9 @@
     "address": "Meguro-ku, Tokyo (near Toritsu-Daigaku Station)",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "toritsu-daigaku"
+      "toritsu-daigaku-station"
     ],
-    "nearestStation": "Toritsu-Daigaku",
+    "nearestStation": "Toritsu-Daigaku Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; daytime",
     "priceBand": "¥¥",
@@ -5627,9 +5663,9 @@
     "address": "1-9-1 Minami-Kamata, Honma Building 1F, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "keikyu-kamata"
+      "keikyu-kamata-station"
     ],
-    "nearestStation": "Keikyu Kamata",
+    "nearestStation": "Keikyu Kamata Station",
     "walkMinutes": 5,
     "businessHours": "11:30-21:30 (closed Wednesdays)",
     "priceBand": "¥¥",
@@ -5653,9 +5689,9 @@
     "address": "4-42-8 Kamata, Ota-ku, Tokyo (inside Olympic store)",
     "areaSlug": "ota",
     "stationSlugs": [
-      "keikyu-kamata"
+      "keikyu-kamata-station"
     ],
-    "nearestStation": "Keikyu Kamata",
+    "nearestStation": "Keikyu Kamata Station",
     "walkMinutes": 9,
     "businessHours": "10:00-18:30",
     "priceBand": "¥¥",
@@ -5679,9 +5715,9 @@
     "address": "5-14-5 Nishi-Kamata, Ota-ku, Tokyo (west exit)",
     "areaSlug": "ota",
     "stationSlugs": [
-      "kamata"
+      "kamata-station"
     ],
-    "nearestStation": "Kamata",
+    "nearestStation": "Kamata Station",
     "walkMinutes": 5,
     "businessHours": "Cafe 10:00-18:00, Bar 18:00-23:00",
     "priceBand": "¥¥",
@@ -5791,6 +5827,8 @@
     "stationSlugs": [
       "meguro-station"
     ],
+    "lat": 35.6339,
+    "lng": 139.716,
     "nearestStation": "Meguro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-23:00 daily",
@@ -5817,6 +5855,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
+    "lat": 35.6984,
+    "lng": 139.7731,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 4,
     "businessHours": "6:30-22:30 daily",
@@ -5973,6 +6013,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
+    "lat": 35.6984,
+    "lng": 139.7731,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 0,
     "businessHours": "6:30-3:00 daily",
@@ -6341,6 +6383,8 @@
     "stationSlugs": [
       "iidabashi-station"
     ],
+    "lat": 35.702,
+    "lng": 139.7449,
     "nearestStation": "Iidabashi Station",
     "walkMinutes": 0,
     "businessHours": "7:00-23:00 daily",
@@ -6577,6 +6621,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
+    "lat": 35.6628,
+    "lng": 139.7315,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 0,
     "businessHours": "6:30-21:30 daily",
@@ -6653,11 +6699,11 @@
     "address": "3-23-16 Nakameguro, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 7,
     "businessHours": "9:00-18:00",
     "priceBand": "¥¥",
@@ -6681,11 +6727,11 @@
     "address": "Kamimeguro, Meguro-ku, Tokyo (near Nakameguro Station)",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; roughly daytime (100-minute limit)",
     "priceBand": "¥¥",
@@ -6709,11 +6755,11 @@
     "address": "2-8-8 Meguro, LUMIEC MEGURO 1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "meguro"
+      "meguro-station"
     ],
     "lat": 35.6339,
     "lng": 139.716,
-    "nearestStation": "Meguro",
+    "nearestStation": "Meguro Station",
     "walkMinutes": 7,
     "businessHours": "7:00-18:00",
     "priceBand": "¥¥",
@@ -6737,11 +6783,11 @@
     "address": "Jiyugaoka, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; daytime (no time limit)",
     "priceBand": "¥¥",
@@ -6765,11 +6811,11 @@
     "address": "Jiyugaoka, Meguro-ku, Tokyo (at Trainichi)",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; daytime (no time limit)",
     "priceBand": "¥¥",
@@ -6793,9 +6839,9 @@
     "address": "Kitazawa, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "shimokitazawa"
+      "shimokitazawa-station"
     ],
-    "nearestStation": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 4,
     "businessHours": "From 8:00 (2-hour limit)",
     "priceBand": "¥¥",
@@ -6819,9 +6865,9 @@
     "address": "Kitazawa, Setagaya-ku, Tokyo (west exit)",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "shimokitazawa"
+      "shimokitazawa-station"
     ],
-    "nearestStation": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 2,
     "businessHours": "From 7:30 (no time limit)",
     "priceBand": "¥¥",
@@ -6845,9 +6891,9 @@
     "address": "Daita, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "setagaya-daita"
+      "setagaya-daita-station"
     ],
-    "nearestStation": "Setagaya-Daita",
+    "nearestStation": "Setagaya-Daita Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; daytime",
     "priceBand": "¥¥",
@@ -6871,9 +6917,9 @@
     "address": "Tamagawa, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "futako-tamagawa"
+      "futako-tamagawa-station"
     ],
-    "nearestStation": "Futako-Tamagawa",
+    "nearestStation": "Futako-Tamagawa Station",
     "walkMinutes": 12,
     "businessHours": "Hours vary; daytime",
     "priceBand": "¥¥",
@@ -6897,9 +6943,9 @@
     "address": "Koenji-kita, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 3,
     "businessHours": "11:30-19:00 (closed Tuesdays)",
     "priceBand": "¥¥",
@@ -6923,9 +6969,9 @@
     "address": "Koenji-minami, Suginami-ku, Tokyo (south exit)",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "11:30-24:00",
     "priceBand": "¥¥",
@@ -6949,9 +6995,9 @@
     "address": "Nakano, Nakano-ku, Tokyo (south exit)",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "11:30-19:00 (closed Wed/Thu)",
     "priceBand": "¥¥",
@@ -6975,9 +7021,9 @@
     "address": "3-34-19 Nakano, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 14:00-22:00, Sat-Sun 11:00-22:00",
     "priceBand": "¥¥",
@@ -7001,9 +7047,9 @@
     "address": "Kuramae, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "kuramae"
+      "kuramae-station"
     ],
-    "nearestStation": "Kuramae",
+    "nearestStation": "Kuramae Station",
     "walkMinutes": 3,
     "businessHours": "Morning to evening (hours vary)",
     "priceBand": "¥¥",
@@ -7027,9 +7073,9 @@
     "address": "Kuramae, Taito-ku, Tokyo (Oedo Line A3 exit)",
     "areaSlug": "taito",
     "stationSlugs": [
-      "kuramae"
+      "kuramae-station"
     ],
-    "nearestStation": "Kuramae",
+    "nearestStation": "Kuramae Station",
     "walkMinutes": 7,
     "businessHours": "Hours vary; daytime",
     "priceBand": "¥¥",
@@ -7053,9 +7099,9 @@
     "address": "Kotobuki, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "tawaramachi"
+      "tawaramachi-station"
     ],
-    "nearestStation": "Tawaramachi",
+    "nearestStation": "Tawaramachi Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; daytime",
     "priceBand": "¥¥",
@@ -7079,9 +7125,9 @@
     "address": "1-20-3 Nishinippori, Arakawa-ku, Tokyo",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nippori"
+      "nippori-station"
     ],
-    "nearestStation": "Nippori",
+    "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "Hours vary; daytime",
     "priceBand": "¥¥",
@@ -7105,9 +7151,9 @@
     "address": "5-52-2 Higashinippori, 2F, Arakawa-ku, Tokyo (south exit)",
     "areaSlug": "arakawa",
     "stationSlugs": [
-      "nippori"
+      "nippori-station"
     ],
-    "nearestStation": "Nippori",
+    "nearestStation": "Nippori Station",
     "walkMinutes": 2,
     "businessHours": "8:30-21:00",
     "priceBand": "¥¥",
@@ -7131,9 +7177,9 @@
     "address": "4-19-11 Senju, Surpass Building 1F, Adachi-ku, Tokyo (west exit)",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kita-senju"
+      "kita-senju-station"
     ],
-    "nearestStation": "Kita-senju",
+    "nearestStation": "Kita-senju Station",
     "walkMinutes": 3,
     "businessHours": "11:30-18:00 (closed Tuesdays)",
     "priceBand": "¥¥",
@@ -7157,9 +7203,9 @@
     "address": "2-3-2 Higashi-Gotanda, Shinagawa-ku, Tokyo (east exit)",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "gotanda"
+      "gotanda-station"
     ],
-    "nearestStation": "Gotanda",
+    "nearestStation": "Gotanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 8:00-20:00, Sat-Sun 8:30-20:00",
     "priceBand": "¥¥",
@@ -7183,9 +7229,9 @@
     "address": "3-8-3 Nishi-Gotanda, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "fudomae"
+      "fudomae-station"
     ],
-    "nearestStation": "Fudomae",
+    "nearestStation": "Fudomae Station",
     "walkMinutes": 0,
     "businessHours": "10:00-18:00 (cafe), bar in the evening",
     "priceBand": "¥¥",
@@ -7209,9 +7255,9 @@
     "address": "Minami-Aoyama, Minato-ku, Tokyo (Share Green Aoyama Minami)",
     "areaSlug": "minato",
     "stationSlugs": [
-      "nogizaka"
+      "nogizaka-station"
     ],
-    "nearestStation": "Nogizaka",
+    "nearestStation": "Nogizaka Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; daytime (no time limit)",
     "priceBand": "¥¥",
@@ -7235,9 +7281,9 @@
     "address": "Daikanyama, Shibuya-ku, Tokyo (Log Road)",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "daikanyama"
+      "daikanyama-station"
     ],
-    "nearestStation": "Daikanyama",
+    "nearestStation": "Daikanyama Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; daytime (no time limit)",
     "priceBand": "¥¥",
@@ -7261,9 +7307,9 @@
     "address": "Oshiage, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "oshiage"
+      "oshiage-station"
     ],
-    "nearestStation": "Oshiage",
+    "nearestStation": "Oshiage Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 10:00-17:00 and 20:00-23:00, Sat-Sun 10:00-18:00 and 20:00-23:00",
     "priceBand": "¥¥",
@@ -7287,9 +7333,9 @@
     "address": "Mukojima, Sumida-ku, Tokyo (Tokyo Mizumachi)",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "honjo-azumabashi"
+      "honjo-azumabashi-station"
     ],
-    "nearestStation": "Honjo-Azumabashi",
+    "nearestStation": "Honjo-Azumabashi Station",
     "walkMinutes": 5,
     "businessHours": "10:00-23:00 (cafe until 20:00)",
     "priceBand": "¥¥",
@@ -7313,9 +7359,9 @@
     "address": "Yokokawa, Sumida-ku, Tokyo (KAIKA Tokyo)",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "honjo-azumabashi"
+      "honjo-azumabashi-station"
     ],
-    "nearestStation": "Honjo-Azumabashi",
+    "nearestStation": "Honjo-Azumabashi Station",
     "walkMinutes": 8,
     "businessHours": "Mon-Fri 7:00-19:00, Sat-Sun 10:00-19:00",
     "priceBand": "¥¥",
@@ -7339,9 +7385,9 @@
     "address": "Higashi-Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "Hours vary; daytime",
     "priceBand": "¥¥",
@@ -7365,9 +7411,9 @@
     "address": "3-20-1 Maenocho, Food Square Kasumi B1F, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "shimura-sakaue"
+      "shimura-sakaue-station"
     ],
-    "nearestStation": "Shimura-sakaue",
+    "nearestStation": "Shimura-sakaue Station",
     "walkMinutes": 3,
     "businessHours": "9:00-20:00",
     "priceBand": "¥¥",
@@ -7391,9 +7437,9 @@
     "address": "1-23-1 Akatsuka-Shinmachi 201, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "tobu-shimoakatsuka"
+      "tobu-shimoakatsuka-station"
     ],
-    "nearestStation": "Tobu-Shimoakatsuka",
+    "nearestStation": "Tobu-Shimoakatsuka Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7416,9 +7462,9 @@
     "address": "2-13-1 Narimasu, EQUiA Narimasu 2F, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "narimasu"
+      "narimasu-station"
     ],
-    "nearestStation": "Narimasu",
+    "nearestStation": "Narimasu Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -7442,9 +7488,9 @@
     "address": "2-20-1 Narimasu, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "narimasu"
+      "narimasu-station"
     ],
-    "nearestStation": "Narimasu",
+    "nearestStation": "Narimasu Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7467,9 +7513,9 @@
     "address": "2-21-3 Narimasu, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "narimasu"
+      "narimasu-station"
     ],
-    "nearestStation": "Narimasu",
+    "nearestStation": "Narimasu Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -7492,9 +7538,9 @@
     "address": "2-18-7 Azusawa, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "shimura-sakaue"
+      "shimura-sakaue-station"
     ],
-    "nearestStation": "Shimura-sakaue",
+    "nearestStation": "Shimura-sakaue Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -7517,9 +7563,9 @@
     "address": "24-10 Oyama-Higashicho, House Itabashi Oyama 1F, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "oyama"
+      "oyama-station"
     ],
-    "nearestStation": "Oyama",
+    "nearestStation": "Oyama Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7542,9 +7588,9 @@
     "address": "3-25-1 Kameari, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "kameari"
+      "kameari-station"
     ],
-    "nearestStation": "Kameari",
+    "nearestStation": "Kameari Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7567,9 +7613,9 @@
     "address": "3-49-3 Kameari, Ario Kameari, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "kameari"
+      "kameari-station"
     ],
-    "nearestStation": "Kameari",
+    "nearestStation": "Kameari Station",
     "walkMinutes": 6,
     "businessHours": "09:30-22:30",
     "priceBand": "¥¥",
@@ -7593,9 +7639,9 @@
     "address": "1-44-5 Shin-Koiwa, Serio Bldg 1-3F, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "shin-koiwa"
+      "shin-koiwa-station"
     ],
-    "nearestStation": "Shin-Koiwa",
+    "nearestStation": "Shin-Koiwa Station",
     "walkMinutes": 2,
     "businessHours": "6:30-22:00",
     "priceBand": "¥",
@@ -7619,9 +7665,9 @@
     "address": "1-2-11 Nishi-Shin-Koiwa, Kikuya Bldg 2F, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "shin-koiwa"
+      "shin-koiwa-station"
     ],
-    "nearestStation": "Shin-Koiwa",
+    "nearestStation": "Shin-Koiwa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-20:00",
     "priceBand": "¥¥",
@@ -7645,9 +7691,9 @@
     "address": "1-49-2 Shin-Koiwa, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "shin-koiwa"
+      "shin-koiwa-station"
     ],
-    "nearestStation": "Shin-Koiwa",
+    "nearestStation": "Shin-Koiwa Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 7:30-21:00 / Sat-Sun 8:00-20:00",
     "priceBand": "¥",
@@ -7671,9 +7717,9 @@
     "address": "3-39-11 Aoto, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "aoto"
+      "aoto-station"
     ],
-    "nearestStation": "Aoto",
+    "nearestStation": "Aoto Station",
     "walkMinutes": 5,
     "businessHours": "Mon-Fri 7:00-21:00 / Sat-Sun/Hol 7:30-20:30",
     "priceBand": "¥",
@@ -7697,9 +7743,9 @@
     "address": "6-4-2 Kanamachi, Lavie Claire Kanamachi, Katsushika-ku, Tokyo",
     "areaSlug": "katsushika",
     "stationSlugs": [
-      "kanamachi"
+      "kanamachi-station"
     ],
-    "nearestStation": "Kanamachi",
+    "nearestStation": "Kanamachi Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Sat 7:00-22:00 / Sun/Hol 8:00-22:00",
     "priceBand": "¥¥",
@@ -7723,9 +7769,9 @@
     "address": "1-1-1 Akabane, Beans Akabane, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "akabane"
+      "akabane-station"
     ],
-    "nearestStation": "Akabane",
+    "nearestStation": "Akabane Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7748,9 +7794,9 @@
     "address": "1-1-1 Akabane, Beans Akabane, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "akabane"
+      "akabane-station"
     ],
-    "nearestStation": "Akabane",
+    "nearestStation": "Akabane Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -7773,9 +7819,9 @@
     "address": "3-12-1 Kamiya, AEON Style Akabane, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "akabane"
+      "akabane-station"
     ],
-    "nearestStation": "Akabane",
+    "nearestStation": "Akabane Station",
     "walkMinutes": 10,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7798,9 +7844,9 @@
     "address": "1-9-5 Oji, Kyotoku Bldg 1F, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "oji"
+      "oji-station"
     ],
-    "nearestStation": "Oji",
+    "nearestStation": "Oji Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 7:00-22:00; Weekends/Hol 8:00-22:00",
     "priceBand": "¥¥",
@@ -7824,9 +7870,9 @@
     "address": "1-17-2 Higashi-Tabata, atre vie Tabata 2F, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "tabata"
+      "tabata-station"
     ],
-    "nearestStation": "Tabata",
+    "nearestStation": "Tabata Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": false,
@@ -7849,9 +7895,9 @@
     "address": "3-15-10 Higashi-Jujo, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "higashi-jujo"
+      "higashi-jujo-station"
     ],
-    "nearestStation": "Higashi-Jujo",
+    "nearestStation": "Higashi-Jujo Station",
     "walkMinutes": 2,
     "businessHours": "Weekdays 7:00-23:00; Weekends/Hol 8:00-23:00",
     "priceBand": "¥",
@@ -7875,9 +7921,9 @@
     "address": "4-5-23 Higashi-Jujo, Kita-ku, Tokyo",
     "areaSlug": "kita",
     "stationSlugs": [
-      "higashi-jujo"
+      "higashi-jujo-station"
     ],
-    "nearestStation": "Higashi-Jujo",
+    "nearestStation": "Higashi-Jujo Station",
     "walkMinutes": 3,
     "businessHours": "Daily 7:00-20:00",
     "priceBand": "¥",
@@ -7901,9 +7947,11 @@
     "address": "3-1-16 Shinjuku, Keio Shinjuku Oiwake Dai-2 Building 2F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
-    "nearestStation": "Shinjuku-Sanchome",
+    "lat": 35.6906,
+    "lng": 139.7053,
+    "nearestStation": "Shinjuku-Sanchome Station",
     "walkMinutes": 0,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -7927,9 +7975,9 @@
     "address": "1-23-7 Nishi-Shinjuku, Shinjuku First West Building 1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "tochomae"
+      "tochomae-station"
     ],
-    "nearestStation": "Tochomae",
+    "nearestStation": "Tochomae Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7952,9 +8000,9 @@
     "address": "1-24-1 Nishi-Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -7977,9 +8025,9 @@
     "address": "3-28-9 Sugamo, Tokagen Building 2F, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "sugamo"
+      "sugamo-station"
     ],
-    "nearestStation": "Sugamo",
+    "nearestStation": "Sugamo Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8002,9 +8050,9 @@
     "address": "2-8-20 Kyobashi, Daiwa Roynet Hotel Tokyo Kyobashi 2F, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "ginza-itchome"
+      "ginza-itchome-station"
     ],
-    "nearestStation": "Ginza-Itchome",
+    "nearestStation": "Ginza-Itchome Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:30",
     "priceBand": "¥¥",
@@ -8028,9 +8076,9 @@
     "address": "2-43 Senju, Someno Building 2F, Adachi-ku, Tokyo",
     "areaSlug": "adachi",
     "stationSlugs": [
-      "kitasenju"
+      "kitasenju-station"
     ],
-    "nearestStation": "Kitasenju",
+    "nearestStation": "Kitasenju Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8053,9 +8101,9 @@
     "address": "2-6-12 Ueno, Ueno Toyo Building 2F, Taito-ku, Tokyo",
     "areaSlug": "taito",
     "stationSlugs": [
-      "ueno-hirokoji"
+      "ueno-hirokoji-station"
     ],
-    "nearestStation": "Ueno-Hirokoji",
+    "nearestStation": "Ueno-Hirokoji Station",
     "walkMinutes": 0,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8078,9 +8126,9 @@
     "address": "3-18-16 Toranomon, Toranomon Sugai Building 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "kamiyacho"
+      "kamiyacho-station"
     ],
-    "nearestStation": "Kamiyacho",
+    "nearestStation": "Kamiyacho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 9:00-18:00",
     "priceBand": "¥¥",
@@ -8104,9 +8152,9 @@
     "address": "2-8-1 Kyobashi, Yaesu Central Building 1F, Chuo-ku, Tokyo",
     "areaSlug": "chuo",
     "stationSlugs": [
-      "kyobashi"
+      "kyobashi-station"
     ],
-    "nearestStation": "Kyobashi",
+    "nearestStation": "Kyobashi Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 6:45-19:00, Sat/Sun/Hol 8:00-18:00",
     "priceBand": "¥¥",
@@ -8130,11 +8178,11 @@
     "address": "3-1-1 Kamimeguro, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 0,
     "businessHours": "7:00-20:00",
     "priceBand": "¥¥",
@@ -8158,11 +8206,11 @@
     "address": "3-5-14 Kita-Aoyama, Aoyama Suzuki Glass Building 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "omotesando"
+      "omotesando-station"
     ],
     "lat": 35.6652,
     "lng": 139.7126,
-    "nearestStation": "Omotesando",
+    "nearestStation": "Omotesando Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-21:00, Sat/Sun/Hol 8:00-21:00",
     "priceBand": "¥¥",
@@ -8186,9 +8234,9 @@
     "address": "3-22-19 Koenji-Kita, Riken Building 1F, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:00",
     "priceBand": "¥¥",
@@ -8212,9 +8260,9 @@
     "address": "1-36-11 Asagaya-Minami, Asagaya S Building 1F, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "asagaya"
+      "asagaya-station"
     ],
-    "nearestStation": "Asagaya",
+    "nearestStation": "Asagaya Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:00",
     "priceBand": "¥¥",
@@ -8238,9 +8286,9 @@
     "address": "3-23-2 Koyama, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "musashi-koyama"
+      "musashi-koyama-station"
     ],
-    "nearestStation": "Musashi-Koyama",
+    "nearestStation": "Musashi-Koyama Station",
     "walkMinutes": 0,
     "businessHours": "8:00-20:00",
     "priceBand": "¥¥",
@@ -8264,9 +8312,9 @@
     "address": "1-17-11 Otowa, Hanawa Building 1F, Bunkyo-ku, Tokyo",
     "areaSlug": "bunkyo",
     "stationSlugs": [
-      "gokokuji"
+      "gokokuji-station"
     ],
-    "nearestStation": "Gokokuji",
+    "nearestStation": "Gokokuji Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:00-20:00, Sat/Sun/Hol 8:00-20:00",
     "priceBand": "¥¥",
@@ -8290,9 +8338,9 @@
     "address": "5-5-1 Hiroo, Tanaka Building 1-2F, Shibuya-ku, Tokyo",
     "areaSlug": "shibuya",
     "stationSlugs": [
-      "hiroo"
+      "hiroo-station"
     ],
-    "nearestStation": "Hiroo",
+    "nearestStation": "Hiroo Station",
     "walkMinutes": 0,
     "businessHours": "7:00-20:00",
     "priceBand": "¥¥",
@@ -8316,9 +8364,9 @@
     "address": "4-1-17 Shakujii-machi, Emio Shakujii-koen 1F, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "shakujii-koen"
+      "shakujii-koen-station"
     ],
-    "nearestStation": "Shakujii-koen",
+    "nearestStation": "Shakujii-koen Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-22:00, Sat 8:00-22:00, Sun/Hol 8:00-21:00",
     "priceBand": "¥¥",
@@ -8342,9 +8390,9 @@
     "address": "2-3-3 Sanno, Noguchi Building 1F, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "omori"
+      "omori-station"
     ],
-    "nearestStation": "Omori",
+    "nearestStation": "Omori Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 8:00-20:00, Sat/Sun/Hol 8:00-19:00",
     "priceBand": "¥¥",
@@ -8368,9 +8416,9 @@
     "address": "4-6-5 Hatanodai, Silver Heights 1F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "hatagatadai"
+      "hatagatadai-station"
     ],
-    "nearestStation": "Hatagatadai",
+    "nearestStation": "Hatagatadai Station",
     "walkMinutes": 0,
     "businessHours": "9:00-19:00, closed Thursdays",
     "priceBand": "¥¥",
@@ -8394,9 +8442,9 @@
     "address": "1-48-17 Itabashi, Dai-2 Kyoritsu Corporation Building 1F, Itabashi-ku, Tokyo",
     "areaSlug": "itabashi",
     "stationSlugs": [
-      "shin-itabashi"
+      "shin-itabashi-station"
     ],
-    "nearestStation": "Shin-Itabashi",
+    "nearestStation": "Shin-Itabashi Station",
     "walkMinutes": 0,
     "businessHours": "7:00-21:30",
     "priceBand": "¥¥",
@@ -8420,9 +8468,9 @@
     "address": "6-46 Kagurazaka, Robel Kagurazaka Building 1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "ushigome-kagurazaka"
+      "ushigome-kagurazaka-station"
     ],
-    "nearestStation": "Ushigome-Kagurazaka",
+    "nearestStation": "Ushigome-Kagurazaka Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-22:00, Sat/Sun/Hol 8:00-22:00",
     "priceBand": "¥¥",
@@ -8446,9 +8494,9 @@
     "address": "3-34-2 Hamadayama, Plus One Building 1F, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "hamadayama"
+      "hamadayama-station"
     ],
-    "nearestStation": "Hamadayama",
+    "nearestStation": "Hamadayama Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 9:00-20:00, Sat/Sun/Hol 9:00-19:00",
     "priceBand": "¥¥",
@@ -8472,9 +8520,9 @@
     "address": "4-10-1 Yoga, Setagaya Business Square 1F, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "yoga"
+      "yoga-station"
     ],
-    "nearestStation": "Yoga",
+    "nearestStation": "Yoga Station",
     "walkMinutes": 0,
     "businessHours": "7:30-21:00",
     "priceBand": "¥¥",
@@ -8498,11 +8546,11 @@
     "address": "3-1 Kanda-Jimbocho, Nikken Building 1F, Chiyoda-ku, Tokyo",
     "areaSlug": "chiyoda",
     "stationSlugs": [
-      "jimbocho"
+      "jimbocho-station"
     ],
     "lat": 35.6959,
     "lng": 139.7576,
-    "nearestStation": "Jimbocho",
+    "nearestStation": "Jimbocho Station",
     "walkMinutes": 0,
     "businessHours": "Weekdays 7:30-22:00, Sat/Sun/Hol 8:00-20:00",
     "priceBand": "¥¥",
@@ -8526,9 +8574,9 @@
     "address": "6-8-23 Ojima, Suzuki Building 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "higashi-ojima"
+      "higashi-ojima-station"
     ],
-    "nearestStation": "Higashi-Ojima",
+    "nearestStation": "Higashi-Ojima Station",
     "walkMinutes": 0,
     "businessHours": "7:30-21:00",
     "priceBand": "¥¥",
@@ -8552,9 +8600,9 @@
     "address": "1-10-30 Kaigan, Atre Takeshiba Tower 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "takeshiba"
+      "takeshiba-station"
     ],
-    "nearestStation": "Takeshiba",
+    "nearestStation": "Takeshiba Station",
     "walkMinutes": 0,
     "businessHours": "10:00-22:00",
     "priceBand": "¥¥",
@@ -8578,9 +8626,9 @@
     "address": "3-2-20 Toyosu, Toyosu Front 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-20:00; Sat 9:00-19:00; Sun/Hol 9:00-18:00",
     "priceBand": "¥¥",
@@ -8604,9 +8652,9 @@
     "address": "3-2-20 Toyosu, Toyosu Front 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "7:00-20:00",
     "priceBand": "¥",
@@ -8630,9 +8678,9 @@
     "address": "2-4-9 Toyosu, Lalaport 2F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "10:00-21:00",
     "priceBand": "¥¥",
@@ -8656,9 +8704,9 @@
     "address": "3-3-3 Toyosu, Center Bldg B1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 1,
     "businessHours": "Cafe Mon-Fri 7:00-17:30; Bar to 22:00",
     "priceBand": "¥¥",
@@ -8682,9 +8730,9 @@
     "address": "3-2-24 Toyosu, Foresia 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 6,
     "businessHours": "Mon-Fri 7:00-21:00; Sat-Sun/Hol 8:00-20:00",
     "priceBand": "¥¥",
@@ -8708,9 +8756,9 @@
     "address": "2-2-1 Toyosu, Lalaport 3 B1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -8734,9 +8782,9 @@
     "address": "2-2-1 Toyosu, Lalaport 1, 2F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -8760,9 +8808,9 @@
     "address": "5-6-36 Toyosu, Prime Square 2F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 7:00-23:30; Sat-Sun/Hol 9:00-21:00",
     "priceBand": "¥¥",
@@ -8786,9 +8834,9 @@
     "address": "2-2-1 Toyosu, Lalaport 3, 4F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 3,
     "businessHours": "8:30-21:00",
     "priceBand": "¥¥",
@@ -8812,9 +8860,9 @@
     "address": "2-2-1 Toyosu, Lalaport 3, 2F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "toyosu"
+      "toyosu-station"
     ],
-    "nearestStation": "Toyosu",
+    "nearestStation": "Toyosu Station",
     "walkMinutes": 2,
     "businessHours": "10:00-21:00",
     "priceBand": "¥¥",
@@ -8838,9 +8886,9 @@
     "address": "5-1-1 Kameido, Atre Kameido 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "kameido"
+      "kameido-station"
     ],
-    "nearestStation": "Kameido",
+    "nearestStation": "Kameido Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8863,9 +8911,9 @@
     "address": "5-1-1 Kameido, Atre Kameido 2F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "kameido"
+      "kameido-station"
     ],
-    "nearestStation": "Kameido",
+    "nearestStation": "Kameido Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8888,9 +8936,9 @@
     "address": "5-2-1 Kameido, Kameido EX Bldg 1-3F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "kameido"
+      "kameido-station"
     ],
-    "nearestStation": "Kameido",
+    "nearestStation": "Kameido Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -8913,9 +8961,9 @@
     "address": "1-5-30 Kiba, Fukagawa Gathering, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "kiba"
+      "kiba-station"
     ],
-    "nearestStation": "Kiba",
+    "nearestStation": "Kiba Station",
     "walkMinutes": 3,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8938,9 +8986,9 @@
     "address": "2-3-21 Hirano, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "kiba"
+      "kiba-station"
     ],
-    "nearestStation": "Kiba",
+    "nearestStation": "Kiba Station",
     "walkMinutes": 8,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8963,9 +9011,9 @@
     "address": "2-9-1 Monzen-nakacho, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "monzen-nakacho"
+      "monzen-nakacho-station"
     ],
-    "nearestStation": "Monzen-nakacho",
+    "nearestStation": "Monzen-nakacho Station",
     "walkMinutes": 2,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -8988,9 +9036,9 @@
     "address": "6-8-23 Ojima, Suzuki Bldg 1F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "ojima"
+      "ojima-station"
     ],
-    "nearestStation": "Ojima",
+    "nearestStation": "Ojima Station",
     "walkMinutes": 2,
     "businessHours": "7:30-21:00",
     "priceBand": "¥¥",
@@ -9014,9 +9062,9 @@
     "address": "2-1-8 Ariake, Ariake Garden 4F, Koto-ku, Tokyo",
     "areaSlug": "koto",
     "stationSlugs": [
-      "kokusai-tenjijo"
+      "kokusai-tenjijo-station"
     ],
-    "nearestStation": "Kokusai-tenjijo",
+    "nearestStation": "Kokusai-tenjijo Station",
     "walkMinutes": 6,
     "businessHours": "10:00-21:00",
     "priceBand": "¥¥",
@@ -9094,6 +9142,8 @@
     "stationSlugs": [
       "akihabara-station"
     ],
+    "lat": 35.6984,
+    "lng": 139.7731,
     "nearestStation": "Akihabara Station",
     "walkMinutes": 0,
     "businessHours": "Hours vary; check official site",
@@ -9146,6 +9196,8 @@
     "stationSlugs": [
       "roppongi-station"
     ],
+    "lat": 35.6628,
+    "lng": 139.7315,
     "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "Hours vary; check official site",
@@ -9635,32 +9687,6 @@
     "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
   },
   {
-    "id": "w-0377",
-    "slug": "mcdonalds-ikebukuro-east-exit-2",
-    "name": "McDonald's Ikebukuro East Exit",
-    "nameJa": "マクドナルド池袋東口店",
-    "address": "1-27-8 Minami-Ikebukuro, Toshima-ku, Tokyo",
-    "areaSlug": "toshima",
-    "stationSlugs": [
-      "ikebukuro-station"
-    ],
-    "nearestStation": "Ikebukuro Station",
-    "walkMinutes": 3,
-    "businessHours": "Hours vary; check official site",
-    "priceBand": "¥",
-    "hasWifi": true,
-    "wifiType": "free",
-    "hasPower": true,
-    "powerDensity": "counter",
-    "laptopFriendly": true,
-    "open24h": false,
-    "openLate": false,
-    "description": "Near the east exit of Ikebukuro Station, this branch has free Wi-Fi and power outlets at some seats.",
-    "lastChecked": "2026-08-01",
-    "confidence": "high",
-    "sourceUrl": "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/"
-  },
-  {
     "id": "w-0378",
     "slug": "mcdonalds-sunshine-city-alta",
     "name": "McDonald's Sunshine City ALTA",
@@ -9876,11 +9902,11 @@
     "address": "1-18-6 Kamimeguro, NM Building 1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 2,
     "businessHours": "11:30-23:00 (later on weekends)",
     "priceBand": "¥¥",
@@ -9904,11 +9930,11 @@
     "address": "2-9-17 Kamimeguro, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 5,
     "businessHours": "11:00-18:00",
     "priceBand": "¥¥",
@@ -9932,11 +9958,11 @@
     "address": "1-3-12 Nakameguro, Urban Resort Daikanyama 1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 5,
     "businessHours": "10:00-20:00",
     "priceBand": "¥¥",
@@ -9960,11 +9986,11 @@
     "address": "2-1-1 Kamimeguro, Nakameguro Gate Town Tower B1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -9988,11 +10014,11 @@
     "address": "1-22-10 Kamimeguro, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -10016,11 +10042,11 @@
     "address": "3-2-2 Kamimeguro, Fuji Building 1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 2,
     "businessHours": "8:00-23:00",
     "priceBand": "¥",
@@ -10044,11 +10070,11 @@
     "address": "1-9-3 Nakameguro, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 6,
     "businessHours": "10:00-20:00",
     "priceBand": "¥¥",
@@ -10072,11 +10098,11 @@
     "address": "1-6-5 Kamimeguro, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "nakameguro"
+      "nakameguro-station"
     ],
     "lat": 35.644,
     "lng": 139.6987,
-    "nearestStation": "Nakameguro",
+    "nearestStation": "Nakameguro Station",
     "walkMinutes": 3,
     "businessHours": "8:00-23:00",
     "priceBand": "¥¥",
@@ -10100,11 +10126,11 @@
     "address": "2-10-4 Jiyugaoka, Milche Jiyugaoka 3F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 8:00-23:00, Sat 9:00-22:00, Sun 9:00-21:00",
     "priceBand": "¥¥",
@@ -10128,11 +10154,11 @@
     "address": "2-24-8 Midorigaoka, arbre Jiyugaoka 1F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 4,
     "businessHours": "9:00-17:00 (hours vary by source)",
     "priceBand": "¥¥",
@@ -10156,11 +10182,11 @@
     "address": "1-8-18 Jiyugaoka, Jiyugaoka Noble 2F, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -10184,11 +10210,11 @@
     "address": "1-8-23 Jiyugaoka, Meguro-ku, Tokyo",
     "areaSlug": "meguro",
     "stationSlugs": [
-      "jiyugaoka"
+      "jiyugaoka-station"
     ],
     "lat": 35.6076,
     "lng": 139.669,
-    "nearestStation": "Jiyugaoka",
+    "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 1,
     "businessHours": "7:30-21:00",
     "priceBand": "¥",
@@ -10212,11 +10238,11 @@
     "address": "6-1-20 Roppongi, Roppongi Denki Building 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "9:00-23:00",
     "priceBand": "¥¥",
@@ -10240,11 +10266,11 @@
     "address": "5-16-7 Roppongi, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 6,
     "businessHours": "7:00-21:00",
     "priceBand": "¥¥",
@@ -10268,11 +10294,11 @@
     "address": "4-8-5 Roppongi, Wako Building 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "8:00-23:00",
     "priceBand": "¥¥",
@@ -10296,11 +10322,11 @@
     "address": "6-1-24 Roppongi, Lapiros Roppongi 2F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 1,
     "businessHours": "8:00-22:00",
     "priceBand": "¥¥",
@@ -10324,11 +10350,11 @@
     "address": "6-10-1 Roppongi, Roppongi Hills Mori Tower 6F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 2,
     "businessHours": "7:00-21:00 (weekday)",
     "priceBand": "¥¥",
@@ -10352,11 +10378,11 @@
     "address": "6-10-1 Roppongi, Mori Tower 2F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "roppongi"
+      "roppongi-station"
     ],
     "lat": 35.6628,
     "lng": 139.7315,
-    "nearestStation": "Roppongi",
+    "nearestStation": "Roppongi Station",
     "walkMinutes": 5,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -10380,11 +10406,11 @@
     "address": "6-11-16 Roppongi, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "azabu-juban"
+      "azabu-juban-station"
     ],
     "lat": 35.6556,
     "lng": 139.7365,
-    "nearestStation": "Azabu-Juban",
+    "nearestStation": "Azabu-Juban Station",
     "walkMinutes": 5,
     "businessHours": "8:00-19:00 (varies)",
     "priceBand": "¥¥",
@@ -10408,11 +10434,11 @@
     "address": "1-11-14 Azabu-Juban, SBP Building, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "azabu-juban"
+      "azabu-juban-station"
     ],
     "lat": 35.6556,
     "lng": 139.7365,
-    "nearestStation": "Azabu-Juban",
+    "nearestStation": "Azabu-Juban Station",
     "walkMinutes": 2,
     "businessHours": "6:30-22:00 (varies by day)",
     "priceBand": "¥¥",
@@ -10436,11 +10462,11 @@
     "address": "2-1-8 Azabu-Juban, Grand Maison, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "azabu-juban"
+      "azabu-juban-station"
     ],
     "lat": 35.6556,
     "lng": 139.7365,
-    "nearestStation": "Azabu-Juban",
+    "nearestStation": "Azabu-Juban Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
     "priceBand": "¥",
@@ -10464,11 +10490,11 @@
     "address": "4-1-1 Shimbashi, Shintora-dori CORE 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "shimbashi"
+      "shimbashi-station"
     ],
     "lat": 35.6664,
     "lng": 139.7583,
-    "nearestStation": "Shimbashi",
+    "nearestStation": "Shimbashi Station",
     "walkMinutes": 6,
     "businessHours": "11:00-23:00",
     "priceBand": "¥¥",
@@ -10492,11 +10518,11 @@
     "address": "1-5-9 Nishi-Shimbashi, Le Glaciel BLDG.70 B1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "uchisaiwaicho"
+      "uchisaiwaicho-station"
     ],
     "lat": 35.669,
     "lng": 139.753,
-    "nearestStation": "Uchisaiwaicho",
+    "nearestStation": "Uchisaiwaicho Station",
     "walkMinutes": 1,
     "businessHours": "10:00-19:00 (weekdays)",
     "priceBand": "¥¥",
@@ -10520,11 +10546,11 @@
     "address": "2-5-1 Shimbashi, EXCEL Shimbashi 1F/2F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "shimbashi"
+      "shimbashi-station"
     ],
     "lat": 35.6664,
     "lng": 139.7583,
-    "nearestStation": "Shimbashi",
+    "nearestStation": "Shimbashi Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:00-21:00, Weekend/Hol 8:00-20:00",
     "priceBand": "¥",
@@ -10548,11 +10574,11 @@
     "address": "2-21-1 Shimbashi, Shimbashi Ekimae Building No.2 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "shimbashi"
+      "shimbashi-station"
     ],
     "lat": 35.6664,
     "lng": 139.7583,
-    "nearestStation": "Shimbashi",
+    "nearestStation": "Shimbashi Station",
     "walkMinutes": 1,
     "businessHours": "Weekday 7:00-23:00, Sun/Hol 8:00-21:00",
     "priceBand": "¥¥",
@@ -10576,11 +10602,11 @@
     "address": "3-1-11 Mita, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "tamachi"
+      "tamachi-station"
     ],
     "lat": 35.6457,
     "lng": 139.7476,
-    "nearestStation": "Tamachi",
+    "nearestStation": "Tamachi Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -10604,11 +10630,11 @@
     "address": "5-33-11 Shiba, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "tamachi"
+      "tamachi-station"
     ],
     "lat": 35.6457,
     "lng": 139.7476,
-    "nearestStation": "Tamachi",
+    "nearestStation": "Tamachi Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:00-22:00, Weekend/Hol 8:00-21:00",
     "priceBand": "¥¥",
@@ -10632,11 +10658,11 @@
     "address": "3-5-14 Kita-Aoyama, Aoyama Suzuki Glass Building 1F, Minato-ku, Tokyo",
     "areaSlug": "minato",
     "stationSlugs": [
-      "omotesando"
+      "omotesando-station"
     ],
     "lat": 35.6652,
     "lng": 139.7126,
-    "nearestStation": "Omotesando",
+    "nearestStation": "Omotesando Station",
     "walkMinutes": 2,
     "businessHours": "Weekday 7:30-21:00, Weekend 8:00-21:00",
     "priceBand": "¥¥",
@@ -10660,9 +10686,9 @@
     "address": "Book First Nakano 2F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-21:00",
     "priceBand": "¥¥",
@@ -10686,9 +10712,9 @@
     "address": "5-56-7 Nakano, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "6:45-22:00",
     "priceBand": "¥¥",
@@ -10712,9 +10738,9 @@
     "address": "Maple Hill Nakano 1F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "7:00-23:00",
     "priceBand": "¥",
@@ -10738,9 +10764,9 @@
     "address": "Nakano Sanpione Bldg 1F/2F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -10764,9 +10790,9 @@
     "address": "4-10-2 Nakano, Central Park South, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 10,
     "businessHours": "Weekdays 7:00-22:00, Weekends 8:00-21:00",
     "priceBand": "¥¥",
@@ -10790,9 +10816,9 @@
     "address": "Nakano Tatsumi Bldg 2F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00",
     "priceBand": "¥¥¥",
@@ -10816,9 +10842,9 @@
     "address": "New Clear Bldg B1F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 1,
     "businessHours": "7:30-23:00",
     "priceBand": "¥¥¥",
@@ -10842,9 +10868,9 @@
     "address": "Nakano Marui 2F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -10868,9 +10894,9 @@
     "address": "Nakano Marui 5F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 2,
     "businessHours": "10:30-21:00",
     "priceBand": "¥¥",
@@ -10894,9 +10920,9 @@
     "address": "Nakano Sun Quall Bldg 1F, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 5,
     "businessHours": "10:00-19:30",
     "priceBand": "¥¥",
@@ -10920,9 +10946,9 @@
     "address": "Nakano Broadway, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "nakano"
+      "nakano-station"
     ],
-    "nearestStation": "Nakano",
+    "nearestStation": "Nakano Station",
     "walkMinutes": 3,
     "businessHours": "7:30-22:00",
     "priceBand": "¥¥",
@@ -10946,9 +10972,9 @@
     "address": "JR Higashi-Nakano Station, Nakano-ku, Tokyo",
     "areaSlug": "nakano",
     "stationSlugs": [
-      "higashi-nakano"
+      "higashi-nakano-station"
     ],
-    "nearestStation": "Higashi-Nakano",
+    "nearestStation": "Higashi-Nakano Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -10971,9 +10997,9 @@
     "address": "1-30-4 Higashi-Oizumi, Sanko Sangyo Bldg 1F, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "oizumi-gakuen"
+      "oizumi-gakuen-station"
     ],
-    "nearestStation": "Oizumi-gakuen",
+    "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -10996,9 +11022,9 @@
     "address": "1-29-7 Higashi-Oizumi, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "oizumi-gakuen"
+      "oizumi-gakuen-station"
     ],
-    "nearestStation": "Oizumi-gakuen",
+    "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 1,
     "priceBand": "¥",
     "hasWifi": true,
@@ -11021,9 +11047,9 @@
     "address": "1-20-24 Higashi-Oizumi, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "oizumi-gakuen"
+      "oizumi-gakuen-station"
     ],
-    "nearestStation": "Oizumi-gakuen",
+    "nearestStation": "Oizumi-gakuen Station",
     "walkMinutes": 4,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -11046,9 +11072,9 @@
     "address": "2-14-31 Shakujii-machi, Viola 1F, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "shakujii-koen"
+      "shakujii-koen-station"
     ],
-    "nearestStation": "Shakujii-koen",
+    "nearestStation": "Shakujii-koen Station",
     "walkMinutes": 2,
     "priceBand": "¥",
     "hasWifi": true,
@@ -11071,9 +11097,9 @@
     "address": "2-10-1 Hikarigaoka, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "hikarigaoka"
+      "hikarigaoka-station"
     ],
-    "nearestStation": "Hikarigaoka",
+    "nearestStation": "Hikarigaoka Station",
     "walkMinutes": 3,
     "priceBand": "¥",
     "hasWifi": true,
@@ -11096,9 +11122,9 @@
     "address": "5-1-1 Hikarigaoka, Hikarigaoka IMA, Nerima-ku, Tokyo",
     "areaSlug": "nerima",
     "stationSlugs": [
-      "hikarigaoka"
+      "hikarigaoka-station"
     ],
-    "nearestStation": "Hikarigaoka",
+    "nearestStation": "Hikarigaoka Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -11121,9 +11147,9 @@
     "address": "4-42-8 Kamata, Olympic Kamata 1F, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "keikyu-kamata"
+      "keikyu-kamata-station"
     ],
-    "nearestStation": "Keikyu Kamata",
+    "nearestStation": "Keikyu Kamata Station",
     "walkMinutes": 9,
     "businessHours": "10:00-18:30",
     "priceBand": "¥",
@@ -11147,9 +11173,9 @@
     "address": "2-13-1 Omori-Kita, Ito-Yokado 1F, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "omori"
+      "omori-station"
     ],
-    "nearestStation": "Omori",
+    "nearestStation": "Omori Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -11173,9 +11199,9 @@
     "address": "1-6-16 Omori-Kita, Atre Omori 2F, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "omori"
+      "omori-station"
     ],
-    "nearestStation": "Omori",
+    "nearestStation": "Omori Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -11199,9 +11225,9 @@
     "address": "Den-en-chofu Tokyu Square Garden Site, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "den-en-chofu"
+      "den-en-chofu-station"
     ],
-    "nearestStation": "Den-en-chofu",
+    "nearestStation": "Den-en-chofu Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -11224,9 +11250,9 @@
     "address": "2-6-5 Haneda Airport, Terminal 3, 2F Arrivals, Ota-ku, Tokyo",
     "areaSlug": "ota",
     "stationSlugs": [
-      "haneda-airport-terminal-3"
+      "haneda-airport-terminal-3-station"
     ],
-    "nearestStation": "Haneda Airport Terminal 3",
+    "nearestStation": "Haneda Airport Terminal 3 Station",
     "walkMinutes": 1,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -11250,9 +11276,9 @@
     "address": "1-38-8 Sangenjaya 2F, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -11276,9 +11302,9 @@
     "address": "1-37-13 Sangenjaya, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00 (Mon-Sat)",
     "priceBand": "¥¥",
@@ -11302,9 +11328,9 @@
     "address": "2-13-19 Sangenjaya, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 3,
     "businessHours": "7:30-22:00",
     "priceBand": "¥¥",
@@ -11328,9 +11354,9 @@
     "address": "4-20-25 Taishido, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:30 (Mon-Fri)",
     "priceBand": "¥¥",
@@ -11354,9 +11380,9 @@
     "address": "4-20-4 Taishido, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "sangenjaya"
+      "sangenjaya-station"
     ],
-    "nearestStation": "Sangenjaya",
+    "nearestStation": "Sangenjaya Station",
     "walkMinutes": 1,
     "businessHours": "8:00-21:00 (Mon-Fri)",
     "priceBand": "¥¥",
@@ -11380,9 +11406,9 @@
     "address": "2-25-16 Kitazawa Hamagin Bldg 2F, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "shimokitazawa"
+      "shimokitazawa-station"
     ],
-    "nearestStation": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -11406,9 +11432,9 @@
     "address": "2-25-19 Kitazawa Piazza Omiya Bldg B1, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "shimokitazawa"
+      "shimokitazawa-station"
     ],
-    "nearestStation": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:30",
     "priceBand": "¥¥",
@@ -11432,9 +11458,9 @@
     "address": "Kitazawa Shimokita Ekiue, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "shimokitazawa"
+      "shimokitazawa-station"
     ],
-    "nearestStation": "Shimokitazawa",
+    "nearestStation": "Shimokitazawa Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -11458,9 +11484,9 @@
     "address": "3-19-20 Kitazawa reload D 2-7, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "higashi-kitazawa"
+      "higashi-kitazawa-station"
     ],
-    "nearestStation": "Higashi-Kitazawa",
+    "nearestStation": "Higashi-Kitazawa Station",
     "walkMinutes": 5,
     "businessHours": "11:30-18:30",
     "priceBand": "¥",
@@ -11484,9 +11510,9 @@
     "address": "1-14-1 Tamagawa Futako-Tamagawa Rise Terrace Market, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "futako-tamagawa"
+      "futako-tamagawa-station"
     ],
-    "nearestStation": "Futako-Tamagawa",
+    "nearestStation": "Futako-Tamagawa Station",
     "walkMinutes": 4,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -11510,9 +11536,9 @@
     "address": "2-22-13 Tamagawa, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "futako-tamagawa"
+      "futako-tamagawa-station"
     ],
-    "nearestStation": "Futako-Tamagawa",
+    "nearestStation": "Futako-Tamagawa Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-23:00; Weekends 7:30-23:00",
     "priceBand": "¥¥",
@@ -11536,9 +11562,9 @@
     "address": "2-1-3 Kyodo, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "kyodo"
+      "kyodo-station"
     ],
-    "nearestStation": "Kyodo",
+    "nearestStation": "Kyodo Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -11562,9 +11588,9 @@
     "address": "3-16-1 Miyasaka, Setagaya-ku, Tokyo",
     "areaSlug": "setagaya",
     "stationSlugs": [
-      "kyodo"
+      "kyodo-station"
     ],
-    "nearestStation": "Kyodo",
+    "nearestStation": "Kyodo Station",
     "walkMinutes": 6,
     "businessHours": "11:00-21:00",
     "priceBand": "¥¥",
@@ -12034,9 +12060,9 @@
     "address": "1-11-1 Osaki, Gate City Osaki, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "osaki"
+      "osaki-station"
     ],
-    "nearestStation": "Osaki",
+    "nearestStation": "Osaki Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:00-22:00, Sat-Sun 7:30-21:30",
     "priceBand": "¥¥",
@@ -12060,9 +12086,9 @@
     "address": "1-6-5 Osaki, Osaki New City 2F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "osaki"
+      "osaki-station"
     ],
-    "nearestStation": "Osaki",
+    "nearestStation": "Osaki Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:00, Sat-Sun 8:00-20:00",
     "priceBand": "¥",
@@ -12086,9 +12112,9 @@
     "address": "2-1-1 Osaki, Think Park Tower 2F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "osaki"
+      "osaki-station"
     ],
-    "nearestStation": "Osaki",
+    "nearestStation": "Osaki Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:00-22:00, Sat-Sun 8:00-20:00",
     "priceBand": "¥",
@@ -12112,9 +12138,9 @@
     "address": "2-7-11 Osaki, Ozawa Bldg 1F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "osaki"
+      "osaki-station"
     ],
-    "nearestStation": "Osaki",
+    "nearestStation": "Osaki Station",
     "walkMinutes": 5,
     "businessHours": "10:00-20:00 daily",
     "priceBand": "¥¥",
@@ -12138,9 +12164,9 @@
     "address": "2-20-4 Nishi-Gotanda, Park24 HQ 2F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "gotanda"
+      "gotanda-station"
     ],
-    "nearestStation": "Gotanda",
+    "nearestStation": "Gotanda Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 8:00-19:00, Sat-Sun/Hol 11:00-18:00",
     "priceBand": "¥",
@@ -12164,9 +12190,9 @@
     "address": "1-18-1 Nishi-Gotanda, Gotanda ex 1F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "gotanda"
+      "gotanda-station"
     ],
-    "nearestStation": "Gotanda",
+    "nearestStation": "Gotanda Station",
     "walkMinutes": 3,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -12190,9 +12216,9 @@
     "address": "1-13-10 Higashi-Gotanda, Sakura Bldg 1-2F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "gotanda"
+      "gotanda-station"
     ],
-    "nearestStation": "Gotanda",
+    "nearestStation": "Gotanda Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:30-22:00, Sat 7:00-22:00, Sun/Hol 7:00-21:00",
     "priceBand": "¥",
@@ -12216,9 +12242,9 @@
     "address": "1-22-16 Oi, Park Cube Oimachi Residence 1F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "oimachi"
+      "oimachi-station"
     ],
-    "nearestStation": "Oimachi",
+    "nearestStation": "Oimachi Station",
     "walkMinutes": 4,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -12242,9 +12268,9 @@
     "address": "1-50-5 Oi, Shin-Hankyu Oimachi Bldg 2F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "oimachi"
+      "oimachi-station"
     ],
-    "nearestStation": "Oimachi",
+    "nearestStation": "Oimachi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -12268,9 +12294,9 @@
     "address": "1-50-5 Oi, Hankyu Oimachi Garden 1F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "oimachi"
+      "oimachi-station"
     ],
-    "nearestStation": "Oimachi",
+    "nearestStation": "Oimachi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:00",
     "priceBand": "¥",
@@ -12294,9 +12320,9 @@
     "address": "1-8-3 Oi, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "oimachi"
+      "oimachi-station"
     ],
-    "nearestStation": "Oimachi",
+    "nearestStation": "Oimachi Station",
     "walkMinutes": 2,
     "businessHours": "Mon/Tue/Thu 8:00-18:00, Wed/Fri 8:00-20:00, Sat-Sun 10:00-18:00",
     "priceBand": "¥¥",
@@ -12320,9 +12346,9 @@
     "address": "3-8-7 Ebara 2F, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "musashi-koyama"
+      "musashi-koyama-station"
     ],
-    "nearestStation": "Musashi-Koyama",
+    "nearestStation": "Musashi-Koyama Station",
     "walkMinutes": 5,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -12346,11 +12372,11 @@
     "address": "2-1-6 Higashi-Shinagawa, Shinagawa-ku, Tokyo",
     "areaSlug": "shinagawa",
     "stationSlugs": [
-      "tennozu-isle"
+      "tennozu-isle-station"
     ],
     "lat": 35.6222,
     "lng": 139.7503,
-    "nearestStation": "Tennozu Isle",
+    "nearestStation": "Tennozu Isle Station",
     "walkMinutes": 4,
     "businessHours": "08:00-21:00",
     "priceBand": "¥¥",
@@ -12374,11 +12400,11 @@
     "address": "3-1-26 Shinjuku, Shinjuku Marui Annex B1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 1,
     "businessHours": "11:30-23:30 (Sun/Hol to 23:00)",
     "priceBand": "¥¥",
@@ -12402,11 +12428,11 @@
     "address": "1-14-5 Shinjuku, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-gyoenmae"
+      "shinjuku-gyoenmae-station"
     ],
     "lat": 35.6879,
     "lng": 139.7101,
-    "nearestStation": "Shinjuku-gyoenmae",
+    "nearestStation": "Shinjuku-gyoenmae Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:00-21:00, Sat 8:00-21:00, Sun/Hol 8:00-20:00",
     "priceBand": "¥¥",
@@ -12458,11 +12484,11 @@
     "address": "8-5-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "nishi-shinjuku"
+      "nishi-shinjuku-station"
     ],
     "lat": 35.6939,
     "lng": 139.6929,
-    "nearestStation": "Nishi-Shinjuku",
+    "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:00-21:15, Sat 7:30-20:15, Sun/Hol 8:30-20:15",
     "priceBand": "¥",
@@ -12514,11 +12540,11 @@
     "address": "1-26-2 Nishi-Shinjuku, Nomura Bldg B1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "nishi-shinjuku"
+      "nishi-shinjuku-station"
     ],
     "lat": 35.6939,
     "lng": 139.6929,
-    "nearestStation": "Nishi-Shinjuku",
+    "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 6,
     "businessHours": "Mon-Fri 7:00-21:00, Sat 8:00-20:00, Sun/Hol 9:00-20:00",
     "priceBand": "¥¥",
@@ -12570,11 +12596,11 @@
     "address": "7-10-5 Nishi-Shinjuku, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "nishi-shinjuku"
+      "nishi-shinjuku-station"
     ],
     "lat": 35.6939,
     "lng": 139.6929,
-    "nearestStation": "Nishi-Shinjuku",
+    "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 1,
     "businessHours": "9:00-22:00 daily",
     "priceBand": "¥",
@@ -12626,11 +12652,11 @@
     "address": "Shinjuku 3-chome, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00 daily",
     "priceBand": "¥¥",
@@ -12654,11 +12680,11 @@
     "address": "1-26-2 Nishi-Shinjuku, Nomura Bldg B1F, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "nishi-shinjuku"
+      "nishi-shinjuku-station"
     ],
     "lat": 35.6939,
     "lng": 139.6929,
-    "nearestStation": "Nishi-Shinjuku",
+    "nearestStation": "Nishi-Shinjuku Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Fri 7:30-20:30, Sat 9:00-20:00, Sun/Hol 9:00-19:00",
     "priceBand": "¥¥¥",
@@ -12682,11 +12708,11 @@
     "address": "5-17-6 Shinjuku, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "shinjuku-sanchome"
+      "shinjuku-sanchome-station"
     ],
     "lat": 35.6906,
     "lng": 139.7053,
-    "nearestStation": "Shinjuku-sanchome",
+    "nearestStation": "Shinjuku-sanchome Station",
     "walkMinutes": 2,
     "businessHours": "Sun-Thu 11:00-20:00, Fri-Sat 11:00-21:00",
     "priceBand": "¥¥",
@@ -12710,11 +12736,11 @@
     "address": "2-12 Kagurazaka, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "iidabashi"
+      "iidabashi-station"
     ],
     "lat": 35.702,
     "lng": 139.7449,
-    "nearestStation": "Iidabashi",
+    "nearestStation": "Iidabashi Station",
     "walkMinutes": 3,
     "businessHours": "Mon-Fri 9:00-23:00, Sat/Sun 10:00-23:00",
     "priceBand": "¥",
@@ -12738,11 +12764,11 @@
     "address": "1-9-2 Kagurazaka, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "iidabashi"
+      "iidabashi-station"
     ],
     "lat": 35.702,
     "lng": 139.7449,
-    "nearestStation": "Iidabashi",
+    "nearestStation": "Iidabashi Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
     "priceBand": "¥¥",
@@ -12766,11 +12792,11 @@
     "address": "3-2 Kagurazaka, Shinjuku-ku, Tokyo",
     "areaSlug": "shinjuku",
     "stationSlugs": [
-      "iidabashi"
+      "iidabashi-station"
     ],
     "lat": 35.702,
     "lng": 139.7449,
-    "nearestStation": "Iidabashi",
+    "nearestStation": "Iidabashi Station",
     "walkMinutes": 4,
     "businessHours": "Mon-Fri 7:30-22:00, Sat/Sun 8:00-21:00",
     "priceBand": "¥¥",
@@ -13131,32 +13157,6 @@
     "sourceUrl": "https://r.gnavi.co.jp/m97mbcgz0000/"
   },
   {
-    "id": "w-0522",
-    "slug": "starbucks-nakano-central-park-2",
-    "name": "Starbucks Nakano Central Park",
-    "nameJa": "スターバックス コーヒー 中野セントラルパーク店",
-    "address": "4-10-2 Nakano, Nakano Central Park South, Nakano-ku, Tokyo 164-0001",
-    "areaSlug": "nakano",
-    "stationSlugs": [
-      "nakano-station"
-    ],
-    "nearestStation": "Nakano Station",
-    "walkMinutes": 6,
-    "businessHours": "Weekdays 7:00-22:00, weekends and holidays 8:00-21:00",
-    "priceBand": "¥¥",
-    "hasWifi": true,
-    "wifiType": "free",
-    "hasPower": false,
-    "powerDensity": "none",
-    "laptopFriendly": true,
-    "open24h": false,
-    "openLate": false,
-    "description": "A roomy Starbucks in the Nakano Central Park complex with free Wi-Fi; power outlets are not confirmed here, so bring a charged laptop.",
-    "lastChecked": "2026-08-01",
-    "confidence": "medium",
-    "sourceUrl": "https://r.gnavi.co.jp/n6a0b06w0000/"
-  },
-  {
     "id": "w-0523",
     "slug": "starbucks-tokyo-dome-city-laqua",
     "name": "Starbucks Tokyo Dome City LaQua",
@@ -13322,6 +13322,8 @@
     "stationSlugs": [
       "jiyugaoka-station"
     ],
+    "lat": 35.6076,
+    "lng": 139.669,
     "nearestStation": "Jiyugaoka Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30 daily",
@@ -13337,32 +13339,6 @@
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://r.gnavi.co.jp/s7jw6n6d0000/"
-  },
-  {
-    "id": "w-0530",
-    "slug": "starbucks-ario-kameari-2",
-    "name": "Starbucks Ario Kameari",
-    "nameJa": "スターバックス コーヒー アリオ亀有店",
-    "address": "3-49-3 Kameari, Ario Kameari, Katsushika-ku, Tokyo 125-0061",
-    "areaSlug": "katsushika",
-    "stationSlugs": [
-      "kameari-station"
-    ],
-    "nearestStation": "Kameari Station",
-    "walkMinutes": 6,
-    "businessHours": "9:30-23:00 daily",
-    "priceBand": "¥¥",
-    "hasWifi": true,
-    "wifiType": "free",
-    "hasPower": false,
-    "powerDensity": "none",
-    "laptopFriendly": true,
-    "open24h": false,
-    "openLate": true,
-    "description": "A Starbucks in the Ario Kameari mall with free Wi-Fi; power outlets are not confirmed here, so bring a charged laptop.",
-    "lastChecked": "2026-08-01",
-    "confidence": "medium",
-    "sourceUrl": "https://r.gnavi.co.jp/1c5paaje0000/"
   },
   {
     "id": "w-0531",
@@ -13476,9 +13452,9 @@
     "address": "B1F Gloria Bldg, 5-30-12 Ogikubo, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 13:00-24:00; Sat/Sun/Hol 10:00-24:00",
     "priceBand": "¥¥",
@@ -13502,9 +13478,9 @@
     "address": "2F, 5-30-6 Ogikubo, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 2,
     "businessHours": "7:00-23:00",
     "priceBand": "¥¥",
@@ -13528,9 +13504,9 @@
     "address": "1-7-1 Kamiogi, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "6:45-22:00",
     "priceBand": "¥",
@@ -13554,9 +13530,9 @@
     "address": "1F Lumine Ogikubo, 1-7-1 Kamiogi, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
     "priceBand": "¥¥",
@@ -13580,9 +13556,9 @@
     "address": "5-28-16 Ogikubo, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "ogikubo"
+      "ogikubo-station"
     ],
-    "nearestStation": "Ogikubo",
+    "nearestStation": "Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "7:30-21:30",
     "priceBand": "¥¥",
@@ -13606,9 +13582,9 @@
     "address": "2F Fukumaru Bldg, 4-26-12 Koenji-Minami, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "8:00-21:00",
     "priceBand": "¥",
@@ -13632,9 +13608,9 @@
     "address": "2F Ichiei Bldg, 2-4-4 Koenji-Kita, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-22:00; Sat/Sun 8:00-22:00",
     "priceBand": "¥¥",
@@ -13658,9 +13634,9 @@
     "address": "Fujiya Bldg, 3-58-22 Koenji-Minami, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Thu 7:30-22:00; Fri/Sat 7:30-23:00; Sun/Hol 9:00-22:00",
     "priceBand": "¥¥",
@@ -13684,9 +13660,9 @@
     "address": "Takazan Bldg 112A, 4-24-11 Koenji-Minami, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "koenji"
+      "koenji-station"
     ],
-    "nearestStation": "Koenji",
+    "nearestStation": "Koenji Station",
     "walkMinutes": 3,
     "businessHours": "8:00-24:00",
     "priceBand": "¥¥",
@@ -13710,9 +13686,9 @@
     "address": "3-58-1 Asagaya-Minami, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "asagaya"
+      "asagaya-station"
     ],
-    "nearestStation": "Asagaya",
+    "nearestStation": "Asagaya Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:30",
     "priceBand": "¥¥",
@@ -13736,9 +13712,9 @@
     "address": "3-36-1 Asagaya-Minami, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "asagaya"
+      "asagaya-station"
     ],
-    "nearestStation": "Asagaya",
+    "nearestStation": "Asagaya Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 7:30-23:00; Sat/Sun/Hol 8:00-22:00",
     "priceBand": "¥¥",
@@ -13762,9 +13738,9 @@
     "address": "3F, 1-3-3 Asagaya-Kita, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "asagaya"
+      "asagaya-station"
     ],
-    "nearestStation": "Asagaya",
+    "nearestStation": "Asagaya Station",
     "walkMinutes": 1,
     "businessHours": "8:00-19:00",
     "priceBand": "¥¥",
@@ -13788,9 +13764,9 @@
     "address": "3-28-21 Asagaya-Kita, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "asagaya"
+      "asagaya-station"
     ],
-    "nearestStation": "Asagaya",
+    "nearestStation": "Asagaya Station",
     "walkMinutes": 10,
     "businessHours": "11:00-21:00 (Sun 10:00-21:00); closed Tue",
     "priceBand": "¥¥",
@@ -13814,9 +13790,9 @@
     "address": "3F, 3-14-7 Nishi-Ogi-Minami, Suginami-ku, Tokyo",
     "areaSlug": "suginami",
     "stationSlugs": [
-      "nishi-ogikubo"
+      "nishi-ogikubo-station"
     ],
-    "nearestStation": "Nishi-Ogikubo",
+    "nearestStation": "Nishi-Ogikubo Station",
     "walkMinutes": 1,
     "businessHours": "8:00-23:00",
     "priceBand": "¥¥",
@@ -13840,9 +13816,9 @@
     "address": "1-2 Kinshi, Termina 2, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:30-23:00, Weekends 7:00-23:00",
     "priceBand": "¥¥",
@@ -13866,9 +13842,9 @@
     "address": "3-9-10 Kotobashi, Kinshicho Marui 2F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 4,
     "businessHours": "8:30-21:00 daily",
     "priceBand": "¥¥",
@@ -13892,9 +13868,9 @@
     "address": "3-14-5 Kotobashi, Termina 4F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "10:00-21:00",
     "priceBand": "¥¥",
@@ -13918,9 +13894,9 @@
     "address": "5-12-14 Kotobashi, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 12,
     "businessHours": "10:00-20:00 (closed Thu)",
     "priceBand": "¥¥",
@@ -13944,9 +13920,9 @@
     "address": "3-4-2 Kotobashi, Moxy Tokyo Kinshicho 1F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 5,
     "businessHours": "24 hours",
     "priceBand": "¥¥",
@@ -13970,9 +13946,9 @@
     "address": "3-14-10 Kotobashi B1F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "kinshicho"
+      "kinshicho-station"
     ],
-    "nearestStation": "Kinshicho",
+    "nearestStation": "Kinshicho Station",
     "walkMinutes": 1,
     "businessHours": "9:00-20:30 (closed Mon)",
     "priceBand": "¥¥",
@@ -13996,9 +13972,9 @@
     "address": "1-1-2 Oshiage, Tokyo Skytree East Tower 12F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "oshiage"
+      "oshiage-station"
     ],
-    "nearestStation": "Oshiage",
+    "nearestStation": "Oshiage Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 7:00-20:00 (closed weekends)",
     "priceBand": "¥",
@@ -14022,9 +13998,9 @@
     "address": "1-1-2 Oshiage, Tokyo Skytree Town Solamachi 6F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "oshiage"
+      "oshiage-station"
     ],
-    "nearestStation": "Oshiage",
+    "nearestStation": "Oshiage Station",
     "walkMinutes": 5,
     "businessHours": "10:00-23:00 (LO 22:30)",
     "priceBand": "¥¥",
@@ -14048,9 +14024,9 @@
     "address": "1-45-1 Oshiage, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "oshiage"
+      "oshiage-station"
     ],
-    "nearestStation": "Oshiage",
+    "nearestStation": "Oshiage Station",
     "walkMinutes": 5,
     "businessHours": "Wed-Fri 11:00-19:00, Sat/Sun/Hol 11:00-18:00 (closed Mon-Tue)",
     "priceBand": "¥¥",
@@ -14074,9 +14050,9 @@
     "address": "3-26-11 Ryogoku, Towa Bldg 3F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "ryogoku"
+      "ryogoku-station"
     ],
-    "nearestStation": "Ryogoku",
+    "nearestStation": "Ryogoku Station",
     "walkMinutes": 1,
     "businessHours": "Weekdays 6:00-23:00, Sat 6:00-21:00, Sun/Hol 6:00-20:00",
     "priceBand": "¥¥",
@@ -14100,9 +14076,9 @@
     "address": "2-19-1 Ryogoku, Ryogoku View Hotel 1F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "ryogoku"
+      "ryogoku-station"
     ],
-    "nearestStation": "Ryogoku",
+    "nearestStation": "Ryogoku Station",
     "walkMinutes": 2,
     "businessHours": "7:00-22:30",
     "priceBand": "¥",
@@ -14126,9 +14102,9 @@
     "address": "3-25-5 Ryogoku, JEI Ryogoku Bldg 1F, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "ryogoku"
+      "ryogoku-station"
     ],
-    "nearestStation": "Ryogoku",
+    "nearestStation": "Ryogoku Station",
     "walkMinutes": 1,
     "businessHours": "7:00-22:00",
     "priceBand": "¥",
@@ -14152,9 +14128,9 @@
     "address": "1-9-2 Yokoami, AHBASE, Sumida-ku, Tokyo",
     "areaSlug": "sumida",
     "stationSlugs": [
-      "ryogoku"
+      "ryogoku-station"
     ],
-    "nearestStation": "Ryogoku",
+    "nearestStation": "Ryogoku Station",
     "walkMinutes": 6,
     "businessHours": "Weekdays 11:00-18:00 (break 14:00-15:00), Weekends 10:00-18:00",
     "priceBand": "¥¥",
@@ -14455,31 +14431,6 @@
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
   },
   {
-    "id": "w-0577",
-    "slug": "february-cafe-2",
-    "name": "February Cafe",
-    "nameJa": "フェブラリーカフェ",
-    "address": "Kotobuki, Taito-ku, Tokyo",
-    "areaSlug": "taito",
-    "stationSlugs": [
-      "tawaramachi-station"
-    ],
-    "nearestStation": "Tawaramachi Station",
-    "walkMinutes": 2,
-    "priceBand": "¥¥",
-    "hasWifi": true,
-    "wifiType": "free",
-    "hasPower": true,
-    "powerDensity": "counter",
-    "laptopFriendly": true,
-    "open24h": false,
-    "openLate": false,
-    "description": "A small cafe on the Asakusa-Kuramae border near Tawaramachi with free Wi-Fi and a limited set of outlets around the counter entrance area.",
-    "lastChecked": "2026-08-01",
-    "confidence": "high",
-    "sourceUrl": "https://growing.jp/?p=893"
-  },
-  {
     "id": "w-0578",
     "slug": "cafe-veloce-asakusabashi",
     "name": "Cafe Veloce Asakusabashi",
@@ -14537,9 +14488,9 @@
     "address": "1-23-4 Higashi-Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 5,
     "businessHours": "9:00-18:00 (closed Tue)",
     "priceBand": "¥¥",
@@ -14563,9 +14514,9 @@
     "address": "1-6-4 Higashi-Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 3,
     "businessHours": "10:00-19:00",
     "priceBand": "¥¥",
@@ -14589,9 +14540,9 @@
     "address": "Sunshine 60 Bldg 1F, 3-1 Higashi-Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "higashi-ikebukuro"
+      "higashi-ikebukuro-station"
     ],
-    "nearestStation": "Higashi-Ikebukuro",
+    "nearestStation": "Higashi-Ikebukuro Station",
     "walkMinutes": 7,
     "businessHours": "Mon-Fri 7:30-21:00, Sat-Sun 8:30-20:00",
     "priceBand": "¥",
@@ -14615,9 +14566,9 @@
     "address": "2-39-10 Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 7,
     "businessHours": "7:00-21:00",
     "priceBand": "¥¥",
@@ -14641,9 +14592,9 @@
     "address": "Esola Ikebukuro 4F, Nishi-Ikebukuro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "ikebukuro"
+      "ikebukuro-station"
     ],
-    "nearestStation": "Ikebukuro",
+    "nearestStation": "Ikebukuro Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": true,
@@ -14666,9 +14617,9 @@
     "address": "Miyata Bldg 2F, 1-15-1 Sugamo, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "sugamo"
+      "sugamo-station"
     ],
-    "nearestStation": "Sugamo",
+    "nearestStation": "Sugamo Station",
     "walkMinutes": 1,
     "businessHours": "7:30-22:00",
     "priceBand": "¥¥",
@@ -14692,9 +14643,9 @@
     "address": "1-16-1 Sugamo, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "sugamo"
+      "sugamo-station"
     ],
-    "nearestStation": "Sugamo",
+    "nearestStation": "Sugamo Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:45-21:00, Sat-Sun 7:00-21:00",
     "priceBand": "¥",
@@ -14718,9 +14669,9 @@
     "address": "1-12-3 Sugamo, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "sugamo"
+      "sugamo-station"
     ],
-    "nearestStation": "Sugamo",
+    "nearestStation": "Sugamo Station",
     "walkMinutes": 1,
     "businessHours": "7:00-23:30",
     "priceBand": "¥¥",
@@ -14744,9 +14695,9 @@
     "address": "Imai Mitsubishi Bldg 1F, 3-53-11 Minami-Otsuka, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "otsuka"
+      "otsuka-station"
     ],
-    "nearestStation": "Otsuka",
+    "nearestStation": "Otsuka Station",
     "walkMinutes": 2,
     "businessHours": "Mon-Fri 7:30-21:00, Sat 8:00-21:00, Sun 8:00-20:00",
     "priceBand": "¥¥",
@@ -14770,9 +14721,9 @@
     "address": "Otsuka Green Bldg 6F, 2-46-3 Minami-Otsuka, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "otsuka"
+      "otsuka-station"
     ],
-    "nearestStation": "Otsuka",
+    "nearestStation": "Otsuka Station",
     "walkMinutes": 1,
     "businessHours": "6:00-24:00",
     "priceBand": "¥",
@@ -14796,9 +14747,9 @@
     "address": "Glowal Bldg, 3-14-3 Mejiro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "mejiro"
+      "mejiro-station"
     ],
-    "nearestStation": "Mejiro",
+    "nearestStation": "Mejiro Station",
     "walkMinutes": 1,
     "businessHours": "Mon-Fri 6:45-21:00, Sat-Sun 7:00-21:00",
     "priceBand": "¥",
@@ -14822,9 +14773,9 @@
     "address": "Mejiro, Toshima-ku, Tokyo",
     "areaSlug": "toshima",
     "stationSlugs": [
-      "mejiro"
+      "mejiro-station"
     ],
-    "nearestStation": "Mejiro",
+    "nearestStation": "Mejiro Station",
     "walkMinutes": 1,
     "priceBand": "¥¥",
     "hasWifi": false,

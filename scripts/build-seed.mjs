@@ -19,6 +19,14 @@ function isOpen24h(r) {
   return /24\s*h(ou)?rs?|24\s*時間|24\/7/i.test(String((r && r.businessHours) || ""));
 }
 
+// Canonical station name: always ends in " Station" so that raw values like
+// "Shibuya" and "Shibuya Station" collapse to one station (and read distinctly
+// from the ward/area of the same name, e.g. the "Shibuya" area).
+function canonStation(name) {
+  const n = String(name || "").trim().replace(/\s+station$/i, "");
+  return n ? `${n} Station` : "";
+}
+
 // Open late: closes at/after ~23:00, or overnight (past midnight / "翌"), or 24h.
 function isLateNight(bh) {
   if (!bh) return false;
@@ -59,6 +67,13 @@ const STATIONS = {
   "Jimbocho":             { slug: "jimbocho",             lat: 35.6959, lng: 139.7576, area: "chiyoda",  lines: ["Toei Mita", "Toei Shinjuku", "Hanzomon"] },
   "Tennozu Isle":         { slug: "tennozu-isle",         lat: 35.6222, lng: 139.7503, area: "shinagawa", lines: ["Tokyo Monorail", "Rinkai"] },
 };
+
+// Look up station metadata by canonical name, so both "Shibuya" and
+// "Shibuya Station" in the raw data resolve to the same station entry.
+const STATIONS_BY_CANON = {};
+for (const [k, v] of Object.entries(STATIONS)) {
+  STATIONS_BY_CANON[canonStation(k).toLowerCase()] = v;
+}
 
 const AREAS = {
   shibuya: {
@@ -173,8 +188,11 @@ async function main() {
   const venues = [];
 
   raw.forEach((r, i) => {
+    // Canonical station name ("X Station") merges "Shibuya" / "Shibuya Station".
+    const stationName = canonStation(r.nearestStation);
+
     // De-duplicate: same cafe name at the same station = same place, keep first.
-    const dupKey = `${slugify(r.name)}|${slugify(r.nearestStation || "")}`;
+    const dupKey = `${slugify(r.name)}|${slugify(stationName)}`;
     if (seenKeys.has(dupKey)) return;
     seenKeys.add(dupKey);
 
@@ -182,12 +200,12 @@ async function main() {
     while (usedSlugs.has(slug)) slug = `${slug}-2`;
     usedSlugs.add(slug);
 
-    const st = STATIONS[r.nearestStation];
-    const stationSlug = st ? st.slug : slugify(r.nearestStation);
-    if (!usedStations.has(stationSlug)) {
+    const st = STATIONS_BY_CANON[stationName.toLowerCase()];
+    const stationSlug = slugify(stationName);
+    if (stationSlug && !usedStations.has(stationSlug)) {
       usedStations.set(stationSlug, {
         slug: stationSlug,
-        name: r.nearestStation,
+        name: stationName,
         lineNames: st ? st.lines : [],
         areaSlug: st ? st.area : r.areaSlug,
         ...(st ? { lat: st.lat, lng: st.lng } : {}),
@@ -201,9 +219,9 @@ async function main() {
       nameJa: r.nameJa || undefined,
       address: r.address || "",
       areaSlug: r.areaSlug,
-      stationSlugs: [stationSlug],
+      stationSlugs: stationSlug ? [stationSlug] : [],
       ...(st ? { lat: st.lat, lng: st.lng } : {}),
-      nearestStation: r.nearestStation,
+      nearestStation: stationName || r.nearestStation,
       walkMinutes: typeof r.walkMinutes === "number" ? r.walkMinutes : 0,
       businessHours: r.businessHours || undefined,
       chainName: r.chainName || undefined,

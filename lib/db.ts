@@ -55,16 +55,43 @@ export function getVenue(slug: string): Venue | undefined {
   return venues.find((v) => v.slug === slug);
 }
 
+// "Best for working" score: both Wi-Fi + outlets rank highest, then outlets,
+// then Wi-Fi; laptop-friendly, more outlets and higher-confidence data add to it.
+function workScore(v: Venue): number {
+  let s = 0;
+  if (v.hasWifi && v.hasPower) s += 100;
+  else if (v.hasPower) s += 60;
+  else if (v.hasWifi) s += 40;
+  if (v.laptopFriendly) s += 20;
+  s += v.powerDensity === "many" ? 10 : v.powerDensity === "some" ? 6 : v.powerDensity === "counter" ? 3 : 0;
+  s += v.confidence === "high" ? 5 : v.confidence === "medium" ? 2 : 0;
+  return s;
+}
+
 export function getVenuesByArea(areaSlug: string): Venue[] {
-  return venues.filter((v) => v.areaSlug === areaSlug);
+  // Ward pages have no single "here", so order by how good each cafe is for
+  // working, with walk-time as a tiebreak.
+  return venues
+    .filter((v) => v.areaSlug === areaSlug)
+    .sort(
+      (a, b) =>
+        workScore(b) - workScore(a) ||
+        (a.walkMinutes ?? 99) - (b.walkMinutes ?? 99) ||
+        a.name.localeCompare(b.name)
+    );
 }
 
 export function getVenuesByStation(stationSlug: string): Venue[] {
-  // Sort by walking minutes to the station (cafe coords are station-level in the
-  // web dataset; a geocoding pass would enable true distance sort via PostGIS).
+  // Station pages: nearest first (cafe coords are station-level in the web
+  // dataset, so walk-minutes is the real proximity signal), then best-for-work.
   return venues
     .filter((v) => v.stationSlugs.includes(stationSlug))
-    .sort((a, b) => (a.walkMinutes ?? 99) - (b.walkMinutes ?? 99));
+    .sort(
+      (a, b) =>
+        (a.walkMinutes ?? 99) - (b.walkMinutes ?? 99) ||
+        workScore(b) - workScore(a) ||
+        a.name.localeCompare(b.name)
+    );
 }
 
 /**
