@@ -120,13 +120,13 @@ img, iframe { max-width: 100%; }
 .site-header .brand {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 9px;
   font-weight: 800;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   letter-spacing: -0.02em;
   color: var(--fg);
 }
-.site-header .brand-mark { color: var(--accent); flex: none; }
+.site-header .brand-mark { color: var(--accent); flex: none; width: 32px; height: 32px; }
 .site-header .brand-accent { color: var(--accent); }
 .site-header .brand:hover { text-decoration: none; }
 .site-header .brand:hover .brand-accent { color: var(--accent-strong); }

@@ -16,7 +16,7 @@ export function PowerBadge({ v }: { v: Venue }) {
 export function FreshnessBadge({ date, confidence }: { date: string; confidence: Venue["confidence"] }) {
   // Consistent wording for every listing; the dot's tooltip still notes confidence.
   return (
-    <span className={`freshness c-${confidence}`} title={`Source confidence: ${confidence}`}>
+    <span className="freshness" title={`Source confidence: ${confidence}`}>
       ✓ Checked · {date}
     </span>
   );

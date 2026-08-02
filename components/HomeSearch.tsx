@@ -31,7 +31,7 @@ export default function HomeSearch({ destinations }: { destinations: Destination
           </button>
         ))}
       </div>
-      <p className="need-hint">2. Then search a station or area below to see matching cafes ↓</p>
+      <p className="need-hint">2. Then search a station or area below to see matching cafes.</p>
       <SearchBar destinations={destinations} need={need} />
     </div>
   );
