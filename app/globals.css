@@ -38,6 +38,18 @@
 
   --font: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
+
+  /* Hero skyline scene */
+  --hs-window: #fbf3e4;
+  --hs-frame: #c96a3c;
+  --hs-dot: #e0a17f;
+  --hs-sky: #d87c4a;
+  --hs-petal: #eba6b6;
+  --hs-blossom: #f2b6c4;
+  --hs-blossom-c: #e58aa0;
+  --hs-branch: #b06a44;
+  --hs-addr: #efd9c4;
+  --hs-squiggle: #e7bfa4;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -66,6 +78,17 @@
     --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
     --shadow: 0 2px 6px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .35);
     --shadow-lg: 0 8px 20px rgba(0, 0, 0, .5), 0 22px 56px rgba(0, 0, 0, .45);
+
+    --hs-window: #2c231d;
+    --hs-frame: #c8794e;
+    --hs-dot: #7a5c48;
+    --hs-sky: #e0895a;
+    --hs-petal: #cf8b9b;
+    --hs-blossom: #c98a9c;
+    --hs-blossom-c: #b06f84;
+    --hs-branch: #c58a63;
+    --hs-addr: #3a2f27;
+    --hs-squiggle: #4a3a30;
   }
 }
 
@@ -95,6 +118,17 @@
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
   --shadow: 0 2px 6px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .35);
   --shadow-lg: 0 8px 20px rgba(0, 0, 0, .5), 0 22px 56px rgba(0, 0, 0, .45);
+
+  --hs-window: #2c231d;
+  --hs-frame: #c8794e;
+  --hs-dot: #7a5c48;
+  --hs-sky: #e0895a;
+  --hs-petal: #cf8b9b;
+  --hs-blossom: #c98a9c;
+  --hs-blossom-c: #b06f84;
+  --hs-branch: #c58a63;
+  --hs-addr: #3a2f27;
+  --hs-squiggle: #4a3a30;
 }
 
 .theme-toggle {
@@ -247,7 +281,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   position: relative;
   overflow: hidden;
   margin: 8px 0 28px;
-  padding: 40px 32px 56px;
+  padding: 36px 32px 38px;
   border-radius: calc(var(--radius) + 6px);
   border: 1px solid var(--line);
   background:
@@ -255,12 +289,33 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
     radial-gradient(120% 120% at 0% 100%, color-mix(in srgb, var(--yes-bg) 60%, transparent) 0%, transparent 55%),
     var(--surface);
   box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 34px;
 }
-.hero > h1, .hero > .lede, .hero > .home-search, .hero > .hero-actions { position: relative; z-index: 1; }
-.sakura { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
-.sakura .sk-petals { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .5; }
-.sakura .sk-branch { position: absolute; top: -6px; right: 0; width: 170px; height: 120px; opacity: .95; }
-.sakura .sk-fuji { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: 46px; opacity: .3; }
+.hero-copy { flex: 1 1 440px; min-width: 0; }
+.hero-art { flex: 1 1 380px; min-width: 0; max-width: 540px; margin-left: auto; }
+.hero-art-inner { display: block; width: 100%; }
+.hero-scene { display: block; width: 100%; height: auto; }
+@media (max-width: 780px) {
+  .hero { flex-direction: column; align-items: stretch; gap: 20px; padding: 28px 22px 30px; }
+  .hero-art { order: 2; max-width: 100%; margin: 0 auto; width: 100%; }
+  .hero-copy { flex: 1 1 auto; }
+}
+
+/* Hero scene (Tokyo skyline in a browser window) — themed via variables so it
+   matches both light and dark mode. */
+.hs-window { fill: var(--hs-window); }
+.hs-frame { stroke: var(--hs-frame); stroke-width: 2.2; }
+.hs-dot { fill: var(--hs-dot); }
+.hs-dot2 { fill: var(--hs-frame); }
+.hs-sky path, .hs-sky rect, .hs-sky ellipse { fill: var(--hs-sky); }
+.hs-petal { fill: var(--hs-petal); opacity: .9; }
+.hs-blossom { fill: var(--hs-blossom); }
+.hs-blossom-c { fill: var(--hs-blossom-c); }
+.hs-branch { stroke: var(--hs-branch); stroke-width: 2.4; stroke-linecap: round; fill: none; }
+.hs-addr { fill: var(--hs-addr); }
+.hs-squiggle { stroke: var(--hs-squiggle); stroke-width: 11; opacity: .5; fill: none; }
 .ig-link { align-self: center; font-size: .84rem; font-weight: 700; color: #cf3f92; }
 .ig-link:hover { text-decoration: underline; }
 @media (prefers-color-scheme: dark) { .ig-link { color: #e879bd; } }

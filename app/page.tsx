@@ -1,7 +1,7 @@
 import Link from "next/link";
 import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
-import SakuraDecor from "@/components/SakuraDecor";
+import HeroScene from "@/components/HeroScene";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
@@ -14,17 +14,21 @@ export default function HomePage() {
   return (
     <div>
       <section className="hero">
-        <SakuraDecor full />
-        <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
-        <p className="lede">
-          Every cafe checked and dated, across all 23 wards. Search a station, or find what&apos;s
-          nearest right now.
-        </p>
+        <div className="hero-copy">
+          <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
+          <p className="lede">
+            Every cafe checked and dated, across all 23 wards. Search a station, or find what&apos;s
+            nearest right now.
+          </p>
 
-        <HomeSearch destinations={destinations} />
-        <div className="hero-actions">
-          <NearMeButton charge label="🔋 Phone dying? Nearest outlet →" />
-          <NearMeButton />
+          <HomeSearch destinations={destinations} />
+          <div className="hero-actions">
+            <NearMeButton charge label="🔋 Phone dying? Nearest outlet →" />
+            <NearMeButton />
+          </div>
+        </div>
+        <div className="hero-art" aria-hidden="true">
+          <HeroScene />
         </div>
       </section>
 
