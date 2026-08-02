@@ -1,10 +1,175 @@
 [
-  {"name":"Doutor Coffee Oizumi-gakuen North Exit","nameJa":"ドトールコーヒーショップ 大泉学園北口店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Oizumi-gakuen","walkMinutes":1,"address":"1-30-4 Higashi-Oizumi, Sanko Sangyo Bldg 1F, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A ground-floor Doutor branch seconds from the north exit that two listings agree offers outlet-equipped seating and free Wi-Fi for casual work.","confidence":"high","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/","https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"]},
-  {"name":"Doutor Coffee Seibu Oizumi-gakuen","nameJa":"ドトールコーヒーショップ 西武大泉学園駅店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Oizumi-gakuen","walkMinutes":1,"address":"1-29-7 Higashi-Oizumi, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A second Doutor essentially at the station side of Oizumi-gakuen that both a charging directory and Tabelog describe as having power outlets and free Wi-Fi.","confidence":"high","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/","https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"]},
-  {"name":"Komeda's Coffee Oizumi-gakuen","nameJa":"コメダ珈琲店 大泉学園店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Oizumi-gakuen","walkMinutes":4,"address":"1-20-24 Higashi-Oizumi, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥¥","description":"A roomy Komeda's Coffee where select seats have outlets and the chain-wide Komeda Free Wi-Fi is available, making it a comfortable spot for longer sit-down work.","confidence":"high","sources":["https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/","https://www.komeda.co.jp/shop/detail.html?id=782"]},
-  {"name":"Ueshima Coffee Emio Shakujii-koen","nameJa":"上島珈琲店 エミオ石神井公園店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Shakujii-koen","walkMinutes":1,"address":"4-1-17 Shakujii-machi, Emio Shakujii-koen 1F, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"Weekdays 7:30-21:00 / Weekends 8:00-21:00","priceBand":"¥¥","description":"A one-minute-from-the-west-exit Ueshima Coffee inside the Emio complex that Tabelog reports has ample outlets and Wi-Fi, opening early on weekdays for morning work.","confidence":"high","sources":["https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/","https://dengen-cafe.com/cafes/13926"]},
-  {"name":"Tully's Coffee Shakujii-koen","nameJa":"タリーズコーヒー 石神井公園店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Shakujii-koen","walkMinutes":2,"address":"2-14-31 Shakujii-machi, Viola 1F, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A Tully's about a two-minute walk from the station that a charging directory and Tabelog agree provides free Tully's Wi-Fi plus multiple outlet-equipped seats.","confidence":"high","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92/","https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"]},
-  {"name":"Doutor Coffee Hikarigaoka","nameJa":"ドトールコーヒーショップ 光が丘店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Hikarigaoka","walkMinutes":3,"address":"2-10-1 Hikarigaoka, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A Doutor branch in the Hikarigaoka area flagged as having power outlets and in-store Wi-Fi, called out as the most work-capable option near the station.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"]},
-  {"name":"Starbucks Coffee Hikarigaoka IMA","nameJa":"スターバックスコーヒー 光が丘IMA店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Hikarigaoka","walkMinutes":1,"address":"5-1-1 Hikarigaoka, Hikarigaoka IMA, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":false,"powerDensity":"none","laptopFriendly":true,"businessHours":"","priceBand":"¥¥","description":"A Starbucks inside the Hikarigaoka IMA mall right by the station with free Wi-Fi, though no source confirms usable power outlets at this branch.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"]},
-  {"name":"Doutor Coffee Nerima West Exit","nameJa":"ドトールコーヒーショップ 練馬西口店","areaSlug":"nerima","ward":"Nerima","nearestStation":"Nerima","walkMinutes":2,"address":"1-5-6 Nerima, Crystal Bldg 1F, Nerima-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A Doutor near Nerima station's west exit listed with power outlets and free carrier Wi-Fi, though confirmation comes from a single directory.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E7%B7%B4%E9%A6%AC/"]}
+  {
+    "name": "Doutor Coffee Oizumi-gakuen North Exit",
+    "nameJa": "ドトールコーヒーショップ 大泉学園北口店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Oizumi-gakuen",
+    "walkMinutes": 1,
+    "address": "1-30-4 Higashi-Oizumi, Sanko Sangyo Bldg 1F, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A ground-floor Doutor branch seconds from the north exit that two listings agree offers outlet-equipped seating and free Wi-Fi for casual work.",
+    "confidence": "high",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/",
+      "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
+    ]
+  },
+  {
+    "name": "Doutor Coffee Seibu Oizumi-gakuen",
+    "nameJa": "ドトールコーヒーショップ 西武大泉学園駅店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Oizumi-gakuen",
+    "walkMinutes": 1,
+    "address": "1-29-7 Higashi-Oizumi, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A second Doutor essentially at the station side of Oizumi-gakuen that both a charging directory and Tabelog describe as having power outlets and free Wi-Fi.",
+    "confidence": "high",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/",
+      "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
+    ]
+  },
+  {
+    "name": "Komeda's Coffee Oizumi-gakuen",
+    "nameJa": "コメダ珈琲店 大泉学園店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Oizumi-gakuen",
+    "walkMinutes": 4,
+    "address": "1-20-24 Higashi-Oizumi, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥¥",
+    "description": "A roomy Komeda's Coffee where select seats have outlets and the chain-wide Komeda Free Wi-Fi is available, making it a comfortable spot for longer sit-down work.",
+    "confidence": "high",
+    "sources": [
+      "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/",
+      "https://www.komeda.co.jp/shop/detail.html?id=782"
+    ]
+  },
+  {
+    "name": "Ueshima Coffee Emio Shakujii-koen",
+    "nameJa": "上島珈琲店 エミオ石神井公園店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Shakujii-koen",
+    "walkMinutes": 1,
+    "address": "4-1-17 Shakujii-machi, Emio Shakujii-koen 1F, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 7:30-21:00 / Weekends 8:00-21:00",
+    "priceBand": "¥¥",
+    "description": "A one-minute-from-the-west-exit Ueshima Coffee inside the Emio complex that Tabelog reports has ample outlets and Wi-Fi, opening early on weekdays for morning work.",
+    "confidence": "high",
+    "sources": [
+      "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/",
+      "https://dengen-cafe.com/cafes/13926"
+    ]
+  },
+  {
+    "name": "Tully's Coffee Shakujii-koen",
+    "nameJa": "タリーズコーヒー 石神井公園店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Shakujii-koen",
+    "walkMinutes": 2,
+    "address": "2-14-31 Shakujii-machi, Viola 1F, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A Tully's about a two-minute walk from the station that a charging directory and Tabelog agree provides free Tully's Wi-Fi plus multiple outlet-equipped seats.",
+    "confidence": "high",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92/",
+      "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
+    ]
+  },
+  {
+    "name": "Doutor Coffee Hikarigaoka",
+    "nameJa": "ドトールコーヒーショップ 光が丘店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Hikarigaoka",
+    "walkMinutes": 3,
+    "address": "2-10-1 Hikarigaoka, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A Doutor branch in the Hikarigaoka area flagged as having power outlets and in-store Wi-Fi, called out as the most work-capable option near the station.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"
+    ]
+  },
+  {
+    "name": "Starbucks Coffee Hikarigaoka IMA",
+    "nameJa": "スターバックスコーヒー 光が丘IMA店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Hikarigaoka",
+    "walkMinutes": 1,
+    "address": "5-1-1 Hikarigaoka, Hikarigaoka IMA, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥¥",
+    "description": "A Starbucks inside the Hikarigaoka IMA mall right by the station with free Wi-Fi, though no source confirms usable power outlets at this branch.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"
+    ]
+  },
+  {
+    "name": "Doutor Coffee Nerima West Exit",
+    "nameJa": "ドトールコーヒーショップ 練馬西口店",
+    "areaSlug": "nerima",
+    "ward": "Nerima",
+    "nearestStation": "Nerima",
+    "walkMinutes": 2,
+    "address": "1-5-6 Nerima, Crystal Bldg 1F, Nerima-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A Doutor near Nerima station's west exit listed with power outlets and free carrier Wi-Fi, though confirmation comes from a single directory.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E7%B7%B4%E9%A6%AC/"
+    ]
+  }
 ]

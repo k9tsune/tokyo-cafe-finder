@@ -1,12 +1,214 @@
 [
-  {"name":"Doutor Coffee Hongo-Sanchome Higashi","nameJa":"ドトールコーヒーショップ 本郷三丁目東店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Hongo-sanchome","walkMinutes":2,"address":"2-40-17 Hongo, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A budget Doutor branch a minute from Hongo-sanchome station that a power/Wi-Fi database lists as having usable outlets, making it a practical quick-work stop.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"]},
-  {"name":"Doutor Coffee Hongo-Sanchome","nameJa":"ドトールコーヒーショップ 本郷三丁目店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Hongo-sanchome","walkMinutes":2,"address":"2-40-18 Hongo, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A second Doutor almost next door to the Higashi branch by Hongo-sanchome, also listed with power outlets and carrier Wi-Fi for short laptop sessions.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"]},
-  {"name":"Starbucks Hongo Todai-mae","nameJa":"スターバックス コーヒー 本郷東大前店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Hongo-sanchome","walkMinutes":2,"address":"4-1-4 Hongo, Design Place Alpha 1F, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":false,"powerDensity":"none","laptopFriendly":true,"businessHours":"Mon-Sat 7:00-22:00, Sun/Hol 8:00-21:00","priceBand":"¥¥","description":"A roughly fifty-seat Starbucks near Hongo-sanchome with free Wi-Fi, but its former counter outlets have been switched off, so plan to work on battery.","confidence":"high","sources":["https://everyday-starbucks.com/2023/01/26/in-front-of-hongo-university-of-tokyo/","https://store.starbucks.co.jp/detail-26/"]},
-  {"name":"Starbucks University of Tokyo Faculty of Engineering","nameJa":"スターバックス コーヒー 東京大学工学部店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Todai-mae","walkMinutes":3,"address":"7-3-1 Hongo, UTokyo Engineering Bldg 11, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥¥","description":"A campus Starbucks inside the University of Tokyo engineering building that is open to the public and offers free Wi-Fi plus a handful of usable power seats.","confidence":"high","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/","https://everyday-starbucks.com/2023/01/26/in-front-of-hongo-university-of-tokyo/"]},
-  {"name":"Doutor Coffee UTokyo Yasuda Auditorium","nameJa":"ドトールコーヒーショップ 東京大学安田講堂前店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Hongo-sanchome","walkMinutes":5,"address":"7-3-1 Hongo, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":false,"powerDensity":"none","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A Doutor on the University of Tokyo campus near Yasuda Auditorium with carrier Wi-Fi but no customer outlets according to the outlet database.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/charge_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"]},
-  {"name":"Starbucks Korakuen LaQua","nameJa":"スターバックス コーヒー 後楽園ラクーア店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Korakuen","walkMinutes":2,"address":"1-1-1 Kasuga, LaQua, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":false,"powerDensity":"none","laptopFriendly":true,"businessHours":"","priceBand":"¥¥","description":"A Starbucks in the LaQua complex at Tokyo Dome City with confirmed free Wi-Fi, though outlet availability is undocumented so assume none.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E5%BE%8C%E6%A5%BD%E5%9C%92/"]},
-  {"name":"Cafe Veloce Kasuga Station Front","nameJa":"カフェ・ベローチェ 春日駅前店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Kasuga","walkMinutes":1,"address":"1-3-21 Koishikawa, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":false,"powerDensity":"none","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A cheap Veloce right in front of Kasuga station with free Wi-Fi but no power outlets per the outlet database, best for short stints.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E6%98%A5%E6%97%A5/"]},
-  {"name":"Doutor Coffee Edogawabashi Shin-Mejiro-dori","nameJa":"ドトールコーヒーショップ 江戸川橋新目白通り店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Edogawabashi","walkMinutes":1,"address":"1-47 Sekiguchi, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A Doutor near Edogawabashi on Shin-Mejiro-dori flagged as having power seats plus carrier Wi-Fi, a solid budget work spot in western Bunkyo.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E8%8C%97%E8%8D%B7%E8%B0%B7/"]},
-  {"name":"Coffeekan Nezu Station Front","nameJa":"珈琲館 根津駅前店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Nezu","walkMinutes":1,"address":"1-1-22 Nezu, Azalea Nezu 1F, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":false,"powerDensity":"none","laptopFriendly":true,"businessHours":"","priceBand":"¥","description":"A classic-style Coffeekan directly outside Nezu station offering SoftBank-spot Wi-Fi but no listed power outlets, fine for a laptop on battery.","confidence":"medium","sources":["https://search-maps.com/charge_wifi/wifi_near_station/%E6%A0%B9%E6%B4%A5/"]},
-  {"name":"Starbucks Myogadani","nameJa":"スターバックス コーヒー 茗荷谷店","areaSlug":"bunkyo","ward":"Bunkyo","nearestStation":"Myogadani","walkMinutes":3,"address":"1-4-1 Otsuka, Chuo University Myogadani Campus, Bunkyo-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":false,"powerDensity":"none","laptopFriendly":true,"businessHours":"7:00-22:00","priceBand":"¥¥","description":"A Starbucks at the Chuo University Myogadani campus, three minutes from the station, with roughly sixty seats and standard free Wi-Fi but no outlet seats.","confidence":"medium","sources":["https://everyday-starbucks.com/2023/04/01/myogadani/"]}
+  {
+    "name": "Doutor Coffee Hongo-Sanchome Higashi",
+    "nameJa": "ドトールコーヒーショップ 本郷三丁目東店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Hongo-sanchome",
+    "walkMinutes": 2,
+    "address": "2-40-17 Hongo, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A budget Doutor branch a minute from Hongo-sanchome station that a power/Wi-Fi database lists as having usable outlets, making it a practical quick-work stop.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
+    ]
+  },
+  {
+    "name": "Doutor Coffee Hongo-Sanchome",
+    "nameJa": "ドトールコーヒーショップ 本郷三丁目店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Hongo-sanchome",
+    "walkMinutes": 2,
+    "address": "2-40-18 Hongo, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A second Doutor almost next door to the Higashi branch by Hongo-sanchome, also listed with power outlets and carrier Wi-Fi for short laptop sessions.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
+    ]
+  },
+  {
+    "name": "Starbucks Hongo Todai-mae",
+    "nameJa": "スターバックス コーヒー 本郷東大前店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Hongo-sanchome",
+    "walkMinutes": 2,
+    "address": "4-1-4 Hongo, Design Place Alpha 1F, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "businessHours": "Mon-Sat 7:00-22:00, Sun/Hol 8:00-21:00",
+    "priceBand": "¥¥",
+    "description": "A roughly fifty-seat Starbucks near Hongo-sanchome with free Wi-Fi, but its former counter outlets have been switched off, so plan to work on battery.",
+    "confidence": "high",
+    "sources": [
+      "https://everyday-starbucks.com/2023/01/26/in-front-of-hongo-university-of-tokyo/",
+      "https://store.starbucks.co.jp/detail-26/"
+    ]
+  },
+  {
+    "name": "Starbucks University of Tokyo Faculty of Engineering",
+    "nameJa": "スターバックス コーヒー 東京大学工学部店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Todai-mae",
+    "walkMinutes": 3,
+    "address": "7-3-1 Hongo, UTokyo Engineering Bldg 11, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥¥",
+    "description": "A campus Starbucks inside the University of Tokyo engineering building that is open to the public and offers free Wi-Fi plus a handful of usable power seats.",
+    "confidence": "high",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/",
+      "https://everyday-starbucks.com/2023/01/26/in-front-of-hongo-university-of-tokyo/"
+    ]
+  },
+  {
+    "name": "Doutor Coffee UTokyo Yasuda Auditorium",
+    "nameJa": "ドトールコーヒーショップ 東京大学安田講堂前店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Hongo-sanchome",
+    "walkMinutes": 5,
+    "address": "7-3-1 Hongo, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A Doutor on the University of Tokyo campus near Yasuda Auditorium with carrier Wi-Fi but no customer outlets according to the outlet database.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/charge_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
+    ]
+  },
+  {
+    "name": "Starbucks Korakuen LaQua",
+    "nameJa": "スターバックス コーヒー 後楽園ラクーア店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Korakuen",
+    "walkMinutes": 2,
+    "address": "1-1-1 Kasuga, LaQua, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥¥",
+    "description": "A Starbucks in the LaQua complex at Tokyo Dome City with confirmed free Wi-Fi, though outlet availability is undocumented so assume none.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E5%BE%8C%E6%A5%BD%E5%9C%92/"
+    ]
+  },
+  {
+    "name": "Cafe Veloce Kasuga Station Front",
+    "nameJa": "カフェ・ベローチェ 春日駅前店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Kasuga",
+    "walkMinutes": 1,
+    "address": "1-3-21 Koishikawa, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A cheap Veloce right in front of Kasuga station with free Wi-Fi but no power outlets per the outlet database, best for short visits.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E6%98%A5%E6%97%A5/"
+    ]
+  },
+  {
+    "name": "Doutor Coffee Edogawabashi Shin-Mejiro-dori",
+    "nameJa": "ドトールコーヒーショップ 江戸川橋新目白通り店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Edogawabashi",
+    "walkMinutes": 1,
+    "address": "1-47 Sekiguchi, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A Doutor near Edogawabashi on Shin-Mejiro-dori flagged as having power seats plus carrier Wi-Fi, a solid budget work spot in western Bunkyo.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E8%8C%97%E8%8D%B7%E8%B0%B7/"
+    ]
+  },
+  {
+    "name": "Coffeekan Nezu Station Front",
+    "nameJa": "珈琲館 根津駅前店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Nezu",
+    "walkMinutes": 1,
+    "address": "1-1-22 Nezu, Azalea Nezu 1F, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥",
+    "description": "A classic-style Coffeekan directly outside Nezu station offering SoftBank-spot Wi-Fi but no listed power outlets, fine for a laptop on battery.",
+    "confidence": "medium",
+    "sources": [
+      "https://search-maps.com/charge_wifi/wifi_near_station/%E6%A0%B9%E6%B4%A5/"
+    ]
+  },
+  {
+    "name": "Starbucks Myogadani",
+    "nameJa": "スターバックス コーヒー 茗荷谷店",
+    "areaSlug": "bunkyo",
+    "ward": "Bunkyo",
+    "nearestStation": "Myogadani",
+    "walkMinutes": 3,
+    "address": "1-4-1 Otsuka, Chuo University Myogadani Campus, Bunkyo-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": false,
+    "powerDensity": "none",
+    "laptopFriendly": true,
+    "businessHours": "7:00-22:00",
+    "priceBand": "¥¥",
+    "description": "A Starbucks at the Chuo University Myogadani campus, three minutes from the station, with roughly sixty seats and standard free Wi-Fi but no outlet seats.",
+    "confidence": "medium",
+    "sources": [
+      "https://everyday-starbucks.com/2023/04/01/myogadani/"
+    ]
+  }
 ]

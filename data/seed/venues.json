@@ -18,7 +18,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "An in-station cafe-bar where nearly every one of its brick-toned seats has an outlet, making it an easy grab-and-work spot right on the concourse.",
+    "description": "An in-station cafe-bar where nearly every one of its brick-toned seats has an outlet, making it an easy grab-and-work spot right on the walkway.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
@@ -42,7 +42,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A roomy second-floor branch of the Nagoya coffee chain with free Wi-Fi and outlets at a portion of its seats, well suited to a long morning-service session.",
+    "description": "A roomy second-floor branch of the Nagoya coffee chain with free Wi-Fi and outlets at a portion of its seats, good for a long morning-service session.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
@@ -352,7 +352,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A budget-friendly Doutor at the Machiya station entrance whose official page lists both free Wi-Fi and power outlets, opening early for morning work.",
+    "description": "A cheap Doutor at the Machiya station entrance whose official page lists both free Wi-Fi and power outlets, opening early for morning work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=1010504"
@@ -423,7 +423,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A Showa-retro-style coffee house near Nippori's south side reported to provide free Wi-Fi and power outlets, suited to quiet solo work.",
+    "description": "A Showa-retro-style coffee house near Nippori's south side reported to provide free Wi-Fi and power outlets, good for quiet solo work.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
@@ -585,7 +585,7 @@
     "hasPower": false,
     "powerDensity": "none",
     "laptopFriendly": true,
-    "description": "A cheap Veloce right in front of Kasuga station with free Wi-Fi but no power outlets per the outlet database, best for short stints.",
+    "description": "A cheap Veloce right in front of Kasuga station with free Wi-Fi but no power outlets per the outlet database, best for short visits.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E6%98%A5%E6%97%A5/"
@@ -681,7 +681,7 @@
     "hasPower": true,
     "powerDensity": "counter",
     "laptopFriendly": true,
-    "description": "A polished deli-cafe steps from Tokyo Station where counter seats offer outlets and free Wi-Fi for a quick focused stint.",
+    "description": "A polished deli-cafe steps from Tokyo Station where counter seats offer outlets and free Wi-Fi for a quick focused visit.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-marunouchi-workcafe/"
@@ -837,7 +837,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "An 83-seat cafe in the Akihabara UDX complex with free Wi-Fi and outlets, geared toward weekday workers.",
+    "description": "An 83-seat cafe in the Akihabara UDX complex with free Wi-Fi and outlets, good for weekday workers.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://goworkship.com/magazine/akihabara-nomad-cafe/"
@@ -889,7 +889,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A work-oriented Akihabara cafe with fiber Wi-Fi and an outlet at every seat, well suited to extended laptop work.",
+    "description": "A work-oriented Akihabara cafe with fiber Wi-Fi and an outlet at every seat, good for extended laptop work.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://goworkship.com/magazine/akihabara-nomad-cafe/"
@@ -941,7 +941,7 @@
     "hasPower": true,
     "powerDensity": "counter",
     "laptopFriendly": true,
-    "description": "A Doutor directly at Jimbocho's A5 exit with partitioned powered counter seats, though a peak-hour time limit applies.",
+    "description": "A Doutor directly at Jimbocho's A5 exit with divided powered counter seats, though a peak-hour time limit applies.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://shodanlab.com/jinbocho/"
@@ -1253,7 +1253,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A Tully's in the base of Tokyo Nihonbashi Tower with free Wi-Fi and a large central communal table that has outlets, geared toward laptop work.",
+    "description": "A Tully's in the base of Tokyo Nihonbashi Tower with free Wi-Fi and a large central communal table that has outlets, good for laptop work.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
@@ -1445,7 +1445,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A 53-seat, fully non-smoking Doutor just off the south exit of JR Koiwa that lists both free Wi-Fi and power outlets in its official amenities, a practical short-work stop.",
+    "description": "A 53-seat, fully non-smoking Doutor just off the south exit of JR Koiwa that lists both free Wi-Fi and power outlets in its official features, a practical short-work stop.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://shop.doutor.co.jp/map/1012283"
@@ -1493,7 +1493,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A spacious 71-seat Komeda about five minutes from Kasai Station with its own Komeda Wi-Fi and outlet-equipped seating, with long hours and roomy booths suited to sustained work.",
+    "description": "A spacious 71-seat Komeda about five minutes from Kasai Station with its own Komeda Wi-Fi and outlet-equipped seating, with long hours and roomy booths good for sustained work.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://tabelog.com/en/tokyo/A1313/A131305/13230082/"
@@ -1516,7 +1516,7 @@
     "hasPower": false,
     "powerDensity": "none",
     "laptopFriendly": false,
-    "description": "A relaxed Kohikan on the second floor of the Ario Kasai shopping mall that provides free Wi-Fi but no documented power outlets, best for shorter battery-only stints.",
+    "description": "A relaxed Kohikan on the second floor of the Ario Kasai shopping mall that provides free Wi-Fi but no documented power outlets, best for shorter battery-only visits.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://search-maps.com/charge_wifi/wifi_near_station/%E8%91%9B%E8%A5%BF/"
@@ -1609,7 +1609,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A spacious cafe-chain branch near Narimasu offering the free Komeda Wi-Fi network and power outlets, with roomy booth seating well suited to laptop sessions.",
+    "description": "A spacious cafe-chain branch near Narimasu offering the free Komeda Wi-Fi network and power outlets, with roomy booth seating good for laptop sessions.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://search-maps.com/charge_wifi/stores/18638a58428/"
@@ -1820,7 +1820,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A classic Renoir tea room by the north exit, part of a chain known for welcoming long stays with free Wi-Fi and outlets at most tables, well suited to focused laptop work.",
+    "description": "A classic Renoir tea room by the north exit, part of a chain known for welcoming long stays with free Wi-Fi and outlets at most tables, good for focused laptop work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://shodanlab.com/shinkoiwa/"
@@ -1844,7 +1844,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A Doutor in the Shin-Koiwa Lumiere shopping street offering free Doutor Wi-Fi plus USB and outlet charging at some seats, a cheap and convenient spot for short work stints.",
+    "description": "A Doutor in the Shin-Koiwa Lumiere shopping street offering free Doutor Wi-Fi plus USB and outlet charging at some seats, a cheap and convenient spot for short work visits.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://shodanlab.com/shinkoiwa/"
@@ -1892,7 +1892,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A Doutor by Kanamachi station's north exit whose official listing advertises both free Wi-Fi and power outlets, making it a dependable budget option for remote work.",
+    "description": "A Doutor by Kanamachi station's north exit whose official listing advertises both free Wi-Fi and power outlets, making it a reliable budget option for remote work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://shop.doutor.co.jp/doutor/spot/detail?code=1011828"
@@ -1962,7 +1962,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A budget-friendly Doutor in the Beans Akabane station building offering Wi-Fi and some outlet seats, popular with commuters for short work sessions.",
+    "description": "A cheap Doutor in the Beans Akabane station building offering Wi-Fi and some outlet seats, popular with commuters for short work sessions.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://dwifi.mapion.co.jp/b/d_wifi/info/BA842792"
@@ -2296,7 +2296,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A bookstore cafe in Lalaport with high-speed free Wi-Fi and outlets at all seats, suited to reading and laptop work.",
+    "description": "A bookstore cafe in Lalaport with high-speed free Wi-Fi and outlets at all seats, good for reading and laptop work.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
@@ -2320,7 +2320,7 @@
     "hasPower": true,
     "powerDensity": "counter",
     "laptopFriendly": true,
-    "description": "A bookstore-adjacent cafe with free Wi-Fi and outlets along a wall/window counter, directly connected to the Lalaport concourse.",
+    "description": "A bookstore-adjacent cafe with free Wi-Fi and outlets along a wall/window counter, directly connected to the Lalaport walkway.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-toyosu-workcafe/"
@@ -2558,7 +2558,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A large roughly 100-seat cafe-bar a short walk from the station with free Wi-Fi and outlets at select seats, better suited to those who can focus amid a lively crowd.",
+    "description": "A large roughly 100-seat cafe-bar a short walk from the station with free Wi-Fi and outlets at select seats, better good for those who can focus amid a lively crowd.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/nakameguro-cafe-wifi-dengen/"
@@ -2766,7 +2766,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A spacious West-Coast-styled specialty coffee club by the station praised for fast reliable Wi-Fi and floor-level outlets at the center tables, well suited to extended work.",
+    "description": "A spacious West-Coast-styled specialty coffee club by the station praised for fast reliable Wi-Fi and floor-level outlets at the center tables, good for extended work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-jiyuugaoka-workcafe/"
@@ -2792,7 +2792,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A light-filled, wood-toned specialty roaster branch with its own Wi-Fi and around ten dual outlets beneath the central bench, making it comfortable for telework.",
+    "description": "A light-filled, wood-toned specialty roaster branch with its own Wi-Fi and around ten dual outlets beneath the central bench, making it comfortable for remote work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-jiyuugaoka-workcafe/"
@@ -3026,7 +3026,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A cafe inside Roppongi Hills Mori Tower reported to have outlets at all of its 92 seats plus Wi-Fi, well suited to laptop work.",
+    "description": "A cafe inside Roppongi Hills Mori Tower reported to have outlets at all of its 92 seats plus Wi-Fi, good for laptop work.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
@@ -3384,7 +3384,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A budget-friendly chain cafe near the south exit with free Wi-Fi and some outlet seating, popular for cheap and casual laptop work.",
+    "description": "A cheap chain cafe near the south exit with free Wi-Fi and some outlet seating, popular for cheap and casual laptop work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-nakano-workcafe/"
@@ -3998,7 +3998,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A Starbucks in the Tokyu Square complex at Den-en-chofu station offering the chain's standard free Wi-Fi and some outlet seating, though amenity data was only lightly verifiable.",
+    "description": "A Starbucks in the Tokyu Square complex at Den-en-chofu station offering the chain's standard free Wi-Fi and some outlet seating, though feature data was only lightly verifiable.",
     "lastChecked": "2026-08-01",
     "confidence": "low",
     "sourceUrl": "https://store.starbucks.co.jp/detail-1139/"
@@ -4094,7 +4094,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A calm self-roasting coffee shop with a limited number of outlets that reviewers describe as an easy place to settle in and work.",
+    "description": "A calm self-roasting coffee shop with a limited number of outlets that reviewers describe as an easy place to stay a while and work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/sangenzyaya-cafe-wifi-dengen/"
@@ -4166,7 +4166,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A 70-plus-seat branch praised by a tester as having everything for work, with outlets at all seats and single-person partitioned workspaces.",
+    "description": "A 70-plus-seat branch praised by a tester as having everything for work, with outlets at all seats and single-person divided workspaces.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-shimokitazawa-workcafe/"
@@ -4438,7 +4438,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A spacious neighborhood-living-room style chain cafe with partitioned comfy seating, free Wi-Fi and outlets at nearly every seat, with a 90-minute limit during crowded periods.",
+    "description": "A spacious neighborhood-living-room style chain cafe with divided comfy seating, free Wi-Fi and outlets at nearly every seat, with a 90-minute limit during crowded periods.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
@@ -4542,7 +4542,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A roomy restaurant-cafe high up in Shibuya Hikarie with free Wi-Fi and outlets conveniently placed at table and sofa seating, good for a quieter mid-afternoon work stint.",
+    "description": "A roomy restaurant-cafe high up in Shibuya Hikarie with free Wi-Fi and outlets conveniently placed at table and sofa seating, good for a quieter mid-afternoon work visit.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://goworkship.com/magazine/shibuya-nomado/"
@@ -4620,7 +4620,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A classic-style coffee house with a European-pub feel offering free Wi-Fi and outlets, along with full meals if you want to settle in for a while.",
+    "description": "A classic-style coffee house with a European-pub feel offering free Wi-Fi and outlets, along with full meals if you want to stay for a while.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://cotoacademy.com/best-cafes-in-shibuya-for-studying-and-remote-work-with-wifi-power-sockets/"
@@ -4672,7 +4672,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A calm cafe in the Shibuya Cast complex with high-speed free Wi-Fi and outlets, well suited to daytime work but closing relatively early in the evening.",
+    "description": "A calm cafe in the Shibuya Cast complex with high-speed free Wi-Fi and outlets, good for daytime work but closing relatively early in the evening.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://girleatworld.net/work-friendly-cafes-tokyo/"
@@ -4796,7 +4796,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A roomy wood-toned Excelsior a minute from Osaki Station with plentiful outlets and free Wi-Fi, suited to extended solo work.",
+    "description": "A roomy wood-toned Excelsior a minute from Osaki Station with plentiful outlets and free Wi-Fi, good for extended solo work.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://goworkship.com/magazine/osaki-cafe-dengen-wifi/"
@@ -4844,7 +4844,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A small book-lined cafe near Osaki with free Wi-Fi, outlets, and a coworking option that lends itself to quiet focus.",
+    "description": "A small book-lined cafe near Osaki with free Wi-Fi, outlets, and a coworking option that is good for quiet focus.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://goworkship.com/magazine/osaki-cafe-dengen-wifi/"
@@ -5136,7 +5136,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A grand old-style kissaten open around the clock with a library-like hush, free Wi-Fi and outlets, making it a rare option for late-night work.",
+    "description": "A grand old-style kissaten (a traditional Japanese coffee house) open around the clock with a library-like hush, free Wi-Fi and outlets, making it a rare option for late-night work.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://autoro.io/mag/shinjyukuwifidengemcafe/"
@@ -5240,7 +5240,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A large retro kissaten open since the 1960s with 250-plus seats over multiple floors, free Wi-Fi and outlets concentrated at the upper-floor window seats.",
+    "description": "A large retro kissaten (a traditional Japanese coffee house) open since the 1960s with 250-plus seats over multiple floors, free Wi-Fi and outlets concentrated at the upper-floor window seats.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/shinjuku-nomado/"
@@ -5396,7 +5396,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A branch of the classic business-friendly Renoir kissaten chain with roomy seating, free Wi-Fi and outlets that welcomes long stays.",
+    "description": "A branch of the classic business-friendly Renoir kissaten (a traditional Japanese coffee house) chain with roomy seating, free Wi-Fi and outlets that welcomes long stays.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://goworkship.com/magazine/shinjuku-nomado/"
@@ -5500,7 +5500,7 @@
     "hasPower": true,
     "powerDensity": "many",
     "laptopFriendly": true,
-    "description": "A budget-friendly Kagurazaka work cafe reported to have outlets at every seat, free Wi-Fi, a drink bar and even massage chairs.",
+    "description": "A cheap Kagurazaka work cafe reported to have outlets at every seat, free Wi-Fi, a drink bar and even massage chairs.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-kagurazaka-workcafe/"
@@ -5984,7 +5984,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A roomy Komeda branch inside Marui with soft booth seating, free Wi-Fi and outlets, well suited to longer sit-down work sessions over a coffee and meal.",
+    "description": "A roomy Komeda branch inside Marui with soft booth seating, free Wi-Fi and outlets, good for longer sit-down work sessions over a coffee and meal.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
@@ -6032,7 +6032,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A work-oriented cafe with large desks, free Wi-Fi, outlets and even a coworking-style pass, catering explicitly to people who want to settle in and get things done.",
+    "description": "A work-oriented cafe with large desks, free Wi-Fi, outlets and even a coworking-style pass, catering explicitly to people who want to stay a while and get things done.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/"
@@ -6176,7 +6176,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A small construction-site-themed kissaten offering free high-speed Wi-Fi and about five seats fitted with outlets and USB, plus cheap drink refills for lingering workers.",
+    "description": "A small construction-site-themed kissaten (a traditional Japanese coffee house) offering free high-speed Wi-Fi and about five seats fitted with outlets and USB, plus cheap drink refills for lingering workers.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
@@ -6368,7 +6368,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A relaxed cafe-and-bar on the top floor of Ueno Marui offering free Wi-Fi and power seats, with long evening hours suited to unhurried work sessions.",
+    "description": "A relaxed cafe-and-bar on the top floor of Ueno Marui offering free Wi-Fi and power seats, with long evening hours good for unhurried work sessions.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
@@ -6416,7 +6416,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A budget-friendly Veloce branch between Okachimachi and Ueno-Hirokoji with free Wi-Fi, outlet seats and long hours that make it a dependable cheap workspot.",
+    "description": "A cheap Veloce branch between Okachimachi and Ueno-Hirokoji with free Wi-Fi, outlet seats and long hours that make it a reliable cheap workspot.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://office.yield-marketing.co.jp/coworking/recommended-ueno-workcafe/"
@@ -6627,7 +6627,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A spacious Komeda coffee-shop branch near Asakusabashi with free Wi-Fi and around fifteen outlet seats, suiting longer, comfortable work stints.",
+    "description": "A spacious Komeda coffee-shop branch near Asakusabashi with free Wi-Fi and around fifteen outlet seats, suiting longer, comfortable work visits.",
     "lastChecked": "2026-08-01",
     "confidence": "medium",
     "sourceUrl": "https://tagata.me/kuramae-wifi-dengen/"
@@ -6818,7 +6818,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A traditional business-friendly kissaten right by the station with roomy seating, free Wi-Fi and power outlets.",
+    "description": "A traditional business-friendly kissaten (a traditional Japanese coffee house) right by the station with roomy seating, free Wi-Fi and power outlets.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://blog.linkedge.jp/cafe-sugamo/"
@@ -6866,7 +6866,7 @@
     "hasPower": true,
     "powerDensity": "some",
     "laptopFriendly": true,
-    "description": "A long-running specialty kissaten near the station with Wi-Fi and outlets, though sources disagree on its closing time.",
+    "description": "A long-running specialty kissaten (a traditional Japanese coffee house) near the station with Wi-Fi and outlets, though sources disagree on its closing time.",
     "lastChecked": "2026-08-01",
     "confidence": "high",
     "sourceUrl": "https://blog.linkedge.jp/cafe-sugamo/"

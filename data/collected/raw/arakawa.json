@@ -1,10 +1,175 @@
 [
-  {"name":"Renoir Nishi-Nippori Daiichi","nameJa":"喫茶室ルノアール 西日暮里第一店","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Nishi-Nippori","walkMinutes":1,"address":"5-23-6 Nishi-Nippori, White House 2F, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"Weekdays 7:30-22:00 / Weekends 8:00-22:00","priceBand":"¥¥","description":"A spacious 100-plus-seat Renoir branch steps from Nishi-Nippori station with free Wi-Fi, customer power outlets, and roomy seating that suits long work sessions.","confidence":"high","sources":["https://www.ginza-renoir.co.jp/shopsearch/shops/tokyo/arakawa-ku/nishinippori-daiichi.html","https://goworkship.com/magazine/nishinippori-cafe-dengen-wifi/"]},
-  {"name":"Renoir Nippori East Exit","nameJa":"喫茶室ルノアール 日暮里東口店","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Nippori","walkMinutes":1,"address":"5-51-11 Higashi-Nippori, Shizuya Bldg 2F, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"Weekdays 7:30-22:00 / Weekends 8:00-22:00","priceBand":"¥¥","description":"This Renoir branch right by Nippori's east exit pairs multiple free Wi-Fi networks with seat-side power outlets, making it a reliable spot for extended remote work.","confidence":"high","sources":["https://www.ginza-renoir.co.jp/shopsearch/shops/tokyo/arakawa-ku/nippori-higashiguchi.html","https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"]},
-  {"name":"Beck's Coffee Shop Nishi-Nippori","nameJa":"ベックスコーヒーショップ 西日暮里店","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Nishi-Nippori","walkMinutes":1,"address":"5-14-1 Nishi-Nippori, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"Weekdays 6:45-21:00 / Weekends 7:00-20:00","priceBand":"¥","description":"An inexpensive fully non-smoking station cafe with shared Beck's Wi-Fi and roughly nine twin-outlet spots spread across bench seating for around fifty guests.","confidence":"high","sources":["https://oasis.mogya.com/spot/becks_95","https://goworkship.com/magazine/nishinippori-cafe-dengen-wifi/"]},
-  {"name":"Excelsior Caffe Nippori","nameJa":"エクセルシオール カフェ 日暮里店","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Nippori","walkMinutes":1,"address":"2-19-6 Nishi-Nippori, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"7:00-22:00","priceBand":"¥¥","description":"A large 116-seat Excelsior close to Nippori station whose official listing confirms power outlets, with free Wi-Fi and early-to-late hours convenient for working.","confidence":"high","sources":["https://shop.doutor.co.jp/doutor/spot/detail?code=5000031","https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"]},
-  {"name":"Doutor Coffee Machiya-Ekimae","nameJa":"ドトールコーヒーショップ 町屋駅前店","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Machiya","walkMinutes":1,"address":"7-50-9 Arakawa, Center Machiya 1F, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"Mon-Sat 6:45-20:00 / Sun/Hol 7:00-20:00","priceBand":"¥","description":"A budget-friendly Doutor at the Machiya station entrance whose official page lists both free Wi-Fi and power outlets, opening early for morning work.","confidence":"high","sources":["https://shop.doutor.co.jp/doutor/spot/detail?code=1010504"]},
-  {"name":"Tully's Coffee Nippori","nameJa":"タリーズコーヒー 日暮里店","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Nippori","walkMinutes":2,"address":"2-25-1 Nishi-Nippori, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"8:00-22:00","priceBand":"¥¥","description":"A compact Tully's near Nippori station offering Tully's Wi-Fi; a work-cafe roundup reports usable outlets, though one directory leaves outlet count unlisted.","confidence":"medium","sources":["https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"]},
-  {"name":"Bliss Coffee Nishi-Nippori","nameJa":"BLISS COFFEE 西日暮里","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Nippori","walkMinutes":2,"address":"2-52-3 Nishi-Nippori, D5 Bldg 1F, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"","priceBand":"¥¥","description":"A small independent cafe with distinctive decor a couple of minutes from Nippori station, reported to offer free Wi-Fi and power outlets for its roughly nineteen seats.","confidence":"medium","sources":["https://goworkship.com/magazine/nippori-cafe-dengen-wifi/","https://r.gnavi.co.jp/ht8w3vjb0000/"]},
-  {"name":"Tomoroyu Nippori","nameJa":"昔ながらの喫茶店 友路有 日暮里店","areaSlug":"arakawa","ward":"Arakawa","nearestStation":"Nippori","walkMinutes":2,"address":"5-52-2 Higashi-Nippori 2F, Arakawa-ku, Tokyo","hasWifi":true,"wifiType":"free","hasPower":true,"powerDensity":"some","laptopFriendly":true,"businessHours":"8:30-21:00","priceBand":"¥¥","description":"A Showa-retro-style coffee house near Nippori's south side reported to provide free Wi-Fi and power outlets, suited to quiet solo work.","confidence":"medium","sources":["https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"]}
+  {
+    "name": "Renoir Nishi-Nippori Daiichi",
+    "nameJa": "喫茶室ルノアール 西日暮里第一店",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Nishi-Nippori",
+    "walkMinutes": 1,
+    "address": "5-23-6 Nishi-Nippori, White House 2F, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
+    "priceBand": "¥¥",
+    "description": "A spacious 100-plus-seat Renoir branch steps from Nishi-Nippori station with free Wi-Fi, customer power outlets, and roomy seating that suits long work sessions.",
+    "confidence": "high",
+    "sources": [
+      "https://www.ginza-renoir.co.jp/shopsearch/shops/tokyo/arakawa-ku/nishinippori-daiichi.html",
+      "https://goworkship.com/magazine/nishinippori-cafe-dengen-wifi/"
+    ]
+  },
+  {
+    "name": "Renoir Nippori East Exit",
+    "nameJa": "喫茶室ルノアール 日暮里東口店",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Nippori",
+    "walkMinutes": 1,
+    "address": "5-51-11 Higashi-Nippori, Shizuya Bldg 2F, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 7:30-22:00 / Weekends 8:00-22:00",
+    "priceBand": "¥¥",
+    "description": "This Renoir branch right by Nippori's east exit pairs multiple free Wi-Fi networks with seat-side power outlets, making it a reliable spot for extended remote work.",
+    "confidence": "high",
+    "sources": [
+      "https://www.ginza-renoir.co.jp/shopsearch/shops/tokyo/arakawa-ku/nippori-higashiguchi.html",
+      "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
+    ]
+  },
+  {
+    "name": "Beck's Coffee Shop Nishi-Nippori",
+    "nameJa": "ベックスコーヒーショップ 西日暮里店",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Nishi-Nippori",
+    "walkMinutes": 1,
+    "address": "5-14-1 Nishi-Nippori, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Weekdays 6:45-21:00 / Weekends 7:00-20:00",
+    "priceBand": "¥",
+    "description": "An inexpensive fully non-smoking station cafe with shared Beck's Wi-Fi and roughly nine twin-outlet spots spread across bench seating for around fifty guests.",
+    "confidence": "high",
+    "sources": [
+      "https://oasis.mogya.com/spot/becks_95",
+      "https://goworkship.com/magazine/nishinippori-cafe-dengen-wifi/"
+    ]
+  },
+  {
+    "name": "Excelsior Caffe Nippori",
+    "nameJa": "エクセルシオール カフェ 日暮里店",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Nippori",
+    "walkMinutes": 1,
+    "address": "2-19-6 Nishi-Nippori, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "7:00-22:00",
+    "priceBand": "¥¥",
+    "description": "A large 116-seat Excelsior close to Nippori station whose official listing confirms power outlets, with free Wi-Fi and early-to-late hours convenient for working.",
+    "confidence": "high",
+    "sources": [
+      "https://shop.doutor.co.jp/doutor/spot/detail?code=5000031",
+      "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
+    ]
+  },
+  {
+    "name": "Doutor Coffee Machiya-Ekimae",
+    "nameJa": "ドトールコーヒーショップ 町屋駅前店",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Machiya",
+    "walkMinutes": 1,
+    "address": "7-50-9 Arakawa, Center Machiya 1F, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "Mon-Sat 6:45-20:00 / Sun/Hol 7:00-20:00",
+    "priceBand": "¥",
+    "description": "A cheap Doutor at the Machiya station entrance whose official page lists both free Wi-Fi and power outlets, opening early for morning work.",
+    "confidence": "high",
+    "sources": [
+      "https://shop.doutor.co.jp/doutor/spot/detail?code=1010504"
+    ]
+  },
+  {
+    "name": "Tully's Coffee Nippori",
+    "nameJa": "タリーズコーヒー 日暮里店",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Nippori",
+    "walkMinutes": 2,
+    "address": "2-25-1 Nishi-Nippori, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "8:00-22:00",
+    "priceBand": "¥¥",
+    "description": "A compact Tully's near Nippori station offering Tully's Wi-Fi; a work-cafe roundup reports usable outlets, though one directory leaves outlet count unlisted.",
+    "confidence": "medium",
+    "sources": [
+      "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
+    ]
+  },
+  {
+    "name": "Bliss Coffee Nishi-Nippori",
+    "nameJa": "BLISS COFFEE 西日暮里",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Nippori",
+    "walkMinutes": 2,
+    "address": "2-52-3 Nishi-Nippori, D5 Bldg 1F, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "",
+    "priceBand": "¥¥",
+    "description": "A small independent cafe with distinctive decor a couple of minutes from Nippori station, reported to offer free Wi-Fi and power outlets for its roughly nineteen seats.",
+    "confidence": "medium",
+    "sources": [
+      "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/",
+      "https://r.gnavi.co.jp/ht8w3vjb0000/"
+    ]
+  },
+  {
+    "name": "Tomoroyu Nippori",
+    "nameJa": "昔ながらの喫茶店 友路有 日暮里店",
+    "areaSlug": "arakawa",
+    "ward": "Arakawa",
+    "nearestStation": "Nippori",
+    "walkMinutes": 2,
+    "address": "5-52-2 Higashi-Nippori 2F, Arakawa-ku, Tokyo",
+    "hasWifi": true,
+    "wifiType": "free",
+    "hasPower": true,
+    "powerDensity": "some",
+    "laptopFriendly": true,
+    "businessHours": "8:30-21:00",
+    "priceBand": "¥¥",
+    "description": "A Showa-retro-style coffee house near Nippori's south side reported to provide free Wi-Fi and power outlets, good for quiet solo work.",
+    "confidence": "medium",
+    "sources": [
+      "https://goworkship.com/magazine/nippori-cafe-dengen-wifi/"
+    ]
+  }
 ]

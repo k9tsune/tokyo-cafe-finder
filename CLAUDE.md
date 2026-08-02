@@ -54,6 +54,12 @@ default.
 - Store only `google_place_id` from Google; never store other Google fields.
 - Base geodata is OSM (ODbL) — keep the attribution in the footer.
 - Original prose only. No copied descriptions, no rights-unclear images.
+- **Plain English for ESL readers.** Many users read English as a second language.
+  Write short, simple sentences; avoid corporate/formal words (no "stint",
+  "amenities", "well-suited to", "geared toward", "purpose-built", "concourse").
+  KEEP coffee terms (roaster, roastery, espresso) and Japanese terms — but gloss a
+  Japanese term on first use, e.g. "kissaten (a traditional Japanese coffee house)".
+  `scripts/plain-english.mjs` applies the common swaps automatically.
 
 ## Scaling to more areas / countries
 - Adding an area = add a bounding box in `collect-overpass.mjs` + an `area` row.
