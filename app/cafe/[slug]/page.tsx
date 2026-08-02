@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CafeMap from "@/components/CafeMap";
+import CafeCover from "@/components/CafeCover";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea } from "@/lib/db";
 import { cafeJsonLd, cafeFaqJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
@@ -46,6 +47,8 @@ export default function CafePage({ params }: { params: { slug: string } }) {
         <Link href="/">Home</Link> / <Link href="/tokyo">Tokyo</Link>
         {area && <> / <Link href={`/tokyo/${area.slug}`}>{area.name}</Link></>} / {v.name}
       </p>
+
+      <CafeCover v={v} tall />
 
       <h1>{v.name}</h1>
       <div className="badges">

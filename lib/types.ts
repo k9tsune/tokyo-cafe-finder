@@ -31,6 +31,7 @@ export interface Venue {
   typicalBusyness?: "low" | "medium" | "high";
 
   description: string;    // original prose — never copied from a source
+  photoUrl?: string;      // optional: real photo (e.g. Google Places) — falls back to a generated cover
   lastChecked: string;    // ISO date -> freshness badge
   confidence: Confidence;
   sourceUrl?: string;
