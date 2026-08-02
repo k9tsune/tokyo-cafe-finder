@@ -785,13 +785,14 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .maplibregl-popup-content .pop-status { color: #55534f !important; }
 .maplibregl-popup-content a { color: #a24e1c !important; font-weight: 700; }
 .maplibregl-popup-content a:hover { color: #813c11 !important; }
-/* No underline/box on mouse-click focus; a subtle outline only for keyboard nav. */
+/* No box/underline on tap or click; keyboard nav gets a soft highlight, not a ring. */
 .maplibregl-popup-content a:focus { outline: none; text-decoration: none; }
 .maplibregl-popup-content a:focus-visible {
-  outline: 2px solid #a24e1c;
-  outline-offset: 2px;
-  border-radius: 3px;
+  outline: none;
   text-decoration: none;
+  background: #f6e8db;
+  border-radius: 4px;
+  box-shadow: 0 0 0 3px #f6e8db;
 }
 
 @media (prefers-reduced-motion: reduce) {

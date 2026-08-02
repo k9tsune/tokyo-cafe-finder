@@ -65,6 +65,14 @@ export default function MapView({ points }: { points: MapPoint[] }) {
           `<strong>${safeName}</strong><br><span class="pop-status">${status}</span><br>` +
             `<a href="/cafe/${p.slug}">Details</a> · <a href="/cafe/${p.slug}?dir=1#map">Directions →</a>`
         );
+        // On touch, opening the popup can leave a link focused, showing a focus
+        // ring around "Details". Drop that focus so nothing looks pre-selected.
+        popup.on("open", () => {
+          window.setTimeout(() => {
+            const a = document.activeElement as HTMLElement | null;
+            if (a && a.closest(".maplibregl-popup-content") && typeof a.blur === "function") a.blur();
+          }, 0);
+        });
         new maplibregl.Marker({ element: el }).setLngLat([p.lng, p.lat]).setPopup(popup).addTo(map);
       }
     })();

@@ -37,9 +37,19 @@ export default function CafeMap({ v }: { v: Venue }) {
         setOrigin(`${pos.coords.latitude},${pos.coords.longitude}`);
         setBusy(false);
       },
-      () => {
+      (geoErr) => {
         setBusy(false);
-        setErr("Couldn't get your location. Try “Open in Google Maps” below.");
+        if (geoErr && geoErr.code === 1) {
+          // PERMISSION_DENIED
+          setErr(
+            "Location is off or blocked for this site. Turn on location access for your browser, then tap the button to try again — or use “Open in Google Maps” below."
+          );
+        } else if (geoErr && geoErr.code === 3) {
+          // TIMEOUT
+          setErr("That took too long. Tap the button to try again, or use “Open in Google Maps” below.");
+        } else {
+          setErr("We couldn't get your location. Tap the button to try again, or use “Open in Google Maps” below.");
+        }
       },
       { enableHighAccuracy: true, timeout: 9000, maximumAge: 30000 }
     );
@@ -72,7 +82,13 @@ export default function CafeMap({ v }: { v: Venue }) {
 
       <div className="map-actions">
         <button type="button" className="directions-btn" onClick={getDirections} disabled={busy}>
-          {busy ? "Locating…" : origin ? "↻ Update directions" : "Get directions from your location →"}
+          {busy
+            ? "Locating…"
+            : origin
+            ? "↻ Update directions"
+            : err
+            ? "Turn on location & try again →"
+            : "Get directions from your location →"}
         </button>
         <a className="map-open" href={externalDir} target="_blank" rel="noopener noreferrer">
           Open in Google Maps ↗
