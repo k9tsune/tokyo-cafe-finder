@@ -17,7 +17,7 @@ export function FreshnessBadge({ date, confidence }: { date: string; confidence:
   const verified = confidence === "high";
   return (
     <span className={`freshness c-${confidence}`} title={`Confidence: ${confidence}`}>
-      {verified ? "✓ Verified · " : "Checked · "}{date}
+      {verified ? "✓ Checked · " : "Checked · "}{date}
     </span>
   );
 }
