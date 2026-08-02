@@ -23,7 +23,17 @@ export default function SearchBar({
   const matches = useMemo(() => {
     const query = q.trim().toLowerCase();
     if (!query) return [];
-    return destinations.filter((d) => d.name.toLowerCase().includes(query)).slice(0, 8);
+    // Prefix match: show names (or a word within the name) that START with what
+    // was typed, ranked so whole-name matches come first. This makes typing
+    // "Shi" suggest "Shinjuku", not "Nishiarai".
+    const scored: Array<{ d: Destination; rank: number }> = [];
+    for (const d of destinations) {
+      const name = d.name.toLowerCase();
+      if (name.startsWith(query)) scored.push({ d, rank: 0 });
+      else if (name.split(/[\s\-–—/]+/).some((w) => w.startsWith(query))) scored.push({ d, rank: 1 });
+    }
+    scored.sort((a, b) => a.rank - b.rank || a.d.name.localeCompare(b.d.name));
+    return scored.slice(0, 8).map((s) => s.d);
   }, [q, destinations]);
 
   function go(href: string) {
