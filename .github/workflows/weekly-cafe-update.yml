@@ -1,14 +1,11 @@
 name: Weekly cafe update
 
-# Runs on a schedule to refresh the cafe data, and can also be started manually
-# from the Actions tab ("Run workflow"). Claude does the research + the
-# auto-approval gate, then opens a Pull Request — the site only changes when the
-# PR is merged, and only if the build passed.
+# The weekly refresh now runs via a scheduled Cowork session (on the Claude
+# subscription, not the paid Anthropic API), so the automatic schedule here is
+# turned off. This workflow is kept for MANUAL runs only ("Run workflow" button).
 
 on:
-  schedule:
-    - cron: "17 20 * * 0"   # Sundays 20:17 UTC = Mondays ~05:17 Japan time
-  workflow_dispatch: {}       # manual "Run workflow" button
+  workflow_dispatch: {}       # manual "Run workflow" button only
 
 permissions:
   contents: write
