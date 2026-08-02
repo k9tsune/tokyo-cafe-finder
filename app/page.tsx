@@ -11,7 +11,7 @@ export default function HomePage() {
   return (
     <div>
       <section className="hero">
-        <h1>Charge up or get work done — Tokyo cafes with Wi-Fi &amp; power outlets</h1>
+        <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
         <p className="lede">
           Every cafe checked and dated, across all 23 wards. Search a station, or find what&apos;s
           nearest right now.

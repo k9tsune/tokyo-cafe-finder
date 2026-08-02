@@ -22,10 +22,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <Link href="/" className="brand" aria-label={`${SITE.name} — home`}>
             <svg className="brand-mark" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false" fill="none">
-              <path d="M11 2 L7.9 8.4 H9.9 L9.1 10.4 L13 4.6 H11 L12 2 Z" fill="currentColor" />
-              <path d="M4.5 11.3 H15 V16.5 A4 4 0 0 1 11 20.5 H8.5 A4 4 0 0 1 4.5 16.5 Z" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
-              <path d="M15 12.4 H17 A2.4 2.4 0 0 1 17 17.2 H15" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
-              <path d="M3.8 22 H16.2" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+              {/* Coffee cup whose handle becomes a power cord + plug — "cafe + charging" */}
+              <path fill="currentColor" d="M3.6 6.8h8.8a.6.6 0 0 1 .6.6v2.4c0 3.9-2.2 6.9-4.9 6.9S3.2 13.7 3.2 9.8V7.4A.6.6 0 0 1 3.6 6.8Z" />
+              <rect fill="currentColor" x="4.9" y="17" width="6" height="1.6" rx=".8" />
+              <path fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round" d="M13.2 8c4.1-.7 5.7 2.7 3.8 4.9-1 1.1-2.1 1-2.2 2.4v1.3" />
+              <rect fill="currentColor" x="15.9" y="16.9" width="3.6" height="2.4" rx=".7" />
+              <path fill="none" stroke="currentColor" strokeWidth="1.1" strokeLinecap="round" d="M17 19.3v1.6M18.4 19.3v1.6" />
             </svg>
             <span className="brand-text">Working<span className="brand-accent">Cafes</span></span>
           </Link>

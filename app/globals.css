@@ -20,6 +20,9 @@
   --cta-fg: #ffffff;
   --accent-soft: #f6e8db;
   --focus: #c96a2c;
+  /* Brand caramel — matches the logo cup color (#d4965d); nudged slightly deeper
+     in light mode so the wordmark stays readable on the cream background. */
+  --brand: #c07f42;
 
   --yes-bg: #e3f1e8; --yes-fg: #1e6b41;
   --no-bg:  #efe9e2; --no-fg:  #6f6259;
@@ -56,6 +59,7 @@
     --cta-fg: #1a120b;
     --accent-soft: #2c2117;
     --focus: #f0a468;
+    --brand: #e2ac74;
 
     --yes-bg: #16301f; --yes-fg: #86d3a3;
     --no-bg:  #2a231b; --no-fg:  #b4a698;
@@ -126,8 +130,8 @@ img, iframe { max-width: 100%; }
   letter-spacing: -0.02em;
   color: var(--fg);
 }
-.site-header .brand-mark { color: var(--accent); flex: none; width: 32px; height: 32px; }
-.site-header .brand-accent { color: var(--accent); }
+.site-header .brand-mark { color: var(--brand); flex: none; width: 32px; height: 32px; }
+.site-header .brand-accent { color: var(--brand); }
 .site-header .brand:hover { text-decoration: none; }
 .site-header .brand:hover .brand-accent { color: var(--accent-strong); }
 .site-header nav {
@@ -147,6 +151,32 @@ img, iframe { max-width: 100%; }
   text-decoration: none;
   background: var(--accent-soft);
   color: var(--accent-strong);
+}
+
+/* Phone header: brand on its own row, nav as a single horizontal-scroll row of
+   pills underneath, so the links never wrap into or overlap the logo. */
+@media (max-width: 620px) {
+  .site-header {
+    flex-wrap: wrap;
+    gap: 8px 12px;
+    padding: 11px 16px;
+  }
+  .site-header .brand { font-size: 1.15rem; }
+  .site-header .brand-mark { width: 28px; height: 28px; }
+  .site-header nav {
+    order: 3;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 4px;
+    margin: 0 -16px;
+    padding: 2px 16px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .site-header nav::-webkit-scrollbar { display: none; }
+  .site-header nav a { padding: 6px 11px; white-space: nowrap; }
 }
 
 h1 {
