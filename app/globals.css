@@ -6,20 +6,20 @@
 :root {
   color-scheme: light dark;
 
-  --bg: #faf7f2;
-  --surface: #ffffff;
-  --surface-2: #f4efe7;
+  --bg: #fdf6ec;
+  --surface: #fffdf8;
+  --surface-2: #f8efe1;
   --fg: #2a211c;
   --muted: #6f6259;
-  --line: #e8ded2;
-  --line-strong: #d9ccbc;
+  --line: #eaddcc;
+  --line-strong: #dbc9b4;
 
-  --accent: #9a4a17;
-  --accent-strong: #813c11;
-  --cta-bg: #a24e1c;
+  --accent: #b45520;
+  --accent-strong: #96461a;
+  --cta-bg: #c15f22;
   --cta-fg: #ffffff;
-  --accent-soft: #f6e8db;
-  --focus: #c96a2c;
+  --accent-soft: #fce7d3;
+  --focus: #d1793a;
 
   --yes-bg: #e3f1e8; --yes-fg: #1e6b41;
   --no-bg:  #efe9e2; --no-fg:  #6f6259;
