@@ -8,10 +8,26 @@ import { haversineMeters } from "./geo";
 import venuesData from "@/data/seed/venues.json";
 import areasData from "@/data/seed/areas.json";
 import stationsData from "@/data/seed/stations.json";
+import placesData from "@/data/places.json";
 
 // JSON is inferred with widened primitives (e.g. string instead of our unions),
 // so cast through unknown. In Phase B these come from typed DB queries instead.
-const venues = venuesData as unknown as Venue[];
+type PlaceInfo = { ref?: string | null; attr?: string | null; lat?: number | null; lng?: number | null };
+const places = placesData as unknown as Record<string, PlaceInfo | null>;
+
+// Merge Google Places enrichment (photo + precise coords) onto each venue.
+// Precise lat/lng from Places overrides the station-level approximation.
+const venues = (venuesData as unknown as Venue[]).map((v) => {
+  const p = places[v.slug];
+  if (!p) return v;
+  return {
+    ...v,
+    ...(p.ref ? { photoRef: p.ref } : {}),
+    ...(p.attr ? { photoAttr: p.attr } : {}),
+    ...(typeof p.lat === "number" ? { lat: p.lat } : {}),
+    ...(typeof p.lng === "number" ? { lng: p.lng } : {}),
+  };
+});
 const areas = areasData as unknown as Area[];
 const stations = stationsData as unknown as Station[];
 

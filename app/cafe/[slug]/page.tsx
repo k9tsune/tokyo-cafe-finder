@@ -49,6 +49,7 @@ export default function CafePage({ params }: { params: { slug: string } }) {
       </p>
 
       <CafeCover v={v} tall />
+      {v.photoAttr && <p className="photo-credit">Photo: {v.photoAttr} · via Google</p>}
 
       <h1>{v.name}</h1>
       <div className="badges">

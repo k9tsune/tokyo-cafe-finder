@@ -646,6 +646,41 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   margin: 26px 0;
 }
 
+/* Photo credit under a Places photo */
+.photo-credit { font-size: .72rem; color: var(--muted); margin: 6px 0 0; }
+
+/* Map page */
+.mapview {
+  height: min(72vh, 640px);
+  min-height: 380px;
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+.map-legend {
+  display: flex; flex-wrap: wrap; gap: 16px;
+  margin: 12px 0 14px; font-size: .85rem; color: var(--muted);
+}
+.map-legend span { display: inline-flex; align-items: center; gap: 7px; }
+.map-pin {
+  width: 15px; height: 15px; border-radius: 50%;
+  border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35);
+  cursor: pointer; display: inline-block; box-sizing: border-box;
+}
+.map-legend .map-pin { width: 13px; height: 13px; }
+.map-pin.both  { background: #1e9e57; }
+.map-pin.power { background: #d98a1f; }
+.map-pin.wifi  { background: #3a6ad9; }
+.map-pin.none  { background: #9a8f83; }
+/* MapLibre popup styled to match */
+.maplibregl-popup-content {
+  border-radius: 10px; padding: 10px 12px; font-family: var(--font);
+  box-shadow: var(--shadow); font-size: .9rem;
+}
+.maplibregl-popup-content a { color: var(--accent); font-weight: 600; }
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; scroll-behavior: auto !important; }
   .cafe-card:hover, .card-grid a:hover { transform: none; }

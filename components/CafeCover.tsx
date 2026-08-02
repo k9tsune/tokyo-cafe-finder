@@ -11,11 +11,15 @@ function hash(s: string): number {
 }
 
 export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolean }) {
-  if (v.photoUrl) {
+  const src =
+    v.photoUrl ||
+    (v.photoRef ? `/api/place-photo?ref=${encodeURIComponent(v.photoRef)}&w=${tall ? 1000 : 700}` : "");
+
+  if (src) {
     return (
       <div className={`cover${tall ? " cover-tall" : ""}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={v.photoUrl} alt={`${v.name} — cafe in ${v.nearestStation}`} loading="lazy" />
+        <img src={src} alt={`${v.name} — cafe near ${v.nearestStation}`} loading="lazy" />
       </div>
     );
   }

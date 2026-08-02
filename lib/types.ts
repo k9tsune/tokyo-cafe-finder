@@ -31,7 +31,9 @@ export interface Venue {
   typicalBusyness?: "low" | "medium" | "high";
 
   description: string;    // original prose — never copied from a source
-  photoUrl?: string;      // optional: real photo (e.g. Google Places) — falls back to a generated cover
+  photoUrl?: string;      // optional: a direct photo URL (overrides everything)
+  photoRef?: string;      // optional: Google Places photo resource name -> served via /api/place-photo
+  photoAttr?: string;     // optional: photo attribution (required by Google when a Places photo is shown)
   lastChecked: string;    // ISO date -> freshness badge
   confidence: Confidence;
   sourceUrl?: string;

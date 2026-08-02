@@ -21,7 +21,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           <Link href="/" className="brand">☕ {SITE.name}</Link>
           <nav>
-            <Link href="/tokyo">Tokyo</Link>
+            <Link href="/map">Map</Link>
+            <Link href="/tokyo">Areas</Link>
             <Link href="/tokyo/free-wifi-cafes">Free Wi-Fi</Link>
             <Link href="/tokyo/cafes-with-power-outlets">Outlets</Link>
           </nav>
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             Cafe data is checked regularly; the “last checked” date shows when.
           </p>
           <p className="attrib">
-            Base location data © OpenStreetMap contributors (ODbL). Maps &amp; directions via Google Maps.
+            Base location data © OpenStreetMap contributors (ODbL). Maps, directions &amp; cafe photos via Google. Map tiles © OpenFreeMap / OpenMapTiles.
           </p>
           <nav>
             <Link href="/about">About</Link>
