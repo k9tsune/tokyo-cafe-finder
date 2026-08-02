@@ -12,9 +12,27 @@ export type MapPoint = {
   power: boolean;
 };
 
-// Interactive map (MapLibre + free OpenFreeMap tiles — no API key, no cost).
-// Pins are colored by amenity: green = Wi-Fi + outlets, amber = outlets only,
-// blue = Wi-Fi only.
+// Reliable keyless raster basemap (CARTO Voyager, OSM data). Vector-style
+// endpoints were flaky; raster tiles from a CDN render consistently.
+const BASEMAP_STYLE = {
+  version: 8,
+  sources: {
+    carto: {
+      type: "raster",
+      tiles: [
+        "https://a.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+        "https://b.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+        "https://c.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",
+      ],
+      tileSize: 256,
+      attribution: "© OpenStreetMap contributors © CARTO",
+    },
+  },
+  layers: [{ id: "carto", type: "raster", source: "carto" }],
+};
+
+// Interactive map. Pins colored by amenity: green = Wi-Fi + outlets,
+// amber = outlets, blue = Wi-Fi.
 export default function MapView({ points }: { points: MapPoint[] }) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -22,11 +40,15 @@ export default function MapView({ points }: { points: MapPoint[] }) {
     let cancelled = false;
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let map: any;
-    import("maplibre-gl").then(({ default: maplibregl }) => {
+    (async () => {
+      const mod = await import("maplibre-gl");
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      const maplibregl: any = (mod as any).default || mod;
       if (cancelled || !ref.current) return;
+
       map = new maplibregl.Map({
         container: ref.current,
-        style: "https://tiles.openfreemap.org/styles/liberty",
+        style: BASEMAP_STYLE,
         center: [139.7671, 35.68],
         zoom: 10.4,
       });
@@ -46,7 +68,8 @@ export default function MapView({ points }: { points: MapPoint[] }) {
         );
         new maplibregl.Marker({ element: el }).setLngLat([p.lng, p.lat]).setPopup(popup).addTo(map);
       }
-    });
+    })();
+
     return () => {
       cancelled = true;
       if (map) map.remove();
