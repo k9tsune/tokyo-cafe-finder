@@ -7,11 +7,11 @@
     "source": "https://commons.wikimedia.org/wiki/File:Imperial_Palace_(3800898547).jpg"
   },
   "chuo": {
-    "file": "Ginza_Itoya_(34207621235).jpg",
-    "title": "Ginza (Itoya), Chuo",
-    "author": "calamity_sal",
+    "file": "L’immeuble_Nissan_Crossing_(Ginza,_Japon)_(27853251277).jpg",
+    "title": "Nissan Crossing, Ginza 4-chome",
+    "author": "Jean-Pierre Dalbéra",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Ginza_Itoya_(34207621235).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:L’immeuble_Nissan_Crossing_(Ginza,_Japon)_(27853251277).jpg"
   },
   "minato": {
     "file": "Tokyo_Tower_in_Snow_(12382858863).jpg",
@@ -84,17 +84,24 @@
     "source": "https://commons.wikimedia.org/wiki/File:Nakano_Broadway_(53147264156).jpg"
   },
   "toshima": {
-    "file": "On_the_way_to_Sunshine_City_サンシャインシティ_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg",
-    "title": "Sunshine City, Ikebukuro",
-    "author": "Arjan Richter",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_サンシャインシティ_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg"
-  },
-  "edogawa": {
-    "file": "Kasai_Rinkai_Park_@_Edogawa_City_(9553956451).jpg",
-    "title": "Kasai Rinkai Park",
+    "file": "Sunshine_60_building_@_Ikebukuro_(9353559670).jpg",
+    "title": "Sunshine 60, Ikebukuro",
     "author": "Guilhem Vellut",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Kasai_Rinkai_Park_@_Edogawa_City_(9553956451).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Sunshine_60_building_@_Ikebukuro_(9353559670).jpg"
+  },
+  "edogawa": {
+    "file": "Bird_Watching_Center_@_Kasai_Rinkai_Park_@_Edogawa_City_(9553973669).jpg",
+    "title": "Bird Watching Center, Kasai Rinkai Park",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bird_Watching_Center_@_Kasai_Rinkai_Park_@_Edogawa_City_(9553973669).jpg"
+  },
+  "shinagawa": {
+    "file": "Fujizuka_@_Shinagawa_Shrine_(9556609200).jpg",
+    "title": "Fuji-zuka at Shinagawa Shrine",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Fujizuka_@_Shinagawa_Shrine_(9556609200).jpg"
   }
 }
