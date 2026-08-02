@@ -41,7 +41,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme]) {
     --bg: #16120e;
     --surface: #1e1913;
     --surface-2: #262019;
@@ -68,6 +68,51 @@
     --shadow-lg: 0 8px 20px rgba(0, 0, 0, .5), 0 22px 56px rgba(0, 0, 0, .45);
   }
 }
+
+/* Manual dark theme, forced by the light/dark toggle regardless of OS setting. */
+:root[data-theme="dark"] {
+  --bg: #16120e;
+  --surface: #1e1913;
+  --surface-2: #262019;
+  --fg: #f2ebe2;
+  --muted: #b4a698;
+  --line: #352d24;
+  --line-strong: #453a2e;
+
+  --accent: #f0a468;
+  --accent-strong: #f6b57f;
+  --cta-bg: #d98544;
+  --cta-fg: #1a120b;
+  --accent-soft: #2c2117;
+  --focus: #f0a468;
+
+  --yes-bg: #16301f; --yes-fg: #86d3a3;
+  --no-bg:  #2a231b; --no-fg:  #b4a698;
+  --alt-bg: #1e2340; --alt-fg: #aab6ef;
+
+  --warn: #e8b055;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .35);
+  --shadow: 0 2px 6px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .35);
+  --shadow-lg: 0 8px 20px rgba(0, 0, 0, .5), 0 22px 56px rgba(0, 0, 0, .45);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  padding: 0;
+  border: 1.5px solid var(--line-strong);
+  background: var(--surface);
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  font-size: 1.05rem;
+  line-height: 1;
+  flex: none;
+}
+.theme-toggle:hover { border-color: var(--accent); }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -821,6 +866,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .maplibregl-popup-content strong { color: #23201c !important; }
 .maplibregl-popup-content strong { font-size: .97rem; display: inline-block; margin-bottom: 2px; }
 .maplibregl-popup-content .pop-status { color: #55534f !important; }
+.maplibregl-popup-content .pop-hours { color: #55534f !important; font-size: .82rem; }
 .maplibregl-popup-content a { color: #a24e1c !important; font-weight: 700; }
 .maplibregl-popup-content a:hover { color: #813c11 !important; }
 /* No box/underline on tap or click; keyboard nav gets a soft highlight, not a ring. */

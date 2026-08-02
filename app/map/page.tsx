@@ -20,6 +20,7 @@ export default function MapPage() {
       lng: v.lng as number,
       wifi: v.hasWifi,
       power: v.hasPower,
+      hours: v.businessHours,
     }));
 
   return (

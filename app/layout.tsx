@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
+import ThemeToggle from "@/components/ThemeToggle";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -38,6 +39,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`try{var t=localStorage.getItem('wc-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}`}
+        </Script>
         <header className="site-header">
           <Link href="/" className="brand" aria-label={`${SITE.name} — home`}>
             <svg className="brand-mark" viewBox="2.8 7.0 14.6 9.2" width="24" height="24" aria-hidden="true" focusable="false" fill="none">
@@ -52,6 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/tokyo">Areas</Link>
             <Link href="/tokyo/free-wifi-cafes">Free Wi-Fi</Link>
             <Link href="/tokyo/cafes-with-power-outlets">Power outlets</Link>
+            <ThemeToggle />
           </nav>
         </header>
         <main className="container">{children}</main>

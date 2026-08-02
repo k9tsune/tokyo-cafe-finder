@@ -10,6 +10,7 @@ export type MapPoint = {
   lng: number;
   wifi: boolean;
   power: boolean;
+  hours?: string;
 };
 
 // Reliable keyless raster basemap (CARTO Voyager, OSM data). Vector-style
@@ -68,8 +69,9 @@ export default function MapView({ points }: { points: MapPoint[] }) {
         el.className = `map-marker ${kind}`;
         const safeName = p.name.replace(/[<>&]/g, "");
         const status = p.wifi && p.power ? "Wi-Fi + outlets" : p.power ? "Outlets" : p.wifi ? "Wi-Fi" : "—";
+        const hoursLine = p.hours ? `<span class="pop-hours">🕒 ${p.hours.replace(/[<>&]/g, "")}</span><br>` : "";
         const popup = new maplibregl.Popup({ offset: 16, closeButton: false }).setHTML(
-          `<strong>${safeName}</strong><br><span class="pop-status">${status}</span><br>` +
+          `<strong>${safeName}</strong><br><span class="pop-status">${status}</span><br>${hoursLine}` +
             `<a href="/cafe/${p.slug}">Details</a> · <a href="/cafe/${p.slug}?dir=1#map">Directions →</a>`
         );
         // On touch, opening the popup can leave a link focused, showing a focus
