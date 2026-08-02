@@ -3,7 +3,7 @@ import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import SakuraDecor from "@/components/SakuraDecor";
 import AreaCover from "@/components/AreaCover";
-import { areaPhoto } from "@/lib/media";
+import { areaPhotoSrc } from "@/lib/media";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
@@ -32,7 +32,7 @@ export default function HomePage() {
       <div className="card-grid">
         {areas.map((a) => (
           <Link key={a.slug} href={`/tokyo/${a.slug}`} className="has-cover">
-            <AreaCover slug={a.slug} name={a.name} photo={areaPhoto(a.slug)} />
+            <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} />
             <div className="cover-text">
               <strong>{a.name}</strong>
               <div className="muted" style={{ fontSize: ".82rem" }}>Cafes with Wi-Fi &amp; outlets</div>

@@ -1,1 +1,100 @@
-{}
+{
+  "chiyoda": {
+    "file": "Imperial_Palace_(3800898547).jpg",
+    "title": "Imperial Palace, Tokyo",
+    "author": "A S (Flickr user adeshfr)",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Imperial_Palace_(3800898547).jpg"
+  },
+  "chuo": {
+    "file": "Ginza_Itoya_(34207621235).jpg",
+    "title": "Ginza (Itoya), Chuo",
+    "author": "calamity_sal",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Ginza_Itoya_(34207621235).jpg"
+  },
+  "minato": {
+    "file": "Tokyo_Tower_in_Snow_(12382858863).jpg",
+    "title": "Tokyo Tower",
+    "author": "Takashi Hososhima",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_in_Snow_(12382858863).jpg"
+  },
+  "shinjuku": {
+    "file": "Shinjuku_skyline,_Tokyo_-_Sony_A7R_(11831328835).jpg",
+    "title": "Shinjuku skyscrapers",
+    "author": "Luke Ma",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shinjuku_skyline,_Tokyo_-_Sony_A7R_(11831328835).jpg"
+  },
+  "bunkyo": {
+    "file": "Bunkyo_Civic_Center_@_Tokyo_(9821263214).jpg",
+    "title": "Bunkyo Civic Center",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bunkyo_Civic_Center_@_Tokyo_(9821263214).jpg"
+  },
+  "taito": {
+    "file": "Red_Lantern_at_Hozo-Mon_Gate,_Sensō-ji_Temple,_Asakusa_(53416645016).jpg",
+    "title": "Sensō-ji (Hōzōmon), Asakusa",
+    "author": "Stephen Kelly",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Red_Lantern_at_Hozo-Mon_Gate,_Sensō-ji_Temple,_Asakusa_(53416645016).jpg"
+  },
+  "sumida": {
+    "file": "Tokyo_Skytree_in_Dec_2014_(16015772528).jpg",
+    "title": "Tokyo Skytree",
+    "author": "Wei-Te Wong",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_in_Dec_2014_(16015772528).jpg"
+  },
+  "koto": {
+    "file": "Dream_Bridge_@_Odaiba_Ariake_(9490366073).jpg",
+    "title": "Dream Bridge (Yume-no-Ohashi), Ariake",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dream_Bridge_@_Odaiba_Ariake_(9490366073).jpg"
+  },
+  "ota": {
+    "file": "TOKYO_HANEDA_AIRPORT_VIEW_FROM_DOMESTIC_TERMINAL_2_OBSERVATION_DECK_JAPAN_JUNE_2012_(7519272586).jpg",
+    "title": "Haneda Airport",
+    "author": "Stephen J Mason",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:TOKYO_HANEDA_AIRPORT_VIEW_FROM_DOMESTIC_TERMINAL_2_OBSERVATION_DECK_JAPAN_JUNE_2012_(7519272586).jpg"
+  },
+  "setagaya": {
+    "file": "Dorama_Store,_Shimokitazawa_(53416985969).jpg",
+    "title": "Shimokitazawa",
+    "author": "Stephen Kelly",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Dorama_Store,_Shimokitazawa_(53416985969).jpg"
+  },
+  "shibuya": {
+    "file": "World's_busiest_pedestrian_crossing_-_Large_panorama_of_the_Shibuya_Crossing_(43828061665).jpg",
+    "title": "Shibuya Crossing",
+    "author": "Jorge Láscar",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:World's_busiest_pedestrian_crossing_-_Large_panorama_of_the_Shibuya_Crossing_(43828061665).jpg"
+  },
+  "nakano": {
+    "file": "Nakano_Broadway_(53147264156).jpg",
+    "title": "Nakano Broadway",
+    "author": "Dick Thomas Johnson",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Nakano_Broadway_(53147264156).jpg"
+  },
+  "toshima": {
+    "file": "On_the_way_to_Sunshine_City_サンシャインシティ_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg",
+    "title": "Sunshine City, Ikebukuro",
+    "author": "Arjan Richter",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:On_the_way_to_Sunshine_City_サンシャインシティ_in_Ikebukuro,_Tokyo,_Japan_(26295481219).jpg"
+  },
+  "edogawa": {
+    "file": "Kasai_Rinkai_Park_@_Edogawa_City_(9553956451).jpg",
+    "title": "Kasai Rinkai Park",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Kasai_Rinkai_Park_@_Edogawa_City_(9553956451).jpg"
+  }
+}

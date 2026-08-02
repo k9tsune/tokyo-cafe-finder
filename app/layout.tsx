@@ -74,8 +74,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <nav>
             <Link href="/map">Map</Link>
             <Link href="/tokyo">Areas</Link>
-            <Link href="/tokyo/free-wifi-cafes">Free Wi-Fi</Link>
-            <Link href="/tokyo/cafes-with-power-outlets">Power outlets</Link>
             <ThemeToggle />
           </nav>
         </header>
@@ -93,6 +91,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/guides">Guides</Link>
             <Link href="/about">About</Link>
             <Link href="/contact">Contact</Link>
+            <Link href="/credits">Photo credits</Link>
             <Link href="/privacy">Privacy</Link>
           </nav>
         </footer>

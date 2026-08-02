@@ -1,12 +1,30 @@
 import areaPhotos from "@/data/area-photos.json";
 
-// Optional real-photo overrides for area (and later station) covers. Map a slug
-// to a filename placed in public/areas/. When present, the photo replaces the
-// generated skyline tile; otherwise the tile is used. This keeps the site fully
-// covered for free while letting real photos be added one at a time.
-const AREA_PHOTOS = areaPhotos as Record<string, string>;
+// Real-photo overrides for area covers, sourced from Wikimedia Commons (free
+// licenses). Images are hotlinked via Commons' stable Special:FilePath endpoint
+// (resized), so no files are stored locally. Attribution is shown on /credits.
+// Wards without an entry fall back to the generated skyline tile.
 
-export function areaPhoto(slug: string): string | undefined {
-  const file = AREA_PHOTOS[slug];
-  return file ? `/areas/${file}` : undefined;
+export type AreaPhoto = {
+  file: string;
+  title: string;
+  author: string;
+  license: string;
+  source: string;
+};
+
+const AREA_PHOTOS = areaPhotos as Record<string, AreaPhoto>;
+
+export function areaPhotoSrc(slug: string): string | undefined {
+  const p = AREA_PHOTOS[slug];
+  if (!p) return undefined;
+  return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(p.file)}?width=640`;
+}
+
+export function areaPhotoMeta(slug: string): AreaPhoto | undefined {
+  return AREA_PHOTOS[slug];
+}
+
+export function allAreaPhotos(): Array<{ slug: string } & AreaPhoto> {
+  return Object.entries(AREA_PHOTOS).map(([slug, p]) => ({ slug, ...p }));
 }
