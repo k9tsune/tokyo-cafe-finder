@@ -2,8 +2,8 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 
 // Guides are stored as structured data (strings, not JSX text) so the prose can
-// use apostrophes and quotes freely. A "part" is either plain text or an internal
-// link. Voice: warm, first-person, plain English for ESL readers, no em dashes.
+// use apostrophes, kaomojis and quotes freely. A "part" is either plain text or
+// an internal link. Voice: first person, casual, plain English, no em dashes.
 
 export type Part = string | { to: string; text: string };
 export type Block =
@@ -48,53 +48,52 @@ export const GUIDES: Guide[] = [
     slug: "best-tokyo-neighbourhoods-to-work-from-a-cafe",
     title: "The best Tokyo neighbourhoods to work from a cafe",
     description:
-      "Where to actually open your laptop in Tokyo: the neighbourhoods with the most work-friendly cafes, from reliable chains in Shibuya to specialty roasters in Nakameguro.",
+      "Where I actually go to open my laptop in Tokyo: the neighbourhoods with the most work-friendly cafes, from reliable chains in Shibuya to specialty roasters in Nakameguro.",
     date: "2026-08-02",
-    blurb:
-      "Tokyo is enormous, so where do you actually go to sit down and get work done? Here are the neighbourhoods we keep coming back to.",
+    blurb: "Tokyo is huge, so where do I actually go to open my laptop? Here are the areas I keep coming back to ^^",
     body: [
       {
         p: [
-          "Tokyo is huge, and that is part of the fun, but it can also make one simple question surprisingly hard: where do you actually go to open your laptop for a few hours? The answer really depends on what kind of afternoon you want. Do you need a reliable chain with fast Wi-Fi near a big station, or a quiet specialty cafe where you can hear yourself think? Here are the areas we keep coming back to, and what each one is good for.",
+          "Tokyo is honestly massive, and figuring out where to sit down and work can be weirdly stressful. Over time I've tried a lot of cafes in a lot of neighbourhoods, so here are the ones I keep going back to, and what each is good for.",
         ],
       },
-      { h2: "Shibuya and Shinjuku: busy, but you will always find a seat" },
+      { h2: "Shibuya and Shinjuku: busy, but always a seat" },
       {
         p: [
-          "If you just need somewhere to work right now, the big hubs are your friend. ",
+          "When I just need to work right now, I head to ",
           { to: "/tokyo/shibuya", text: "Shibuya" },
-          " and ",
+          " or ",
           { to: "/tokyo/shinjuku", text: "Shinjuku" },
-          " are packed with cafes, and because there are so many of them, you can almost always find a free table if you are willing to walk a block or two. The trade-off is noise and crowds, especially at lunch. Our tip: go up. The cafes on the higher floors of department stores and office buildings are usually calmer than the ones at street level, and some have a surprisingly nice view.",
+          ". There are so many cafes that I can almost always grab a free table if I walk a block or two. It gets loud and crowded at lunch though, so my trick is to go up: the cafes on the higher floors of department stores are usually way calmer, and sometimes you get a nice view too (・∀・)",
         ],
       },
-      { h2: "Nakameguro and Daikanyama: pretty, calm, and full of good coffee" },
+      { h2: "Nakameguro and Daikanyama: pretty and calm" },
       {
         p: [
-          "When we want the work session to feel like a treat, we head to ",
+          "When I want the work session to feel like a little treat, I go to ",
           { to: "/tokyo/meguro", text: "Nakameguro" },
-          ". It is walkable, it runs along a canal that is lovely in any season, and it is full of specialty roasters (cafes that roast their own beans). The catch is that some of the smallest, most beautiful spots do not have power outlets, so charge your laptop before you go, and check the listing first if a plug is a must for you.",
+          ". It runs along a canal that's gorgeous in any season and it's full of specialty roasters (cafes that roast their own beans). Heads up though, some of the tiniest, prettiest spots don't have outlets, so I always charge up first and double check the listing if I really need a plug.",
         ],
       },
-      { h2: "Koenji, Kichijoji and the west side: cheaper, slower, more local" },
+      { h2: "Koenji, Kichijoji and the west side: cheaper and slower" },
       {
         p: [
-          "Head west and the pace changes. Neighbourhoods like Koenji and Kichijoji feel more like a real Tokyo where people live, not just work. The cafes are often independent, a little cheaper, and less crowded on a weekday, which is exactly what you want for a long focused session. You give up some of the polish and the guaranteed outlets, but you gain a lot of character.",
+          "Out west the vibe changes completely. Places like Koenji and Kichijoji feel more like where people actually live, and the cafes are usually independent, a bit cheaper, and way less crowded on a weekday. I give up a little polish and the guaranteed outlets, but I get a lot more character, and honestly that's often the trade I want.",
         ],
       },
-      { h2: "When you just need to charge and go" },
+      { h2: "When I just need to charge and go" },
       {
         p: [
-          "Sometimes you are not looking for a vibe, you are looking for a plug. If your phone is dying, a reliable chain near any major station is your safest bet, and you can filter for exactly that on our ",
+          "Sometimes I'm not after a vibe, I just need a plug before my phone dies. For that, a reliable chain near any big station is the safe bet, and I filter for exactly that on the ",
           { to: "/tokyo/cafes-with-power-outlets", text: "power outlets" },
-          " page. And if it is late, remember that Tokyo does not really sleep: see our ",
+          " page. And if it's late, Tokyo has my back, see the ",
           { to: "/tokyo/open-late-cafes", text: "open late and 24-hour" },
-          " list for places that will take you in at 2am.",
+          " list for places that will take you in at 2am (￣▽￣)",
         ],
       },
       {
         p: [
-          "Wherever you land, the honest advice is the same: check the listing before you go, because Wi-Fi and outlets vary a lot even between two branches of the same chain. That is the whole reason we built this, so you do not have to find out the hard way.",
+          "Wherever you end up, my one honest tip is always the same: check the listing before you go, because Wi-Fi and outlets can be totally different between two branches of the same chain. That's the whole reason I made this, so you don't have to find out the hard way.",
         ],
       },
     ],
@@ -113,42 +112,41 @@ export const GUIDES: Guide[] = [
     slug: "how-to-find-power-outlets-in-tokyo-cafes",
     title: "How to find a power outlet in a Tokyo cafe",
     description:
-      "A practical guide for visitors: which Tokyo cafes actually have power outlets, why so many do not, and how to find a plug when your phone is dying.",
+      "A practical guide from experience: which Tokyo cafes actually have power outlets, why so many do not, and how to find a plug when your phone is dying.",
     date: "2026-08-02",
-    blurb:
-      "Your phone is at four percent and you are lost in Shinjuku. Here is how to find a plug, fast.",
+    blurb: "My phone's at four percent and I'm lost in Shinjuku. Here's how I find a plug, fast (>_<)",
     body: [
       {
         p: [
-          "Here is something that surprises a lot of first-time visitors: plenty of Tokyo cafes do not have power outlets for customers, and the ones that do often keep them at just a few seats. It is not that anyone is being unfriendly. Space is tight, rents are high, and many cafes would simply rather you enjoy your coffee and move on. So if you are travelling with a phone that never quite makes it to dinner, it helps to know where to look.",
+          "Something that really surprised me when I first got here: a lot of Tokyo cafes just don't have outlets for customers, and the ones that do often keep them at only a few seats. It's not that anyone is being unfriendly. Space is tight, rent is high, and honestly a lot of cafes would rather you enjoy your coffee and head off. So if your phone never quite survives the day like mine, it helps to know where to look.",
         ],
       },
-      { h2: "The chains are your safest bet" },
+      { h2: "Chains are the safe bet" },
       {
         p: [
-          "If you need a plug and you need it now, a big chain near a station is usually your best chance. But even here it varies, and this is the part people get wrong: most Starbucks in Japan have Wi-Fi but no outlets, while a few do. The same goes for other chains. That is exactly why every listing on our ",
+          "When I need a plug fast, a big chain near a station is my best shot. But even then it varies, and this is the part people get wrong: most Starbucks in Japan have Wi-Fi but no outlets, and only a few do. Same story with the other chains. That's exactly why every cafe on the ",
           { to: "/tokyo/cafes-with-power-outlets", text: "power outlets" },
-          " page is checked at the branch level, not just for the brand.",
+          " page is checked branch by branch, not just by brand.",
         ],
       },
       { h2: "Look for the counter seats" },
       {
         p: [
-          "When you walk in, glance at the long counter seats that run along a wall or a window. In Japan, that is where the outlets usually live, often one plug per seat, sometimes with a small sign. If you do not see them, it is completely fine to ask a staff member. The magic word is konsento (the Japanese word for a power outlet, borrowed from the English \"concent\"). A quick \"konsento wa arimasu ka?\" (do you have an outlet?) will get you a clear yes or no.",
+          "First thing I do walking in is glance at the long counter seats along a wall or window. In Japan that's usually where the outlets hide, often one per seat, sometimes with a little sign. If I can't spot them I just ask, it's totally normal. The word is konsento (Japanese for a power outlet), so a quick \"konsento wa arimasu ka?\" (do you have an outlet?) gets you a clear yes or no ^^",
         ],
       },
-      { h2: "Your backups: family restaurants and manga cafes" },
+      { h2: "My backups: family restaurants and manga cafes" },
       {
         p: [
-          "When the cafes let you down, Japan has two reliable safety nets. Family restaurants like Gusto, Jonathan's and Denny's almost always have outlets and Wi-Fi, they are cheap, and many stay open very late. And the real secret weapon is the manga kissa (a manga and internet cafe with private booths), which has outlets, Wi-Fi, free drinks and a door that closes. Both show up on our ",
+          "When the cafes let me down, Japan has two lifesavers. Family restaurants like Gusto, Jonathan's and Denny's almost always have outlets and Wi-Fi, they're cheap, and lots of them stay open really late. And the real secret weapon is the manga kissa (a manga and internet cafe with private booths), which has outlets, Wi-Fi, free drinks and a door that actually shuts. Both show up on the ",
           { to: "/tokyo/open-late-cafes", text: "open late and 24-hour" },
-          " list, which is worth a look before you find yourself stuck.",
+          " list, which is worth a look before you're actually stuck (・∀・)b",
         ],
       },
-      { h2: "One small courtesy" },
+      { h2: "One little courtesy" },
       {
         p: [
-          "When you do find a plug, try not to treat it like your personal office for the whole day, especially when the place is busy. Order something, keep an eye on the room, and free up the seat when you are done. It keeps these outlets available for the next traveller, and it keeps cafes willing to offer them at all.",
+          "When I do grab a plug, I try not to camp there all day, especially when it's busy. I order something, keep an eye on the room, and free up the seat when I'm done. It keeps the outlets free for the next traveller, and it keeps cafes willing to offer them at all.",
         ],
       },
     ],
@@ -171,48 +169,39 @@ export const GUIDES: Guide[] = [
     slug: "cafe-work-etiquette-in-japan",
     title: "Cafe work etiquette in Japan: the unspoken rules",
     description:
-      "How long can you really stay, is it rude to work on a laptop, and other quiet rules of working from a cafe in Japan, explained for visitors.",
+      "How long can you really stay, is it rude to work on a laptop, and other quiet rules of working from a cafe in Japan, from my own experience.",
     date: "2026-08-02",
-    blurb:
-      "Is it rude to sit for three hours with a laptop and one coffee? Here are the quiet rules, explained.",
+    blurb: "Is it rude to sit for three hours with a laptop and one coffee? Here's what I've figured out (・_・;)",
     body: [
       {
         p: [
-          "Cafes in Japan can feel wonderfully relaxed, but there is a soft layer of etiquette running underneath, and most of it is never written down. The good news is that it is all common sense once someone tells you, and getting it right means you will feel welcome everywhere. So here is what we wish someone had told us.",
+          "Cafes here can feel wonderfully relaxed, but there's a quiet layer of etiquette running underneath, and most of it never gets written down. The good news is it's all pretty common sense once someone tells you, and getting it right means you'll feel welcome everywhere. So here's the stuff I wish someone had told me earlier.",
         ],
       },
-      { h2: "How long can you stay?" },
+      { h2: "How long can I stay?" },
       {
         p: [
-          "This is the big question, and the honest answer is: it depends on the place and how busy it is. As a rough rule, one drink buys you an hour or two, and it is polite to order something else if you settle in for longer. Nobody is timing you at a quiet chain on a slow afternoon. But when a small cafe fills up and people are waiting for a seat, that is your cue to wrap up, even if you were hoping for one more hour. Read the room and you will rarely go wrong.",
+          "This is the big one, and honestly it depends on the place and how busy it is. My rough rule: one drink buys me an hour or two, and I order something else if I'm settling in for longer. Nobody is timing you at a quiet chain on a slow afternoon. But when a small cafe fills up and people are waiting for a seat, that's my cue to wrap up, even if I was hoping for one more hour. Read the room and you'll be fine ^^",
         ],
       },
       { h2: "Is working on a laptop even okay?" },
       {
         p: [
-          "In most modern chains and work-friendly cafes, yes, absolutely, you will see plenty of people doing the same thing. But not everywhere. Some traditional kissaten (old-style Japanese coffee houses) and small owner-run cafes prefer that you drink, talk and relax, not set up an office. A few have polite signs asking you not to use a laptop at busy times. If a place feels like someone's living room, treat it that way, and save the spreadsheet for a chain.",
+          "In most modern chains and work-friendly cafes, totally, you'll see loads of people doing the same thing. But not everywhere. Some traditional kissaten (old-style Japanese coffee houses) and tiny owner-run cafes would rather you drink, chat and relax than set up an office, and a few have polite signs asking you not to use a laptop at busy times. If a place feels like someone's living room, I treat it that way, and save the spreadsheet for a chain.",
         ],
       },
-      { h2: "The little things that matter" },
+      { h2: "The little things" },
       {
         ul: [
-          [
-            "Keep phone calls and video calls out of the cafe. Step outside, or use a manga kissa booth. Speaking quietly is the default indoors.",
-          ],
-          [
-            "Do not spread out across a big table at peak times. One person, one seat.",
-          ],
-          [
-            "There is no tipping in Japan, so do not leave coins on the table. A quiet \"gochisousama\" (thank you for the meal) as you leave is lovely.",
-          ],
-          [
-            "Many cafes ask you to return your own tray or cup to the counter. Follow what the locals do.",
-          ],
+          ["I keep phone calls and video calls out of the cafe. I step outside, or use a manga kissa booth. Speaking quietly is just the default indoors."],
+          ["I don't spread out across a big table at peak times. One person, one seat."],
+          ["There's no tipping in Japan, so don't leave coins on the table. A quiet \"gochisousama\" (thanks for the meal) on the way out is a nice touch though."],
+          ["Lots of cafes want you to bring your own tray or cup back to the counter, so I just copy what the locals are doing."],
         ],
       },
       {
         p: [
-          "None of this is about being stiff or nervous. It is the same instinct you already have as a good guest: notice the room, take up a fair share of space, and leave it as nice as you found it. Do that, and a Tokyo cafe is one of the best places in the world to spend an afternoon. If you need to find one with the right seats and a plug, that is what the rest of ",
+          "None of this is about being stiff or nervous. It's the same instinct you already have as a good guest: notice the room, take a fair share of space, and leave it as nice as you found it. Do that, and a Tokyo cafe is one of my favorite places in the world to spend an afternoon (＾▽＾) If you need to find one with the right seats and a plug, that's what the rest of ",
           { to: "/", text: "WorkingCafes" },
           " is for.",
         ],
