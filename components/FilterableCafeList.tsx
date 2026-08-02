@@ -1,22 +1,22 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { Venue, MatchMode } from "@/lib/types";
+import type { Venue } from "@/lib/types";
 import CafeCard from "./CafeCard";
 
-// Client-side AND/OR filter (plan §2.2). The full list is rendered server-side
-// first (good for SEO/GEO crawling); this just narrows what's visible.
+// Client-side filter. The full list is rendered server-side first (good for
+// SEO/GEO crawling); this just narrows what's visible. When both Wi-Fi and
+// outlets are on, we require both.
 export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
   const [wifi, setWifi] = useState(false);
   const [power, setPower] = useState(false);
   const [late, setLate] = useState(false);
-  const [match, setMatch] = useState<MatchMode>("all");
 
   // Pre-apply the choices made in the home search (?need=both|power|wifi, ?late=1).
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const need = params.get("need");
-    if (need === "both") { setWifi(true); setPower(true); setMatch("all"); }
+    if (need === "both") { setWifi(true); setPower(true); }
     else if (need === "power") { setPower(true); }
     else if (need === "wifi") { setWifi(true); }
     if (params.get("late") === "1") setLate(true);
@@ -29,11 +29,9 @@ export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
     return list.filter((v) => {
       if (wifi && !power) return v.hasWifi;
       if (power && !wifi) return v.hasPower;
-      return match === "any" ? v.hasWifi || v.hasPower : v.hasWifi && v.hasPower;
+      return v.hasWifi && v.hasPower;
     });
-  }, [venues, wifi, power, late, match]);
-
-  const bothOn = wifi && power;
+  }, [venues, wifi, power, late]);
 
   return (
     <div>
@@ -62,26 +60,6 @@ export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
         >
           Open late / 24h
         </button>
-
-        {bothOn && (
-          <span className="match">
-            Match:
-            <button
-              type="button"
-              className={`seg ${match === "all" ? "on" : ""}`}
-              onClick={() => setMatch("all")}
-            >
-              All (both)
-            </button>
-            <button
-              type="button"
-              className={`seg ${match === "any" ? "on" : ""}`}
-              onClick={() => setMatch("any")}
-            >
-              Any (either)
-            </button>
-          </span>
-        )}
       </div>
 
       <p className="count">{filtered.length} cafe{filtered.length === 1 ? "" : "s"}</p>
