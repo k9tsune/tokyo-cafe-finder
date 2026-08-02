@@ -43,10 +43,11 @@ export default function HomePage() {
 
       <h2>About {SITE.name}</h2>
       <p className="muted">
-        An independent, English-first guide to working from cafes in Tokyo. We focus on the
-        details travelers and remote workers actually need — is there Wi-Fi, are there outlets,
-        and can you comfortably open a laptop — and we re-check listings regularly so the answer
-        stays right.
+        An independent guide to working from cafes in Tokyo. As a freelance worker in Tokyo, I
+        always found it frustrating to find places to work, so I made this site to help myself and
+        anyone with the same problem. Each listing checks three things: is there Wi-Fi, are there
+        outlets, and can you use a laptop there. The site also re-checks listings regularly to make
+        sure the information stays right.
       </p>
     </div>
   );
