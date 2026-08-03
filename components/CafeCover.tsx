@@ -12,10 +12,12 @@ function hash(s: string): number {
 }
 
 export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolean }) {
-  const cat = !v.photoUrl && !v.photoRef ? categoryImageFor(v.name, v.nameJa) : null;
+  const hasReal = v.photoUrl || v.photoRef || v.hotpepperPhoto;
+  const cat = !hasReal ? categoryImageFor(v.name, v.nameJa) : null;
   const src =
     v.photoUrl ||
     (v.photoRef ? `/api/place-photo?ref=${encodeURIComponent(v.photoRef)}&w=${tall ? 1000 : 700}` : "") ||
+    v.hotpepperPhoto ||
     (cat ? categoryImageSrc(cat, tall ? 1000 : 800) : "");
 
   if (src) {

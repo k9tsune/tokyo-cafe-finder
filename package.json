@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "collect": "node scripts/collect-overpass.mjs",
-    "enrich": "node scripts/enrich.mjs"
+    "enrich": "node scripts/enrich.mjs",
+    "hotpepper": "node scripts/fetch-hotpepper.mjs"
   },
   "dependencies": {
     "maplibre-gl": "^6.1.0",

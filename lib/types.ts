@@ -36,6 +36,8 @@ export interface Venue {
   photoUrl?: string;      // optional: a direct photo URL (overrides everything)
   photoRef?: string;      // optional: Google Places photo resource name -> served via /api/place-photo
   photoAttr?: string;     // optional: photo attribution (required by Google when a Places photo is shown)
+  hotpepperPhoto?: string; // optional: free HotPepper shop photo URL (hotlinked)
+  hotpepperUrl?: string;   // optional: HotPepper shop page — REQUIRED link-back when the photo is shown
   lastChecked: string;    // ISO date -> freshness badge
   confidence: Confidence;
   sourceUrl?: string;

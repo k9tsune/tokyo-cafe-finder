@@ -52,7 +52,14 @@ export default function CafePage({ params }: { params: { slug: string } }) {
       <CafeCover v={v} tall />
       {v.photoAttr ? (
         <p className="photo-credit">Photo: {v.photoAttr} · via Google</p>
-      ) : !v.photoUrl && !v.photoRef ? (() => {
+      ) : v.hotpepperPhoto && v.hotpepperUrl ? (
+        <p className="photo-credit">
+          Photo &amp; details via{" "}
+          <a href={v.hotpepperUrl} target="_blank" rel="noopener noreferrer">
+            ホットペッパーグルメ
+          </a>
+        </p>
+      ) : !v.photoUrl && !v.photoRef && !v.hotpepperPhoto ? (() => {
         const c = categoryImageFor(v.name, v.nameJa);
         if (!c) return null;
         return (

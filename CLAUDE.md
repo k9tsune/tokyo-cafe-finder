@@ -61,10 +61,16 @@ default.
 
 ## Cafe images / Google Places budget policy
 - Every cafe always has a cover (`components/CafeCover.tsx`), in priority order:
-  direct `photoUrl` → real Google Places photo (`photoRef`) → representative
-  chain/category image (`data/category-images.json`, keyed by name via
-  `lib/cafe-image.ts`) → generated tile. So the site is never image-less, even
-  with zero Google spend.
+  direct `photoUrl` → Google Places photo (`photoRef`) → free HotPepper photo
+  (`hotpepperPhoto`) → representative chain/category image
+  (`data/category-images.json`, via `lib/cafe-image.ts`) → generated tile. So the
+  site is never image-less, even with zero Google spend.
+- **HotPepper is the preferred real-photo source — it's FREE (no metering).**
+  `npm run hotpepper` (needs `HOTPEPPER_KEY`, free key from Recruit Web Service)
+  matches cafes and caches photo + shop URL in `data/hotpepper.json` (committed;
+  NOT part of the build, so no deploy calls it). When a HotPepper photo is shown
+  the cafe page MUST link back to the shop's HotPepper page (required by their
+  terms) — handled in `app/cafe/[slug]/page.tsx`.
 - **Places is OFF by default.** `scripts/fetch-places.mjs` no-ops unless
   `PLACES_ENABLE=1` is set — a kill-switch so no build ever spends by accident.
   Turn it on ONLY after setting a hard Google Cloud budget cap + API quota.

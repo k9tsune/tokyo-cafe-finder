@@ -9,23 +9,29 @@ import venuesData from "@/data/seed/venues.json";
 import areasData from "@/data/seed/areas.json";
 import stationsData from "@/data/seed/stations.json";
 import placesData from "@/data/places.json";
+import hotpepperData from "@/data/hotpepper.json";
 
 // JSON is inferred with widened primitives (e.g. string instead of our unions),
 // so cast through unknown. In Phase B these come from typed DB queries instead.
 type PlaceInfo = { ref?: string | null; attr?: string | null; lat?: number | null; lng?: number | null };
 const places = placesData as unknown as Record<string, PlaceInfo | null>;
+type HotpepperInfo = { photo?: string | null; url?: string | null };
+const hotpepper = hotpepperData as unknown as Record<string, HotpepperInfo | null>;
 
-// Merge Google Places enrichment (photo + precise coords) onto each venue.
-// Precise lat/lng from Places overrides the station-level approximation.
+// Merge photo enrichment onto each venue: Google Places (photo + precise coords)
+// and/or free HotPepper (photo + required link-back). Precise lat/lng from Places
+// overrides the station-level approximation.
 const venues = (venuesData as unknown as Venue[]).map((v) => {
   const p = places[v.slug];
-  if (!p) return v;
+  const h = hotpepper[v.slug];
   return {
     ...v,
-    ...(p.ref ? { photoRef: p.ref } : {}),
-    ...(p.attr ? { photoAttr: p.attr } : {}),
-    ...(typeof p.lat === "number" ? { lat: p.lat } : {}),
-    ...(typeof p.lng === "number" ? { lng: p.lng } : {}),
+    ...(p?.ref ? { photoRef: p.ref } : {}),
+    ...(p?.attr ? { photoAttr: p.attr } : {}),
+    ...(typeof p?.lat === "number" ? { lat: p.lat } : {}),
+    ...(typeof p?.lng === "number" ? { lng: p.lng } : {}),
+    ...(h?.photo ? { hotpepperPhoto: h.photo } : {}),
+    ...(h?.url ? { hotpepperUrl: h.url } : {}),
   };
 });
 // Merge Google Places photos onto areas/stations (keyed "area:<slug>" /
