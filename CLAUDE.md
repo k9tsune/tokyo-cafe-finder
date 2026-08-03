@@ -65,6 +65,9 @@ default.
   chain/category image (`data/category-images.json`, keyed by name via
   `lib/cafe-image.ts`) → generated tile. So the site is never image-less, even
   with zero Google spend.
+- **Places is OFF by default.** `scripts/fetch-places.mjs` no-ops unless
+  `PLACES_ENABLE=1` is set — a kill-switch so no build ever spends by accident.
+  Turn it on ONLY after setting a hard Google Cloud budget cap + API quota.
 - **Google Places is metered against a recurring monthly free credit** — do NOT
   drain it. `scripts/fetch-places.mjs` enforces:
   - a hard **cap** of `PLACES_MAX_NEW` new photo lookups per run (default 250),

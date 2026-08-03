@@ -43,6 +43,15 @@ async function main() {
   let places = {};
   try { places = JSON.parse(await readFile("data/places.json", "utf8")); } catch {}
 
+  // SAFETY KILL-SWITCH: do nothing unless explicitly enabled. Google Places is
+  // metered and billed once the monthly free credit is used up, so a build must
+  // never call it by accident. Set PLACES_ENABLE=1 (and a Google Cloud budget cap)
+  // only when you deliberately want to (re)populate the photo cache. Default OFF.
+  if (process.env.PLACES_ENABLE !== "1") {
+    console.log("fetch-places: DISABLED (set PLACES_ENABLE=1 to run). Existing cache + category/illustration fallbacks are used — no Google spend.");
+    return;
+  }
+
   if (!KEY) {
     console.log("fetch-places: no GOOGLE_PLACES_KEY — skipping (generated covers will be used).");
     return;
