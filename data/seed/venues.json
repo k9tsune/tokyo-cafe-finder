@@ -12826,9 +12826,9 @@
     "laptopFriendly": true,
     "open24h": false,
     "openLate": false,
-    "description": "A bright Starbucks in the Tokyu Square complex at Den-en-chofu station with the chain's free Wi-Fi and power outlets reported at the counter and some other seats.",
+    "description": "A bright Starbucks in the Tokyu Square complex at Den-en-chofu station with the chain's free Wi-Fi and power outlets at the counter and several other seats.",
     "lastChecked": "2026-08-01",
-    "confidence": "medium",
+    "confidence": "high",
     "sourceUrl": "https://store.starbucks.co.jp/detail-1139/",
     "instagram": "https://www.instagram.com/starbucks_j/"
   },
@@ -16608,33 +16608,5 @@
     "confidence": "high",
     "sourceUrl": "https://search-maps.com/charge_wifi/stores/16eea71a0b3/",
     "instagram": "https://www.instagram.com/doutor_coffee_official/"
-  },
-  {
-    "id": "w-0623",
-    "slug": "pronto-mejiro",
-    "name": "Pronto Mejiro",
-    "nameJa": "プロント 目白店",
-    "address": "Mejiro, Toshima-ku, Tokyo",
-    "areaSlug": "toshima",
-    "stationSlugs": [
-      "mejiro-station"
-    ],
-    "lat": 35.720476,
-    "lng": 139.706228,
-    "nearestStation": "Mejiro Station",
-    "walkMinutes": 1,
-    "priceBand": "¥¥",
-    "hasWifi": false,
-    "wifiType": "none",
-    "hasPower": true,
-    "powerDensity": "some",
-    "laptopFriendly": true,
-    "open24h": false,
-    "openLate": false,
-    "description": "LIKELY CLOSED: a Pronto cafe-bar by Mejiro station previously listed with power outlets, but Tabelog now marks it closed and the official store page is gone. Pending human confirmation before removal.",
-    "lastChecked": "2026-08-01",
-    "confidence": "low",
-    "sourceUrl": "https://tabelog.com/tokyo/A1305/A130502/13220188/",
-    "instagram": "https://www.instagram.com/pronto___official/"
   }
 ]

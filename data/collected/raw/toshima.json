@@ -282,26 +282,5 @@
       "https://search-maps.com/charge_wifi/stores/16eea71a0b3/",
       "https://cafe-coffee-lab.com/17739.html"
     ]
-  },
-  {
-    "name": "Pronto Mejiro",
-    "nameJa": "プロント 目白店",
-    "areaSlug": "toshima",
-    "ward": "Toshima",
-    "nearestStation": "Mejiro",
-    "walkMinutes": 1,
-    "address": "Mejiro, Toshima-ku, Tokyo",
-    "hasWifi": false,
-    "wifiType": "none",
-    "hasPower": true,
-    "powerDensity": "some",
-    "laptopFriendly": true,
-    "businessHours": "",
-    "priceBand": "¥¥",
-    "description": "LIKELY CLOSED: a Pronto cafe-bar by Mejiro station previously listed with power outlets, but Tabelog now marks it closed and the official store page is gone. Pending human confirmation before removal.",
-    "confidence": "low",
-    "sources": [
-      "https://tabelog.com/tokyo/A1305/A130502/13220188/"
-    ]
   }
 ]

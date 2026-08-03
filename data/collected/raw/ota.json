@@ -144,11 +144,12 @@
     "laptopFriendly": true,
     "businessHours": "",
     "priceBand": "¥¥",
-    "description": "A bright Starbucks in the Tokyu Square complex at Den-en-chofu station with the chain's free Wi-Fi and power outlets reported at the counter and some other seats.",
-    "confidence": "medium",
+    "description": "A bright Starbucks in the Tokyu Square complex at Den-en-chofu station with the chain's free Wi-Fi and power outlets at the counter and several other seats.",
+    "confidence": "high",
     "sources": [
       "https://store.starbucks.co.jp/detail-1139/",
-      "https://ay-style.net/?p=83311"
+      "https://ay-style.net/?p=83311",
+      "https://everyday-starbucks.com/2022/08/12/den-en-chofu-tokyu-square-garden-site/"
     ]
   },
   {
