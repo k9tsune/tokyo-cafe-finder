@@ -103,5 +103,12 @@
     "author": "Guilhem Vellut",
     "license": "CC BY 2.0",
     "source": "https://commons.wikimedia.org/wiki/File:Fujizuka_@_Shinagawa_Shrine_(9556609200).jpg"
+  },
+  "meguro": {
+    "src": "/areas/meguro.jpg",
+    "title": "Cherry blossoms along the Meguro River",
+    "author": "WorkingCafes",
+    "license": "© WorkingCafes (own photo)",
+    "source": "/tokyo/meguro"
   }
 }

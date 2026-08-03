@@ -6,7 +6,8 @@ import areaPhotos from "@/data/area-photos.json";
 // Wards without an entry fall back to the generated skyline tile.
 
 export type AreaPhoto = {
-  file: string;
+  file?: string;   // Wikimedia Commons filename (served via Special:FilePath)
+  src?: string;    // OR a direct URL (e.g. a self-hosted own photo in /public)
   title: string;
   author: string;
   license: string;
@@ -18,7 +19,9 @@ const AREA_PHOTOS = areaPhotos as Record<string, AreaPhoto>;
 export function areaPhotoSrc(slug: string): string | undefined {
   const p = AREA_PHOTOS[slug];
   if (!p) return undefined;
-  return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(p.file)}?width=640`;
+  if (p.src) return p.src; // self-hosted / own photo
+  if (p.file) return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(p.file)}?width=640`;
+  return undefined;
 }
 
 export function areaPhotoMeta(slug: string): AreaPhoto | undefined {
