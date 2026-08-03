@@ -87,14 +87,6 @@ export default function CafePage({ params }: { params: { slug: string } }) {
         <div><span className="k">Hours: </span>{v.businessHours || "—"}</div>
         <div><span className="k">Address: </span>{v.address}</div>
         <div><span className="k">Typical busyness: </span>{v.typicalBusyness || "—"}</div>
-        {v.instagram && (
-          <div>
-            <span className="k">Instagram: </span>
-            <a className="ig-link" href={v.instagram} target="_blank" rel="noopener noreferrer">
-              See photos ↗
-            </a>
-          </div>
-        )}
       </div>
 
       <FreshnessBadge date={v.lastChecked} confidence={v.confidence} />
