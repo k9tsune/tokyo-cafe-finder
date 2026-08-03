@@ -1,0 +1,34 @@
+name: Fetch HotPepper photos
+
+# Run-once, on demand: matches cafes to HotPepper listings and commits the free
+# photo cache (data/hotpepper.json). HotPepper's API is free and unmetered, and
+# this is NOT part of the site build, so it never runs on a deploy.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  hotpepper:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Match cafes to HotPepper (prints how many matched)
+        env:
+          HOTPEPPER_KEY: ${{ secrets.HOTPEPPER_KEY }}
+        run: node scripts/fetch-hotpepper.mjs
+      - name: Commit photo cache
+        run: |
+          git config user.name "k9tsune"
+          git config user.email "308644872+k9tsune@users.noreply.github.com"
+          git add data/hotpepper.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Populate HotPepper cafe photos"
+            git push
+          fi
