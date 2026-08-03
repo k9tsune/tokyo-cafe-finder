@@ -26,7 +26,12 @@ try {
   INSTAGRAM = JSON.parse(readFileSync(new URL("../data/collected/instagram.json", import.meta.url), "utf8"));
 } catch { /* file optional */ }
 
-const RESEARCH_DATE = "2026-08-01";
+// Fallback "checked" date, used only for a record that doesn't carry its own
+// lastChecked. Per-record lastChecked (written by the weekly researcher onto the
+// cafes it actually re-verifies) takes precedence — so the freshness date is
+// honest per cafe and the "re-check the oldest lastChecked first" rule has real
+// dates to sort on. New records missing the field default to the build date.
+const TODAY = new Date().toISOString().slice(0, 10);
 
 // Open 24 hours: explicit flag from data, or clear "24 hours" wording.
 function isOpen24h(r) {
@@ -270,7 +275,7 @@ async function main() {
       open24h: isOpen24h(r),
       openLate: isOpen24h(r) || isLateNight(r.businessHours),
       description: r.description || "",
-      lastChecked: RESEARCH_DATE,
+      lastChecked: r.lastChecked || TODAY,
       confidence: r.confidence || "low",
       sourceUrl: Array.isArray(r.sources) ? r.sources[0] : undefined,
       instagram: r.instagram || INSTAGRAM[r.name] || undefined,

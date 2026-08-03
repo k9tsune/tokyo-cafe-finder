@@ -16,6 +16,7 @@
     "priceBand": "¥¥",
     "description": "A work-friendly cafe near Shinjuku-sanchome station where every seat has a power outlet and free Wi-Fi, made for people who want to work or study on a laptop.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "http://caffice.jp/",
       "https://cotoacademy.com/best-study-cafes-shinjuku/",
@@ -39,6 +40,7 @@
     "priceBand": "¥¥",
     "description": "A drop-in coworking cafe where you pay by time (about 225 yen per 15 minutes or 3,500 yen for a day), with a power outlet at every seat, free Wi-Fi, and free drinks.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://haka-doru.jp/store/shinjuku",
       "https://cotoacademy.com/best-study-cafes-shinjuku/",
@@ -62,6 +64,7 @@
     "priceBand": "¥¥",
     "description": "A pay-by-time drop-in coworking cafe one minute from Shibuya station, with a power outlet at every seat, free Wi-Fi, and free drinks.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://haka-doru.jp/store/shibuya-miyamasuzaka",
       "https://haka-doru.jp/"
@@ -84,6 +87,7 @@
     "priceBand": "¥¥",
     "description": "A pay-by-time drop-in coworking cafe inside Atre Omori, with a power outlet at every seat, free Wi-Fi, and free drinks.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://haka-doru.jp/store/atreomori",
       "https://co-work-ing.com/detail/tokyo/hakadoru-atreomori.html"
@@ -106,6 +110,7 @@
     "priceBand": "¥",
     "description": "An unmanned self-service work cafe where buying one drink lets you stay as long as you like, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/",
       "https://ikebukuro-times.com/archives/self-cafe-otsuka.html"
@@ -128,6 +133,7 @@
     "priceBand": "¥",
     "description": "An unmanned self-service work cafe near Sugamo station where one drink buys unlimited seat time, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/",
       "https://selfcafe.jp/usage/"
@@ -150,6 +156,7 @@
     "priceBand": "¥",
     "description": "An unmanned self-service work cafe in the Jinnan area of Shibuya where one drink buys unlimited seat time, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/",
       "https://basispoint.tokyo/matome_tokyo/selfcafe-shibuya-jinnan/"
@@ -172,6 +179,7 @@
     "priceBand": "¥",
     "description": "An unmanned self-service work cafe near the west side of Shinjuku station where one drink buys unlimited seat time, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/"
     ]
@@ -193,6 +201,7 @@
     "priceBand": "¥",
     "description": "An unmanned self-service work cafe near Waseda where one drink buys unlimited seat time, with a power outlet at every seat and free Wi-Fi, popular with students.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/"
     ]
@@ -214,6 +223,7 @@
     "priceBand": "¥",
     "description": "An unmanned self-service work cafe near Chitose-Karasuyama station where one drink buys unlimited seat time, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/"
     ]
@@ -235,6 +245,7 @@
     "priceBand": "¥",
     "description": "An unmanned self-service work cafe near Umejima station where one drink buys unlimited seat time, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/"
     ]
@@ -256,6 +267,7 @@
     "priceBand": "¥¥",
     "description": "A study cafe you join or drop in to, made for focused work, with a power outlet at every seat, free Wi-Fi, and free drinks.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.benkyo-cafe.net/studio/kayabacho/",
       "https://kayabacho-benkyocafe.com/",
@@ -279,6 +291,7 @@
     "priceBand": "¥¥",
     "description": "A study cafe near Ikebukuro you join or drop in to for focused work, with a power outlet at every seat, free Wi-Fi, and free drinks.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.benkyo-cafe.net/studio/ikebukuro/"
     ]
@@ -300,6 +313,7 @@
     "priceBand": "¥¥",
     "description": "A study cafe in the Toranomon business area you join or drop in to for focused work, with a power outlet at every seat, free Wi-Fi, and free drinks.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.benkyo-cafe.net/studio/toranomon/"
     ]
@@ -321,6 +335,7 @@
     "priceBand": "¥¥",
     "description": "A coworking cafe and space near Otsuka open 24 hours, with a one-day drop-in around 1,500 yen, plenty of power outlets, and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://workspace-japan.com/en/detail/ryozanpark/",
       "https://coworking-japan.org/coworking/ryozan-park-%E5%A4%A7%E5%A1%9A/"
@@ -343,6 +358,7 @@
     "priceBand": "¥¥",
     "description": "A study and work cafe in Kojimachi built for focused work, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-tokyo-workcafe/"
     ]
@@ -364,6 +380,7 @@
     "priceBand": "¥¥",
     "description": "A study and work cafe in Kagurazaka with a power outlet at every seat and free Wi-Fi, with a discounted student plan.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-tokyo-workcafe/"
     ]
@@ -385,6 +402,7 @@
     "priceBand": "¥¥",
     "description": "A coworking cafe between Ochanomizu and Akihabara with a power outlet at every seat and free Wi-Fi, made for working and studying.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-tokyo-workcafe/"
     ]
@@ -406,6 +424,7 @@
     "priceBand": "¥¥",
     "description": "A work-focused cafe one minute from Ogikubo station made for concentrating, with a power outlet at every seat and free Wi-Fi.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/en/tokyo/A1319/A131906/13291649/",
       "https://www.tasru-media.com/cafe_space/1004/",
@@ -429,6 +448,7 @@
     "priceBand": "¥¥¥",
     "description": "A time-based cafe lounge and coworking space inside GINZA SIX where you pay by the hour (around 1,870 yen for 60 minutes), with free drinks and snacks, power at every seat, and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.sharelounge.jp/store/2033",
       "https://ginza6.tokyo/shops/1230"

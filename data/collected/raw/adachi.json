@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "An in-station cafe-bar where nearly every one of its brick-toned seats has an outlet, making it an easy grab-and-work spot right on the walkway.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kitasenju-workcafe/"
@@ -38,6 +39,7 @@
     "priceBand": "¥¥",
     "description": "A roomy second-floor branch of the Nagoya coffee chain with free Wi-Fi and outlets at a portion of its seats, good for a long morning-service session.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kitasenju-workcafe/"
@@ -60,6 +62,7 @@
     "priceBand": "¥¥",
     "description": "A high-ceilinged, garage-style specialty roaster where free Wi-Fi and counter-side outlets support a quieter, slower work session away from the station bustle.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kitasenju-workcafe/"
@@ -82,6 +85,7 @@
     "priceBand": "¥¥",
     "description": "A large retro Showa-style cafe steps from the east exit with free Wi-Fi and outlets concentrated at the counter seating.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kitasenju-workcafe/"
@@ -104,6 +108,7 @@
     "priceBand": "¥",
     "description": "A budget cafe inside Tokyo Denki University's campus building offering free Wi-Fi and a block of outlet-equipped seats, though it can fill with students.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kitasenju-workcafe/"
@@ -126,6 +131,7 @@
     "priceBand": "¥¥",
     "description": "A creator-oriented independent cafe that opened in 2024 with free Wi-Fi and outlets reported at every seat, plus late hours useful for evening work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
     ]
@@ -147,6 +153,7 @@
     "priceBand": "¥¥",
     "description": "A small, quiet wood-toned cafe near the west exit with free Wi-Fi, available outlets, and a few terrace seats for a calm work stop.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-kitasenju-workcafe/"
     ]
@@ -168,6 +175,7 @@
     "priceBand": "¥",
     "description": "A Tully's tucked into the Tokyu Store beside Ayase Station offering carrier-independent free Wi-Fi and outlets along the counter seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/tokyo/A1324/A132404/13190580/"
     ]
@@ -189,6 +197,7 @@
     "priceBand": "¥",
     "description": "A Starbucks in the LalaTerrace mall at Kita-Ayase (first stop on the Chiyoda line) with free Wi-Fi confirmed by the mall and store listings; outlet seating is not listed, so do not count on power.",
     "confidence": "medium",
+    "lastChecked": "2026-08-03",
     "sources": [
       "https://mitsui-shopping-park.com/lalat-kitaayase/shopguide/3046546.html",
       "https://tabelog.com/tokyo/A1324/A132404/13310972/",
@@ -212,6 +221,7 @@
     "priceBand": "¥",
     "description": "A Starbucks in the Ario Nishiarai shopping mall with confirmed free Wi-Fi and outlets noted by outlet-cafe directories, giving a reliable if busy work option.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA846207"
     ]
@@ -234,6 +244,7 @@
     "priceBand": "¥",
     "description": "A bakery cafe inside the Equia complex right at Kita-Senju station with power outlets at several of its 65 seats; it opens early for morning work but has no in-store Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-03",
     "sources": [
       "https://www.saint-marc-hd.com/saintmarccafe/shop/590/",
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/"
@@ -257,6 +268,7 @@
     "priceBand": "¥¥",
     "description": "A Tully's on the sixth floor of Lumine above Kita-Senju station with free Tully's Wi-Fi and power outlets at the counter, handy for a work stop while shopping.",
     "confidence": "high",
+    "lastChecked": "2026-08-03",
     "sources": [
       "https://shop.tullys.co.jp/detail/1000952",
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
@@ -281,6 +293,7 @@
     "priceBand": "¥¥¥",
     "description": "A plush Showa-styled siphon-coffee cafe on the third floor of Kita-Senju Marui with power outlets at some seats; there is no Wi-Fi, so bring your own connection.",
     "confidence": "medium",
+    "lastChecked": "2026-08-03",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
       "https://4travel.jp/dm_shisetsu/11672686"
@@ -303,6 +316,7 @@
     "priceBand": "¥¥",
     "description": "A quirky bathhouse-themed independent cafe a few minutes from Kita-Senju station, reported to offer free Wi-Fi and power outlets; it keeps daytime hours and closes on Tuesdays.",
     "confidence": "medium",
+    "lastChecked": "2026-08-03",
     "sources": [
       "https://goworkship.com/magazine/kitasenju-cafe-wifi-dengen/",
       "https://tabelog.com/tokyo/A1324/A132402/13210884/"

@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A roaster-cafe attached to an Olympic store with outlets at essentially every seat and free Wi-Fi, though one source flags its listing status as unconfirmed so check before visiting.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/",
       "https://tabelog.com/tokyo/A1315/A131503/13274139/"
@@ -38,6 +39,7 @@
     "priceBand": "¥¥",
     "description": "An independent cafe near the Keikyu Kamata east exit described as work-friendly with free Wi-Fi and outlets available across its seating.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/",
       "https://r.gnavi.co.jp/r2rhbmdy0000/"
@@ -60,6 +62,7 @@
     "priceBand": "¥",
     "description": "A branch of the budget Cafe de Crie chain a few minutes from JR Kamata east exit reported to have outlets at all seats plus free Wi-Fi, opening early for morning work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-kamata-workcafe/"
     ]
@@ -81,6 +84,7 @@
     "priceBand": "¥¥",
     "description": "A spacious Komeda branch inside the Omori Ito-Yokado with free Wi-Fi and outlets at counter seating, open late for long sessions.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omori-workcafe/"
     ]
@@ -102,6 +106,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks directly connected to Atre Omori station with the chain's free Wi-Fi and outlets available at counter seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omori-workcafe/"
     ]
@@ -123,6 +128,7 @@
     "priceBand": "¥¥",
     "description": "A calm Ueshima Coffee by the Omori west exit with free Wi-Fi, but outlet availability is reported inconsistently across sources so power should not be assumed.",
     "confidence": "low",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omori-workcafe/",
       "https://search-maps.com/charge_wifi/stores/16eea71ed64/",
@@ -146,6 +152,7 @@
     "priceBand": "¥¥",
     "description": "A bright Starbucks in the Tokyu Square complex at Den-en-chofu station with the chain's free Wi-Fi and power outlets at the counter and several other seats.",
     "confidence": "high",
+    "lastChecked": "2026-08-03",
     "sources": [
       "https://store.starbucks.co.jp/detail-1139/",
       "https://ay-style.net/?p=83311",
@@ -169,6 +176,7 @@
     "priceBand": "¥¥",
     "description": "A Tully's on the Terminal 3 arrivals floor at Haneda that runs 24 hours with power outlets at some seats, useful for working during odd-hour layovers.",
     "confidence": "medium",
+    "lastChecked": "2026-08-03",
     "sources": [
       "https://r.gnavi.co.jp/9nr71mje0000/",
       "https://ameblo.jp/travelbread/entry-12867250522.html"

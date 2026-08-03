@@ -16,6 +16,7 @@
     "priceBand": "¥¥",
     "description": "A multi-floor specialty roaster with plentiful outlets and a rooftop, popular for laptop work though the Wi-Fi can be flaky and a two-hour limit applies at busy times.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://rtrp.jp/articles/12554/",
       "https://laptopfriendlycafe.com/cafes/tokyo/mermaid-coffee-roasters-ikebukuro",
@@ -39,6 +40,7 @@
     "priceBand": "¥",
     "description": "A single-origin coffee shop near Minami-Ikebukuro Park with Wi-Fi and outlets, frequently cited as a comfortable spot for solo work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/ikebukuro-nomado/",
       "https://rtrp.jp/articles/12554/"
@@ -61,6 +63,7 @@
     "priceBand": "¥¥",
     "description": "A quieter East-Exit cafe marketed specifically as a Wi-Fi and power-equipped workspace close to the station.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/ikebukuro-nomado/",
       "https://www.tasru-media.com/cafe_space/2229/"
@@ -83,6 +86,7 @@
     "priceBand": "¥",
     "description": "A roomy chain cafe on the ground floor of Sunshine 60 with free Wi-Fi and outlet seating, good for casual laptop sessions.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/ikebukuro-nomado/",
       "https://rtrp.jp/articles/12554/"
@@ -105,6 +109,7 @@
     "priceBand": "¥¥",
     "description": "A hostel-attached international cafe on the West side offering long hours, free Wi-Fi and outlets for extended work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/ikebukuro-nomado/",
       "https://rtrp.jp/articles/12554/"
@@ -127,6 +132,7 @@
     "priceBand": "¥¥",
     "description": "A book-themed cafe inside Esola with multiple outlets and Wi-Fi, atmospheric but with only a single work-friendly write-up found.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://rtrp.jp/articles/12554/"
     ]
@@ -148,6 +154,7 @@
     "priceBand": "¥¥",
     "description": "A spacious branch of the retro Nagoya chain with free Wi-Fi and outlet seating, though a two-hour stay guideline applies.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://blog.linkedge.jp/cafe-sugamo/",
       "https://selfcafe.jp/blog/cafe/202512051846/"
@@ -170,6 +177,7 @@
     "priceBand": "¥¥",
     "description": "A traditional business-friendly kissaten (a traditional Japanese coffee house) right by the station with roomy seating, free Wi-Fi and power outlets.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://blog.linkedge.jp/cafe-sugamo/",
       "https://selfcafe.jp/blog/cafe/202512051846/"
@@ -192,6 +200,7 @@
     "priceBand": "¥",
     "description": "A convenient station-side JR chain cafe offering free Wi-Fi and some outlet seats for a quick work stop.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://blog.linkedge.jp/cafe-sugamo/",
       "https://selfcafe.jp/blog/cafe/202512051846/"
@@ -214,6 +223,7 @@
     "priceBand": "¥¥",
     "description": "A long-running specialty kissaten (a traditional Japanese coffee house) near the station with Wi-Fi and outlets, though sources disagree on its closing time.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://blog.linkedge.jp/cafe-sugamo/",
       "https://selfcafe.jp/blog/cafe/202512051846/"
@@ -236,6 +246,7 @@
     "priceBand": "¥¥",
     "description": "A chain cafe with two-socket outlets near pillar seats and USB charging, though visitors report the free Wi-Fi signal can be weak.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_37151"
     ]
@@ -257,6 +268,7 @@
     "priceBand": "¥",
     "description": "An unmanned subscription-style self-serve cafe built for working, with free Wi-Fi and outlets at every seat and very cheap per-cup pricing.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://selfcafe.jp/blog/cafe/202512051846/"
     ]
@@ -278,6 +290,7 @@
     "priceBand": "¥",
     "description": "The main study-friendly option right outside Mejiro Station, with free Doutor Wi-Fi and confirmed outlet seating.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/stores/16eea71a0b3/",
       "https://cafe-coffee-lab.com/17739.html"

@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A spacious two-floor Excelsior branch on Ginza's main street with high ceilings, free Wi-Fi, and outlets at many seats that suit a long work session.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.doutor.co.jp/doutor/spot/detail?code=5000127"
     ]
@@ -37,6 +38,7 @@
     "priceBand": "¥¥",
     "description": "This Ginza Starbucks offers free Wi-Fi plus free private booths and a separate paid Think Lab focus-work area, making it flexible for remote work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/matome/21109/"
     ]
@@ -58,6 +60,7 @@
     "priceBand": "¥¥",
     "description": "A quieter basement-level Starbucks with free Wi-Fi and power outlets at select seats, reported as calmer and more work-friendly than street-level branches.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/matome/21109/"
     ]
@@ -79,6 +82,7 @@
     "priceBand": "¥¥",
     "description": "A cafe inside Tokyu Plaza Ginza where the counter seats are each fitted with outlets and free Wi-Fi is available, useful for a short work stop while shopping.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/matome/21109/"
     ]
@@ -100,6 +104,7 @@
     "priceBand": "¥",
     "description": "A calm book-lined cafe where every seat reportedly has a power outlet and free Wi-Fi, with browsable library shelves that make it good for extended focused work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/matome/21109/"
     ]
@@ -121,6 +126,7 @@
     "priceBand": "¥¥",
     "description": "A bright lounge-style cafe with large windows and free Wi-Fi but no reported power outlets, so it suits light laptop use rather than all-day work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/matome/21109/"
     ]
@@ -142,6 +148,7 @@
     "priceBand": "¥",
     "description": "A large 84-seat Excelsior a couple of minutes from Nihonbashi Station with free Wi-Fi and outlets at counter and table seats, opening early for morning work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/",
       "https://shop.doutor.co.jp/doutor/spot/detail?code=5000115"
@@ -164,6 +171,7 @@
     "priceBand": "¥",
     "description": "A bright glass-walled Ueshima Coffee inside COREDO Nihonbashi offering free Wi-Fi and outlets at the counter and some tables, convenient right by the station.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
     ]
@@ -185,6 +193,7 @@
     "priceBand": "¥¥",
     "description": "A Tully's in the base of Tokyo Nihonbashi Tower with free Wi-Fi and a large central communal table that has outlets, good for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
     ]
@@ -206,6 +215,7 @@
     "priceBand": "¥¥",
     "description": "A business-salon-style cafe directly connected to Kayabacho Station with free Wi-Fi, outlets at window counters and large tables, and library access for working.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
     ]
@@ -227,6 +237,7 @@
     "priceBand": "¥¥",
     "description": "A spacious 50-seat Coffee Bean & Tea Leaf beside Nihonbashi Station with public Wi-Fi and outlets at counter and large-table seating.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
     ]
@@ -248,6 +259,7 @@
     "priceBand": "¥¥",
     "description": "A barrier-free concept cafe staffed by remotely operated OriHime robots that also offers free Wi-Fi and outlets at some of its 70 seats for casual work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
     ]
@@ -269,6 +281,7 @@
     "priceBand": "¥",
     "description": "An Excelsior on the ground floor of the Mitsui Garden Hotel near Kyobashi Station, confirmed to offer free Wi-Fi and power outlets with a fully separated smoking area.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.doutor.co.jp/doutor/spot/detail?code=5000254",
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA844751"
@@ -291,6 +304,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks a minute from Tsukiji Station Exit 2 with the chain's standard free Wi-Fi, though power-outlet availability at this branch is not documented.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://r.gnavi.co.jp/9jfuhm8s0000/"
     ]
@@ -312,6 +326,7 @@
     "priceBand": "¥",
     "description": "A compact Doutor near Hatchobori Station that officially lists free Wi-Fi but no power outlets, fine for quick tasks rather than long laptop sessions.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.doutor.co.jp/doutor/spot/detail?code=1010075"
     ]

@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A branch of the Jonathan's famiresu (family restaurant) near Shinjuku Station that opens early and stays open until 5am, with free Wi-Fi and power outlets at some seats for late-night laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://store-info.skylark.co.jp/jonathan/map/020500/",
       "https://www.mapple.net/original/436766/",
@@ -40,6 +41,7 @@
     "priceBand": "¥",
     "description": "A Gusto famiresu (family restaurant) on Yasukuni-dori near Kabukicho that runs from 6am to 5am, with free Wi-Fi and power outlets at some seats, good for working through the night.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://store-info.skylark.co.jp/gusto/map/018933/",
       "https://www.mapple.net/original/466918/",
@@ -63,6 +65,7 @@
     "priceBand": "¥¥",
     "description": "A 24-hour kissaten (a traditional Japanese coffee house) a minute from Shinjuku-sanchome Station that serves siphon-brewed coffee and has free Wi-Fi and power outlets, so you can work at any hour.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://edinburgh.jp/",
       "https://blog.gaijinpot.com/the-best-24-hour-coffee-shops-and-internet-cafes-in-tokyo/",
@@ -87,6 +90,7 @@
     "priceBand": "¥",
     "description": "A Denny's famiresu (family restaurant) near Shinjuku Central Park that is open until midnight with free Wi-Fi, though reports differ on how many power outlets it has.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.dennys.jp/map/2669/",
       "https://www.mapple.net/original/436766/",
@@ -110,6 +114,7 @@
     "priceBand": "¥",
     "description": "A 24-hour McDonald's right by Higashi-Shinjuku Station with free Wi-Fi and about 87 seats over two floors, cheap for a late-night stop even though there are no power outlets.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.mapple.net/original/466918/"
     ]
@@ -131,6 +136,7 @@
     "priceBand": "¥",
     "description": "A Jonathan's famiresu (family restaurant) by Shibuya's new south exit that is open 6am to 5am with free Wi-Fi and a few power outlets, handy late at night although the Wi-Fi can be slow.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/skylark_020389"
     ]
@@ -152,6 +158,7 @@
     "priceBand": "¥",
     "description": "A Gusto famiresu (family restaurant) in Udagawacho open 6am to 5am with free Wi-Fi and power outlets at some seats, one of the few spots near Shibuya open almost all night.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://store-info.skylark.co.jp/gusto/map/017883/",
       "https://local-street.tokyo/shibuya-24-hour-cafe-family-restaurant/"
@@ -174,6 +181,7 @@
     "priceBand": "¥¥",
     "description": "A 24-hour net cafe (an Internet and amusement cafe) near Shibuya Station with semi-private seating, free Wi-Fi and power outlets, charged by time and good for long work sessions.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://blog.gaijinpot.com/the-best-24-hour-coffee-shops-and-internet-cafes-in-tokyo/",
       "https://r.gnavi.co.jp/f05hrkhj0000/"
@@ -196,6 +204,7 @@
     "priceBand": "¥",
     "description": "A cheap Saizeriya famiresu (family restaurant) near Tokyu Hands that stays open until 7am with free Wi-Fi but no power outlets, fine for a short late-night stop.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://local-street.tokyo/shibuya-24-hour-cafe-family-restaurant/"
     ]
@@ -217,6 +226,7 @@
     "priceBand": "¥",
     "description": "A Bamiyan Chinese famiresu (family restaurant) on Meiji-dori that is open until 5am with free Wi-Fi and roomy seating, though you should not count on finding a power outlet.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://local-street.tokyo/shibuya-24-hour-cafe-family-restaurant/"
     ]
@@ -238,6 +248,7 @@
     "priceBand": "¥¥",
     "description": "A 24-hour cafe attached to a hostel near Jimbocho Station with free Wi-Fi, a cheap menu and a limited number of power outlets, relaxed for late work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.sakura-hotel.co.jp/jimbocho/",
       "https://blog.gaijinpot.com/the-best-24-hour-coffee-shops-and-internet-cafes-in-tokyo/"
@@ -260,6 +271,7 @@
     "priceBand": "¥",
     "description": "A 24-hour Denny's famiresu (family restaurant) a few minutes from Higashi-Ginza Station with free Wi-Fi, though it is not on Denny's list of branches with power outlets.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://machishiru.jp/ginza-famiresu/",
       "https://www.ekiten.jp/shop_41016873/"
@@ -282,6 +294,7 @@
     "priceBand": "¥",
     "description": "A Gusto famiresu (family restaurant) by Ikebukuro's west exit open 6am to 5am with free Wi-Fi and power outlets at some seats for late-night work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://store-info.skylark.co.jp/gusto/map/017885/",
       "https://local-street.tokyo/open-24-hours-in-ikebukuro/"
@@ -304,6 +317,7 @@
     "priceBand": "¥¥¥",
     "description": "A retro-style Tsubakiya coffee shop near Ikebukuro's east exit open until 5am with free Wi-Fi and power outlets, calm for late work but on the pricey side.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://local-street.tokyo/open-24-hours-in-ikebukuro/",
       "https://www.towafood-net.co.jp/shops/4000-23/"
@@ -326,6 +340,7 @@
     "priceBand": "¥",
     "description": "A budget Saizeriya famiresu (family restaurant) near Ikebukuro's east exit open until 7am with free Wi-Fi but no power outlets, useful for a cheap late-night sit.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://local-street.tokyo/open-24-hours-in-ikebukuro/"
     ]
@@ -347,6 +362,7 @@
     "priceBand": "¥",
     "description": "A Gusto famiresu (family restaurant) near Mita and Tamachi stations that opens at 6am and runs until 11pm, with free Wi-Fi and power outlets at some seats for evening laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://store-info.skylark.co.jp/gusto/map/017886/"
     ]

@@ -16,6 +16,7 @@
     "priceBand": "¥¥¥",
     "description": "A paid share lounge inside the Marunouchi Tsutaya bookstore by Tokyo Station with free drinks and snacks, fast Wi-Fi and power at every seat, made for laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://foodsaketokyo.com/2023/02/25/marunouchi-tsutaya-share-lounge/",
       "https://www.sharelounge.jp/store/2046"
@@ -38,6 +39,7 @@
     "priceBand": "¥¥",
     "description": "A bookstore, cafe and coworking space lined with Iwanami books, with free Wi-Fi and power at the window counter, good for reading and laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/jimbochobook",
       "https://www.jimbocho-book.jp/cafe/"
@@ -60,6 +62,7 @@
     "priceBand": "¥¥",
     "description": "A hand-drip coffee stand inside Tokyo Station with counter seats that have power outlets, handy for short laptop work, though the Wi-Fi signal can be weak.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/CROSSTIES_COFFEE_GRANSTA",
       "https://tokyonavigate.com/tokyo-station-study-cafe/"
@@ -82,6 +85,7 @@
     "priceBand": "¥¥¥",
     "description": "A dedicated work cafe by the station with ergonomic chairs, loaner monitors, free Wi-Fi and power at every seat, made for focused laptop sessions with a time-based charge.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/ochanomizu-cafe-dengen-wifi/"
     ]
@@ -103,6 +107,7 @@
     "priceBand": "¥¥",
     "description": "A natural wood cafe under the train tracks with a riverside terrace, free Wi-Fi and power at every seat, good for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/ochanomizu-cafe-dengen-wifi/"
     ]
@@ -124,6 +129,7 @@
     "priceBand": "¥¥",
     "description": "A quiet hideaway cafe on an upper floor in Ginza with free Wi-Fi, power outlets and a nomad plan with refillable coffee, good for laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/matome/21109/",
       "https://www.favy.jp/topics/24051"
@@ -146,6 +152,7 @@
     "priceBand": "¥¥",
     "description": "A community cafe with high ceilings in the Kabutocho finance district, with free Wi-Fi and power at some seats, good for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-nihonbashi-workcafe/"
     ]
@@ -167,6 +174,7 @@
     "priceBand": "¥¥",
     "description": "A calm basement cafe and bar in Ginza with free Wi-Fi and power, open from afternoon until late, good for evening laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/matome/21109/"
     ]
@@ -188,6 +196,7 @@
     "priceBand": "¥¥¥",
     "description": "A paid share lounge on the second floor of Roppongi Tsutaya with free drinks and snacks, fast Wi-Fi and power at every seat, very calm for focused laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://prtimes.jp/main/html/rd/p/000001412.000018760.html",
       "https://www.sharelounge.jp/store/2000"
@@ -210,6 +219,7 @@
     "priceBand": "¥¥",
     "description": "A spacious cafe near Omotesando with free Wi-Fi and power at the wall-side counter seats, good for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
     ]
@@ -231,6 +241,7 @@
     "priceBand": "¥¥",
     "description": "A Hawaiian-style specialty coffee cafe near Omotesando with free Wi-Fi and power at the counter seats, good for a work session.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
     ]
@@ -252,6 +263,7 @@
     "priceBand": "¥¥",
     "description": "A calm retro kissaten (a traditional Japanese coffee house) with classical music and siphon coffee, free Wi-Fi and power at the table seats, good for quiet laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-roppongi-workcafe/"
     ]
@@ -273,6 +285,7 @@
     "priceBand": "¥¥¥",
     "description": "A paid share lounge on the 11th floor of the Tsutaya bookstore with city views, high-speed Wi-Fi, power and loaner monitors, made for laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tripmate.news/posts/shibuya-tsutaya-share-lounge-guide/",
       "https://www.thecoworkingspaces.com/space/share-lounge-tsutaya-bookstore"
@@ -295,6 +308,7 @@
     "priceBand": "¥¥¥",
     "description": "A paid share lounge on the second floor of the Daikanyama T-SITE bookstore complex with free drinks, high-speed Wi-Fi and power, quiet for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/en/tokyo/A1303/A130303/13268113/",
       "https://www.sharelounge.jp/store/2320"
@@ -317,6 +331,7 @@
     "priceBand": "¥¥",
     "description": "A calm cafe serving siphon coffee and Taiwanese tea with free Wi-Fi and power at the large central tables, good for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
     ]
@@ -338,6 +353,7 @@
     "priceBand": "¥¥",
     "description": "A lifestyle-store cafe near Harajuku with free Wi-Fi and power at the central table, handy for laptop work, though it can get busy.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-omotesando-workcafe/"
     ]
@@ -359,6 +375,7 @@
     "priceBand": "¥¥",
     "description": "A warm, architect-run coffee shop lined with design books, with free Wi-Fi and power at most seats and a quiet upstairs floor good for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://cotoacademy.com/best-study-cafes-shinjuku/",
       "https://en.japantravel.com/tokyo/cozy-style-coffee/60811"
@@ -381,6 +398,7 @@
     "priceBand": "¥¥",
     "description": "A bright, health-focused cafe near Ochanomizu with free Wi-Fi and power at the counter and some tables, good for daytime laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/ochanomizu-cafe-dengen-wifi/",
       "https://office.yield-marketing.co.jp/coworking/recommended-ocyanomizu-workcafe/"
@@ -403,6 +421,7 @@
     "priceBand": "¥¥¥",
     "description": "A paid share lounge near Ikebukuro's west exit with free drinks and snacks, high-speed Wi-Fi, power and a book library, made for laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.ccc.co.jp/news/press/20260313_008579.html",
       "https://www.sharelounge.jp/store/2437"

@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A cheap family restaurant right by Shibuya Station with free Wi-Fi, power outlets at some seats, and a self-serve drink bar, so you can work for a long time for little money.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://chisou-media.jp/posts/9042",
       "https://store-info.skylark.co.jp/gusto/map/018972/",
@@ -39,6 +40,7 @@
     "priceBand": "¥",
     "description": "A budget family restaurant on Dogenzaka with free Wi-Fi (Wi2), a counter with about 12 seats that have power outlets, and a drink bar for cheap all-day coffee.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://chisou-media.jp/posts/9042",
       "https://oasis.mogya.com/spot/skylark_017910"
@@ -61,6 +63,7 @@
     "priceBand": "¥",
     "description": "A cheap family restaurant near Koen-dori with free Wi-Fi, wall power outlets at some seats, and a drink bar, which makes it an easy place to sit and work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/gusto_017889",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"
@@ -83,6 +86,7 @@
     "priceBand": "¥",
     "description": "A low-cost family restaurant by the east exit of Meguro Station with free Wi-Fi, power outlets for customers at some seats, and a drink bar for long work sessions.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://chisou-media.jp/posts/9042",
       "https://oasis.mogya.com/spot/skylark_020376",
@@ -106,6 +110,7 @@
     "priceBand": "¥",
     "description": "A cheap family restaurant near Akihabara Station with free Wi-Fi, power outlets at some seats, and a drink bar, so it is good for working through the day.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://chisou-media.jp/posts/9042",
       "https://store-info.skylark.co.jp/gusto/map/017715/"
@@ -128,6 +133,7 @@
     "priceBand": "¥",
     "description": "A budget family restaurant next to Kayabacho Station with free Wi-Fi and a back counter of about 10 seats that each have a power outlet, plus a drink bar.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/skylark_017729",
       "https://www.mapion.co.jp/phonebook/M16201/13102/0000084168_100oa/"
@@ -150,6 +156,7 @@
     "priceBand": "¥",
     "description": "A cheap family restaurant near the south exit of Ogikubo Station where almost every seat has a two-plug power outlet, plus free Wi-Fi and a drink bar.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/skylark_017954",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"
@@ -172,6 +179,7 @@
     "priceBand": "¥",
     "description": "A cheap 24-hour family restaurant near Fudo-mae Station with free Wi-Fi, power outlets for customers at some seats, and a drink bar, so you can work any time.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/jonathan_020261",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"
@@ -194,6 +202,7 @@
     "priceBand": "¥",
     "description": "A budget family restaurant by Tobu-Nerima Station with free Wi-Fi, power outlets for customers at some seats, and a drink bar for cheap all-day work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/skylark_017881",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"
@@ -216,6 +225,7 @@
     "priceBand": "¥",
     "description": "A cheap roadside family restaurant listed as a place with usable outlets, with free Wi-Fi, power at some seats, and a drink bar for a long, low-cost stay.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.mapion.co.jp/phonebook/M16201/13112/0000085513_100oa/",
       "https://store-info.skylark.co.jp/gusto/map/011272/"
@@ -238,6 +248,7 @@
     "priceBand": "¥¥",
     "description": "A Skylark family restaurant near Akihabara Station, open very late, with free Wi-Fi across the group, power outlets at counter seats, and a drink bar.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://store-info.skylark.co.jp/jonathan/map/020522/",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"
@@ -260,6 +271,7 @@
     "priceBand": "¥¥",
     "description": "A family restaurant near the new south exit of Shibuya Station with free Wi-Fi, a power outlet at roughly one of every three to four seats, and a drink bar.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/skylark_020389",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"
@@ -282,6 +294,7 @@
     "priceBand": "¥¥",
     "description": "A family restaurant in the Nishi-Shinjuku area with free Wi-Fi, power outlets for customers at some seats, and a drink bar, so it is easy to work there.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/skylark_020280",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"
@@ -304,6 +317,7 @@
     "priceBand": "¥¥",
     "description": "A family restaurant near Sangenjaya Station with plenty of power outlets, a drink bar, and free Wi-Fi, though the Wi-Fi is limited to 60-minute sessions.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/skylark_020502",
       "https://sanchaba.tokyo/life/wifi-dengen-matome/"
@@ -326,6 +340,7 @@
     "priceBand": "¥",
     "description": "A Denny's right by Koenji Station with free Wi-Fi (7SPOT), power outlets that the chain has added to all its stores, and a cheap morning drink bar.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.dennys.jp/service/charge/",
       "https://shop.dennys.jp/map/21950/",
@@ -349,6 +364,7 @@
     "priceBand": "¥",
     "description": "A Denny's near Sangenjaya Station with free Wi-Fi, two power-outlet counter seats in the non-smoking area, and a drink bar, though the Wi-Fi has a time limit.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://sanchaba.tokyo/life/wifi-dengen-matome/",
       "https://www.dennys.jp/service/charge/"
@@ -371,6 +387,7 @@
     "priceBand": "¥",
     "description": "A cheap Chinese-style family restaurant near Higashi-Nakano Station in the Skylark group, with free Wi-Fi, power outlets at counter seats, and a drink bar.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://store-info.skylark.co.jp/bamiyan/map/171604/",
       "https://www.watch.impress.co.jp/docs/news/1387993.html"

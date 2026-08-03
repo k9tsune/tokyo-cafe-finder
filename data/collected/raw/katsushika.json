@@ -16,6 +16,7 @@
     "priceBand": "¥¥",
     "description": "A roomy full-service Komeda branch right by Kameari station that offers free Komeda Wi-Fi and outlets at a portion of its booth seats, comfortable for a long work session.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/stores/186389f5ade/"
     ]
@@ -37,6 +38,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks inside the Ario Kameari shopping mall with reliable free Wi-Fi, though outlet availability is not documented and mall-style seating limits its work suitability.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/stores/17d41bb2792/"
     ]
@@ -58,6 +60,7 @@
     "priceBand": "¥",
     "description": "An early-opening station-front Beck's about two minutes from the south exit that provides free Wi-Fi and power outlets at some seats, handy for a quick pre-work session.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shodanlab.com/shinkoiwa/",
       "https://dengen-cafe.com/tags/becks"
@@ -80,6 +83,7 @@
     "priceBand": "¥¥",
     "description": "A classic Renoir tea room by the north exit, part of a chain known for welcoming long stays with free Wi-Fi and outlets at most tables, good for focused laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shodanlab.com/shinkoiwa/"
     ]
@@ -101,6 +105,7 @@
     "priceBand": "¥",
     "description": "A Doutor in the Shin-Koiwa Lumiere shopping street offering free Doutor Wi-Fi plus USB and outlet charging at some seats, a cheap and convenient spot for short work visits.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shodanlab.com/shinkoiwa/"
     ]
@@ -122,6 +127,7 @@
     "priceBand": "¥",
     "description": "A 58-seat Doutor near Keisei Aoto with free Wi-Fi, but two sources agree it has no power outlets, so it works for connectivity yet not for charging a laptop.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.doutor.co.jp/doutor/spot/detail?code=1011145"
     ]
@@ -143,6 +149,7 @@
     "priceBand": "¥",
     "description": "A Doutor by Kanamachi station's north exit whose official listing advertises both free Wi-Fi and power outlets, making it a reliable budget option for remote work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.doutor.co.jp/doutor/spot/detail?code=1011828"
     ]
@@ -164,6 +171,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks at Kanamachi station's south exit with standard free Starbucks Wi-Fi and, per customer reports and power-cafe directories, some seats fitted with outlets for working.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://www.hotpepper.jp/strJ000232999/"
     ]

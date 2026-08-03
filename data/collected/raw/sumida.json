@@ -16,6 +16,7 @@
     "priceBand": "¥¥",
     "description": "A busy station-adjacent Starbucks that opens early and offers free Wi-Fi plus outlets at a portion of its seats, a reliable pre-work stop by the north exit.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
@@ -38,6 +39,7 @@
     "priceBand": "¥¥",
     "description": "A roomy Komeda branch inside Marui with soft booth seating, free Wi-Fi and outlets, good for longer sit-down work sessions over a coffee and meal.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
@@ -60,6 +62,7 @@
     "priceBand": "¥¥",
     "description": "Directly connected to the station, this Tully's has free Wi-Fi and a limited set of powered counter seats (about six), so it works best outside peak hours.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
@@ -82,6 +85,7 @@
     "priceBand": "¥¥",
     "description": "A work-oriented cafe with large desks, free Wi-Fi, outlets and even a coworking-style pass, catering explicitly to people who want to stay a while and get things done.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
@@ -104,6 +108,7 @@
     "priceBand": "¥¥",
     "description": "The open hotel lobby lounge welcomes non-guests around the clock with free Wi-Fi and outlets, a rare option for late-night or overnight laptop work near the station.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
@@ -126,6 +131,7 @@
     "priceBand": "¥",
     "description": "An affordable Cafe de Crie branch in Marui described as having free Wi-Fi and around ten outlets, a better-than-average power supply for a budget chain.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
     ]
@@ -147,6 +153,7 @@
     "priceBand": "¥¥",
     "description": "A retro basement coffee house seconds from the south exit that offers outlets at seats, though sources disagree on whether Wi-Fi is available so plan to tether if needed.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://goworkship.com/magazine/kinshicho-cafe-wifi-dengen/",
       "https://office.yield-marketing.co.jp/coworking/recommended-kinshicho-workcafe/"
@@ -169,6 +176,7 @@
     "priceBand": "¥",
     "description": "A quiet, high-ceilinged 12th-floor branch that lists free Wi-Fi and outlets and is widely recommended as a Skytree-area nomad-work spot with skyline views.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/",
       "https://shop.doutor.co.jp/doutor/spot/detail?code=5000274"
@@ -191,6 +199,7 @@
     "priceBand": "¥¥",
     "description": "A Solamachi-mall Starbucks with free Wi-Fi and outlets confined mainly to the counter seats, some facing the Skytree, so grab a powered spot early on busy days.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/",
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA832391"
@@ -213,6 +222,7 @@
     "priceBand": "¥¥",
     "description": "A small construction-site-themed kissaten (a traditional Japanese coffee house) offering free high-speed Wi-Fi and about five seats fitted with outlets and USB, plus cheap drink refills for lingering workers.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
     ]
@@ -234,6 +244,7 @@
     "priceBand": "¥¥",
     "description": "A paid-membership study lounge steps from the east exit where every seat has an outlet, Wi-Fi is free to members, and meeting rooms and free drinks support all-day work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
     ]
@@ -255,6 +266,7 @@
     "priceBand": "¥",
     "description": "A large 115-seat budget chain cafe near the west exit with free Wi-Fi and outlets at window counters and big tables, giving it decent capacity for casual laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
     ]
@@ -276,6 +288,7 @@
     "priceBand": "¥",
     "description": "A cheap, spacious Veloce a minute from the east exit that provides free Wi-Fi and outlets primarily at counter seats, handy for a quick low-cost work stop.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
     ]
@@ -297,6 +310,7 @@
     "priceBand": "¥¥",
     "description": "A relaxed pet-friendly cafe with vegan and gluten-free options offering free Wi-Fi and outlets at counter seating, a calmer alternative a few minutes from the west exit.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-ryogoku-workcafe/"
     ]
@@ -318,6 +332,7 @@
     "priceBand": "¥¥",
     "description": "An art-warehouse specialty coffee cafe with free Wi-Fi and a design-led interior, though no outlets are noted, so it suits short sessions on a charged laptop.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-oshiage-workcafe/"
     ]

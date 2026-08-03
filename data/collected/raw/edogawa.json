@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A roomy two-floor Tully's built directly into the Shapo Loco mall at Hirai Station, noted for free Wi-Fi and USB/outlet-equipped seating that makes it comfortable for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/tokyo/A1312/A131202/13219592/"
     ]
@@ -37,6 +38,7 @@
     "priceBand": "¥",
     "description": "A 53-seat, fully non-smoking Doutor just off the south exit of JR Koiwa that lists both free Wi-Fi and power outlets in its official features, a practical short-work stop.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.doutor.co.jp/map/1012283"
     ]
@@ -58,6 +60,7 @@
     "priceBand": "¥",
     "description": "Located inside the Shapo Koiwa station complex, this Doutor is documented as having power outlets plus carrier (SoftBank) Wi-Fi, so bring your own connection for extended sessions.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/stores/16eea7197aa/"
     ]
@@ -79,6 +82,7 @@
     "priceBand": "¥¥",
     "description": "A spacious 71-seat Komeda about five minutes from Kasai Station with its own Komeda Wi-Fi and outlet-equipped seating, with long hours and roomy booths good for sustained work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/en/tokyo/A1313/A131305/13230082/"
     ]
@@ -100,6 +104,7 @@
     "priceBand": "¥",
     "description": "A relaxed Kohikan on the second floor of the Ario Kasai shopping mall that provides free Wi-Fi but no documented power outlets, best for shorter battery-only visits.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E8%91%9B%E8%A5%BF/"
     ]
@@ -121,6 +126,7 @@
     "priceBand": "¥",
     "description": "A convenient Doutor by the south exit of Nishi-Kasai Station listed only with carrier (docomo/au) Wi-Fi and no power outlets, fine for a quick coffee-and-email break.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E8%A5%BF%E8%91%9B%E8%A5%BF/"
     ]
@@ -142,6 +148,7 @@
     "priceBand": "¥",
     "description": "The main documented cafe option near quiet Mizue Station, this Doutor is listed with carrier (docomo/au) Wi-Fi only and no power outlets, so it suits brief visits.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E7%91%9E%E6%B1%9F/"
     ]

@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A budget Doutor branch a minute from Hongo-sanchome station that a power/Wi-Fi database lists as having usable outlets, making it a practical quick-work stop.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
     ]
@@ -37,6 +38,7 @@
     "priceBand": "¥",
     "description": "A second Doutor almost next door to the Higashi branch by Hongo-sanchome, also listed with power outlets and carrier Wi-Fi for short laptop sessions.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
     ]
@@ -58,6 +60,7 @@
     "priceBand": "¥¥",
     "description": "A roughly fifty-seat Starbucks near Hongo-sanchome with free Wi-Fi, but its former counter outlets have been switched off, so plan to work on battery.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://everyday-starbucks.com/2023/01/26/in-front-of-hongo-university-of-tokyo/",
       "https://store.starbucks.co.jp/detail-26/"
@@ -80,6 +83,7 @@
     "priceBand": "¥¥",
     "description": "A campus Starbucks inside the University of Tokyo engineering building that is open to the public and offers free Wi-Fi plus a handful of usable power seats.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/",
       "https://everyday-starbucks.com/2023/01/26/in-front-of-hongo-university-of-tokyo/"
@@ -102,6 +106,7 @@
     "priceBand": "¥",
     "description": "A Doutor on the University of Tokyo campus near Yasuda Auditorium with carrier Wi-Fi but no customer outlets according to the outlet database.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/charge_near_station/%E6%9C%AC%E9%83%B7%E4%B8%89%E4%B8%81%E7%9B%AE/"
     ]
@@ -123,6 +128,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks in the LaQua complex at Tokyo Dome City with confirmed free Wi-Fi, though outlet availability is undocumented so assume none.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E5%BE%8C%E6%A5%BD%E5%9C%92/"
     ]
@@ -144,6 +150,7 @@
     "priceBand": "¥",
     "description": "A cheap Veloce right in front of Kasuga station with free Wi-Fi but no power outlets per the outlet database, best for short visits.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E6%98%A5%E6%97%A5/"
     ]
@@ -165,6 +172,7 @@
     "priceBand": "¥",
     "description": "A Doutor near Edogawabashi on Shin-Mejiro-dori flagged as having power seats plus carrier Wi-Fi, a solid budget work spot in western Bunkyo.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E8%8C%97%E8%8D%B7%E8%B0%B7/"
     ]
@@ -186,6 +194,7 @@
     "priceBand": "¥",
     "description": "A classic-style Coffeekan directly outside Nezu station offering SoftBank-spot Wi-Fi but no listed power outlets, fine for a laptop on battery.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E6%A0%B9%E6%B4%A5/"
     ]
@@ -207,6 +216,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks at the Chuo University Myogadani campus, three minutes from the station, with roughly sixty seats and standard free Wi-Fi but no outlet seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://everyday-starbucks.com/2023/04/01/myogadani/"
     ]

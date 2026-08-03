@@ -16,6 +16,7 @@
     "priceBand": "¥¥",
     "description": "A New York-style bakery cafe in the basement of Tokyu Plaza Ginza with free Ginza Wi-Fi and power outlets at the back-left seats, so it works well for laptop work over breakfast or coffee.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Ginza-itchome",
       "Yurakucho"
@@ -42,6 +43,7 @@
     "priceBand": "¥¥",
     "description": "A branch of the New York bakery chain inside Atre Shinagawa with free Wi-Fi and about 55 seats right by the station, but one work-cafe guide reports no power outlets, so it suits a short stay rather than long laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-shinagawa-workcafe/",
       "https://www.tasru-media.com/cafe_space/1108/"
@@ -64,6 +66,7 @@
     "priceBand": "¥¥",
     "description": "A DEAN & DELUCA bakery-deli cafe in Tokyo Midtown Hibiya with free Wi-Fi and outlets at the 14 counter seats, quiet for solo laptop work on weekday afternoons.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Yurakucho",
       "Ginza"
@@ -89,6 +92,7 @@
     "priceBand": "¥¥",
     "description": "A bright, high-ceilinged DEAN & DELUCA cafe near Tokyo Station with free Wi-Fi and power outlets, comfortable for laptop work or a light meeting.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Otemachi",
       "Nijubashimae"
@@ -115,6 +119,7 @@
     "priceBand": "¥¥",
     "description": "A large DEAN & DELUCA cafe connected to Shibuya Station with fast free Wi-Fi, but outlets reach only about one in five seats, so the window counter is the best spot for working.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://harumari.tokyo/spot/20785/",
       "https://www.lemon8-app.com/@loccobrown/7263642903392584198?region=us"
@@ -137,6 +142,7 @@
     "priceBand": "¥¥",
     "description": "A spacious DEAN & DELUCA cafe inside the Tokyo College of Music campus with its own free Wi-Fi and power outlets at the window counter seats, open in the daytime for laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Daikanyama"
     ],
@@ -161,6 +167,7 @@
     "priceBand": "¥¥",
     "description": "A Sarutahiko coffee shop with an in-house bakery counter in a Marunouchi food hall, offering shared Wi-Fi and some power outlets for daytime work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Tokyo",
       "Otemachi"
@@ -186,6 +193,7 @@
     "priceBand": "¥¥",
     "description": "A cafe run by the popular 365日 (365 Days) bakery inside Tamagawa Takashimaya with free Wi-Fi and outlets at the big wooden tables, comfortable for longer laptop sessions.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://note.com/blue_lantern/n/n8767fb586fbd"
     ]
@@ -207,6 +215,7 @@
     "priceBand": "¥¥",
     "description": "A French bakery cafe (Maison Kayser) directly linked to the msb Tamachi mall with free Wi-Fi and power outlets across its 28 calm seats, one minute from Tamachi Station.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Mita"
     ],
@@ -231,6 +240,7 @@
     "priceBand": "¥¥",
     "description": "A small Maison Kayser bakery cafe in the Otemachi One basement with free Wi-Fi and 31 seats, open weekday daytime, though power outlet availability is not confirmed.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Tokyo"
     ],
@@ -255,6 +265,7 @@
     "priceBand": "¥¥",
     "description": "A bakery cafe in Roppongi Hills run with a Michelin restaurant and Norwegian roaster Fuglen, with power outlets at its sofa and terrace seats, though Wi-Fi is not confirmed.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Azabu-Juban"
     ],
@@ -279,6 +290,7 @@
     "priceBand": "¥¥",
     "description": "A big, airy Le Pain Quotidien bakery cafe near Onarimon with free Wi-Fi and lots of terrace seating but no power outlets, so it is better for a short visit.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Shibakoen",
       "Akabanebashi"
@@ -304,6 +316,7 @@
     "priceBand": "¥",
     "description": "A Saint Marc Cafe (a bakery cafe chain known for its choco cro, a chocolate-filled croissant) near Ebisu's west exit with free Wi-Fi, outlets at some of its 107 seats, and long hours until late.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-ebisu-workcafe/"
     ]
@@ -325,6 +338,7 @@
     "priceBand": "¥",
     "description": "A bright, glass-walled Saint Marc Cafe by Ebisu station with free Wi-Fi and outlets at some of its 91 seats, open from early morning until late.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://office.yield-marketing.co.jp/coworking/recommended-ebisu-workcafe/"
     ]

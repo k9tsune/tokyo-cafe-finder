@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A busy KFC by the west exit of Shinjuku Station where the second-floor counter has free KFC Wi-Fi and a power outlet plus USB port at all 22 seats, making it a handy spot for laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "nearbyStations": [
       "Seibu-Shinjuku"
     ],
@@ -41,6 +42,7 @@
     "priceBand": "¥",
     "description": "A multi-floor KFC near the west exit of Ikebukuro Station with free KFC Wi-Fi and about ten third-floor counter seats that each have a power outlet and USB ports.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_6756",
       "https://search.kfc.co.jp/map/194"
@@ -63,6 +65,7 @@
     "priceBand": "¥",
     "description": "A KFC close to Takadanobaba Station with free KFC Wi-Fi and around fifteen counter seats that each have a power outlet, good for a quiet work stop.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_6695",
       "https://search.kfc.co.jp/map/30"
@@ -85,6 +88,7 @@
     "priceBand": "¥",
     "description": "A KFC right in front of Ebisu Station with free d Wi-Fi and power outlets along the second-floor counter seats, useful for laptop work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_7506",
       "https://search.kfc.co.jp/map/4071"
@@ -107,6 +111,7 @@
     "priceBand": "¥",
     "description": "A KFC on the Dogenzaka slope near Shibuya Station with free d Wi-Fi and power outlets at the second-floor seats, including the non-smoking area.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_7568",
       "https://www.mapion.co.jp/phonebook/M16201/13113/0000033362_100oa/"
@@ -129,6 +134,7 @@
     "priceBand": "¥",
     "description": "A KFC near Akihabara Station with free d Wi-Fi and customer power outlets on the upper floors, though some outlets have at times been switched off, so it is worth checking on arrival.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_7596",
       "https://search.kfc.co.jp/map/4197"
@@ -151,6 +157,7 @@
     "priceBand": "¥",
     "description": "A KFC near Shimbashi Station with power outlets (two sockets per seat) across several floors; the store's own free Wi-Fi is not confirmed, so plan to use your own connection.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_7582"
     ]
@@ -172,6 +179,7 @@
     "priceBand": "¥",
     "description": "A KFC close to Gotanda Station with about twelve counter seats that each have a power outlet, but no confirmed store Wi-Fi, so bring your own connection.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_7491"
     ]
@@ -193,6 +201,7 @@
     "priceBand": "¥",
     "description": "A KFC near Ningyocho Station with power outlets at counter seats on both floors (about fifteen seats), though free store Wi-Fi is not confirmed.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/kfc_4309"
     ]
@@ -214,6 +223,7 @@
     "priceBand": "¥",
     "description": "A KFC near Den-en-chofu Station with free d Wi-Fi and customer power outlets, handy for a short laptop session, though the exact number of outlets is unclear.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_6686"
     ]
@@ -235,6 +245,7 @@
     "priceBand": "¥",
     "description": "A small KFC by Sasazuka Station with about five power outlets at the counter seats, though store Wi-Fi is not confirmed.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/kfc_4353"
     ]
@@ -256,6 +267,7 @@
     "priceBand": "¥",
     "description": "A KFC near Asakusa Station with free Wi-Fi but no usable power outlets, so it works better for a short visit than long laptop work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/entry_6720"
     ]

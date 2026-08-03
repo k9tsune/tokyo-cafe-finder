@@ -16,6 +16,7 @@
     "priceBand": "¥¥",
     "description": "A station-building Starbucks inside the Beans Akabane complex with public Wi-Fi and outlet-equipped seating, though it gets crowded at peak commuter times.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA807151",
       "https://xn--hckh0ks74xei0b.jp/"
@@ -38,6 +39,7 @@
     "priceBand": "¥",
     "description": "A cheap Doutor in the Beans Akabane station building offering Wi-Fi and some outlet seats, popular with commuters for short work sessions.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA842792"
     ]
@@ -59,6 +61,7 @@
     "priceBand": "¥¥",
     "description": "Inside the AEON Style Akabane mall in Kamiya (a fair distance from Akabane station), this Starbucks has Wi-Fi and outlet seating in a roomier shopping-mall setting.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA850070"
     ]
@@ -80,6 +83,7 @@
     "priceBand": "¥¥",
     "description": "A convenient ground-floor Starbucks right in front of Oji station with Wi-Fi and outlet seats, open long hours for early-morning or evening work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://dwifi.mapion.co.jp/b/d_wifi/info/BA849653"
     ]
@@ -101,6 +105,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks in the atre vie Tabata station building that normally offers Wi-Fi and outlet seats, but as of mid-2026 its Wi-Fi is suspended due to building construction, so confirm before relying on it.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://everyday-starbucks.com/2023/08/20/atrevie-tabata/"
     ]
@@ -122,6 +127,7 @@
     "priceBand": "¥",
     "description": "A cafe-by-day, bar-by-night Pronto near Higashi-Jujo station with customer power outlets, free Wi-Fi and 68 seats, one of the area's better long-session spots.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://oasis.mogya.com/spot/epront_higashijyujyo"
     ]
@@ -143,6 +149,7 @@
     "priceBand": "¥",
     "description": "An inexpensive 61-seat Doutor near Higashi-Jujo station with confirmed free Wi-Fi that works for light laptop use, though per-seat power is not documented so bring a charged battery.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://shop.doutor.co.jp/doutor/spot/detail?code=1010935"
     ]

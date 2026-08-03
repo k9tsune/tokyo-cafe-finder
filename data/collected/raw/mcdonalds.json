@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "This McDonald's has free Wi-Fi and power outlets at some seats, so it is easy to work here.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -38,6 +39,7 @@
     "priceBand": "¥",
     "description": "This branch offers free Wi-Fi and has power outlets at some seats for working on a laptop.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -60,6 +62,7 @@
     "priceBand": "¥",
     "description": "Near Akihabara Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -82,6 +85,7 @@
     "priceBand": "¥",
     "description": "This branch by Akasaka-mitsuke Station has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -104,6 +108,7 @@
     "priceBand": "¥",
     "description": "Right by Roppongi Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -126,6 +131,7 @@
     "priceBand": "¥",
     "description": "In the Decks mall in Odaiba, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -148,6 +154,7 @@
     "priceBand": "¥",
     "description": "Near Hiroo Station, this McDonald's has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -170,6 +177,7 @@
     "priceBand": "¥",
     "description": "This branch in Miyashita Park has free Wi-Fi but the source says there are no power outlets for customers.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -192,6 +200,7 @@
     "priceBand": "¥",
     "description": "In front of Seibu-Shinjuku Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -214,6 +223,7 @@
     "priceBand": "¥",
     "description": "By Higashi-Shinjuku Station, this branch has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -236,6 +246,7 @@
     "priceBand": "¥",
     "description": "Near the JR Shinjuku south exit, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -258,6 +269,7 @@
     "priceBand": "¥",
     "description": "Close to Shin-Okubo Station, this branch has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -280,6 +292,7 @@
     "priceBand": "¥",
     "description": "Near Hatanodai Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -302,6 +315,7 @@
     "priceBand": "¥",
     "description": "By Samezu Station on Route 15, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -324,6 +338,7 @@
     "priceBand": "¥",
     "description": "Near the east exit of Kamata Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -346,6 +361,7 @@
     "priceBand": "¥",
     "description": "In front of Kojiya Station, this branch has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -368,6 +384,7 @@
     "priceBand": "¥",
     "description": "Near Shimokitazawa Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -390,6 +407,7 @@
     "priceBand": "¥",
     "description": "In front of Kyodo Station, this branch has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -412,6 +430,7 @@
     "priceBand": "¥",
     "description": "Right by Asagaya Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -434,6 +453,7 @@
     "priceBand": "¥",
     "description": "Near the west exit of Ogikubo Station, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -456,6 +476,7 @@
     "priceBand": "¥",
     "description": "Near Nogata Station, this McDonald's has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -478,6 +499,7 @@
     "priceBand": "¥",
     "description": "In front of Ekoda Station, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -500,6 +522,7 @@
     "priceBand": "¥",
     "description": "Near Oizumi-gakuen Station, this McDonald's has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -522,6 +545,7 @@
     "priceBand": "¥",
     "description": "Near the east exit of Ikebukuro Station, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://oasis.mogya.com/spot/entry_345",
@@ -545,6 +569,7 @@
     "priceBand": "¥",
     "description": "Inside Sunshine City, this McDonald's has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -567,6 +592,7 @@
     "priceBand": "¥",
     "description": "By the north exit of Uguisudani Station, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -589,6 +615,7 @@
     "priceBand": "¥",
     "description": "In front of Inaricho Station, this McDonald's has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -611,6 +638,7 @@
     "priceBand": "¥",
     "description": "Near Minamisunamachi Station, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -633,6 +661,7 @@
     "priceBand": "¥",
     "description": "In front of Toyosu Station, this McDonald's has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -655,6 +684,7 @@
     "priceBand": "¥",
     "description": "By Takashimadaira Station, this branch has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -677,6 +707,7 @@
     "priceBand": "¥",
     "description": "Near the south exit of Shin-Koiwa Station, this McDonald's has free Wi-Fi and power outlets at some seats.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"
@@ -699,6 +730,7 @@
     "priceBand": "¥",
     "description": "By the south exit of Komagome Station, this branch has free Wi-Fi and power outlets at some seats for work.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://xn--hckh0ks74xei0b.jp/category/%E3%83%9E%E3%82%AF%E3%83%89%E3%83%8A%E3%83%AB%E3%83%89/",
       "https://www.mcdonalds.co.jp/shop/mcdwifi/"

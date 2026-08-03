@@ -16,6 +16,7 @@
     "priceBand": "¥",
     "description": "A ground-floor Doutor branch seconds from the north exit that two listings agree offers outlet-equipped seating and free Wi-Fi for casual work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/",
       "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
@@ -38,6 +39,7 @@
     "priceBand": "¥",
     "description": "A second Doutor essentially at the station side of Oizumi-gakuen that both a charging directory and Tabelog describe as having power outlets and free Wi-Fi.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E5%A4%A7%E6%B3%89%E5%AD%A6%E5%9C%92/",
       "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
@@ -60,6 +62,7 @@
     "priceBand": "¥¥",
     "description": "A roomy Komeda's Coffee where select seats have outlets and the chain-wide Komeda Free Wi-Fi is available, making it a comfortable spot for longer sit-down work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/",
       "https://www.komeda.co.jp/shop/detail.html?id=782"
@@ -82,6 +85,7 @@
     "priceBand": "¥¥",
     "description": "A one-minute-from-the-west-exit Ueshima Coffee inside the Emio complex that Tabelog reports has ample outlets and Wi-Fi, opening early on weekdays for morning work.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/",
       "https://dengen-cafe.com/cafes/13926"
@@ -104,6 +108,7 @@
     "priceBand": "¥",
     "description": "A Tully's about a two-minute walk from the station that a charging directory and Tabelog agree provides free Tully's Wi-Fi plus multiple outlet-equipped seats.",
     "confidence": "high",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E7%9F%B3%E7%A5%9E%E4%BA%95%E5%85%AC%E5%9C%92/",
       "https://tabelog.com/keywords/%E9%9B%BB%E6%BA%90/tokyo/A1321/A132103/kwdLst/"
@@ -126,6 +131,7 @@
     "priceBand": "¥",
     "description": "A Doutor branch in the Hikarigaoka area flagged as having power outlets and in-store Wi-Fi, called out as the most work-capable option near the station.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"
     ]
@@ -147,6 +153,7 @@
     "priceBand": "¥¥",
     "description": "A Starbucks inside the Hikarigaoka IMA mall right by the station with free Wi-Fi, though no source confirms usable power outlets at this branch.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E5%85%89%E3%81%8C%E4%B8%98/"
     ]
@@ -168,6 +175,7 @@
     "priceBand": "¥",
     "description": "A Doutor near Nerima station's west exit listed with power outlets and free carrier Wi-Fi, though confirmation comes from a single directory.",
     "confidence": "medium",
+    "lastChecked": "2026-08-01",
     "sources": [
       "https://search-maps.com/charge_wifi/wifi_near_station/%E7%B7%B4%E9%A6%AC/"
     ]
