@@ -1,9 +1,10 @@
 import type { Venue } from "@/lib/types";
+import { categoryImageFor, categoryImageSrc } from "@/lib/cafe-image";
 
-// Photo-ready cover. If the venue has a photoUrl (e.g. a Google Places photo,
-// added later), it shows the real photo. Otherwise it renders a deterministic,
-// on-brand generated cover so every cafe has a distinct visual at zero cost and
-// with no external dependency.
+// Photo-ready cover. Priority: a direct photoUrl, then a real Google Places photo
+// (photoRef), then a representative category/chain image (Unsplash/Wikimedia — a
+// chain's storefront where we have one, else a generic cafe photo), then a
+// deterministic generated tile so every cafe always has a visual at zero cost.
 function hash(s: string): number {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
@@ -11,9 +12,11 @@ function hash(s: string): number {
 }
 
 export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolean }) {
+  const cat = !v.photoUrl && !v.photoRef ? categoryImageFor(v.name, v.nameJa) : null;
   const src =
     v.photoUrl ||
-    (v.photoRef ? `/api/place-photo?ref=${encodeURIComponent(v.photoRef)}&w=${tall ? 1000 : 700}` : "");
+    (v.photoRef ? `/api/place-photo?ref=${encodeURIComponent(v.photoRef)}&w=${tall ? 1000 : 700}` : "") ||
+    (cat ? categoryImageSrc(cat, tall ? 1000 : 800) : "");
 
   if (src) {
     return (

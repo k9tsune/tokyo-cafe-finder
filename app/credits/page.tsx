@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { allAreaPhotos } from "@/lib/media";
+import { allCategoryImages } from "@/lib/cafe-image";
 
 export const metadata: Metadata = {
   title: "Photo credits",
@@ -27,6 +28,24 @@ export default function CreditsPage() {
             <strong style={{ textTransform: "capitalize" }}>{p.slug}</strong>: {p.title} by {p.author},{" "}
             {p.license} (
             <a href={p.source} target="_blank" rel="noopener noreferrer">
+              source
+            </a>
+            ).
+          </li>
+        ))}
+      </ul>
+
+      <h2>Cafe category photos</h2>
+      <p className="lede">
+        When a cafe has no photo of its own, we show a representative image for its chain or type.
+        These come from Unsplash (Unsplash License) and Wikimedia Commons (Creative Commons).
+      </p>
+      <ul>
+        {allCategoryImages().map((c) => (
+          <li key={c.key} style={{ margin: "6px 0" }}>
+            <strong style={{ textTransform: "capitalize" }}>{c.key.replace(/_/g, " ")}</strong>: by {c.author},{" "}
+            {c.license} (
+            <a href={c.page} target="_blank" rel="noopener noreferrer">
               source
             </a>
             ).

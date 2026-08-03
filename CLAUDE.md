@@ -59,6 +59,21 @@ default.
   station slug) and take precedence over the curated `STATIONS` lookup in
   `build-seed.mjs`. Add new stations there (or to the lookup for lines/area).
 
+## Cafe images / Google Places budget policy
+- Every cafe always has a cover (`components/CafeCover.tsx`), in priority order:
+  direct `photoUrl` → real Google Places photo (`photoRef`) → representative
+  chain/category image (`data/category-images.json`, keyed by name via
+  `lib/cafe-image.ts`) → generated tile. So the site is never image-less, even
+  with zero Google spend.
+- **Google Places is metered against a recurring monthly free credit** — do NOT
+  drain it. `scripts/fetch-places.mjs` enforces:
+  - a hard **cap** of `PLACES_MAX_NEW` new photo lookups per run (default 250),
+    leaving headroom so runtime `/api/place-photo` can still serve within credit;
+  - **skip chains** (they already show a category storefront image) and spend the
+    capped budget on independent, non-chain cafes — ideally the photogenic ones.
+  - The cache (`data/places.json`) is committed and reused, so resolved cafes are
+    never re-fetched. Commit it after a populated run.
+
 ## Freshness & trust rules
 - Every utility record must carry `last_checked` + `confidence`; the UI shows the date.
 - Store only `google_place_id` from Google; never store other Google fields.

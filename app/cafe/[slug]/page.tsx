@@ -5,6 +5,7 @@ import CafeMap from "@/components/CafeMap";
 import CafeCover from "@/components/CafeCover";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea } from "@/lib/db";
+import { categoryImageFor } from "@/lib/cafe-image";
 import { cafeJsonLd, cafeFaqJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 
 export const dynamicParams = false;
@@ -49,7 +50,18 @@ export default function CafePage({ params }: { params: { slug: string } }) {
       </p>
 
       <CafeCover v={v} tall />
-      {v.photoAttr && <p className="photo-credit">Photo: {v.photoAttr} · via Google</p>}
+      {v.photoAttr ? (
+        <p className="photo-credit">Photo: {v.photoAttr} · via Google</p>
+      ) : !v.photoUrl && !v.photoRef ? (() => {
+        const c = categoryImageFor(v.name, v.nameJa);
+        if (!c) return null;
+        return (
+          <p className="photo-credit">
+            Representative photo: <a href={c.page} target="_blank" rel="noopener noreferrer">{c.author}</a>
+            {c.license !== "Unsplash License" ? ` · ${c.license}` : " · Unsplash"}
+          </p>
+        );
+      })() : null}
 
       <h1>{v.name}</h1>
       {v.nameJa && <p className="name-ja" lang="ja">{v.nameJa}</p>}

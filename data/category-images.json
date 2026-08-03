@@ -1,0 +1,10 @@
+{
+  "starbucks": { "kind": "unsplash", "url": "https://images.unsplash.com/photo-1561780339-45013972bece", "author": "TR", "license": "Unsplash License", "page": "https://unsplash.com/photos/jy4t6SY9Ax0" },
+  "mcdonalds": { "kind": "unsplash", "url": "https://images.unsplash.com/photo-1623156346149-d5cec8b29818", "author": "Visual Karsa", "license": "Unsplash License", "page": "https://unsplash.com/photos/y8fS7CSN-Vw" },
+  "kfc": { "kind": "unsplash", "url": "https://images.unsplash.com/photo-1621114957135-7f88c8447439", "author": "iStrfry, Marcus", "license": "Unsplash License", "page": "https://unsplash.com/photos/SpFttAFIhZ0" },
+  "komeda": { "kind": "wikimedia", "file": "コメダ珈琲店_(19391965319).jpg", "author": "seiji2009", "license": "CC BY 2.0", "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97_(19391965319).jpg" },
+  "ucc": { "kind": "wikimedia", "file": "UCC_CAFE_PLAZA_(9121688103).jpg", "author": "Richard, enjoy my life!", "license": "CC BY-SA 2.0", "page": "https://commons.wikimedia.org/wiki/File:UCC_CAFE_PLAZA_(9121688103).jpg" },
+  "kissaten": { "kind": "unsplash", "url": "https://images.unsplash.com/photo-1646973904681-d6eca4583c9a", "author": "Matt Hanns Schroeter", "license": "Unsplash License", "page": "https://unsplash.com/photos/Pl_U6isycsg" },
+  "bakery": { "kind": "unsplash", "url": "https://images.unsplash.com/photo-1738898326912-83ec04de4ccf", "author": "wei", "license": "Unsplash License", "page": "https://unsplash.com/photos/f_q-SIU-ORo" },
+  "independent": { "kind": "unsplash", "url": "https://images.unsplash.com/photo-1551887196-72e32bfc7bf3", "author": "Louis Hansel", "license": "Unsplash License", "page": "https://unsplash.com/photos/qoPAjwEiUmg" }
+}

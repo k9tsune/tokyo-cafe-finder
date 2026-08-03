@@ -48,9 +48,26 @@ async function main() {
     return;
   }
 
-  let matched = 0, none = 0, failed = 0, skipped = 0;
-  for (const v of venues) {
+  // --- Budget policy (keeps us inside Google's recurring monthly free credit) ---
+  // 1. CAP: never make more than PLACES_MAX_NEW *new* photo lookups per run, so a
+  //    single build can't drain the month's credit and runtime /api/place-photo
+  //    still has headroom to serve images.
+  // 2. PRIORITY: chains already show a representative storefront image
+  //    (data/category-images.json), so we DON'T spend paid lookups on them — the
+  //    budget goes to independent, non-chain cafes (the ones worth a real photo).
+  const MAX_NEW = parseInt(process.env.PLACES_MAX_NEW || "250", 10);
+  const isChainName = (name = "", nameJa = "") => {
+    const s = `${name} ${nameJa}`;
+    return /starbucks|スターバックス|doutor|ドトール|tully|タリーズ|excelsior|エクセルシオール|\bpronto\b|プロント|veloce|ベローチェ|komeda|コメダ|st\.? ?marc|サンマルク|de crie|ド・?クリエ|ueshima|\bucc\b|上島|renoir|ルノアール|mcdonald|マクドナルド|\bkfc\b|kentucky|ケンタッキー/i.test(s);
+  };
+  // Non-chain cafes first, so the capped budget is spent on them.
+  const ordered = [...venues].sort((a, b) => Number(isChainName(a.name, a.nameJa)) - Number(isChainName(b.name, b.nameJa)));
+
+  let matched = 0, none = 0, failed = 0, skipped = 0, chainSkipped = 0, capped = 0;
+  for (const v of ordered) {
     if (v.slug in places) { skipped++; continue; }
+    if (isChainName(v.name, v.nameJa)) { chainSkipped++; continue; } // uses category image, not a paid lookup
+    if (matched + none >= MAX_NEW) { capped++; continue; }            // hard budget cap
     const q = [v.name, v.address, "Tokyo, Japan"].filter(Boolean).join(", ");
     try {
       const res = await fetch("https://places.googleapis.com/v1/places:searchText", {
@@ -80,7 +97,7 @@ async function main() {
     await new Promise((r) => setTimeout(r, 120)); // polite pacing
   }
 
-  console.log(`fetch-places (cafes): matched ${matched}, no-match ${none}, failed ${failed}, skipped ${skipped}`);
+  console.log(`fetch-places (cafes): matched ${matched}, no-match ${none}, failed ${failed}, skipped ${skipped}, chains-skipped ${chainSkipped}, over-cap ${capped} (cap ${MAX_NEW})`);
 
   // --- Areas & stations -------------------------------------------------------
   // Same lookup, keyed by "area:<slug>" / "station:<slug>" so they never collide
