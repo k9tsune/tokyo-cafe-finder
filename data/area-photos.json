@@ -49,11 +49,11 @@
     "source": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_in_Dec_2014_(16015772528).jpg"
   },
   "koto": {
-    "file": "Dream_Bridge_@_Odaiba_Ariake_(9490366073).jpg",
-    "title": "Dream Bridge (Yume-no-Ohashi), Ariake",
-    "author": "Guilhem Vellut",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Dream_Bridge_@_Odaiba_Ariake_(9490366073).jpg"
+    "src": "/areas/koto.jpg",
+    "title": "Toyosu / Ariake waterfront towers, Koto",
+    "author": "WorkingCafes",
+    "license": "© WorkingCafes (own photo)",
+    "source": "/tokyo/koto"
   },
   "ota": {
     "file": "TOKYO_HANEDA_AIRPORT_VIEW_FROM_DOMESTIC_TERMINAL_2_OBSERVATION_DECK_JAPAN_JUNE_2012_(7519272586).jpg",
