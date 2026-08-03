@@ -91,11 +91,11 @@
     "source": "https://commons.wikimedia.org/wiki/File:Sunshine_60_building_@_Ikebukuro_(9353559670).jpg"
   },
   "edogawa": {
-    "file": "Bird_Watching_Center_@_Kasai_Rinkai_Park_@_Edogawa_City_(9553973669).jpg",
-    "title": "Bird Watching Center, Kasai Rinkai Park",
+    "file": "Kasai_Rinkai_Park_@_Edogawa_City_(9556804962).jpg",
+    "title": "Diamond and Flower Ferris Wheel, Kasai Rinkai Park",
     "author": "Guilhem Vellut",
     "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Bird_Watching_Center_@_Kasai_Rinkai_Park_@_Edogawa_City_(9553973669).jpg"
+    "source": "https://commons.wikimedia.org/wiki/File:Kasai_Rinkai_Park_@_Edogawa_City_(9556804962).jpg"
   },
   "shinagawa": {
     "file": "Fujizuka_@_Shinagawa_Shrine_(9556609200).jpg",
@@ -117,5 +117,47 @@
     "author": "WorkingCafes",
     "license": "© WorkingCafes (own photo)",
     "source": "/tokyo/kita"
+  },
+  "suginami": {
+    "file": "Koenji_2018_(44165801154).jpg",
+    "title": "Koenji shopping street, Suginami",
+    "author": "nakashi",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Koenji_2018_(44165801154).jpg"
+  },
+  "itabashi": {
+    "file": "Cherry_blossoms_@_Takinogawa_River_@_Itabashi_(13641379185).jpg",
+    "title": "Cherry blossoms along the Takinogawa river, Itabashi",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Cherry_blossoms_@_Takinogawa_River_@_Itabashi_(13641379185).jpg"
+  },
+  "nerima": {
+    "file": "Shakujii_Park_@_Nerima_(9669720661).jpg",
+    "title": "Sanpoji Pond, Shakujii Park, Nerima",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Shakujii_Park_@_Nerima_(9669720661).jpg"
+  },
+  "adachi": {
+    "file": "Sojiji_Temple_Nishiarai_Daishi_@_Adachi_City_(11998173404).jpg",
+    "title": "Nishiarai Daishi (Sojiji) temple, Adachi",
+    "author": "Guilhem Vellut",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sojiji_Temple_Nishiarai_Daishi_@_Adachi_City_(11998173404).jpg"
+  },
+  "katsushika": {
+    "file": "柴又_Tokyo,_Japan_Kodak_ColorPlus_Nikon_FM2_(32895611365).jpg",
+    "title": "Shibamata shopping street, Katsushika",
+    "author": "Toomore Chiang",
+    "license": "CC BY 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:%E6%9F%B4%E5%8F%88_Tokyo,_Japan_Kodak_ColorPlus_Nikon_FM2_(32895611365).jpg"
+  },
+  "arakawa": {
+    "file": "Arakawa_tram_at_Otsuka_(289744474).jpg",
+    "title": "Toden Arakawa Line streetcar, Arakawa",
+    "author": "LHOON",
+    "license": "CC BY-SA 2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arakawa_tram_at_Otsuka_(289744474).jpg"
   }
 }

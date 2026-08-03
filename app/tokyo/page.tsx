@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import SearchBar from "@/components/SearchBar";
+import AreaCover from "@/components/AreaCover";
+import { areaPhotoSrc } from "@/lib/media";
 import { getAllAreas, getAllStations, getAllDestinations, getAllVenues } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
@@ -31,7 +33,13 @@ export default function TokyoHub() {
       <h2>Areas</h2>
       <div className="card-grid">
         {areas.map((a) => (
-          <Link key={a.slug} href={`/tokyo/${a.slug}`}><strong>{a.name}</strong></Link>
+          <Link key={a.slug} href={`/tokyo/${a.slug}`} className="has-cover">
+            <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} photoRef={a.photoRef} />
+            <div className="cover-text">
+              <strong>{a.name}</strong>
+              <div className="muted" style={{ fontSize: ".82rem" }}>Cafes with Wi-Fi &amp; outlets</div>
+            </div>
+          </Link>
         ))}
       </div>
 
