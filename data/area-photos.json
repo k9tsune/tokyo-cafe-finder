@@ -110,5 +110,12 @@
     "author": "WorkingCafes",
     "license": "© WorkingCafes (own photo)",
     "source": "/tokyo/meguro"
+  },
+  "kita": {
+    "src": "/areas/kita.jpg",
+    "title": "Fox-mask night festival, Kita",
+    "author": "WorkingCafes",
+    "license": "© WorkingCafes (own photo)",
+    "source": "/tokyo/kita"
   }
 }
