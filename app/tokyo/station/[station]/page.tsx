@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import FilterableCafeList from "@/components/FilterableCafeList";
 import ComparisonTable from "@/components/ComparisonTable";
 import AreaCover from "@/components/AreaCover";
+import { stationPhotoSrc, stationPhotoMeta } from "@/lib/media";
 import { getAllStations, getStation, getVenuesByStation } from "@/lib/db";
 import { stationListJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 
@@ -38,10 +39,15 @@ export default function StationPage({ params }: { params: { station: string } })
       <JsonLd data={stationListJsonLd(s, venues)} />
 
       <p className="breadcrumb"><Link href="/">Home</Link> / <Link href="/tokyo">Tokyo</Link> / {s.name}</p>
-      {s.photoRef && (
+      {(stationPhotoSrc(s.slug) || s.photoRef) && (
         <>
-          <AreaCover slug={s.slug} name={s.name} photoRef={s.photoRef} banner />
-          {s.photoAttr && <p className="page-photo-credit">Photo: {s.photoAttr} · via Google</p>}
+          <AreaCover slug={s.slug} name={s.name} photo={stationPhotoSrc(s.slug)} photoRef={s.photoRef} banner />
+          {(() => {
+            const m = stationPhotoMeta(s.slug);
+            if (m) return <p className="page-photo-credit">{m.title}</p>;
+            if (s.photoAttr) return <p className="page-photo-credit">Photo: {s.photoAttr} · via Google</p>;
+            return null;
+          })()}
         </>
       )}
       <h1>Laptop-friendly cafes near {s.name}</h1>
