@@ -71,6 +71,11 @@ default.
   NOT part of the build, so no deploy calls it). When a HotPepper photo is shown
   the cafe page MUST link back to the shop's HotPepper page (required by their
   terms) — handled in `app/cafe/[slug]/page.tsx`.
+- **New cafes get HotPepper photos automatically.** The `.github/workflows/
+  hotpepper.yml` Action re-runs on any push that changes `data/seed/venues.json`
+  (e.g. the weekly update adding cafes) and, because the fetch is incremental,
+  only looks up the new cafes, then commits `data/hotpepper.json`. Needs the
+  `HOTPEPPER_KEY` repo secret. No manual step required when adding cafes.
 - **Places is OFF by default.** `scripts/fetch-places.mjs` no-ops unless
   `PLACES_ENABLE=1` is set — a kill-switch so no build ever spends by accident.
   Turn it on ONLY after setting a hard Google Cloud budget cap + API quota.

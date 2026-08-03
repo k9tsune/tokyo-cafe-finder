@@ -1,10 +1,20 @@
 name: Fetch HotPepper photos
 
-# Run-once, on demand: matches cafes to HotPepper listings and commits the free
-# photo cache (data/hotpepper.json). HotPepper's API is free and unmetered, and
-# this is NOT part of the site build, so it never runs on a deploy.
+# Matches cafes to HotPepper listings and commits the free photo cache
+# (data/hotpepper.json). HotPepper's API is free and unmetered, and this is NOT
+# part of the site build, so it never runs on a deploy.
+#
+# Runs on demand, AND automatically whenever the cafe list changes (e.g. the
+# weekly update adds cafes). The fetcher is incremental — it skips cafes already
+# in the cache — so an auto-run only looks up the NEW cafes. The commit it makes
+# touches only hotpepper.json (not venues.json) and is made with GITHUB_TOKEN, so
+# it can't retrigger this workflow — no loop.
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/seed/venues.json"
 
 permissions:
   contents: write
