@@ -27,11 +27,7 @@ export default function CafeCard({ v }: { v: Venue }) {
         <div className="card-actions">
           <Link className="dir-link" href={`/cafe/${v.slug}?dir=1#map`}>Directions →</Link>
           <Link className="dir-link ghost" href={`/cafe/${v.slug}`}>Details</Link>
-          {v.instagram && (
-            <a className="ig-link" href={v.instagram} target="_blank" rel="noopener noreferrer" aria-label={`${v.name} on Instagram`}>
-              Instagram ↗
-            </a>
-          )}
+          {/* Instagram intentionally lives only on the full cafe page, not the card. */}
         </div>
         <p className="desc">{v.description}</p>
         <FreshnessBadge date={v.lastChecked} confidence={v.confidence} />
