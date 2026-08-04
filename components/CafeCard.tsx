@@ -2,12 +2,13 @@ import Link from "next/link";
 import type { Venue } from "@/lib/types";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "./badges";
 import CafeCover from "./CafeCover";
+import type { CategoryImage } from "@/lib/cafe-image";
 import { t, localePath, type Locale } from "@/lib/i18n";
 import { stationNameJa } from "@/lib/station-ja";
 
 // Card ordered for scanning: name → amenity badges → where/how far → actions.
 // "Directions" goes to the cafe page's on-page map (?dir=1) so users stay on-site.
-export default function CafeCard({ v, locale = "en" }: { v: Venue; locale?: Locale }) {
+export default function CafeCard({ v, locale = "en", cover }: { v: Venue; locale?: Locale; cover?: (CategoryImage & { key?: string }) | null }) {
   const c = t(locale).card;
   const name = locale === "ja" ? v.nameJa || v.name : v.name;
   const station = locale === "ja" ? stationNameJa(v.nearestStation) : v.nearestStation;
@@ -15,7 +16,7 @@ export default function CafeCard({ v, locale = "en" }: { v: Venue; locale?: Loca
   return (
     <article className="cafe-card">
       <Link href={href} className="cafe-card-cover" aria-label={name}>
-        <CafeCover v={v} />
+        <CafeCover v={v} cover={cover} />
       </Link>
       <div className="cafe-card-body">
         <h3>

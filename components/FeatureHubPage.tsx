@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Venue } from "@/lib/types";
 import CafeCard from "./CafeCard";
 import ComparisonTable from "./ComparisonTable";
+import { assignCovers } from "@/lib/cafe-image";
 import { JsonLd, faqJsonLd, breadcrumbJsonLd } from "@/lib/schema-org";
 
 // Shared renderer for the feature hub pages (free-wifi / outlets / both).
@@ -31,7 +32,10 @@ export default function FeatureHubPage({
 
       <p className="count">{venues.length} cafe{venues.length === 1 ? "" : "s"}</p>
       <div className="cafe-list">
-        {venues.map((v) => <CafeCard key={v.id} v={v} />)}
+        {(() => {
+          const covers = assignCovers(venues);
+          return venues.map((v, i) => <CafeCard key={v.id} v={v} cover={covers[i]} />);
+        })()}
       </div>
 
       <h2>At a glance</h2>

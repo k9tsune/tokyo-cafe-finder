@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Venue } from "@/lib/types";
 import CafeCard from "./CafeCard";
+import { assignCovers } from "@/lib/cafe-image";
 import { t, type Locale } from "@/lib/i18n";
 
 // Amenity options, matching the homepage need-selector: "Wi-Fi + outlets" (both),
@@ -66,9 +67,12 @@ export default function FilterableCafeList({ venues, locale = "en" }: { venues: 
       <p className="count">{t(locale).filters.count(filtered.length)}</p>
 
       <div className="cafe-list">
-        {filtered.map((v) => (
-          <CafeCard key={v.id} v={v} locale={locale} />
-        ))}
+        {(() => {
+          const covers = assignCovers(filtered);
+          return filtered.map((v, i) => (
+            <CafeCard key={v.id} v={v} locale={locale} cover={covers[i]} />
+          ));
+        })()}
       </div>
     </div>
   );

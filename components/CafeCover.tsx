@@ -1,5 +1,5 @@
 import type { Venue } from "@/lib/types";
-import { categoryImageFor, categoryImageSrc } from "@/lib/cafe-image";
+import { categoryImageFor, categoryImageSrc, isChain, type CategoryImage } from "@/lib/cafe-image";
 
 // Photo-ready cover. Priority: a direct photoUrl, then a real Google Places photo
 // (photoRef), then a free HotPepper photo, then a representative category/chain
@@ -12,9 +12,14 @@ function hash(s: string): number {
   return h;
 }
 
-export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolean }) {
+export default function CafeCover({ v, tall = false, cover }: { v: Venue; tall?: boolean; cover?: (CategoryImage & { key?: string }) | null }) {
   const hasReal = v.photoUrl || v.photoRef || v.hotpepperPhoto;
-  const cat = !hasReal ? categoryImageFor(v.name, v.nameJa, v.slug) : null;
+  // Use the caller-resolved cover when provided (list threads it to avoid the same
+  // pool image twice in a row); otherwise resolve independently (e.g. detail page).
+  const cat = cover !== undefined ? cover : (!hasReal ? categoryImageFor(v.name, v.nameJa, v.slug) : null);
+  // Chain covers are storefront/sign shots — anchor to the top so the brand logo
+  // (usually along the top of the photo) isn't cropped out by object-fit: cover.
+  const chainCover = !hasReal && !!cat && isChain(v.name, v.nameJa);
   const src =
     v.photoUrl ||
     (v.photoRef ? `/api/place-photo?ref=${encodeURIComponent(v.photoRef)}&w=${tall ? 1000 : 700}` : "") ||
@@ -25,7 +30,7 @@ export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolea
     return (
       <div className={`cover${tall ? " cover-tall" : ""}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={src} alt={`${v.name} — cafe near ${v.nearestStation}`} loading="lazy" />
+        <img className={chainCover ? "cover-chain" : undefined} src={src} alt={`${v.name} — cafe near ${v.nearestStation}`} loading="lazy" />
         {!hasReal && tall && (
           <span className="cover-rep" title="We're still sourcing this cafe's actual photo.">📷 Representative photo</span>
         )}

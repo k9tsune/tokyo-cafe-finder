@@ -693,6 +693,9 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   box-shadow: var(--shadow-sm);
 }
 .cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* Chain storefront/sign photos: keep the brand logo (usually along the top of the
+   shot) in frame instead of centre-cropping it away. */
+.cover img.cover-chain { object-position: center top; }
 .cover-glyph {
   font-size: 3.2rem;
   font-weight: 800;

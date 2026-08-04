@@ -32,12 +32,23 @@ function hash(s: string): number {
 
 // Pick one image from a single entry or a pool. `seed` (the cafe slug) keeps the
 // choice stable across renders so each cafe always gets the same variety photo.
-function pickImage(entry: CategoryEntry | undefined, seed?: string): CategoryImage | null {
+function pickImage(entry: CategoryEntry | undefined, seed?: string, avoid?: string): CategoryImage | null {
   if (!entry) return null;
   if (!Array.isArray(entry)) return entry;
   if (entry.length === 0) return null;
-  const i = seed ? hash(seed) % entry.length : 0;
+  let i = seed ? hash(seed) % entry.length : 0;
+  // Avoid showing the same pool image twice in a row: if the deterministic pick
+  // matches the previous card's image and the pool has alternatives, step to the
+  // next one. Only applies to pools (2+) — single chain images are unaffected.
+  if (avoid && entry.length > 1 && imageId(entry[i]) === avoid) {
+    i = (i + 1) % entry.length;
+  }
   return entry[i];
+}
+
+/** Stable identity for a category image (its Commons filename or url). */
+export function imageId(img: CategoryImage): string {
+  return img.file || img.url || "";
 }
 
 // Chain / category detection from the cafe name (data has no chain field). Order
@@ -68,10 +79,26 @@ export function isChain(name: string, nameJa?: string): boolean {
 /** Resolve the fallback image for a cafe: its chain image if we have one, else the
  *  generic category image, else the independent default. Returns null if none.
  *  Pass the cafe `slug` so broad categories (pools) show variety yet stay stable. */
-export function categoryImageFor(name: string, nameJa?: string, slug?: string): (CategoryImage & { key: string }) | null {
+export function categoryImageFor(name: string, nameJa?: string, slug?: string, avoid?: string): (CategoryImage & { key: string }) | null {
   const key = categoryKey(name, nameJa);
-  const img = pickImage(IMAGES[key], slug) || pickImage(IMAGES["independent"], slug);
+  const img = pickImage(IMAGES[key], slug, avoid) || pickImage(IMAGES["independent"], slug, avoid);
   return img ? { ...img, key } : null;
+}
+
+/** Resolve covers for an ORDERED list of cafes, avoiding the same pool image
+ *  twice in a row. Returns an array aligned with `venues`: a category/chain image
+ *  for cafes that fall back to one, or null when the cafe has a real photo. Feed
+ *  the currently-visible order (post-filter) so neighbours are the on-screen ones. */
+export function assignCovers(
+  venues: Array<{ name: string; nameJa?: string; slug: string; photoUrl?: string; photoRef?: string; hotpepperPhoto?: string }>
+): Array<(CategoryImage & { key: string }) | null> {
+  let prev: string | undefined;
+  return venues.map((v) => {
+    if (v.photoUrl || v.photoRef || v.hotpepperPhoto) { prev = undefined; return null; }
+    const c = categoryImageFor(v.name, v.nameJa, v.slug, prev);
+    prev = c ? imageId(c) : undefined;
+    return c;
+  });
 }
 
 /** Build a ready <img src> for a category image at the given width. */

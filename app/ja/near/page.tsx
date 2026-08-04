@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import CafeCard from "@/components/CafeCard";
 import SearchBar from "@/components/SearchBar";
 import { formatDistance } from "@/lib/geo";
+import { assignCovers } from "@/lib/cafe-image";
 import { nearestVenues, getAllDestinations } from "@/lib/db";
 
 // Personalized results — not an SEO target, so noindex.
@@ -58,12 +59,15 @@ export default function NearPageJa({
 
       {results.length > 0 && (
         <div className="cafe-list">
-          {results.map((v) => (
-            <div key={v.id}>
-              <p className="near-dist">{formatDistance(v.distanceMeters)}先</p>
-              <CafeCard v={v} locale="ja" />
-            </div>
-          ))}
+          {(() => {
+            const covers = assignCovers(results);
+            return results.map((v, i) => (
+              <div key={v.id}>
+                <p className="near-dist">{formatDistance(v.distanceMeters)}先</p>
+                <CafeCard v={v} locale="ja" cover={covers[i]} />
+              </div>
+            ));
+          })()}
         </div>
       )}
     </div>
