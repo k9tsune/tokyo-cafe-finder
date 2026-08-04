@@ -47,12 +47,26 @@ const stations = (stationsData as unknown as Station[]).map((s) => {
   return { ...s, photoRef: p.ref, ...(p.attr ? { photoAttr: p.attr } : {}) };
 });
 
+// Built-once indexes so per-page lookups are O(1)/O(k) instead of scanning the
+// whole dataset each time — keeps SSG build time linear as coverage grows.
+const venueBySlug = new Map(venues.map((v) => [v.slug, v]));
+const areaBySlug = new Map(areas.map((a) => [a.slug, a]));
+const stationBySlug = new Map(stations.map((s) => [s.slug, s]));
+const venuesByAreaSlug = new Map<string, Venue[]>();
+const venuesByStationSlug = new Map<string, Venue[]>();
+for (const v of venues) {
+  (venuesByAreaSlug.get(v.areaSlug) ?? venuesByAreaSlug.set(v.areaSlug, []).get(v.areaSlug)!).push(v);
+  for (const st of v.stationSlugs) {
+    (venuesByStationSlug.get(st) ?? venuesByStationSlug.set(st, []).get(st)!).push(v);
+  }
+}
+
 export function getAllAreas(): Area[] {
   return areas;
 }
 
 export function getArea(slug: string): Area | undefined {
-  return areas.find((a) => a.slug === slug);
+  return areaBySlug.get(slug);
 }
 
 export function getAllStations(): Station[] {
@@ -60,7 +74,7 @@ export function getAllStations(): Station[] {
 }
 
 export function getStation(slug: string): Station | undefined {
-  return stations.find((s) => s.slug === slug);
+  return stationBySlug.get(slug);
 }
 
 export function getAllVenues(): Venue[] {
@@ -68,7 +82,7 @@ export function getAllVenues(): Venue[] {
 }
 
 export function getVenue(slug: string): Venue | undefined {
-  return venues.find((v) => v.slug === slug);
+  return venueBySlug.get(slug);
 }
 
 // "Best for working" score: both Wi-Fi + outlets rank highest, then outlets,
@@ -87,8 +101,8 @@ function workScore(v: Venue): number {
 export function getVenuesByArea(areaSlug: string): Venue[] {
   // Ward pages have no single "here", so order by how good each cafe is for
   // working, with walk-time as a tiebreak.
-  return venues
-    .filter((v) => v.areaSlug === areaSlug)
+  return (venuesByAreaSlug.get(areaSlug) ?? [])
+    .slice()
     .sort(
       (a, b) =>
         workScore(b) - workScore(a) ||
@@ -100,8 +114,8 @@ export function getVenuesByArea(areaSlug: string): Venue[] {
 export function getVenuesByStation(stationSlug: string): Venue[] {
   // Station pages: nearest first (cafe coords are station-level in the web
   // dataset, so walk-minutes is the real proximity signal), then best-for-work.
-  return venues
-    .filter((v) => v.stationSlugs.includes(stationSlug))
+  return (venuesByStationSlug.get(stationSlug) ?? [])
+    .slice()
     .sort(
       (a, b) =>
         (a.walkMinutes ?? 99) - (b.walkMinutes ?? 99) ||

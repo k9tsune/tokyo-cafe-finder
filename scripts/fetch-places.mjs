@@ -72,7 +72,7 @@ async function main() {
   // Non-chain cafes first, so the capped budget is spent on them.
   const ordered = [...venues].sort((a, b) => Number(isChainName(a.name, a.nameJa)) - Number(isChainName(b.name, b.nameJa)));
 
-  let matched = 0, none = 0, failed = 0, skipped = 0, chainSkipped = 0, capped = 0;
+  let matched = 0, none = 0, failed = 0, skipped = 0, chainSkipped = 0, capped = 0, consecutiveFail = 0;
   for (const v of ordered) {
     if (v.slug in places) { skipped++; continue; }
     if (isChainName(v.name, v.nameJa)) { chainSkipped++; continue; } // uses category image, not a paid lookup
@@ -87,8 +87,14 @@ async function main() {
           "X-Goog-FieldMask": "places.id,places.location,places.photos.name,places.photos.authorAttributions",
         },
         body: JSON.stringify({ textQuery: q, maxResultCount: 1, languageCode: "en" }),
+        signal: AbortSignal.timeout(8000), // don't let a hung socket stall the build
       });
-      if (!res.ok) { failed++; continue; }
+      if (!res.ok) {
+        failed++;
+        if (++consecutiveFail >= 12) { console.log("fetch-places: 12 consecutive failures (quota/auth?) — stopping early."); break; }
+        continue;
+      }
+      consecutiveFail = 0;
       const data = await res.json();
       const pl = data?.places?.[0];
       if (!pl) { places[v.slug] = null; none++; continue; }
@@ -102,6 +108,7 @@ async function main() {
       matched++;
     } catch {
       failed++;
+      if (++consecutiveFail >= 12) { console.log("fetch-places: 12 consecutive failures — stopping early."); break; }
     }
     await new Promise((r) => setTimeout(r, 120)); // polite pacing
   }

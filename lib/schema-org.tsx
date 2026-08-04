@@ -121,11 +121,19 @@ export function articleJsonLd(a: { title: string; description: string; url: stri
 }
 
 export function JsonLd({ data }: { data: object }) {
+  // Escape characters that could break out of the <script> tag. Cafe descriptions
+  // are auto-published by the weekly research pipeline, so treat them as untrusted.
+  const json = JSON.stringify(data)
+    .replace(/</g, "\\u003c")
+    .replace(/>/g, "\\u003e")
+    .replace(/&/g, "\\u0026")
+    .replace(/\u2028/g, "\\u2028")
+    .replace(/\u2029/g, "\\u2029");
   return (
     <script
       type="application/ld+json"
       // eslint-disable-next-line react/no-danger
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: json }}
     />
   );
 }
