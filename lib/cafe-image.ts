@@ -15,7 +15,29 @@ export type CategoryImage = {
   page: string;
 };
 
-const IMAGES = categoryImages as Record<string, CategoryImage>;
+// A category maps to either one image (chains) or a POOL of images (broad
+// categories like "independent"), from which one is chosen deterministically
+// per cafe so a large category shows variety instead of one repeated photo.
+type CategoryEntry = CategoryImage | CategoryImage[];
+
+const IMAGES = categoryImages as Record<string, CategoryEntry>;
+
+// Stable string hash → non-negative int (matches CafeCover's hash).
+function hash(s: string): number {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+
+// Pick one image from a single entry or a pool. `seed` (the cafe slug) keeps the
+// choice stable across renders so each cafe always gets the same variety photo.
+function pickImage(entry: CategoryEntry | undefined, seed?: string): CategoryImage | null {
+  if (!entry) return null;
+  if (!Array.isArray(entry)) return entry;
+  if (entry.length === 0) return null;
+  const i = seed ? hash(seed) % entry.length : 0;
+  return entry[i];
+}
 
 // Chain / category detection from the cafe name (data has no chain field). Order
 // matters: specific chains first, then broad category keywords, else independent.
@@ -33,6 +55,13 @@ const CHAIN_MATCHERS: Array<[string, RegExp]> = [
   ["renoir", /renoir|ルノアール/i],
   ["mcdonalds", /mcdonald|マクドナルド/i],
   ["kfc", /\bkfc\b|kentucky|ケンタッキー/i],
+  // newly added chains (2+ Tokyo locations) with sourced Commons sign photos
+  ["becks", /beck'?s\s*coffee|ベックス/i],
+  ["share_lounge", /share\s*lounge|シェアラウンジ/i],
+  ["mos_burger", /mos\s*burger|モスバーガー/i],
+  ["gusto", /\bgusto\b|ガスト/i],
+  ["dean_deluca", /dean\s*(&|and|\.)?\s*deluca|ディーン.?(アンド|&).?デルーカ/i],
+  ["kaikatsu", /kaikatsu|快活/i],
 ];
 const CHAIN_KEYS = new Set(CHAIN_MATCHERS.map(([k]) => k));
 
@@ -51,11 +80,12 @@ export function isChain(name: string, nameJa?: string): boolean {
 }
 
 /** Resolve the fallback image for a cafe: its chain image if we have one, else the
- *  generic category image, else the independent default. Returns null if none. */
-export function categoryImageFor(name: string, nameJa?: string): (CategoryImage & { key: string }) | null {
+ *  generic category image, else the independent default. Returns null if none.
+ *  Pass the cafe `slug` so broad categories (pools) show variety yet stay stable. */
+export function categoryImageFor(name: string, nameJa?: string, slug?: string): (CategoryImage & { key: string }) | null {
   const key = categoryKey(name, nameJa);
-  const e = IMAGES[key] || IMAGES["independent"];
-  return e ? { ...e, key } : null;
+  const img = pickImage(IMAGES[key], slug) || pickImage(IMAGES["independent"], slug);
+  return img ? { ...img, key } : null;
 }
 
 /** Build a ready <img src> for a category image at the given width. */
@@ -66,7 +96,10 @@ export function categoryImageSrc(e: CategoryImage, w = 800): string {
   return `${e.url}?auto=format&fit=crop&w=${w}&q=75`;
 }
 
-/** All distinct category images actually in use, for the credits page. */
+/** All distinct category images actually in use, for the credits page. Pools are
+ *  flattened so every sourced image is credited. */
 export function allCategoryImages(): Array<{ key: string } & CategoryImage> {
-  return Object.entries(IMAGES).map(([key, e]) => ({ key, ...e }));
+  return Object.entries(IMAGES).flatMap(([key, e]) =>
+    (Array.isArray(e) ? e : [e]).map((img) => ({ key, ...img }))
+  );
 }

@@ -15,7 +15,7 @@ function hash(s: string): number {
 
 export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolean }) {
   const hasReal = v.photoUrl || v.photoRef || v.hotpepperPhoto || v.mapillaryImageId;
-  const cat = !hasReal ? categoryImageFor(v.name, v.nameJa) : null;
+  const cat = !hasReal ? categoryImageFor(v.name, v.nameJa, v.slug) : null;
   // The Mapillary tier is only reached when no higher-tier photo exists.
   const usingMapillary = !v.photoUrl && !v.photoRef && !v.hotpepperPhoto && !!v.mapillaryImageId;
   const src =
