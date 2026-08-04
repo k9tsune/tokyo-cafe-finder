@@ -200,7 +200,10 @@ img, iframe { max-width: 100%; }
   top: 0;
   z-index: 50;
   overflow: hidden;                 /* clip the decorative skyline to the bar */
-  height: clamp(104px, 12.5vw, 150px);
+  /* Keep near the original height so the masked skyline shows at its original
+     scale/detail (the skyline is sized to the header height, so a taller bar
+     zooms it in and crops the side buildings). */
+  height: clamp(88px, 11vw, 130px);
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: saturate(1.4) blur(10px);
   -webkit-backdrop-filter: saturate(1.4) blur(10px);
@@ -244,7 +247,7 @@ img, iframe { max-width: 100%; }
   gap: 9px;
   font-family: var(--font-brand);
   font-weight: 600;
-  font-size: clamp(2.1rem, 1.2rem + 3.4vw, 3rem);  /* ~2x the previous size */
+  font-size: clamp(1.85rem, 1.1rem + 2.6vw, 2.4rem);  /* larger than the original 1.5rem, but dialed back from 2x */
   letter-spacing: 0.2px;
 }
 /* Cup cropped tight and sized so its height matches the wordmark's "W". */
@@ -288,7 +291,7 @@ img, iframe { max-width: 100%; }
     gap: 8px 12px;
     padding: 14px 16px;
   }
-  .site-header .brand { font-size: 2.1rem; }
+  .site-header .brand { font-size: 1.85rem; }
   .site-header nav {
     order: 3;
     width: 100%;
