@@ -74,7 +74,7 @@ type Dict = {
 };
 
 const en: Dict = {
-  nav: { map: "Map", areas: "Areas", freeWifi: "Free Wi-Fi", powerOutlets: "Power outlets" },
+  nav: { map: "Tokyo Map", areas: "Tokyo Areas", freeWifi: "Free Wi-Fi", powerOutlets: "Power outlets" },
   langName: "English",
   otherLangName: "日本語",
   search: {

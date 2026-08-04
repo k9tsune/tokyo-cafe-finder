@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import HomeSearch from "@/components/HomeSearch";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
-import { getAllAreas, getAllStations, getAllDestinations, getAllVenues } from "@/lib/db";
+import { getAllAreas, getAllStations, getAllDestinations } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -17,16 +17,10 @@ export default function TokyoHub() {
   const areas = getAllAreas();
   const stations = getAllStations();
   const destinations = getAllDestinations();
-  const count = getAllVenues().length;
-
   return (
     <div>
       <p className="breadcrumb"><Link href="/">Home</Link> / Tokyo</p>
       <h1>Cafes with Wi-Fi &amp; power outlets in Tokyo</h1>
-      <p className="lede">
-        {count} checked cafes and counting across Tokyo. Pick an area or station to see what&apos;s
-        nearby, then filter for Wi-Fi, outlets, or both.
-      </p>
 
       <HomeSearch destinations={destinations} />
 

@@ -30,13 +30,20 @@ export default function HeaderInner() {
         <span className="brand-text"><span className="brand-w">Working</span><span className="brand-accent">Cafes</span></span>
       </Link>
       <nav>
-        <Link href={localePath("/map", locale)}>{d.nav.map}</Link>
-        <Link href={localePath("/tokyo", locale)}>{d.nav.areas}</Link>
-        <Link href={localePath("/guides", locale)}>{d.footer.guides}</Link>
-        <Link className="lang-switch" href={localePath(path, other)} hrefLang={other} aria-label={d.otherLangName}>
-          {d.otherLangName}
-        </Link>
-        <ThemeToggle />
+        {/* Tokyo Map + Tokyo Areas are grouped so they always stay on the same
+            row; the secondary group (Guides, language, theme) wraps below them
+            as a unit when there isn't room to keep everything inline. */}
+        <span className="nav-primary">
+          <Link href={localePath("/map", locale)}>{d.nav.map}</Link>
+          <Link href={localePath("/tokyo", locale)}>{d.nav.areas}</Link>
+        </span>
+        <span className="nav-secondary">
+          <Link href={localePath("/guides", locale)}>{d.footer.guides}</Link>
+          <Link className="lang-switch" href={localePath(path, other)} hrefLang={other} aria-label={d.otherLangName}>
+            {d.otherLangName}
+          </Link>
+          <ThemeToggle />
+        </span>
       </nav>
     </div>
   );

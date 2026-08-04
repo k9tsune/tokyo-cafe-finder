@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import HomeSearch from "@/components/HomeSearch";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
-import { getAllAreas, getAllStations, getAllDestinations, getAllVenues } from "@/lib/db";
+import { getAllAreas, getAllStations, getAllDestinations } from "@/lib/db";
 import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
 import { stationNameJa } from "@/lib/station-ja";
@@ -24,13 +24,10 @@ export default function TokyoHubJa() {
   const areas = getAllAreas();
   const stations = getAllStations();
   const destinations = getAllDestinations();
-  const count = getAllVenues().length;
-
   return (
     <div>
       <p className="breadcrumb"><Link href="/ja">{d.page.common.home}</Link> / {d.page.common.tokyo}</p>
       <h1>{d.page.hub.h1}</h1>
-      <p className="lede">{d.page.hub.lede(count)}</p>
 
       <HomeSearch destinations={destinations} locale="ja" />
 
