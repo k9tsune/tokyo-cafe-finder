@@ -958,6 +958,23 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 /* Photo credit under a Places photo */
 .photo-credit { font-size: .72rem; color: var(--muted); margin: 6px 0 0; }
 
+/* Fallback-photo disclaimer (shown only when we don't yet have the cafe's real photo) */
+.photo-note { font-size: .8rem; color: var(--muted); font-style: italic; margin: 8px 0 0; }
+.cover-rep {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  z-index: 2;
+  background: rgba(15, 17, 19, .78);
+  color: #fff;
+  backdrop-filter: blur(4px);
+  font-size: .66rem;
+  line-height: 1;
+  padding: 5px 8px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, .18);
+}
+
 /* Map page */
 .map-nearme {
   display: inline-flex;

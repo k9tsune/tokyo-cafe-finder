@@ -63,10 +63,15 @@ export default function CafePage({ params }: { params: { slug: string } }) {
         const c = categoryImageFor(v.name, v.nameJa, v.slug);
         if (!c) return null;
         return (
-          <p className="photo-credit">
-            Representative photo: <a href={c.page} target="_blank" rel="noopener noreferrer">{c.author}</a>
-            {c.license !== "Unsplash License" ? ` · ${c.license}` : " · Unsplash"}
-          </p>
+          <>
+            <p className="photo-note">
+              Representative photo only: I&apos;m still sourcing this cafe&apos;s actual photo and will add it as soon as I can!
+            </p>
+            <p className="photo-credit">
+              Representative photo: <a href={c.page} target="_blank" rel="noopener noreferrer">{c.author}</a>
+              {c.license !== "Unsplash License" ? ` · ${c.license}` : " · Unsplash"}
+            </p>
+          </>
         );
       })() : null}
 

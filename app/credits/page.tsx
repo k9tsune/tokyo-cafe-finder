@@ -38,7 +38,8 @@ export default function CreditsPage() {
       <h2>Cafe category photos</h2>
       <p className="lede">
         When a cafe has no photo of its own, we show a representative image for its chain or type.
-        These come from Unsplash (Unsplash License) and Wikimedia Commons (Creative Commons).
+        These come from Wikimedia Commons (Creative Commons), Openverse/Flickr (Creative Commons),
+        Pexels, Pixabay, and Unsplash — each under a license that permits this use. Thank you to the photographers.
       </p>
       <ul>
         {allCategoryImages().map((c, i) => (

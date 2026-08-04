@@ -1,11 +1,27 @@
 {
-  "starbucks": {
-    "kind": "unsplash",
-    "url": "https://images.unsplash.com/photo-1561780339-45013972bece",
-    "author": "TR",
-    "license": "Unsplash License",
-    "page": "https://unsplash.com/photos/jy4t6SY9Ax0"
-  },
+  "starbucks": [
+    {
+      "kind": "local",
+      "url": "/cafe-images/starbucks-2.jpg",
+      "author": "IDT Institute (c) 4021",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/200806627@N02/53769478517"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Starbucks Coffee Shibuya Tsutaya (53333867624).jpg",
+      "author": "Dick Thomas Johnson from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Coffee_Shibuya_Tsutaya_(53333867624).jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Starbucks-Ichikawabashidoori Sep 2025.jpg",
+      "author": "Chacmool",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Starbucks-Ichikawabashidoori_Sep_2025.jpg"
+    }
+  ],
   "mcdonalds": {
     "kind": "unsplash",
     "url": "https://images.unsplash.com/photo-1623156346149-d5cec8b29818",
@@ -20,48 +36,179 @@
     "license": "Unsplash License",
     "page": "https://unsplash.com/photos/SpFttAFIhZ0"
   },
-  "komeda": {
-    "kind": "wikimedia",
-    "file": "コメダ珈琲店_(19391965319).jpg",
-    "author": "seiji2009",
-    "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97_(19391965319).jpg"
-  },
-  "ucc": {
-    "kind": "wikimedia",
-    "file": "UCC_CAFE_PLAZA_(9121688103).jpg",
-    "author": "Richard, enjoy my life!",
-    "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:UCC_CAFE_PLAZA_(9121688103).jpg"
-  },
-  "doutor": {
-    "kind": "wikimedia",
-    "file": "Doutor Coffee Shop Kita-Shinsaibashi, Osaka in 201509.JPG",
-    "author": "Mc681",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Doutor%20Coffee%20Shop%20Kita-Shinsaibashi%2C%20Osaka%20in%20201509.JPG"
-  },
-  "excelsior": {
-    "kind": "wikimedia",
-    "file": "Excelsior Caffé Akihabara Daibiru shop open air seat (2015-06-16 02.09.18 by Franklin Heijnen).jpg",
-    "author": "Franklin Heijnen",
-    "license": "CC BY-SA 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Excelsior%20Caff%C3%A9%20Akihabara%20Daibiru%20shop%20open%20air%20seat%20(2015-06-16%2002.09.18%20by%20Franklin%20Heijnen).jpg"
-  },
-  "tullys": {
-    "kind": "wikimedia",
-    "file": "Tully's Coffee - panoramio.jpg",
-    "author": "kcomiida",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Tully's%20Coffee%20-%20panoramio.jpg"
-  },
-  "veloce": {
-    "kind": "wikimedia",
-    "file": "20250105 CAFFE-VELOCE(1-chōme Ginza) 11.48.36.jpg",
-    "author": "Matthide127",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:20250105%20CAFFE-VELOCE(1-ch%C5%8Dme%20Ginza)%2011.48.36.jpg"
-  },
+  "komeda": [
+    {
+      "kind": "wikimedia",
+      "file": "コメダ珈琲店_(19391965319).jpg",
+      "author": "seiji2009",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B3%E3%83%A1%E3%83%80%E7%8F%88%E7%90%B2%E5%BA%97_(19391965319).jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/komeda-0.jpg",
+      "author": "nakashi",
+      "license": "BY-SA 2.0",
+      "page": "https://www.flickr.com/photos/81497476@N00/51975456707"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/komeda-1.jpg",
+      "author": "mah_japan",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/40644994@N00/53665661166"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/komeda-2.jpg",
+      "author": "yto",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/27983255@N00/53848363507"
+    }
+  ],
+  "ucc": [
+    {
+      "kind": "wikimedia",
+      "file": "UCC_CAFE_PLAZA_(9121688103).jpg",
+      "author": "Richard, enjoy my life!",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:UCC_CAFE_PLAZA_(9121688103).jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Ueshima Coffee Namba Marui.jpg",
+      "author": "Mr.ちゅらさん",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ueshima_Coffee_Namba_Marui.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "UCC Cafe CoCoLo Nagaoka.jpg",
+      "author": "Rebirth10",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:UCC_Cafe_CoCoLo_Nagaoka.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "上島珈琲店のコーヒー.jpg",
+      "author": "Toshihiro Gamo",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E4%B8%8A%E5%B3%B6%E7%8F%88%E7%90%B2%E5%BA%97%E3%81%AE%E3%82%B3%E3%83%BC%E3%83%92%E3%83%BC.jpg"
+    }
+  ],
+  "doutor": [
+    {
+      "kind": "wikimedia",
+      "file": "Doutor Coffee Shop Kita-Shinsaibashi, Osaka in 201509.JPG",
+      "author": "Mc681",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Doutor%20Coffee%20Shop%20Kita-Shinsaibashi%2C%20Osaka%20in%20201509.JPG"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "DOUTOR COFFEE SHOP Kintetsu Gakuenmae store on 27th April 2020.jpg",
+      "author": "Tokumeigakarinoaoshima",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:DOUTOR_COFFEE_SHOP_Kintetsu_Gakuenmae_store_on_27th_April_2020.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Doutor Coffee Senbayashi.jpg",
+      "author": "Mr.ちゅらさん",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Doutor_Coffee_Senbayashi.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Doutor Coffee Shop Toyama ESTA Branch.jpeg",
+      "author": "Oq10pass",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Doutor_Coffee_Shop_Toyama_ESTA_Branch.jpeg"
+    }
+  ],
+  "excelsior": [
+    {
+      "kind": "wikimedia",
+      "file": "Excelsior Caffé Akihabara Daibiru shop open air seat (2015-06-16 02.09.18 by Franklin Heijnen).jpg",
+      "author": "Franklin Heijnen",
+      "license": "CC BY-SA 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Excelsior%20Caff%C3%A9%20Akihabara%20Daibiru%20shop%20open%20air%20seat%20(2015-06-16%2002.09.18%20by%20Franklin%20Heijnen).jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Excelsior-Caffe-Runroad.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Excelsior-Caffe-Runroad.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Vestiging van Excelsior Caffé in het stationsgebouw van Tsudanuma, -15 augustus 2022 17：24.jpg",
+      "author": "sumita-m",
+      "license": "CC BY 2.1 jp",
+      "page": "https://commons.wikimedia.org/wiki/File:Vestiging_van_Excelsior_Caff%C3%A9_in_het_stationsgebouw_van_Tsudanuma,_-15_augustus_2022_17%EF%BC%9A24.jpg"
+    }
+  ],
+  "tullys": [
+    {
+      "kind": "wikimedia",
+      "file": "Tully's Coffee - panoramio.jpg",
+      "author": "kcomiida",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tully's%20Coffee%20-%20panoramio.jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/tullys-0.jpg",
+      "author": "MIKI Yoshihito. (#mikiyoshihito)",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/7940758@N07/53189417759"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Tully's Coffee - panoramio - kcomiida.jpg",
+      "author": "kcomiida",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tully%27s_Coffee_-_panoramio_-_kcomiida.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Tullys Coffee New Hankyu.jpg",
+      "author": "Mr.ちゅらさん",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tullys_Coffee_New_Hankyu.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Tullys Coffee at Lalaport Kadoma.jpg",
+      "author": "Mr.ちゅらさん",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Tullys_Coffee_at_Lalaport_Kadoma.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "TULLY'S COFFEE Sakaisujihonmachi store.JPG",
+      "author": "Tokumeigakarinoaoshima",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:TULLY%27S_COFFEE_Sakaisujihonmachi_store.JPG"
+    }
+  ],
+  "veloce": [
+    {
+      "kind": "wikimedia",
+      "file": "20250105 CAFFE-VELOCE(1-chōme Ginza) 11.48.36.jpg",
+      "author": "Matthide127",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:20250105%20CAFFE-VELOCE(1-ch%C5%8Dme%20Ginza)%2011.48.36.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "カフェ・ベローチェ外観.jpg",
+      "author": "ぽんぽんぷりん",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%AB%E3%83%95%E3%82%A7%E3%83%BB%E3%83%99%E3%83%AD%E3%83%BC%E3%83%81%E3%82%A7%E5%A4%96%E8%A6%B3.jpg"
+    }
+  ],
   "renoir": {
     "kind": "wikimedia",
     "file": "Cafe renoir ginza 6chome branch shop 2014.jpg",
@@ -69,34 +216,147 @@
     "license": "CC BY-SA 4.0",
     "page": "https://commons.wikimedia.org/wiki/File:Cafe%20renoir%20ginza%206chome%20branch%20shop%202014.jpg"
   },
-  "st_marc": {
-    "kind": "wikimedia",
-    "file": "サンマルクカフェ 神保町すずらん通り店 - panoramio (1).jpg",
-    "author": "運転太郎",
-    "license": "CC BY 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AB%E3%82%AF%E3%82%AB%E3%83%95%E3%82%A7%20%E7%A5%9E%E4%BF%9D%E7%94%BA%E3%81%99%E3%81%9A%E3%82%89%E3%82%93%E9%80%9A%E3%82%8A%E5%BA%97%20-%20panoramio%20(1).jpg"
-  },
-  "cafe_de_crie": {
-    "kind": "wikimedia",
-    "file": "Cafe de Crie 2015-09-03.jpg",
-    "author": "Asanagi",
-    "license": "CC0",
-    "page": "https://commons.wikimedia.org/wiki/File:Cafe%20de%20Crie%202015-09-03.jpg"
-  },
-  "becks": {
-    "kind": "wikimedia",
-    "file": "Beck's Coffee Shop Akihabara Denkigai-guchi.JPG",
-    "author": "ARICA13",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Beck's%20Coffee%20Shop%20Akihabara%20Denkigai-guchi.JPG"
-  },
-  "share_lounge": {
-    "kind": "wikimedia",
-    "file": "代官山 蔦屋書店 シェアラウンジ (51777193567).jpg",
-    "author": "Tatsuo Yamashita",
-    "license": "CC BY 2.0",
-    "page": "https://commons.wikimedia.org/wiki/File:%E4%BB%A3%E5%AE%98%E5%B1%B1%20%E8%94%A6%E5%B1%8B%E6%9B%B8%E5%BA%97%20%E3%82%B7%E3%82%A7%E3%82%A2%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%20(51777193567).jpg"
-  },
+  "st_marc": [
+    {
+      "kind": "wikimedia",
+      "file": "サンマルクカフェ 神保町すずらん通り店 - panoramio (1).jpg",
+      "author": "運転太郎",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AB%E3%82%AF%E3%82%AB%E3%83%95%E3%82%A7%20%E7%A5%9E%E4%BF%9D%E7%94%BA%E3%81%99%E3%81%9A%E3%82%89%E3%82%93%E9%80%9A%E3%82%8A%E5%BA%97%20-%20panoramio%20(1).jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Saint-Marc-Cafe-Sakae-Skyle.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Saint-Marc-Cafe-Sakae-Skyle.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Saint Marc Cafe Hirakata.JPG",
+      "author": "Own work",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Saint_Marc_Cafe_Hirakata.JPG"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Saint Marc Coffee Himeji.jpg",
+      "author": "Drivephotographer",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Saint_Marc_Coffee_Himeji.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "サンマルクカフェ - panoramio.jpg",
+      "author": "運転太郎",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AB%E3%82%AF%E3%82%AB%E3%83%95%E3%82%A7_-_panoramio.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "サンマルクカフェ 小田急町田北口店 - panoramio.jpg",
+      "author": "運転太郎",
+      "license": "CC BY 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B5%E3%83%B3%E3%83%9E%E3%83%AB%E3%82%AF%E3%82%AB%E3%83%95%E3%82%A7_%E5%B0%8F%E7%94%B0%E6%80%A5%E7%94%BA%E7%94%B0%E5%8C%97%E5%8F%A3%E5%BA%97_-_panoramio.jpg"
+    }
+  ],
+  "cafe_de_crie": [
+    {
+      "kind": "wikimedia",
+      "file": "Cafe de Crie 2015-09-03.jpg",
+      "author": "Asanagi",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Cafe%20de%20Crie%202015-09-03.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "CAFE-de-CRIE-3.jpg",
+      "author": "Evelyn-rose",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:CAFE-de-CRIE-3.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "CAFE-de-CRIE-Kanayama-Kitaguchi.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:CAFE-de-CRIE-Kanayama-Kitaguchi.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "CAFE-de-CRIE-1.jpg",
+      "author": "Evelyn-rose",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:CAFE-de-CRIE-1.jpg"
+    }
+  ],
+  "becks": [
+    {
+      "kind": "wikimedia",
+      "file": "Beck's Coffee Shop Akihabara Denkigai-guchi.JPG",
+      "author": "ARICA13",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Beck's%20Coffee%20Shop%20Akihabara%20Denkigai-guchi.JPG"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Beck's Coffee Shop Maihama.JPG",
+      "author": "ARICA13",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Beck%27s_Coffee_Shop_Maihama.JPG"
+    }
+  ],
+  "share_lounge": [
+    {
+      "kind": "wikimedia",
+      "file": "代官山 蔦屋書店 シェアラウンジ (51777193567).jpg",
+      "author": "Tatsuo Yamashita",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E4%BB%A3%E5%AE%98%E5%B1%B1%20%E8%94%A6%E5%B1%8B%E6%9B%B8%E5%BA%97%20%E3%82%B7%E3%82%A7%E3%82%A2%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8%20(51777193567).jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/share_lounge-9.jpg",
+      "author": "yto",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/27983255@N00/51778654064"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/share_lounge-10.jpg",
+      "author": "yto",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/27983255@N00/51778256718"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/share_lounge-11.jpg",
+      "author": "yto",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/27983255@N00/51777193567"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/share_lounge-12.jpg",
+      "author": "yto",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/27983255@N00/52653736336"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/share_lounge-13.jpg",
+      "author": "yto",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/27983255@N00/52764058564"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "代官山 蔦屋書店 シェアラウンジ (51778654064).jpg",
+      "author": "Tatsuo Yamashita from Tokyo, Japan",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E4%BB%A3%E5%AE%98%E5%B1%B1_%E8%94%A6%E5%B1%8B%E6%9B%B8%E5%BA%97_%E3%82%B7%E3%82%A7%E3%82%A2%E3%83%A9%E3%82%A6%E3%83%B3%E3%82%B8_(51778654064).jpg"
+    }
+  ],
   "mos_burger": {
     "kind": "wikimedia",
     "file": "MOS Burger restaurant in THSR Taoyuan Station 2007-01-14.jpg",
@@ -104,27 +364,61 @@
     "license": "CC BY-SA 2.0",
     "page": "https://commons.wikimedia.org/wiki/File:MOS%20Burger%20restaurant%20in%20THSR%20Taoyuan%20Station%202007-01-14.jpg"
   },
-  "gusto": {
-    "kind": "wikimedia",
-    "file": "ガスト.JPG",
-    "author": "松岡明芳",
-    "license": "Public domain",
-    "page": "https://commons.wikimedia.org/wiki/File:%E3%82%AC%E3%82%B9%E3%83%88.JPG"
-  },
-  "dean_deluca": {
-    "kind": "wikimedia",
-    "file": "DEAN and DELUCA Cafe in Tonarino.jpg",
-    "author": "KKPCW",
-    "license": "CC BY-SA 4.0",
-    "page": "https://commons.wikimedia.org/wiki/File:DEAN%20and%20DELUCA%20Cafe%20in%20Tonarino.jpg"
-  },
-  "kaikatsu": {
-    "kind": "wikimedia",
-    "file": "Kaikatsu CLUB Route 6 Ishioka Shop.jpg",
-    "author": "Miyuki Meinaka",
-    "license": "CC BY-SA 3.0",
-    "page": "https://commons.wikimedia.org/wiki/File:Kaikatsu%20CLUB%20Route%206%20Ishioka%20Shop.jpg"
-  },
+  "gusto": [
+    {
+      "kind": "wikimedia",
+      "file": "ガスト.JPG",
+      "author": "松岡明芳",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%AC%E3%82%B9%E3%83%88.JPG"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Skylark Gusto Daito Eiwa.jpg",
+      "author": "Mr.ちゅらさん",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Skylark_Gusto_Daito_Eiwa.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Gusto Kasugai at night.jpg",
+      "author": "KKPCW",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Gusto_Kasugai_at_night.jpg"
+    }
+  ],
+  "dean_deluca": [
+    {
+      "kind": "wikimedia",
+      "file": "DEAN and DELUCA Cafe in Tonarino.jpg",
+      "author": "KKPCW",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:DEAN%20and%20DELUCA%20Cafe%20in%20Tonarino.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Georgetown Market, DC.jpg",
+      "author": "AgnosticPreachersKid",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Georgetown_Market,_DC.jpg"
+    }
+  ],
+  "kaikatsu": [
+    {
+      "kind": "wikimedia",
+      "file": "Kaikatsu CLUB Route 6 Ishioka Shop.jpg",
+      "author": "Miyuki Meinaka",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kaikatsu%20CLUB%20Route%206%20Ishioka%20Shop.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "2020-09-19 Kaikatsu - club 快活倶楽部・長田 DSCF8120.jpg",
+      "author": "松岡明芳",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:2020-09-19_Kaikatsu_-_club_%E5%BF%AB%E6%B4%BB%E5%80%B6%E6%A5%BD%E9%83%A8%E3%83%BB%E9%95%B7%E7%94%B0_DSCF8120.jpg"
+    }
+  ],
   "kissaten": [
     {
       "kind": "unsplash",
@@ -139,6 +433,69 @@
       "author": "othree",
       "license": "CC BY 2.0",
       "page": "https://commons.wikimedia.org/wiki/File:RON%20(34927496983).jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-17.jpg",
+      "author": "Gu Ko",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/vintage-interior-with-phonograph-and-calligraphy-33013198/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-21.jpg",
+      "author": "Nguyen Huy",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/bar-interior-design-15362210/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-23.jpg",
+      "author": "🇻🇳🇻🇳 Việt Anh Nguyễn 🇻🇳🇻🇳",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/vintage-coffee-shop-interior-with-retro-equipment-34654509/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-25.jpg",
+      "author": "Zhengdong Hu",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/black-and-gray-electronic-device-on-brown-wooden-table-14490407/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-29.jpg",
+      "author": "Gül Işık",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/cozy-coffee-shop-interior-in-yokosuka-32416015/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-30.jpg",
+      "author": "Kuan-yu Huang",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/a-brown-wooden-frames-with-glass-windows-14090108/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-44.jpg",
+      "author": "Rene Terp",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/old-fashioned-living-room-14318813/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-62.jpg",
+      "author": "donterase",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/cafe-restaurant-fancy-style-789635/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/kissaten-63.jpg",
+      "author": "JayMantri",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/bar-counter-pub-chairs-restaurant-413709/"
     }
   ],
   "bakery": [
@@ -148,6 +505,69 @@
       "author": "wei",
       "license": "Unsplash License",
       "page": "https://unsplash.com/photos/f_q-SIU-ORo"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-0.jpg",
+      "author": "sarahstierch",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/7633518@N08/52344338395"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-1.jpg",
+      "author": "chris.rycroft",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/193316968@N06/51289125920"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-6.jpg",
+      "author": "chris.rycroft",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/193316968@N06/51287370902"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-14.jpg",
+      "author": "Ani Hadushaj",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/cozy-bakery-display-with-assorted-fresh-pastries-32459865/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-15.jpg",
+      "author": "Lisa from Pexels",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/interior-of-cafe-with-wooden-stools-by-window-18059555/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-18.jpg",
+      "author": "Emre Gokceoglu",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/cozy-ankara-cafe-display-with-diverse-pastries-33313218/"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Toulouse - Les Halles de la Cartoucherie - Les Frères Chapelier - 20250325 (1).jpg",
+      "author": "Olybrius",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Toulouse_-_Les_Halles_de_la_Cartoucherie_-_Les_Fr%C3%A8res_Chapelier_-_20250325_(1).jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-38.jpg",
+      "author": "Tanya Gorelova",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/bread-on-brown-on-the-wooden-table-3933147/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/bakery-41.jpg",
+      "author": "Javey Du",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/assorted-breads-displayed-in-bakery-shop-30274512/"
     }
   ],
   "independent": [
@@ -206,6 +626,213 @@
       "author": "Evelyn-rose",
       "license": "CC0",
       "page": "https://commons.wikimedia.org/wiki/File:Vacuum-coffee-maker-1.jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-9.jpg",
+      "author": "Aaryan Jain",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/cozy-cafe-interior-with-espresso-machine-29833130/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-10.jpg",
+      "author": "youngdae kim",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/interior-of-a-cafe-12704634/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-11.jpg",
+      "author": "Pavel Danilyuk",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/an-espresso-machine-6612572/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-13.jpg",
+      "author": "Igor Starkov",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/tables-and-chairs-in-the-restaurant-8905055/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-17.jpg",
+      "author": "Züleyha Gül",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/cozy-coffee-shop-counter-with-espresso-machine-35411022/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-18.jpg",
+      "author": "Rachel Claire",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/spacious-counter-with-glass-bottles-in-cafe-5490818/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-21.jpg",
+      "author": "Igor Starkov",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/photograph-of-a-woman-in-a-coffee-shop-1002740/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-22.jpg",
+      "author": "Cheese Nya",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/cozy-coffee-shop-interior-with-espresso-machine-34280858/"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Starbucks Reserve Roastery 05.jpg",
+      "author": "AleGo1980",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Starbucks_Reserve_Roastery_05.jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-46.jpg",
+      "author": "Arda Kaykısız",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/plants-near-chairs-in-restaurant-18721982/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-47.jpg",
+      "author": "Emre Can Acer",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/coffee-table-beside-shelves-of-books-2079452/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-51.jpg",
+      "author": "Alex Cooper",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/empty-eatery-972845/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-60.jpg",
+      "author": "Niklas Jeromin",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/cafeteria-in-a-brown-brick-building-10623540/"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Stylish interior of a modern cafe showcasing green chairs.jpg",
+      "author": "Shixart1985",
+      "license": "CC BY 2.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Stylish_interior_of_a_modern_cafe_showcasing_green_chairs.jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-71.jpg",
+      "author": "Rachel Claire",
+      "license": "Pexels License",
+      "page": "https://www.pexels.com/photo/modern-style-restaurant-interior-5865422/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-78.jpg",
+      "author": "bbom100892",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/cafe-coffee-shop-vintage-aesthetic-7454951/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-81.jpg",
+      "author": "CUN_CUN",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/cup-coffee-table-drinks-beverage-6878196/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-82.jpg",
+      "author": "tianya1223",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/cafe-interior-furniture-tables-5635015/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-83.jpg",
+      "author": "pc500k",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/seoul-cafe-coffee-shop-7106196/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-84.jpg",
+      "author": "juno1412",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/cafe-furniture-interior-5755763/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-92.jpg",
+      "author": "MẫnLê",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/coffee-shop-coffee-shelf-cozy-6771371/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-93.jpg",
+      "author": "StockSnap",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/wooden-table-coffeehouse-shop-2594768/"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/independent-94.jpg",
+      "author": "juno1412",
+      "license": "Pixabay Content License",
+      "page": "https://pixabay.com/photos/cafe-furniture-interior-5755763/"
+    }
+  ],
+  "pronto": [
+    {
+      "kind": "wikimedia",
+      "file": "PRONTO-CAFFE-ASTY-Ichinomiya.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:PRONTO-CAFFE-ASTY-Ichinomiya.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "PRONTO-CAFFE-Toyohashi-station.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:PRONTO-CAFFE-Toyohashi-station.jpg"
+    }
+  ],
+  "hoshino": [
+    {
+      "kind": "wikimedia",
+      "file": "HOSHINO COFFEE Himeji festa.jpg",
+      "author": "Drivephotographer",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:HOSHINO_COFFEE_Himeji_festa.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "HOSHINO COFFEE Shin-Yokohama.jpg",
+      "author": "Drivephotographer",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:HOSHINO_COFFEE_Shin-Yokohama.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "イオンモール幕張新都心店.jpg",
+      "author": "Souka Kinmei",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%82%A4%E3%82%AA%E3%83%B3%E3%83%A2%E3%83%BC%E3%83%AB%E5%B9%95%E5%BC%B5%E6%96%B0%E9%83%BD%E5%BF%83%E5%BA%97.jpg"
+    },
+    {
+      "kind": "local",
+      "url": "/cafe-images/hoshino-13.jpg",
+      "author": "Norisa1",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/40781985@N08/52907141409"
     }
   ]
 }

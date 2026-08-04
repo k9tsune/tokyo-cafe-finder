@@ -26,6 +26,9 @@ export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolea
       <div className={`cover${tall ? " cover-tall" : ""}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={src} alt={`${v.name} — cafe near ${v.nearestStation}`} loading="lazy" />
+        {!hasReal && tall && (
+          <span className="cover-rep" title="We're still sourcing this cafe's actual photo.">📷 Representative photo</span>
+        )}
       </div>
     );
   }

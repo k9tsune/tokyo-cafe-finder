@@ -7,8 +7,8 @@
 import categoryImages from "@/data/category-images.json";
 
 export type CategoryImage = {
-  kind: "unsplash" | "wikimedia";
-  url?: string;   // unsplash: base photo URL (sizing added at render time)
+  kind: "unsplash" | "wikimedia" | "local";
+  url?: string;   // unsplash: base photo URL (sizing added at render time); local: /cafe-images/* served from public/
   file?: string;  // wikimedia: Commons filename, served via Special:FilePath
   author: string;
   license: string;
@@ -49,6 +49,7 @@ const CHAIN_MATCHERS: Array<[string, RegExp]> = [
   ["pronto", /\bpronto\b|プロント/i],
   ["veloce", /veloce|ベローチェ/i],
   ["komeda", /komeda|コメダ/i],
+  ["hoshino", /hoshino|星乃/i],
   ["st_marc", /st\.? ?marc|サンマルク/i],
   ["cafe_de_crie", /de crie|ド・?クリエ/i],
   ["ucc", /ueshima|\bucc\b|上島/i],
@@ -92,6 +93,9 @@ export function categoryImageFor(name: string, nameJa?: string, slug?: string): 
 export function categoryImageSrc(e: CategoryImage, w = 800): string {
   if (e.kind === "wikimedia" && e.file) {
     return `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(e.file)}?width=${w}`;
+  }
+  if (e.kind === "local" && e.url) {
+    return e.url; // self-hosted from public/; already sized at sourcing
   }
   return `${e.url}?auto=format&fit=crop&w=${w}&q=75`;
 }
