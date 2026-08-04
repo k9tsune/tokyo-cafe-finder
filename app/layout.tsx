@@ -6,6 +6,9 @@ import ExploreMap from "@/components/ExploreMap";
 import { getAllVenues, getAllAreas, getAllStations } from "@/lib/db";
 import { SITE } from "@/lib/site";
 import "./globals.css";
+// Self-hosted (no external request): Fredoka for the wordmark, Rubik for the UI.
+import "@fontsource-variable/fredoka";
+import "@fontsource-variable/rubik";
 
 // Cloudflare Web Analytics: cookieless, privacy-friendly, lightweight. The beacon
 // token is public by design (it ships in the page HTML), so it's fine to keep here
@@ -64,21 +67,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script id="theme-init" strategy="beforeInteractive">
           {`try{var t=localStorage.getItem('wc-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}`}
         </Script>
-        <div className="top-skyline" aria-hidden="true" />
         <header className="site-header">
-          <Link href="/" className="brand" aria-label={`${SITE.name} — home`}>
-            <svg className="brand-mark" viewBox="2.8 7.0 14.6 9.2" width="24" height="24" aria-hidden="true" focusable="false" fill="none">
-              {/* Wide coffee cup with a bold lightning bolt inside */}
-              <path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M3.0 7.2H13.8C13.6 12 12.6 16.0 8.4 16.0C4.2 16.0 3.2 12 3.0 7.2ZM9.6 8.0 5.9 13.0H8.3L7.2 15.4 11.1 10.5H8.6L9.6 8.0Z" />
-              <path fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" d="M13.7 8.9C16.4 8.7 16.4 12.6 13.7 12.5" />
-            </svg>
-            <span className="brand-text">Working<span className="brand-accent">Cafes</span></span>
-          </Link>
-          <nav>
-            <Link href="/map">Map</Link>
-            <Link href="/tokyo">Areas</Link>
-            <ThemeToggle />
-          </nav>
+          {/* Decorative Tokyo skyline behind the wordmark and nav. Scales to the
+              header height so the tallest towers are never cut; recolours via a
+              masked orange gradient. Purely decorative. */}
+          <div className="header-skyline" aria-hidden="true" />
+          <div className="site-header-inner">
+            <Link href="/" className="brand" aria-label={`${SITE.name} — home`}>
+              <svg className="brand-mark" viewBox="2.8 7.0 14.6 9.2" width="24" height="24" aria-hidden="true" focusable="false" fill="none">
+                {/* Wide coffee cup with a bold lightning bolt inside */}
+                <path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M3.0 7.2H13.8C13.6 12 12.6 16.0 8.4 16.0C4.2 16.0 3.2 12 3.0 7.2ZM9.6 8.0 5.9 13.0H8.3L7.2 15.4 11.1 10.5H8.6L9.6 8.0Z" />
+                <path fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" d="M13.7 8.9C16.4 8.7 16.4 12.6 13.7 12.5" />
+              </svg>
+              <span className="brand-text"><span className="brand-w">Working</span><span className="brand-accent">Cafes</span></span>
+            </Link>
+            <nav>
+              <Link href="/map">Map</Link>
+              <Link href="/tokyo">Areas</Link>
+              <ThemeToggle />
+            </nav>
+          </div>
         </header>
         <main className="container">{children}</main>
         <ExploreMap points={points} areas={areaCoords} stations={stationCoords} />
