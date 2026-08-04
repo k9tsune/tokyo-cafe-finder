@@ -28,6 +28,14 @@ default.
    - Write ORIGINAL one-sentence summaries. Never copy source text (guardrail).
    - Set **confidence** honestly (high = 2+ agreeing sources); flag conflicts.
    - Prefer official pages and recent, corroborating sources.
+   - **Japanese description (for the /ja site).** For each cafe, also write an
+     ORIGINAL 1–2 sentence Japanese description from Japanese-language research
+     (雰囲気・作業のしやすさ・Wi-Fi/電源), and store it in
+     `data/cafe-descriptions-ja.json` keyed by slug. Localized, not translated
+     from the English; never copy source text. Independent cafes get their own;
+     chains are covered by the per-chain templates in `lib/cafe-desc-ja.ts`
+     (only add a per-branch entry when a branch genuinely differs). The Japanese
+     cafe page (`app/ja/cafe/[slug]`) uses it, falling back to a factual line.
 2. **Rebuild.** Run `node scripts/build-seed.mjs` to regenerate `data/seed/*.json`
    from the raw files, stamping `lastChecked` with today's date.
 3. **Gate (auto-approval).** `decide(existing, proposed)` in `enrich.mjs`:

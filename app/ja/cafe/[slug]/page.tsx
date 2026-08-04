@@ -10,6 +10,7 @@ import { cafeJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-or
 import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
 import { stationNameJa } from "@/lib/station-ja";
+import { cafeDescJa } from "@/lib/cafe-desc-ja";
 
 const d = t("ja");
 export const dynamicParams = false;
@@ -116,9 +117,14 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
         {v.laptopFriendly && <span className="badge alt">{d.card.laptopFriendly}</span>}
       </div>
 
-      <p className="lede" style={{ marginTop: 14 }}>
-        {station}から徒歩{v.walkMinutes}分。{wifiTxt}・{powerTxt}。
-      </p>
+      {(() => {
+        const prose = cafeDescJa(v.slug, v.name, v.nameJa);
+        return (
+          <p className="lede" style={{ marginTop: 14 }}>
+            {prose || `${station}から徒歩${v.walkMinutes}分。${wifiTxt}・${powerTxt}。`}
+          </p>
+        );
+      })()}
 
       <div className="facts">
         <div><span className="k">最寄り駅： </span>{station}（徒歩{v.walkMinutes}分）</div>
