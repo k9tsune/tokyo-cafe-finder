@@ -3,12 +3,14 @@ import type { Venue } from "@/lib/types";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "./badges";
 import CafeCover from "./CafeCover";
 import { t, localePath, type Locale } from "@/lib/i18n";
+import { stationNameJa } from "@/lib/station-ja";
 
 // Card ordered for scanning: name → amenity badges → where/how far → actions.
 // "Directions" goes to the cafe page's on-page map (?dir=1) so users stay on-site.
 export default function CafeCard({ v, locale = "en" }: { v: Venue; locale?: Locale }) {
   const c = t(locale).card;
   const name = locale === "ja" ? v.nameJa || v.name : v.name;
+  const station = locale === "ja" ? stationNameJa(v.nearestStation) : v.nearestStation;
   const href = localePath(`/cafe/${v.slug}`, locale);
   return (
     <article className="cafe-card">
@@ -25,7 +27,7 @@ export default function CafeCard({ v, locale = "en" }: { v: Venue; locale?: Loca
           {v.laptopFriendly && <span className="badge alt">{c.laptopFriendly}</span>}
         </div>
         <p className="meta">
-          {v.nearestStation} · {locale === "ja" ? c.walk(v.walkMinutes) : `${v.walkMinutes} min walk`}
+          {station} · {locale === "ja" ? c.walk(v.walkMinutes) : `${v.walkMinutes} min walk`}
           {v.priceBand ? ` · ${v.priceBand}` : ""}
           {locale === "en" && v.typicalBusyness ? ` · usually ${v.typicalBusyness}` : ""}
         </p>

@@ -6,6 +6,7 @@ import { areaPhotoSrc } from "@/lib/media";
 import { getAllAreas, getAllStations, getAllDestinations, getAllVenues } from "@/lib/db";
 import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
+import { stationNameJa } from "@/lib/station-ja";
 
 const d = t("ja");
 
@@ -49,7 +50,7 @@ export default function TokyoHubJa() {
       <h2>{d.page.hub.byStation}</h2>
       <div className="card-grid">
         {stations.map((s) => (
-          <Link key={s.slug} href={`/ja/tokyo/station/${s.slug}`}><strong>{s.name}</strong></Link>
+          <Link key={s.slug} href={`/ja/tokyo/station/${s.slug}`}><strong>{stationNameJa(s.name)}</strong></Link>
         ))}
       </div>
     </div>
