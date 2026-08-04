@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Guides — working from cafes in Tokyo",
   description:
     "Practical guides for working from Tokyo cafes: the best neighbourhoods, how to find power outlets, and cafe etiquette in Japan.",
-  alternates: { canonical: "/guides" },
+  alternates: { canonical: "/guides", languages: { en: "/guides", ja: "/ja/guides", "x-default": "/guides" } },
 };
 
 export default function GuidesIndex() {

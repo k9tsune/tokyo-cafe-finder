@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import Script from "next/script";
-import ThemeToggle from "@/components/ThemeToggle";
+import HeaderInner from "@/components/HeaderInner";
+import SiteFooter from "@/components/SiteFooter";
 import ExploreMap from "@/components/ExploreMap";
 import { getAllVenues, getAllAreas, getAllStations } from "@/lib/db";
 import { SITE } from "@/lib/site";
@@ -65,47 +65,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en">
       <body>
         <Script id="theme-init" strategy="beforeInteractive">
-          {`try{var t=localStorage.getItem('wc-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}`}
+          {`try{var t=localStorage.getItem('wc-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}try{var p=location.pathname;if(p==='/ja'||p.indexOf('/ja/')===0)document.documentElement.lang='ja';}catch(e){}`}
         </Script>
         <header className="site-header">
           {/* Decorative Tokyo skyline behind the wordmark and nav. Scales to the
               header height so the tallest towers are never cut; recolours via a
               masked orange gradient. Purely decorative. */}
           <div className="header-skyline" aria-hidden="true" />
-          <div className="site-header-inner">
-            <Link href="/" className="brand" aria-label={`${SITE.name} — home`}>
-              <svg className="brand-mark" viewBox="2.8 7.0 14.6 9.2" width="24" height="24" aria-hidden="true" focusable="false" fill="none">
-                {/* Wide coffee cup with a bold lightning bolt inside */}
-                <path fill="currentColor" fillRule="evenodd" clipRule="evenodd" d="M3.0 7.2H13.8C13.6 12 12.6 16.0 8.4 16.0C4.2 16.0 3.2 12 3.0 7.2ZM9.6 8.0 5.9 13.0H8.3L7.2 15.4 11.1 10.5H8.6L9.6 8.0Z" />
-                <path fill="none" stroke="currentColor" strokeWidth="1.9" strokeLinecap="round" d="M13.7 8.9C16.4 8.7 16.4 12.6 13.7 12.5" />
-              </svg>
-              <span className="brand-text"><span className="brand-w">Working</span><span className="brand-accent">Cafes</span></span>
-            </Link>
-            <nav>
-              <Link href="/map">Map</Link>
-              <Link href="/tokyo">Areas</Link>
-              <ThemeToggle />
-            </nav>
-          </div>
+          <HeaderInner />
         </header>
         <main className="container">{children}</main>
         <ExploreMap points={points} areas={areaCoords} stations={stationCoords} />
-        <footer className="site-footer">
-          <p>
-            {SITE.name} — an independent guide to working from Tokyo cafes.
-            Cafe data is checked regularly; the “last checked” date shows when.
-          </p>
-          <p className="attrib">
-            Base location data © OpenStreetMap contributors (ODbL). Maps, directions &amp; cafe photos via Google. Map tiles © OpenFreeMap / OpenMapTiles.
-          </p>
-          <nav>
-            <Link href="/guides">Guides</Link>
-            <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
-            <Link href="/credits">Photo credits</Link>
-            <Link href="/privacy">Privacy</Link>
-          </nav>
-        </footer>
+        <SiteFooter />
         {CF_BEACON_TOKEN && process.env.NODE_ENV === "production" && (
           <Script
             src="https://static.cloudflareinsights.com/beacon.min.js"

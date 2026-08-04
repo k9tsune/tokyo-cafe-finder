@@ -50,7 +50,22 @@ type Dict = {
     walk: (n: number) => string;
   };
   near: { charge: string; normal: string; locating: string; retry: string };
-  footer: { tagline: string; guides: string; about: string; contact: string; privacy: string };
+  footer: { tagline: string; guides: string; about: string; contact: string; privacy: string; credits: string; attrib: string };
+  page: {
+    htmlLang: string;
+    home: { metaTitle: string; metaDescription: string; h1: string; lede: string; browseAreas: string };
+    hub: {
+      metaTitle: string; metaDescription: string; h1: string; lede: (c: number) => string;
+      areas: string; byStation: string; byFeature: string;
+      freeWifi: string; withOutlets: string; wifiAndPower: string; cardSub: string;
+    };
+    area: {
+      metaTitle: (n: string) => string; metaDescription: (n: string) => string; h1: (n: string) => string;
+      atAGlance: (n: string) => string; tableCaption: (n: string) => string;
+    };
+    guides: { metaTitle: string; metaDescription: string; h1: string; lede: string; faqHeading: string; allGuidesLead: string; allGuides: string; findSpot: string };
+    common: { home: string; tokyo: string; guides: string };
+  };
 };
 
 const en: Dict = {
@@ -93,7 +108,43 @@ const en: Dict = {
     locating: "Locating…",
     retry: "I turned it on — try again",
   },
-  footer: { tagline: "An independent guide to working from Tokyo cafes.", guides: "Guides", about: "About", contact: "Contact", privacy: "Privacy" },
+  footer: {
+    tagline: "An independent guide to working from Tokyo cafes.", guides: "Guides", about: "About", contact: "Contact", privacy: "Privacy",
+    credits: "Photo credits",
+    attrib: "Base location data © OpenStreetMap contributors (ODbL). Maps, directions & cafe photos via Google. Map tiles © OpenFreeMap / OpenMapTiles.",
+  },
+  page: {
+    htmlLang: "en",
+    home: {
+      metaTitle: "WorkingCafes — Cafes with Wi-Fi & Power Outlets",
+      metaDescription: "Tokyo cafes with Wi-Fi and power outlets — nearby, dated, and current. Search a station or find what's nearest right now.",
+      h1: "Tokyo cafes with Wi-Fi & power outlets",
+      lede: "Cafes with Wi-Fi and power outlets across all 23 wards. Every listing dated so you know it's current. Search a station, or find what's nearest right now.",
+      browseAreas: "Browse areas",
+    },
+    hub: {
+      metaTitle: "Tokyo cafes with Wi-Fi & power outlets",
+      metaDescription: "Browse Tokyo areas and stations to find cafes with Wi-Fi, power outlets, or both — laptop-friendly spots, dated and current.",
+      h1: "Cafes with Wi-Fi & power outlets in Tokyo",
+      lede: (c) => `${c} cafes and counting across Tokyo. Pick an area or station to see what's nearby, then filter for Wi-Fi, outlets, or both.`,
+      areas: "Areas", byStation: "By station", byFeature: "By feature",
+      freeWifi: "Free Wi-Fi cafes", withOutlets: "Cafes with outlets", wifiAndPower: "Wi-Fi + outlets", cardSub: "Cafes with Wi-Fi & outlets",
+    },
+    area: {
+      metaTitle: (n) => `Cafes with Wi-Fi & power outlets in ${n}, Tokyo`,
+      metaDescription: (n) => `Laptop-friendly cafes in ${n}: filter for Wi-Fi, power outlets, or both. Dated so the details stay current.`,
+      h1: (n) => `Cafes with Wi-Fi & power outlets in ${n}`,
+      atAGlance: (n) => `${n} cafes at a glance`,
+      tableCaption: (n) => `Wi-Fi and power outlets at cafes in ${n}, Tokyo (last checked dates shown)`,
+    },
+    guides: {
+      metaTitle: "Guides — working from cafes in Tokyo",
+      metaDescription: "Practical guides for working from Tokyo cafes: the best neighbourhoods, how to find power outlets, and cafe etiquette in Japan.",
+      h1: "Guides", lede: "Short, practical guides to working from cafes in Tokyo.",
+      faqHeading: "Frequently asked questions", allGuidesLead: "More guides:", allGuides: "all guides", findSpot: "Find a spot now on",
+    },
+    common: { home: "Home", tokyo: "Tokyo", guides: "Guides" },
+  },
 };
 
 const ja: Dict = {
@@ -136,7 +187,43 @@ const ja: Dict = {
     locating: "現在地を取得中…",
     retry: "オンにした → もう一度",
   },
-  footer: { tagline: "東京で作業できるカフェを探せる、個人運営のガイドです。", guides: "ガイド", about: "概要", contact: "お問い合わせ", privacy: "プライバシー" },
+  footer: {
+    tagline: "東京で作業できるカフェを探せる、個人運営のガイドです。", guides: "ガイド", about: "このサイトについて", contact: "お問い合わせ", privacy: "プライバシー",
+    credits: "写真クレジット",
+    attrib: "位置情報のベースデータ © OpenStreetMap contributors（ODbL）。地図・経路・カフェ写真は Google を利用しています。地図タイル © OpenFreeMap / OpenMapTiles。",
+  },
+  page: {
+    htmlLang: "ja",
+    home: {
+      metaTitle: "WorkingCafes｜電源・Wi-Fiのある東京のカフェ",
+      metaDescription: "東京23区で、Wi-Fiと電源が使えるカフェをまとめました。情報は日付つきで管理しているので最新の状態で確認できます。駅名やエリアで検索、または現在地から近いお店を探せます。",
+      h1: "電源・Wi-Fiのある東京のカフェ",
+      lede: "東京23区で、Wi-Fiと電源が使えるカフェをまとめました。各ページに確認日を表示しているので、いつでも最新の情報でご確認いただけます。駅名やエリアで検索するか、現在地から近いお店を探してみてください。",
+      browseAreas: "エリアから探す",
+    },
+    hub: {
+      metaTitle: "電源・Wi-Fiのある東京のカフェ｜エリア・駅から探す",
+      metaDescription: "東京のエリアや駅から、Wi-Fi・電源のあるカフェを探せます。ノートパソコンでの作業にぴったりのお店を、確認日つきでご紹介します。",
+      h1: "電源・Wi-Fiのある東京のカフェ",
+      lede: (c) => `東京都内で${c}件以上のカフェを掲載中です。エリアや駅を選んで近くのお店を確認し、Wi-Fi・電源などの条件でしぼり込めます。`,
+      areas: "エリアから探す", byStation: "駅から探す", byFeature: "条件から探す",
+      freeWifi: "無料Wi-Fiのあるカフェ", withOutlets: "電源のあるカフェ", wifiAndPower: "Wi-Fi＋電源のあるカフェ", cardSub: "Wi-Fi・電源のあるカフェ",
+    },
+    area: {
+      metaTitle: (n) => `${n}（東京）の電源・Wi-Fiのあるカフェ`,
+      metaDescription: (n) => `${n}でノートパソコン作業ができるカフェ。Wi-Fi・電源などの条件でしぼり込めます。確認日つきなので、いつでも最新の情報でご確認いただけます。`,
+      h1: (n) => `${n}の電源・Wi-Fiのあるカフェ`,
+      atAGlance: (n) => `${n}のカフェ一覧`,
+      tableCaption: (n) => `${n}（東京）のカフェのWi-Fi・電源まとめ（最終確認日つき）`,
+    },
+    guides: {
+      metaTitle: "ガイド｜東京のカフェで作業するためのヒント",
+      metaDescription: "東京のカフェで仕事・作業をするための実用ガイド。電源やWi-Fiの探し方、おすすめエリア、カフェでのマナーなどを紹介します。",
+      h1: "ガイド", lede: "東京のカフェで気持ちよく作業するための、短くて実用的なガイドです。",
+      faqHeading: "よくある質問", allGuidesLead: "他のガイド：", allGuides: "ガイド一覧", findSpot: "今すぐ探すなら",
+    },
+    common: { home: "ホーム", tokyo: "東京", guides: "ガイド" },
+  },
 };
 
 const DICTS: Record<Locale, Dict> = { en, ja };

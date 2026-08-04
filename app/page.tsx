@@ -1,10 +1,15 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
 import { SITE } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/", languages: { en: "/", ja: "/ja", "x-default": "/" } },
+};
 
 export default function HomePage() {
   const destinations = getAllDestinations();

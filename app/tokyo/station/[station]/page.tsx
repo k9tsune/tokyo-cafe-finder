@@ -20,7 +20,10 @@ export function generateMetadata({ params }: { params: { station: string } }): M
   return {
     title: `Laptop-friendly cafes near ${s.name}`,
     description: `Cafes near ${s.name} with Wi-Fi and power outlets, sorted by walking distance. Filter for Wi-Fi, outlets, or both.`,
-    alternates: { canonical: `/tokyo/station/${s.slug}` },
+    alternates: {
+      canonical: `/tokyo/station/${s.slug}`,
+      languages: { en: `/tokyo/station/${s.slug}`, ja: `/ja/tokyo/station/${s.slug}`, "x-default": `/tokyo/station/${s.slug}` },
+    },
   };
 }
 

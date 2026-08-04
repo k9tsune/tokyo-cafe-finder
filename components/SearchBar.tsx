@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Destination } from "@/lib/db";
+import { t, localePath, type Locale } from "@/lib/i18n";
 
 // Search bar: type a station or area, pick a suggestion, and NAVIGATE to that
 // real landing page (never a JS-only in-page filter). This is what makes the
@@ -11,12 +12,15 @@ export default function SearchBar({
   destinations,
   need,
   late,
+  locale = "en",
 }: {
   destinations: Destination[];
   need?: string;
   late?: boolean;
+  locale?: Locale;
 }) {
   const router = useRouter();
+  const tr = t(locale).search;
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
 
@@ -41,7 +45,7 @@ export default function SearchBar({
     const params = new URLSearchParams();
     params.set("need", need || "both");
     if (late) params.set("late", "1");
-    router.push(`${href}?${params.toString()}`);
+    router.push(`${localePath(href, locale)}?${params.toString()}`);
   }
 
   function onSubmit(e: React.FormEvent) {
@@ -56,10 +60,10 @@ export default function SearchBar({
         value={q}
         onChange={(e) => { setQ(e.target.value); setOpen(true); }}
         onFocus={() => setOpen(true)}
-        placeholder="Search a station or area — e.g. Shibuya"
-        aria-label="Search a station or area in Tokyo"
+        placeholder={tr.placeholder}
+        aria-label={tr.placeholder}
       />
-      <button type="submit">Search</button>
+      <button type="submit">{tr.button}</button>
       {open && matches.length > 0 && (
         <ul className="suggestions">
           {matches.map((m) => (

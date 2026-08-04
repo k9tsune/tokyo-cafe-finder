@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: "Tokyo cafes with Wi-Fi & power outlets",
   description:
     "Browse Tokyo areas and stations to find cafes with Wi-Fi, power outlets, or both — laptop-friendly spots, checked and dated.",
-  alternates: { canonical: "/tokyo" },
+  alternates: { canonical: "/tokyo", languages: { en: "/tokyo", ja: "/ja/tokyo", "x-default": "/tokyo" } },
 };
 
 export default function TokyoHub() {

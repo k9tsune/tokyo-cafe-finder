@@ -3,22 +3,24 @@
 import { useEffect, useMemo, useState } from "react";
 import type { Venue } from "@/lib/types";
 import CafeCard from "./CafeCard";
+import { t, type Locale } from "@/lib/i18n";
 
 // Amenity options, matching the homepage need-selector: "Wi-Fi + outlets" (both),
 // "Outlets", or "Wi-Fi" — mutually exclusive. Open late is a separate toggle.
 type Need = "" | "both" | "power" | "wifi";
-const NEED_OPTIONS: { key: Exclude<Need, "">; label: string }[] = [
-  { key: "both", label: "Wi-Fi + outlets" },
-  { key: "power", label: "Outlets" },
-  { key: "wifi", label: "Wi-Fi" },
-];
 
 // Client-side filter. The full list is rendered server-side first (good for
 // SEO/GEO crawling); this just narrows what's visible. The amenity chips mirror
 // the homepage's options; picking none shows every cafe in the area.
-export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
+export default function FilterableCafeList({ venues, locale = "en" }: { venues: Venue[]; locale?: Locale }) {
   const [need, setNeed] = useState<Need>("");
   const [late, setLate] = useState(false);
+  const s = t(locale).search;
+  const options: { key: Exclude<Need, "">; label: string }[] = [
+    { key: "both", label: s.needBoth },
+    { key: "power", label: s.needOutlets },
+    { key: "wifi", label: s.needWifi },
+  ];
 
   // Pre-apply the choices made in the home search (?need=both|power|wifi, ?late=1).
   useEffect(() => {
@@ -40,7 +42,7 @@ export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
   return (
     <div>
       <div className="filters" role="group" aria-label="Filter by amenities">
-        {NEED_OPTIONS.map((o) => (
+        {options.map((o) => (
           <button
             key={o.key}
             type="button"
@@ -57,15 +59,15 @@ export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
           aria-pressed={late}
           onClick={() => setLate((x) => !x)}
         >
-          Open late / 24h
+          {s.openLate}
         </button>
       </div>
 
-      <p className="count">{filtered.length} cafe{filtered.length === 1 ? "" : "s"}</p>
+      <p className="count">{t(locale).filters.count(filtered.length)}</p>
 
       <div className="cafe-list">
         {filtered.map((v) => (
-          <CafeCard key={v.id} v={v} />
+          <CafeCard key={v.id} v={v} locale={locale} />
         ))}
       </div>
     </div>

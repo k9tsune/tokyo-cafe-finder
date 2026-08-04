@@ -20,7 +20,10 @@ export function generateMetadata({ params }: { params: { area: string } }): Meta
   return {
     title: `Cafes with Wi-Fi & power outlets in ${area.name}, Tokyo`,
     description: `Laptop-friendly cafes in ${area.name}: filter for Wi-Fi, power outlets, or both. Checked and dated so the details stay current.`,
-    alternates: { canonical: `/tokyo/${area.slug}` },
+    alternates: {
+      canonical: `/tokyo/${area.slug}`,
+      languages: { en: `/tokyo/${area.slug}`, ja: `/ja/tokyo/${area.slug}`, "x-default": `/tokyo/${area.slug}` },
+    },
   };
 }
 
