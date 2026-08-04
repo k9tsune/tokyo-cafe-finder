@@ -4,54 +4,53 @@ import { useEffect, useMemo, useState } from "react";
 import type { Venue } from "@/lib/types";
 import CafeCard from "./CafeCard";
 
+// Amenity options, matching the homepage need-selector: "Wi-Fi + outlets" (both),
+// "Outlets", or "Wi-Fi" — mutually exclusive. Open late is a separate toggle.
+type Need = "" | "both" | "power" | "wifi";
+const NEED_OPTIONS: { key: Exclude<Need, "">; label: string }[] = [
+  { key: "both", label: "Wi-Fi + outlets" },
+  { key: "power", label: "Outlets" },
+  { key: "wifi", label: "Wi-Fi" },
+];
+
 // Client-side filter. The full list is rendered server-side first (good for
-// SEO/GEO crawling); this just narrows what's visible. When both Wi-Fi and
-// outlets are on, we require both.
+// SEO/GEO crawling); this just narrows what's visible. The amenity chips mirror
+// the homepage's options; picking none shows every cafe in the area.
 export default function FilterableCafeList({ venues }: { venues: Venue[] }) {
-  const [wifi, setWifi] = useState(false);
-  const [power, setPower] = useState(false);
+  const [need, setNeed] = useState<Need>("");
   const [late, setLate] = useState(false);
 
   // Pre-apply the choices made in the home search (?need=both|power|wifi, ?late=1).
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
-    const need = params.get("need");
-    if (need === "both") { setWifi(true); setPower(true); }
-    else if (need === "power") { setPower(true); }
-    else if (need === "wifi") { setWifi(true); }
+    const n = params.get("need");
+    if (n === "both" || n === "power" || n === "wifi") setNeed(n);
     if (params.get("late") === "1") setLate(true);
   }, []);
 
   const filtered = useMemo(() => {
     let list = venues;
     if (late) list = list.filter((v) => v.openLate);
-    if (!wifi && !power) return list;
-    return list.filter((v) => {
-      if (wifi && !power) return v.hasWifi;
-      if (power && !wifi) return v.hasPower;
-      return v.hasWifi && v.hasPower;
-    });
-  }, [venues, wifi, power, late]);
+    if (need === "both") return list.filter((v) => v.hasWifi && v.hasPower);
+    if (need === "power") return list.filter((v) => v.hasPower);
+    if (need === "wifi") return list.filter((v) => v.hasWifi);
+    return list;
+  }, [venues, need, late]);
 
   return (
     <div>
       <div className="filters" role="group" aria-label="Filter by amenities">
-        <button
-          type="button"
-          className={`chip ${wifi ? "on" : ""}`}
-          aria-pressed={wifi}
-          onClick={() => setWifi((x) => !x)}
-        >
-          Wi-Fi
-        </button>
-        <button
-          type="button"
-          className={`chip ${power ? "on" : ""}`}
-          aria-pressed={power}
-          onClick={() => setPower((x) => !x)}
-        >
-          Power outlets
-        </button>
+        {NEED_OPTIONS.map((o) => (
+          <button
+            key={o.key}
+            type="button"
+            className={`chip ${need === o.key ? "on" : ""}`}
+            aria-pressed={need === o.key}
+            onClick={() => setNeed((cur) => (cur === o.key ? "" : o.key))}
+          >
+            {o.label}
+          </button>
+        ))}
         <button
           type="button"
           className={`chip ${late ? "on" : ""}`}
