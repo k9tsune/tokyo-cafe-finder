@@ -96,6 +96,37 @@ default.
   - The cache (`data/places.json`) is committed and reused, so resolved cafes are
     never re-fetched. Commit it after a populated run.
 
+### Adding a NEW chain's stock image (DATA-ONLY — do this during the weekly update)
+Chain detection is data, not code: patterns live in `data/chain-matchers.json`, so a
+new chain can be added with **no code change**. When a weekly run adds cafes that
+belong to a chain **not already** in `data/chain-matchers.json` and that chain has
+**2+ locations**, add it so those cafes show a real storefront instead of the generic
+independent pool:
+  1. **Source ONE free-licensed storefront/sign photo** of that chain. Only these
+     licenses are allowed (repo rule: no rights-unclear images): CC0 / CC BY / CC BY-SA
+     / Public Domain (Wikimedia Commons, Openverse/Flickr), or the Pexels / Pixabay /
+     Unsplash licenses. **Prefer Wikimedia Commons** — it's the easiest (no file to host).
+     Vet it: it must clearly show the **correct brand sign/storefront**, be a professional
+     shot, and not be a people-focused photo. Record the author, license, and source page.
+  2. **Add the matcher** to `data/chain-matchers.json` → `matchers`: append
+     `{ "key": "<snake_case_key>", "pattern": "<english|カタカナ>" }`. Keep specific chains
+     before generic ones (order matters). Use a case-insensitive regex source (word
+     boundaries `\\b` for short/ambiguous names like `gusto`).
+  3. **Add the image** to `data/category-images.json` under the **same key**:
+     - Wikimedia: `{ "kind": "wikimedia", "file": "<Commons filename.jpg>", "author": "...", "license": "CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:..." }`
+     - Openverse/Flickr, Pexels, or Pixabay: **download the file into
+       `public/cafe-images/<key>-1.jpg`** and use
+       `{ "kind": "local", "url": "/cafe-images/<key>-1.jpg", "author": "...", "license": "...", "page": "..." }`.
+       (Self-host these — Pixabay/Pexels URLs expire or reject the resize params.)
+     Multiple good storefronts? Make the value an **array** (a pool) — venues of that
+     chain then get deterministic per-venue variety by slug.
+  4. **Only add a matcher when you also have an image.** A matcher with no image makes
+     the chain skip the Places budget AND show no chain photo. If no free image exists,
+     do NOT add the matcher — leave those cafes to the independent pool and list the
+     chain under FLAGGED in the PR so a human can source an image later.
+  5. Credits update automatically (`allCategoryImages()` flattens pools), and the build
+     (`npm run build`) must pass before opening the PR.
+
 ## Freshness & trust rules
 - Every utility record must carry `last_checked` + `confidence`; the UI shows the date.
 - Store only `google_place_id` from Google; never store other Google fields.

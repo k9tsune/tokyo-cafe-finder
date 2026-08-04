@@ -1,0 +1,85 @@
+{
+  "_comment": "Chain detection for representative cover images. ORDER MATTERS: most specific first. 'pattern' is a case-insensitive JS regex source (compiled with the 'i' flag in lib/cafe-image.ts). To add a NEW chain, append an entry here AND add a matching image to data/category-images.json under the same key (see CLAUDE.md > Cafe images). Data-only: no code change needed.",
+  "matchers": [
+    {
+      "key": "starbucks",
+      "pattern": "starbucks|スターバックス"
+    },
+    {
+      "key": "doutor",
+      "pattern": "doutor|ドトール"
+    },
+    {
+      "key": "tullys",
+      "pattern": "tully|タリーズ"
+    },
+    {
+      "key": "excelsior",
+      "pattern": "excelsior|エクセルシオール"
+    },
+    {
+      "key": "pronto",
+      "pattern": "\\bpronto\\b|プロント"
+    },
+    {
+      "key": "veloce",
+      "pattern": "veloce|ベローチェ"
+    },
+    {
+      "key": "komeda",
+      "pattern": "komeda|コメダ"
+    },
+    {
+      "key": "hoshino",
+      "pattern": "hoshino|星乃"
+    },
+    {
+      "key": "st_marc",
+      "pattern": "st\\.? ?marc|サンマルク"
+    },
+    {
+      "key": "cafe_de_crie",
+      "pattern": "de crie|ド・?クリエ"
+    },
+    {
+      "key": "ucc",
+      "pattern": "ueshima|\\bucc\\b|上島"
+    },
+    {
+      "key": "renoir",
+      "pattern": "renoir|ルノアール"
+    },
+    {
+      "key": "mcdonalds",
+      "pattern": "mcdonald|マクドナルド"
+    },
+    {
+      "key": "kfc",
+      "pattern": "\\bkfc\\b|kentucky|ケンタッキー"
+    },
+    {
+      "key": "becks",
+      "pattern": "beck'?s\\s*coffee|ベックス"
+    },
+    {
+      "key": "share_lounge",
+      "pattern": "share\\s*lounge|シェアラウンジ"
+    },
+    {
+      "key": "mos_burger",
+      "pattern": "mos\\s*burger|モスバーガー"
+    },
+    {
+      "key": "gusto",
+      "pattern": "\\bgusto\\b|ガスト"
+    },
+    {
+      "key": "dean_deluca",
+      "pattern": "dean\\s*(&|and|\\.)?\\s*deluca|ディーン.?(アンド|&).?デルーカ"
+    },
+    {
+      "key": "kaikatsu",
+      "pattern": "kaikatsu|快活"
+    }
+  ]
+}

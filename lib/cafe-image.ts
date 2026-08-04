@@ -5,6 +5,7 @@
 // live in data/category-images.json (Unsplash License or CC, verified at sourcing).
 
 import categoryImages from "@/data/category-images.json";
+import chainMatchers from "@/data/chain-matchers.json";
 
 export type CategoryImage = {
   kind: "unsplash" | "wikimedia" | "local";
@@ -41,29 +42,13 @@ function pickImage(entry: CategoryEntry | undefined, seed?: string): CategoryIma
 
 // Chain / category detection from the cafe name (data has no chain field). Order
 // matters: specific chains first, then broad category keywords, else independent.
-const CHAIN_MATCHERS: Array<[string, RegExp]> = [
-  ["starbucks", /starbucks|スターバックス/i],
-  ["doutor", /doutor|ドトール/i],
-  ["tullys", /tully|タリーズ/i],
-  ["excelsior", /excelsior|エクセルシオール/i],
-  ["pronto", /\bpronto\b|プロント/i],
-  ["veloce", /veloce|ベローチェ/i],
-  ["komeda", /komeda|コメダ/i],
-  ["hoshino", /hoshino|星乃/i],
-  ["st_marc", /st\.? ?marc|サンマルク/i],
-  ["cafe_de_crie", /de crie|ド・?クリエ/i],
-  ["ucc", /ueshima|\bucc\b|上島/i],
-  ["renoir", /renoir|ルノアール/i],
-  ["mcdonalds", /mcdonald|マクドナルド/i],
-  ["kfc", /\bkfc\b|kentucky|ケンタッキー/i],
-  // newly added chains (2+ Tokyo locations) with sourced Commons sign photos
-  ["becks", /beck'?s\s*coffee|ベックス/i],
-  ["share_lounge", /share\s*lounge|シェアラウンジ/i],
-  ["mos_burger", /mos\s*burger|モスバーガー/i],
-  ["gusto", /\bgusto\b|ガスト/i],
-  ["dean_deluca", /dean\s*(&|and|\.)?\s*deluca|ディーン.?(アンド|&).?デルーカ/i],
-  ["kaikatsu", /kaikatsu|快活/i],
-];
+// Chain patterns are DATA, not code: they live in data/chain-matchers.json so the
+// weekly auto-update can add a new chain (pattern + storefront image) without any
+// code change. Order matters (most specific first) and is preserved from the file.
+// Each pattern is a case-insensitive JS regex source; we compile it with the "i" flag.
+const CHAIN_MATCHERS: Array<[string, RegExp]> = (
+  chainMatchers.matchers as Array<{ key: string; pattern: string }>
+).map(({ key, pattern }) => [key, new RegExp(pattern, "i")] as [string, RegExp]);
 const CHAIN_KEYS = new Set(CHAIN_MATCHERS.map(([k]) => k));
 
 /** The chain/category key for a cafe name (e.g. "starbucks", "kissaten", "independent"). */
