@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import SearchBar from "@/components/SearchBar";
+import HomeSearch from "@/components/HomeSearch";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
 import { getAllAreas, getAllStations, getAllDestinations, getAllVenues } from "@/lib/db";
@@ -28,7 +28,7 @@ export default function TokyoHub() {
         nearby, then filter for Wi-Fi, outlets, or both.
       </p>
 
-      <SearchBar destinations={destinations} />
+      <HomeSearch destinations={destinations} />
 
       <h2>Areas</h2>
       <div className="card-grid">
