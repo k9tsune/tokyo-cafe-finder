@@ -62,9 +62,22 @@ default.
 ## Cafe images / Google Places budget policy
 - Every cafe always has a cover (`components/CafeCover.tsx`), in priority order:
   direct `photoUrl` → Google Places photo (`photoRef`) → free HotPepper photo
-  (`hotpepperPhoto`) → representative chain/category image
-  (`data/category-images.json`, via `lib/cafe-image.ts`) → generated tile. So the
-  site is never image-less, even with zero Google spend.
+  (`hotpepperPhoto`) → free Mapillary street photo (`mapillaryImageId`) →
+  representative chain/category image (`data/category-images.json`, via
+  `lib/cafe-image.ts`) → generated tile. So the site is never image-less, even
+  with zero Google spend.
+- **Mapillary is the free street-level fallback (tier 3) — best for chains that
+  HotPepper/Places miss.** `npm run mapillary` (needs `MAPILLARY_TOKEN`, free) matches
+  each cafe to the physically closest street image within 30 m and caches it in
+  `data/mapillary.json` (committed; NOT part of the build). It only looks up cafes
+  that have NO Places and NO HotPepper photo, so it never competes with a higher
+  tier. IMPORTANT: the cached CDN URLs EXPIRE — only the `imageId` is durable, so
+  the render never uses the stored URL. `/api/mapillary-photo?id=<imageId>` resolves
+  a fresh thumbnail server-side (token stays secret) and CDN-caches the bytes.
+  Mapillary imagery is CC-BY-SA: the contributor credit + image link + license are
+  shown both as a small overlay on the cover and as a full credit line on the cafe
+  page. New cafes are refreshed automatically by `.github/workflows/mapillary.yml`
+  (same incremental pattern as HotPepper; needs the `MAPILLARY_TOKEN` repo secret).
 - **HotPepper is the preferred real-photo source — it's FREE (no metering).**
   `npm run hotpepper` (needs `HOTPEPPER_KEY`, free key from Recruit Web Service)
   matches cafes and caches photo + shop URL in `data/hotpepper.json` (committed;

@@ -10,7 +10,8 @@
     "lint": "next lint",
     "collect": "node scripts/collect-overpass.mjs",
     "enrich": "node scripts/enrich.mjs",
-    "hotpepper": "node scripts/fetch-hotpepper.mjs"
+    "hotpepper": "node scripts/fetch-hotpepper.mjs",
+    "mapillary": "node scripts/fetch-mapillary.mjs"
   },
   "dependencies": {
     "@fontsource-variable/fredoka": "^5.3.0",
