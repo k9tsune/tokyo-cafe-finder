@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import "@fontsource-variable/nunito";
-import "@fontsource-variable/fredoka";
 import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import AreaCover from "@/components/AreaCover";
-import { Doodle } from "@/components/Doodles";
 import { areaPhotoSrc } from "@/lib/media";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
 import { SITE } from "@/lib/site";
@@ -18,20 +16,12 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
-const TOPBAR_DOODLES = ["cup", "torii", "fuji", "lantern", "cat", "sakura", "dango", "onigiri", "cloud", "daruma"] as const;
-
 export default function TestFriendlyPage() {
   const destinations = getAllDestinations();
   const areas = getAllAreas();
 
   return (
     <div className="friendly-test">
-      <div className="ft-topbar" aria-hidden="true">
-        {TOPBAR_DOODLES.map((n) => (
-          <Doodle key={n} name={n} size={30} />
-        ))}
-      </div>
-
       <section className="hero">
         <span className="ft-eyebrow">☕ Work-friendly cafes in Tokyo</span>
         <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
