@@ -96,6 +96,35 @@ default.
   - The cache (`data/places.json`) is committed and reused, so resolved cafes are
     never re-fetched. Commit it after a populated run.
 
+### Instagram photos (official-account first; permission-gated)
+Cafe pages can show the cafe's official Instagram link plus a small static gallery
+of the cafe's OWN posts. This must stay FAST and rights-clean:
+- **Link-out is always safe.** `Venue.instagram` (an account URL, sourced from
+  `data/collected/instagram.json` keyed by cafe name) renders as a "@handle on
+  Instagram" link (`components/CafeInstagram.tsx`). Capture the OFFICIAL account
+  only (cafe's own site / Google listing / confident name+area match). No photo is
+  re-hosted, so there's no rights issue — grow this map freely during weekly runs.
+- **Never ship Instagram's embed.js.** Galleries are STATIC self-hosted thumbnails
+  fetched at BUILD time; no third-party script runs for visitors.
+- **Only show cleared photos.** Add chosen post URLs to
+  `data/collected/instagram-posts.json` (keyed by cafe name), flagged
+  `ownAccount:true` (cafe's own posts) or `permission:true` (permission on file).
+  `npm run instagram` (`scripts/fetch-instagram.mjs`) resolves each via Instagram's
+  tokenless oEmbed, downloads the thumbnail to `public/ig/`, and writes
+  `data/instagram-photos.json` (committed cache). Anything without
+  ownAccount/permission is skipped and never displayed.
+- **Weekly run:** when confirming a cafe, capture its official handle (if missing)
+  and 2–4 of ITS OWN post URLs for the gallery.
+- **Permission workflow** (for non-own-account photos, incl. the later
+  location-tagged route): DM the account, ask to feature one photo with credit +
+  link, set `permission:true` only after a yes. Suggested message:
+  - JA: 「はじめまして。作業向けカフェ紹介サイト WorkingCafes と申します。御社の素敵なお写真を1枚、クレジット（@ユーザー名）とリンク付きで掲載してもよろしいでしょうか？無料で、集客のお手伝いになれば幸いです。」
+  - EN: "Hi! We run WorkingCafes, a directory of laptop-friendly cafes. May we feature one of your photos on this cafe's page, with credit (@handle) and a link back? It's free and sends readers your way."
+- **Location-tagged photos = LATER, permission only.** There is NO sanctioned API
+  to discover photos by location (tokenless oEmbed is single-post; feeds/location
+  need auth and are restricted). Do NOT scrape. If pursued, every photo goes
+  through the permission workflow above before `permission:true` is set.
+
 ### Adding a NEW chain's stock image (DATA-ONLY — do this during the weekly update)
 Chain detection is data, not code: patterns live in `data/chain-matchers.json`, so a
 new chain can be added with **no code change**. When a weekly run adds cafes that

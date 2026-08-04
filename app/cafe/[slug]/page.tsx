@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CafeMap from "@/components/CafeMap";
 import CafeCover from "@/components/CafeCover";
+import CafeInstagram from "@/components/CafeInstagram";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
@@ -95,6 +96,8 @@ export default function CafePage({ params }: { params: { slug: string } }) {
       </div>
 
       <FreshnessBadge date={v.lastChecked} confidence={v.confidence} />
+
+      <CafeInstagram v={v} />
 
       <CafeMap v={v} />
 

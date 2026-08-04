@@ -968,6 +968,29 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 
 /* Fallback-photo disclaimer (shown only when we don't yet have the cafe's real photo) */
 .photo-note { font-size: .8rem; color: var(--muted); font-style: italic; margin: 8px 0 0; }
+
+/* Instagram: official-account link + own-post gallery. Thumbnails are self-hosted
+   and lazy — no Instagram script is loaded, so the page stays fast. */
+.cafe-ig { margin: 22px 0 4px; }
+.cafe-ig h2 { font-size: 1.05rem; margin: 0 0 10px; }
+.ig-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 8px;
+}
+.ig-thumb {
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+}
+.ig-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ig-thumb:hover { border-color: var(--accent); }
+.ig-cap { font-size: .78rem; color: var(--muted); margin: 8px 0 0; }
+.ig-link { margin: 12px 0 0; font-size: .92rem; }
+.ig-link a { font-weight: 600; }
 .cover-rep {
   position: absolute;
   left: 8px;
