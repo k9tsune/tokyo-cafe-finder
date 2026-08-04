@@ -102,10 +102,15 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
         const c = categoryImageFor(v.name, v.nameJa, v.slug);
         if (!c) return null;
         return (
-          <p className="photo-credit">
-            参考写真：<a href={c.page} target="_blank" rel="noopener noreferrer">{c.author}</a>
-            {c.license !== "Unsplash License" ? ` · ${c.license}` : " · Unsplash"}
-          </p>
+          <>
+            <p className="photo-note">
+              これはイメージ写真です。この店舗の実際の写真は準備中で、入手でき次第すぐに追加します。
+            </p>
+            <p className="photo-credit">
+              参考写真：<a href={c.page} target="_blank" rel="noopener noreferrer">{c.author}</a>
+              {c.license !== "Unsplash License" ? ` · ${c.license}` : " · Unsplash"}
+            </p>
+          </>
         );
       })() : null}
 
