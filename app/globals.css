@@ -180,6 +180,27 @@ img, iframe { max-width: 100%; }
   padding: 28px 20px 72px;
 }
 
+/* Decorative Tokyo skyline band across the very top of every page. It's a slim
+   silhouette (public/skyline.svg) drawn as a CSS mask, so the fill is just a
+   background colour that follows the theme — dark warm brown in light mode,
+   warm orange in dark mode — with no separate dark/light asset. Purely
+   decorative: aria-hidden in the markup and non-interactive here. On wide
+   screens it caps at a slim band and the skyline centres; below that it scales
+   full-bleed at its natural proportion, so it never distorts. */
+.top-skyline {
+  width: 100%;
+  aspect-ratio: 1200 / 165;
+  max-height: 148px;
+  background-color: var(--accent);
+  opacity: 0.16;
+  -webkit-mask: url(/skyline.svg) bottom center / auto 100% no-repeat;
+  mask: url(/skyline.svg) bottom center / auto 100% no-repeat;
+  pointer-events: none;
+}
+@media (max-width: 620px) {
+  .top-skyline { opacity: 0.12; }
+}
+
 .site-header {
   position: sticky;
   top: 0;

@@ -64,6 +64,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Script id="theme-init" strategy="beforeInteractive">
           {`try{var t=localStorage.getItem('wc-theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}`}
         </Script>
+        <div className="top-skyline" aria-hidden="true" />
         <header className="site-header">
           <Link href="/" className="brand" aria-label={`${SITE.name} — home`}>
             <svg className="brand-mark" viewBox="2.8 7.0 14.6 9.2" width="24" height="24" aria-hidden="true" focusable="false" fill="none">
