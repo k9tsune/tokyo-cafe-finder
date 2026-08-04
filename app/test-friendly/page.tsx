@@ -1,18 +1,24 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import "@fontsource-variable/nunito";
+import "@fontsource-variable/fredoka";
 import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import AreaCover from "@/components/AreaCover";
+import { Doodle } from "@/components/Doodles";
 import { areaPhotoSrc } from "@/lib/media";
 import { getAllDestinations, getAllAreas } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
-// TEST PAGE — rounder, friendlier "Wanderlog-style" visual direction with cheerful
-// accents. Scoped under .friendly-test so it never touches the live site. Noindex.
+// TEST PAGE — friendlier direction v2: rounded fonts (Nunito + Fredoka), cheerful
+// gold/teal gradient (no pink), a taller top band for doodle decorations. Scoped
+// under .friendly-test; noindex; live site untouched.
 export const metadata: Metadata = {
   title: "Friendly visual test",
   robots: { index: false, follow: false },
 };
+
+const TOPBAR_DOODLES = ["cup", "torii", "fuji", "lantern", "cat", "sakura", "dango", "onigiri", "cloud", "daruma"] as const;
 
 export default function TestFriendlyPage() {
   const destinations = getAllDestinations();
@@ -20,9 +26,15 @@ export default function TestFriendlyPage() {
 
   return (
     <div className="friendly-test">
+      <div className="ft-topbar" aria-hidden="true">
+        {TOPBAR_DOODLES.map((n) => (
+          <Doodle key={n} name={n} size={30} />
+        ))}
+      </div>
+
       <section className="hero">
         <span className="ft-eyebrow">☕ Work-friendly cafes in Tokyo</span>
-        <h1>Find a comfy cafe to get online</h1>
+        <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
         <p className="lede">
           Every cafe checked by hand and dated, across all 23 wards, for locals and visitors alike.
           Search a station, or find what&apos;s nearest right now.
