@@ -80,6 +80,10 @@
     {
       "key": "kaikatsu",
       "pattern": "kaikatsu|快活"
+    },
+    {
+      "key": "manboo",
+      "pattern": "manboo|マンボー|まんぼー"
     }
   ]
 }

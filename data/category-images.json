@@ -681,5 +681,42 @@
       "license": "BY 2.0",
       "page": "https://www.flickr.com/photos/40781985@N08/52907141409"
     }
+  ],
+  "manboo": [
+    {
+      "kind": "wikimedia",
+      "file": "Manboo-Kanayama-Nagoya.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Manboo-Kanayama-Nagoya.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Manboo-Imaike.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Manboo-Imaike.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "マンボープラス神田店.jpg",
+      "author": "Eisaburomaeda",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:%E3%83%9E%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%97%E3%83%A9%E3%82%B9%E7%A5%9E%E7%94%B0%E5%BA%97.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Manboo (Internet cafe) japan No1.jpg",
+      "author": "Mino mu",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Manboo_(Internet_cafe)_japan_No1.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Manboo (Internet cafe) japan No2.jpg",
+      "author": "Mino mu",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Manboo_(Internet_cafe)_japan_No2.jpg"
+    }
   ]
 }
