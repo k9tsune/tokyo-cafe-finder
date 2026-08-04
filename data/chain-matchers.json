@@ -84,6 +84,42 @@
     {
       "key": "manboo",
       "pattern": "manboo|マンボー|まんぼー"
+    },
+    {
+      "key": "kohikan",
+      "pattern": "kohikan|珈琲館"
+    },
+    {
+      "key": "saizeriya",
+      "pattern": "saizeriya|サイゼリヤ"
+    },
+    {
+      "key": "dennys",
+      "pattern": "denny'?s|デニーズ"
+    },
+    {
+      "key": "jonathans",
+      "pattern": "jonathan|ジョナサン"
+    },
+    {
+      "key": "bamiyan",
+      "pattern": "bamiyan|バーミヤン"
+    },
+    {
+      "key": "freshness_burger",
+      "pattern": "freshness\\s*burger|フレッシュネス"
+    },
+    {
+      "key": "burger_king",
+      "pattern": "burger\\s*king|バーガーキング"
+    },
+    {
+      "key": "bagus",
+      "pattern": "bagus|バグース"
+    },
+    {
+      "key": "streamer",
+      "pattern": "streamer\\s*coffee|ストリーマー"
     }
   ]
 }

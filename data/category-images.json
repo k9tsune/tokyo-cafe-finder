@@ -718,5 +718,157 @@
       "license": "Public domain",
       "page": "https://commons.wikimedia.org/wiki/File:Manboo_(Internet_cafe)_japan_No2.jpg"
     }
-  ]
+  ],
+  "kohikan": [
+    {
+      "kind": "wikimedia",
+      "file": "KOHIKAN Ibaraki-minami.JPG",
+      "author": "Kirakirameister",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:KOHIKAN_Ibaraki-minami.JPG"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Coffee-kan Ikebukuro-Higashiguchi Green-ōdori, -4 april 2026 16：38.jpg",
+      "author": "トトト",
+      "license": "CC BY-SA 2.1 jp",
+      "page": "https://commons.wikimedia.org/wiki/File:Coffee-kan_Ikebukuro-Higashiguchi_Green-%C5%8Ddori,_-4_april_2026_16%EF%BC%9A38.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Kohikan Nara June 2019.jpg",
+      "author": "Cun Cun",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Kohikan_Nara_June_2019.jpg"
+    }
+  ],
+  "saizeriya": [
+    {
+      "kind": "wikimedia",
+      "file": "Saizeriya Foleo Osaka Dome City.jpg",
+      "author": "Mr.ちゅらさん",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Saizeriya_Foleo_Osaka_Dome_City.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Saizeriya (Unomori) 001.jpg",
+      "author": "財団エックス",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Saizeriya_(Unomori)_001.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Saizeriya (Unomori) 002.jpg",
+      "author": "財団エックス",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Saizeriya_(Unomori)_002.jpg"
+    }
+  ],
+  "dennys": [
+    {
+      "kind": "local",
+      "url": "/cafe-images/dennys-1.jpg",
+      "author": "OiMax",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/72396314@N00/1842309794"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Denny's-Japan.jpg",
+      "author": "Kici",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Denny%27s-Japan.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Denny'sJapan 2006 10.jpg",
+      "author": "Kici",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Denny%27sJapan_2006_10.jpg"
+    }
+  ],
+  "jonathans": [
+    {
+      "kind": "local",
+      "url": "/cafe-images/jonathans-0.jpg",
+      "author": "Dick Thomas Johnson",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/31029865@N06/6776819174"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Jonathan’s Restaurant 03.jpg",
+      "author": "No machine-readable author provided. Kici assumed (based on copyright claims).",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Jonathan%E2%80%99s_Restaurant_03.jpg"
+    }
+  ],
+  "bamiyan": [
+    {
+      "kind": "wikimedia",
+      "file": "Bamiyan tomobe.JPG",
+      "author": "JobanLineE531 (TC411-507)",
+      "license": "CC BY-SA 3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bamiyan_tomobe.JPG"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Bamiyan Ikoma-shiraniwadai shop.jpg",
+      "author": "Tokumeigakarinoaoshima",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Bamiyan_Ikoma-shiraniwadai_shop.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Bamiyan Restaurant 01.jpg",
+      "author": "No machine-readable author provided. Kici assumed (based on copyright claims).",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:Bamiyan_Restaurant_01.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "S bamiyan 01.jpg",
+      "author": "No machine-readable author provided. Kici assumed (based on copyright claims).",
+      "license": "Public domain",
+      "page": "https://commons.wikimedia.org/wiki/File:S_bamiyan_01.jpg"
+    }
+  ],
+  "freshness_burger": [
+    {
+      "kind": "local",
+      "url": "/cafe-images/freshness_burger-5.jpg",
+      "author": "OiMax",
+      "license": "BY 2.0",
+      "page": "https://www.flickr.com/photos/72396314@N00/179758799"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Freshness-Burger-Centrair.jpg",
+      "author": "HQA02330",
+      "license": "CC BY-SA 4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Freshness-Burger-Centrair.jpg"
+    }
+  ],
+  "burger_king": {
+    "kind": "wikimedia",
+    "file": "Burger-King Himeji-Otemaedoori Oct 2025.jpg",
+    "author": "Chacmool",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Burger-King_Himeji-Otemaedoori_Oct_2025.jpg"
+  },
+  "bagus": {
+    "kind": "wikimedia",
+    "file": "グランサイバーカフェ バグース 町田ANNEX店 - panoramio.jpg",
+    "author": "運転太郎",
+    "license": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:%E3%82%B0%E3%83%A9%E3%83%B3%E3%82%B5%E3%82%A4%E3%83%90%E3%83%BC%E3%82%AB%E3%83%95%E3%82%A7_%E3%83%90%E3%82%B0%E3%83%BC%E3%82%B9_%E7%94%BA%E7%94%B0ANNEX%E5%BA%97_-_panoramio.jpg"
+  },
+  "streamer": {
+    "kind": "wikimedia",
+    "file": "Streamer Coffee in Harajuku, Tokyo, 2019 - 144.jpg",
+    "author": "Another Believer",
+    "license": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Streamer_Coffee_in_Harajuku,_Tokyo,_2019_-_144.jpg"
+  }
 }
