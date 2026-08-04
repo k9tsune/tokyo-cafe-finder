@@ -7,10 +7,12 @@ import { getAllVenues, getAllAreas, getAllStations } from "@/lib/db";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
-// Cloudflare Web Analytics: cookieless and privacy-friendly. Only loads when the
-// token env var is set (add NEXT_PUBLIC_CF_BEACON_TOKEN in Vercel), so dev and
-// preview builds don't send data.
-const CF_BEACON_TOKEN = process.env.NEXT_PUBLIC_CF_BEACON_TOKEN;
+// Cloudflare Web Analytics: cookieless, privacy-friendly, lightweight. The beacon
+// token is public by design (it ships in the page HTML), so it's fine to keep here
+// as the default; an env var can still override it. Only sent in production builds,
+// so local `npm run dev` doesn't pollute the stats.
+const CF_BEACON_TOKEN =
+  process.env.NEXT_PUBLIC_CF_BEACON_TOKEN || "5d2eb2ce22434e38b4275d86ee532ad6";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -95,7 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/privacy">Privacy</Link>
           </nav>
         </footer>
-        {CF_BEACON_TOKEN && (
+        {CF_BEACON_TOKEN && process.env.NODE_ENV === "production" && (
           <Script
             src="https://static.cloudflareinsights.com/beacon.min.js"
             strategy="afterInteractive"
