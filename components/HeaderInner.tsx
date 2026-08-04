@@ -29,10 +29,10 @@ export default function HeaderInner() {
         </svg>
         <span className="brand-text"><span className="brand-w">Working</span><span className="brand-accent">Cafes</span></span>
       </Link>
+      {/* The theme toggle sits with the brand (top-right on mobile; end of the
+          row on desktop). The four link pills form two grouped pairs so they
+          stay a consistent 2×2 grid on mobile and inline on desktop. */}
       <nav>
-        {/* Tokyo Map + Tokyo Areas are grouped so they always stay on the same
-            row; the secondary group (Guides, language, theme) wraps below them
-            as a unit when there isn't room to keep everything inline. */}
         <span className="nav-primary">
           <Link href={localePath("/map", locale)}>{d.nav.map}</Link>
           <Link href={localePath("/tokyo", locale)}>{d.nav.areas}</Link>
@@ -42,9 +42,9 @@ export default function HeaderInner() {
           <Link className="lang-switch" href={localePath(path, other)} hrefLang={other} aria-label={d.otherLangName}>
             {d.otherLangName}
           </Link>
-          <ThemeToggle />
         </span>
       </nav>
+      <ThemeToggle />
     </div>
   );
 }
