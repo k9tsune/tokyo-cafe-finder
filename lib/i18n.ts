@@ -170,7 +170,7 @@ const en: Dict = {
 };
 
 const ja: Dict = {
-  nav: { map: "マップ", areas: "エリア", freeWifi: "無料Wi-Fi", powerOutlets: "電源" },
+  nav: { map: "東京マップ", areas: "東京エリア", freeWifi: "無料Wi-Fi", powerOutlets: "電源" },
   langName: "日本語",
   otherLangName: "English",
   search: {
