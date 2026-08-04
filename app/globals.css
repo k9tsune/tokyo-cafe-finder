@@ -310,7 +310,16 @@ img, iframe { max-width: 100%; }
     gap: 8px;
     padding: 2px 0 4px;
   }
-  .site-header nav a { padding: 6px 11px; white-space: nowrap; }
+  /* Each group fills a full row; its pills grow to share the width evenly so the
+     bar reads as an intentional, balanced layout instead of hugging the left. */
+  .site-header nav .nav-primary,
+  .site-header nav .nav-secondary {
+    width: 100%;
+    gap: 8px;
+  }
+  .site-header nav .nav-primary a,
+  .site-header nav .nav-secondary a { flex: 1 1 0; }
+  .site-header nav a { padding: 6px 11px; white-space: nowrap; text-align: center; }
 }
 
 h1 {
