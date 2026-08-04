@@ -98,11 +98,11 @@
     "source": "https://commons.wikimedia.org/wiki/File:Kasai_Rinkai_Park_@_Edogawa_City_(9556804962).jpg"
   },
   "shinagawa": {
-    "file": "Fujizuka_@_Shinagawa_Shrine_(9556609200).jpg",
-    "title": "Fuji-zuka at Shinagawa Shrine",
-    "author": "Guilhem Vellut",
-    "license": "CC BY 2.0",
-    "source": "https://commons.wikimedia.org/wiki/File:Fujizuka_@_Shinagawa_Shrine_(9556609200).jpg"
+    "src": "/areas/shinagawa.jpg",
+    "title": "Canal and waterfront towers, Shinagawa",
+    "author": "WorkingCafes",
+    "license": "© WorkingCafes (own photo)",
+    "source": "/tokyo/shinagawa"
   },
   "meguro": {
     "src": "/areas/meguro.jpg",
