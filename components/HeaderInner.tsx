@@ -30,8 +30,7 @@ export default function HeaderInner() {
         <span className="brand-text"><span className="brand-w">Working</span><span className="brand-accent">Cafes</span></span>
       </Link>
       <nav>
-        {/* The interactive map is language-neutral and shared across locales. */}
-        <Link href="/map">{d.nav.map}</Link>
+        <Link href={localePath("/map", locale)}>{d.nav.map}</Link>
         <Link href={localePath("/tokyo", locale)}>{d.nav.areas}</Link>
         <Link href={localePath("/guides", locale)}>{d.footer.guides}</Link>
         <Link className="lang-switch" href={localePath(path, other)} hrefLang={other} aria-label={d.otherLangName}>

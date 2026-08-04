@@ -6,7 +6,7 @@ import { allCategoryImages } from "@/lib/cafe-image";
 export const metadata: Metadata = {
   title: "Photo credits",
   description: "Image attributions for WorkingCafes.",
-  alternates: { canonical: "/credits" },
+  alternates: { canonical: "/credits", languages: { en: "/credits", ja: "/ja/credits", "x-default": "/credits" } },
 };
 
 export default function CreditsPage() {

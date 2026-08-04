@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Map of Tokyo cafes with Wi-Fi & power outlets",
   description:
     "An interactive map of Tokyo cafes where you can charge your phone or laptop and get online — green pins have both Wi-Fi and power outlets.",
-  alternates: { canonical: "/map" },
+  alternates: { canonical: "/map", languages: { en: "/map", ja: "/ja/map", "x-default": "/map" } },
 };
 
 export default function MapPage() {

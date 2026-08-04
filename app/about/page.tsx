@@ -4,7 +4,7 @@ import { SITE } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About",
   description: `About ${SITE.name}, an independent guide to working from cafes in Tokyo, with Wi-Fi, outlets and laptop-friendliness checked.`,
-  alternates: { canonical: "/about" },
+  alternates: { canonical: "/about", languages: { en: "/about", ja: "/ja/about", "x-default": "/about" } },
 };
 
 export default function About() {

@@ -17,10 +17,10 @@ export default function SiteFooter() {
       <p className="attrib">{f.attrib}</p>
       <nav>
         <Link href={localePath("/guides", locale)}>{f.guides}</Link>
-        <Link href="/about">{f.about}</Link>
-        <Link href="/contact">{f.contact}</Link>
-        <Link href="/credits">{f.credits}</Link>
-        <Link href="/privacy">{f.privacy}</Link>
+        <Link href={localePath("/about", locale)}>{f.about}</Link>
+        <Link href={localePath("/contact", locale)}>{f.contact}</Link>
+        <Link href={localePath("/credits", locale)}>{f.credits}</Link>
+        <Link href={localePath("/privacy", locale)}>{f.privacy}</Link>
       </nav>
     </footer>
   );

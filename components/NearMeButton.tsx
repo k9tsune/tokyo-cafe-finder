@@ -1,16 +1,20 @@
 "use client";
 
 import { useState } from "react";
+import { t, localePath, type Locale } from "@/lib/i18n";
 
 // Geolocation entry point. In `charge` mode it routes to the outlet-first,
 // short-radius "nearest places to charge" view for the dying-phone tourist.
+// The 🔋 / 📍 emojis are replaced by hand-drawn icons (public/icons) for a more
+// personal feel; labels come from the locale dictionary.
 export default function NearMeButton({
   charge = false,
-  label,
+  locale = "en",
 }: {
   charge?: boolean;
-  label?: string;
+  locale?: Locale;
 }) {
+  const n = t(locale).near;
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
   // When location is blocked, a re-request can't re-prompt — show how to enable it.
@@ -20,7 +24,7 @@ export default function NearMeButton({
     setErr("");
     setDenied(false);
     if (!("geolocation" in navigator)) {
-      setErr("This browser won't share your location — search by station instead.");
+      setErr(n.noGeo);
       return;
     }
     setBusy(true);
@@ -28,29 +32,29 @@ export default function NearMeButton({
       (pos) => {
         const { latitude, longitude } = pos.coords;
         const q = `lat=${latitude.toFixed(5)}&lng=${longitude.toFixed(5)}${charge ? "&charge=1" : ""}`;
-        window.location.href = `/near?${q}`;
+        window.location.href = `${localePath("/near", locale)}?${q}`;
       },
       (geoErr) => {
         setBusy(false);
         if (geoErr && geoErr.code === 1) {
-          // PERMISSION_DENIED — the browser won't re-prompt.
           setDenied(true);
-          setErr("Location is blocked for this site, so we can’t find you. Type your station instead.");
+          setErr(n.denied);
         } else {
-          setErr("Can't find you — no worries. Type your station and we'll show the closest.");
+          setErr(n.failed);
         }
       },
       { enableHighAccuracy: true, timeout: 9000, maximumAge: 30000 }
     );
   }
 
-  const base = label || (charge ? "🔋 Nearest outlet now" : "📍 Cafes near me");
-  const text = denied ? "I turned it on — try again" : base;
+  const base = denied ? n.retry : charge ? n.charge : n.normal;
+  const icon = charge ? "/icons/battery.png" : "/icons/pin.png";
 
   return (
     <span className="near-me">
       <button type="button" className={charge ? "charge-cta" : ""} onClick={locate} disabled={busy}>
-        {busy ? "Locating…" : text}
+        <img className="wc-icon" src={icon} alt="" aria-hidden="true" />
+        {busy ? n.locating : base}
       </button>
       {err && <span className="err">{err}</span>}
     </span>

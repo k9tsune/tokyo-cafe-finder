@@ -22,7 +22,7 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   return {
     title: `${v.name} — ${wifi}, ${power}`,
     description: `${v.name} near ${v.nearestStation}: ${wifi}, ${power}. ${v.description}`,
-    alternates: { canonical: `/cafe/${v.slug}` },
+    alternates: { canonical: `/cafe/${v.slug}`, languages: { en: `/cafe/${v.slug}`, ja: `/ja/cafe/${v.slug}`, "x-default": `/cafe/${v.slug}` } },
   };
 }
 

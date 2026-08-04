@@ -32,8 +32,8 @@ export default function HomePageJa() {
 
         <HomeSearch destinations={destinations} locale="ja" />
         <div className="hero-actions">
-          <NearMeButton charge label={d.near.charge} />
-          <NearMeButton label={d.near.normal} />
+          <NearMeButton charge locale="ja" />
+          <NearMeButton locale="ja" />
         </div>
       </section>
 

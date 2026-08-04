@@ -1,5 +1,6 @@
 "use client";
 
+import { t, localePath, type Locale } from "@/lib/i18n";
 import { useEffect, useRef } from "react";
 import "maplibre-gl/dist/maplibre-gl.css";
 
@@ -38,15 +39,20 @@ export default function MapView({
   points,
   center,
   zoom,
+  locale = "en",
 }: {
   points: MapPoint[];
   center?: [number, number];
   zoom?: number;
+  locale?: Locale;
 }) {
   const ref = useRef<HTMLDivElement>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const geoRef = useRef<any>(null);
   const centerKey = center ? `${center[0]},${center[1]}` : "";
+  const tr = t(locale).search;
+  const cd = t(locale).card;
+  const mm = t(locale).map;
 
   useEffect(() => {
     let cancelled = false;
@@ -77,11 +83,12 @@ export default function MapView({
         const kind = p.wifi && p.power ? "both" : p.power ? "power" : p.wifi ? "wifi" : "none";
         el.className = `map-marker ${kind}`;
         const safeName = p.name.replace(/[<>&]/g, "");
-        const status = p.wifi && p.power ? "Wi-Fi + outlets" : p.power ? "Outlets" : p.wifi ? "Wi-Fi" : "—";
+        const status = p.wifi && p.power ? tr.needBoth : p.power ? tr.needOutlets : p.wifi ? tr.needWifi : "—";
         const hoursLine = p.hours ? `<span class="pop-hours">🕒 ${p.hours.replace(/[<>&]/g, "")}</span><br>` : "";
+        const cafeHref = localePath(`/cafe/${p.slug}`, locale);
         const popup = new maplibregl.Popup({ offset: 16, closeButton: false }).setHTML(
           `<strong>${safeName}</strong><br><span class="pop-status">${status}</span><br>${hoursLine}` +
-            `<a href="/cafe/${p.slug}">Details</a> · <a href="/cafe/${p.slug}?dir=1#map">Directions →</a>`
+            `<a href="${cafeHref}">${cd.details}</a> · <a href="${cafeHref}?dir=1#map">${cd.directions}</a>`
         );
         // On touch, opening the popup can leave a link focused, showing a focus
         // ring around "Details". Drop that focus so nothing looks pre-selected.
@@ -109,9 +116,9 @@ export default function MapView({
         className="map-nearme"
         onClick={() => geoRef.current && geoRef.current.trigger()}
       >
-        📍 Near me
+        <img className="wc-icon" src="/icons/pin.png" alt="" aria-hidden="true" /> {mm.nearMe}
       </button>
-      <div ref={ref} className="mapview" aria-label="Map of Tokyo cafes with Wi-Fi and power outlets" />
+      <div ref={ref} className="mapview" aria-label={locale === "ja" ? "東京のWi-Fi・電源のあるカフェの地図" : "Map of Tokyo cafes with Wi-Fi and power outlets"} />
     </div>
   );
 }

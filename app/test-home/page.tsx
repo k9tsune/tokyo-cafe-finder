@@ -32,7 +32,7 @@ export default function TestHomePage() {
 
         <HomeSearch destinations={destinations} />
         <div className="hero-actions">
-          <NearMeButton charge label="🔋 Phone dying? Nearest outlet →" />
+          <NearMeButton charge />
           <NearMeButton />
         </div>
       </section>

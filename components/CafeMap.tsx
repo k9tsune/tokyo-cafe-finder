@@ -2,13 +2,15 @@
 
 import { useEffect, useState } from "react";
 import type { Venue } from "@/lib/types";
+import { t, type Locale } from "@/lib/i18n";
 
 const KEY = process.env.NEXT_PUBLIC_GMAPS_EMBED_KEY || "";
 
 // Map + on-page directions. Clicking "Get directions" gets the user's location
 // and swaps the embed into walking-directions mode *inside this box* — so people
 // stay on the site. An "Open in Google Maps" link is kept for live turn-by-turn.
-export default function CafeMap({ v }: { v: Venue }) {
+export default function CafeMap({ v, locale = "en" }: { v: Venue; locale?: Locale }) {
+  const m = t(locale).map;
   const [origin, setOrigin] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState("");
@@ -45,11 +47,11 @@ export default function CafeMap({ v }: { v: Venue }) {
         if (geoErr && geoErr.code === 1) {
           // PERMISSION_DENIED — the browser won't re-prompt; show enable steps.
           setDenied(true);
-          setErr("Location is blocked for this site, so we can’t route from where you are.");
+          setErr(m.denied);
         } else if (geoErr && geoErr.code === 3) {
-          setErr("That took too long. Tap the button to try again, or use “Open in Google Maps” below.");
+          setErr(m.timeout);
         } else {
-          setErr("We couldn’t get your location. Tap the button to try again, or use “Open in Google Maps” below.");
+          setErr(m.failed);
         }
       },
       { enableHighAccuracy: true, timeout: 9000, maximumAge: 30000 }
@@ -66,7 +68,7 @@ export default function CafeMap({ v }: { v: Venue }) {
     <div className="cafe-map" id="map">
       {src ? (
         <iframe
-          title={origin ? `Walking directions to ${v.name}` : `Map showing ${v.name}`}
+          title={origin ? m.titleDir(v.name) : m.titleMap(v.name)}
           src={src}
           width="100%"
           height="320"
@@ -77,22 +79,16 @@ export default function CafeMap({ v }: { v: Venue }) {
         />
       ) : (
         <div className="map-fallback">
-          <p>Map preview needs a Google Maps Embed API key (<code>NEXT_PUBLIC_GMAPS_EMBED_KEY</code>).</p>
+          <p>{m.needKey} (<code>NEXT_PUBLIC_GMAPS_EMBED_KEY</code>).</p>
         </div>
       )}
 
       <div className="map-actions">
         <button type="button" className="directions-btn" onClick={getDirections} disabled={busy}>
-          {busy
-            ? "Locating…"
-            : origin
-            ? "↻ Update directions"
-            : denied
-            ? "I turned it on — try again →"
-            : "Get directions from your location →"}
+          {busy ? m.locating : origin ? m.updateDirections : denied ? m.retry : m.getDirections}
         </button>
         <a className="map-open" href={externalDir} target="_blank" rel="noopener noreferrer">
-          Open in Google Maps ↗
+          {m.openInMaps}
         </a>
       </div>
 

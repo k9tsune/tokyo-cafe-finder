@@ -49,7 +49,12 @@ type Dict = {
     checked: string;
     walk: (n: number) => string;
   };
-  near: { charge: string; normal: string; locating: string; retry: string };
+  near: { charge: string; normal: string; locating: string; retry: string; noGeo: string; denied: string; failed: string };
+  map: {
+    getDirections: string; updateDirections: string; locating: string; retry: string; openInMaps: string;
+    needKey: string; denied: string; timeout: string; failed: string;
+    titleMap: (n: string) => string; titleDir: (n: string) => string; nearMe: string;
+  };
   footer: { tagline: string; guides: string; about: string; contact: string; privacy: string; credits: string; attrib: string };
   page: {
     htmlLang: string;
@@ -103,10 +108,27 @@ const en: Dict = {
     walk: (n) => `${n} min walk`,
   },
   near: {
-    charge: "🔋 Phone dying? Nearest outlet →",
-    normal: "📍 Cafes near me",
+    charge: "Phone dying? Nearest outlet →",
+    normal: "Cafes near me",
     locating: "Locating…",
     retry: "I turned it on — try again",
+    noGeo: "This browser won't share your location — search by station instead.",
+    denied: "Location is blocked for this site, so we can't find you. Type your station instead.",
+    failed: "Can't find you — no worries. Type your station and we'll show the closest.",
+  },
+  map: {
+    getDirections: "Get directions from your location →",
+    updateDirections: "↻ Update directions",
+    locating: "Locating…",
+    retry: "I turned it on — try again →",
+    openInMaps: "Open in Google Maps ↗",
+    needKey: "Map preview needs a Google Maps Embed API key.",
+    denied: "Location is blocked for this site, so we can't route from where you are.",
+    timeout: "That took too long. Tap the button to try again, or use “Open in Google Maps” below.",
+    failed: "We couldn't get your location. Tap the button to try again, or use “Open in Google Maps” below.",
+    titleMap: (n) => `Map showing ${n}`,
+    titleDir: (n) => `Walking directions to ${n}`,
+    nearMe: "Near me",
   },
   footer: {
     tagline: "An independent guide to working from Tokyo cafes.", guides: "Guides", about: "About", contact: "Contact", privacy: "Privacy",
@@ -182,10 +204,27 @@ const ja: Dict = {
     walk: (n) => `徒歩${n}分`,
   },
   near: {
-    charge: "🔋 充電したい？ 最寄りの電源へ →",
-    normal: "📍 近くのカフェ",
+    charge: "充電が切れそう？ 近くの電源カフェへ →",
+    normal: "近くのカフェを探す",
     locating: "現在地を取得中…",
-    retry: "オンにした → もう一度",
+    retry: "オンにしました → もう一度",
+    noGeo: "このブラウザでは位置情報を利用できません。駅名で検索してみてください。",
+    denied: "このサイトでは位置情報がブロックされているため、現在地を取得できません。駅名で検索してみてください。",
+    failed: "現在地を取得できませんでした。駅名を入力すると、近いお店を表示します。",
+  },
+  map: {
+    getDirections: "現在地から経路を表示 →",
+    updateDirections: "↻ 経路を更新",
+    locating: "現在地を取得中…",
+    retry: "オンにしました → もう一度",
+    openInMaps: "Google マップで開く ↗",
+    needKey: "地図のプレビューには Google Maps Embed API キーが必要です。",
+    denied: "このサイトでは位置情報がブロックされているため、現在地からの経路を表示できません。",
+    timeout: "時間がかかりすぎました。もう一度ボタンを押すか、下の「Google マップで開く」をご利用ください。",
+    failed: "現在地を取得できませんでした。もう一度ボタンを押すか、下の「Google マップで開く」をご利用ください。",
+    titleMap: (n) => `${n}の地図`,
+    titleDir: (n) => `${n}への徒歩ルート`,
+    nearMe: "現在地から探す",
   },
   footer: {
     tagline: "東京で作業できるカフェを探せる、個人運営のガイドです。", guides: "ガイド", about: "このサイトについて", contact: "お問い合わせ", privacy: "プライバシー",
