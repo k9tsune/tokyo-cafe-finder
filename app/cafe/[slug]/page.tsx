@@ -60,7 +60,7 @@ export default function CafePage({ params }: { params: { slug: string } }) {
           </a>
         </p>
       ) : !v.photoUrl && !v.photoRef && !v.hotpepperPhoto ? (() => {
-        const c = categoryImageFor(v.name, v.nameJa);
+        const c = categoryImageFor(v.name, v.nameJa, v.slug);
         if (!c) return null;
         return (
           <p className="photo-credit">

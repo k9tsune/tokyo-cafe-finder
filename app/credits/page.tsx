@@ -41,8 +41,8 @@ export default function CreditsPage() {
         These come from Unsplash (Unsplash License) and Wikimedia Commons (Creative Commons).
       </p>
       <ul>
-        {allCategoryImages().map((c) => (
-          <li key={c.key} style={{ margin: "6px 0" }}>
+        {allCategoryImages().map((c, i) => (
+          <li key={`${c.key}-${i}`} style={{ margin: "6px 0" }}>
             <strong style={{ textTransform: "capitalize" }}>{c.key.replace(/_/g, " ")}</strong>: by {c.author},{" "}
             {c.license} (
             <a href={c.page} target="_blank" rel="noopener noreferrer">

@@ -14,7 +14,7 @@ function hash(s: string): number {
 
 export default function CafeCover({ v, tall = false }: { v: Venue; tall?: boolean }) {
   const hasReal = v.photoUrl || v.photoRef || v.hotpepperPhoto;
-  const cat = !hasReal ? categoryImageFor(v.name, v.nameJa) : null;
+  const cat = !hasReal ? categoryImageFor(v.name, v.nameJa, v.slug) : null;
   const src =
     v.photoUrl ||
     (v.photoRef ? `/api/place-photo?ref=${encodeURIComponent(v.photoRef)}&w=${tall ? 1000 : 700}` : "") ||
