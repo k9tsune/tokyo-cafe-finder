@@ -160,41 +160,6 @@
     },
     {
       "kind": "wikimedia",
-      "file": "Hikone Micro Lady Coffee Stand 2020-07 (2).jpg",
-      "author": "Asturio Cantabrio",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Hikone%20Micro%20Lady%20Coffee%20Stand%202020-07%20(2).jpg"
-    },
-    {
-      "kind": "wikimedia",
-      "file": "Tantetsu Coffee 114 km Cafe 2021-04 ac.jpg",
-      "author": "Asturio Cantabrio",
-      "license": "CC BY-SA 4.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Tantetsu%20Coffee%20114%20km%20Cafe%202021-04%20ac.jpg"
-    },
-    {
-      "kind": "wikimedia",
-      "file": "SAKURAKO - OJ Coffee x TANITA Cafe. (49506468136).jpg",
-      "author": "MIKI Yoshihito",
-      "license": "CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:SAKURAKO%20-%20OJ%20Coffee%20x%20TANITA%20Cafe.%20(49506468136).jpg"
-    },
-    {
-      "kind": "wikimedia",
-      "file": "RON (34927496983).jpg",
-      "author": "othree",
-      "license": "CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:RON%20(34927496983).jpg"
-    },
-    {
-      "kind": "wikimedia",
-      "file": "Aroma Coffee (8046851907).jpg",
-      "author": "joshuapiano",
-      "license": "CC BY 2.0",
-      "page": "https://commons.wikimedia.org/wiki/File:Aroma%20Coffee%20(8046851907).jpg"
-    },
-    {
-      "kind": "wikimedia",
       "file": "Espresso coffee and Caffee latte and wooden table in a cafe.jpg",
       "author": "Shixart1985",
       "license": "CC BY 2.0",
@@ -206,6 +171,20 @@
       "author": "Evelyn-rose",
       "license": "CC0",
       "page": "https://commons.wikimedia.org/wiki/File:Vacuum-coffee-maker-1.jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Coffee with cream and sugar (Unsplash).jpg",
+      "author": "karlchor",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Coffee%20with%20cream%20and%20sugar%20(Unsplash).jpg"
+    },
+    {
+      "kind": "wikimedia",
+      "file": "Ahrre's Coffee Roastery in Summit NJ interior view.jpg",
+      "author": "Tomwsulcer",
+      "license": "CC0",
+      "page": "https://commons.wikimedia.org/wiki/File:Ahrre's%20Coffee%20Roastery%20in%20Summit%20NJ%20interior%20view.jpg"
     }
   ]
 }
