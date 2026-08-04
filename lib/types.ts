@@ -38,9 +38,6 @@ export interface Venue {
   photoAttr?: string;     // optional: photo attribution (required by Google when a Places photo is shown)
   hotpepperPhoto?: string; // optional: free HotPepper shop photo URL (hotlinked)
   hotpepperUrl?: string;   // optional: HotPepper shop page — REQUIRED link-back when the photo is shown
-  mapillaryImageId?: string; // optional: Mapillary image id -> served fresh via /api/mapillary-photo (URLs never expire)
-  mapillaryCreator?: string; // optional: contributor username — REQUIRED for CC-BY-SA attribution when shown
-  mapillaryUrl?: string;     // optional: link to the image on Mapillary — REQUIRED for CC-BY-SA attribution
   lastChecked: string;    // ISO date -> freshness badge
   confidence: Confidence;
   sourceUrl?: string;

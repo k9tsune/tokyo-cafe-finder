@@ -59,22 +59,7 @@ export default function CafePage({ params }: { params: { slug: string } }) {
             ホットペッパーグルメ
           </a>
         </p>
-      ) : !v.photoUrl && !v.photoRef && !v.hotpepperPhoto && v.mapillaryImageId ? (
-        <p className="photo-credit">
-          Street photo ©{" "}
-          <a href={v.mapillaryUrl} target="_blank" rel="noopener noreferrer nofollow">
-            {v.mapillaryCreator || "Mapillary contributor"}
-          </a>{" "}
-          via{" "}
-          <a href="https://www.mapillary.com" target="_blank" rel="noopener noreferrer nofollow">
-            Mapillary
-          </a>{" "}
-          ·{" "}
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer nofollow">
-            CC BY-SA 4.0
-          </a>
-        </p>
-      ) : !v.photoUrl && !v.photoRef && !v.hotpepperPhoto && !v.mapillaryImageId ? (() => {
+      ) : !v.photoUrl && !v.photoRef && !v.hotpepperPhoto ? (() => {
         const c = categoryImageFor(v.name, v.nameJa);
         if (!c) return null;
         return (

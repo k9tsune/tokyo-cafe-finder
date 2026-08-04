@@ -10,7 +10,6 @@ import areasData from "@/data/seed/areas.json";
 import stationsData from "@/data/seed/stations.json";
 import placesData from "@/data/places.json";
 import hotpepperData from "@/data/hotpepper.json";
-import mapillaryData from "@/data/mapillary.json";
 
 // JSON is inferred with widened primitives (e.g. string instead of our unions),
 // so cast through unknown. In Phase B these come from typed DB queries instead.
@@ -18,13 +17,6 @@ type PlaceInfo = { ref?: string | null; attr?: string | null; lat?: number | nul
 const places = placesData as unknown as Record<string, PlaceInfo | null>;
 type HotpepperInfo = { photo?: string | null; url?: string | null };
 const hotpepper = hotpepperData as unknown as Record<string, HotpepperInfo | null>;
-// Mapillary street-level fallback (tier 3). We keep only the durable fields — the
-// imageId (used to fetch a fresh, never-expiring thumbnail via /api/mapillary-photo)
-// and the attribution (creator + image link, required by CC-BY-SA). The cached
-// `photo`/`thumb` URLs in mapillary.json are signed CDN links that expire, so they
-// are deliberately NOT surfaced to the render.
-type MapillaryInfo = { imageId?: string | null; creator?: string | null; mapillaryUrl?: string | null };
-const mapillary = mapillaryData as unknown as Record<string, MapillaryInfo | null>;
 
 // Merge photo enrichment onto each venue: Google Places (photo + precise coords)
 // and/or free HotPepper (photo + required link-back). Precise lat/lng from Places
@@ -32,7 +24,6 @@ const mapillary = mapillaryData as unknown as Record<string, MapillaryInfo | nul
 const venues = (venuesData as unknown as Venue[]).map((v) => {
   const p = places[v.slug];
   const h = hotpepper[v.slug];
-  const m = mapillary[v.slug];
   return {
     ...v,
     ...(p?.ref ? { photoRef: p.ref } : {}),
@@ -41,11 +32,6 @@ const venues = (venuesData as unknown as Venue[]).map((v) => {
     ...(typeof p?.lng === "number" ? { lng: p.lng } : {}),
     ...(h?.photo ? { hotpepperPhoto: h.photo } : {}),
     ...(h?.url ? { hotpepperUrl: h.url } : {}),
-    ...(m?.imageId ? {
-      mapillaryImageId: m.imageId,
-      ...(m.creator ? { mapillaryCreator: m.creator } : {}),
-      ...(m.mapillaryUrl ? { mapillaryUrl: m.mapillaryUrl } : {}),
-    } : {}),
   };
 });
 // Merge Google Places photos onto areas/stations (keyed "area:<slug>" /
