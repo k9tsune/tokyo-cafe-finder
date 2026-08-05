@@ -18,7 +18,7 @@ export default function HomePage() {
   return (
     <div>
       <section className="hero">
-        <h1>Tokyo cafes with Wi-Fi &amp; power outlets</h1>
+        <h1>Tokyo cafes with <span className="nowrap">Wi-Fi</span> &amp; power outlets</h1>
         <p className="lede">
           Cafes with Wi-Fi and power outlets across all 23 wards. Every listing dated so you
           know it&apos;s current. Search a station, or find what&apos;s nearest right now.
