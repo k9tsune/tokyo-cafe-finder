@@ -69,7 +69,7 @@ async function oembed(postUrl) {
   const u = new URL(OEMBED);
   u.searchParams.set("url", postUrl);
   u.searchParams.set("omitscript", "true");
-  u.searchParams.set("fields", "thumbnail_url,author_name");
+  u.searchParams.set("fields", "thumbnail_url,author_name,author_url");
   if (TOKEN) u.searchParams.set("access_token", TOKEN);
   const r = await fetch(u, { headers: { "User-Agent": "WorkingCafes/1.0" } });
   if (!r.ok) throw new Error(`oEmbed ${r.status} for ${postUrl}`);
@@ -99,6 +99,8 @@ for (const [name, cfg] of Object.entries(seeds)) {
   const posts = (cfg.posts || []).slice(0, MAX);
   const entry = out[slug] || { handle: handleFromUrl(igByName.get(name) || ""), photos: [] };
   entry.photos = entry.photos || [];
+  // The cafe's OWN official handle, used to verify each post really belongs to it.
+  const wantHandle = handleFromUrl(igByName.get(name) || "").toLowerCase();
 
   for (let i = 0; i < posts.length; i++) {
     const permalink = posts[i];
@@ -109,6 +111,16 @@ for (const [name, cfg] of Object.entries(seeds)) {
     const rel = `/ig/${slug}-${i + 1}.jpg`;
     try {
       const meta = await oembed(permalink);
+      // Rights guard: only display a post that genuinely belongs to the cafe's
+      // OWN account. oEmbed reports the real author; if it doesn't match the
+      // cafe's known handle, skip it — never re-host someone else's photo, even
+      // if it was mistakenly listed as ownAccount.
+      const gotHandle = handleFromUrl(meta.author_url || "").toLowerCase();
+      if (wantHandle && gotHandle && gotHandle !== wantHandle) {
+        console.warn(`! ${name} ${permalink}: author @${gotHandle} != official @${wantHandle} — skipping (not the cafe's own post)`);
+        skipped++;
+        continue;
+      }
       if (!meta.thumbnail_url) throw new Error("no thumbnail_url");
       await download(meta.thumbnail_url, P(`public${rel}`));
       entry.photos.push({
