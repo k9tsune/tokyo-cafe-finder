@@ -5,7 +5,7 @@ name: Fetch HotPepper photos
 # part of the site build, so it never runs on a deploy.
 #
 # Runs on demand, AND automatically whenever the cafe list changes (e.g. the
-# weekly update adds cafes). The fetcher is incremental — it skips cafes already
+# quarterly update adds cafes). The fetcher is incremental — it skips cafes already
 # in the cache — so an auto-run only looks up the NEW cafes. The commit it makes
 # touches only hotpepper.json (not venues.json) and is made with GITHUB_TOKEN, so
 # it can't retrigger this workflow — no loop.

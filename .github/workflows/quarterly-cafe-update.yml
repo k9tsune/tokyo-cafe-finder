@@ -1,6 +1,6 @@
-name: Weekly cafe update
+name: Quarterly cafe update
 
-# The weekly refresh now runs via a scheduled Cowork session (on the Claude
+# The quarterly refresh (every 3 months) runs via a scheduled Cowork session (on the Claude
 # subscription, not the paid Anthropic API), so the automatic schedule here is
 # turned off. This workflow is kept for MANUAL runs only ("Run workflow" button).
 
@@ -22,17 +22,17 @@ jobs:
         with:
           node-version: 20
 
-      - name: Weekly cafe data refresh
+      - name: Quarterly cafe data refresh
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           claude_args: "--max-turns 50"
           prompt: |
-            Run the weekly automated cafe-data refresh for WorkingCafes. Follow CLAUDE.md in this repo.
+            Run the quarterly automated cafe-data refresh for WorkingCafes. Follow CLAUDE.md in this repo.
 
             1) For each ward file in data/collected/raw/, use web research (Japanese + English sources) to add clearly-sourced NEW work-friendly cafes and to re-verify the oldest / lowest-confidence existing entries' Wi-Fi and power-outlet status. Never fabricate — every cafe must have a real source URL, and descriptions must be your own one sentence (no copied text).
             2) Apply the auto-approval gate described in CLAUDE.md: auto-include high-confidence, corroborated changes; KEEP but clearly FLAG low-confidence / conflicting / closure / surprising chain-flip cases for a human to review.
             3) Update data/collected/raw/*.json, then run `node scripts/build-seed.mjs` to regenerate data/seed/*.json. Stamp lastChecked with today's date.
             4) NEW CHAIN IMAGES: if you added cafes belonging to a chain NOT already in data/chain-matchers.json (and it has 2+ locations), add it so those cafes show a real storefront instead of the generic pool — this is DATA-ONLY. Follow CLAUDE.md > "Adding a NEW chain's stock image": source ONE free-licensed storefront photo (prefer Wikimedia Commons; CC0/CC BY/CC BY-SA/PD/Pexels/Pixabay/Unsplash only; correct brand sign, no people-focused shots), add a `{key, pattern}` entry to data/chain-matchers.json, and a matching image entry to data/category-images.json under the same key (self-host Pexels/Pixabay/Flickr files into public/cafe-images/). Only add a matcher when you also have an image; otherwise FLAG the chain for a human. Never use rights-unclear images.
             5) Verify the build: run `npm ci` then `npm run build`. If the build fails, fix the DATA (not the code) — do NOT open a PR with a failing build.
-            6) Open a pull request titled "Weekly cafe update — <today's date>" that summarizes: how many cafes were added, how many were re-verified/changed, any NEW chains added (with their image source), and a clearly separated list of any FLAGGED items needing a human look. Keep it concise. Allowed edits are DATA + content only: data/**, public/cafe-images/**, and content. Do NOT modify app code (components, lib/*.ts logic, app/*), config, or workflows.
+            6) Open a pull request titled "Quarterly cafe update — <today's date>" that summarizes: how many cafes were added, how many were re-verified/changed, any NEW chains added (with their image source), and a clearly separated list of any FLAGGED items needing a human look. Keep it concise. Allowed edits are DATA + content only: data/**, public/cafe-images/**, and content. Do NOT modify app code (components, lib/*.ts logic, app/*), config, or workflows.

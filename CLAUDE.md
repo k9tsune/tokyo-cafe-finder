@@ -1,7 +1,7 @@
 # CLAUDE.md — operating instructions for Tokyo Cafe Finder
 
 This file tells Claude Code how to run the data pipeline. The design principle
-is **fully automated with exception-only escalation**: the weekly check runs
+is **fully automated with exception-only escalation**: the quarterly check runs
 unattended and publishes high-confidence updates on its own, flagging only the
 hardest/most-problematic cases for a human. This must scale from Tokyo to all of
 Japan and, later, other countries — so human review is the exception, never the
@@ -16,11 +16,11 @@ default.
 - Pages are static (SSG) for SEO/GEO; the sitemap regenerates on build.
 
 ## How this runs (automation)
-- `.github/workflows/weekly-cafe-update.yml` — scheduled weekly refresh; Claude researches + gates, then opens a PR. Merging publishes (Vercel auto-deploys).
+- `.github/workflows/quarterly-cafe-update.yml` — quarterly refresh (every 3 months); Claude researches + gates, then opens a PR. Merging publishes (Vercel auto-deploys). The cadence itself is driven by an external scheduled task, not by cron in this repo.
 - `.github/workflows/claude.yml` — on-demand: mention `@claude` in a GitHub issue/PR to build a feature; it opens a PR. The build must pass before anything can publish.
 - Global brand (`WorkingCafes`): the data model already carries `city`/area, so adding cities/countries is a data operation, not a code change.
 
-## Weekly automated run (target: unattended)
+## Quarterly automated run — every 3 months (target: unattended)
 1. **Research (web).** For each covered area, use Japanese + English web research
    to find new work-friendly cafes and re-check existing ones. Add records to the
    ward file in `data/collected/raw/`. Rules:
@@ -81,7 +81,7 @@ default.
   terms) — handled in `app/cafe/[slug]/page.tsx`.
 - **New cafes get HotPepper photos automatically.** The `.github/workflows/
   hotpepper.yml` Action re-runs on any push that changes `data/seed/venues.json`
-  (e.g. the weekly update adding cafes) and, because the fetch is incremental,
+  (e.g. the quarterly update adding cafes) and, because the fetch is incremental,
   only looks up the new cafes, then commits `data/hotpepper.json`. Needs the
   `HOTPEPPER_KEY` repo secret. No manual step required when adding cafes.
 - **Places is OFF by default.** `scripts/fetch-places.mjs` no-ops unless
@@ -103,7 +103,7 @@ of the cafe's OWN posts. This must stay FAST and rights-clean:
   `data/collected/instagram.json` keyed by cafe name) renders as a "@handle on
   Instagram" link (`components/CafeInstagram.tsx`). Capture the OFFICIAL account
   only (cafe's own site / Google listing / confident name+area match). No photo is
-  re-hosted, so there's no rights issue — grow this map freely during weekly runs.
+  re-hosted, so there's no rights issue — grow this map freely during quarterly runs.
 - **Never ship Instagram's embed.js.** Galleries are STATIC self-hosted thumbnails
   fetched at BUILD time; no third-party script runs for visitors.
 - **Only show cleared photos.** Add chosen post URLs to
@@ -113,7 +113,7 @@ of the cafe's OWN posts. This must stay FAST and rights-clean:
   tokenless oEmbed, downloads the thumbnail to `public/ig/`, and writes
   `data/instagram-photos.json` (committed cache). Anything without
   ownAccount/permission is skipped and never displayed.
-- **Weekly run:** when confirming a cafe, capture its official handle (if missing)
+- **Quarterly run:** when confirming a cafe, capture its official handle (if missing)
   and 2–4 of ITS OWN post URLs for the gallery.
 - **Permission workflow** (for non-own-account photos, incl. the later
   location-tagged route): DM the account, ask to feature one photo with credit +
@@ -125,9 +125,9 @@ of the cafe's OWN posts. This must stay FAST and rights-clean:
   need auth and are restricted). Do NOT scrape. If pursued, every photo goes
   through the permission workflow above before `permission:true` is set.
 
-### Adding a NEW chain's stock image (DATA-ONLY — do this during the weekly update)
+### Adding a NEW chain's stock image (DATA-ONLY — do this during the quarterly update)
 Chain detection is data, not code: patterns live in `data/chain-matchers.json`, so a
-new chain can be added with **no code change**. When a weekly run adds cafes that
+new chain can be added with **no code change**. When a quarterly run adds cafes that
 belong to a chain **not already** in `data/chain-matchers.json` and that chain has
 **2+ locations**, add it so those cafes show a real storefront instead of the generic
 independent pool:
