@@ -17,9 +17,10 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { area: string } }): Metadata {
   const area = getArea(params.area);
   if (!area) return {};
+  const n = getVenuesByArea(area.slug).length;
   return {
     title: `Cafes with Wi-Fi & power outlets in ${area.name}, Tokyo`,
-    description: `Laptop-friendly cafes in ${area.name}: filter for Wi-Fi, power outlets, or both. Checked and dated so the details stay current.`,
+    description: `${n} laptop-friendly cafes in ${area.name}, Tokyo with Wi-Fi and power outlets — filter for Wi-Fi, outlets, or both. Dated so the details stay current.`,
     alternates: {
       canonical: `/tokyo/${area.slug}`,
       languages: { en: `/tokyo/${area.slug}`, ja: `/ja/tokyo/${area.slug}`, "x-default": `/tokyo/${area.slug}` },
@@ -32,22 +33,23 @@ export default function AreaPage({ params }: { params: { area: string } }) {
   if (!area) notFound();
   const venues = getVenuesByArea(area.slug);
 
-  const withWifi = venues.filter((v) => v.hasWifi).map((v) => v.name);
+  const freeWifi = venues.filter((v) => v.hasWifi && v.wifiType === "free").map((v) => v.name);
   const withPower = venues.filter((v) => v.hasPower).map((v) => v.name);
   const withBoth = venues.filter((v) => v.hasWifi && v.hasPower).map((v) => v.name);
+  const sample = (arr: string[]) => arr.slice(0, 5).join(", ") + (arr.length > 5 ? `, and ${arr.length - 5} more` : "");
 
   const faq = [
     {
-      q: `Which cafes in ${area.name} have free Wi-Fi?`,
-      a: withWifi.length ? `${withWifi.join(", ")} offer Wi-Fi in ${area.name}.` : `No listed cafes in ${area.name} currently offer Wi-Fi.`,
+      q: `How many cafes in ${area.name} have free Wi-Fi?`,
+      a: freeWifi.length ? `${freeWifi.length} listed cafes in ${area.name} have free Wi-Fi, including ${sample(freeWifi)}. Use the Wi-Fi filter above to see them all.` : `No listed cafes in ${area.name} currently have free Wi-Fi.`,
     },
     {
-      q: `Which cafes in ${area.name} have power outlets?`,
-      a: withPower.length ? `${withPower.join(", ")} have power outlets in ${area.name}.` : `No listed cafes in ${area.name} currently have outlets.`,
+      q: `How many cafes in ${area.name} have power outlets?`,
+      a: withPower.length ? `${withPower.length} listed cafes in ${area.name} have power outlets, including ${sample(withPower)}. Filter for outlets above for the full list.` : `No listed cafes in ${area.name} currently have outlets.`,
     },
     {
-      q: `Where can I both get Wi-Fi and charge my laptop in ${area.name}?`,
-      a: withBoth.length ? `${withBoth.join(", ")} have both Wi-Fi and power outlets.` : `No listed cafes in ${area.name} currently have both.`,
+      q: `Where can I get both Wi-Fi and outlets in ${area.name}?`,
+      a: withBoth.length ? `${withBoth.length} cafes in ${area.name} have both Wi-Fi and power outlets, including ${sample(withBoth)}.` : `No listed cafes in ${area.name} currently have both.`,
     },
   ];
 

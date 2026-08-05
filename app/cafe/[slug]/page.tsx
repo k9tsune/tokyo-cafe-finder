@@ -5,7 +5,7 @@ import CafeMap from "@/components/CafeMap";
 import CafeCover from "@/components/CafeCover";
 import CafeInstagram from "@/components/CafeInstagram";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
-import { getAllVenues, getVenue, getArea } from "@/lib/db";
+import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
 import { cafeJsonLd, cafeFaqJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 
@@ -94,6 +94,21 @@ export default function CafePage({ params }: { params: { slug: string } }) {
         <div><span className="k">Address: </span>{v.address}</div>
         <div><span className="k">Typical busyness: </span>{v.typicalBusyness || "—"}</div>
       </div>
+
+      {(() => {
+        const stations = v.stationSlugs.map((s) => getStation(s)).filter(Boolean) as NonNullable<ReturnType<typeof getStation>>[];
+        const primary = stations.find((s) => s.name === v.nearestStation) || stations[0];
+        if (!primary) return null;
+        const others = stations.filter((s) => s.slug !== primary.slug);
+        const lines = primary.lineNames?.length ? ` (${primary.lineNames.join(", ")})` : "";
+        return (
+          <p className="access" style={{ marginTop: 12 }}>
+            <strong>Getting there:</strong> {primary.name}{lines} is about {v.walkMinutes} minute{v.walkMinutes === 1 ? "" : "s"} away on foot.
+            {others.length ? ` It's also within walking distance of ${others.map((s) => s.name).join(" and ")}.` : ""}
+            {" "}The address is {v.address}.
+          </p>
+        );
+      })()}
 
       <FreshnessBadge date={v.lastChecked} confidence={v.confidence} />
 
