@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { preload } from "react-dom";
 import Script from "next/script";
 import HeaderInner from "@/components/HeaderInner";
 import SiteFooter from "@/components/SiteFooter";
@@ -43,6 +44,12 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // The header skyline is applied as a CSS mask, so the browser would otherwise
+  // only discover it after the stylesheet parses — on slow connections that late
+  // fetch is the page's Largest Contentful Paint (LCP). Preloading it here makes
+  // the browser fetch it in parallel with the CSS, cutting the P90/P99 LCP tail.
+  preload("/skyline.svg", { as: "image", fetchPriority: "high", type: "image/svg+xml" });
+
   const points = getAllVenues()
     .filter((v) => typeof v.lat === "number" && typeof v.lng === "number")
     .map((v) => ({
