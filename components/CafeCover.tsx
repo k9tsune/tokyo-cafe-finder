@@ -30,7 +30,7 @@ export default function CafeCover({ v, tall = false, cover }: { v: Venue; tall?:
     return (
       <div className={`cover${tall ? " cover-tall" : ""}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className={chainCover ? "cover-chain" : undefined} src={src} alt={`${v.name} — cafe near ${v.nearestStation}`} loading="lazy" />
+        <img className={chainCover ? "cover-chain" : undefined} src={src} alt={`${v.name} — cafe near ${v.nearestStation}`} loading={tall ? "eager" : "lazy"} decoding="async" width={tall ? 1000 : 800} height={tall ? 600 : 480} />
         {!hasReal && tall && (
           <span className="cover-rep" title="We're still sourcing this cafe's actual photo.">📷 Representative photo</span>
         )}
