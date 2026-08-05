@@ -5,12 +5,12 @@ import CafeMap from "@/components/CafeMap";
 import CafeCover from "@/components/CafeCover";
 import CafeInstagram from "@/components/CafeInstagram";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
-import { getAllVenues, getVenue, getArea } from "@/lib/db";
+import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
 import { cafeJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
 import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
-import { stationNameJa } from "@/lib/station-ja";
+import { stationNameJa, lineNameJa } from "@/lib/station-ja";
 import { cafeDescJa } from "@/lib/cafe-desc-ja";
 
 const d = t("ja");
@@ -140,6 +140,21 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
         <div><span className="k">住所： </span>{v.address}</div>
         <div><span className="k">価格帯： </span>{v.priceBand || "—"}</div>
       </div>
+
+      {(() => {
+        const stations = v.stationSlugs.map((s) => getStation(s)).filter(Boolean) as NonNullable<ReturnType<typeof getStation>>[];
+        const primary = stations.find((s) => s.name === v.nearestStation) || stations[0];
+        if (!primary) return null;
+        const others = stations.filter((s) => s.slug !== primary.slug);
+        const lines = primary.lineNames?.length ? `（${primary.lineNames.map(lineNameJa).join("、")}）` : "";
+        return (
+          <p className="access" style={{ marginTop: 12 }}>
+            <strong>アクセス：</strong>{stationNameJa(primary.name)}{lines}から徒歩約{v.walkMinutes}分です。
+            {others.length ? `${others.map((s) => stationNameJa(s.name)).join("・")}からも徒歩圏内です。` : ""}
+            住所は{v.address}です。
+          </p>
+        );
+      })()}
 
       <FreshnessBadge date={v.lastChecked} confidence={v.confidence} locale="ja" />
 
