@@ -17,9 +17,10 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { station: string } }): Metadata {
   const s = getStation(params.station);
   if (!s) return {};
+  const n = getVenuesByStation(s.slug).length;
   return {
     title: `Laptop-friendly cafes near ${s.name}`,
-    description: `Cafes near ${s.name} with Wi-Fi and power outlets, sorted by walking distance. Filter for Wi-Fi, outlets, or both.`,
+    description: `${n} cafes near ${s.name} with Wi-Fi and power outlets, sorted by walking distance. Filter for Wi-Fi, outlets, or both.`,
     alternates: {
       canonical: `/tokyo/station/${s.slug}`,
       languages: { en: `/tokyo/station/${s.slug}`, ja: `/ja/tokyo/station/${s.slug}`, "x-default": `/tokyo/station/${s.slug}` },

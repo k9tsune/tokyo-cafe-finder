@@ -4,12 +4,17 @@ import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
-import { getAllDestinations, getAllAreas } from "@/lib/db";
+import { getAllDestinations, getAllAreas, getAllVenues } from "@/lib/db";
 import { SITE } from "@/lib/site";
 
-export const metadata: Metadata = {
-  alternates: { canonical: "/", languages: { en: "/", ja: "/ja", "x-default": "/" } },
-};
+export function generateMetadata(): Metadata {
+  const n = getAllVenues().length;
+  return {
+    title: "WorkingCafes — Tokyo cafes with Wi-Fi & power outlets",
+    description: `${n} Tokyo cafes with Wi-Fi and power outlets across all 23 wards — dated so you know they're current. Search a station, or find what's nearest right now.`,
+    alternates: { canonical: "/", languages: { en: "/", ja: "/ja", "x-default": "/" } },
+  };
+}
 
 export default function HomePage() {
   const destinations = getAllDestinations();

@@ -4,21 +4,24 @@ import HomeSearch from "@/components/HomeSearch";
 import NearMeButton from "@/components/NearMeButton";
 import AreaCover from "@/components/AreaCover";
 import { areaPhotoSrc } from "@/lib/media";
-import { getAllDestinations, getAllAreas } from "@/lib/db";
+import { getAllDestinations, getAllAreas, getAllVenues } from "@/lib/db";
 import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
 
 const d = t("ja");
 
-export const metadata: Metadata = {
-  title: d.page.home.metaTitle,
-  description: d.page.home.metaDescription,
-  alternates: {
-    canonical: "/ja",
-    languages: { en: "/", ja: "/ja", "x-default": "/" },
-  },
-  openGraph: { title: d.page.home.metaTitle, description: d.page.home.metaDescription, locale: "ja_JP", url: "/ja" },
-};
+export function generateMetadata(): Metadata {
+  const n = getAllVenues().length;
+  return {
+    title: d.page.home.metaTitle,
+    description: `東京23区で、Wi-Fiと電源が使えるカフェ${n}件をまとめました。情報は日付つきで管理しているので、いつでも最新の状態で確認できます。駅名やエリアで検索、または現在地から近いお店を探せます。`,
+    alternates: {
+      canonical: "/ja",
+      languages: { en: "/", ja: "/ja", "x-default": "/" },
+    },
+    openGraph: { title: d.page.home.metaTitle, description: d.page.home.metaDescription, locale: "ja_JP", url: "/ja" },
+  };
+}
 
 export default function HomePageJa() {
   const destinations = getAllDestinations();

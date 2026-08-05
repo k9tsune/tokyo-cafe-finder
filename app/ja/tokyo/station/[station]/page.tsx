@@ -20,9 +20,10 @@ export function generateMetadata({ params }: { params: { station: string } }): M
   const s = getStation(params.station);
   if (!s) return {};
   const nm = stationNameJa(s.name);
+  const n = getVenuesByStation(s.slug).length;
   return {
     title: `${nm}周辺の電源・Wi-Fiのあるカフェ`,
-    description: `${nm}の近くで、Wi-Fi・電源のあるカフェを徒歩圏内でご紹介します。距離が近い順に並び、条件でしぼり込めます。`,
+    description: `${nm}周辺の、Wi-Fi・電源のあるカフェ${n}件を徒歩圏内でご紹介します。距離が近い順に並び、条件でしぼり込めます。`,
     alternates: {
       canonical: `/ja/tokyo/station/${s.slug}`,
       languages: { en: `/tokyo/station/${s.slug}`, ja: `/ja/tokyo/station/${s.slug}`, "x-default": `/tokyo/station/${s.slug}` },
