@@ -218,6 +218,72 @@ export const GUIDES: Guide[] = [
       },
     ],
   },
+  {
+    slug: "which-tokyo-cafe-chains-have-power-outlets",
+    title: "Which Tokyo cafe chains have power outlets?",
+    description:
+      "Doutor, Komeda, Excelsior, Tully's, Veloce, Renoir and Starbucks compared for power outlets and Wi-Fi, using the hit rate across our own Tokyo listings.",
+    date: "2026-08-05",
+    blurb: "When you just need an outlet fast, some chains are a much safer bet than others. Here's the hit rate across our Tokyo listings ^^",
+    body: [
+      { p: ["Chains are the reliable fallback when you just need to sit down and plug in. But outlet availability varies a lot from chain to chain, so here is what our own Tokyo listings show, chain by chain."] },
+      { h2: "The short version" },
+      { p: ["The safest bets for an outlet are Excelsior, Komeda, Renoir, St. Marc and Cafe de Crie, where nearly every branch we list has one. Veloce, Tully's and Doutor are close behind. Starbucks is the wildcard: brilliant Wi-Fi, but an outlet only about two branches in three."] },
+      { h2: "Chain by chain (outlet hit rate)" },
+      { ul: [
+        ["Excelsior Caffe: outlets at about 100% of our listings, Wi-Fi about 92%."],
+        ["Komeda's Coffee: about 100% outlets, 96% Wi-Fi. Comfy sofas and a good morning set."],
+        ["Renoir: about 100% outlets and Wi-Fi. Roomy seats, built for long sits."],
+        ["St. Marc Cafe and Cafe de Crie: about 100% outlets in our data."],
+        ["Cafe Veloce: about 94% outlets, and cheap."],
+        ["Tully's Coffee: about 89% outlets, 100% Wi-Fi."],
+        ["Doutor: about 83% outlets, 95% Wi-Fi. Everywhere, and cheap."],
+        ["Starbucks: about 69% outlets but 99% Wi-Fi. Newer and larger branches are your best bet."],
+      ] },
+      { h2: "How to read this" },
+      { p: ["The hit rate is the share of the branches we currently list for that chain that have an outlet. Individual branches still vary, and older or tiny locations often have none, so check the ", { to: "/tokyo/cafes-with-power-outlets", text: "outlet listings" }, " and each cafe's last-updated date before you rely on it."] },
+    ],
+    faq: [
+      { q: "Do Japanese Starbucks have power outlets?", a: "About two in three of the Tokyo Starbucks we list have outlets, usually the newer or larger branches, and Wi-Fi is near-universal. Check the individual branch's page since it varies." },
+      { q: "Which cafe chain is most reliable for power outlets?", a: "In our data, Excelsior, Komeda, Renoir, St. Marc and Cafe de Crie have an outlet at nearly every branch we list." },
+    ],
+  },
+  {
+    slug: "working-from-family-restaurants-tokyo",
+    title: "The famiresu strategy: cheap all-day work at Tokyo family restaurants",
+    description:
+      "Gusto, Jonathan's, Saizeriya, Denny's and Bamiyan are the cheapest all-day desks in Tokyo, with a drink bar, Wi-Fi, outlets and long hours. How to use them.",
+    date: "2026-08-05",
+    blurb: "The cheapest all-day desk in Tokyo isn't a cafe, it's a famiresu (family restaurant). Here's how to work from one ><",
+    body: [
+      { p: ["The most underrated work spot in Tokyo isn't a cafe at all. Famiresu (family restaurants) like Gusto, Jonathan's, Saizeriya, Denny's and Bamiyan give you a bottomless drink bar, free Wi-Fi, an outlet at many seats and a big booth, often for a few hundred yen and often around the clock."] },
+      { h2: "Why famiresu work so well" },
+      { ul: [
+        ["A bottomless drink bar (usually around 300 yen) means you can stay for hours guilt-free."],
+        ["Free Wi-Fi across the big groups, the Skylark chains especially."],
+        ["Outlets at a lot of seats, and roomy booths you can spread out in."],
+        ["Long hours: many are open late, and some run 24 hours."],
+      ] },
+      { h2: "The main chains" },
+      { ul: [
+        ["Gusto: Skylark group, the cheapest, with free Wi-Fi, a drink bar and outlets at many seats. The default choice."],
+        ["Jonathan's: also Skylark, a little calmer and nicer, same Wi-Fi and outlets, and often open very late."],
+        ["Denny's: free Wi-Fi and drink bar, outlets at some seats, open past midnight at many branches."],
+        ["Saizeriya: dirt-cheap Italian with a drink bar; Wi-Fi and outlets vary by branch."],
+        ["Bamiyan: Skylark's Chinese famiresu, with some branches open until 5am."],
+      ] },
+      { h2: "How to do it right" },
+      { ul: [
+        ["Order something and add the drink bar, and take a booth away from the entrance."],
+        ["Check the branch's hours, since not every location is 24 hours."],
+        ["Be considerate at peak meal times, when tables are needed for diners."],
+      ] },
+    ],
+    faq: [
+      { q: "Can you work in a Japanese family restaurant?", a: "Yes. Famiresu like Gusto and Jonathan's are popular for laptop work thanks to a bottomless drink bar, free Wi-Fi, outlets at many seats and long hours. Order something and be considerate at busy meal times." },
+      { q: "Which famiresu is best for working?", a: "Gusto and Jonathan's, both Skylark group, are the most reliable for free Wi-Fi and outlets. For very late nights, look for a 24-hour Gusto or a Bamiyan branch open until 5am." },
+    ],
+  },
 ];
 
 export function getGuide(slug: string): Guide | undefined {
