@@ -1,0 +1,45 @@
+name: Fetch Instagram photos
+
+# Resolves each cafe's OWN Instagram posts (listed in
+# data/collected/instagram-posts.json) into self-hosted thumbnails and commits the
+# cache (data/instagram-photos.json + public/ig/*). Meta's oEmbed is tokenless
+# again (since June 2026), so no secret is required for public posts — the optional
+# META_OEMBED_TOKEN below is only used if you add it. This is NOT part of the site
+# build, so it never runs on a deploy.
+#
+# The fetcher is incremental (skips posts already cached) and verifies each post's
+# real author against the cafe's official handle, skipping anything that isn't the
+# cafe's own. Runs on demand, and automatically when the seed file changes.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "data/collected/instagram-posts.json"
+
+permissions:
+  contents: write
+
+jobs:
+  instagram:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch Instagram thumbnails (prints fetched/skipped)
+        env:
+          META_OEMBED_TOKEN: ${{ secrets.META_OEMBED_TOKEN }}
+        run: node scripts/fetch-instagram.mjs
+      - name: Commit photo cache
+        run: |
+          git config user.name "k9tsune"
+          git config user.email "308644872+k9tsune@users.noreply.github.com"
+          git add data/instagram-photos.json public/ig
+          if git diff --staged --quiet; then
+            echo "No new Instagram photos to commit."
+          else
+            git commit -m "Populate Instagram cafe photos"
+            git push
+          fi
