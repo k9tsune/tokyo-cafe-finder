@@ -66,13 +66,71 @@ export default function HomePage() {
       </div>
 
       <h2>About {SITE.name}</h2>
-      <p className="about-blurb">
-        An independent guide to working from cafes in Tokyo. As a freelance worker in Tokyo, I
-        always found it frustrating to find places to work, so I made this site to help myself and
-        anyone with the same problem. Each listing checks three things: is there Wi-Fi, are there
-        outlets, and can you use a laptop there. The site also re-checks listings regularly to make
-        sure the information stays right.
-      </p>
+      <div
+        style={{
+          display: "flex",
+          flexWrap: "wrap",
+          gap: "24px",
+          alignItems: "flex-start",
+          marginTop: "4px",
+        }}
+      >
+        <figure style={{ margin: 0, flex: "none", width: "min(220px, 46vw)" }}>
+          <img
+            src="/about.jpg"
+            alt="The site's author working from a cafe"
+            width={800}
+            height={1200}
+            loading="lazy"
+            style={{
+              width: "100%",
+              height: "auto",
+              display: "block",
+              borderRadius: "var(--radius)",
+              border: "1px solid var(--line)",
+              boxShadow: "var(--shadow)",
+            }}
+          />
+          <figcaption
+            style={{
+              marginTop: "8px",
+              fontSize: ".8rem",
+              color: "var(--muted)",
+              fontStyle: "italic",
+              textAlign: "center",
+              lineHeight: 1.4,
+            }}
+          >
+            at the infamous train-track cafe in Vietnam
+          </figcaption>
+        </figure>
+        <div style={{ flex: 1, minWidth: "260px" }}>
+          <p className="about-blurb" style={{ marginTop: 0 }}>
+            An independent guide to working from cafes in Tokyo. As a freelance worker in Tokyo, I
+            always found it frustrating to find places to work, so I made this site to help myself and
+            anyone with the same problem. Each listing checks three things: is there Wi-Fi, are there
+            outlets, and can you use a laptop there. The site also re-checks listings regularly to make
+            sure the information stays right.
+          </p>
+          <p
+            style={{
+              margin: "16px 0 0",
+              padding: "12px 16px",
+              background: "var(--accent-soft)",
+              border: "1px solid color-mix(in srgb, var(--accent) 32%, transparent)",
+              borderRadius: "var(--radius-sm)",
+              fontSize: ".9rem",
+              lineHeight: 1.6,
+              color: "var(--fg)",
+              maxWidth: "66ch",
+            }}
+          >
+            <strong style={{ color: "var(--accent-strong)" }}>A quick safety tip:</strong> public cafe
+            Wi-Fi is convenient, but it&apos;s usually open and shared, so it&apos;s worth using a VPN to
+            keep your browsing private — especially for logins, banking, or anything work-related.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
