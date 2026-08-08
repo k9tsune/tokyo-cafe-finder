@@ -7,8 +7,8 @@ import ExploreMap from "@/components/ExploreMap";
 import { getAllVenues, getAllAreas, getAllStations } from "@/lib/db";
 import { SITE } from "@/lib/site";
 import "./globals.css";
-// Self-hosted (no external request): Fredoka for the wordmark, Rubik for the UI.
-import "@fontsource-variable/fredoka";
+// Self-hosted (no external request): Baloo 2 for the wordmark, Rubik for the UI.
+import "@fontsource-variable/baloo-2";
 import "@fontsource-variable/rubik";
 
 // Cloudflare Web Analytics: cookieless, privacy-friendly, lightweight. The beacon
@@ -77,7 +77,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="site-header">
           {/* Decorative Tokyo skyline behind the wordmark and nav. Scales to the
               header height so the tallest towers are never cut; recolours via a
-              masked orange gradient. Purely decorative. */}
+              masked coral gradient. Purely decorative. */}
           <div className="header-skyline" aria-hidden="true" />
           <HeaderInner />
         </header>

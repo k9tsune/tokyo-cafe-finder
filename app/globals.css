@@ -21,7 +21,7 @@
   --accent-soft: #e3f2f1;
   --focus: #0bb3ad;
 
-  /* Coral accent — logo wordmark + the two "find me a spot now" location pills. */
+  /* Coral accent — logo wordmark + the hero pills. */
   --coral: #ef5b60;
   --coral-strong: #d43f45;
 
@@ -40,16 +40,16 @@
   --radius-pill: 999px;
   --maxw: 920px;
 
-  /* Rubik for the UI (clean, readable, gently rounded); Fredoka for the wordmark. */
+  /* Rubik for the UI (clean, readable, gently rounded); Baloo 2 for the wordmark. */
   --font: "Rubik Variable", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans JP", sans-serif;
-  --font-brand: "Fredoka Variable", ui-rounded, "Segoe UI Rounded", system-ui, sans-serif;
+  --font-brand: "Baloo 2 Variable", ui-rounded, "Segoe UI Rounded", system-ui, sans-serif;
 
-  /* Wordmark: "Working" + cup are a FIXED orange in both themes; "Cafes" uses
+  /* Wordmark: "Working" + cup are a FIXED coral in both themes; "Cafes" uses
      --fg (black in light, white in dark). --brand-fixed is not re-declared in
      the dark block, so it stays identical across modes. */
   --brand-fixed: #ef5b60;
-  /* Teal used with the accent orange in the hero gradient. */
+  /* Teal companion used in the hero gradient. */
   --ft-teal: #2fa8a0;
 
   /* Hero skyline scene */
@@ -251,26 +251,18 @@ img, iframe { max-width: 100%; }
 .site-header .brand {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
+  gap: 8px;
   font-family: var(--font-brand);
-  font-weight: 600;
-  font-size: clamp(1.85rem, 1.1rem + 2.6vw, 2.4rem);  /* larger than the original 1.5rem, but dialed back from 2x */
+  font-weight: 800;
+  line-height: 1;
+  font-size: clamp(1.7rem, 1.05rem + 2.3vw, 2.15rem);
   letter-spacing: 0.2px;
 }
-/* Cup cropped tight and sized so its height matches the wordmark's "W". */
-.site-header .brand-mark { color: var(--brand-fixed); flex: none; width: auto; height: 1.05em; }
-.site-header .brand-w { color: var(--brand-fixed); }             /* fixed both modes */
-.site-header .brand-accent { color: var(--fg); font-weight: 700; } /* black (day) / white (night) */
+/* Cup sized to the wordmark's cap height and nudged so its top/bottom match the "W". */
+.site-header .brand-mark { color: var(--brand-fixed); flex: none; width: auto; height: 1.12em; transform: translateY(-0.027em); }
+.site-header .brand-w { color: var(--brand-fixed); }             /* coral, fixed both modes */
+.site-header .brand-accent { color: var(--fg); font-weight: 800; } /* black (day) / white (night) */
 .site-header .brand:hover { text-decoration: none; }
-/* PNG wordmark logo: light (coral + black) vs dark (coral + white) variant. */
-.site-header .brand-logo { height: clamp(30px, 4.6vw, 42px); width: auto; display: block; }
-.site-header .brand-logo-dark { display: none; }
-:root[data-theme="dark"] .site-header .brand-logo-light { display: none; }
-:root[data-theme="dark"] .site-header .brand-logo-dark { display: block; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme]) .site-header .brand-logo-light { display: none; }
-  :root:not([data-theme]) .site-header .brand-logo-dark { display: block; }
-}
 .site-header nav {
   display: flex;
   align-items: center;
@@ -320,7 +312,7 @@ img, iframe { max-width: 100%; }
     gap: 8px 12px;
     padding: 14px 16px;
   }
-  .site-header .brand { font-size: 1.85rem; order: 1; }
+  .site-header .brand { font-size: 1.7rem; order: 1; }
   /* Theme toggle rides on the title row, hard right; nav pills wrap below. */
   .site-header .theme-toggle { order: 2; }
   .site-header nav {
@@ -580,7 +572,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   background: var(--surface); color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); font-weight: 700;
 }
 .near-me button.charge-cta:hover:not(:disabled), .near-me button.charge-cta:active { background: var(--coral); color: #fff; border-color: var(--coral); }
-/* The plain "cafes near me" pill: coral outline (the other location action). */
+/* The plain "cafes near me" pill: coral outline that fills solid coral on hover. */
 .near-me button:not(.charge-cta) { color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); }
 .near-me button:not(.charge-cta):hover:not(:disabled) { background: var(--coral); color: #fff; border-color: var(--coral); }
 
@@ -1123,7 +1115,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   --ft-gold: #f2b705;
   font-family: "Nunito Variable", var(--font);
 }
-/* Rounder type: Nunito for everything, Fredoka for the friendly headings/title. */
+/* Rounder type: Nunito for everything. */
 .friendly-test, .friendly-test p, .friendly-test a, .friendly-test strong,
 .friendly-test input, .friendly-test button, .friendly-test .lede, .friendly-test .muted {
   font-family: "Nunito Variable", var(--font);
