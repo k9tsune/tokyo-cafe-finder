@@ -6,30 +6,34 @@
 :root {
   color-scheme: light dark;
 
-  --bg: #fdf6ec;
-  --surface: #fffdf8;
-  --surface-2: #f8efe1;
-  --fg: #2a211c;
-  --muted: #6f6259;
-  --line: #eaddcc;
-  --line-strong: #dbc9b4;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f5f6f8;
+  --fg: #221c18;
+  --muted: #675f59;
+  --line: #e6e7ea;
+  --line-strong: #d4d6db;
 
-  --accent: #b45520;
-  --accent-strong: #96461a;
-  --cta-bg: #c15f22;
+  --accent: #059893;
+  --accent-strong: #04726e;
+  --cta-bg: #059893;
   --cta-fg: #ffffff;
-  --accent-soft: #fce7d3;
-  --focus: #d1793a;
+  --accent-soft: #e3f2f1;
+  --focus: #0bb3ad;
+
+  /* Coral accent — logo wordmark + the two "find me a spot now" location pills. */
+  --coral: #ef5b60;
+  --coral-strong: #d43f45;
 
   --yes-bg: #e3f1e8; --yes-fg: #1e6b41;
-  --no-bg:  #efe9e2; --no-fg:  #6f6259;
+  --no-bg:  #eef0f2; --no-fg:  #675f59;
   --alt-bg: #e9ecf8; --alt-fg: #3a468a;
 
   --warn: #9a5a06;
 
-  --shadow-sm: 0 1px 2px rgba(51, 33, 22, .05);
-  --shadow: 0 2px 6px rgba(51, 33, 22, .06), 0 8px 24px rgba(51, 33, 22, .05);
-  --shadow-lg: 0 6px 16px rgba(51, 33, 22, .10), 0 18px 48px rgba(51, 33, 22, .10);
+  --shadow-sm: 0 1px 2px rgba(23, 23, 28, .05);
+  --shadow: 0 2px 6px rgba(23, 23, 28, .06), 0 8px 24px rgba(23, 23, 28, .05);
+  --shadow-lg: 0 6px 16px rgba(23, 23, 28, .10), 0 18px 48px rgba(23, 23, 28, .10);
 
   --radius: 14px;
   --radius-sm: 10px;
@@ -44,7 +48,7 @@
   /* Wordmark: "Working" + cup are a FIXED orange in both themes; "Cafes" uses
      --fg (black in light, white in dark). --brand-fixed is not re-declared in
      the dark block, so it stays identical across modes. */
-  --brand-fixed: #dd7a33;
+  --brand-fixed: #ef5b60;
   /* Teal used with the accent orange in the hero gradient. */
   --ft-teal: #2fa8a0;
 
@@ -71,12 +75,12 @@
     --line: #352d24;
     --line-strong: #453a2e;
 
-    --accent: #f0a468;
-    --accent-strong: #f6b57f;
-    --cta-bg: #d98544;
-    --cta-fg: #1a120b;
-    --accent-soft: #2c2117;
-    --focus: #f0a468;
+    --accent: #34c3ba;
+    --accent-strong: #5fd6cd;
+    --cta-bg: #0e9d96;
+    --cta-fg: #ffffff;
+    --accent-soft: #10302e;
+    --focus: #34c3ba;
 
     --yes-bg: #16301f; --yes-fg: #86d3a3;
     --no-bg:  #2a231b; --no-fg:  #b4a698;
@@ -113,12 +117,12 @@
   --line: #352d24;
   --line-strong: #453a2e;
 
-  --accent: #f0a468;
-  --accent-strong: #f6b57f;
-  --cta-bg: #d98544;
-  --cta-fg: #1a120b;
-  --accent-soft: #2c2117;
-  --focus: #f0a468;
+  --accent: #34c3ba;
+  --accent-strong: #5fd6cd;
+  --cta-bg: #0e9d96;
+  --cta-fg: #ffffff;
+  --accent-soft: #10302e;
+  --focus: #34c3ba;
 
   --yes-bg: #16301f; --yes-fg: #86d3a3;
   --no-bg:  #2a231b; --no-fg:  #b4a698;
@@ -189,6 +193,9 @@ a:hover { text-decoration: underline; text-underline-offset: 2px; }
 
 img, iframe { max-width: 100%; }
 
+/* Keep hyphenated terms like "Wi-Fi" from breaking across lines at the hyphen. */
+.nowrap { white-space: nowrap; }
+
 .container {
   max-width: var(--maxw);
   margin: 0 auto;
@@ -216,7 +223,7 @@ img, iframe { max-width: 100%; }
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, #f0a83e 0%, #d9722e 48%, #b0501f 100%);
+  background: linear-gradient(180deg, #0bb3ad 0%, #059893 48%, #04726e 100%);
   /* Nudge the skyline down a few px so its continuous ground line meets the
      header's bottom edge — otherwise a thin sliver of header background shows
      between the buildings' base and the border. */
@@ -352,7 +359,6 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   max-width: 62ch;
 }
 .muted { color: var(--muted); }
-.nowrap { white-space: nowrap; }
 .about-blurb { color: var(--fg); max-width: 66ch; line-height: 1.65; }
 
 .hero {
@@ -364,7 +370,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   border: 1px solid var(--line);
   background:
     radial-gradient(115% 120% at 100% 0%, color-mix(in srgb, var(--accent) 42%, transparent) 0%, transparent 52%),
-    radial-gradient(120% 125% at 0% 100%, color-mix(in srgb, var(--ft-teal) 40%, transparent) 0%, transparent 56%),
+    radial-gradient(120% 125% at 0% 100%, color-mix(in srgb, var(--coral) 34%, transparent) 0%, transparent 56%),
     var(--surface);
   box-shadow: var(--shadow);
 }
@@ -561,9 +567,12 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .near-me button:hover:not(:disabled) { border-color: var(--accent); background: var(--accent-soft); }
 .near-me button:disabled { opacity: .6; cursor: progress; }
 .near-me button.charge-cta {
-  background: var(--cta-bg); color: var(--cta-fg); border-color: var(--cta-bg); font-weight: 700;
+  background: var(--coral); color: #fff; border-color: var(--coral); font-weight: 700;
 }
-.near-me button.charge-cta:hover:not(:disabled) { background: var(--accent-strong); border-color: var(--accent-strong); }
+.near-me button.charge-cta:hover:not(:disabled) { background: var(--coral-strong); border-color: var(--coral-strong); }
+/* The plain "cafes near me" pill: coral outline (the other location action). */
+.near-me button:not(.charge-cta) { color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); }
+.near-me button:not(.charge-cta):hover:not(:disabled) { border-color: var(--coral); background: color-mix(in srgb, var(--coral) 12%, var(--surface)); }
 
 /* Hand-drawn inline icons that replace the 🔋/📍 emojis (battery, map pin).
    Sized to the text, and given a soft light halo in BOTH light and dark mode so
@@ -1087,9 +1096,9 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .maplibregl-popup-content a:focus-visible {
   outline: none;
   text-decoration: none;
-  background: #f6e8db;
+  background: #eceff1;
   border-radius: 4px;
-  box-shadow: 0 0 0 3px #f6e8db;
+  box-shadow: 0 0 0 3px #eceff1;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1134,13 +1143,13 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
     radial-gradient(130% 130% at 4% 12%, color-mix(in srgb, var(--ft-teal) 22%, transparent), transparent 52%),
     radial-gradient(150% 140% at 92% 100%, color-mix(in srgb, var(--ft-teal) 30%, transparent), transparent 56%),
     var(--surface);
-  box-shadow: 0 12px 44px rgba(120, 74, 43, .14);
+  box-shadow: 0 12px 44px rgba(23, 23, 28, .14);
 }
 .friendly-test .hero h1 { font-size: clamp(2rem, 1.3rem + 3.2vw, 3.1rem); letter-spacing: -.015em; margin: 0 0 6px; }
 .friendly-test .lede { font-size: 1.15rem; }
 
 /* Pills: search, chips, buttons */
-.friendly-test .searchbar { border-radius: 999px; overflow: hidden; box-shadow: 0 6px 22px rgba(120, 74, 43, .12); border-color: transparent; }
+.friendly-test .searchbar { border-radius: 999px; overflow: hidden; box-shadow: 0 6px 22px rgba(23, 23, 28, .12); border-color: transparent; }
 .friendly-test .searchbar input { border-radius: 999px; }
 .friendly-test .searchbar button { border-radius: 999px; }
 .friendly-test .need-chip { border-radius: 999px; }
@@ -1150,11 +1159,11 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 /* Rounded photo cards that gently lift on hover */
 .friendly-test .card-grid > a {
   border-radius: 22px;
-  box-shadow: 0 5px 20px rgba(120, 74, 43, .10);
+  box-shadow: 0 5px 20px rgba(23, 23, 28, .10);
   transition: transform .18s ease, box-shadow .18s ease;
   overflow: hidden;
   border-color: color-mix(in srgb, var(--line) 60%, transparent);
 }
-.friendly-test .card-grid > a:hover { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(120, 74, 43, .18); }
+.friendly-test .card-grid > a:hover { transform: translateY(-4px); box-shadow: 0 14px 34px rgba(23, 23, 28, .18); }
 .friendly-test .cover-text { padding: 14px 18px 16px; }
 .friendly-test h2 { font-size: 1.55rem; letter-spacing: -.01em; }
