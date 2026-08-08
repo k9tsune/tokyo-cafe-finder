@@ -262,6 +262,15 @@ img, iframe { max-width: 100%; }
 .site-header .brand-w { color: var(--brand-fixed); }             /* fixed both modes */
 .site-header .brand-accent { color: var(--fg); font-weight: 700; } /* black (day) / white (night) */
 .site-header .brand:hover { text-decoration: none; }
+/* PNG wordmark logo: light (coral + black) vs dark (coral + white) variant. */
+.site-header .brand-logo { height: clamp(30px, 4.6vw, 42px); width: auto; display: block; }
+.site-header .brand-logo-dark { display: none; }
+:root[data-theme="dark"] .site-header .brand-logo-light { display: none; }
+:root[data-theme="dark"] .site-header .brand-logo-dark { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .site-header .brand-logo-light { display: none; }
+  :root:not([data-theme]) .site-header .brand-logo-dark { display: block; }
+}
 .site-header nav {
   display: flex;
   align-items: center;
@@ -435,7 +444,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .need-hint { font-size: .86rem; color: var(--muted); margin: 8px 0 0; font-weight: 500; }
 .need-chip {
   padding: 8px 14px;
-  border: 1.5px solid var(--line-strong);
+  border: 1.5px solid color-mix(in srgb, var(--accent) 50%, var(--line-strong));
   background: var(--surface);
   color: var(--fg);
   border-radius: var(--radius-pill);
@@ -447,6 +456,10 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 }
 .need-chip:hover { border-color: var(--accent); color: var(--accent-strong); }
 .need-chip.on { background: var(--cta-bg); color: var(--cta-fg); border-color: var(--cta-bg); }
+/* "Open late / 24h" is the coral time filter: coral outline off, coral fill on. */
+.need-chip.late { color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); }
+.need-chip.late:hover { border-color: var(--coral); color: var(--coral-strong); }
+.need-chip.late.on { background: var(--coral); color: #fff; border-color: var(--coral); }
 
 /* Guides */
 .guide { max-width: 720px; }
@@ -567,9 +580,9 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .near-me button:hover:not(:disabled) { border-color: var(--accent); background: var(--accent-soft); }
 .near-me button:disabled { opacity: .6; cursor: progress; }
 .near-me button.charge-cta {
-  background: var(--coral); color: #fff; border-color: var(--coral); font-weight: 700;
+  background: var(--surface); color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); font-weight: 700;
 }
-.near-me button.charge-cta:hover:not(:disabled) { background: var(--coral-strong); border-color: var(--coral-strong); }
+.near-me button.charge-cta:hover:not(:disabled), .near-me button.charge-cta:active { background: var(--coral); color: #fff; border-color: var(--coral); }
 /* The plain "cafes near me" pill: coral outline (the other location action). */
 .near-me button:not(.charge-cta) { color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); }
 .near-me button:not(.charge-cta):hover:not(:disabled) { border-color: var(--coral); background: color-mix(in srgb, var(--coral) 12%, var(--surface)); }
