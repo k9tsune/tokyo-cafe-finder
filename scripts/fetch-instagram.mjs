@@ -37,7 +37,10 @@ const __dir = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dir, "..");
 const P = (p) => resolve(root, p);
 
-const OEMBED = process.env.IG_OEMBED || "https://graph.facebook.com/v20.0/instagram_oembed";
+// Meta made oEmbed tokenless again on 2026-06-15, but only serves it on a
+// currently-supported Graph API version. v20.0 (May 2024) is now past Meta's
+// ~2-year support window and returns 403 for every call, so we target v25.0.
+const OEMBED = process.env.IG_OEMBED || "https://graph.facebook.com/v25.0/instagram_oembed";
 const TOKEN = process.env.META_OEMBED_TOKEN || "";
 const MAX = Number(process.env.IG_MAX_PER_CAFE || 4);
 
