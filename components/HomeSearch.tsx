@@ -34,7 +34,7 @@ export default function HomeSearch({ destinations, locale = "en" }: { destinatio
         ))}
         <button
           type="button"
-          className={`need-chip${late ? " on" : ""}`}
+          className={`need-chip late${late ? " on" : ""}`}
           aria-pressed={late}
           onClick={() => setLate((x) => !x)}
         >
