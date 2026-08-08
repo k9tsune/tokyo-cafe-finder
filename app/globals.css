@@ -14,12 +14,12 @@
   --line: #e6e7ea;
   --line-strong: #d4d6db;
 
-  --accent: #059893;
-  --accent-strong: #04726e;
-  --cta-bg: #059893;
+  --accent: #ef5b60;
+  --accent-strong: #d43f45;
+  --cta-bg: #ef5b60;
   --cta-fg: #ffffff;
-  --accent-soft: #e3f2f1;
-  --focus: #0bb3ad;
+  --accent-soft: #fde7e6;
+  --focus: #f5787c;
 
   /* Coral accent — logo wordmark + the hero pills. */
   --coral: #ef5b60;
@@ -75,12 +75,12 @@
     --line: #352d24;
     --line-strong: #453a2e;
 
-    --accent: #34c3ba;
-    --accent-strong: #5fd6cd;
-    --cta-bg: #0e9d96;
+    --accent: #f5787c;
+    --accent-strong: #ff9ea0;
+    --cta-bg: #e0505a;
     --cta-fg: #ffffff;
-    --accent-soft: #10302e;
-    --focus: #34c3ba;
+    --accent-soft: #2c1719;
+    --focus: #f5787c;
 
     --yes-bg: #16301f; --yes-fg: #86d3a3;
     --no-bg:  #2a231b; --no-fg:  #b4a698;
@@ -117,12 +117,12 @@
   --line: #352d24;
   --line-strong: #453a2e;
 
-  --accent: #34c3ba;
-  --accent-strong: #5fd6cd;
-  --cta-bg: #0e9d96;
+  --accent: #f5787c;
+  --accent-strong: #ff9ea0;
+  --cta-bg: #e0505a;
   --cta-fg: #ffffff;
-  --accent-soft: #10302e;
-  --focus: #34c3ba;
+  --accent-soft: #2c1719;
+  --focus: #f5787c;
 
   --yes-bg: #16301f; --yes-fg: #86d3a3;
   --no-bg:  #2a231b; --no-fg:  #b4a698;
@@ -371,7 +371,7 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   border: 1px solid var(--line);
   background:
     radial-gradient(115% 120% at 100% 0%, color-mix(in srgb, var(--accent) 42%, transparent) 0%, transparent 52%),
-    radial-gradient(120% 125% at 0% 100%, color-mix(in srgb, var(--coral) 34%, transparent) 0%, transparent 56%),
+    radial-gradient(120% 125% at 0% 100%, color-mix(in srgb, var(--ft-teal) 40%, transparent) 0%, transparent 56%),
     var(--surface);
   box-shadow: var(--shadow);
 }
@@ -436,9 +436,9 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .need-hint { font-size: .86rem; color: var(--muted); margin: 8px 0 0; font-weight: 500; }
 .need-chip {
   padding: 8px 14px;
-  border: 1.5px solid color-mix(in srgb, var(--coral) 55%, var(--line-strong));
+  border: 1.5px solid var(--line-strong);
   background: var(--surface);
-  color: var(--coral-strong);
+  color: var(--fg);
   border-radius: var(--radius-pill);
   cursor: pointer;
   font-size: .88rem;
@@ -446,9 +446,8 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
   box-shadow: var(--shadow-sm);
   transition: background .15s ease, color .15s ease, border-color .15s ease;
 }
-/* All hero pills: coral outline, fill solid coral on hover or when selected. */
-.need-chip:hover { background: var(--coral); color: #fff; border-color: var(--coral); }
-.need-chip.on { background: var(--coral); color: #fff; border-color: var(--coral); }
+.need-chip:hover { border-color: var(--accent); color: var(--accent-strong); }
+.need-chip.on { background: var(--cta-bg); color: var(--cta-fg); border-color: var(--cta-bg); }
 
 /* Guides */
 .guide { max-width: 720px; }
@@ -569,12 +568,9 @@ h3 { font-size: 1.1rem; line-height: 1.3; margin: 0 0 .2em; font-weight: 700; }
 .near-me button:hover:not(:disabled) { border-color: var(--accent); background: var(--accent-soft); }
 .near-me button:disabled { opacity: .6; cursor: progress; }
 .near-me button.charge-cta {
-  background: var(--surface); color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); font-weight: 700;
+  background: var(--cta-bg); color: var(--cta-fg); border-color: var(--cta-bg); font-weight: 700;
 }
-.near-me button.charge-cta:hover:not(:disabled), .near-me button.charge-cta:active { background: var(--coral); color: #fff; border-color: var(--coral); }
-/* The plain "cafes near me" pill: coral outline that fills solid coral on hover. */
-.near-me button:not(.charge-cta) { color: var(--coral-strong); border-color: color-mix(in srgb, var(--coral) 55%, var(--line-strong)); }
-.near-me button:not(.charge-cta):hover:not(:disabled) { background: var(--coral); color: #fff; border-color: var(--coral); }
+.near-me button.charge-cta:hover:not(:disabled) { background: var(--accent-strong); border-color: var(--accent-strong); }
 
 /* Hand-drawn inline icons that replace the 🔋/📍 emojis (battery, map pin).
    Sized to the text, and given a soft light halo in BOTH light and dark mode so
