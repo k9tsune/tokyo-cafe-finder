@@ -1,1 +1,50 @@
-{}
+{
+  "onibus-coffee-nakameguro": {
+    "handle": "onibuscoffee",
+    "photos": []
+  },
+  "onibus-coffee-jiyugaoka": {
+    "handle": "onibuscoffee_jiyugaoka",
+    "photos": []
+  },
+  "little-darling-coffee-roasters": {
+    "handle": "littledarling_coffeeroasters",
+    "photos": []
+  },
+  "good-sound-coffee-nakameguro": {
+    "handle": "goodsoundcoffee_nakameguro",
+    "photos": []
+  },
+  "paul-bassett-shinjuku": {
+    "handle": "paulbassett_jp",
+    "photos": []
+  },
+  "brooklyn-roasting-company-shimokitazawa": {
+    "handle": "brooklynroasting_shimokitazawa",
+    "photos": []
+  },
+  "fabcafe-tokyo": {
+    "handle": "fabcafe_tokyo",
+    "photos": []
+  },
+  "dandelion-chocolate-factory-and-cafe-kuramae": {
+    "handle": "dandelion_chocolate_japan",
+    "photos": []
+  },
+  "bunkitsu-roppongi": {
+    "handle": "bunkitsu_roppongi",
+    "photos": []
+  },
+  "cafe-mamehico-sangenjaya": {
+    "handle": "cafe_mamehico",
+    "photos": []
+  },
+  "garden-house-crafts": {
+    "handle": "garden_house_crafts",
+    "photos": []
+  },
+  "alpha-beta-coffee-club": {
+    "handle": "abccoffeeclub",
+    "photos": []
+  }
+}
