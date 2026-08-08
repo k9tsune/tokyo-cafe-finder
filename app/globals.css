@@ -218,12 +218,12 @@ img, iframe { max-width: 100%; }
 }
 /* Skyline silhouette sitting behind the wordmark/nav. `auto 100%` fits it to the
    header height, so the tallest towers are never clipped at any width. Filled
-   with a fixed orange gradient (same in light/dark), just at different opacity. */
+   with a fixed coral gradient (same in light/dark), just at different opacity. */
 .header-skyline {
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, #0bb3ad 0%, #059893 48%, #04726e 100%);
+  background: linear-gradient(180deg, #ff8b76 0%, #ef5b60 48%, #c7443f 100%);
   /* Nudge the skyline down a few px so its continuous ground line meets the
      header's bottom edge — otherwise a thin sliver of header background shows
      between the buildings' base and the border. */
