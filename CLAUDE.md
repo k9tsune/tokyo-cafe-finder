@@ -36,6 +36,22 @@ default.
      chains are covered by the per-chain templates in `lib/cafe-desc-ja.ts`
      (only add a per-branch entry when a branch genuinely differs). The Japanese
      cafe page (`app/ja/cafe/[slug]`) uses it, falling back to a factual line.
+   - **Access directions, floor & menu (per-cafe SEO detail).** For independent,
+     web-visible cafes, also capture — WITH a real source URL and the fact quoted
+     from it — into `data/cafe-details.json` (keyed by slug), rendered as the framed
+     "Getting there" / "Menu" cards on the EN + JA cafe pages via `lib/cafe-details.ts`:
+     (a) `access` = station-exit walking directions (which exit, landmarks, turns) in
+     `en` + `ja`, the floor it is on (mention stairs/lift ONLY if a source states it),
+     `sources[]`, and a `checked` date; (b) `menu` = 4–8 real items with yen prices in
+     `en`/`ja`, `sourceName`, `sourceUrl`, `checked` (for co-working/study venues use
+     usage rates with `title`/`titleJa` = "Pricing"/"料金"). NEVER invent a floor, an
+     item, a price, or a turn: omit the menu (directions-only) when no current prices
+     are published, drop any single field that isn't sourced, and prefer the live
+     Google-Maps directions the page already offers over guessing turn-by-turn. Chains
+     and cafes with no web presence usually have neither — don't force an entry.
+   - **Permanently-closed venues.** If research shows a cafe has closed, do NOT hand-edit
+     it out of the 500KB seed — add `"<slug>": { "closed": true }` to
+     `data/cafe-details.json`; `lib/db.ts` then drops it from every listing, page and count.
 2. **Rebuild.** Run `node scripts/build-seed.mjs` to regenerate `data/seed/*.json`
    from the raw files, stamping `lastChecked` with today's date.
 3. **Gate (auto-approval).** `decide(existing, proposed)` in `enrich.mjs`:
