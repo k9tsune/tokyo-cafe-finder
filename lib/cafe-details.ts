@@ -32,6 +32,10 @@ export interface CafeMenu {
 }
 
 export interface CafeDetails {
+  // Optional description overrides — used where the seed description needs a
+  // correction that shouldn't wait for a full seed rebuild.
+  descEn?: string;
+  descJa?: string;
   access?: CafeAccess;
   menu?: CafeMenu;
 }

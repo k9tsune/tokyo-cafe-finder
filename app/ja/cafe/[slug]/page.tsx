@@ -7,7 +7,7 @@ import CafeInstagram from "@/components/CafeInstagram";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
-import { cafeAccess, cafeMenu } from "@/lib/cafe-details";
+import { cafeAccess, cafeMenu, cafeDetails } from "@/lib/cafe-details";
 import { directionsUrl } from "@/lib/maps";
 import { cafeJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
 import { t } from "@/lib/i18n";
@@ -128,7 +128,7 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
       </div>
 
       {(() => {
-        const prose = cafeDescJa(v.slug, v.name, v.nameJa);
+        const prose = cafeDetails(v.slug)?.descJa || cafeDescJa(v.slug, v.name, v.nameJa);
         return (
           <p className="lede" style={{ marginTop: 14 }}>
             {prose || `${station}から徒歩${v.walkMinutes}分。${wifiTxt}・${powerTxt}。`}
@@ -155,7 +155,6 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
           <p className="access" style={{ marginTop: 12 }}>
             <strong>アクセス：</strong>{stationNameJa(primary.name)}{lines}から徒歩約{v.walkMinutes}分です。
             {others.length ? `${others.map((s) => stationNameJa(s.name)).join("・")}からも徒歩圏内です。` : ""}
-            住所は{v.address}です。
           </p>
         );
       })()}

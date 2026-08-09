@@ -109,7 +109,6 @@ export default function CafePage({ params }: { params: { slug: string } }) {
           <p className="access" style={{ marginTop: 12 }}>
             <strong>Getting there:</strong> {primary.name}{lines} is about {v.walkMinutes} minute{v.walkMinutes === 1 ? "" : "s"} away on foot.
             {others.length ? ` It's also within walking distance of ${others.map((s) => s.name).join(" and ")}.` : ""}
-            {" "}The address is {v.address}.
           </p>
         );
       })()}

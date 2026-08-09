@@ -10,6 +10,7 @@ import areasData from "@/data/seed/areas.json";
 import stationsData from "@/data/seed/stations.json";
 import placesData from "@/data/places.json";
 import hotpepperData from "@/data/hotpepper.json";
+import cafeDetailsData from "@/data/cafe-details.json";
 
 // JSON is inferred with widened primitives (e.g. string instead of our unions),
 // so cast through unknown. In Phase B these come from typed DB queries instead.
@@ -17,6 +18,10 @@ type PlaceInfo = { ref?: string | null; attr?: string | null; lat?: number | nul
 const places = placesData as unknown as Record<string, PlaceInfo | null>;
 type HotpepperInfo = { photo?: string | null; url?: string | null };
 const hotpepper = hotpepperData as unknown as Record<string, HotpepperInfo | null>;
+// Curated English description overrides (data/cafe-details.json) — used where a
+// seed description needs a correction that shouldn't wait for a full seed rebuild.
+// Applied at load so every consumer (page body, metadata, JSON-LD) stays consistent.
+const detailOverrides = cafeDetailsData as Record<string, { descEn?: string }>;
 
 // Merge photo enrichment onto each venue: Google Places (photo + precise coords)
 // and/or free HotPepper (photo + required link-back). Precise lat/lng from Places
@@ -24,8 +29,10 @@ const hotpepper = hotpepperData as unknown as Record<string, HotpepperInfo | nul
 const venues = (venuesData as unknown as Venue[]).map((v) => {
   const p = places[v.slug];
   const h = hotpepper[v.slug];
+  const descEn = detailOverrides[v.slug]?.descEn;
   return {
     ...v,
+    ...(descEn ? { description: descEn } : {}),
     ...(p?.ref ? { photoRef: p.ref } : {}),
     ...(p?.attr ? { photoAttr: p.attr } : {}),
     ...(typeof p?.lat === "number" ? { lat: p.lat } : {}),

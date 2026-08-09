@@ -1,5 +1,19 @@
 {
   "_note": "Hand-curated, source-cited access directions + menu for a small set of cafes. Every fact traces to a real source (see access.sources / menu.sourceUrl). Do NOT add entries without sources. Rendered by lib/cafe-details.ts on the EN and JA cafe pages; cafes without an entry simply show the default access line.",
+  "onibus-coffee-nakameguro": {
+    "descEn": "A second, larger Onibus Coffee that opened in 2024 in the SANU NOWHERE building on Komazawa-dori, with free Wi-Fi but no power outlets — counter seats on the ground floor and table seats down in the basement, so it is nice for a short specialty-coffee break rather than long laptop work.",
+    "descJa": "2024年にオープンした、2号店にあたるオニバスコーヒー（中目黒三丁目店）。駒沢通り沿いのSANU NOWHEREビルにあり、1階はカウンター席、地下にはテーブル席があります。フリーWi-Fiは使えますが電源はないため、長時間の作業より短めのコーヒー休憩に向いています。",
+    "access": {
+      "en": "This is the second, larger Onibus — the Nakameguro 3-chome store, opened in 2024 — not the tiny original by the train tracks. It's a short walk (about 7–10 minutes) from Nakameguro Station along Komazawa-dori, heading toward the Yutenji side, in the SANU NOWHERE building. The cafe is on the ground floor (mostly counter seating) with more table seats down in the basement; the floors above are SANU's offices.",
+      "ja": "こちらは2号店にあたる中目黒三丁目店（2024年オープン）で、線路沿いの小さな本店とは別のお店です。中目黒駅から駒沢通りを祐天寺方面へ徒歩7〜10分。SANU NOWHEREビル内にあり、1階は主にカウンター席、地下にテーブル席があります（上の階はSANUのオフィスです）。",
+      "sources": [
+        { "name": "Onibus Coffee official (locations)", "url": "https://onibuscoffee.com/en/pages/locations/nakameguro_3chome" },
+        { "name": "Onibus Coffee official (opening news)", "url": "https://onibuscoffee.com/en/blogs/news/170" },
+        { "name": "Tabelog (3-chome store)", "url": "https://tabelog.com/en/tokyo/A1317/A131701/13300070/" }
+      ],
+      "checked": "2026-08-09"
+    }
+  },
   "onibus-coffee-jiyugaoka": {
     "access": {
       "en": "Come out of Jiyugaoka Station's north exit — the cafe is about a 4–5 minute walk. It's on the ground floor (1F) of the \"arbre Jiyugaoka\" building at 2-24-8 Midorigaoka, so it's actually just between Jiyugaoka and Midorigaoka stations. There's terrace seating out front plus sofas and chairs inside.",
