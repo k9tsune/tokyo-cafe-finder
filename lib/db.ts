@@ -18,15 +18,18 @@ type PlaceInfo = { ref?: string | null; attr?: string | null; lat?: number | nul
 const places = placesData as unknown as Record<string, PlaceInfo | null>;
 type HotpepperInfo = { photo?: string | null; url?: string | null };
 const hotpepper = hotpepperData as unknown as Record<string, HotpepperInfo | null>;
-// Curated English description overrides (data/cafe-details.json) — used where a
-// seed description needs a correction that shouldn't wait for a full seed rebuild.
-// Applied at load so every consumer (page body, metadata, JSON-LD) stays consistent.
-const detailOverrides = cafeDetailsData as Record<string, { descEn?: string }>;
+// Curated overrides (data/cafe-details.json): English description corrections and
+// a `closed` flag. Applied at load so every consumer (page body, metadata, JSON-LD,
+// counts) stays consistent. `closed` venues are dropped from the dataset entirely
+// so they leave every listing/page/count without editing the 500KB+ seed file.
+const detailOverrides = cafeDetailsData as Record<string, { descEn?: string; closed?: boolean }>;
 
 // Merge photo enrichment onto each venue: Google Places (photo + precise coords)
 // and/or free HotPepper (photo + required link-back). Precise lat/lng from Places
 // overrides the station-level approximation.
-const venues = (venuesData as unknown as Venue[]).map((v) => {
+const venues = (venuesData as unknown as Venue[])
+  .filter((v) => !detailOverrides[v.slug]?.closed)
+  .map((v) => {
   const p = places[v.slug];
   const h = hotpepper[v.slug];
   const descEn = detailOverrides[v.slug]?.descEn;

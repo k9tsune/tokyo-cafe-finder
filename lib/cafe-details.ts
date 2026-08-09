@@ -40,6 +40,9 @@ export interface CafeDetails {
   // correction that shouldn't wait for a full seed rebuild.
   descEn?: string;
   descJa?: string;
+  // Set true to drop a permanently-closed venue from the site without editing the
+  // 500KB+ seed file — db.ts filters these out of every listing, page and count.
+  closed?: boolean;
   access?: CafeAccess;
   menu?: CafeMenu;
 }

@@ -1,5 +1,7 @@
 {
-  "_note": "Hand-curated, source-cited access directions + menu for a small set of cafes. Every fact traces to a real source (see access.sources / menu.sourceUrl). Do NOT add entries without sources. Rendered by lib/cafe-details.ts on the EN and JA cafe pages; cafes without an entry simply show the default access line.",
+  "_note": "Hand-curated, source-cited access directions + menu for a small set of cafes. Every fact traces to a real source (see access.sources / menu.sourceUrl). Do NOT add entries without sources. Rendered by lib/cafe-details.ts on the EN and JA cafe pages; cafes without an entry simply show the default access line. A `{ \"closed\": true }` entry drops a permanently-closed venue from the whole site (db.ts).",
+  "metoa-cafe-and-kitchen": { "closed": true },
+  "reboot-cafe-ogikubo": { "closed": true },
   "onibus-coffee-nakameguro": {
     "descEn": "A second, larger Onibus Coffee that opened in 2024 in the SANU NOWHERE building on Komazawa-dori, with free Wi-Fi but no power outlets — counter seats on the ground floor and table seats down in the basement, so it is nice for a short specialty-coffee break rather than long laptop work.",
     "descJa": "2024年にオープンした、2号店にあたるオニバスコーヒー（中目黒三丁目店）。駒沢通り沿いのSANU NOWHEREビルにあり、1階はカウンター席、地下にはテーブル席があります。フリーWi-Fiは使えますが電源はないため、長時間の作業より短めのコーヒー休憩に向いています。",
