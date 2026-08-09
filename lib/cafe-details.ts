@@ -29,6 +29,10 @@ export interface CafeMenu {
   sourceUrl: string;
   checked: string; // ISO date
   note?: string;
+  // Optional heading override — e.g. "Pricing" / "料金" for co-working lounges and
+  // study cafes where the list is rates, not a food menu. Defaults to Menu/メニュー.
+  title?: string;
+  titleJa?: string;
 }
 
 export interface CafeDetails {

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import type { CSSProperties } from "react";
 import { notFound } from "next/navigation";
 import CafeMap from "@/components/CafeMap";
 import CafeCover from "@/components/CafeCover";
@@ -12,6 +13,36 @@ import { directionsUrl } from "@/lib/maps";
 import { cafeJsonLd, cafeFaqJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 
 export const dynamicParams = false;
+
+// Shared inline styles for the framed "Getting there" / "Menu" cards. Inlined
+// (referencing theme CSS variables) so they stay correct in light and dark mode.
+const detailCard: CSSProperties = {
+  margin: "20px 0",
+  padding: "16px 20px",
+  background: "var(--surface)",
+  border: "1px solid var(--line)",
+  borderRadius: "var(--radius)",
+  boxShadow: "var(--shadow-sm)",
+};
+const detailHead: CSSProperties = { margin: "0 0 8px", fontSize: "1.15rem" };
+const detailMeta: CSSProperties = {
+  display: "flex",
+  flexWrap: "wrap",
+  alignItems: "center",
+  gap: "6px 8px",
+  fontSize: ".78rem",
+  color: "var(--muted)",
+  margin: "14px 0 0",
+  paddingTop: "10px",
+  borderTop: "1px solid var(--line)",
+};
+const checkMark: CSSProperties = { color: "var(--yes-fg)", fontWeight: 800 };
+const srcPill: CSSProperties = {
+  padding: "2px 9px",
+  borderRadius: "var(--radius-pill)",
+  background: "var(--surface-2)",
+  fontWeight: 600,
+};
 
 export function generateStaticParams() {
   return getAllVenues().map((v) => ({ slug: v.slug }));
@@ -99,7 +130,7 @@ export default function CafePage({ params }: { params: { slug: string } }) {
         <div><span className="k">Typical busyness: </span>{v.typicalBusyness || "—"}</div>
       </div>
 
-      {(() => {
+      {!access && (() => {
         const stations = v.stationSlugs.map((s) => getStation(s)).filter(Boolean) as NonNullable<ReturnType<typeof getStation>>[];
         const primary = stations.find((s) => s.name === v.nearestStation) || stations[0];
         if (!primary) return null;
@@ -114,58 +145,64 @@ export default function CafePage({ params }: { params: { slug: string } }) {
       })()}
 
       {access && (
-        <div className="access-detail" style={{ margin: "10px 0 0", maxWidth: "70ch" }}>
-          <p style={{ margin: "8px 0 0" }}>{access.en}</p>
-          <p style={{ margin: "10px 0 0" }}>
-            <a
-              href={`${directionsUrl(v)}&travelmode=walking`}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontWeight: 600 }}
-            >
-              Step-by-step walking directions on Google Maps →
-            </a>
-          </p>
-          <p className="muted" style={{ fontSize: ".78rem", margin: "8px 0 0" }}>
-            Checked {access.checked} · Sources:{" "}
-            {access.sources.map((s, i) => (
-              <span key={s.url}>
-                {i > 0 ? ", " : ""}
-                <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
-              </span>
+        <section className="access-detail" style={detailCard}>
+          <h2 style={detailHead}>Getting there</h2>
+          {(() => {
+            const stations = v.stationSlugs.map((s) => getStation(s)).filter(Boolean) as NonNullable<ReturnType<typeof getStation>>[];
+            const primary = stations.find((s) => s.name === v.nearestStation) || stations[0];
+            const lines = primary?.lineNames?.length ? ` (${primary.lineNames.join(", ")})` : "";
+            return primary ? (
+              <p style={{ margin: "0 0 8px", fontWeight: 700 }}>
+                {primary.name}{lines} · {v.walkMinutes} min walk
+              </p>
+            ) : null;
+          })()}
+          <p style={{ margin: "0 0 14px" }}>{access.en}</p>
+          <a className="dir-link ghost" href={`${directionsUrl(v)}&travelmode=walking`} target="_blank" rel="noopener noreferrer">
+            Walking directions on Google Maps →
+          </a>
+          <p style={detailMeta}>
+            <span style={checkMark}>✓</span> Checked {access.checked} · Sources:
+            {access.sources.map((s) => (
+              <a key={s.url} href={s.url} target="_blank" rel="noopener noreferrer" style={srcPill}>{s.name}</a>
             ))}
           </p>
-        </div>
+        </section>
       )}
 
       {menu && (
-        <section className="cafe-menu-detail" style={{ margin: "24px 0 4px" }}>
-          <h2>Menu</h2>
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, maxWidth: "480px" }}>
-            {menu.items.map((it) => (
+        <section className="cafe-menu-detail" style={detailCard}>
+          <h2 style={detailHead}>{menu.title || "Menu"}</h2>
+          {menu.note ? (
+            <p style={{ fontStyle: "italic", color: "var(--muted)", fontSize: ".8rem", margin: "0 0 12px" }}>{menu.note}</p>
+          ) : null}
+          <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+            {menu.items.map((it, idx) => (
               <li
                 key={it.en}
                 style={{
                   display: "flex",
+                  alignItems: "baseline",
                   justifyContent: "space-between",
                   gap: "16px",
-                  padding: "9px 0",
-                  borderBottom: "1px solid var(--line)",
+                  padding: "10px 0",
+                  borderBottom: idx < menu.items.length - 1 ? "1px solid var(--line)" : "none",
                 }}
               >
                 <span>
                   {it.en}
                   {it.ja && it.ja !== it.en ? (
-                    <span className="muted" style={{ fontSize: ".82rem" }}> · {it.ja}</span>
+                    <span className="muted" style={{ display: "block", fontSize: ".82rem" }}>{it.ja}</span>
                   ) : null}
                 </span>
-                <span style={{ fontWeight: 700, whiteSpace: "nowrap" }}>{it.price}</span>
+                <span style={{ fontWeight: 700, whiteSpace: "nowrap", fontVariantNumeric: "tabular-nums" }}>{it.price}</span>
               </li>
             ))}
           </ul>
-          <p className="muted" style={{ fontSize: ".78rem", margin: "10px 0 0" }}>
-            {menu.note ? `${menu.note} ` : ""}Menu from{" "}
-            <a href={menu.sourceUrl} target="_blank" rel="noopener noreferrer">{menu.sourceName}</a>, checked {menu.checked}.
+          <p style={detailMeta}>
+            <span style={checkMark}>✓</span> {menu.title ? "Rates" : "Menu"} from
+            <a href={menu.sourceUrl} target="_blank" rel="noopener noreferrer" style={srcPill}>{menu.sourceName}</a>
+            · checked {menu.checked}
           </p>
         </section>
       )}

@@ -144,5 +144,139 @@
       "checked": "2026-08-09",
       "note": "Food items are from the store's 2024 opening; prices can change."
     }
+  },
+  "streamer-coffee-company-nakameguro": {
+    "access": {
+      "en": "From Nakameguro Station, leave by West Exit 1 — it's about a 9-minute walk. The shop sits one street back from the Meguro River, in a calm spot on the ground floor (1F) of the REIELEC Aobadai building. Inside there's a big communal worktable, window-facing counter seats and sofas, with Wi-Fi and outlets throughout (there's roughly a 2-hour limit when it's busy).",
+      "ja": "中目黒駅の西口1から徒歩約9分。目黒川から一本入った落ち着いた場所にあり、REIELEC青葉台ビルの1階です。店内には大きな共用ワークテーブル、窓向きのカウンター席、ソファ席があり、Wi-Fi・電源も完備（混雑時は約2時間の利用制限あり）。",
+      "sources": [
+        { "name": "Gnavi (station exit)", "url": "https://r.gnavi.co.jp/4t0vhn260000/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/en/tokyo/A1317/A131701/13204442/" },
+        { "name": "Cafe & Cowork (floor/layout)", "url": "https://cafeandcowork.com/tokyo/streamer-coffee-nakameguro/" }
+      ],
+      "checked": "2026-08-09"
+    }
+  },
+  "streamer-coffee-company-azabu-juban": {
+    "access": {
+      "en": "From Azabu-Juban Station, take Exit 4 and head up the Azabu-Juban shopping street toward Keyaki-zaka (the Roppongi Hills side) — about a 6–7 minute walk. Streamer is in a striking Japanese-style building (a beautifully revived former soba restaurant) near where the street ends, at the foot of Roppongi Hills. Inside there's a large central communal table plus box seats and two-person tables.",
+      "ja": "麻布十番駅の4番出口から、麻布十番大通り（商店街）をけやき坂（六本木ヒルズ方面）へ徒歩6〜7分。通りが終わる手前、六本木ヒルズのふもとにある和風の建物（元蓕麦店を改装）が目印です。店内は中央の大きな共用テーブルのほか、ボックス席や2人用テーブルがあります。",
+      "sources": [
+        { "name": "Streamer Coffee official (stores)", "url": "https://streamer.coffee/stores/" },
+        { "name": "Azabu Guide (route/menu)", "url": "https://azabu-guide.jp/streamer-coffee-azabu-juban/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/en/tokyo/A1307/A130702/13285299/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "Streamer Latte (hot)", "ja": "ストリーマーラテ（ホット）", "price": "¥750" },
+        { "en": "Mud Americano", "ja": "マッドアメリカーノ", "price": "¥650" },
+        { "en": "Homemade Carrot Cake", "ja": "自家製キャロットケーキ", "price": "¥700" },
+        { "en": "Ginger Cookie", "ja": "ジンジャークッキー", "price": "¥310" },
+        { "en": "Chocolate Chip Cookie", "ja": "チョコチップクッキー", "price": "¥310" }
+      ],
+      "sourceName": "Tabelog + Azabu Guide",
+      "sourceUrl": "https://azabu-guide.jp/streamer-coffee-azabu-juban/",
+      "checked": "2026-08-09",
+      "note": "A sample of the menu; some prices are from a cafe guide and may have changed."
+    }
+  },
+  "streamer-coffee-company-setagayadaita": {
+    "access": {
+      "en": "About as easy as it gets — the shop is right by the West Exit ticket gate of Setagaya-Daita Station (Odakyu line), essentially a few steps away. Inside there's a high-chair counter with power outlets, sofa seating and a big central wooden table; some window seats even look out toward Mt. Fuji.",
+      "ja": "小田急線・世田谷代田駅の西口改札のすぐそば、ほんの数歩の場所にあります。店内は電源付きのハイチェアカウンター、ソファ席、中央の大きなウッドテーブルがあり、窓際の席からは富士山が見えることも。",
+      "sources": [
+        { "name": "Gnavi (station exit)", "url": "https://r.gnavi.co.jp/fdzjffmm0000/" },
+        { "name": "Streamer Coffee official (stores)", "url": "https://streamer.coffee/stores/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/en/tokyo/A1318/A131812/13207434/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "Streamer Latte", "ja": "ストリーマーラテ", "price": "¥800" },
+        { "en": "Strong Style Americano", "ja": "ストロングスタイル アメリカーノ", "price": "¥600" }
+      ],
+      "sourceName": "Tabelog + cafe blog",
+      "sourceUrl": "https://tabelog.com/en/tokyo/A1318/A131812/13207434/",
+      "checked": "2026-08-09",
+      "note": "A sample of the menu; prices may have changed."
+    }
+  },
+  "lattest-sports": {
+    "access": {
+      "en": "The closest stations are Honjo-Azumabashi (Toei Asakusa line, Exit A3) and Tokyo Skytree Station — both about a 4-minute walk. It's inside the TOKYO mizumachi complex that runs between Asakusa and Tokyo Skytree along the elevated railway; the easiest approach is across the Sumida River Walk footbridge. Look for unit E7 in the East Zone, right by the Kitajikken River canal, with a big sunny terrace out on the boardwalk.",
+      "ja": "最寄りは都営浅草線・本所吐橋駅（A3出口）と、とうきょうスカイツリー駅で、どちらも徒歩約4分。浅草と東京スカイツリーを結ぶ「東京ミズマチ」内にあり、すみだリバーウォーク（歩道橋）から向かうのが分かりやすいです。北十間川沿いのイーストゾーンE7で、ボードウォークに面した日当たりのよい広いテラスが目印です。",
+      "sources": [
+        { "name": "Tabelog (stations/menu)", "url": "https://tabelog.com/en/tokyo/A1311/A131102/13251908/" },
+        { "name": "Tobu Railway official", "url": "https://www.tobu.co.jp/en/sightseeing/news/821.html" },
+        { "name": "Tokyo Cheapo (location)", "url": "https://tokyocheapo.com/restaurant/lattest-sports/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "Café Latte (M)", "ja": "カフェラテ（M）", "price": "¥610" },
+        { "en": "Latte (L)", "ja": "ラテ（L）", "price": "¥650" },
+        { "en": "Iced Drip Coffee", "ja": "アイスドリップコーヒー", "price": "¥600" },
+        { "en": "Charcoal Latte", "ja": "チャコールラテ", "price": "¥850" },
+        { "en": "Milk Pudding", "ja": "ミルクプリン", "price": "¥450" }
+      ],
+      "sourceName": "Tabelog menu",
+      "sourceUrl": "https://tabelog.com/tokyo/A1311/A131102/13251908/",
+      "checked": "2026-08-09",
+      "note": "Prices can change — check in store for the latest."
+    }
+  },
+  "benkyo-cafe-nihonbashi-kayabacho-studio": {
+    "access": {
+      "en": "From Kayabacho Station, take Exit 3 — about a 2-minute walk (roughly 210 m). Look for the building with the Times parking-lot sign out front; Benkyo Cafe is on the 5th floor (Nihonbashi Izumi Building). It's a members-and-drop-in study / co-working cafe with power and Wi-Fi at every seat and free drinks.",
+      "ja": "茅場町駅の3番出口から徒歩約2分（約210m）。前にタイムズ駐車場の看板が立つビルが目印で、勉強カフェは5階（日本橋イヅミビル）にあります。会員制＋ドロップイン利用の勉強・作業カフェで、全席に電源とWi-Fi、フリードリンク付きです。",
+      "sources": [
+        { "name": "Ekiten (exit/landmark)", "url": "https://www.ekiten.jp/shop_40410659/" },
+        { "name": "StudyGO official listing", "url": "https://studygo.jp/store?shopId=20" },
+        { "name": "Coworking-DB", "url": "https://coworking-db.com/introduce/benkyo-cafe-kayabacho/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "title": "Pricing",
+      "titleJa": "料金",
+      "items": [
+        { "en": "Drop-in (1 hour)", "ja": "ドロップイン（1時間）", "price": "¥550" },
+        { "en": "1-day pass", "ja": "1DAYパック", "price": "¥2,750" },
+        { "en": "Monthly (Regular, tax incl.)", "ja": "月額（レギュラー・税込）", "price": "¥11,968" }
+      ],
+      "sourceName": "StudyGO official listing",
+      "sourceUrl": "https://studygo.jp/store?shopId=20",
+      "checked": "2026-08-09",
+      "note": "Drop-in and membership rates as of Aug 2026 (an enrolment-fee waiver was running); free drinks included."
+    }
+  },
+  "share-lounge-daikanyama-tsutaya-books": {
+    "access": {
+      "en": "From Daikanyama Station, leave by the Central Exit and walk about 5 minutes to Daikanyama T-SITE. SHARE LOUNGE is on the 2nd floor of Building 3, right above the Tsutaya bookstore (there's a Starbucks on the ground floor). It's a paid co-working lounge with around 187 seats — open desks, sofas, screen booths and a private room — with a power outlet at every table plus free-flow drinks and snacks.",
+      "ja": "代官山駅の中央口から代官山T-SITEまで徒歩約5分。SHARE LOUNGEは蔿屋書店3号館の2階（1階はスターバックス）にあります。約187席の有料コワーキングラウンジで、オープン席・ソファ・スクリーン付きブース・個室があり、各テーブルに電源、フリードリンク＆軽食付きです。",
+      "sources": [
+        { "name": "Tsutaya official (store page)", "url": "https://store-tsutaya.tsite.jp/storelocator/detail/2320.html" },
+        { "name": "Time Out Tokyo", "url": "https://www.timeout.com/tokyo/news/daikanyama-t-site-has-a-new-co-working-space-with-free-flow-food-and-drink-120721" },
+        { "name": "Noby Blog (floor/price)", "url": "https://nobyblog.com/sharelounge_daikanyama/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "title": "Pricing",
+      "titleJa": "料金",
+      "items": [
+        { "en": "First 60 min (¥1,485 via app)", "ja": "最初の60分（アプリ決済 ¥1,485）", "price": "¥1,650" },
+        { "en": "Each extra 30 min", "ja": "延長30分ごと", "price": "¥750" },
+        { "en": "1-day", "ja": "1日", "price": "¥5,500" }
+      ],
+      "sourceName": "SHARE LOUNGE / Tsutaya (rates as of 2024)",
+      "sourceUrl": "https://store-tsutaya.tsite.jp/storelocator/detail/2320.html",
+      "checked": "2026-08-09",
+      "note": "Rates as of 2024 — check the SHARE LOUNGE app for current pricing. Includes free-flow soft drinks and snacks; a premium plan adds alcohol."
+    }
   }
 }
