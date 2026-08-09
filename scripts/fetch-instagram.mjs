@@ -25,6 +25,7 @@
 // Config (env):
 //   IG_OEMBED       oEmbed endpoint (default Meta graph tokenless endpoint)
 //   META_OEMBED_TOKEN  optional access token, appended if Meta requires one
+//   IG_UA           User-Agent sent to Meta (default: a Chrome UA)
 //   IG_MAX_PER_CAFE number of thumbnails to keep per cafe (default 4)
 //
 // Incremental: posts already downloaded are skipped. Safe to re-run.
@@ -42,6 +43,11 @@ const P = (p) => resolve(root, p);
 // ~2-year support window and returns 403 for every call, so we target v25.0.
 const OEMBED = process.env.IG_OEMBED || "https://graph.facebook.com/v25.0/instagram_oembed";
 const TOKEN = process.env.META_OEMBED_TOKEN || "";
+// Meta's tokenless oEmbed rejects non-browser User-Agents with a 403, so send a
+// normal browser UA. Override with IG_UA if Meta ever changes what it accepts.
+const UA =
+  process.env.IG_UA ||
+  "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36";
 const MAX = Number(process.env.IG_MAX_PER_CAFE || 4);
 
 const readJson = (p, fb) => (existsSync(P(p)) ? JSON.parse(readFileSync(P(p), "utf8")) : fb);
@@ -74,13 +80,13 @@ async function oembed(postUrl) {
   u.searchParams.set("omitscript", "true");
   u.searchParams.set("fields", "thumbnail_url,author_name,author_url");
   if (TOKEN) u.searchParams.set("access_token", TOKEN);
-  const r = await fetch(u, { headers: { "User-Agent": "WorkingCafes/1.0" } });
+  const r = await fetch(u, { headers: { "User-Agent": UA } });
   if (!r.ok) throw new Error(`oEmbed ${r.status} for ${postUrl}`);
   return r.json();
 }
 
 async function download(url, destAbs) {
-  const r = await fetch(url, { headers: { "User-Agent": "WorkingCafes/1.0" } });
+  const r = await fetch(url, { headers: { "User-Agent": UA } });
   if (!r.ok) throw new Error(`thumb ${r.status}`);
   const buf = Buffer.from(await r.arrayBuffer());
   writeFileSync(destAbs, buf);
