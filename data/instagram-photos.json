@@ -1,50 +1,302 @@
 {
   "onibus-coffee-nakameguro": {
     "handle": "onibuscoffee",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DbpxIMUH4_F/",
+        "credit": "@onibuscoffee",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/Dbju8Rwt_7C/",
+        "credit": "@onibuscoffee",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbcVgoqH3c9/",
+        "credit": "@onibuscoffee",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbIDYb9NJXA/",
+        "credit": "@onibuscoffee",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "onibus-coffee-jiyugaoka": {
     "handle": "onibuscoffee_jiyugaoka",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DbO1rluE7H8/",
+        "credit": "@onibuscoffee_jiyugaoka",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/Dak2QNDHXhF/",
+        "credit": "@onibuscoffee_jiyugaoka",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DahsTjJnd3Y/",
+        "credit": "@onibuscoffee_jiyugaoka",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DafT1PaneZX/",
+        "credit": "@onibuscoffee_jiyugaoka",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "little-darling-coffee-roasters": {
     "handle": "littledarling_coffeeroasters",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DXEWnlbE4IA/",
+        "credit": "@littledarling_coffeeroasters",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbiFvnRE9jU/",
+        "credit": "@littledarling_coffeeroasters",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DaPt3YBTAcV/",
+        "credit": "@littledarling_coffeeroasters",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DaEzx53TNE6/",
+        "credit": "@littledarling_coffeeroasters",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "good-sound-coffee-nakameguro": {
     "handle": "goodsoundcoffee_nakameguro",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DV7pX8lAUmg/",
+        "credit": "@goodsoundcoffee_nakameguro",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DV2XufJAZM-/",
+        "credit": "@goodsoundcoffee_nakameguro",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "paul-bassett-shinjuku": {
     "handle": "paulbassett_jp",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DYUElIskmeG/",
+        "credit": "@paulbassett_jp",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DPNDdGjErNi/",
+        "credit": "@paulbassett_jp",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DKhKg-zyXq2/",
+        "credit": "@paulbassett_jp",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "brooklyn-roasting-company-shimokitazawa": {
     "handle": "brooklynroasting_shimokitazawa",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DbpaWZcTe0j/",
+        "credit": "@brooklynroasting_shimokitazawa",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbXhq07zj4B/",
+        "credit": "@brooklynroasting_shimokitazawa",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbXhXBJz01K/",
+        "credit": "@brooklynroasting_shimokitazawa",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbXhR9jk6ji/",
+        "credit": "@brooklynroasting_shimokitazawa",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "fabcafe-tokyo": {
     "handle": "fabcafe_tokyo",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DaexlRDvQfd/",
+        "credit": "@fabcafe_tokyo",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/Da1435zjRox/",
+        "credit": "@fabcafe_tokyo",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "dandelion-chocolate-factory-and-cafe-kuramae": {
     "handle": "dandelion_chocolate_japan",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DWp1XzhkVaF/",
+        "credit": "@dandelion_chocolate_japan",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DFZMTWionEw/",
+        "credit": "@dandelion_chocolate_japan",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbcP6qdFiVC/",
+        "credit": "@dandelion_chocolate_japan",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbR8uxmjUXR/",
+        "credit": "@dandelion_chocolate_japan",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "bunkitsu-roppongi": {
     "handle": "bunkitsu_roppongi",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DaosFbaoF-G/",
+        "credit": "@bunkitsu_roppongi",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DakNSDBoJeN/",
+        "credit": "@bunkitsu_roppongi",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DY4oUB2hvDz/",
+        "credit": "@bunkitsu_roppongi",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "cafe-mamehico-sangenjaya": {
     "handle": "cafe_mamehico",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DTufFO8ESym/",
+        "credit": "@cafe_mamehico",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DYgEcl1gRQ4/",
+        "credit": "@cafe_mamehico",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DYQhIzggVya/",
+        "credit": "@cafe_mamehico",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DYbPpaqEZNl/",
+        "credit": "@cafe_mamehico",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "garden-house-crafts": {
     "handle": "garden_house_crafts",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/Dad9lvIzU5X/",
+        "credit": "@garden_house_crafts",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DZzJ9bJx7az/",
+        "credit": "@garden_house_crafts",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DZqdbyxzoC3/",
+        "credit": "@garden_house_crafts",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   },
   "alpha-beta-coffee-club": {
     "handle": "abccoffeeclub",
-    "photos": []
+    "posts": [
+      {
+        "permalink": "https://www.instagram.com/p/DZBkARiPCIT/",
+        "credit": "@abccoffeeclub",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DaNcYEMHQGS/",
+        "credit": "@abccoffeeclub",
+        "ownAccount": true,
+        "permission": false
+      },
+      {
+        "permalink": "https://www.instagram.com/p/DbfdQFJOBPZ/",
+        "credit": "@abccoffeeclub",
+        "ownAccount": true,
+        "permission": false
+      }
+    ]
   }
 }

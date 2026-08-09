@@ -2,22 +2,22 @@ import store from "@/data/instagram-photos.json";
 
 // Instagram support has two independent parts:
 //  1) The official-account LINK-OUT — just `Venue.instagram` (a URL). Linking to
-//     a cafe's own account is always fine; no photo is re-hosted.
-//  2) The PHOTO GALLERY — static thumbnails we self-host (public/ig/…), fetched at
-//     BUILD time via Instagram's oEmbed (scripts/fetch-instagram.mjs). No Instagram
-//     JS is ever shipped to visitors, so it never slows the page. Only photos we
-//     are cleared to show are displayed: the cafe's OWN posts, or ones with
-//     explicit permission. See `cafeInstagramPhotos`.
+//     a cafe's own account is always fine; no content is re-hosted.
+//  2) The POST GALLERY — the cafe's OWN posts, rendered as Meta's official oEmbed
+//     embeds and lazy-loaded (embed.js runs only when the gallery scrolls into
+//     view — see components/CafeInstagram.tsx). We do NOT extract or self-host
+//     images: Meta's oEmbed terms only allow rendering the official embed, so we
+//     store just the post permalink. Only cleared posts (the cafe's own, or ones
+//     with explicit permission) are shown.
 
-export type IgPhoto = {
-  src: string;         // self-hosted thumbnail path, e.g. /ig/<slug>-1.jpg
-  permalink: string;   // the Instagram post URL (link-through)
-  credit?: string;     // e.g. "@handle" — shown/attributed
+export type IgPost = {
+  permalink: string;    // the Instagram post URL — embedded via embed.js
+  credit?: string;      // e.g. "@handle"
   ownAccount?: boolean; // the cafe's own account (safe to show)
   permission?: boolean; // explicit permission on file (safe to show)
 };
 
-type IgEntry = { handle?: string; photos?: IgPhoto[] };
+type IgEntry = { handle?: string; posts?: IgPost[] };
 
 const STORE = store as Record<string, IgEntry>;
 
@@ -36,12 +36,12 @@ export function instagramProfileUrl(urlOrHandle?: string): string | undefined {
 }
 
 /**
- * Photos we are cleared to display for this cafe: only the cafe's OWN posts or
- * ones with explicit permission on file. Everything else is withheld — this is
- * the gate that keeps rights-unclear images off the site.
+ * Posts we are cleared to embed for this cafe: only the cafe's OWN posts or ones
+ * with explicit permission on file. Everything else is withheld — this is the
+ * gate that keeps rights-unclear content off the site.
  */
-export function cafeInstagramPhotos(slug: string): IgPhoto[] {
+export function cafeInstagramPosts(slug: string): IgPost[] {
   const e = STORE[slug];
-  if (!e || !Array.isArray(e.photos)) return [];
-  return e.photos.filter((p) => p && p.src && (p.ownAccount || p.permission));
+  if (!e || !Array.isArray(e.posts)) return [];
+  return e.posts.filter((p) => p && p.permalink && (p.ownAccount || p.permission));
 }
