@@ -113,22 +113,27 @@ default.
     never re-fetched. Commit it after a populated run.
 
 ### Instagram photos (official-account first; permission-gated)
-Cafe pages can show the cafe's official Instagram link plus a small static gallery
+Cafe pages can show the cafe's official Instagram link plus a small gallery
 of the cafe's OWN posts. This must stay FAST and rights-clean:
 - **Link-out is always safe.** `Venue.instagram` (an account URL, sourced from
   `data/collected/instagram.json` keyed by cafe name) renders as a "@handle on
   Instagram" link (`components/CafeInstagram.tsx`). Capture the OFFICIAL account
   only (cafe's own site / Google listing / confident name+area match). No photo is
   re-hosted, so there's no rights issue — grow this map freely during quarterly runs.
-- **Never ship Instagram's embed.js.** Galleries are STATIC self-hosted thumbnails
-  fetched at BUILD time; no third-party script runs for visitors.
-- **Only show cleared photos.** Add chosen post URLs to
+- **Galleries are Meta's OFFICIAL embeds, lazy-loaded.** We do NOT extract or
+  self-host images: Meta's oEmbed terms only permit rendering the official embed
+  (the tokenless oEmbed response returns `html`, not a usable thumbnail, and asking
+  for `thumbnail_url` 403s). `components/CafeInstagram.tsx` renders the standard
+  Instagram blockquotes and loads `embed.js` ONLY when the gallery scrolls into view
+  (IntersectionObserver), so it never affects initial page load.
+- **Only show cleared posts.** Add chosen post URLs to
   `data/collected/instagram-posts.json` (keyed by cafe name), flagged
   `ownAccount:true` (cafe's own posts) or `permission:true` (permission on file).
-  `npm run instagram` (`scripts/fetch-instagram.mjs`) resolves each via Instagram's
-  tokenless oEmbed, downloads the thumbnail to `public/ig/`, and writes
-  `data/instagram-photos.json` (committed cache). Anything without
-  ownAccount/permission is skipped and never displayed.
+  `npm run instagram` (`scripts/fetch-instagram.mjs`) maps each to its slug,
+  best-effort verifies the post's real author via tokenless oEmbed (dropping any
+  that aren't the cafe's own), and writes `data/instagram-photos.json` (committed):
+  `{ slug: { handle, posts: [{ permalink, credit, ... }] } }`. It downloads nothing
+  and needs no token. Anything without ownAccount/permission is skipped.
 - **Quarterly run:** when confirming a cafe, capture its official handle (if missing)
   and 2–4 of ITS OWN post URLs for the gallery.
 - **Permission workflow** (for non-own-account photos, incl. the later
