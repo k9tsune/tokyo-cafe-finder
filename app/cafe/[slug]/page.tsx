@@ -7,6 +7,8 @@ import CafeInstagram from "@/components/CafeInstagram";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
+import { cafeAccess, cafeMenu } from "@/lib/cafe-details";
+import { directionsUrl } from "@/lib/maps";
 import { cafeJsonLd, cafeFaqJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 
 export const dynamicParams = false;
@@ -31,6 +33,8 @@ export default function CafePage({ params }: { params: { slug: string } }) {
   const v = getVenue(params.slug);
   if (!v) notFound();
   const area = getArea(v.areaSlug);
+  const access = cafeAccess(v.slug);
+  const menu = cafeMenu(v.slug);
 
   const faq = cafeFaqJsonLd(v);
 
@@ -109,6 +113,63 @@ export default function CafePage({ params }: { params: { slug: string } }) {
           </p>
         );
       })()}
+
+      {access && (
+        <div className="access-detail" style={{ margin: "10px 0 0", maxWidth: "70ch" }}>
+          <p style={{ margin: "8px 0 0" }}>{access.en}</p>
+          <p style={{ margin: "10px 0 0" }}>
+            <a
+              href={`${directionsUrl(v)}&travelmode=walking`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontWeight: 600 }}
+            >
+              Step-by-step walking directions on Google Maps →
+            </a>
+          </p>
+          <p className="muted" style={{ fontSize: ".78rem", margin: "8px 0 0" }}>
+            Checked {access.checked} · Sources:{" "}
+            {access.sources.map((s, i) => (
+              <span key={s.url}>
+                {i > 0 ? ", " : ""}
+                <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+              </span>
+            ))}
+          </p>
+        </div>
+      )}
+
+      {menu && (
+        <section className="cafe-menu-detail" style={{ margin: "24px 0 4px" }}>
+          <h2>Menu</h2>
+          <ul style={{ listStyle: "none", padding: 0, margin: 0, maxWidth: "480px" }}>
+            {menu.items.map((it) => (
+              <li
+                key={it.en}
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  padding: "9px 0",
+                  borderBottom: "1px solid var(--line)",
+                }}
+              >
+                <span>
+                  {it.en}
+                  {it.ja && it.ja !== it.en ? (
+                    <span className="muted" style={{ fontSize: ".82rem" }}> · {it.ja}</span>
+                  ) : null}
+                </span>
+                <span style={{ fontWeight: 700, whiteSpace: "nowrap" }}>{it.price}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="muted" style={{ fontSize: ".78rem", margin: "10px 0 0" }}>
+            {menu.note ? `${menu.note} ` : ""}Menu from{" "}
+            <a href={menu.sourceUrl} target="_blank" rel="noopener noreferrer">{menu.sourceName}</a>, checked {menu.checked}.
+          </p>
+        </section>
+      )}
 
       <FreshnessBadge date={v.lastChecked} confidence={v.confidence} />
 

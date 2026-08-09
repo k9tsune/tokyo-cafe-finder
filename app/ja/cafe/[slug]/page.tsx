@@ -7,6 +7,8 @@ import CafeInstagram from "@/components/CafeInstagram";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
+import { cafeAccess, cafeMenu } from "@/lib/cafe-details";
+import { directionsUrl } from "@/lib/maps";
 import { cafeJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
 import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
@@ -50,6 +52,8 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
   const areaName = area ? wardNameJa(area.slug, area.name) : "";
   const name = v.nameJa || v.name;
   const station = stationNameJa(v.nearestStation);
+  const access = cafeAccess(v.slug);
+  const menu = cafeMenu(v.slug);
 
   const wifiTxt = !v.hasWifi ? "Wi-Fiなし" : v.wifiType === "free" ? "無料Wi-Fiあり" : "Wi-Fiあり（有料）";
   const powerTxt = !v.hasPower ? "電源なし" : v.powerDensity === "many" ? "電源多め" : v.powerDensity === "some" ? "電源あり" : "電源はカウンターのみ";
@@ -155,6 +159,63 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
           </p>
         );
       })()}
+
+      {access && (
+        <div className="access-detail" style={{ margin: "10px 0 0", maxWidth: "70ch" }}>
+          <p style={{ margin: "8px 0 0" }}>{access.ja}</p>
+          <p style={{ margin: "10px 0 0" }}>
+            <a
+              href={`${directionsUrl(v)}&travelmode=walking`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ fontWeight: 600 }}
+            >
+              Googleマップで道順を見る →
+            </a>
+          </p>
+          <p className="muted" style={{ fontSize: ".78rem", margin: "8px 0 0" }}>
+            確認日 {access.checked} ・ 情報元：
+            {access.sources.map((s, i) => (
+              <span key={s.url}>
+                {i > 0 ? "、" : ""}
+                <a href={s.url} target="_blank" rel="noopener noreferrer">{s.name}</a>
+              </span>
+            ))}
+          </p>
+        </div>
+      )}
+
+      {menu && (
+        <section className="cafe-menu-detail" style={{ margin: "24px 0 4px" }}>
+          <h2>メニュー</h2>
+          <ul style={{ listStyle: "none", padding: 0, margin: 0, maxWidth: "480px" }}>
+            {menu.items.map((it) => (
+              <li
+                key={it.en}
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  gap: "16px",
+                  padding: "9px 0",
+                  borderBottom: "1px solid var(--line)",
+                }}
+              >
+                <span>
+                  {it.ja || it.en}
+                  {it.en && it.en !== it.ja ? (
+                    <span className="muted" style={{ fontSize: ".82rem" }}> · {it.en}</span>
+                  ) : null}
+                </span>
+                <span style={{ fontWeight: 700, whiteSpace: "nowrap" }}>{it.price}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="muted" style={{ fontSize: ".78rem", margin: "10px 0 0" }}>
+            {menu.note ? `${menu.note} ` : ""}メニュー出典：
+            <a href={menu.sourceUrl} target="_blank" rel="noopener noreferrer">{menu.sourceName}</a>（確認日 {menu.checked}）
+          </p>
+        </section>
+      )}
 
       <FreshnessBadge date={v.lastChecked} confidence={v.confidence} locale="ja" />
 

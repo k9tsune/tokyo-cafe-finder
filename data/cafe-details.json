@@ -1,0 +1,134 @@
+{
+  "_note": "Hand-curated, source-cited access directions + menu for a small set of cafes. Every fact traces to a real source (see access.sources / menu.sourceUrl). Do NOT add entries without sources. Rendered by lib/cafe-details.ts on the EN and JA cafe pages; cafes without an entry simply show the default access line.",
+  "onibus-coffee-jiyugaoka": {
+    "access": {
+      "en": "Come out of Jiyugaoka Station's north exit — the cafe is about a 4–5 minute walk. It's on the ground floor (1F) of the \"arbre Jiyugaoka\" building at 2-24-8 Midorigaoka, so it's actually just between Jiyugaoka and Midorigaoka stations. There's terrace seating out front plus sofas and chairs inside.",
+      "ja": "自由が丘駅の北口から徒歩4〜5分。「arbre自由が丘」（目黒区緑が丘2-24-8）の1階にあります。テラス席のほか、店内にはソファ席やイス席も。住所は自由が丘駅と緑が丘駅の中間、緑が丘エリアです。",
+      "sources": [
+        { "name": "Onibus Coffee official (locations)", "url": "https://onibuscoffee.com/pages/locations/jiyugaoka" },
+        { "name": "Gnavi (station exit)", "url": "https://r.gnavi.co.jp/c53wh4zn0000/map/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/en/tokyo/A1317/A131703/13270166/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "City original blend (drip)", "ja": "シティ オリジナルブレンド（ドリップ）", "price": "¥803" },
+        { "en": "Honduras Edgardo Tinoco (pour-over)", "ja": "ホンジュラス エドガルド・ティノコ", "price": "¥935" },
+        { "en": "Hot Latte", "ja": "ホットラテ", "price": "¥715" },
+        { "en": "Espresso", "ja": "エスプレッソ", "price": "¥550" },
+        { "en": "Onibus Hamburger", "ja": "ONIBUSハンバーガー", "price": "¥1,848" },
+        { "en": "Croque Madame", "ja": "クロックマダム", "price": "¥1,650" },
+        { "en": "Cream puff", "ja": "シュークリーム", "price": "¥638" },
+        { "en": "Hot Chocolate", "ja": "ホットチョコレート", "price": "¥880" }
+      ],
+      "sourceName": "Onibus Jiyugaoka in-store digital menu (GoodMenu)",
+      "sourceUrl": "https://visitor.goodmenu.io/qrcode/qr_yppmeje7edpnz4",
+      "checked": "2026-08-09",
+      "note": "Prices can change — check in store for the latest."
+    }
+  },
+  "fabcafe-tokyo": {
+    "access": {
+      "en": "The closest station is actually Shinsen Station (Keio Inokashira Line): about 3 minutes from its south exit. From JR Shibuya Station it's roughly a 10-minute walk — leave from the west side, walk about 5 minutes, then head up Dogenzaka. The cafe sits where Dogenzaka meets Route 246, under the Metropolitan Expressway No. 3, and you can see the Shibuya tollgate from the entrance. It's on the ground floor (1F) of the Dogenzaka Pier building, entered at street level.",
+      "ja": "最寄りは京王井の頭線・神泉駅で、南口から徒歩3分。JR渋谷駅からは徒歩約10分です。渋谷駅の西側に出て5分ほど歩き、道玄坂を上ります。お店は道玄坂と国道246号が交わるあたり、首都高3号線の下にあり、入口からは渋谷の料金所が見えます。建物「道玄坂ピア」の1階（路面）です。",
+      "sources": [
+        { "name": "FabCafe official (access)", "url": "https://fabcafe.com/jp/tokyo/access/" },
+        { "name": "San-tatsu (route/landmarks)", "url": "https://san-tatsu.jp/articles/238437/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/en/tokyo/A1303/A130301/13137997/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "Espresso", "ja": "エスプレッソ", "price": "¥450" },
+        { "en": "Café Latte", "ja": "カフェラテ", "price": "¥650" },
+        { "en": "Cappuccino", "ja": "カプチーノ", "price": "¥700" },
+        { "en": "Coffee of the Day", "ja": "本日のコーヒー", "price": "¥550" },
+        { "en": "Hand Drip (recommended)", "ja": "ハンドドリップ", "price": "¥700" },
+        { "en": "Homemade Lemonade", "ja": "自家製レモネード", "price": "¥700" },
+        { "en": "Spinach Curry", "ja": "ほうれん草カレー", "price": "¥1,300" },
+        { "en": "Tomato, Mozzarella & Bacon Sandwich", "ja": "トマト・モッツァレラ・ベーコンサンド", "price": "¥1,280" }
+      ],
+      "sourceName": "Tabelog menu",
+      "sourceUrl": "https://tabelog.com/en/tokyo/A1303/A130301/13137997/dtlmenu/",
+      "checked": "2026-08-09",
+      "note": "The in-store menu is bilingual; prices can change."
+    }
+  },
+  "verve-coffee-roasters-roppongi": {
+    "access": {
+      "en": "From Roppongi Station, use Exit 3 — the cafe is about a 6-minute walk. Head along Gaien-Higashi-dori in the direction where Tokyo Tower comes into view. It's a bright, street-level shop (Verve's first ground-level location in Tokyo) with a full glass front and a terrace, spread over two floors — there's extra seating upstairs on the 2nd floor around an open, double-height space.",
+      "ja": "六本木駅の3番出口から徒歩約6分。外苑東通りを、東京タワーが見える方向へ進みます。全面ガラス張りの明るい路面店（東京初の路面Verve）で、テラス席あり。1〜2階の2フロア構成で、吹き抜けの上（2階）にも席があります。",
+      "sources": [
+        { "name": "Verve Coffee official", "url": "https://vervecoffee.jp/pages/roppongi" },
+        { "name": "Tabelog (station exit)", "url": "https://tabelog.com/en/tokyo/A1307/A130701/13244766/" },
+        { "name": "Taremerakuda (route)", "url": "https://www.taremerakuda.com/entry/2024/09/26/000000" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "Drip Coffee (Quick Cup)", "ja": "ドリップコーヒー（クイックカップ）", "price": "¥520" },
+        { "en": "Blueberry Muffin", "ja": "ブルーベリーマフィン", "price": "¥580" },
+        { "en": "Fried Eggplant & Hummus Sandwich (vegan)", "ja": "揚げなすとフムスのサンド", "price": "¥990" }
+      ],
+      "sourceName": "In-store prices reported by cafe blogs (2024)",
+      "sourceUrl": "https://www.taremerakuda.com/entry/2024/09/26/000000",
+      "checked": "2026-08-09",
+      "note": "In-store prices as reported in 2024 — they may have risen since. (Delivery-app prices are higher and aren't shown here.)"
+    }
+  },
+  "streamer-coffee-company-shibuya": {
+    "access": {
+      "en": "This one's on the Miyamasuzaka (east) side of Shibuya Station — about a 7-minute walk from Exit 13 of the Fukutoshin Line, or roughly 10 minutes from the Hachiko exit. It's on the ground floor (1F) of the Miyagawa Building, at street level.",
+      "ja": "渋谷駅の宮益坂（東口）側にあります。東京メトロ副都心線の13番出口から徒歩約7分、ハチ公口からは徒歩約10分。「宮川ビル」の1階（路面）です。",
+      "sources": [
+        { "name": "Gnavi (station exit)", "url": "https://r.gnavi.co.jp/4br3v3en0000/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/en/tokyo/A1303/A130301/13109635/" },
+        { "name": "HotPepper (floor)", "url": "https://www.hotpepper.jp/strJ000854822/" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "Revolver Latte", "ja": "リボルバーラテ", "price": "¥880" },
+        { "en": "Prosciutto, Camembert & Honey", "ja": "プロシュート カマンベール&ハニー", "price": "¥710" },
+        { "en": "Mustard Baloney", "ja": "マスタードボロニー", "price": "¥540" },
+        { "en": "Mud Americano", "ja": "マッドアメリカーノ", "price": "¥650" }
+      ],
+      "sourceName": "Tabelog + cafe blog (food items, Mar 2025)",
+      "sourceUrl": "https://tabelog.com/en/tokyo/A1303/A130301/13109635/",
+      "checked": "2026-08-09",
+      "note": "Latte and food prices can change — check in store for the latest."
+    }
+  },
+  "sarutahiko-coffee-marunouchi": {
+    "access": {
+      "en": "The easiest way is underground: Nijubashimae Station (Tokyo Metro Chiyoda Line) Exit 3 connects directly into the Meiji Yasuda Seimei Building, where the cafe sits on the second basement floor (B2F), in the food hall. Because the exit links straight into the building, you don't have to go up to street level. There's also an underground passage from JR Tokyo Station, or about a 5-minute walk from Tokyo Station's Marunouchi South Exit above ground.",
+      "ja": "いちばん分かりやすいのは地下ルート。東京メトロ千代田線・二重橋前駅の3番出口が明治安田生命ビルに直結していて、お店はビルの地下2階（B2F）のフードホール内にあります。改札から地上に出ずに行けます。JR東京駅からも地下通路でつながっており、丸の内南口からは地上を歩いても約5分です。",
+      "sources": [
+        { "name": "Meiji Yasuda Village official (access)", "url": "https://www.meijiyasuda-v.jp/access/" },
+        { "name": "Sarutahiko official (store page)", "url": "https://brand.sarutahiko.jp/shop/marunouchinijubashi" },
+        { "name": "Sarutahiko press release (opening)", "url": "https://prtimes.jp/main/html/rd/p/000000129.000027005.html" }
+      ],
+      "checked": "2026-08-09"
+    },
+    "menu": {
+      "items": [
+        { "en": "Café Latte", "ja": "カフェラテ", "price": "¥580" },
+        { "en": "Soy Latte", "ja": "ソイラテ", "price": "¥640" },
+        { "en": "Cappuccino", "ja": "カプチーノ", "price": "¥580" },
+        { "en": "Pour Over (Original Blend)", "ja": "ドリップ（オリジナルブレンド）", "price": "¥500〜" },
+        { "en": "Açaí Box", "ja": "アサイーボックス", "price": "¥850" },
+        { "en": "Isigny Butter Croissant", "ja": "イズニバターのクロワッサン", "price": "¥374" },
+        { "en": "Cinnamon Roll", "ja": "本場のシナモンロール", "price": "¥462" },
+        { "en": "Bologna Sausage Sandwich", "ja": "ボロニアソーセージサンド", "price": "¥680" }
+      ],
+      "sourceName": "Sarutahiko official menu (drinks) + opening press release (food, 2024)",
+      "sourceUrl": "https://sarutahiko.co/en/menu/",
+      "checked": "2026-08-09",
+      "note": "Food items are from the store's 2024 opening; prices can change."
+    }
+  }
+}
