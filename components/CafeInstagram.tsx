@@ -80,7 +80,16 @@ function InstagramEmbeds({ posts, viewLabel }: { posts: IgPost[]; viewLabel: str
   }, [inView]);
 
   return (
-    <div className="ig-embeds" ref={ref} style={{ display: "flex", flexWrap: "wrap", gap: "16px", margin: "4px 0 0" }}>
+    <div className="ig-embeds" ref={ref} style={{ margin: "4px 0 0" }}>
+      {/* Compact one-row layout: Instagram enforces a 326px min-width on each embed,
+          so we scale the whole embed down with `zoom` rather than force a narrower
+          width. Four across on desktop, stepping down to two, then one. */}
+      <style>{`
+        .ig-embeds { display: grid; grid-template-columns: repeat(4, max-content); gap: 10px; justify-content: center; align-items: start; }
+        .ig-embeds .instagram-media { zoom: 0.66; margin: 0 !important; }
+        @media (max-width: 1040px) { .ig-embeds { grid-template-columns: repeat(2, max-content); } .ig-embeds .instagram-media { zoom: 0.85; } }
+        @media (max-width: 600px) { .ig-embeds { grid-template-columns: 1fr; justify-content: stretch; } .ig-embeds .instagram-media { zoom: 1; } }
+      `}</style>
       {posts.map((p) => (
         <blockquote
           key={p.permalink}
@@ -92,10 +101,6 @@ function InstagramEmbeds({ posts, viewLabel }: { posts: IgPost[]; viewLabel: str
             border: 0,
             borderRadius: "3px",
             margin: 0,
-            flex: "1 1 326px",
-            maxWidth: "540px",
-            minWidth: "0",
-            width: "100%",
           }}
         >
           <a href={p.permalink} target="_blank" rel="noopener noreferrer nofollow">
