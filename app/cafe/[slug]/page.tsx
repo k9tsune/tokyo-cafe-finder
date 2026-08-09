@@ -9,7 +9,6 @@ import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
 import { cafeAccess, cafeMenu } from "@/lib/cafe-details";
-import { directionsUrl } from "@/lib/maps";
 import { cafeJsonLd, cafeFaqJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 
 export const dynamicParams = false;
@@ -157,10 +156,7 @@ export default function CafePage({ params }: { params: { slug: string } }) {
               </p>
             ) : null;
           })()}
-          <p style={{ margin: "0 0 14px" }}>{access.en}</p>
-          <a className="dir-link ghost" href={`${directionsUrl(v)}&travelmode=walking`} target="_blank" rel="noopener noreferrer">
-            Walking directions on Google Maps →
-          </a>
+          <p style={{ margin: 0 }}>{access.en}</p>
           <p style={detailMeta}>
             <span style={checkMark}>✓</span> Checked {access.checked} · Sources:
             {access.sources.map((s) => (

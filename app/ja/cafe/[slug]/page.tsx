@@ -9,7 +9,6 @@ import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
 import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
 import { cafeAccess, cafeMenu, cafeDetails } from "@/lib/cafe-details";
-import { directionsUrl } from "@/lib/maps";
 import { cafeJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
 import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
@@ -202,10 +201,7 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
               </p>
             ) : null;
           })()}
-          <p style={{ margin: "0 0 14px" }}>{access.ja}</p>
-          <a className="dir-link ghost" href={`${directionsUrl(v)}&travelmode=walking`} target="_blank" rel="noopener noreferrer">
-            Googleマップで道順を見る →
-          </a>
+          <p style={{ margin: 0 }}>{access.ja}</p>
           <p style={detailMeta}>
             <span style={checkMark}>✓</span> 確認日 {access.checked} ・ 情報元：
             {access.sources.map((s) => (

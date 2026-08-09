@@ -32,6 +32,9 @@ export default function HomeSearch({ destinations, locale = "en" }: { destinatio
             {o.label}
           </button>
         ))}
+        {/* Divider: "Open late" is a separate on/off add-on, not part of the
+            single-select amenity group above. */}
+        <span className="need-divider" aria-hidden="true" />
         <button
           type="button"
           className={`need-chip late${late ? " on" : ""}`}
