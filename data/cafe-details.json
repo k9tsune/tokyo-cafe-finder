@@ -162,7 +162,7 @@
   "streamer-coffee-company-azabu-juban": {
     "access": {
       "en": "From Azabu-Juban Station, take Exit 4 and head up the Azabu-Juban shopping street toward Keyaki-zaka (the Roppongi Hills side) — about a 6–7 minute walk. Streamer is in a striking Japanese-style building (a beautifully revived former soba restaurant) near where the street ends, at the foot of Roppongi Hills. Inside there's a large central communal table plus box seats and two-person tables.",
-      "ja": "麻布十番駅の4番出口から、麻布十番大通り（商店街）をけやき坂（六本木ヒルズ方面）へ徒歩6〜7分。通りが終わる手前、六本木ヒルズのふもとにある和風の建物（元蓕麦店を改装）が目印です。店内は中央の大きな共用テーブルのほか、ボックス席や2人用テーブルがあります。",
+      "ja": "麻布十番駅の4番出口から、麻布十番大通り（商店街）をけやき坂（六本木ヒルズ方面）へ徒歩6〜7分。通りが終わる手前、六本木ヒルズのふもとにある和風の建物（元蕎麦店を改装）が目印です。店内は中央の大きな共用テーブルのほか、ボックス席や2人用テーブルがあります。",
       "sources": [
         { "name": "Streamer Coffee official (stores)", "url": "https://streamer.coffee/stores/" },
         { "name": "Azabu Guide (route/menu)", "url": "https://azabu-guide.jp/streamer-coffee-azabu-juban/" },
@@ -209,7 +209,7 @@
   "lattest-sports": {
     "access": {
       "en": "The closest stations are Honjo-Azumabashi (Toei Asakusa line, Exit A3) and Tokyo Skytree Station — both about a 4-minute walk. It's inside the TOKYO mizumachi complex that runs between Asakusa and Tokyo Skytree along the elevated railway; the easiest approach is across the Sumida River Walk footbridge. Look for unit E7 in the East Zone, right by the Kitajikken River canal, with a big sunny terrace out on the boardwalk.",
-      "ja": "最寄りは都営浅草線・本所吐橋駅（A3出口）と、とうきょうスカイツリー駅で、どちらも徒歩約4分。浅草と東京スカイツリーを結ぶ「東京ミズマチ」内にあり、すみだリバーウォーク（歩道橋）から向かうのが分かりやすいです。北十間川沿いのイーストゾーンE7で、ボードウォークに面した日当たりのよい広いテラスが目印です。",
+      "ja": "最寄りは都営浅草線・本所吾妻橋駅（A3出口）と、とうきょうスカイツリー駅で、どちらも徒歩約4分。浅草と東京スカイツリーを結ぶ「東京ミズマチ」内にあり、すみだリバーウォーク（歩道橋）から向かうのが分かりやすいです。北十間川沿いのイーストゾーンE7で、ボードウォークに面した日当たりのよい広いテラスが目印です。",
       "sources": [
         { "name": "Tabelog (stations/menu)", "url": "https://tabelog.com/en/tokyo/A1311/A131102/13251908/" },
         { "name": "Tobu Railway official", "url": "https://www.tobu.co.jp/en/sightseeing/news/821.html" },
@@ -259,7 +259,7 @@
   "share-lounge-daikanyama-tsutaya-books": {
     "access": {
       "en": "From Daikanyama Station, leave by the Central Exit and walk about 5 minutes to Daikanyama T-SITE. SHARE LOUNGE is on the 2nd floor of Building 3, right above the Tsutaya bookstore (there's a Starbucks on the ground floor). It's a paid co-working lounge with around 187 seats — open desks, sofas, screen booths and a private room — with a power outlet at every table plus free-flow drinks and snacks.",
-      "ja": "代官山駅の中央口から代官山T-SITEまで徒歩約5分。SHARE LOUNGEは蔿屋書店3号館の2階（1階はスターバックス）にあります。約187席の有料コワーキングラウンジで、オープン席・ソファ・スクリーン付きブース・個室があり、各テーブルに電源、フリードリンク＆軽食付きです。",
+      "ja": "代官山駅の中央口から代官山T-SITEまで徒歩約5分。SHARE LOUNGEは蔦屋書店3号館の2階（1階はスターバックス）にあります。約187席の有料コワーキングラウンジで、オープン席・ソファ・スクリーン付きブース・個室があり、各テーブルに電源、フリードリンク＆軽食付きです。",
       "sources": [
         { "name": "Tsutaya official (store page)", "url": "https://store-tsutaya.tsite.jp/storelocator/detail/2320.html" },
         { "name": "Time Out Tokyo", "url": "https://www.timeout.com/tokyo/news/daikanyama-t-site-has-a-new-co-working-space-with-free-flow-food-and-drink-120721" },
@@ -279,6 +279,123 @@
       "sourceUrl": "https://store-tsutaya.tsite.jp/storelocator/detail/2320.html",
       "checked": "2026-08-09",
       "note": "Rates as of 2024 — check the SHARE LOUNGE app for current pricing. Includes free-flow soft drinks and snacks; a premium plan adds alcohol."
+    }
+  },
+  "little-darling-coffee-roasters": {
+    "access": {
+      "en": "The closest station is Nogizaka Station on the Tokyo Metro Chiyoda Line. Leave from Exit 5 and walk about 4 minutes. You can also come from Aoyama-itchome Station (Ginza, Hanzomon and Toei Oedo lines) via Exit 4 South, about a 7-minute walk. The cafe sits inside SHARE GREEN MINAMI AOYAMA, a large green complex with an open lawn, a garden and a plant shop. It's a big stand-alone cafe on the ground floor of a renovated former warehouse, with the park and greenery right in front of the outdoor seating.",
+      "ja": "最寄り駅は東京メトロ千代田線「乃木坂駅」。5番出口から徒歩約4分です。東京メトロ銀座線・半蔵門線、都営大江戸線の「青山一丁目駅」4番（南）出口からも来られ、徒歩約7分です。カフェは芝生の広場や庭、植物店のある緑地「SHARE GREEN MINAMI AOYAMA」内にあります。倉庫跡をリノベーションした1階の大きな独立型カフェで、屋外席の目の前に公園と緑が広がっています。",
+      "sources": [
+        { "name": "Tabelog (English) — Little Darling Coffee Roasters", "url": "https://tabelog.com/en/tokyo/A1307/A130701/13225981/dtlmenu/" },
+        { "name": "THISTOKYO", "url": "https://thistokyo.com/en/minato-ku/little-darling-coffee-roasters/" },
+        { "name": "Good Coffee", "url": "https://goodcoffee.me/coffeeshop/little-darling-coffee-roasters/" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "Batch Brew coffee", "ja": "バッチブリュー", "price": "¥600" },
+        { "en": "Latte", "ja": "ラテ", "price": "¥700" },
+        { "en": "Flat White", "ja": "フラットホワイト", "price": "¥700" },
+        { "en": "Oat Milk Latte", "ja": "オーツミルクラテ", "price": "¥800" },
+        { "en": "Classic Cheese Burger", "ja": "クラシックチーズバーガー", "price": "¥1,650" },
+        { "en": "Fried Chicken Burger", "ja": "フライドチキンバーガー", "price": "¥1,500" },
+        { "en": "Falafel Salad", "ja": "ファラフェルサラダ", "price": "¥1,300" },
+        { "en": "Fried Potato", "ja": "フライドポテト", "price": "¥500" }
+      ],
+      "sourceName": "Tabelog — Little Darling Coffee Roasters (menu)",
+      "sourceUrl": "https://tabelog.com/tokyo/A1307/A130701/13225981/dtlmenu/drink/",
+      "checked": "2026-08-11",
+      "note": "Prices can change — check in store for the latest."
+    }
+  },
+  "dandelion-chocolate-factory-and-cafe-kuramae": {
+    "access": {
+      "en": "Take the Toei Asakusa Line to Kuramae Station and leave from Exit A0 — the cafe is about a 2–3 minute walk. From the Toei Oedo Line's Kuramae Station it's about 7 minutes. The building is a bean-to-bar chocolate factory and cafe: the 1st floor is the factory and shop where you can watch the chocolate being made, and the cafe seating and workshop space are on the 2nd floor.",
+      "ja": "都営浅草線・蔵前駅のA0出口から徒歩約2〜3分。都営大江戸線の蔵前駅からは徒歩約7分です。建物はbean-to-barのチョコレート工場＆カフェで、1階が工場とショップ（チョコレートを作る様子が見られます）、カフェの座席とワークショップスペースは2階にあります。",
+      "sources": [
+        { "name": "Gnavi (楽天ぐるなび)", "url": "https://r.gnavi.co.jp/7ttxr2h30000/" },
+        { "name": "Tabelog (English)", "url": "https://tabelog.com/en/tokyo/A1311/A131103/13191976/" },
+        { "name": "co-trip (ことりっぷ)", "url": "https://co-trip.jp/article/558554" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "S'mores", "ja": "スモア", "price": "¥800" },
+        { "en": "Chocolate Brownie", "ja": "チョコレートブラウニー", "price": "¥800" },
+        { "en": "Brownie Bite Flight", "ja": "ブラウニーバイトフライト", "price": "¥1,200" },
+        { "en": "Chocolate Chip Cookie", "ja": "チョコレートチップクッキー", "price": "¥650" },
+        { "en": "Chef's Tasting", "ja": "シェフズテイスティング", "price": "¥2,300" }
+      ],
+      "sourceName": "Dandelion Chocolate official (Factory & Cafe Kuramae)",
+      "sourceUrl": "https://dandelionchocolate.jp/pages/factory-cafe-kuramae",
+      "checked": "2026-08-11",
+      "note": "Prices can change and some items are seasonal — check in store for the latest."
+    }
+  },
+  "cafe-mamehico-sangenjaya": {
+    "access": {
+      "en": "Cafe Mamehico's Sangenjaya main store is at 4-20-4 Taishido, on the 1st floor of the Kobayashi Heights building. From Sangenjaya Station on the Tokyu Den-en-toshi Line, leave by the Sancha Patio exit (三茶パティオ口) — about a 3-minute walk. From the Tokyu Setagaya Line it's about 1 minute. The cafe is on a small back street near the station.",
+      "ja": "カフェ マメヒコ 三軒茶屋本店は、太子堂4-20-4・小林ハイツ1階にあります。東急田園都市線「三軒茶屋駅」の三茶パティオ口から徒歩約3分、東急世田谷線「三軒茶屋駅」からは徒歩約1分です。駅近くの路地裏にあります。",
+      "sources": [
+        { "name": "MAMEHICO official — 三軒茶屋店", "url": "https://mamehico.com/sancha" },
+        { "name": "Gnavi (楽天ぐるなび)", "url": "https://r.gnavi.co.jp/1tk2mea80000/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/tokyo/A1317/A131706/13021745/" }
+      ],
+      "checked": "2026-08-11"
+    }
+  },
+  "brooklyn-roasting-company-shimokitazawa": {
+    "access": {
+      "en": "This cafe is inside the Mikan Shimokita (ミカン下北) complex right by Shimokitazawa Station, in Block B, unit B101 — the complex sits under the elevated train tracks. On the Keio Inokashira Line use the Central Exit (中央口); on the Odakyu Line use the East Exit (東口). After the ticket gate it's roughly 30 seconds to your right, about 170 m (a 2-minute walk). Part of the path isn't covered, so bring an umbrella on rainy days.",
+      "ja": "このカフェは下北沢駅すぐの複合施設「ミカン下北」B街区 B101にあります（施設は高架下）。京王井の頭線は中央口、小田急線は東口が便利です。改札を出て右手へ約30秒、駅から約170m・徒歩約2分です。屋根のない区間もあるので雨の日は傘があると安心です。",
+      "sources": [
+        { "name": "Mikan Shimokita official (tenant page)", "url": "https://mikanshimokita.jp/areaguide/detail/?cd=000096" },
+        { "name": "Tabelog (English)", "url": "https://tabelog.com/en/tokyo/A1318/A131802/13273962/" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "Drip Coffee (M)", "ja": "ドリップコーヒー (M)", "price": "¥550" },
+        { "en": "Espresso", "ja": "エスプレッソ", "price": "¥550" },
+        { "en": "Americano", "ja": "アメリカーノ", "price": "¥638" },
+        { "en": "Cappuccino", "ja": "カプチーノ", "price": "¥682" },
+        { "en": "Cortado", "ja": "コルタド", "price": "¥638" },
+        { "en": "Latte", "ja": "ラテ", "price": "¥770" },
+        { "en": "Iced Coffee", "ja": "アイスコーヒー", "price": "¥693" },
+        { "en": "Espresso Shake", "ja": "エスプレッソシェイク", "price": "¥858" }
+      ],
+      "sourceName": "breakfast-tokyo.com store review (menu photographed, Apr 2025)",
+      "sourceUrl": "https://www.breakfast-tokyo.com/entry/20250412",
+      "checked": "2026-08-11",
+      "note": "Prices from an Apr 2025 in-store review — check in store for the latest."
+    }
+  },
+  "bunkitsu-roppongi": {
+    "access": {
+      "en": "Bunkitsu Roppongi is on the 1st floor of the Roppongi Denki Building (6-1-20 Roppongi). It's about a 1-minute walk from Roppongi Station on the Tokyo Metro Hibiya Line and the Toei Oedo Line — Exit 3 or Exit 1A are the handiest. The shop is at street level (1F).",
+      "ja": "文喫 六本木は六本木電気ビル1F（六本木6-1-20）にあります。東京メトロ日比谷線・都営大江戸線「六本木駅」から徒歩約1分で、3番出口または1A出口が便利です。店舗は1階（路面）です。",
+      "sources": [
+        { "name": "Bunkitsu official — Store / Access", "url": "https://roppongi.bunkitsu.jp/store/" },
+        { "name": "Bunkitsu official — Home", "url": "https://roppongi.bunkitsu.jp/" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "title": "Pricing",
+      "titleJa": "料金",
+      "items": [
+        { "en": "Weekday day pass, 9:00–21:00 (free coffee & sencha refills)", "ja": "平日 一日入場料 9:00〜21:00（珈琲・煎茶おかわり自由）", "price": "¥2,750" },
+        { "en": "Weekend/holiday day pass, 9:00–21:00 (free coffee & sencha refills)", "ja": "土日祝 一日入場料 9:00〜21:00（珈琲・煎茶おかわり自由）", "price": "¥3,630" },
+        { "en": "Weekday time plan, per 30 min (capped at ¥1,980 / 120 min)", "ja": "平日 時間制 30分ごと（120分¥1,980で打ち止め）", "price": "¥495" },
+        { "en": "Weekend/holiday time plan, per 30 min (capped at ¥2,420 / 120 min)", "ja": "土日祝 時間制 30分ごと（120分¥2,420で打ち止め）", "price": "¥605" }
+      ],
+      "sourceName": "Bunkitsu official",
+      "sourceUrl": "https://roppongi.bunkitsu.jp/store/",
+      "checked": "2026-08-11",
+      "note": "Admission/usage fees can change — check the official site for the latest."
     }
   }
 }
