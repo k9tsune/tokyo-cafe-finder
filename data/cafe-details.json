@@ -397,5 +397,131 @@
       "checked": "2026-08-11",
       "note": "Admission/usage fees can change — check the official site for the latest."
     }
+  },
+  "brooklyn-roasting-company-tokyo-international-forum": {
+    "access": {
+      "en": "The cafe is on the 1st floor of Building A inside the Tokyo International Forum complex (3-5-1 Marunouchi). It's about a 2-minute walk from Yurakucho Station and about 5 minutes from Tokyo Station, which connects to the Forum via the Keiyo Line B1F underground concourse. Go into the Tokyo International Forum and head to Building A at ground level.",
+      "ja": "東京国際フォーラム A棟の1階にあります（千代田区丸の内3-5-1）。JR有楽町駅から徒歩約2分、東京駅からは徒歩約5分で、京葉線東京駅の地下1階（B1F）コンコースで連絡しています。フォーラムに入り、A棟の1階へ進んでください。",
+      "sources": [
+        { "name": "Tokyo International Forum official (shop page)", "url": "https://www.t-i-forum.co.jp/visitors/shop/detail.html?id=brooklynroasting" },
+        { "name": "Tokyo International Forum official (access)", "url": "https://www.t-i-forum.co.jp/access/access/" },
+        { "name": "Tabelog (English)", "url": "https://tabelog.com/en/tokyo/A1301/A130102/13239752/" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "Drip Coffee (M)", "ja": "ドリップコーヒー(M)", "price": "¥440" },
+        { "en": "Iced Americano", "ja": "アイスアメリカーノ", "price": "¥638" },
+        { "en": "Latte", "ja": "ラテ", "price": "¥572" },
+        { "en": "Carrot Cake", "ja": "キャロットケーキ", "price": "¥374" }
+      ],
+      "sourceName": "Tabelog (English)",
+      "sourceUrl": "https://tabelog.com/en/tokyo/A1301/A130102/13239752/",
+      "checked": "2026-08-11",
+      "note": "A sample of the menu; prices can change — check in store for the latest."
+    }
+  },
+  "bricolage-bread-and-co": {
+    "access": {
+      "en": "This bakery-cafe is on the 1st floor of Keyakizaka Terrace in Roppongi Hills, facing Keyakizaka-dori. The nearest station is Roppongi. From the Tokyo Metro Hibiya Line, Exit 1C connects toward Roppongi Hills (about a 5-minute walk); from the Toei Oedo Line, use Exit 3 (about 10 minutes). Head toward Keyakizaka-dori and the shop is on the ground floor facing the street.",
+      "ja": "六本木ヒルズ「けやき坂テラス」1階、けやき坂通り沿いにあります。最寄りは六本木駅。東京メトロ日比谷線は1C出口が六本木ヒルズ方面に直結（徒歩約5分）、都営大江戸線は3番出口から徒歩約10分です。けやき坂通り沿いの路面にあります。",
+      "sources": [
+        { "name": "bricolage bread & co. official", "url": "https://bricolagebread.com/" },
+        { "name": "Roppongi Hills official (shop page)", "url": "https://www.roppongihills.com/gourmet_shops/0287.html" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "Corned Beef Egg Benedict", "ja": "コーンビーフ エッグベネディクト", "price": "¥1,600" },
+        { "en": "Avocado Toast", "ja": "アボカドトースト", "price": "¥1,500" },
+        { "en": "Farmer's Caesar Salad", "ja": "ファーマーズ シーザーサラダ", "price": "¥1,600" },
+        { "en": "Wagyu Charcoal-Grilled Hamburger", "ja": "和牛 炭焼きハンバーガー", "price": "¥1,850" }
+      ],
+      "sourceName": "Tabelog (dine-in cafe menu)",
+      "sourceUrl": "https://tabelog.com/en/tokyo/A1307/A130701/13222793/dtlmenu/",
+      "checked": "2026-08-11",
+      "note": "These are dine-in cafe dishes; bakery-counter and coffee prices vary. Prices can change."
+    }
+  },
+  "good-sound-coffee-nakameguro": {
+    "access": {
+      "en": "From Nakameguro Station, leave by the East Exit (Exit 1) and walk about 2–3 minutes toward Yamate-dori. The cafe is on the ground floor at 1-6-5 Kamimeguro, a little off the main street. It's a stand-alone shop known for its 360° surround-sound interior.",
+      "ja": "中目黒駅の東口（東口1）から山手通り方面へ徒歩約2〜3分。上目黒1-6-5の1階、大通りから少し入った場所にあります。360°サラウンドの音響が特徴の独立店です。",
+      "sources": [
+        { "name": "Gnavi (楽天ぐるなび)", "url": "https://r.gnavi.co.jp/jf6zvbj90000/" },
+        { "name": "Tabelog", "url": "https://tabelog.com/tokyo/A1317/A131701/13264592/" },
+        { "name": "PR TIMES (opening release)", "url": "https://prtimes.jp/main/html/rd/p/000000050.000031068.html" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "Drip Coffee", "ja": "ドリップコーヒー", "price": "¥580" },
+        { "en": "Cold Brew", "ja": "コールドブリュー", "price": "¥650" },
+        { "en": "Cafe Latte", "ja": "カフェラテ", "price": "¥630" },
+        { "en": "Caramel Latte", "ja": "キャラメルラテ", "price": "¥730" },
+        { "en": "House-made Craft Cola", "ja": "自家製クラフトコーラ", "price": "¥700" },
+        { "en": "Basque Cheesecake", "ja": "バスクチーズケーキ", "price": "¥680" },
+        { "en": "Croque Monsieur", "ja": "クロックムッシュ", "price": "¥780" },
+        { "en": "Bolognese Pasta", "ja": "ボロネーゼパスタ", "price": "¥1,250" }
+      ],
+      "sourceName": "AutoReserve aggregator (official site robots-blocked)",
+      "sourceUrl": "https://autoreserve.com/ja/restaurants/mFQkKfHN7vUxwZs3PsRT",
+      "checked": "2026-08-11",
+      "note": "Prices from an aggregator, not the official menu — check in store for the latest."
+    }
+  },
+  "alpha-beta-coffee-club-jiyugaoka": {
+    "access": {
+      "en": "This is the station-front branch on the 3rd floor of the Milche Jiyugaoka building (2-10-4 Jiyugaoka), almost directly across from the station on Cattleya-dori. Leave Jiyugaoka Station by the Main (Front) exit — it's only about a 1–3 minute walk — then go up to the 3rd floor.",
+      "ja": "東急東横線・大井町線「自由が丘駅」正面口から徒歩約1〜3分。カトレア通り沿い、駅のほぼ正面にある「ミルシェ自由が丘」（自由が丘2-10-4）の3階です。",
+      "sources": [
+        { "name": "ALPHA BETA COFFEE CLUB official", "url": "https://alphabetacoffee.com/" },
+        { "name": "Tabelog (Jiyugaoka Ekimae branch)", "url": "https://tabelog.com/en/tokyo/A1317/A131703/13207835/" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "Hand-drip coffee", "ja": "ハンドドリップコーヒー", "price": "¥600" },
+        { "en": "Matcha latte", "ja": "抹茶ラテ", "price": "¥660" },
+        { "en": "Avocado toast", "ja": "アボカドトースト", "price": "¥770" },
+        { "en": "Homemade pudding", "ja": "自家製プリン", "price": "¥550" },
+        { "en": "Pound cake", "ja": "パウンドケーキ", "price": "¥500" },
+        { "en": "Tap beer (glass)", "ja": "タップビール（グラス）", "price": "¥650" }
+      ],
+      "sourceName": "co-trip (ことりっぷ) feature",
+      "sourceUrl": "https://co-trip.jp/article/546075",
+      "checked": "2026-08-11",
+      "note": "Prices from a magazine feature; may have changed — check in store for the latest."
+    }
+  },
+  "breadworks-tennoz": {
+    "access": {
+      "en": "From Tennozu Isle Station it's about a 5-minute walk. On the Tokyo Monorail use the Central Exit; on the Rinkai Line use Exit B. Walk toward Shinagawa along the canal — breadworks is on the ground floor of a renovated waterside warehouse in the T.Y.HARBOR / Bond Street area, near a bridge.",
+      "ja": "天王洲アイル駅から徒歩約5分。東京モノレールは中央口、りんかい線はB出口から出て、運河沿いを品川方面へ。倉庫をリノベーションした水辺の建物（T.Y.HARBOR／ボンドストリート周辺）の1階、橋の近くにあります。",
+      "sources": [
+        { "name": "Tabelog (breadworks 天王洲)", "url": "https://tabelog.com/en/tokyo/A1314/A131404/13106585/" },
+        { "name": "asajikan.jp", "url": "https://asajikan.jp/article/195797" },
+        { "name": "T.Y.HARBOR / Tysons official", "url": "https://www.tysons.jp/breadworks/" }
+      ],
+      "checked": "2026-08-11"
+    },
+    "menu": {
+      "items": [
+        { "en": "Omakase Bread Deli Plate (3 delis)", "ja": "オマカセブレッドデリプレート（3種）", "price": "¥1,200〜" },
+        { "en": "Salmon & Avocado Tartine Plate", "ja": "サーモンアボカドタルティーヌプレート", "price": "¥1,500" },
+        { "en": "Buttermilk Pancakes", "ja": "バターミルクパンケーキ", "price": "¥1,100" },
+        { "en": "Toast with Homemade Jam & Whipped Butter", "ja": "ホームメイドジャムとホイップバター（トースト）", "price": "¥420" },
+        { "en": "Today's Hot Sandwich", "ja": "本日のホットサンドイッチ", "price": "¥800〜" },
+        { "en": "Soup of the Day (Small)", "ja": "スープオブザデー（スモール）", "price": "¥500" }
+      ],
+      "sourceName": "Tabelog menu (official site lists no inline prices)",
+      "sourceUrl": "https://tabelog.com/en/tokyo/A1314/A131404/13106585/dtlmenu/",
+      "checked": "2026-08-11",
+      "note": "Menu prices via Tabelog; treat as approximate and check in store."
+    }
   }
 }
