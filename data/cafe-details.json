@@ -526,5 +526,17 @@
       "checked": "2026-08-11",
       "note": "Menu prices via Tabelog; treat as approximate and check in store."
     }
+  },
+  "alpha-beta-coffee-club": {
+    "access": {
+      "en": "ALPHA BETA COFFEE CLUB's Concord store is on the ground floor (1F) of the \"Jiyugaoka Concord\" building at 2-9-24 Jiyugaoka. From Jiyugaoka Station, leave by the Main (Front) exit and walk along Cattleya-dori — it's about a 4-minute walk (roughly 240 m). It's diagonally across from the Jiyugaoka Montblanc cake shop (the former Il Bisonte spot), and the open terrace is pet-friendly. This is the larger sit-down cafe, separate from the station-front branch on Milche's 3rd floor.",
+      "ja": "ALPHA BETA COFFEE CLUB 自由が丘コンコード店は、自由が丘2-9-24「自由が丘コンコード」1階にあります。自由が丘駅の正面口を出て、カトレア通りを進み徒歩約4分（約240m）。「自由が丘モンブラン」の斜め向かい（以前イル ビゾンテがあった場所）で、開放的なテラス席はペット同伴可。駅前のミルシェ3階の店舗とは別の、広めの座れるカフェです。",
+      "sources": [
+        { "name": "Tabelog (Concord store, English)", "url": "https://tabelog.com/en/tokyo/A1317/A131703/13288815/" },
+        { "name": "ALPHA BETA COFFEE CLUB official", "url": "https://alphabetacoffee.com/" },
+        { "name": "Goguynet Meguro (Concord opening news)", "url": "https://meguro.goguynet.jp/2023/09/11/abc_jiyugaoka_concord/" }
+      ],
+      "checked": "2026-08-11"
+    }
   }
 }
