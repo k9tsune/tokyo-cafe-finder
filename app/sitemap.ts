@@ -23,12 +23,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  const areas = getAllAreas().map((a) => ({ url: `${base}/tokyo/${a.slug}`, changeFrequency: "weekly" as const, priority: 0.8 }));
-  const stations = getAllStations().map((s) => ({ url: `${base}/tokyo/station/${s.slug}`, changeFrequency: "weekly" as const, priority: 0.8 }));
+  const areas = getAllAreas().map((a) => ({ url: `${base}/tokyo/${a.slug}`, changeFrequency: "monthly" as const, priority: 0.8 }));
+  const stations = getAllStations().map((s) => ({ url: `${base}/tokyo/station/${s.slug}`, changeFrequency: "monthly" as const, priority: 0.8 }));
   const cafes = getAllVenues().map((v) => ({
     url: `${base}/cafe/${v.slug}`,
     lastModified: v.lastChecked,
-    changeFrequency: "weekly" as const,
+    changeFrequency: "monthly" as const,
     priority: 0.6,
   }));
 
@@ -39,10 +39,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const jaGuides = GUIDES_JA.map((g) => ({
     url: `${base}/ja/guides/${g.slug}`, lastModified: g.date, changeFrequency: "monthly" as const, priority: 0.7,
   }));
-  const jaAreas = getAllAreas().map((a) => ({ url: `${base}/ja/tokyo/${a.slug}`, changeFrequency: "weekly" as const, priority: 0.7 }));
-  const jaStations = getAllStations().map((s) => ({ url: `${base}/ja/tokyo/station/${s.slug}`, changeFrequency: "weekly" as const, priority: 0.7 }));
+  const jaAreas = getAllAreas().map((a) => ({ url: `${base}/ja/tokyo/${a.slug}`, changeFrequency: "monthly" as const, priority: 0.7 }));
+  const jaStations = getAllStations().map((s) => ({ url: `${base}/ja/tokyo/station/${s.slug}`, changeFrequency: "monthly" as const, priority: 0.7 }));
   const jaCafes = getAllVenues().map((v) => ({
-    url: `${base}/ja/cafe/${v.slug}`, lastModified: v.lastChecked, changeFrequency: "weekly" as const, priority: 0.6,
+    url: `${base}/ja/cafe/${v.slug}`, lastModified: v.lastChecked, changeFrequency: "monthly" as const, priority: 0.6,
   }));
 
   return [

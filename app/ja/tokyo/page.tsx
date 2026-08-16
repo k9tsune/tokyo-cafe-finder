@@ -34,7 +34,7 @@ export default function TokyoHubJa() {
       <h2>{d.page.hub.areas}</h2>
       <div className="card-grid">
         {areas.map((a) => (
-          <Link key={a.slug} href={`/ja/tokyo/${a.slug}`} className="has-cover">
+          <Link key={a.slug} href={`/ja/tokyo/${a.slug}`} className="has-cover" prefetch={false}>
             <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} photoRef={a.photoRef} />
             <div className="cover-text">
               <strong>{wardNameJa(a.slug, a.name)}</strong>
@@ -47,7 +47,7 @@ export default function TokyoHubJa() {
       <h2>{d.page.hub.byStation}</h2>
       <div className="card-grid">
         {stations.map((s) => (
-          <Link key={s.slug} href={`/ja/tokyo/station/${s.slug}`}><strong>{stationNameJa(s.name)}</strong></Link>
+          <Link key={s.slug} href={`/ja/tokyo/station/${s.slug}`} prefetch={false}><strong>{stationNameJa(s.name)}</strong></Link>
         ))}
       </div>
     </div>
