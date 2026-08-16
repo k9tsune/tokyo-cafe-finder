@@ -27,7 +27,7 @@ export default function TokyoHub() {
       <h2>Areas</h2>
       <div className="card-grid">
         {areas.map((a) => (
-          <Link key={a.slug} href={`/tokyo/${a.slug}`} className="has-cover">
+          <Link key={a.slug} href={`/tokyo/${a.slug}`} className="has-cover" prefetch={false}>
             <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} photoRef={a.photoRef} />
             <div className="cover-text">
               <strong>{a.name}</strong>
@@ -40,7 +40,7 @@ export default function TokyoHub() {
       <h2>By station</h2>
       <div className="card-grid">
         {stations.map((s) => (
-          <Link key={s.slug} href={`/tokyo/station/${s.slug}`}><strong>{s.name}</strong></Link>
+          <Link key={s.slug} href={`/tokyo/station/${s.slug}`} prefetch={false}><strong>{s.name}</strong></Link>
         ))}
       </div>
 

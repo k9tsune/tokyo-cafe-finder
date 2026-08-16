@@ -15,12 +15,12 @@ export default function CafeCard({ v, locale = "en", cover }: { v: Venue; locale
   const href = localePath(`/cafe/${v.slug}`, locale);
   return (
     <article className="cafe-card">
-      <Link href={href} className="cafe-card-cover" aria-label={name}>
+      <Link href={href} className="cafe-card-cover" aria-label={name} prefetch={false}>
         <CafeCover v={v} cover={cover} />
       </Link>
       <div className="cafe-card-body">
         <h3>
-          <Link href={href}>{name}</Link>
+          <Link href={href} prefetch={false}>{name}</Link>
         </h3>
         <div className="badges">
           <WifiBadge v={v} locale={locale} />
@@ -33,8 +33,8 @@ export default function CafeCard({ v, locale = "en", cover }: { v: Venue; locale
           {locale === "en" && v.typicalBusyness ? ` · usually ${v.typicalBusyness}` : ""}
         </p>
         <div className="card-actions">
-          <Link className="dir-link" href={`${href}?dir=1#map`}>{c.directions}</Link>
-          <Link className="dir-link ghost" href={href}>{c.details}</Link>
+          <Link className="dir-link" href={`${href}?dir=1#map`} prefetch={false}>{c.directions}</Link>
+          <Link className="dir-link ghost" href={href} prefetch={false}>{c.details}</Link>
         </div>
         {locale === "en" && <p className="desc">{v.description}</p>}
         <FreshnessBadge date={v.lastChecked} confidence={v.confidence} locale={locale} />
