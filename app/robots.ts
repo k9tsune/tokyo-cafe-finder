@@ -28,10 +28,10 @@ export default function robots(): MetadataRoute.Robots {
       // Everything else (incl. AI SEARCH/citation crawlers — GEO: we WANT to be
       // cited by Gemini / AI Overviews / ChatGPT / Perplexity). Only the
       // personalized /near results are disallowed.
-      { userAgent: "*", allow: "/", disallow: "/near" },
+      { userAgent: "*", allow: "/", disallow: ["/near", "/*?dir="] },
       // Crawlers that honor crawl-delay: keep full access but pace them so a
       // single sweep of ~1,600 pages is spread out, not a burst.
-      { userAgent: ["Bingbot", "Yandex"], allow: "/", disallow: "/near", crawlDelay: 5 },
+      { userAgent: ["Bingbot", "Yandex"], allow: "/", disallow: ["/near", "/*?dir="], crawlDelay: 5 },
       // Bulk no-value scrapers: block entirely.
       { userAgent: BLOCKED_BOTS, disallow: "/" },
     ],
