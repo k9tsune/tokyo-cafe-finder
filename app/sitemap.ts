@@ -3,6 +3,8 @@ import { SITE } from "@/lib/site";
 import { getAllAreas, getAllStations, getAllVenues } from "@/lib/db";
 import { GUIDES } from "@/lib/guides";
 import { GUIDES_JA } from "@/lib/guides-ja";
+import { FEATURES, MIN_FEATURE_VENUES, filterByFeature } from "@/lib/seo";
+import { getVenuesByArea } from "@/lib/db";
 
 // Auto-generated sitemap. Regenerates on each build/ISR pass, so new area,
 // station and cafe pages are submitted to Google without manual work.
@@ -45,8 +47,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${base}/ja/cafe/${v.slug}`, lastModified: v.lastChecked, changeFrequency: "monthly" as const, priority: 0.6,
   }));
 
+  // Ward x feature pages (both locales) — only the combinations that actually
+  // generate, so the sitemap never advertises a 404.
+  const featureEn: MetadataRoute.Sitemap = [];
+  const featureJa: MetadataRoute.Sitemap = [];
+  for (const a of getAllAreas()) {
+    const vs = getVenuesByArea(a.slug);
+    for (const f of FEATURES) {
+      if (filterByFeature(vs, f).length < MIN_FEATURE_VENUES) continue;
+      featureEn.push({ url: `${base}/tokyo/${a.slug}/${f}`, changeFrequency: "monthly" as const, priority: 0.7 });
+      featureJa.push({ url: `${base}/ja/tokyo/${a.slug}/${f}`, changeFrequency: "monthly" as const, priority: 0.7 });
+    }
+  }
+
   return [
-    ...staticPages, ...guides, ...areas, ...stations, ...cafes,
-    ...jaStatic, ...jaGuides, ...jaAreas, ...jaStations, ...jaCafes,
+    ...staticPages, ...guides, ...areas, ...stations, ...cafes, ...featureEn,
+    ...jaStatic, ...jaGuides, ...jaAreas, ...jaStations, ...jaCafes, ...featureJa,
   ];
 }
