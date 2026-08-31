@@ -14,6 +14,7 @@ import { t } from "@/lib/i18n";
 import { wardNameJa } from "@/lib/ward-ja";
 import { stationNameJa, lineNameJa } from "@/lib/station-ja";
 import { cafeDescJa } from "@/lib/cafe-desc-ja";
+import { amenityJa, walkJa, checkedLabel } from "@/lib/seo";
 
 const d = t("ja");
 export const dynamicParams = false;
@@ -61,16 +62,30 @@ export function generateMetadata({ params }: { params: { slug: string } }): Meta
   const v = getVenue(params.slug);
   if (!v) return {};
   const name = v.nameJa || v.name;
-  const wifi = v.hasWifi ? "Wi-Fiあり" : "Wi-Fiなし";
-  const power = v.hasPower ? "電源あり" : "電源なし";
+  const stJa = stationNameJa(v.nearestStation);
+  // 肯定的な情報を先に出す（「Wi-Fiなし」で始まるとクリックされない）。see lib/seo.ts
+  const amenity = amenityJa(v);
+  const walk = walkJa(v, stJa);
+  const title = amenity ? `${name}｜${amenity}・${walk}` : `${name}｜${stJa}周辺のカフェ`;
+  const wifiTxt = v.hasWifi ? (v.wifiType === "free" ? "Wi-Fi無料" : "Wi-Fi有料") : "Wi-Fiなし";
+  const powerTxt = v.hasPower ? "電源あり" : "電源なし";
+  const checked = checkedLabel([v], "ja");
+  const description = [
+    `${wifiTxt}・${powerTxt}`,
+    walk,
+    v.businessHours || "",
+    checked ? `${checked}確認` : "",
+  ]
+    .filter(Boolean)
+    .join("。") + "。";
   return {
-    title: `${name}｜${wifi}・${power}`,
-    description: `${name}（${stationNameJa(v.nearestStation)}周辺）の作業向け情報。${wifi}・${power}。確認日つきでご紹介します。`,
+    title,
+    description,
     alternates: {
       canonical: `/ja/cafe/${v.slug}`,
       languages: { en: `/cafe/${v.slug}`, ja: `/ja/cafe/${v.slug}`, "x-default": `/cafe/${v.slug}` },
     },
-    openGraph: { title: `${name}｜${wifi}・${power}`, locale: "ja_JP", url: `/ja/cafe/${v.slug}` },
+    openGraph: { title, description, locale: "ja_JP", url: `/ja/cafe/${v.slug}` },
   };
 }
 
