@@ -10,6 +10,7 @@ import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
 import { categoryImageFor } from "@/lib/cafe-image";
 import { cafeAccess, cafeMenu } from "@/lib/cafe-details";
 import { cafeJsonLd, cafeFaqJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
+import { amenityEn, walkEn, checkedLabel } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -50,11 +51,24 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const v = getVenue(params.slug);
   if (!v) return {};
-  const wifi = v.hasWifi ? "Wi-Fi" : "no Wi-Fi";
-  const power = v.hasPower ? "power outlets" : "no outlets";
+  // Lead with what's true and useful — never open with "no Wi-Fi" (see lib/seo.ts).
+  const amenity = amenityEn(v);
+  const walk = walkEn(v);
+  const title = amenity ? `${v.name} — ${amenity}, ${walk}` : `${v.name} — cafe near ${v.nearestStation}`;
+  const wifiTxt = v.hasWifi ? (v.wifiType === "free" ? "Free Wi-Fi" : "Paid Wi-Fi") : "No Wi-Fi";
+  const powerTxt = v.hasPower ? `outlets (${v.powerDensity})` : "no outlets";
+  const checked = checkedLabel([v], "en");
+  const description = [
+    `${wifiTxt}, ${powerTxt}`,
+    walk.charAt(0).toUpperCase() + walk.slice(1),
+    v.businessHours || "",
+    checked ? `Checked ${checked}` : "",
+  ]
+    .filter(Boolean)
+    .join(". ") + ".";
   return {
-    title: `${v.name} — ${wifi}, ${power}`,
-    description: `${v.name} near ${v.nearestStation}: ${wifi}, ${power}. ${v.description}`,
+    title,
+    description,
     alternates: { canonical: `/cafe/${v.slug}`, languages: { en: `/cafe/${v.slug}`, ja: `/ja/cafe/${v.slug}`, "x-default": `/cafe/${v.slug}` } },
   };
 }

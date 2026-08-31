@@ -16,7 +16,7 @@ const UI = {
 };
 
 export default function FeatureHubPage({
-  slug, h1, intro, venues, faq, locale = "en",
+  slug, h1, intro, venues, faq, locale = "en", parent,
 }: {
   slug: string;
   h1: string;
@@ -24,6 +24,9 @@ export default function FeatureHubPage({
   venues: Venue[];
   faq: { q: string; a: string }[];
   locale?: Locale;
+  // Optional extra crumb between Tokyo and this page — used by the
+  // ward x feature pages so the ward stays in the breadcrumb trail.
+  parent?: { name: string; url: string };
 }) {
   const d = t(locale);
   const ui = UI[locale] ?? UI.en;
@@ -36,11 +39,15 @@ export default function FeatureHubPage({
       <JsonLd data={breadcrumbJsonLd([
         { name: d.page.common.home, url: home },
         { name: d.page.common.tokyo, url: tokyo },
+        ...(parent ? [parent] : []),
         { name: h1, url: here },
       ])} />
       <JsonLd data={faqJsonLd(faq)} />
 
-      <p className="breadcrumb"><Link href={home}>{d.page.common.home}</Link> / <Link href={tokyo}>{d.page.common.tokyo}</Link> / {h1}</p>
+      <p className="breadcrumb">
+        <Link href={home}>{d.page.common.home}</Link> / <Link href={tokyo}>{d.page.common.tokyo}</Link>
+        {parent && <> / <Link href={parent.url}>{parent.name}</Link></>} / {h1}
+      </p>
       <h1>{h1}</h1>
       <p className="lede">{intro}</p>
 
