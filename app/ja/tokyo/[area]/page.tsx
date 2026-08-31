@@ -8,6 +8,7 @@ import { areaPhotoSrc, areaPhotoMeta } from "@/lib/media";
 import { breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
 import { t } from "@/lib/i18n";
 import { wardNameJa, wardIntroJa } from "@/lib/ward-ja";
+import { counts, checkedLabel, FEATURES, FEATURE_META, filterByFeature, MIN_FEATURE_VENUES } from "@/lib/seo";
 
 const d = t("ja");
 export const dynamicParams = false;
@@ -20,14 +21,19 @@ export function generateMetadata({ params }: { params: { area: string } }): Meta
   const area = getArea(params.area);
   if (!area) return {};
   const name = wardNameJa(area.slug, area.name);
+  const venues = getVenuesByArea(area.slug);
+  const c = counts(venues);
+  const checked = checkedLabel(venues, "ja");
+  const jaTitle = `${name}で作業できるカフェ${c.total}件`;
+  const jaDesc = `${name}で作業できるカフェ${c.total}件。Wi-Fi ${c.wifi}件、電源 ${c.power}件、両方そろうお店 ${c.both}件${c.late ? `、夜遅くまで ${c.late}件` : ""}。駅や条件でしぼり込めます。${checked ? `${checked}確認。` : ""}`;
   return {
-    title: d.page.area.metaTitle(name),
-    description: `${name}で作業できるカフェ${getVenuesByArea(area.slug).length}件。Wi-Fi・電源などの条件でしぼり込めます。確認日つきで、いつでも最新の情報を確認できます。`,
+    title: jaTitle,
+    description: jaDesc,
     alternates: {
       canonical: `/ja/tokyo/${area.slug}`,
       languages: { en: `/tokyo/${area.slug}`, ja: `/ja/tokyo/${area.slug}`, "x-default": `/tokyo/${area.slug}` },
     },
-    openGraph: { title: d.page.area.metaTitle(name), description: d.page.area.metaDescription(name), locale: "ja_JP", url: `/ja/tokyo/${area.slug}` },
+    openGraph: { title: jaTitle, description: jaDesc, locale: "ja_JP", url: `/ja/tokyo/${area.slug}` },
   };
 }
 
@@ -80,6 +86,22 @@ export default function AreaPageJa({ params }: { params: { area: string } }) {
       )}
       <h1>{d.page.area.h1(name)}</h1>
       <p className="lede">{wardIntroJa(area.slug, name)}</p>
+
+      {(() => {
+        // 区×条件ページ（該当店舗が一定数あるものだけ）への内部リンク。
+        const avail = FEATURES.map((f) => ({ f, n: filterByFeature(venues, f).length })).filter((x) => x.n >= MIN_FEATURE_VENUES);
+        if (!avail.length) return null;
+        return (
+          <div className="card-grid" style={{ margin: "16px 0" }}>
+            {avail.map(({ f, n }) => (
+              <Link key={f} href={`/ja/tokyo/${area.slug}/${f}`} prefetch={false}>
+                <strong>{name}の{FEATURE_META[f].ja.label}</strong>
+                <div className="muted" style={{ fontSize: ".82rem" }}>{n}件</div>
+              </Link>
+            ))}
+          </div>
+        );
+      })()}
 
       <FilterableCafeList venues={venues} locale="ja" />
     </div>

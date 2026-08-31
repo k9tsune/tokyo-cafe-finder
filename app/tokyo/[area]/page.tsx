@@ -7,6 +7,7 @@ import AreaCover from "@/components/AreaCover";
 import { getAllAreas, getArea, getVenuesByArea } from "@/lib/db";
 import { areaPhotoSrc, areaPhotoMeta } from "@/lib/media";
 import { areaListJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
+import { counts, checkedLabel, FEATURES, FEATURE_META, filterByFeature, MIN_FEATURE_VENUES } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -17,10 +18,12 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { area: string } }): Metadata {
   const area = getArea(params.area);
   if (!area) return {};
-  const n = getVenuesByArea(area.slug).length;
+  const venues = getVenuesByArea(area.slug);
+  const c = counts(venues);
+  const checked = checkedLabel(venues, "en");
   return {
-    title: `Cafes with Wi-Fi & power outlets in ${area.name}, Tokyo`,
-    description: `${n} laptop-friendly cafes in ${area.name}, Tokyo with Wi-Fi and power outlets — filter for Wi-Fi, outlets, or both. Dated so the details stay current.`,
+    title: `${c.total} laptop-friendly cafes in ${area.name}, Tokyo`,
+    description: `${c.total} laptop-friendly cafes in ${area.name} — ${c.wifi} with Wi-Fi, ${c.power} with outlets, ${c.both} with both${c.late ? `, ${c.late} open late` : ""}. Filter by station or amenity.${checked ? ` Checked ${checked}.` : ""}`,
     alternates: {
       canonical: `/tokyo/${area.slug}`,
       languages: { en: `/tokyo/${area.slug}`, ja: `/ja/tokyo/${area.slug}`, "x-default": `/tokyo/${area.slug}` },
@@ -77,6 +80,23 @@ export default function AreaPage({ params }: { params: { area: string } }) {
       )}
       <h1>Cafes with Wi-Fi &amp; power outlets in {area.name}</h1>
       <p className="lede">{area.introText}</p>
+
+      {(() => {
+        // Links to the ward x feature pages that actually exist (>= MIN_FEATURE_VENUES).
+        // Doubles as internal linking so Google can reach and prioritise them.
+        const avail = FEATURES.map((f) => ({ f, n: filterByFeature(venues, f).length })).filter((x) => x.n >= MIN_FEATURE_VENUES);
+        if (!avail.length) return null;
+        return (
+          <div className="card-grid" style={{ margin: "16px 0" }}>
+            {avail.map(({ f, n }) => (
+              <Link key={f} href={`/tokyo/${area.slug}/${f}`} prefetch={false}>
+                <strong>{FEATURE_META[f].en.label} in {area.name}</strong>
+                <div className="muted" style={{ fontSize: ".82rem" }}>{n} cafes</div>
+              </Link>
+            ))}
+          </div>
+        );
+      })()}
 
       <FilterableCafeList venues={venues} />
 
