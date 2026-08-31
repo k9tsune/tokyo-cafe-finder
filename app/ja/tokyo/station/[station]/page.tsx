@@ -8,6 +8,7 @@ import { getAllStations, getStation, getVenuesByStation } from "@/lib/db";
 import { breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
 import { t } from "@/lib/i18n";
 import { stationNameJa, lineNameJa } from "@/lib/station-ja";
+import { counts, checkedLabel } from "@/lib/seo";
 
 const d = t("ja");
 export const dynamicParams = false;
@@ -20,15 +21,18 @@ export function generateMetadata({ params }: { params: { station: string } }): M
   const s = getStation(params.station);
   if (!s) return {};
   const nm = stationNameJa(s.name);
-  const n = getVenuesByStation(s.slug).length;
+  const venues = getVenuesByStation(s.slug);
+  const c = counts(venues);
+  const nearest = venues.length ? Math.min(...venues.map((v) => v.walkMinutes)) : 0;
+  const checked = checkedLabel(venues, "ja");
   return {
-    title: `${nm}周辺の電源・Wi-Fiのあるカフェ`,
-    description: `${nm}周辺の、Wi-Fi・電源のあるカフェ${n}件を徒歩圏内でご紹介します。距離が近い順に並び、条件でしぼり込めます。`,
+    title: `${nm}周辺で作業できるカフェ${c.total}件`,
+    description: `${nm}周辺のカフェ${c.total}件。Wi-Fiと電源の両方がそろうお店${c.both}件${nearest > 0 ? `、最短で徒歩${nearest}分` : ""}。近い順に並び、条件でしぼり込めます。${checked ? `${checked}確認。` : ""}`,
     alternates: {
       canonical: `/ja/tokyo/station/${s.slug}`,
       languages: { en: `/tokyo/station/${s.slug}`, ja: `/ja/tokyo/station/${s.slug}`, "x-default": `/tokyo/station/${s.slug}` },
     },
-    openGraph: { title: `${s.name}周辺の電源・Wi-Fiのあるカフェ`, locale: "ja_JP", url: `/ja/tokyo/station/${s.slug}` },
+    openGraph: { title: `${nm}周辺で作業できるカフェ${c.total}件`, locale: "ja_JP", url: `/ja/tokyo/station/${s.slug}` },
   };
 }
 

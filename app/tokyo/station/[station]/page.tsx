@@ -7,6 +7,7 @@ import AreaCover from "@/components/AreaCover";
 import { stationPhotoSrc, stationPhotoMeta } from "@/lib/media";
 import { getAllStations, getStation, getVenuesByStation } from "@/lib/db";
 import { stationListJsonLd, breadcrumbJsonLd, JsonLd } from "@/lib/schema-org";
+import { counts, checkedLabel } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -17,10 +18,13 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { station: string } }): Metadata {
   const s = getStation(params.station);
   if (!s) return {};
-  const n = getVenuesByStation(s.slug).length;
+  const venues = getVenuesByStation(s.slug);
+  const c = counts(venues);
+  const nearest = venues.length ? Math.min(...venues.map((v) => v.walkMinutes)) : 0;
+  const checked = checkedLabel(venues, "en");
   return {
-    title: `Laptop-friendly cafes near ${s.name}`,
-    description: `${n} cafes near ${s.name} with Wi-Fi and power outlets, sorted by walking distance. Filter for Wi-Fi, outlets, or both.`,
+    title: `${c.total} laptop-friendly cafes near ${s.name}`,
+    description: `${c.both} with both Wi-Fi and power outlets${nearest > 0 ? `, closest ${nearest} min walk` : ""}. Sorted by distance from ${s.name}.${checked ? ` Checked ${checked}.` : ""}`,
     alternates: {
       canonical: `/tokyo/station/${s.slug}`,
       languages: { en: `/tokyo/station/${s.slug}`, ja: `/ja/tokyo/station/${s.slug}`, "x-default": `/tokyo/station/${s.slug}` },
