@@ -4,7 +4,6 @@ import Script from "next/script";
 import HeaderInner from "@/components/HeaderInner";
 import SiteFooter from "@/components/SiteFooter";
 import ExploreMap from "@/components/ExploreMap";
-import { getAllVenues, getAllAreas, getAllStations } from "@/lib/db";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 // Self-hosted (no external request): Baloo 2 for the wordmark, Rubik for the UI.
@@ -50,24 +49,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   // the browser fetch it in parallel with the CSS, cutting the P90/P99 LCP tail.
   preload("/skyline.svg", { as: "image", fetchPriority: "high", type: "image/svg+xml" });
 
-  const points = getAllVenues()
-    .filter((v) => typeof v.lat === "number" && typeof v.lng === "number")
-    .map((v) => ({
-      slug: v.slug,
-      name: v.name,
-      lat: v.lat as number,
-      lng: v.lng as number,
-      wifi: v.hasWifi,
-      power: v.hasPower,
-      hours: v.businessHours,
-    }));
-  const areaCoords = Object.fromEntries(getAllAreas().map((a) => [a.slug, { lat: a.lat, lng: a.lng }]));
-  const stationCoords = Object.fromEntries(
-    getAllStations()
-      .filter((s) => typeof s.lat === "number" && typeof s.lng === "number")
-      .map((s) => [s.slug, { lat: s.lat as number, lng: s.lng as number }])
-  );
-
   return (
     <html lang="en">
       <body>
@@ -82,7 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <HeaderInner />
         </header>
         <main className="container">{children}</main>
-        <ExploreMap points={points} areas={areaCoords} stations={stationCoords} />
+        <ExploreMap />
         <SiteFooter />
         {CF_BEACON_TOKEN && process.env.NODE_ENV === "production" && (
           <Script
