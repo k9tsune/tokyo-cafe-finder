@@ -5,7 +5,7 @@
   "description": "English-first finder for Tokyo cafes with Wi-Fi and power outlets.",
   "scripts": {
     "dev": "next dev",
-    "build": "node scripts/fetch-places.mjs; next build",
+    "build": "node scripts/fetch-places.mjs && next build",
     "start": "next start",
     "lint": "next lint",
     "collect": "node scripts/collect-overpass.mjs",
