@@ -7,3 +7,9 @@ out
 .DS_Store
 next-env.d.ts
 *.tsbuildinfo
+
+# Google service-account keys — never commit these. The Search Console key
+# belongs in the GSC_SA_KEY env var / GitHub secret, not in the repo.
+*-service-account*.json
+gsc-key*.json
+service-account*.json
