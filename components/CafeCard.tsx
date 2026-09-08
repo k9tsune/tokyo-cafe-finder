@@ -7,7 +7,9 @@ import { t, localePath, type Locale } from "@/lib/i18n";
 import { stationNameJa } from "@/lib/station-ja";
 
 // Card ordered for scanning: name → amenity badges → where/how far → actions.
-// "Directions" goes to the cafe page's on-page map (?dir=1) so users stay on-site.
+// "Directions" goes to the cafe page's on-page map (#directions) so users stay
+// on-site. A hash, not a query string: Google treats /cafe/x#directions as the
+// same URL as /cafe/x, so this creates no duplicate for search engines to sort out.
 export default function CafeCard({ v, locale = "en", cover }: { v: Venue; locale?: Locale; cover?: (CategoryImage & { key?: string }) | null }) {
   const c = t(locale).card;
   const name = locale === "ja" ? v.nameJa || v.name : v.name;
@@ -33,7 +35,7 @@ export default function CafeCard({ v, locale = "en", cover }: { v: Venue; locale
           {locale === "en" && v.typicalBusyness ? ` · usually ${v.typicalBusyness}` : ""}
         </p>
         <div className="card-actions">
-          <Link className="dir-link" href={`${href}?dir=1#map`} prefetch={false}>{c.directions}</Link>
+          <Link className="dir-link" href={`${href}#directions`} prefetch={false}>{c.directions}</Link>
           <Link className="dir-link ghost" href={href} prefetch={false}>{c.details}</Link>
         </div>
         {locale === "en" && <p className="desc">{v.description}</p>}

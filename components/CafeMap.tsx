@@ -58,14 +58,22 @@ export default function CafeMap({ v, locale = "en" }: { v: Venue; locale?: Local
     );
   }
 
-  // If arrived via a "Directions" link (?dir=1), start directions automatically.
+  // If arrived via a "Directions" link (#directions), start directions
+  // automatically. A hash rather than ?dir=1 so we never create a second URL for
+  // the same page — see app/robots.ts. The legacy ?dir=1 is still honoured for
+  // links already out in the wild.
   useEffect(() => {
-    if (new URLSearchParams(window.location.search).get("dir") === "1") getDirections();
+    const viaHash = window.location.hash === "#directions";
+    const viaLegacyParam = new URLSearchParams(window.location.search).get("dir") === "1";
+    if (viaHash || viaLegacyParam) getDirections();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
+    // #directions is the anchor the "Directions" buttons target; #map is kept so
+    // older links (and anything Google already indexed as ?dir=1#map) still land here.
     <div className="cafe-map" id="map">
+      <span id="directions" aria-hidden="true" />
       {src ? (
         <iframe
           title={origin ? m.titleDir(v.name) : m.titleMap(v.name)}

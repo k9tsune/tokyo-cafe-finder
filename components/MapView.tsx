@@ -88,7 +88,7 @@ export default function MapView({
         const cafeHref = localePath(`/cafe/${p.slug}`, locale);
         const popup = new maplibregl.Popup({ offset: 16, closeButton: false }).setHTML(
           `<strong>${safeName}</strong><br><span class="pop-status">${status}</span><br>${hoursLine}` +
-            `<a href="${cafeHref}">${cd.details}</a> · <a href="${cafeHref}?dir=1#map">${cd.directions}</a>`
+            `<a href="${cafeHref}">${cd.details}</a> · <a href="${cafeHref}#directions">${cd.directions}</a>`
         );
         // On touch, opening the popup can leave a link focused, showing a focus
         // ring around "Details". Drop that focus so nothing looks pre-selected.
