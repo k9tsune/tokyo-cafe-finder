@@ -4,6 +4,8 @@
 // types (lib/types.ts) stay identical, so pages don't change. See db/schema.sql.
 
 import type { Area, Station, Venue, UtilityFilter } from "./types";
+import type { CitySlug } from "./cities";
+import { DEFAULT_CITY } from "./cities";
 import { haversineMeters } from "./geo";
 import venuesData from "@/data/seed/venues.json";
 import areasData from "@/data/seed/areas.json";
@@ -71,8 +73,46 @@ for (const v of venues) {
   }
 }
 
+// City membership. A venue's city comes from its area, and a station's from
+// its area too, so "city" never has to be duplicated onto every record.
+const areasByCity = new Map<CitySlug, Area[]>();
+for (const a of areas) {
+  (areasByCity.get(a.city) ?? areasByCity.set(a.city, []).get(a.city)!).push(a);
+}
+const cityOfAreaSlug = new Map<string, CitySlug>(areas.map((a) => [a.slug, a.city]));
+
+/** The city an area belongs to; falls back to the flagship for unknown slugs. */
+export function cityOfArea(areaSlug: string): CitySlug {
+  return cityOfAreaSlug.get(areaSlug) ?? DEFAULT_CITY;
+}
+
+export function cityOfStation(s: Station): CitySlug {
+  return cityOfArea(s.areaSlug);
+}
+
+export function cityOfVenue(v: Venue): CitySlug {
+  return cityOfArea(v.areaSlug);
+}
+
 export function getAllAreas(): Area[] {
   return areas;
+}
+
+export function getAreasByCity(city: CitySlug): Area[] {
+  return areasByCity.get(city) ?? [];
+}
+
+export function getStationsByCity(city: CitySlug): Station[] {
+  return stations.filter((s) => cityOfArea(s.areaSlug) === city);
+}
+
+export function getVenuesByCity(city: CitySlug): Venue[] {
+  return venues.filter((v) => cityOfArea(v.areaSlug) === city);
+}
+
+/** Cities that actually have areas with data — never link to an empty city. */
+export function getPopulatedCities(): CitySlug[] {
+  return [...areasByCity.keys()].filter((c) => (areasByCity.get(c) ?? []).some((a) => (venuesByAreaSlug.get(a.slug) ?? []).length > 0));
 }
 
 export function getArea(slug: string): Area | undefined {
@@ -172,10 +212,10 @@ export type Destination = { type: "station" | "area"; slug: string; name: string
 // (no API round-trip, no cost). Stations first — people search Tokyo by station.
 export function getAllDestinations(): Destination[] {
   const st: Destination[] = stations.map((s) => ({
-    type: "station", slug: s.slug, name: s.name, href: `/tokyo/station/${s.slug}`,
+    type: "station", slug: s.slug, name: s.name, href: `/${cityOfArea(s.areaSlug)}/station/${s.slug}`,
   }));
   const ar: Destination[] = areas.map((a) => ({
-    type: "area", slug: a.slug, name: a.name, href: `/tokyo/${a.slug}`,
+    type: "area", slug: a.slug, name: a.name, href: `/${a.city}/${a.slug}`,
   }));
   return [...st, ...ar];
 }
@@ -192,12 +232,12 @@ export function searchDestinations(q: string): Array<{
   const results: Array<{ type: "station" | "area"; slug: string; name: string; href: string }> = [];
   for (const s of stations) {
     if (s.name.toLowerCase().includes(query)) {
-      results.push({ type: "station", slug: s.slug, name: s.name, href: `/tokyo/station/${s.slug}` });
+      results.push({ type: "station", slug: s.slug, name: s.name, href: `/${cityOfArea(s.areaSlug)}/station/${s.slug}` });
     }
   }
   for (const a of areas) {
     if (a.name.toLowerCase().includes(query)) {
-      results.push({ type: "area", slug: a.slug, name: a.name, href: `/tokyo/${a.slug}` });
+      results.push({ type: "area", slug: a.slug, name: a.name, href: `/${a.city}/${a.slug}` });
     }
   }
   return results.slice(0, 8);

@@ -8,7 +8,7 @@ import { getAllAreas } from "@/lib/db";
 export const dynamic = "force-static";
 
 export function GET() {
-  const areas = getAllAreas().map((a) => `- [${a.name} cafes](${SITE.url}/tokyo/${a.slug})`).join("\n");
+  const areas = getAllAreas().map((a) => `- [${a.name} cafes](${SITE.url}/${a.city}/${a.slug})`).join("\n");
   const body = `# ${SITE.name}
 
 > ${SITE.tagline} An independent, English-first directory of Tokyo cafes with verified Wi-Fi and power-outlet information, checked and dated regularly.

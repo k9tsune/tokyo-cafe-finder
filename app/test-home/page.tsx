@@ -40,7 +40,7 @@ export default function TestHomePage() {
       <h2><Doodle name="torii" size={24} className="h2-doodle" />Browse areas</h2>
       <div className="card-grid">
         {areas.map((a) => (
-          <Link key={a.slug} href={`/tokyo/${a.slug}`} className="has-cover">
+          <Link key={a.slug} href={`/${a.city}/${a.slug}`} className="has-cover">
             <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} photoRef={a.photoRef} />
             <div className="cover-text">
               <strong>{a.name}</strong>

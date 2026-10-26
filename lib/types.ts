@@ -1,3 +1,5 @@
+import type { CitySlug } from "./cities";
+
 // Core domain types. These mirror db/schema.sql so moving from seed JSON to
 // Postgres/PostGIS later is a swap of the data source, not a rewrite.
 
@@ -47,7 +49,7 @@ export interface Venue {
 export interface Area {
   slug: string;
   name: string;
-  city: "tokyo";
+  city: CitySlug;
   introText: string;
   lat: number;
   lng: number;

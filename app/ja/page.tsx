@@ -43,7 +43,7 @@ export default function HomePageJa() {
       <h2>{d.page.home.browseAreas}</h2>
       <div className="card-grid">
         {areas.map((a) => (
-          <Link key={a.slug} href={`/ja/tokyo/${a.slug}`} className="has-cover">
+          <Link key={a.slug} href={`/ja/${a.city}/${a.slug}`} className="has-cover">
             <AreaCover slug={a.slug} name={a.name} photo={areaPhotoSrc(a.slug)} photoRef={a.photoRef} />
             <div className="cover-text">
               <strong>{wardNameJa(a.slug, a.name)}</strong>

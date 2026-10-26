@@ -6,7 +6,8 @@ import CafeMap from "@/components/CafeMap";
 import CafeCover from "@/components/CafeCover";
 import CafeInstagram from "@/components/CafeInstagram";
 import { WifiBadge, PowerBadge, FreshnessBadge } from "@/components/badges";
-import { getAllVenues, getVenue, getArea, getStation } from "@/lib/db";
+import { getAllVenues, getVenue, getArea, getStation, cityOfArea } from "@/lib/db";
+import { getCity, DEFAULT_CITY } from "@/lib/cities";
 import { categoryImageFor } from "@/lib/cafe-image";
 import { cafeAccess, cafeMenu, cafeDetails } from "@/lib/cafe-details";
 import { cafeJsonLd, breadcrumbJsonLd, faqJsonLd, JsonLd } from "@/lib/schema-org";
@@ -93,6 +94,8 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
   const v = getVenue(params.slug);
   if (!v) notFound();
   const area = getArea(v.areaSlug);
+  // A cafe's breadcrumb belongs to ITS city, not the flagship.
+  const cty = getCity(cityOfArea(v.areaSlug)) ?? getCity(DEFAULT_CITY)!;
   const areaName = area ? wardNameJa(area.slug, area.name) : "";
   const name = v.nameJa || v.name;
   const station = stationNameJa(v.nearestStation);
@@ -127,16 +130,16 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
     <div>
       <JsonLd data={breadcrumbJsonLd([
         { name: d.page.common.home, url: "/ja" },
-        { name: d.page.common.tokyo, url: "/ja/tokyo" },
-        ...(area ? [{ name: areaName, url: `/ja/tokyo/${area.slug}` }] : []),
+        { name: cty.nameJa, url: `/ja/${cty.slug}` },
+        ...(area ? [{ name: areaName, url: `/ja/${cty.slug}/${area.slug}` }] : []),
         { name, url: `/ja/cafe/${v.slug}` },
       ])} />
       <JsonLd data={cafeJsonLd(v)} />
       <JsonLd data={faqJsonLd(faq)} />
 
       <p className="breadcrumb">
-        <Link href="/ja">{d.page.common.home}</Link> / <Link href="/ja/tokyo">{d.page.common.tokyo}</Link>
-        {area && <> / <Link href={`/ja/tokyo/${area.slug}`}>{areaName}</Link></>} / {name}
+        <Link href="/ja">{d.page.common.home}</Link> / <Link href={`/ja/${cty.slug}`}>{cty.nameJa}</Link>
+        {area && <> / <Link href={`/ja/${cty.slug}/${area.slug}`}>{areaName}</Link></>} / {name}
       </p>
 
       <CafeCover v={v} tall />
@@ -281,7 +284,7 @@ export default function CafePageJa({ params }: { params: { slug: string } }) {
 
       {area && (
         <p style={{ marginTop: 24 }}>
-          ← <Link href={`/ja/tokyo/${area.slug}`}>{areaName}のカフェをもっと見る</Link>
+          ← <Link href={`/ja/${cty.slug}/${area.slug}`}>{areaName}のカフェをもっと見る</Link>
         </p>
       )}
     </div>
