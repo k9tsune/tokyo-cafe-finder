@@ -16,36 +16,40 @@ const UI = {
 };
 
 export default function FeatureHubPage({
-  slug, h1, intro, venues, faq, locale = "en", parent,
+  slug, h1, intro, venues, faq, locale = "en", parent, city, cityLabel,
 }: {
   slug: string;
+  /** City slug this hub belongs to — the breadcrumb and URLs hang off it. */
+  city: string;
+  /** The city's name in this locale, for the breadcrumb label. */
+  cityLabel: string;
   h1: string;
   intro: string;
   venues: Venue[];
   faq: { q: string; a: string }[];
   locale?: Locale;
-  // Optional extra crumb between Tokyo and this page — used by the
+  // Optional extra crumb between the city and this page — used by the
   // ward x feature pages so the ward stays in the breadcrumb trail.
   parent?: { name: string; url: string };
 }) {
   const d = t(locale);
   const ui = UI[locale] ?? UI.en;
   const home = localePath("/", locale);
-  const tokyo = localePath("/tokyo", locale);
-  const here = `${tokyo}/${slug}`;
+  const cityHome = localePath(`/${city}`, locale);
+  const here = `${cityHome}/${slug}`;
 
   return (
     <div>
       <JsonLd data={breadcrumbJsonLd([
         { name: d.page.common.home, url: home },
-        { name: d.page.common.tokyo, url: tokyo },
+        { name: cityLabel, url: cityHome },
         ...(parent ? [parent] : []),
         { name: h1, url: here },
       ])} />
       <JsonLd data={faqJsonLd(faq)} />
 
       <p className="breadcrumb">
-        <Link href={home}>{d.page.common.home}</Link> / <Link href={tokyo}>{d.page.common.tokyo}</Link>
+        <Link href={home}>{d.page.common.home}</Link> / <Link href={cityHome}>{cityLabel}</Link>
         {parent && <> / <Link href={parent.url}>{parent.name}</Link></>} / {h1}
       </p>
       <h1>{h1}</h1>
