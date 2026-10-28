@@ -44,7 +44,7 @@ export function generateMetadata({ params }: { params: { city: string; area: str
   const checked = checkedLabel(venues, "en");
   const path = `/${c.slug}/${area.slug}/${params.feature}`;
   return {
-    title: m.title(area.name, venues.length),
+    title: m.title(area.name, venues.length, c.name),
     description: `${m.intro(area.name, venues.length)}${checked ? ` Checked ${checked}.` : ""}`,
     alternates: {
       canonical: path,
@@ -69,7 +69,7 @@ export default function AreaFeaturePage({ params }: { params: { city: string; ar
       city={c.slug}
       cityLabel={c.name}
       slug={`${area.slug}/${params.feature}`}
-      h1={m.h1(area.name)}
+      h1={m.h1(area.name, c.name)}
       intro={m.intro(area.name, venues.length)}
       venues={venues}
       parent={{ name: area.name, url: `/${c.slug}/${area.slug}` }}

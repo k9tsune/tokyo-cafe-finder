@@ -91,15 +91,15 @@ export function counts(list: Venue[]) {
 export const FEATURE_META: Record<
   FeatureKey,
   {
-    en: { label: string; h1: (p: string) => string; title: (p: string, n: number) => string; intro: (p: string, n: number) => string };
-    ja: { label: string; h1: (p: string) => string; title: (p: string, n: number) => string; intro: (p: string, n: number) => string };
+    en: { label: string; h1: (p: string, city: string) => string; title: (p: string, n: number, city: string) => string; intro: (p: string, n: number) => string };
+    ja: { label: string; h1: (p: string, city?: string) => string; title: (p: string, n: number, city?: string) => string; intro: (p: string, n: number) => string };
   }
 > = {
   "free-wifi": {
     en: {
       label: "Free Wi-Fi",
-      h1: (p) => `Cafes with free Wi-Fi in ${p}, Tokyo`,
-      title: (p, n) => `${n} cafes with free Wi-Fi in ${p}, Tokyo`,
+      h1: (p, city) => `Cafes with free Wi-Fi in ${p}, ${city}`,
+      title: (p, n, city) => `${n} cafes with free Wi-Fi in ${p}, ${city}`,
       intro: (p, n) =>
         `${n} cafes in ${p} offering free Wi-Fi to customers. Each listing shows whether there are power outlets too, plus the walk from the nearest station and the date we last checked.`,
     },
@@ -114,8 +114,8 @@ export const FEATURE_META: Record<
   "power-outlets": {
     en: {
       label: "Power outlets",
-      h1: (p) => `Cafes with power outlets in ${p}, Tokyo`,
-      title: (p, n) => `${n} cafes with power outlets in ${p}, Tokyo`,
+      h1: (p, city) => `Cafes with power outlets in ${p}, ${city}`,
+      title: (p, n, city) => `${n} cafes with power outlets in ${p}, ${city}`,
       intro: (p, n) =>
         `${n} cafes in ${p} where you can charge a laptop or phone. Outlet availability varies branch by branch, so each listing notes how many there usually are and when we last checked.`,
     },
@@ -130,8 +130,8 @@ export const FEATURE_META: Record<
   "wifi-and-power": {
     en: {
       label: "Wi-Fi + outlets",
-      h1: (p) => `Cafes with Wi-Fi and power outlets in ${p}, Tokyo`,
-      title: (p, n) => `${n} cafes with Wi-Fi & outlets in ${p}, Tokyo`,
+      h1: (p, city) => `Cafes with Wi-Fi and power outlets in ${p}, ${city}`,
+      title: (p, n, city) => `${n} cafes with Wi-Fi & outlets in ${p}, ${city}`,
       intro: (p, n) =>
         `${n} cafes in ${p} with both Wi-Fi and power outlets — the combination you want for real laptop work. Sorted so you can see the closest to each station.`,
     },
@@ -146,8 +146,8 @@ export const FEATURE_META: Record<
   "open-late": {
     en: {
       label: "Open late",
-      h1: (p) => `Cafes open late in ${p}, Tokyo`,
-      title: (p, n) => `${n} cafes open late in ${p}, Tokyo`,
+      h1: (p, city) => `Cafes open late in ${p}, ${city}`,
+      title: (p, n, city) => `${n} cafes open late in ${p}, ${city}`,
       intro: (p, n) =>
         `${n} cafes in ${p} open past about 11pm, including any open 24 hours. Useful for evening work sessions — check each listing for Wi-Fi and outlets.`,
     },
